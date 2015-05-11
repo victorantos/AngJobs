@@ -1,44 +1,88 @@
-﻿
-<div class="container-fluid" ng-cloak>
-
-    <header class="row site-header">
-        <nav class="col-md-10 col-md-offset-1">
-            <div class="row">
-                <h1>AngJobs Template</h1>
+﻿ @{
+     Layout = "~/Views/Shared/_AppLayout.cshtml";
+     ViewBag.Title = "AngJobs - AngularJs job board";
+}
+<div class="container-fluid">
+    <div class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">AngJobs <small class="pull-right" style="vertical-align:top; font-size:10px;"> &nbsp; beta</small></a>
             </div>
-            <div class="row">
-                <ul class="list-inline">
-                    <li>
-                        <a href="#/home">Home</a>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li ng-class="activePath.indexOf('job') == 1 ? 'active': ''">
+                        <a ui-sref="jobs.jobType({jobType:'inbox'})">Developers</a>
                     </li>
-                    <li>
-                        <a href="#/todomanager">Todo Manager</a>
+                    <li ng-class="{ active: $state.includes('employer')}">
+                        <a ui-sref="employer">Employers</a>
                     </li>
-                    <li ng-show="loggedIn">
-                        <a href="" ng-click="logout()">{{username}} | Sign Out</a>
-                    </li>
-                    <li ng-hide="loggedIn">
-                        <a href="#/signin">Sign In</a>
-                    </li>
-                    <li ng-hide="loggedIn">
-                        <a href="#/register">Register</a>
+                    <li ng-class="{ active: $state.includes('services')}">
+                        <a ui-sref="services">Our services <span class="label label-default" style="vertical-align:top">new</span></a>
                     </li>
                 </ul>
-            </div>
-        </nav>
-    </header>
-    
-    <div class="row site-body">
-        <div class="col-md-10 col-md-offset-1" ng-view>
-        </div>
+                <form class="navbar-form navbar-form-sm navbar-left searchbar" role="search" ng-show="$state.includes('jobs')">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="text" class="form-control input-sm bg-light no-border rounded padder" ng-model="query" placeholder="Search jobs..." />
+                            <span class="input-group-btn">
+                                <button type="submit" class="btn btn-sm bg-light rounded"><i class="fa fa-search"></i></button>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="collapse navbar-collapse" data-collapse="!navbarExpanded">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li data-ng-hide="!authentication.isAuth"><a href="#!/home" style="display: inline-block;">{{authentication.userName}}</a><span style="padding-right:8px;">|</span><span style="cursor:pointer;" data-ng-click="logOut()"> Logout</span> </li>
+                        <li class="dropdown">
+                            <a href="javascript: void(0);" class="dropdown-toggle" data-toggle="dropdown">Settings <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="/Help">API Page</a></li>
+                                <li class="divider"></li>
+                                @*<li><a href="#">Contact us</a></li>*@
+                                <li><a href="/#!/about">About</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
     </div>
 
-    <div class="row site-footer">
+    <div class="row site-body">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="app-body row">
+                <div class="col-md-1 col-xs-1 col left-menu  hidden-xs">
+                    <div class="wrapper left-corner-action">
+                        @*<button class="btn btn-sm btn-default pull-right visible-xs"><i class="fa fa-bars"></i></button>*@
+                        <a class="btn btn-sm btn-danger font-bold" href="#!/postjob">Post a job</a>
+                    </div>
+                    <div class="wrapper">
+                        here the side menu
+                    </div>
+                </div>
+                <div class="col-md-10 col col-middle" ui-view>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row site-footer wrapper bg-light">
         <div class="col-md-10 col-md-offset-1">
             <footer>
-                <div class="text-right">
-                    Your Footer Here
-                </div>
+                This job board is an open source implementation of <a href="http://AngJobs.com" target="_blank" title="Open source job board">AngJobs</a>
+
+                <ul class="list-inline">
+                    <li>© 2015 AngJobs.com</li>
+                    <li>|</li>
+                    <li><a href="/#!/about">About Us</a></li>
+                </ul>
             </footer>
         </div>
     </div>
