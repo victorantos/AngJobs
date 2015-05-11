@@ -1,10 +1,10 @@
-AngJobs
+AngJobs is a job board inspired by the Gmail app
 =======
 
 Looking for a demo? - Check http://AngJobs.com which is based on this open source job board.
 
 
-Gmail Like
+UI
 ====
 
 This job board wants to be like the Gmail app, responsive, fast and easy to use.  
