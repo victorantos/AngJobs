@@ -1,0 +1,24 @@
+﻿<h3>Sign In</h3>
+
+<p>
+    Before signing in, create a user at the registration page.  This template application does not have a default username and password.  After creating an account at the registration page, return to this page and sign in.
+</p>
+
+<form ng-submit="signIn()" class="row">
+
+    <div class="col-md-3">
+        <div class="row">
+            <div class="alert alert-success" ng-show="message == 'ended'"><h4>Due to inactivity, you were logged out automatically.</h4></div>
+        </div>
+        <div class="row"><input class="form-control margin-top-5" type="text" ng-model="username" placeholder="Username" /></div>
+        <div class="row"><input class="form-control margin-top-5" type="password" ng-model="password" placeholder="Password" /></div>
+        <div class="row"><input class="btn btn-primary margin-top-5" type="submit" value="Sign In" /></div>
+    </div>
+    
+</form>
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="row alert alert-danger margin-top-5" ng-show="showMessage">{{message}}</div>
+    </div>
+</div>
