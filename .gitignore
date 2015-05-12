@@ -181,3 +181,6 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+/bower_components/angular
+
+/bower_components/angular-ui-router/src

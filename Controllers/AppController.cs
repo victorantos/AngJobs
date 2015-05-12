@@ -23,11 +23,5 @@ namespace AngJobs.Controllers
         {
             return PartialView();
         }
-
-        [Authorize]
-        public ActionResult TodoManager()
-        {
-            return PartialView();
-        }
     }
 }

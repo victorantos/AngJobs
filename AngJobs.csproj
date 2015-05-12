@@ -211,6 +211,7 @@
     <Content Include="Assets\ng\angular-route.min.js" />
     <Content Include="Assets\ng\angular.min.js" />
     <Content Include="Assets\styles\styles.css" />
+    <Content Include="bower_components\angular-ui-router\release\angular-ui-router.min.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Web.config">
@@ -249,6 +250,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Shared\_AppLayout.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_SideMenu.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

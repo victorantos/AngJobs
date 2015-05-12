@@ -18,7 +18,6 @@ namespace AngJobs
 
             bundles.Add(new ScriptBundle("~/ng").Include(
                         "~/Assets/ng/angular.min.js",
-                        "~/Assets/ng/angular-route.min.js",
                         "~/Assets/ng/angular-cookies.min.js"));
 
             bundles.Add(new ScriptBundle("~/app").IncludeDirectory("~/Assets/app", "*.js", true));
@@ -30,7 +29,10 @@ namespace AngJobs
 
             // Set EnableOptimizations to false for debugging. For more information,
             // visit http://go.microsoft.com/fwlink/?LinkId=301862
-            BundleTable.EnableOptimizations = true;
+
+#if !DEBUG
+             BundleTable.EnableOptimizations = true;
+#endif
         }
     }
 }
