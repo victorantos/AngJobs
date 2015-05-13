@@ -24,5 +24,5 @@ Todo
 
 Future plans
 ==
-+  Apply for jobs while offline(on the train). User service worker?
++  Apply for jobs while offline(on the train). Use service worker?
 +  Introduce typescript?
