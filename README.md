@@ -7,4 +7,7 @@ Looking for a demo? - Check http://AngJobs.com which is based on this open sourc
 UI
 ====
 
-This job board wants to be like the Gmail app, responsive, fast and easy to use.  
+This job board wants to be like the Gmail app, responsive, fast and easy to use. 
+
+
+![](https://angjobs.com/angjobs-preview.png)
