@@ -1,10 +1,11 @@
 ﻿var app = angular.module('app', [
     'ui.router',
+    'ngResource',
     'ngCookies',
     'home',
     'signIn',
     'register',
-    'todoManager'
+    'jobs.resource'
 ]);
 
 
@@ -15,6 +16,9 @@ app.config(['$provide', '$urlRouterProvider', '$httpProvider', '$stateProvider',
     //================================================
     // Routes
     //================================================
+
+    $urlRouterProvider.when('/', '/home');
+
 
     //////////////////////////
     // State Configurations //
@@ -44,9 +48,14 @@ app.config(['$provide', '$urlRouterProvider', '$httpProvider', '$stateProvider',
       .state("home", {
           url: "/home",
           templateUrl: 'App/Home',
-          
+          resolve: {
+              jobsResource: 'jobsResource',
+              jobsList: function (jobsResource) {
+                  return jobsResource.query();
+              }
+          },
           controller: 'homeCtrl'
-      })
+      }) 
      .state("postjob", {
          url: "/postjob",
          templateUrl: 'App/PostJob',
@@ -57,10 +66,11 @@ app.config(['$provide', '$urlRouterProvider', '$httpProvider', '$stateProvider',
         templateUrl: 'App/About',
         controller: 'aboutCtrl'
     })
-
-    $urlRouterProvider.when('/', '/home');
-
-    $urlRouterProvider.otherwise('/home');
+   
+    $urlRouterProvider.otherwise(function ($injector, $location) {
+        var $state = $injector.get("$state");
+        $state.go("home");
+    })
 
 }]);
 

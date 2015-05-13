@@ -173,6 +173,8 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AppController.cs" />
+    <Compile Include="Models\Jobs\JobModel.cs" />
+    <Compile Include="Controllers\Jobs\JobsController.cs" />
     <Compile Include="Controllers\MainController.cs" />
     <Compile Include="Controllers\WS_AccountController.cs" />
     <Compile Include="Controllers\WS_TodoController.cs" />
@@ -196,6 +198,7 @@
     <Content Include="Assets\app\controllers\registerCtrl.js" />
     <Content Include="Assets\app\controllers\signInCtrl.js" />
     <Content Include="Assets\app\controllers\todoManagerCtrl.js" />
+    <Content Include="Assets\app\resources\jobsResource.js" />
     <Content Include="Assets\bootstrap\css\bootstrap-theme.css" />
     <Content Include="Assets\bootstrap\css\bootstrap-theme.min.css" />
     <Content Include="Assets\bootstrap\css\bootstrap.css" />
@@ -206,12 +209,11 @@
     <Content Include="Assets\jquery\jquery.min.js" />
     <Content Include="Assets\misc\modernizr.min.js" />
     <Content Include="Assets\misc\respond.min.js" />
-    <Content Include="Assets\ng\angular-cookies.min.js" />
-    <Content Include="Assets\ng\angular-resource.min.js" />
-    <Content Include="Assets\ng\angular-route.min.js" />
-    <Content Include="Assets\ng\angular.min.js" />
     <Content Include="Assets\styles\styles.css" />
+    <Content Include="bower_components\angular-cookies\angular-cookies.min.js" />
+    <Content Include="bower_components\angular-resource\angular-resource.min.js" />
     <Content Include="bower_components\angular-ui-router\release\angular-ui-router.min.js" />
+    <Content Include="bower_components\angular\angular.min.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Web.config">
@@ -230,6 +232,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Assets\app\services\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -238,10 +241,6 @@
     <Content Include="Assets\bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Assets\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Assets\bootstrap\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Assets\ng\angular-cookies.min.js.map" />
-    <Content Include="Assets\ng\angular-resource.min.js.map" />
-    <Content Include="Assets\ng\angular-route.min.js.map" />
-    <Content Include="Assets\ng\angular.min.js.map" />
     <Content Include="Views\Main\Index.cshtml" />
     <Content Include="Views\App\Home.cshtml" />
     <Content Include="Views\App\Register.cshtml" />

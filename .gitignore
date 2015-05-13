@@ -184,3 +184,17 @@ FakesAssemblies/
 /bower_components/angular
 
 /bower_components/angular-ui-router/src
+/bower_components/angular-cookies/.bower.json
+/bower_components/angular-cookies/README.md
+/bower_components/angular-cookies/angular-cookies.js
+/bower_components/angular-cookies/angular-cookies.min.js.map
+/bower_components/angular-cookies/bower.json
+/bower_components/angular-cookies/index.js
+/bower_components/angular-cookies/package.json
+/bower_components/angular-resource/.bower.json
+/bower_components/angular-resource/README.md
+/bower_components/angular-resource/angular-resource.js
+/bower_components/angular-resource/angular-resource.min.js.map
+/bower_components/angular-resource/bower.json
+/bower_components/angular-resource/index.js
+/bower_components/angular-resource/package.json
