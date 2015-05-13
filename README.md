@@ -11,3 +11,13 @@ This job board wants to be like the Gmail app, responsive, fast and easy to use.
 
 
 ![](https://angjobs.com/angjobs-preview.png)
+
+
+Todo
+===
++  Jobs list on the homepage
++  Create a simple jobs table
++  Create a jobs applied for table
++  Jobs detail page
++  Upload resume functionality
++ 
