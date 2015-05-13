@@ -21,3 +21,8 @@ Todo
 +  Jobs detail page
 +  Upload resume functionality
 + 
+
+Future plans
+==
++  Apply for jobs while offline(on the train). User service worker?
++  Introduce typescript?
