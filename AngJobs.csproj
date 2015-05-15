@@ -194,7 +194,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\app\app.js" />
+    <Content Include="Assets\app\controllers\aboutCtrl.js" />
+    <Content Include="Assets\app\controllers\contractsCtrl.js" />
+    <Content Include="Assets\app\controllers\employersCtrl.js" />
     <Content Include="Assets\app\controllers\homeCtrl.js" />
+    <Content Include="Assets\app\controllers\inboxCtrl.js" />
+    <Content Include="Assets\app\controllers\permanentCtrl.js" />
     <Content Include="Assets\app\controllers\registerCtrl.js" />
     <Content Include="Assets\app\controllers\signInCtrl.js" />
     <Content Include="Assets\app\controllers\todoManagerCtrl.js" />
@@ -252,6 +257,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Shared\_SideMenu.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\App\Inbox.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\App\Employers.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\App\Permanent.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\App\About.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\App\Contracts.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

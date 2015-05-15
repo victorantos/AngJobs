@@ -3,9 +3,14 @@
     'ngResource',
     'ngCookies',
     'home',
+     'contracts',
+      'inbox',
+       'permanent',
+        'about',
+        'employers',
     'signIn',
     'register',
-    'jobs.resource'
+   'jobs.resource'
 ]);
 
 
@@ -18,6 +23,7 @@ app.config(['$provide', '$urlRouterProvider', '$httpProvider', '$stateProvider',
     //================================================
 
     $urlRouterProvider.when('/', '/home');
+
 
 
     //////////////////////////
@@ -66,7 +72,28 @@ app.config(['$provide', '$urlRouterProvider', '$httpProvider', '$stateProvider',
         templateUrl: 'App/About',
         controller: 'aboutCtrl'
     })
-   
+   .state("inbox", {
+       url: "/inbox",
+       templateUrl: 'App/Inbox',
+       controller: 'inboxCtrl'
+   })
+    .state("contracts", {
+        url: "/contracts",
+        templateUrl: 'App/Contracts',
+        controller: 'contractsCtrl'
+    })
+    .state("permanent", {
+        url: "/permanent",
+        templateUrl: 'App/Permanent',
+        controller: 'permanentCtrl'
+    })
+    .state("employers", {
+        url: "/employers",
+        templateUrl: 'App/Employers',
+        controller: 'employersCtrl'
+    })
+
+    
     $urlRouterProvider.otherwise(function ($injector, $location) {
         var $state = $injector.get("$state");
         $state.go("home");

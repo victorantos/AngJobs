@@ -20,11 +20,11 @@
                         <a ui-sref="jobs.jobType({jobType:'inbox'})">Developers</a>
                     </li>
                     <li ng-class="{ active: $state.includes('employer')}">
-                        <a ui-sref="employer">Employers</a>
+                        <a ui-sref="employers">Employers</a>
                     </li>
-                    <li ng-class="{ active: $state.includes('services')}">
+                    @*<li ng-class="{ active: $state.includes('services')}">
                         <a ui-sref="services">Our services <span class="label label-default" style="vertical-align:top">new</span></a>
-                    </li>
+                    </li>*@
                 </ul>
                 <form class="navbar-form navbar-form-sm navbar-left searchbar" role="search" ng-show="$state.includes('jobs')">
                     <div class="form-group">

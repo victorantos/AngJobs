@@ -23,5 +23,25 @@ namespace AngJobs.Controllers
         {
             return PartialView();
         }
+        public ActionResult Inbox()
+        {
+            return PartialView();
+        }
+        public ActionResult Contracts()
+        {
+            return PartialView();
+        }
+        public ActionResult Permanent()
+        {
+            return PartialView();
+        }
+        public ActionResult Employers()
+        {
+            return PartialView();
+        }
+        public ActionResult About()
+        {
+            return PartialView();
+        }
     }
 }
