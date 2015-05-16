@@ -21,7 +21,7 @@ Frameworks used or willing to use
 - Bower
 - AppVeyor (for Continuous Integration)
 - Testing(protractor for e2e)
-- 
+
 Todo
 ===
 +  Jobs list on the homepage
