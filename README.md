@@ -12,6 +12,14 @@ This job board wants to be like the Gmail app, responsive, fast and easy to use.
 
 ![](https://angjobs.com/angjobs-preview.png)
 
+Frameworks used or willing to use
+==
+- Angular
+- TypeScript
+- Web API
+- Gulp
+- Bower
+- AppVeyor (for Continuous Integration)
 
 Todo
 ===
