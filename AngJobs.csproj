@@ -196,6 +196,7 @@
     <Content Include="Assets\app\app.js" />
     <Content Include="Assets\app\controllers\aboutCtrl.js" />
     <Content Include="Assets\app\controllers\contractsCtrl.js" />
+    <Content Include="Assets\app\controllers\developersCtrl.js" />
     <Content Include="Assets\app\controllers\employersCtrl.js" />
     <Content Include="Assets\app\controllers\homeCtrl.js" />
     <Content Include="Assets\app\controllers\inboxCtrl.js" />
@@ -272,6 +273,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\App\Contracts.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\App\Developers.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

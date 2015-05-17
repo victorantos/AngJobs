@@ -16,8 +16,8 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li ng-class="activePath.indexOf('job') == 1 ? 'active': ''">
-                        <a ui-sref="jobs.jobType({jobType:'inbox'})">Developers</a>
+                    <li ng-class="{ active: $state.includes('developers')}">
+                        <a ui-sref="developers">Developers</a>
                     </li>
                     <li ng-class="{ active: $state.includes('employer')}">
                         <a ui-sref="employers">Employers</a>

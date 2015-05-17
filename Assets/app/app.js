@@ -8,6 +8,7 @@
        'permanent',
         'about',
         'employers',
+         'developers',
     'signIn',
     'register',
    'jobs.resource'
@@ -92,7 +93,11 @@ app.config(['$provide', '$urlRouterProvider', '$httpProvider', '$stateProvider',
         templateUrl: 'App/Employers',
         controller: 'employersCtrl'
     })
-
+     .state("developers", {
+         url: "/developers",
+         templateUrl: 'App/Developers',
+         controller: 'developersCtrl'
+     })
     
     $urlRouterProvider.otherwise(function ($injector, $location) {
         var $state = $injector.get("$state");
