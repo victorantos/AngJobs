@@ -29,6 +29,7 @@ Todo
 +  Create a jobs applied for table
 +  Jobs detail page
 +  Upload resume functionality
++ Add  /feed.rss endpoint with latest jobs
 + 
 
 Future plans
