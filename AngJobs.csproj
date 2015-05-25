@@ -173,11 +173,17 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AppController.cs" />
+    <Compile Include="Migrations\201505251345271_addedJoPostTbl.cs" />
+    <Compile Include="Migrations\201505251345271_addedJoPostTbl.Designer.cs">
+      <DependentUpon>201505251345271_addedJoPostTbl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Jobs\JobApplication.cs" />
+    <Compile Include="Models\Jobs\JobPost.cs" />
     <Compile Include="Models\Jobs\JobModel.cs" />
     <Compile Include="Controllers\Jobs\JobsController.cs" />
     <Compile Include="Controllers\MainController.cs" />
     <Compile Include="Controllers\WS_AccountController.cs" />
-    <Compile Include="Controllers\WS_TodoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -280,6 +286,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\App\PostJob.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201505251345271_addedJoPostTbl.resx">
+      <DependentUpon>201505251345271_addedJoPostTbl.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

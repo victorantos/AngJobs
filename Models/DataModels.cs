@@ -23,7 +23,7 @@ namespace AngJobs.Models
 
         public string firstName { get; set; }
 
-        public virtual List<todoItem> todoItems { get; set; }
+        public virtual List<JobApplication> jobApplications { get; set; }
     }
 
     public class todoItem
@@ -37,7 +37,7 @@ namespace AngJobs.Models
     public class DBContext : IdentityDbContext<User>
     {
         public DBContext()
-            : base("applicationDB")
+            : base("DefaultConnection")
         {
 
         }
@@ -52,7 +52,7 @@ namespace AngJobs.Models
             return new DBContext();
         }
 
-        public DbSet<todoItem> todos { get; set; }
+        public DbSet<JobApplication> jobApplications { get; set; }
 
     }
 
