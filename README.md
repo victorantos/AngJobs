@@ -1,4 +1,4 @@
-AngJobs - job board build by developers for developers
+AngJobs - job board built by developers for developers
 =======
 
 Looking for a demo? - Check http://AngJobs.com which is based on this open source job board.
