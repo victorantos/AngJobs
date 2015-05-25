@@ -13,7 +13,9 @@
     'signIn',
     'register',
    'jobs.resource',
-   'promotedJobs.resource'
+   'promotedJobs.resource',
+   'contractsJobs.resource',
+   'permanentJobs.resource'
 ]);
 
 
@@ -89,11 +91,23 @@ app.config(['$provide', '$urlRouterProvider', '$httpProvider', '$stateProvider',
     .state("contracts", {
         url: "/contracts",
         templateUrl: 'App/Contracts',
+        resolve: {
+            contractsJobsResource: 'contractsJobsResource',
+            jobsList: function (contractsJobsResource) {
+                return contractsJobsResource.query();
+            }
+        },
         controller: 'contractsCtrl'
     })
     .state("permanent", {
         url: "/permanent",
         templateUrl: 'App/Permanent',
+        resolve: {
+            permanentJobsResource: 'permanentJobsResource',
+            jobsList: function (permanentJobsResource) {
+                return permanentJobsResource.query();
+            }
+        },
         controller: 'permanentCtrl'
     })
     .state("employers", {
