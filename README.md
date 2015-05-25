@@ -28,8 +28,9 @@ Todo
 +  Create a simple jobs table
 +  Create a jobs applied for table
 +  Jobs detail page
-+  Upload resume functionality
-+ 
++  ** Upload resume functionality **
++ Add  /feed.rss endpoint with latest jobs
++ Import more jobs from external providers/api
 
 Future plans
 ==
