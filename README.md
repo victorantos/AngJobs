@@ -32,6 +32,8 @@ Todo
 + Add  /feed.rss endpoint with latest jobs
 + Import more jobs from external providers/api
 + Find and import some "remote jobs" providers from here https://github.com/lukasz-madon/awesome-remote-job
+
+
 Future plans
 ==
 +  Apply for jobs while offline(on the train). Use service worker?
