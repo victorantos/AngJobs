@@ -1,4 +1,4 @@
-AngJobs is a job board inspired by the Gmail app
+AngJobs - job board built by developers for developers
 =======
 
 Looking for a demo? - Check http://AngJobs.com which is based on this open source job board.
@@ -31,6 +31,8 @@ Todo
 +  ** Upload resume functionality **
 + Add  /feed.rss endpoint with latest jobs
 + Import more jobs from external providers/api
++ Find and import some "remote jobs" providers from here https://github.com/lukasz-madon/awesome-remote-job
+
 
 Future plans
 ==
