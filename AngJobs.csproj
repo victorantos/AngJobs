@@ -194,6 +194,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\app\app.js" />
+    <Content Include="Assets\app\controllers\postjobCtrl.js" />
     <Content Include="Assets\app\controllers\aboutCtrl.js" />
     <Content Include="Assets\app\controllers\contractsCtrl.js" />
     <Content Include="Assets\app\controllers\developersCtrl.js" />
@@ -276,6 +277,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\App\Developers.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\App\PostJob.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

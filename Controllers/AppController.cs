@@ -47,5 +47,9 @@ namespace AngJobs.Controllers
         {
             return PartialView();
         }
+        public ActionResult PostJob()
+        {
+            return PartialView();
+        }
     }
 }
