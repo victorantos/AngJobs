@@ -173,9 +173,14 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AppController.cs" />
+    <Compile Include="Controllers\Jobs\PromotedJobsController.cs" />
     <Compile Include="Migrations\201505251345271_addedJoPostTbl.cs" />
     <Compile Include="Migrations\201505251345271_addedJoPostTbl.Designer.cs">
       <DependentUpon>201505251345271_addedJoPostTbl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201505252154340_addedIsfrontpagejob.cs" />
+    <Compile Include="Migrations\201505252154340_addedIsfrontpagejob.Designer.cs">
+      <DependentUpon>201505252154340_addedIsfrontpagejob.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\JobPostViewModel.cs" />
@@ -212,6 +217,7 @@
     <Content Include="Assets\app\controllers\registerCtrl.js" />
     <Content Include="Assets\app\controllers\signInCtrl.js" />
     <Content Include="Assets\app\controllers\todoManagerCtrl.js" />
+    <Content Include="Assets\app\resources\promotedJobsResource.js" />
     <Content Include="Assets\app\resources\jobsResource.js" />
     <Content Include="Assets\bootstrap\css\bootstrap-theme.css" />
     <Content Include="Assets\bootstrap\css\bootstrap-theme.min.css" />
@@ -299,6 +305,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201505251345271_addedJoPostTbl.resx">
       <DependentUpon>201505251345271_addedJoPostTbl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201505252154340_addedIsfrontpagejob.resx">
+      <DependentUpon>201505252154340_addedIsfrontpagejob.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

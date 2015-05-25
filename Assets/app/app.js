@@ -12,7 +12,8 @@
          'postJob',
     'signIn',
     'register',
-   'jobs.resource'
+   'jobs.resource',
+   'promotedJobs.resource'
 ]);
 
 
@@ -57,9 +58,9 @@ app.config(['$provide', '$urlRouterProvider', '$httpProvider', '$stateProvider',
           url: "/home",
           templateUrl: 'App/Home',
           resolve: {
-              jobsResource: 'jobsResource',
-              jobsList: function (jobsResource) {
-                  return jobsResource.query();
+              promotedJobsResource: 'promotedJobsResource',
+              jobsList: function (promotedJobsResource) {
+                  return promotedJobsResource.query();
               }
           },
           controller: 'homeCtrl'
@@ -77,6 +78,12 @@ app.config(['$provide', '$urlRouterProvider', '$httpProvider', '$stateProvider',
    .state("inbox", {
        url: "/inbox",
        templateUrl: 'App/Inbox',
+       resolve: {
+           jobsResource: 'jobsResource',
+           jobsList: function (jobsResource) {
+               return jobsResource.query();
+           }
+       },
        controller: 'inboxCtrl'
    })
     .state("contracts", {

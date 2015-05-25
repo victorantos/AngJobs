@@ -1,4 +1,4 @@
 ﻿angular.module('inbox', [])
-    .controller('inboxCtrl', ['$scope', '$http', function ($scope, $http) {
-       
+    .controller('inboxCtrl', ['$scope', '$http', 'jobsList', function ($scope, $http, jobsList) {
+        $scope.list = jobsList;
     }]);
