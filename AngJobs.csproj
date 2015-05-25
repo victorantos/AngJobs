@@ -178,6 +178,7 @@
       <DependentUpon>201505251345271_addedJoPostTbl.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\JobPostViewModel.cs" />
     <Compile Include="Models\Jobs\JobApplication.cs" />
     <Compile Include="Models\Jobs\JobPost.cs" />
     <Compile Include="Models\Jobs\JobModel.cs" />

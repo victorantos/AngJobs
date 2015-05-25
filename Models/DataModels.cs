@@ -53,6 +53,7 @@ namespace AngJobs.Models
         }
 
         public DbSet<JobApplication> jobApplications { get; set; }
+        public DbSet<JobPost> jobPosts { get; set; }
 
     }
 
