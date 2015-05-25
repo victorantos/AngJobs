@@ -200,7 +200,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\app\app.js" />
-    <Content Include="Assets\app\controllers\postjobCtrl.js" />
+    <Content Include="Assets\app\controllers\postJobCtrl.js" />
     <Content Include="Assets\app\controllers\aboutCtrl.js" />
     <Content Include="Assets\app\controllers\contractsCtrl.js" />
     <Content Include="Assets\app\controllers\developersCtrl.js" />
@@ -227,6 +227,14 @@
     <Content Include="bower_components\angular-resource\angular-resource.min.js" />
     <Content Include="bower_components\angular-ui-router\release\angular-ui-router.min.js" />
     <Content Include="bower_components\angular\angular.min.js" />
+    <Content Include="bower_components\font-awesome\css\font-awesome.min.css" />
+    <Content Include="bower_components\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="bower_components\rangy\rangy-core.min.js" />
+    <Content Include="bower_components\rangy\rangy-selectionsaverestore.min.js" />
+    <Content Include="bower_components\textAngular\angular_textangular-122textAngular-sanitize-textAngular.js" />
+    <Content Include="bower_components\textAngular\dist\textAngular-sanitize.min.js" />
+    <Content Include="bower_components\textAngular\dist\textAngular.css" />
+    <Content Include="bower_components\textAngular\dist\textAngular.min.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Web.config">
@@ -291,6 +299,13 @@
     <EmbeddedResource Include="Migrations\201505251345271_addedJoPostTbl.resx">
       <DependentUpon>201505251345271_addedJoPostTbl.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bower_components\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="bower_components\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="bower_components\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="bower_components\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="bower_components\font-awesome\fonts\FontAwesome.otf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

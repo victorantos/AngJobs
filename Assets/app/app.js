@@ -9,6 +9,7 @@
         'about',
         'employers',
          'developers',
+         'postJob',
     'signIn',
     'register',
    'jobs.resource'
@@ -18,7 +19,7 @@
 
 
 app.config(['$provide', '$urlRouterProvider', '$httpProvider', '$stateProvider', function ($provide, $urlRouterProvider, $httpProvider, $stateProvider) {
-    
+
     //================================================
     // Routes
     //================================================
@@ -62,8 +63,8 @@ app.config(['$provide', '$urlRouterProvider', '$httpProvider', '$stateProvider',
               }
           },
           controller: 'homeCtrl'
-      }) 
-     .state("postjob", {
+      })
+     .state("postJob", {
          url: "/postjob",
          templateUrl: 'App/PostJob',
          controller: 'postJobCtrl'
@@ -98,7 +99,7 @@ app.config(['$provide', '$urlRouterProvider', '$httpProvider', '$stateProvider',
          templateUrl: 'App/Developers',
          controller: 'developersCtrl'
      })
-    
+
     $urlRouterProvider.otherwise(function ($injector, $location) {
         var $state = $injector.get("$state");
         $state.go("home");
@@ -121,6 +122,6 @@ app.run(['$rootScope', '$http', '$cookies', '$cookieStore', function ($rootScope
         console.dir('Previous state:' + $rootScope.previousState)
         console.dir('Current state:' + $rootScope.currentState)
     });
-   
+
 }]);
 

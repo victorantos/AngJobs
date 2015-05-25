@@ -198,3 +198,11 @@ FakesAssemblies/
 /bower_components/angular-resource/bower.json
 /bower_components/angular-resource/index.js
 /bower_components/angular-resource/package.json
+
+/bower_components/font-awesome/less
+
+/bower_components/rangy
+
+/bower_components/textAngular
+
+/bower_components/font-awesome
