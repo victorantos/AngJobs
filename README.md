@@ -14,6 +14,7 @@ This job board wants to be like the Gmail app, responsive, fast and easy to use.
 
 Frameworks used or willing to use
 ==
+The single page app is based on ng.Net.Template by Dahln Farnes https://visualstudiogallery.msdn.microsoft.com/48d928e3-9b5c-4faf-b46f-d6baa7d9886c
 - Angular
 - TypeScript
 - Web API
@@ -28,7 +29,7 @@ Todo
 +  Create a simple jobs table
 +  Create a jobs applied for table
 +  Jobs detail page
-+  ** Upload resume functionality **
++  **Upload resume functionality**
 + Add  /feed.rss endpoint with latest jobs
 + Import more jobs from external providers/api
 + Find and import some "remote jobs" providers from here https://github.com/lukasz-madon/awesome-remote-job
