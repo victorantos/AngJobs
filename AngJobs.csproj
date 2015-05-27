@@ -208,6 +208,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\app\app.js" />
+    <Content Include="Assets\app\controllers\jobDetailsCtrl.js" />
     <Content Include="Assets\app\controllers\postJobCtrl.js" />
     <Content Include="Assets\app\controllers\aboutCtrl.js" />
     <Content Include="Assets\app\controllers\contractsCtrl.js" />
@@ -320,6 +321,9 @@
     <Content Include="bower_components\font-awesome\fonts\fontawesome-webfont.woff" />
     <Content Include="bower_components\font-awesome\fonts\fontawesome-webfont.woff2" />
     <Content Include="bower_components\font-awesome\fonts\FontAwesome.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\App\JobDetails.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

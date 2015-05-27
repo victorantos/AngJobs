@@ -8,7 +8,8 @@
 <div class="jobs-list" ui-view>
     <ul class="list-group list-group-lg">
         <li class="list-group-item" ng-repeat="j in list">
-            {{j.Title}}
+            <a class="text-md" href="/#/jobdetails/{{j.Id}}">{{j.Title}}</a>
+            
         </li>
     </ul>
 </div>

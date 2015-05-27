@@ -51,5 +51,9 @@ namespace AngJobs.Controllers
         {
             return PartialView();
         }
+        public ActionResult JobDetails()
+        {
+            return PartialView();
+        }
     }
 }

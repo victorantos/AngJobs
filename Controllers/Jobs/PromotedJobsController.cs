@@ -19,7 +19,8 @@ namespace AngJobs.Controllers.Jobs
         [HttpGet]
         public object Get()
         {
-            var jobs = db.jobPosts.Where(j=>j.IsOnFrontPage.HasValue && j.IsOnFrontPage.Value).Select(j => new JobModel { Title = j.JobTitle, Description = j.JobDescription });
+            var jobs = db.jobPosts.Where(j=>j.IsOnFrontPage.HasValue && j.IsOnFrontPage.Value)
+                .Select(j => new JobModel { Id = j.Id, Title = j.JobTitle, Description = j.JobDescription });
             var sample = new List<JobModel>{
                 new JobModel{ Title = "hot Job title 1", Description = "Job description 1"},
                  new JobModel{ Title = "hot Job title 2", Description = "Job description 2"}

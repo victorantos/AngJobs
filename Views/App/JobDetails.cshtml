@@ -1,0 +1,109 @@
+﻿    <!-- header -->
+<div class="wrapper bg-light lter b-b top-actions">
+    <a class="btn btn-sm btn-default w-xxs m-r-sm" href="javascript:void(0);" tooltip="Back to Inbox" ng-click="goBack()"><i class="fa fa-long-arrow-left"></i></a>
+</div>
+<!-- / header -->
+
+<div class="job-details">
+    <div class="wrapper b-b">
+        <h3 class="font-thin m-n">{{details.jobTitle}} <small ng-show="details.tagline"><br />{{details.tagline}}</small></h3>
+    </div>
+    <div class="wrapper b-b">
+
+        <span class="thumbnail thumb-sm m-r-sm" style="font-size:30px;">Job</span>
+        <span ng-show="details.hiringCompany && !details.hiringCompanyWebsite">{{details.hiringCompany}},</span>
+        <a ng-show="details.hiringCompanyWebsite && details.hiringCompany" style="text-decoration:underline;" href="{{details.hiringCompanyWebsite}}" target="_blank">{{details.hiringCompany}},</a>
+        <span>{{details.salaryNote}} {{details.jobLocation ? details.jobLocation + ',': ''}} {{details.jobCountry ? details.jobCountry: ''}} <i ng-class="details.currencyIconCss" ng-show="details.currencyIconCss"></i> {{details.salaryMin || details.salaryMax ? salary() : ''}}</span>
+        <div class="pull-right text-sm text-muted">
+            <span am-time-ago="details.dateCreated"></span>
+        </div>
+    </div>
+    <div class="wrapper" ng-bind-html="details.jobDescription">
+    </div>
+    <div class="wrapper" ng-show="details.sourceReference">
+        Source: <a href="{{details.sourceReference}}" target="_blank" title="Imported Angular.Js job source">{{details.sourceReference}}</a>
+    </div>
+
+    <div class="wrapper">
+
+        <div class="panel b-a">
+            <div class="panel-heading" ng-hide="apply">
+                <div class="m-b-lg">
+                    Click here to <a href="javascript:void(0);" class="text-u-l" ng-click="apply=!apply; applied = false; $('#email').focus();">Apply</a>
+                    <div ng-show="applied" class="b-l-success"><br />Thank you for applying for this role!</div>
+                </div>
+            </div>
+            <form ng-show="apply" ng-submit="applyForJob()" class="form-horizontal form-apply-job" role="form">
+                <div class="panel-heading b-b b-light">
+                    <div class="form-group" ng-show="details.contactName">
+                        <label for="toContactName" class=" col-md-1 control-label">To:</label>
+                        <div class="col-md-7"><input id="toContactName" class="input input-sm form-control" type="text" disabled ng-model="details.contactName" /></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class=" col-md-1 control-label">From:</label>
+                        <div class="col-md-7">
+                            <input class="input input-sm form-control" type="text" id="email" ng-model="applicant.email" placeholder="your email address" required />
+                            <div ng-controller="loginCtrl" class="add-linkedin">
+                                <a class="btn-link label label-info " href="javascript:void(0);" data-ng-click="authExternalProvider('LinkedIn')">+ Add LinkedIn</a>
+
+                            </div>
+                            <div ng-controller="loginCtrl" class="add-linkedin">
+                                <a class="btn-link label label-default " href="javascript:void(0);" data-ng-click="authExternalProvider('GitHub')">+ Add GitHub</a>
+
+                            </div>
+
+                            <div ng-controller="loginCtrl" class="add-linkedin">
+                                <a class="btn-link label label-stackexchange " href="javascript:void(0);" data-ng-click="authExternalProvider('StackExchange')">+ Add StackExchange</a>
+
+                            </div>
+
+                            <div class="add-cv">
+                                +<a class="button btn-link" href="javascript:void(0);" ngf-select ngf-change="upload($files)" ngf-multiple="multiple">Attach CV</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div ui-view></div>
+                    <div class="form-group" ng-show="showAttachCV">
+                        <label class="col-md-2 control-label" for="attachedcv">
+                            CV:
+                        </label>
+                        <div class="col-md-6">
+                            <pre>{{log}}</pre>
+                        </div>
+                    </div>
+
+                    <div class="form-group" ng-show="showSkills">
+                        <label class="col-md-1 control-label" for="skills">
+                            Skills:
+                        </label>
+                        <div class="col-md-7">
+                            <input ng-show="showSkills" class="input input-sm form-control" type="text" ng-model="applicant.skills" id="skills" />
+                        </div>
+                    </div>
+                    <div class="form-group" ng-show="showExperience">
+                        <label class="col-md-1 control-label" for="experience">
+                            Exper.:
+                        </label>
+                        <div class="col-md-7">
+                            <input ng-show="showExperience" class="input input-sm form-control" type="text" ng-model="applicant.experience" id="experience" />
+                        </div>
+                    </div>
+                </div>
+                <div ng-show="richEdit" class="wrapper">
+                    <button class="btn btn-info w-xs font-bold" ng-show="!applying" type="submit" ng-click="applying=true;">Apply</button>
+                    <button class="btn btn-default w-xs font-bold" ng-show="applying">Applying...</button>
+                    <span ng-show="jobApplicationErrors.length" class="label label-danger">{{jobApplicationError}}</span>
+                </div>
+                <section class="wrapper form-control" style="height:auto; min-height:150px;" ng-show="richEdit" id="editableProfile" contenteditable="true" ng-model="applicant.message"></section>
+                <textarea class="wrapper form-control" ng-hide="richEdit" style="min-height:100px" ng-model="applicant.message"></textarea>
+
+                <div class="panel-footer bg-light lt">
+                    <button class="btn btn-link pull-right" type="button" ng-click="apply=!apply"><i class="fa fa-trash-o"></i></button>
+                    <button class="btn btn-info w-xs font-bold" ng-show="!applying" type="submit" ng-click="applying=true;">Apply</button>
+                    <button class="btn btn-default w-xs font-bold" ng-show="applying">Applying...</button>
+                    <span ng-show="jobApplicationErrors.length" class="label label-danger">{{jobApplicationError}}</span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

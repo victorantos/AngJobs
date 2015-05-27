@@ -19,7 +19,7 @@ namespace AngJobs.Controllers.Jobs
         [HttpGet]
         public object Get()
         {
-            var jobs = db.jobPosts.Select(j => new JobModel { Title = j.JobTitle, Description = j.JobDescription });
+            var jobs = db.jobPosts.Select(j => new JobModel { Id = j.Id, Title = j.JobTitle, Description = j.JobDescription });
             var sample = new List<JobModel>{
                 new JobModel{ Title = "Job title 1", Description = "Job description 1"},
                  new JobModel{ Title = "Job title 2", Description = "Job description 2"}
@@ -29,6 +29,14 @@ namespace AngJobs.Controllers.Jobs
                 return jobs;
             else
                 return sample;
+        }
+
+        [HttpGet]
+        public object Get(int jobId)
+        {
+            var job = db.jobPosts.Where(c => c.Id == jobId);
+
+            return job.Select(j => new JobModel { Id = j.Id, Title = j.JobTitle, Description = j.JobDescription }).SingleOrDefault();
         }
 
         public RoleManager<IdentityRole> RoleManager { get; private set; }

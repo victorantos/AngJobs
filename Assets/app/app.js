@@ -10,6 +10,7 @@
         'employers',
          'developers',
          'postJob',
+          'jobDetails',
     'signIn',
     'register',
    'jobs.resource',
@@ -120,7 +121,7 @@ app.config(['$provide', '$urlRouterProvider', '$httpProvider', '$stateProvider',
          templateUrl: 'App/Developers',
          controller: 'developersCtrl'
      })
-
+    
     $urlRouterProvider.otherwise(function ($injector, $location) {
         var $state = $injector.get("$state");
         $state.go("home");
