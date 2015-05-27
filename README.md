@@ -43,7 +43,7 @@ Frameworks used or willing to use
 
 Setup for devs
 ==
-The single page app is based on ng.Net.Template by Dahln Farnes https://visualstudiogallery.msdn.microsoft.com/48d928e3-9b5c-4faf-b46f-d6baa7d9886c
+The single page app is based on [ng.Net.Template](https://visualstudiogallery.msdn.microsoft.com/48d928e3-9b5c-4faf-b46f-d6baa7d9886c) by Dahln Farnes 
 
 On server side is uses .NET C# to provide the JSON endpoints(~/api/...) and Entity Framework Code First apropach for the data layer.
 The single page app code(javascript+css) is located in ~/Assets/app
