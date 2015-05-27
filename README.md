@@ -23,7 +23,7 @@ Todo
 + Add  /feed.rss endpoint with latest jobs
 + Import more jobs from external providers/api
 + Find and import some "remote jobs" providers from here https://github.com/lukasz-madon/awesome-remote-job
-+ Client side testing(unit test and e2e tests) based on https://github.com/angular/angular-seed
++ [Client side testing(unit test and e2e tests)](https://docs.angularjs.org/guide/unit-testing)
 
 
 Future plans
