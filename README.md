@@ -48,5 +48,5 @@ The single page app is based on ng.Net.Template by Dahln Farnes https://visualst
 On server side is uses .NET C# to provide the JSON endpoints(~/api/...) and Entity Framework Code First apropach for the data layer.
 The single page app code(javascript+css) is located in ~/Assets/app
 
-To run the web app on Windows you need [Visual Studio]: https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx
-and [Sql Server Express]: https://www.microsoft.com/en-gb/server-cloud/products/sql-server-editions/sql-server-express.aspx both are free tools by Microsoft 
+To run the web app on Windows you need [Visual Studio]( https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx)
+and [Sql Server Express](https://www.microsoft.com/en-gb/server-cloud/products/sql-server-editions/sql-server-express.aspx) both are free tools by Microsoft 
