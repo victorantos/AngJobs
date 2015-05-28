@@ -1,0 +1,15 @@
+﻿<div class="wrapper top-actions">
+    <div class="btn-toolbar">
+        <h2>
+         Permanent jobs
+        </h2>
+    </div>
+</div>
+
+<div class="jobs-list" ui-view>
+    <ul class="list-group list-group-lg">
+        <li class="list-group-item" ng-repeat="j in list">
+            {{j.Title}}
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,31 @@
+﻿<h2>My Task Manager</>
+
+<div class="row margin-top-5">
+    <div class="col-md-12">
+        <div class="input-group input-group-lg">
+            <input type="text" class="form-control" placeholder="Create New Task" ng-model="newTaskText" />
+            <div class="btn btn-primary icon-camera input-group-addon" ng-click="postItem()">
+                <span class="glyphicon glyphicon-plus"></span>
+            </div>
+        </div>
+        <ul class="list-group margin-top-5">
+            <li ng-repeat="item in todoList" class="list-group-item">
+                <ul class="list-inline">
+                    <li ng-show="!item.completed">
+                        <div class="btn btn-success icon-camera" ng-click="complete($index)">
+                            <span class="glyphicon glyphicon-ok-sign"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="btn btn-danger icon-camera" ng-click="delete($index)">
+                            <span class="glyphicon glyphicon-remove-sign"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <h3 ng-class="{strike: item.completed}">{{item.task}}</h3>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
