@@ -30,6 +30,8 @@ Future plans
 ==
 +  Apply for jobs while offline(on the train). Use service worker?
 +  Introduce typescript?
++  Android app based on phonegap/ionic frameworks
++  IOS app based on phonegap/ionic frameworks
 
 Frameworks used or willing to use
 ==
