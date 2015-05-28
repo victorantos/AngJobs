@@ -16,7 +16,8 @@
    'jobs.resource',
    'promotedJobs.resource',
    'contractsJobs.resource',
-   'permanentJobs.resource'
+   'permanentJobs.resource',
+   'utils.service'
 ]);
 
 
