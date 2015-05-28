@@ -213,6 +213,36 @@
     <Content Include="Assets\styles\styles.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Ionic\www\css\style.css" />
+    <Content Include="Ionic\www\img\ionic.png" />
+    <Content Include="Ionic\www\index.html" />
+    <Content Include="Ionic\www\js\app.js" />
+    <Content Include="Ionic\www\js\controllers.js" />
+    <Content Include="Ionic\www\lib\ionic\css\ionic.css" />
+    <Content Include="Ionic\www\lib\ionic\css\ionic.min.css" />
+    <Content Include="Ionic\www\lib\ionic\fonts\ionicons.svg" />
+    <Content Include="Ionic\www\lib\ionic\js\angular-ui\angular-ui-router.js" />
+    <Content Include="Ionic\www\lib\ionic\js\angular-ui\angular-ui-router.min.js" />
+    <Content Include="Ionic\www\lib\ionic\js\angular\angular-animate.js" />
+    <Content Include="Ionic\www\lib\ionic\js\angular\angular-animate.min.js" />
+    <Content Include="Ionic\www\lib\ionic\js\angular\angular-resource.js" />
+    <Content Include="Ionic\www\lib\ionic\js\angular\angular-resource.min.js" />
+    <Content Include="Ionic\www\lib\ionic\js\angular\angular-sanitize.js" />
+    <Content Include="Ionic\www\lib\ionic\js\angular\angular-sanitize.min.js" />
+    <Content Include="Ionic\www\lib\ionic\js\angular\angular.js" />
+    <Content Include="Ionic\www\lib\ionic\js\angular\angular.min.js" />
+    <Content Include="Ionic\www\lib\ionic\js\ionic-angular.js" />
+    <Content Include="Ionic\www\lib\ionic\js\ionic-angular.min.js" />
+    <Content Include="Ionic\www\lib\ionic\js\ionic.bundle.js" />
+    <Content Include="Ionic\www\lib\ionic\js\ionic.bundle.min.js" />
+    <Content Include="Ionic\www\lib\ionic\js\ionic.js" />
+    <Content Include="Ionic\www\lib\ionic\js\ionic.min.js" />
+    <Content Include="Ionic\www\templates\browse.html" />
+    <Content Include="Ionic\www\templates\login.html" />
+    <Content Include="Ionic\www\templates\menu.html" />
+    <Content Include="Ionic\www\templates\playlist.html" />
+    <Content Include="Ionic\www\templates\playlists.html" />
+    <Content Include="Ionic\www\templates\search.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -246,6 +276,51 @@
     <Content Include="Views\App\Register.cshtml" />
     <Content Include="Views\App\SignIn.cshtml" />
     <Content Include="Views\App\TodoManager.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ionic\www\lib\ionic\fonts\ionicons.eot" />
+    <Content Include="Ionic\www\lib\ionic\fonts\ionicons.ttf" />
+    <Content Include="Ionic\www\lib\ionic\fonts\ionicons.woff" />
+    <Content Include="Ionic\www\lib\ionic\scss\ionic.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\ionicons\ionicons.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\ionicons\_ionicons-font.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\ionicons\_ionicons-icons.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\ionicons\_ionicons-variables.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_action-sheet.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_animations.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_backdrop.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_badge.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_bar.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_button-bar.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_button.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_checkbox.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_form.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_grid.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_items.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_list.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_loading.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_menu.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_mixins.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_modal.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_platform.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_popover.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_popup.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_progress.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_radio.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_range.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_refresher.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_reset.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_scaffolding.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_select.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_slide-box.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_spinner.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_tabs.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_toggle.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_transitions.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_type.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_util.scss" />
+    <Content Include="Ionic\www\lib\ionic\scss\_variables.scss" />
+    <Content Include="Ionic\www\lib\ionic\version.json" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
