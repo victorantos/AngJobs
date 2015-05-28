@@ -3,25 +3,28 @@
     'ngResource',
     'ngCookies',
     'home',
-     'contracts',
-      'inbox',
-       'permanent',
-        'about',
-        'employers',
-         'developers',
-         'postJob',
-          'jobDetails',
-    'signIn',
-    'register',
-   'jobs.resource',
-   'promotedJobs.resource',
-   'contractsJobs.resource',
-   'permanentJobs.resource',
-   'utils.service'
+    'contracts',
+    'inbox',
+    'permanent',
+    'about',
+    'employers',
+    'developers',
+    'postJob',
+    'jobDetails',
+    'jobs.resource',
+    'promotedJobs.resource',
+    'contractsJobs.resource',
+    'permanentJobs.resource',
+    'utils.service'
 ]);
 
 
 
+app.constant('ngAuthSettings', {
+    apiServiceBaseUri: typeof serviceBase != 'undefined' ? serviceBase : 'https://angjobs.com/',
+    authServiceBaseUri: typeof authServiceBase != 'undefined' ? authServiceBase : 'https://angjobs.com/',
+    clientId: 'angjobsApp'
+});
 
 app.config(['$provide', '$urlRouterProvider', '$httpProvider', '$stateProvider', function ($provide, $urlRouterProvider, $httpProvider, $stateProvider) {
 

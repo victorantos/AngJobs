@@ -217,9 +217,6 @@
     <Content Include="Assets\app\controllers\homeCtrl.js" />
     <Content Include="Assets\app\controllers\inboxCtrl.js" />
     <Content Include="Assets\app\controllers\permanentCtrl.js" />
-    <Content Include="Assets\app\controllers\registerCtrl.js" />
-    <Content Include="Assets\app\controllers\signInCtrl.js" />
-    <Content Include="Assets\app\controllers\todoManagerCtrl.js" />
     <Content Include="Assets\app\resources\permanentJobsResource.js" />
     <Content Include="Assets\app\resources\contractsJobsResource.js" />
     <Content Include="Assets\app\resources\promotedJobsResource.js" />
