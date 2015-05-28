@@ -12,16 +12,6 @@ This job board wants to be like the Gmail app, responsive, fast and easy to use.
 
 ![](https://angjobs.com/angjobs-demo-inbox.jpg)
 
-Frameworks used or willing to use
-==
-The single page app is based on ng.Net.Template by Dahln Farnes https://visualstudiogallery.msdn.microsoft.com/48d928e3-9b5c-4faf-b46f-d6baa7d9886c
-- Angular
-- TypeScript
-- Web API
-- Gulp
-- Bower
-- AppVeyor (for Continuous Integration)
-- Testing(protractor for e2e)
 
 Todo
 ===
@@ -33,9 +23,31 @@ Todo
 + Add  /feed.rss endpoint with latest jobs
 + Import more jobs from external providers/api
 + Find and import some "remote jobs" providers from here https://github.com/lukasz-madon/awesome-remote-job
++ [Client side testing(unit test and e2e tests)](https://docs.angularjs.org/guide/unit-testing)
 
 
 Future plans
 ==
 +  Apply for jobs while offline(on the train). Use service worker?
 +  Introduce typescript?
+
+Frameworks used or willing to use
+==
+
+- Angular
+- TypeScript
+- Web API
+- Gulp
+- Bower
+- AppVeyor (for Continuous Integration)
+- Testing(protractor for e2e)
+
+Setup for devs
+==
+The single page app is based on [ng.Net.Template](https://visualstudiogallery.msdn.microsoft.com/48d928e3-9b5c-4faf-b46f-d6baa7d9886c) by Dahln Farnes 
+
+On server side it uses .NET C# to provide the JSON endpoints(~/api/...) and Entity Framework Code First apropach for the data layer.
+The single page app code(javascript+css) is located in ~/Assets/app
+
+To run the web app on Windows you need [Visual Studio]( https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx)
+and [Sql Server Express](https://www.microsoft.com/en-gb/server-cloud/products/sql-server-editions/sql-server-express.aspx) both are free tools by Microsoft 
