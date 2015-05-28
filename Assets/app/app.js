@@ -137,7 +137,10 @@ app.config(['$provide', '$urlRouterProvider', '$httpProvider', '$stateProvider',
 //Get username on each page
 //Get updated token on page change.
 //Logout available on each page.
-app.run(['$rootScope', '$http', '$cookies', '$cookieStore', function ($rootScope, $http, $cookies, $cookieStore) {
+app.run(['$rootScope', '$http', '$cookies', '$cookieStore', '$state', '$stateParams', function ($rootScope, $http, $cookies, $cookieStore, $state, $stateParams) {
+
+    $rootScope.$state = $state;
+    $rootScope.$stateParams = $stateParams;
 
     $rootScope.previousState;
     $rootScope.currentState;
