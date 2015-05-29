@@ -237,11 +237,9 @@
     <Content Include="Ionic\www\lib\ionic\js\ionic.bundle.min.js" />
     <Content Include="Ionic\www\lib\ionic\js\ionic.js" />
     <Content Include="Ionic\www\lib\ionic\js\ionic.min.js" />
-    <Content Include="Ionic\www\templates\browse.html" />
-    <Content Include="Ionic\www\templates\login.html" />
     <Content Include="Ionic\www\templates\menu.html" />
-    <Content Include="Ionic\www\templates\playlist.html" />
-    <Content Include="Ionic\www\templates\playlists.html" />
+    <Content Include="Ionic\www\templates\job.html" />
+    <Content Include="Ionic\www\templates\jobs.html" />
     <Content Include="Ionic\www\templates\search.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
