@@ -53,3 +53,10 @@ The single page app code(javascript+css) is located in ~/Assets/app
 
 To run the web app on Windows you need [Visual Studio]( https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx)
 and [Sql Server Express](https://www.microsoft.com/en-gb/server-cloud/products/sql-server-editions/sql-server-express.aspx) both are free tools by Microsoft 
+
+Run tests
+==
+To run unit tests use this command at your command prompt:
+
+AngJobs\AngJobs>karma start test/karma.conf.js
+
