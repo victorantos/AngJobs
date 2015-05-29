@@ -246,6 +246,10 @@
     <Content Include="bower_components\textAngular\dist\textAngular.min.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="test\e2e\scenarios.js" />
+    <Content Include="test\karma.conf.js" />
+    <Content Include="test\protractor-conf.js" />
+    <Content Include="test\unit\controllersSpec.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
