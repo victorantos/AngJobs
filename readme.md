@@ -27,7 +27,7 @@ Todo
 + Import more jobs from external providers/api
 + Find and import some "remote jobs" providers from here https://github.com/lukasz-madon/awesome-remote-job
 + [Client side testing(unit test and e2e tests)](https://docs.angularjs.org/guide/unit-testing)
-
++ integrate the [Me-Api](https://github.com/danfang/me-api). Explore developers
 
 Future plans
 ==
