@@ -35,6 +35,11 @@ angular.module('starter.controllers', [])
 
 .controller('JobsCtrl', function ($scope, playlists) {
     $scope.playlists = playlists;
+
+    $scope.openJob = function(jobId)
+    {
+        window.open('http://angjobs.com/#!/jobdetails/' +  jobId);
+    }
 })
 
 .controller('HomeCtrl', function($scope, $stateParams) {
