@@ -46,7 +46,7 @@ Frameworks used or willing to use
 - Bower
 - AppVeyor (for Continuous Integration)
 - Testing(protractor for e2e)
-- Ionic frameowrk for mobile app
+- Ionic framework for mobile app, uses AngularJs
 
 Setup for devs
 ==
