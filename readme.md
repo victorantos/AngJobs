@@ -12,6 +12,9 @@ This job board wants to be like the Gmail app, responsive, fast and easy to use.
 
 ![](https://angjobs.com/angjobs-demo-inbox.jpg)
 
+Mobile app
+==
+![](https://angjobs.com/angjobs-mobile-app.jpg)
 
 Todo
 ===
@@ -43,6 +46,7 @@ Frameworks used or willing to use
 - Bower
 - AppVeyor (for Continuous Integration)
 - Testing(protractor for e2e)
+- Ionic framework for mobile app, uses AngularJs
 
 Setup for devs
 ==
