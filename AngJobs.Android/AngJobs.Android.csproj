@@ -218,6 +218,7 @@
     <Content Include="Ionic\www\index.html" />
     <Content Include="Ionic\www\js\app.js" />
     <Content Include="Ionic\www\js\controllers.js" />
+    <Content Include="Ionic\www\js\services\jobsService.js" />
     <Content Include="Ionic\www\lib\ionic\css\ionic.css" />
     <Content Include="Ionic\www\lib\ionic\css\ionic.min.css" />
     <Content Include="Ionic\www\lib\ionic\fonts\ionicons.svg" />
