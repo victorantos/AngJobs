@@ -2,6 +2,7 @@
     'ui.router',
     'ngResource',
     'ngCookies',
+    'LocalStorageModule',
     'home',
     'contracts',
     'inbox',
@@ -15,18 +16,19 @@
     'promotedJobs.resource',
     'contractsJobs.resource',
     'permanentJobs.resource',
-    'utils.service'
+    'utils.service',
+    'login'
 ]);
 
 
 
 app.constant('ngAuthSettings', {
-    apiServiceBaseUri: typeof serviceBase != 'undefined' ? serviceBase : 'https://angjobs.com/',
-    authServiceBaseUri: typeof authServiceBase != 'undefined' ? authServiceBase : 'https://angjobs.com/',
+    apiServiceBaseUri: typeof serviceBase != 'undefined' ? serviceBase : 'http://localhost:33651/',
+    authServiceBaseUri: typeof authServiceBase != 'undefined' ? authServiceBase : 'http://localhost:33651/',
     clientId: 'angjobsApp'
 });
 
-app.config(['$provide', '$urlRouterProvider', '$httpProvider', '$stateProvider', function ($provide, $urlRouterProvider, $httpProvider, $stateProvider) {
+app.config(['$provide', '$urlRouterProvider', '$httpProvider', '$stateProvider', 'localStorageServiceProvider', function ($provide, $urlRouterProvider, $httpProvider, $stateProvider, localStorageServiceProvider) {
 
     //================================================
     // Routes

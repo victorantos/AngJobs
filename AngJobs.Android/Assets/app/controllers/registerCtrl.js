@@ -7,7 +7,7 @@
                 Password: $scope.password1,
                 ConfirmPassword: $scope.password2
             };
-            $http.post('/api/Account/Register', params)
+            $http.post('/services/Account/Register', params)
             .success(function (data, status, headers, config) {
                 $scope.successMessage = "Registration Complete.  Please check your email for account activation instructions.";
                 $scope.showErrorMessage = false;

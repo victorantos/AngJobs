@@ -9,12 +9,16 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using AngJobs.Providers;
 using AngJobs.Models;
+using Owin.Security.Providers.LinkedIn;
+using System.Security.Claims;
 
 namespace AngJobs
 {
     public partial class Startup
     {
+        public static OAuthBearerAuthenticationOptions OAuthBearerOptions { get; private set; }
         public static OAuthAuthorizationServerOptions OAuthOptions { get; private set; }
+        public static LinkedInAuthenticationOptions linkedinAuthOptions { get; private set; }
 
         public static string PublicClientId { get; private set; }
 
@@ -25,26 +29,43 @@ namespace AngJobs
             app.CreatePerOwinContext(DBContext.Create);
             app.CreatePerOwinContext<ApplicationUserManager>(ApplicationUserManager.Create);
 
-            // Enable the application to use a cookie to store information for the signed in user
-            // and to use a cookie to temporarily store information about a user logging in with a third party login provider
-            app.UseCookieAuthentication(new CookieAuthenticationOptions());
-            app.UseExternalSignInCookie(DefaultAuthenticationTypes.ExternalCookie);
 
-            // Configure the application for OAuth based flow
-            PublicClientId = "self";
-            OAuthOptions = new OAuthAuthorizationServerOptions
+            //use a cookie to temporarily store information about a user logging in with a third party login provider
+            app.UseExternalSignInCookie(Microsoft.AspNet.Identity.DefaultAuthenticationTypes.ExternalCookie);
+            OAuthBearerOptions = new OAuthBearerAuthenticationOptions();
+
+            OAuthAuthorizationServerOptions OAuthServerOptions = new OAuthAuthorizationServerOptions()
             {
-                TokenEndpointPath = new PathString("/Token"),
-                Provider = new ApplicationOAuthProvider(PublicClientId),
-                AuthorizeEndpointPath = new PathString("/api/Account/ExternalLogin"),
-                //If the AccessTokenExpireTimeSpan is changed, also change the ExpiresUtc in the RefreshTokenProvider.cs.
-                AccessTokenExpireTimeSpan = TimeSpan.FromHours(2),
                 AllowInsecureHttp = true,
-                RefreshTokenProvider = new RefreshTokenProvider()
+                TokenEndpointPath = new PathString("/token"),
+                AccessTokenExpireTimeSpan = TimeSpan.FromDays(1),
+                Provider = new SimpleAuthorizationServerProvider(),
+                RefreshTokenProvider = new SimpleRefreshTokenProvider()
             };
 
-            // Enable the application to use bearer tokens to authenticate users
-            app.UseOAuthBearerTokens(OAuthOptions);
+            // Token Generation
+            app.UseOAuthAuthorizationServer(OAuthServerOptions);
+            app.UseOAuthBearerAuthentication(OAuthBearerOptions);
+
+            //LinkedIn Provider settings
+            string linkedinApiKey = "77k9ivpe1fh8yt";
+            string linkedinSecret = "BXtEMLhlqNoGxaOA";
+
+            linkedinAuthOptions = new LinkedInAuthenticationOptions()
+            {
+                ClientId = linkedinApiKey,
+                ClientSecret = linkedinSecret,
+                Provider = new LinkedInAuthProvider
+                {
+                    OnAuthenticated = async context =>
+                    {
+                        context.Identity.AddClaim(new Claim("ExternalAccessToken", context.AccessToken));
+                    }
+                },
+                SignInAsAuthenticationType = DefaultAuthenticationTypes.ExternalCookie
+            };
+            app.UseLinkedInAuthentication(linkedinAuthOptions);
+
         }
     }
 }

@@ -56,7 +56,8 @@ namespace AngJobs.Models
 
         public DbSet<JobApplication> jobApplications { get; set; }
         public DbSet<JobPost> jobPosts { get; set; }
-
+        public DbSet<Client> Clients { get; set; }
+        public DbSet<RefreshToken> RefreshTokens { get; set; }
     }
 
     //This function will ensure the database is created and seeded with any default data.

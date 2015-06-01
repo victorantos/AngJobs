@@ -21,7 +21,8 @@ namespace AngJobs
                         "~/bower_components/angular-resource/angular-resource.min.js",
                         "~/bower_components/angular-cookies/angular-cookies.min.js",
                         "~/bower_components/angular-ui-router/release/angular-ui-router.min.js",
-                        "~/bower_components/textAngular/angular_textangular-122textAngular-sanitize-textAngular.js"
+                        "~/bower_components/textAngular/angular_textangular-122textAngular-sanitize-textAngular.js",
+                        "~/bower_components/angular-local-storage/dist/angular-local-storage.min.js"
                         ));
 
             bundles.Add(new ScriptBundle("~/app").IncludeDirectory("~/Assets/app", "*.js", true));

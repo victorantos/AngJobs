@@ -80,7 +80,7 @@ app.run(['$rootScope', '$http', '$cookies', '$cookieStore', function ($rootScope
 
     $rootScope.logout = function () {
         
-        $http.post('/api/Account/Logout')
+        $http.post('/services/Account/Logout')
             .success(function (data, status, headers, config) {
                 $http.defaults.headers.common.Authorization = null;
                 $http.defaults.headers.common.RefreshToken = null;

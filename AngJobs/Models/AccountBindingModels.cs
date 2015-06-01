@@ -49,14 +49,7 @@ namespace AngJobs.Models
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
     }
-
-    public class RegisterExternalBindingModel
-    {
-        [Required]
-        [Display(Name = "Email")]
-        public string Email { get; set; }
-    }
-
+ 
     public class RemoveLoginBindingModel
     {
         [Required]

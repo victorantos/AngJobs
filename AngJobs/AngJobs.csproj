@@ -184,7 +184,16 @@
     <Compile Include="Migrations\201505252154340_addedIsfrontpagejob.Designer.cs">
       <DependentUpon>201505252154340_addedIsfrontpagejob.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201506011545430_addedExternalAuth.cs" />
+    <Compile Include="Migrations\201506011545430_addedExternalAuth.Designer.cs">
+      <DependentUpon>201506011545430_addedExternalAuth.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\ExternalLogin\ApplicationTypes.cs" />
+    <Compile Include="Models\ExternalLogin\AuthRepository.cs" />
+    <Compile Include="Models\ExternalLogin\Client.cs" />
+    <Compile Include="Models\ExternalLogin\ExternalLoginModels.cs" />
+    <Compile Include="Models\ExternalLogin\RefreshToken.cs" />
     <Compile Include="Models\JobPostViewModel.cs" />
     <Compile Include="Models\Jobs\JobApplication.cs" />
     <Compile Include="Models\Jobs\JobPost.cs" />
@@ -200,15 +209,20 @@
     <Compile Include="Models\DataModels.cs" />
     <Compile Include="Models\TodoItemViewModel.cs" />
     <Compile Include="Controllers\Utility\ModelErrorChecker.cs" />
+    <Compile Include="Models\UserModel.cs" />
+    <Compile Include="Models\UserProfile\UserProfileModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Providers\ApplicationOAuthProvider.cs" />
+    <Compile Include="Providers\LinkedInAuthProvider.cs" />
     <Compile Include="Providers\RefreshTokenProvider.cs" />
+    <Compile Include="Providers\SimpleAuthorizationServerProvider.cs" />
+    <Compile Include="Providers\SimpleRefreshTokenProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\app\app.js" />
     <Content Include="Assets\app\controllers\jobDetailsCtrl.js" />
+    <Content Include="Assets\app\controllers\loginCtrl.js" />
     <Content Include="Assets\app\controllers\postJobCtrl.js" />
     <Content Include="Assets\app\controllers\aboutCtrl.js" />
     <Content Include="Assets\app\controllers\contractsCtrl.js" />
@@ -221,6 +235,9 @@
     <Content Include="Assets\app\resources\contractsJobsResource.js" />
     <Content Include="Assets\app\resources\promotedJobsResource.js" />
     <Content Include="Assets\app\resources\jobsResource.js" />
+    <Content Include="Assets\app\services\authInterceptorService.js" />
+    <Content Include="Assets\app\services\authService.js" />
+    <Content Include="Assets\app\views\associate.html" />
     <Content Include="Assets\bootstrap\css\bootstrap-theme.css" />
     <Content Include="Assets\bootstrap\css\bootstrap-theme.min.css" />
     <Content Include="Assets\bootstrap\css\bootstrap.css" />
@@ -232,7 +249,9 @@
     <Content Include="Assets\misc\modernizr.min.js" />
     <Content Include="Assets\misc\respond.min.js" />
     <Content Include="Assets\styles\styles.css" />
+    <Content Include="authComplete.html" />
     <Content Include="bower_components\angular-cookies\angular-cookies.min.js" />
+    <Content Include="bower_components\angular-local-storage\dist\angular-local-storage.min.js" />
     <Content Include="bower_components\angular-resource\angular-resource.min.js" />
     <Content Include="bower_components\angular-ui-router\release\angular-ui-router.min.js" />
     <Content Include="bower_components\angular\angular.min.js" />
@@ -246,6 +265,7 @@
     <Content Include="bower_components\textAngular\dist\textAngular.min.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\authComplete.js" />
     <Content Include="test\e2e\scenarios.js" />
     <Content Include="test\karma.conf.js" />
     <Content Include="test\protractor-conf.js" />
@@ -266,7 +286,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Assets\app\services\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -315,6 +334,9 @@
     <EmbeddedResource Include="Migrations\201505252154340_addedIsfrontpagejob.resx">
       <DependentUpon>201505252154340_addedIsfrontpagejob.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201506011545430_addedExternalAuth.resx">
+      <DependentUpon>201506011545430_addedExternalAuth.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Content Include="bower_components\font-awesome\fonts\fontawesome-webfont.eot" />
@@ -330,6 +352,10 @@
     <Content Include="Assets\app\utils\utils.service.js" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AngJobs.Helper\AngJobs.Helper.csproj">
+      <Project>{5bd74a7e-5428-4be1-aeeb-a88f36c394dc}</Project>
+      <Name>AngJobs.Helper</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Owin.Security.Providers\Owin.Security.Providers.csproj">
       <Project>{6ad9ba00-1330-426d-8bae-2d3bc0d976e4}</Project>
       <Name>Owin.Security.Providers</Name>

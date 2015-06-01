@@ -15,372 +15,54 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
 using AngJobs.Models;
 using AngJobs.Providers;
-using AngJobs.Results;
-using AngJobs.Models.Utility;
+using Newtonsoft.Json.Linq;
+using System.Linq;
 using System.Net;
+using System.IO.Compression;
+using System.IO;
+using System.Text;
+using AngJobs.Results;
 
 namespace AngJobs.Controllers
 {
-    [Authorize]
-    [RoutePrefix("api/Account")]
+    [RoutePrefix("services/Account")]
     public class AccountController : ApiController
     {
-        private const string LocalLoginProvider = "Local";
-        private ApplicationUserManager _userManager;
+        const string LinkedIn = "LinkedIn";
+        const string GitHub = "GitHub";
+        const string Twitter = "Twitter";
+        const string StackExchange = "StackExchange";
+        const string Facebook = "Facebook";
+        const string GooglePlus = "GooglePlus";
+        const string Stripe = "Stripe";
+        const string ClientName = "AngJobs";
+
+        private AuthRepository _repo = null;
 
         public AccountController()
         {
-        }
-
-        public AccountController(ApplicationUserManager userManager,
-            ISecureDataFormat<AuthenticationTicket> accessTokenFormat)
-        {
-            UserManager = userManager;
-            AccessTokenFormat = accessTokenFormat;
-        }
-
-        public ApplicationUserManager UserManager
-        {
-            get
-            {
-                return _userManager ?? Request.GetOwinContext().GetUserManager<ApplicationUserManager>();
-            }
-            private set
-            {
-                _userManager = value;
-            }
-        }
-
-        public ISecureDataFormat<AuthenticationTicket> AccessTokenFormat { get; private set; }
-
-        // GET api/Account/UserInfo
-        [HostAuthentication(DefaultAuthenticationTypes.ExternalBearer)]
-        [Route("UserInfo")]
-        public UserInfoViewModel GetUserInfo()
-        {
-            ExternalLoginData externalLogin = ExternalLoginData.FromIdentity(User.Identity as ClaimsIdentity);
-
-            return new UserInfoViewModel
-            {
-                Email = User.Identity.GetUserName(),
-                HasRegistered = externalLogin == null,
-                LoginProvider = externalLogin != null ? externalLogin.LoginProvider : null
-            };
-        }
-
-        // POST api/Account/Logout
-        [Route("Logout")]
-        public IHttpActionResult Logout()
-        {
-            Authentication.SignOut(CookieAuthenticationDefaults.AuthenticationType);
-            return Ok();
-        }
-
-        // GET api/Account/ManageInfo?returnUrl=%2F&generateState=true
-        [Route("ManageInfo")]
-        public async Task<ManageInfoViewModel> GetManageInfo(string returnUrl, bool generateState = false)
-        {
-            IdentityUser user = await UserManager.FindByIdAsync(User.Identity.GetUserId());
-
-            if (user == null)
-            {
-                return null;
-            }
-
-            List<UserLoginInfoViewModel> logins = new List<UserLoginInfoViewModel>();
-
-            foreach (IdentityUserLogin linkedAccount in user.Logins)
-            {
-                logins.Add(new UserLoginInfoViewModel
-                {
-                    LoginProvider = linkedAccount.LoginProvider,
-                    ProviderKey = linkedAccount.ProviderKey
-                });
-            }
-
-            if (user.PasswordHash != null)
-            {
-                logins.Add(new UserLoginInfoViewModel
-                {
-                    LoginProvider = LocalLoginProvider,
-                    ProviderKey = user.UserName,
-                });
-            }
-
-            return new ManageInfoViewModel
-            {
-                LocalLoginProvider = LocalLoginProvider,
-                Email = user.UserName,
-                Logins = logins,
-                ExternalLoginProviders = GetExternalLogins(returnUrl, generateState)
-            };
-        }
-
-        // POST api/Account/ChangePassword
-        [Route("ChangePassword")]
-        public async Task<IHttpActionResult> ChangePassword(ChangePasswordBindingModel model)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            IdentityResult result = await UserManager.ChangePasswordAsync(User.Identity.GetUserId(), model.OldPassword,
-                model.NewPassword);
-
-            if (!result.Succeeded)
-            {
-                return GetErrorResult(result);
-            }
-
-            return Ok();
-        }
-
-        // POST api/Account/SetPassword
-        [Route("SetPassword")]
-        public async Task<IHttpActionResult> SetPassword(SetPasswordBindingModel model)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            IdentityResult result = await UserManager.AddPasswordAsync(User.Identity.GetUserId(), model.NewPassword);
-
-            if (!result.Succeeded)
-            {
-                return GetErrorResult(result);
-            }
-
-            return Ok();
-        }
-
-        // POST api/Account/AddExternalLogin
-        [Route("AddExternalLogin")]
-        public async Task<IHttpActionResult> AddExternalLogin(AddExternalLoginBindingModel model)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            Authentication.SignOut(DefaultAuthenticationTypes.ExternalCookie);
-
-            AuthenticationTicket ticket = AccessTokenFormat.Unprotect(model.ExternalAccessToken);
-
-            if (ticket == null || ticket.Identity == null || (ticket.Properties != null
-                && ticket.Properties.ExpiresUtc.HasValue
-                && ticket.Properties.ExpiresUtc.Value < DateTimeOffset.UtcNow))
-            {
-                return BadRequest("External login failure.");
-            }
-
-            ExternalLoginData externalData = ExternalLoginData.FromIdentity(ticket.Identity);
-
-            if (externalData == null)
-            {
-                return BadRequest("The external login is already associated with an account.");
-            }
-
-            IdentityResult result = await UserManager.AddLoginAsync(User.Identity.GetUserId(),
-                new UserLoginInfo(externalData.LoginProvider, externalData.ProviderKey));
-
-            if (!result.Succeeded)
-            {
-                return GetErrorResult(result);
-            }
-
-            return Ok();
-        }
-
-        // POST api/Account/RemoveLogin
-        [Route("RemoveLogin")]
-        public async Task<IHttpActionResult> RemoveLogin(RemoveLoginBindingModel model)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            IdentityResult result;
-
-            if (model.LoginProvider == LocalLoginProvider)
-            {
-                result = await UserManager.RemovePasswordAsync(User.Identity.GetUserId());
-            }
-            else
-            {
-                result = await UserManager.RemoveLoginAsync(User.Identity.GetUserId(),
-                    new UserLoginInfo(model.LoginProvider, model.ProviderKey));
-            }
-
-            if (!result.Succeeded)
-            {
-                return GetErrorResult(result);
-            }
-
-            return Ok();
-        }
-
-        // GET api/Account/ExternalLogin
-        [OverrideAuthentication]
-        [HostAuthentication(DefaultAuthenticationTypes.ExternalCookie)]
-        [AllowAnonymous]
-        [Route("ExternalLogin", Name = "ExternalLogin")]
-        public async Task<IHttpActionResult> GetExternalLogin(string provider, string error = null)
-        {
-            if (error != null)
-            {
-                return Redirect(Url.Content("~/") + "#error=" + Uri.EscapeDataString(error));
-            }
-
-            if (!User.Identity.IsAuthenticated)
-            {
-                return new ChallengeResult(provider, this);
-            }
-
-            ExternalLoginData externalLogin = ExternalLoginData.FromIdentity(User.Identity as ClaimsIdentity);
-
-            if (externalLogin == null)
-            {
-                return InternalServerError();
-            }
-
-            if (externalLogin.LoginProvider != provider)
-            {
-                Authentication.SignOut(DefaultAuthenticationTypes.ExternalCookie);
-                return new ChallengeResult(provider, this);
-            }
-
-            User user = await UserManager.FindAsync(new UserLoginInfo(externalLogin.LoginProvider,
-                externalLogin.ProviderKey));
-
-            bool hasRegistered = user != null;
-
-            if (hasRegistered)
-            {
-                Authentication.SignOut(DefaultAuthenticationTypes.ExternalCookie);
-
-                ClaimsIdentity oAuthIdentity = await user.GenerateUserIdentityAsync(UserManager,
-                   OAuthDefaults.AuthenticationType);
-                ClaimsIdentity cookieIdentity = await user.GenerateUserIdentityAsync(UserManager,
-                    CookieAuthenticationDefaults.AuthenticationType);
-
-                AuthenticationProperties properties = ApplicationOAuthProvider.CreateProperties(user.UserName);
-                Authentication.SignIn(properties, oAuthIdentity, cookieIdentity);
-            }
-            else
-            {
-                IEnumerable<Claim> claims = externalLogin.GetClaims();
-                ClaimsIdentity identity = new ClaimsIdentity(claims, OAuthDefaults.AuthenticationType);
-                Authentication.SignIn(identity);
-            }
-
-            return Ok();
-        }
-
-        // GET api/Account/ExternalLogins?returnUrl=%2F&generateState=true
-        [AllowAnonymous]
-        [Route("ExternalLogins")]
-        public IEnumerable<ExternalLoginViewModel> GetExternalLogins(string returnUrl, bool generateState = false)
-        {
-            IEnumerable<AuthenticationDescription> descriptions = Authentication.GetExternalAuthenticationTypes();
-            List<ExternalLoginViewModel> logins = new List<ExternalLoginViewModel>();
-
-            string state;
-
-            if (generateState)
-            {
-                const int strengthInBits = 256;
-                state = RandomOAuthStateGenerator.Generate(strengthInBits);
-            }
-            else
-            {
-                state = null;
-            }
-
-            foreach (AuthenticationDescription description in descriptions)
-            {
-                ExternalLoginViewModel login = new ExternalLoginViewModel
-                {
-                    Name = description.Caption,
-                    Url = Url.Route("ExternalLogin", new
-                    {
-                        provider = description.AuthenticationType,
-                        response_type = "token",
-                        client_id = Startup.PublicClientId,
-                        redirect_uri = new Uri(Request.RequestUri, returnUrl).AbsoluteUri,
-                        state = state
-                    }),
-                    State = state
-                };
-                logins.Add(login);
-            }
-
-            return logins;
+            _repo = new AuthRepository();
         }
 
         // POST api/Account/Register
         [AllowAnonymous]
         [Route("Register")]
-        public async Task<HttpResponseMessage> Register(RegisterBindingModel model)
-        {
-            List<string> errors = new List<string>();
-            errors = ModelErrorChecker.Check(ModelState);
-
-            if (errors.Count == 0)
-            {
-                var user = new User() { UserName = model.Email, Email = model.Email };
-
-                if (UserManager.FindByEmail(model.Email) == null)
-                {
-
-                    IdentityResult result = await UserManager.CreateAsync(user, model.Password);
-
-                    if (!result.Succeeded)
-                    {
-                        return Request.CreateResponse(HttpStatusCode.NotAcceptable, result.Errors);
-                    }
-                }
-                else
-                    return Request.CreateResponse(HttpStatusCode.NotAcceptable, "Email address is already in use.");
-            }
-            else
-                return Request.CreateResponse(HttpStatusCode.NotAcceptable, errors);
-
-            return Request.CreateResponse(HttpStatusCode.OK);
-        }
-
-        // POST api/Account/RegisterExternal
-        [OverrideAuthentication]
-        [HostAuthentication(DefaultAuthenticationTypes.ExternalBearer)]
-        [Route("RegisterExternal")]
-        public async Task<IHttpActionResult> RegisterExternal(RegisterExternalBindingModel model)
+        public async Task<IHttpActionResult> Register(UserModel userModel)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            var info = await Authentication.GetExternalLoginInfoAsync();
-            if (info == null)
+            IdentityResult result = await _repo.RegisterUser(userModel);
+
+            IHttpActionResult errorResult = GetErrorResult(result);
+
+            if (errorResult != null)
             {
-                return InternalServerError();
+                return errorResult;
             }
 
-            var user = new User() { UserName = model.Email, Email = model.Email };
-
-            IdentityResult result = await UserManager.CreateAsync(user);
-            if (!result.Succeeded)
-            {
-                return GetErrorResult(result);
-            }
-
-            result = await UserManager.AddLoginAsync(user.Id, info.Login);
-            if (!result.Succeeded)
-            {
-                return GetErrorResult(result);
-            }
             return Ok();
         }
 
@@ -388,17 +70,10 @@ namespace AngJobs.Controllers
         {
             if (disposing)
             {
-                UserManager.Dispose();
+                _repo.Dispose();
             }
 
             base.Dispose(disposing);
-        }
-
-        #region Helpers
-
-        private IAuthenticationManager Authentication
-        {
-            get { return Request.GetOwinContext().Authentication; }
         }
 
         private IHttpActionResult GetErrorResult(IdentityResult result)
@@ -430,24 +105,131 @@ namespace AngJobs.Controllers
             return null;
         }
 
+        private IAuthenticationManager Authentication
+        {
+            get { return Request.GetOwinContext().Authentication; }
+        }
+
+        // GET api/Account/ExternalLogin
+        [OverrideAuthentication]
+        [HostAuthentication(DefaultAuthenticationTypes.ExternalCookie)]
+        [AllowAnonymous]
+        [Route("ExternalLogin", Name = "ExternalLogin")]
+        public async Task<IHttpActionResult> GetExternalLogin(string provider, string error = null)
+        {
+            string redirectUri = string.Empty;
+
+            if (error != null)
+            {
+                return BadRequest(Uri.EscapeDataString(error));
+            }
+
+            if (!User.Identity.IsAuthenticated)
+            {
+                return new ChallengeResult(provider, this);
+            }
+
+            var redirectUriValidationResult = ValidateClientAndRedirectUri(this.Request, ref redirectUri);
+
+            if (!string.IsNullOrWhiteSpace(redirectUriValidationResult))
+            {
+                return BadRequest(redirectUriValidationResult);
+            }
+
+            ExternalLoginData externalLogin = ExternalLoginData.FromIdentity(User.Identity as ClaimsIdentity);
+
+            if (externalLogin == null)
+            {
+                return InternalServerError();
+            }
+
+            if (externalLogin.LoginProvider != provider)
+            {
+                Authentication.SignOut(DefaultAuthenticationTypes.ExternalCookie);
+                return new ChallengeResult(provider, this);
+            }
+
+            IdentityUser user = await _repo.FindAsync(new UserLoginInfo(externalLogin.LoginProvider, externalLogin.ProviderKey));
+
+            bool hasRegistered = user != null;
+
+            redirectUri = string.Format("{0}#external_access_token={1}&provider={2}&haslocalaccount={3}&external_user_name={4}",
+                                            redirectUri,
+                                            externalLogin.ExternalAccessToken,
+                                            externalLogin.LoginProvider,
+                                            hasRegistered.ToString(),
+                                            externalLogin.UserName);
+
+            await StoreAuthTokenClaims(user);
+
+            return Redirect(redirectUri);
+
+        }
+
+        private string ValidateClientAndRedirectUri(HttpRequestMessage request, ref string redirectUriOutput)
+        {
+            Uri redirectUri;
+
+            var redirectUriString = GetQueryString(Request, "redirect_uri");
+
+            if (string.IsNullOrWhiteSpace(redirectUriString))
+            {
+                return "redirect_uri is required";
+            }
+
+            bool validUri = Uri.TryCreate(redirectUriString, UriKind.Absolute, out redirectUri);
+
+            if (!validUri)
+            {
+                return "redirect_uri is invalid";
+            }
+
+            var clientId = GetQueryString(Request, "client_id");
+
+            if (string.IsNullOrWhiteSpace(clientId))
+            {
+                return "client_Id is required";
+            }
+
+            var client = _repo.FindClient(clientId);
+
+            if (client == null)
+            {
+                return string.Format("Client_id '{0}' is not registered in the system.", clientId);
+            }
+
+            if (!string.Equals(client.AllowedOrigin.Replace("http://", string.Empty).Replace("https://", string.Empty),
+                redirectUri.GetLeftPart(UriPartial.Authority).Replace("http://", string.Empty).Replace("https://", string.Empty),
+                StringComparison.OrdinalIgnoreCase))
+            {
+                return string.Format("The given URL is not allowed by Client_id '{0}' configuration.", clientId);
+            }
+
+            redirectUriOutput = redirectUri.AbsoluteUri;
+
+            return string.Empty;
+
+        }
+
+        private string GetQueryString(HttpRequestMessage request, string key)
+        {
+            var queryStrings = request.GetQueryNameValuePairs();
+
+            if (queryStrings == null) return null;
+
+            var match = queryStrings.FirstOrDefault(keyValue => string.Compare(keyValue.Key, key, true) == 0);
+
+            if (string.IsNullOrEmpty(match.Value)) return null;
+
+            return match.Value;
+        }
+
         private class ExternalLoginData
         {
             public string LoginProvider { get; set; }
             public string ProviderKey { get; set; }
             public string UserName { get; set; }
-
-            public IList<Claim> GetClaims()
-            {
-                IList<Claim> claims = new List<Claim>();
-                claims.Add(new Claim(ClaimTypes.NameIdentifier, ProviderKey, null, LoginProvider));
-
-                if (UserName != null)
-                {
-                    claims.Add(new Claim(ClaimTypes.Name, UserName, null, LoginProvider));
-                }
-
-                return claims;
-            }
+            public string ExternalAccessToken { get; set; }
 
             public static ExternalLoginData FromIdentity(ClaimsIdentity identity)
             {
@@ -458,8 +240,8 @@ namespace AngJobs.Controllers
 
                 Claim providerKeyClaim = identity.FindFirst(ClaimTypes.NameIdentifier);
 
-                if (providerKeyClaim == null || String.IsNullOrEmpty(providerKeyClaim.Issuer)
-                    || String.IsNullOrEmpty(providerKeyClaim.Value))
+
+                if (providerKeyClaim == null || String.IsNullOrEmpty(providerKeyClaim.Issuer) || String.IsNullOrEmpty(providerKeyClaim.Value))
                 {
                     return null;
                 }
@@ -469,36 +251,342 @@ namespace AngJobs.Controllers
                     return null;
                 }
 
+                string userId = string.Empty;
+
+                if (providerKeyClaim.Issuer.Equals(Stripe, StringComparison.InvariantCultureIgnoreCase))
+                    userId = identity.FindFirst("urn:stripe:account:id").Value;
+                else
+                    userId = providerKeyClaim.Value;
+
+                if (String.IsNullOrEmpty(userId))
+                    return null;
                 return new ExternalLoginData
                 {
                     LoginProvider = providerKeyClaim.Issuer,
-                    ProviderKey = providerKeyClaim.Value,
-                    UserName = identity.FindFirstValue(ClaimTypes.Name)
+                    ProviderKey = userId,
+                    UserName = identity.FindFirstValue(ClaimTypes.Name),
+                    ExternalAccessToken = identity.FindFirstValue("ExternalAccessToken"),
                 };
             }
         }
 
-        private static class RandomOAuthStateGenerator
+        private async Task<ParsedExternalAccessToken> VerifyExternalAccessToken(string provider, string accessToken)
         {
-            private static RandomNumberGenerator _random = new RNGCryptoServiceProvider();
+            ParsedExternalAccessToken parsedToken = null;
 
-            public static string Generate(int strengthInBits)
+            var verifyTokenEndPoint = "";
+
+            switch (provider)
             {
-                const int bitsPerByte = 8;
+                case LinkedIn:
+                    // verifyTokenEndPoint = string.Format("https://api.linkedin.com/v1/companies/universal-name=victor:(id,name,ticker,description)?oauth2_access_token={0}", accessToken);
+                    verifyTokenEndPoint = string.Format("https://api.linkedin.com/v1/people/~:(id,first-name,last-name,formatted-name,email-address,positions,headline,location,public-profile-url)?oauth2_access_token={0}", accessToken);
+                    break;
+                //case GitHub:
+                //    verifyTokenEndPoint = string.Format("https://api.github.com/user?access_token={0}", accessToken);
+                //    break;
+                //case Twitter:
+                //    verifyTokenEndPoint = string.Format("https://api.twitter.com/1.1/users/show.json?access_token={0}", accessToken);
+                //    break;
+                //case StackExchange:
+                //    verifyTokenEndPoint = string.Format("https://api.stackexchange.com/2.2/me?order=desc&sort=reputation&site=stackoverflow&access_token={0}&key={1}", accessToken, Startup.stackexchangeAuthOptions.Key);
+                //    break;
+                //case Facebook:
+                //    //You can get it from here: https://developers.facebook.com/tools/accesstoken/
+                //    //More about debug_tokn here: http://stackoverflow.com/questions/16641083/how-does-one-get-the-app-access-token-for-debug-token-inspection-on-facebook
+                //    var appToken = "xxxxx";
+                //    verifyTokenEndPoint = string.Format("https://graph.facebook.com/debug_token?input_token={0}&access_token={1}", accessToken, appToken);
+                //    break;
+                //case GooglePlus:
+                //    verifyTokenEndPoint = string.Format("https://www.googleapis.com/oauth2/v1/tokeninfo?access_token={0}", accessToken);
+                //    break;
+                //case Stripe:
+                //    const string UserInfoEndpoint = "https://api.stripe.com/v1/account";
+                //    HttpRequestMessage userRequest;
+                //    var httpClient = getWebClient(accessToken, UserInfoEndpoint, out userRequest);
 
-                if (strengthInBits % bitsPerByte != 0)
+                //    HttpResponseMessage graphResponse = await httpClient.SendAsync(userRequest);
+                //    graphResponse.EnsureSuccessStatusCode();
+                //    var content = await graphResponse.Content.ReadAsStringAsync();
+                //    dynamic jObj = (JObject)Newtonsoft.Json.JsonConvert.DeserializeObject(content);
+                //    parsedToken = new ParsedExternalAccessToken();
+
+                //    parsedToken.user_id = jObj["id"];
+                //    //parsedToken.email = jObj["email"];
+
+                //    return parsedToken;
+                default:
+                    break;
+            }
+
+            var client = new HttpClient();
+
+            if (provider == StackExchange)
+            {
+                var handler = new HttpClientHandler();
+                if (handler.SupportsAutomaticDecompression)
+                    handler.AutomaticDecompression = DecompressionMethods.GZip |
+                                                     DecompressionMethods.Deflate;
+                client = new HttpClient(handler);
+            }
+
+            var uri = new Uri(verifyTokenEndPoint);
+
+            if (provider.Equals(LinkedIn, StringComparison.InvariantCultureIgnoreCase))
+                client.DefaultRequestHeaders.Add("x-li-format", "json");
+            if (provider.Equals(GitHub, StringComparison.InvariantCultureIgnoreCase))
+                client.DefaultRequestHeaders.Add("User-Agent", ClientName);
+
+            var response = await client.GetAsync(uri);
+
+            if (response.IsSuccessStatusCode)
+            {
+                string content = await response.Content.ReadAsStringAsync();
+
+
+
+                dynamic jObj = (JObject)Newtonsoft.Json.JsonConvert.DeserializeObject(content);
+                JObject profile = jObj as JObject;
+                parsedToken = new ParsedExternalAccessToken();
+
+                switch (provider)
                 {
-                    throw new ArgumentException("strengthInBits must be evenly divisible by 8.", "strengthInBits");
+                    case LinkedIn:
+                        parsedToken.user_id = jObj["id"];
+                        parsedToken.userProfile = profile.ToObject<UserProfile>();
+                        parsedToken.email = parsedToken.userProfile.emailAddress;
+                        //if (!string.Equals(Startup.linkedinAuthOptions.ClientId, parsedToken.app_id, StringComparison.OrdinalIgnoreCase))
+                        //{
+                        //    return null;
+                        //}
+                        break;
+                    //case GitHub:
+                    //    parsedToken.user_id = jObj["id"];
+                    //    parsedToken.githubUserProfile = profile.ToObject<GitHubUserProfile>();
+                    //    parsedToken.email = parsedToken.githubUserProfile.email;
+                    //    break;
+                    //case Twitter:
+                    //    parsedToken.user_id = jObj["id"];
+                    //    parsedToken.twitterUserProfile = profile.ToObject<TwitterUserProfile>();
+                    //    parsedToken.email = parsedToken.twitterUserProfile.email;
+                    //    break;
+                    //case StackExchange:
+                    //    parsedToken.stackexchangeUserProfile = profile.ToObject<Angjobs.Models.StackExchange.RootObject>().items[0];
+                    //    parsedToken.user_id = parsedToken.stackexchangeUserProfile.user_id.ToString();
+                    //    break;
+                    //case "Facebook":
+                    //    parsedToken.user_id = jObj["data"]["user_id"];
+                    //    parsedToken.app_id = jObj["data"]["app_id"];
+
+                    //    if (!string.Equals(Startup.facebookAuthOptions.AppId, parsedToken.app_id, StringComparison.OrdinalIgnoreCase))
+                    //    {
+                    //        return null;
+                    //    }
+                    //    break;
+                    //case "GooglePlus":
+                    //    parsedToken.user_id = jObj["user_id"];
+                    //    parsedToken.app_id = jObj["audience"];
+                    //    //parsedToken.email = jObj["email"];
+                    //    if (!string.Equals(Startup.googleAuthOptions.ClientId, parsedToken.app_id, StringComparison.OrdinalIgnoreCase))
+                    //    {
+                    //        return null;
+                    //    }
+                    //    break;
+                    default:
+                        break;
                 }
+            }
 
-                int strengthInBytes = strengthInBits / bitsPerByte;
+            return parsedToken;
+        }
 
-                byte[] data = new byte[strengthInBytes];
-                _random.GetBytes(data);
-                return HttpServerUtility.UrlTokenEncode(data);
+        private static HttpClient getWebClient(string accessToken, string UserInfoEndpoint, out HttpRequestMessage userRequest)
+        {
+            userRequest = new HttpRequestMessage(HttpMethod.Get, UserInfoEndpoint);
+            userRequest.Headers.Add("User-Agent", "OWIN OAuth Provider");
+            userRequest.Headers.Add("Authorization", "bearer " + Uri.EscapeDataString(accessToken) + "");
+            return new HttpClient();
+        }
+
+        /// <summary>
+        /// responsible to issue local access token which can be used to access our secure back-end API end points, 
+        /// the response for this token need to match the response we obtain when we call the end point “/token”
+        /// </summary>
+        /// <param name="userName"></param>
+        /// <returns></returns>
+        private JObject GenerateLocalAccessTokenResponse(string userName)
+        {
+            var tokenExpiration = TimeSpan.FromDays(1);
+
+            ClaimsIdentity identity = new ClaimsIdentity(OAuthDefaults.AuthenticationType);
+
+            identity.AddClaim(new Claim(ClaimTypes.Name, userName));
+            identity.AddClaim(new Claim("role", "user"));
+
+            var props = new AuthenticationProperties()
+            {
+                IssuedUtc = DateTime.UtcNow,
+                ExpiresUtc = DateTime.UtcNow.Add(tokenExpiration),
+            };
+
+            var ticket = new AuthenticationTicket(identity, props);
+
+            var accessToken = Startup.OAuthBearerOptions.AccessTokenFormat.Protect(ticket);
+
+            JObject tokenResponse = new JObject(
+                                        new JProperty("userName", userName),
+                                        new JProperty("access_token", accessToken),
+                                        new JProperty("token_type", "bearer"),
+                                        new JProperty("expires_in", tokenExpiration.TotalSeconds.ToString()),
+                                        new JProperty(".issued", ticket.Properties.IssuedUtc.ToString()),
+                                        new JProperty(".expires", ticket.Properties.ExpiresUtc.ToString())
+        );
+            return tokenResponse;
+        }
+
+        // POST api/Account/RegisterExternal
+        [AllowAnonymous]
+        [Route("RegisterExternal")]
+        public async Task<IHttpActionResult> RegisterExternal(RegisterExternalBindingModel model)
+        {
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var verifiedAccessToken = await VerifyExternalAccessToken(model.Provider, model.ExternalAccessToken);
+            if (verifiedAccessToken == null)
+            {
+                return BadRequest("Invalid Provider or External Access Token");
+            }
+
+            var user = await _repo.FindAsync(new UserLoginInfo(model.Provider, verifiedAccessToken.user_id));
+
+            bool hasRegistered = user != null;
+
+            if (hasRegistered)
+            {
+                return BadRequest("External user is already registered");
+            }
+
+            user = new User() { UserName = model.UserName, Email = model.Email ?? verifiedAccessToken.email };
+
+            IdentityResult result = await _repo.CreateAsync(user);
+            if (!result.Succeeded)
+            {
+                return GetErrorResult(result);
+            }
+
+            var info = new ExternalLoginInfo()
+            {
+                DefaultUserName = model.UserName,
+                Login = new UserLoginInfo(model.Provider, verifiedAccessToken.user_id)
+            };
+
+            result = await _repo.AddLoginAsync(user.Id, info.Login);
+            if (!result.Succeeded)
+            {
+                return GetErrorResult(result);
+            }
+
+            //generate access token response
+            var accessTokenResponse = GenerateLocalAccessTokenResponse(model.UserName);
+
+            // TODO no auth cookie is here so claimsIdentity is null
+            await StoreAuthTokenClaims(user);
+
+            loadUserProfile(model.Provider, verifiedAccessToken, accessTokenResponse);
+
+
+            return Ok(accessTokenResponse);
+        }
+
+        [AllowAnonymous]
+        [HttpGet]
+        [Route("ObtainLocalAccessToken")]
+        public async Task<IHttpActionResult> ObtainLocalAccessToken(string provider, string externalAccessToken)
+        {
+            if (string.IsNullOrWhiteSpace(provider) || string.IsNullOrWhiteSpace(externalAccessToken))
+            {
+                return BadRequest("Provider or external access token is not sent");
+            }
+
+            var verifiedAccessToken = await VerifyExternalAccessToken(provider, externalAccessToken);
+            if (verifiedAccessToken == null)
+            {
+                return BadRequest("Invalid Provider or External Access Token");
+            }
+
+            var user = await _repo.FindAsync(new UserLoginInfo(provider, verifiedAccessToken.user_id));
+
+            bool hasRegistered = user != null;
+
+            if (!hasRegistered)
+            {
+                return BadRequest("External user is not registered");
+            }
+
+            //generate access token response
+            var accessTokenResponse = GenerateLocalAccessTokenResponse(user.UserName);
+
+            loadUserProfile(provider, verifiedAccessToken, accessTokenResponse);
+
+
+            return Ok(accessTokenResponse);
+        }
+
+        private static void loadUserProfile(string provider, ParsedExternalAccessToken verifiedAccessToken, JObject accessTokenResponse)
+        {
+            if (provider == LinkedIn)
+            {
+                accessTokenResponse.Add("userProfile", JToken.FromObject(verifiedAccessToken.userProfile));
+            }
+            //if (provider == GitHub)
+            //{
+            //    accessTokenResponse.Add("githubUserProfile", JToken.FromObject(verifiedAccessToken.githubUserProfile));
+            //}
+            //if (provider == StackExchange)
+            //{
+            //    accessTokenResponse.Add("stackexchangeUserProfile", JToken.FromObject(verifiedAccessToken.stackexchangeUserProfile));
+            //}
+            //if (provider == Twitter)
+            //{
+            //    accessTokenResponse.Add("twitterUserProfile", JToken.FromObject(verifiedAccessToken.twitterUserProfile));
+            //}
+        }
+
+        private IAuthenticationManager AuthenticationManager
+        {
+            get
+            {
+                return HttpContext.Current.GetOwinContext().Authentication;
             }
         }
 
-        #endregion
+        private async Task StoreAuthTokenClaims(IdentityUser user)
+        {
+            var claimsIdentity = await AuthenticationManager.GetExternalIdentityAsync(DefaultAuthenticationTypes.ExternalCookie);
+
+            if (claimsIdentity != null && user != null)
+            {
+                // Retrieve the existing claims
+                var currentClaims = await _repo.GetClaimsAsync(user.Id);
+
+                // Get the list of access token related claims from the identity
+                var tokenClaims = claimsIdentity.Claims.Where(c => c.Type.Equals("ExternalAccessToken")
+                    || c.Type.StartsWith("urn:stripe:refreshToken"));
+
+                // Save the access token related claims
+                foreach (var tokenClaim in tokenClaims)
+                {
+                    if (currentClaims.FirstOrDefault(c => c.Type == tokenClaim.Type) == null)
+                    {
+                        await _repo.AddClaimAsync(user.Id, tokenClaim);
+                    }
+                }
+            }
+
+        }
     }
 }

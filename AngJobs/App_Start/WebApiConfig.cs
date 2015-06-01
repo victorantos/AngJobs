@@ -29,6 +29,13 @@ namespace AngJobs
                 routeTemplate: "api/{controller}/{id}",//"api/{controller}/{action}/{id}", //routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            config.Routes.MapHttpRoute(
+              name: "RpcApi",
+                // it starts with "services" as the path prefix 
+              routeTemplate: "services/{controller}/{action}/{id}",
+               defaults: new { id = RouteParameter.Optional }
+            );
         }
     }
 }
