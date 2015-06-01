@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngJobs", "AngJobs\AngJobs.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngJobs.Android", "AngJobs.Android\AngJobs.Android.csproj", "{8E6A64CF-209E-4790-BAE3-A10CE4B76B28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owin.Security.Providers", "Owin.Security.Providers\Owin.Security.Providers.csproj", "{6AD9BA00-1330-426D-8BAE-2D3BC0D976E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8E6A64CF-209E-4790-BAE3-A10CE4B76B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E6A64CF-209E-4790-BAE3-A10CE4B76B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E6A64CF-209E-4790-BAE3-A10CE4B76B28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AD9BA00-1330-426D-8BAE-2D3BC0D976E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD9BA00-1330-426D-8BAE-2D3BC0D976E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD9BA00-1330-426D-8BAE-2D3BC0D976E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD9BA00-1330-426D-8BAE-2D3BC0D976E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

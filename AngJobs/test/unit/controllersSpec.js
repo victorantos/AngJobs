@@ -2,7 +2,7 @@
     beforeEach(module('home'));
     it('should have sorting order descending', inject(function ($controller) {
         var scope = {},
-            jobsList = [];
+        jobsList = [];
         ctrl = $controller('homeCtrl', { $scope: scope, 'jobsList': jobsList });
      
         //tODO first make sure we do actually sort the home page jobs list?

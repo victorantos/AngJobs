@@ -329,6 +329,12 @@
   <ItemGroup>
     <Content Include="Assets\app\utils\utils.service.js" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Owin.Security.Providers\Owin.Security.Providers.csproj">
+      <Project>{6ad9ba00-1330-426d-8bae-2d3bc0d976e4}</Project>
+      <Name>Owin.Security.Providers</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
