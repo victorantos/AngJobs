@@ -27,13 +27,17 @@ Todo
 + Import more jobs from external providers/api
 + Find and import some "remote jobs" providers from here https://github.com/lukasz-madon/awesome-remote-job
 + [Client side testing(unit test and e2e tests)](https://docs.angularjs.org/guide/unit-testing)
++ integrate the [Me-Api](https://github.com/danfang/me-api). Explore developers
++
 
+**Other tasks**
++ Setup a continuous delivery service - build server
 
 Future plans
 ==
 +  Apply for jobs while offline(on the train). Use service worker?
 +  Introduce typescript?
-+  Android app based on phonegap/ionic frameworks
++  [Android app](https://play.google.com/store/apps/details?id=com.AngJobs.app) based on phonegap/ionic frameworks
 +  IOS app based on phonegap/ionic frameworks
 
 Frameworks used or willing to use
@@ -62,5 +66,6 @@ Run tests
 ==
 To run unit tests use this command at your command prompt:
 
-AngJobs\AngJobs>karma start test/karma.conf.js
+AngJobs\AngJobs>**karma start test/karma.conf.js**
 
+![](https://dl.dropboxusercontent.com/u/45940875/Angjobs/tests-karma-angjobs.jpg)
