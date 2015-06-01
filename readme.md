@@ -30,7 +30,7 @@ Todo
 + integrate the [Me-Api](https://github.com/danfang/me-api). Explore developers
 +
 
-Other tasks
+**Other tasks**
 + Setup a continuous delivery service - build server
 
 Future plans
@@ -66,5 +66,5 @@ Run tests
 ==
 To run unit tests use this command at your command prompt:
 
-AngJobs\AngJobs>karma start test/karma.conf.js
+AngJobs\AngJobs>**karma start test/karma.conf.js**
 
