@@ -68,3 +68,4 @@ To run unit tests use this command at your command prompt:
 
 AngJobs\AngJobs>**karma start test/karma.conf.js**
 
+![](https://dl.dropboxusercontent.com/u/45940875/Angjobs/tests-karma-angjobs.jpg)
