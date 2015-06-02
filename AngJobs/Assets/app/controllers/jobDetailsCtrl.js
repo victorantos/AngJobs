@@ -64,12 +64,12 @@
                                     skills: $scope.applicant.skills,
                                     experience: $scope.applicant.experience,
                                     message: $scope.applicant.message,
-                                    jobPostId: $scope.details.id,
+                                    jobPostId: $scope.details.Id,
                                     cvGuid : $scope.attachedCvId
                                 };
 
                             if ($scope.applicant.email != '') {
-                                $http.post('/api/Jobs/ApplyForJob', item)
+                                $http.post('/api/JobApplications/Apply', item)
                                     .success(function (data, status, headers, config) {
                                         // todo redirect to thank you state
 

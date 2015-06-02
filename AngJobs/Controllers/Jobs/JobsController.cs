@@ -54,16 +54,6 @@ namespace AngJobs.Controllers.Jobs
             }
         }
 
-        //[HttpGet]
-        //[Authorize]
-        //public List<JobApplication> GetUserJobApplications()
-        //{
-        //    string userId = Request.GetOwinContext().Authentication.User.Identity.GetUserId();
-
-        //    var currentUser = UserManager.FindById(userId);
-        //    return currentUser.jobApplications;
-        //}
-
         [ApiExplorerSettings(IgnoreApi = false)]
         [HttpPost]
         public HttpResponseMessage PostJob(JobPostViewModel item)
@@ -108,73 +98,5 @@ namespace AngJobs.Controllers.Jobs
                 return Request.CreateResponse<List<string>>(HttpStatusCode.BadRequest, errors);
             }
         }
-
-        //TODO move this to a diffrent controller
-        //[HttpPost]
-        //public HttpResponseMessage ApplyforJob(TodoItemViewModel item)
-        //{
-        //    var modelStateErrors = ModelState.Values.ToList();
-
-        //    List<string> errors = new List<string>();
-
-        //    foreach (var s in modelStateErrors)
-        //        foreach (var e in s.Errors)
-        //            if (e.ErrorMessage != null && e.ErrorMessage.Trim() != "")
-        //                errors.Add(e.ErrorMessage);
-
-        //    if (errors.Count == 0)
-        //    {
-        //        try
-        //        {
-        //            string userId = Request.GetOwinContext().Authentication.User.Identity.GetUserId();
-
-        //            var currentUser = UserManager.FindById(userId);
-        //            currentUser.jobApplications.Add(new JobApplication()
-        //            {
-        //                //TODO
-        //            });
-
-        //            UserManager.Update(currentUser);
-        //            return Request.CreateResponse(HttpStatusCode.Accepted);
-        //        }
-        //        catch
-        //        {
-        //            return Request.CreateResponse(HttpStatusCode.InternalServerError);
-        //        }
-        //    }
-        //    else
-        //    {
-        //        return Request.CreateResponse<List<string>>(HttpStatusCode.BadRequest, errors);
-        //    }
-
-        //    var user = db.Users.Where(u => u.firstName == "Test").FirstOrDefault();
-        //}
-
-        //[HttpPost]
-        //[Authorize]
-        //async public Task<HttpResponseMessage> CompleteTodoItem(int id)
-        //{
-        //    var item = db.todos.Where(t => t.id == id).FirstOrDefault();
-        //    if (item != null)
-        //    {
-        //        item.completed = true;
-        //        await db.SaveChangesAsync();
-        //    }
-        //    return Request.CreateResponse(HttpStatusCode.Accepted);
-        //}
-
-        //[HttpPost]
-        //[Authorize]
-        //async public Task<HttpResponseMessage> DeleteTodoItem(int id)
-        //{
-        //    var item = db.todos.Where(t => t.id == id).FirstOrDefault();
-        //    if (item != null)
-        //    {
-        //        db.todos.Remove(item);
-        //        await db.SaveChangesAsync();
-        //    }
-        //    return Request.CreateResponse(HttpStatusCode.Accepted);
-        //}
-
     }
 }

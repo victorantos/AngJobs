@@ -1,7 +1,9 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace AngJobs.Models
@@ -25,6 +27,11 @@ namespace AngJobs.Models
         public string Ip { get; set; }
         public DateTime DateCreated { get; set; }
 
+        [JsonIgnore]
+        [IgnoreDataMember]
+        public virtual User User { get; set; }
+        [JsonIgnore]
+        [IgnoreDataMember]
         public virtual JobPost JobPost { get; set; }
     }
 }

@@ -55,5 +55,9 @@ namespace AngJobs.Controllers
         {
             return PartialView();
         }
+        public ActionResult JobApplyLinkedIn()
+        {
+            return PartialView();
+        }
     }
 }

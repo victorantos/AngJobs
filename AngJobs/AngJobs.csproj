@@ -172,7 +172,9 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ApiBaseController.cs" />
     <Compile Include="Controllers\AppController.cs" />
+    <Compile Include="Controllers\Jobs\JobApplicationsController.cs" />
     <Compile Include="Controllers\Jobs\PermanentJobsController.cs" />
     <Compile Include="Controllers\Jobs\ContractsJobsController.cs" />
     <Compile Include="Controllers\Jobs\PromotedJobsController.cs" />
@@ -194,6 +196,7 @@
     <Compile Include="Models\ExternalLogin\Client.cs" />
     <Compile Include="Models\ExternalLogin\ExternalLoginModels.cs" />
     <Compile Include="Models\ExternalLogin\RefreshToken.cs" />
+    <Compile Include="Models\JobApplicationViewModel.cs" />
     <Compile Include="Models\JobPostViewModel.cs" />
     <Compile Include="Models\Jobs\JobApplication.cs" />
     <Compile Include="Models\Jobs\JobPost.cs" />
@@ -360,6 +363,9 @@
       <Project>{6ad9ba00-1330-426d-8bae-2d3bc0d976e4}</Project>
       <Name>Owin.Security.Providers</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\App\JobApplyLinkedIn.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
