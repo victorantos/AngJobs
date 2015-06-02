@@ -18,7 +18,7 @@
     };
     
     factory.get = function (jobId) {
-        var path = '/api/Jobs/GetJobDetails';
+        var path = basePath + '/api/Jobs/GetJobDetails';
         var detail = $http.get(path, {
             params: { id: jobId }
         }).then(function (resp) {

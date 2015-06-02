@@ -41,6 +41,9 @@ angular.module('starter.controllers', [])
         window.open('http://angjobs.com/#!/jobdetails/' +  jobId);
     }
 })
+.controller('JobCtrl', ['$scope','job', function ($scope, job) {
+    $scope.details = job;
+    }])
 
 .controller('HomeCtrl', function($scope, $stateParams) {
 });

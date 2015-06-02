@@ -1,7 +1,7 @@
 <ion-view view-title="Jobs">
     <ion-content>
         <ion-list>
-            <ion-item ng-repeat="playlist in playlists" href="#/app/jobs/{{playlist.id}}">
+            <ion-item ng-repeat="playlist in playlists" ng-href="#/app/jobs/{{playlist.id}}">
                 <a href="javascript:void(0);" ng-click="openJob(playlist.id);">
                     {{playlist.jobTitle}}
                 </a>

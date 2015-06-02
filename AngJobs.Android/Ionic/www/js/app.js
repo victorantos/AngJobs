@@ -60,11 +60,17 @@ angular.module('starter', [
     })
 
   .state('app.single', {
-    url: "/jobs/:playlistId",
+      url: "/jobs/:playlistId",
+      resolve: {
+          job: ['jobs', '$stateParams',
+           function (jobs, $stateParams) {
+               return jobs.get($stateParams.playlistId);
+           }]
+      },
     views: {
       'menuContent': {
         templateUrl: "templates/job.html",
-        controller: 'JobsCtrl'
+        controller: 'JobCtrl'
       }
     }
   });
