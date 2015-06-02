@@ -39,6 +39,7 @@ Future plans
 +  Introduce typescript?
 +  [Android app](https://play.google.com/store/apps/details?id=com.AngJobs.app) based on phonegap/ionic frameworks
 +  IOS app based on phonegap/ionic frameworks
++  Provide an Api. GET jobs, job applications. POST job, resume.
 
 Frameworks used or willing to use
 ==
