@@ -7,6 +7,10 @@ namespace AngJobs.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
     using AngJobs.Helper;
+    using System.IO;
+    using System.Web;
+    using System.Reflection;
+    using System.Web.Hosting;
 
     internal sealed class Configuration : DbMigrationsConfiguration<AngJobs.Models.DBContext>
     {
@@ -35,7 +39,31 @@ namespace AngJobs.Migrations
                 context.Clients.AddRange(BuildClientsList());
             }
 
+            var recruitersSeedFile = MapPath("~/App_Data/recruiters.json");
+            if (File.Exists(recruitersSeedFile))
+                using (var streamReader = new StreamReader(recruitersSeedFile))
+                {
+                    string content = streamReader.ReadToEnd();
+                    var list = Newtonsoft.Json.JsonConvert.DeserializeObject<List<string>>(content);
+                    context.recruiters.AddOrUpdate(
+                        r => r.Website,
+                           list.Select(l => new Recruiter { Website = l }).ToArray()
+                        );
+                }
 
+        }
+
+
+        private string MapPath(string seedFile)
+        {
+            if (HttpContext.Current != null)
+                return HostingEnvironment.MapPath(seedFile);
+
+            var absolutePath = new Uri(Assembly.GetExecutingAssembly().CodeBase).AbsolutePath;
+            var directoryName = Path.GetDirectoryName(absolutePath);
+            var path = Path.Combine(directoryName, ".." + seedFile.TrimStart('~').Replace('/', '\\'));
+
+            return path;
         }
 
         private static List<Client> BuildClientsList()
