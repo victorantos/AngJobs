@@ -190,6 +190,10 @@
     <Compile Include="Migrations\201506011545430_addedExternalAuth.Designer.cs">
       <DependentUpon>201506011545430_addedExternalAuth.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201506041617175_addedREcruiters.cs" />
+    <Compile Include="Migrations\201506041617175_addedREcruiters.Designer.cs">
+      <DependentUpon>201506041617175_addedREcruiters.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ExternalLogin\ApplicationTypes.cs" />
     <Compile Include="Models\ExternalLogin\AuthRepository.cs" />
@@ -210,6 +214,7 @@
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\DataModels.cs" />
+    <Compile Include="Models\Recruiters\Recruiter.cs" />
     <Compile Include="Models\TodoItemViewModel.cs" />
     <Compile Include="Controllers\Utility\ModelErrorChecker.cs" />
     <Compile Include="Models\UserModel.cs" />
@@ -287,9 +292,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="Assets\bootstrap\css\bootstrap-theme.css.map" />
@@ -340,6 +343,9 @@
     <EmbeddedResource Include="Migrations\201506011545430_addedExternalAuth.resx">
       <DependentUpon>201506011545430_addedExternalAuth.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201506041617175_addedREcruiters.resx">
+      <DependentUpon>201506041617175_addedREcruiters.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Content Include="bower_components\font-awesome\fonts\fontawesome-webfont.eot" />
@@ -366,6 +372,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\App\JobApplyLinkedIn.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\recruiters.json" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -10,6 +10,7 @@ using System.Web;
 
 using System.Data.Entity;
 using System.Data.Entity.Migrations;
+using System.IO;
 
 namespace AngJobs.Models
 {
@@ -58,6 +59,8 @@ namespace AngJobs.Models
         public DbSet<JobPost> jobPosts { get; set; }
         public DbSet<Client> Clients { get; set; }
         public DbSet<RefreshToken> RefreshTokens { get; set; }
+
+        public DbSet<Recruiter> recruiters{ get; set; }
     }
 
     //This function will ensure the database is created and seeded with any default data.
@@ -84,9 +87,9 @@ namespace AngJobs.Models
            {
                JobTitle = "Technical Lead - Startup - London",
                JobDescription = "Full Stack Technical Lead - Startup - London - £75000 - 95000 per annum, + Equity",
-
            }
          );
+
         }
     }
 }
