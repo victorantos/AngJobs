@@ -19,6 +19,7 @@ Mobile app
 Todo
 ===
 +  Jobs list on the homepage
++  Create a recruiters page and list all 400+ recruiters from DB
 +  Create a simple jobs table
 +  Create a jobs applied for table
 +  Jobs detail page
