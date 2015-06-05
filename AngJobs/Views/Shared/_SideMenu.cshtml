@@ -16,6 +16,47 @@
             </a>
         </li>
     </ul>
+    <div class="hidden-xs">
+        <hr />
+        <div style="padding-bottom:10px;">Filters <a ui-sref="jobs.jobType({jobType: jobType})" class="btn-link" ng-show="searchBy" style="white-space: nowrap; ">| Clear all</a></div>
+        <ul class="nav nav-pills nav-stacked nav-sm search-filters">
+            <li>
+                <div class="text-1-l">
+
+                    <a href="/#!/jobs/{{searchBy.jobType ? searchBy.jobType : 'inbox'}}/london">
+                        <i class="fa fa-fw fa-circle text-muted" ng-class="searchBy && searchBy.jobLocation == 'london' ? 'text-active' : 'text-muted'"></i>
+                        London, UK
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="text-1-l">
+                    <a href="/#!/jobs/{{searchBy.jobType ? searchBy.jobType : 'inbox'}}/us">
+                        <i class="fa fa-fw fa-circle text-muted" ng-class="searchBy && searchBy.jobLocation == 'us' ? 'text-active' : 'text-muted'"></i>
+                        US
+                    </a>
+                </div>
+            </li>
+            <li ng-repeat="f in myFilters">
+                <div class="text-1-l">
+                    <button class="btn-link" ng-show="searchBy == decodeUriComponent(f)" ng-click="removeFilter($index)"><i class="fa fa-fw fa-remove"></i></button>
+                    <a href="{{ '/#!/jobs/filter/' +f}}">
+                        <i class="fa fa-fw fa-circle text-muted" ng-hide="searchBy == decodeUriComponent(f)" ng-class="searchBy == decodeUriComponent(f) ? 'text-active' : 'text-muted'"></i>
+                        <span ng-bind="decodeUriComponent(f)"></span>
+                    </a>
+                </div>
+            </li>
+        </ul>
+        <form name="label" class="ng-invalid-required" ng-submit="addFilter()">
+            <div class="input-group">
+                <input type="text" class="form-control input-sm" ng-model="filter.myNewFilter" placeholder="Add filter" required="">
+                <span class="input-group-btn">
+                    <button class="btn btn-sm btn-default" type="button" ng-click="addFilter()" ng-disabled="label.$invalid" disabled="disabled">Add</button>
+                </span>
+            </div>
+        </form>
+        <span ng-model="query"></span>
+    </div>
 </div>
 
 

@@ -263,6 +263,8 @@
     <Content Include="bower_components\angular-resource\angular-resource.min.js" />
     <Content Include="bower_components\angular-ui-router\release\angular-ui-router.min.js" />
     <Content Include="bower_components\angular\angular.min.js" />
+    <Content Include="bower_components\components-font-awesome\css\font-awesome.min.css" />
+    <Content Include="bower_components\components-font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="bower_components\font-awesome\css\font-awesome.min.css" />
     <Content Include="bower_components\font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="bower_components\rangy\rangy-core.min.js" />
@@ -292,7 +294,13 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="bower_components\components-font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="bower_components\components-font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="bower_components\components-font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="bower_components\components-font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="bower_components\components-font-awesome\fonts\FontAwesome.otf" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="Assets\bootstrap\css\bootstrap-theme.css.map" />
