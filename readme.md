@@ -19,16 +19,22 @@ Mobile app
 Todo
 ===
 +  Jobs list on the homepage
++  Create a recruiters page and list all 400+ recruiters from DB
 +  Create a simple jobs table
 +  Create a jobs applied for table
++  add a Filters section on the side menu
 +  Jobs detail page
 +  **Upload resume functionality**
 + Add  /feed.rss endpoint with latest jobs
 + Import more jobs from external providers/api
++ Import jobs from Hacker News this is the json https://github.com/gaganpreet/hn-hiring-mapped/blob/gh-pages/src/web/data/2015-06.json
 + Find and import some "remote jobs" providers from here https://github.com/lukasz-madon/awesome-remote-job
 + [Client side testing(unit test and e2e tests)](https://docs.angularjs.org/guide/unit-testing)
 + integrate the [Me-Api](https://github.com/danfang/me-api). Explore developers
 + add angular-cache 
+
+**Mobile app**
++ arrange/format content on job details screen
 
 **Other tasks**
 + Setup a continuous delivery service - build server
