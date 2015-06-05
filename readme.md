@@ -31,6 +31,9 @@ Todo
 + integrate the [Me-Api](https://github.com/danfang/me-api). Explore developers
 + add angular-cache 
 
+**Mobile app**
++ arrange/format content on job details screen
+
 **Other tasks**
 + Setup a continuous delivery service - build server
 
