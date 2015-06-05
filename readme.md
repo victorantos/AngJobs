@@ -10,7 +10,7 @@ UI
 This job board wants to be like the Gmail app, responsive, fast and easy to use. 
 
 
-![](https://angjobs.com/angjobs-demo-inbox.jpg)
+![](https://angjobs.com/github-angjobs-printscreen.jpg)
 
 Mobile app
 ==
