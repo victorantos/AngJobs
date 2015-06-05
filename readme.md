@@ -22,6 +22,7 @@ Todo
 +  Create a recruiters page and list all 400+ recruiters from DB
 +  Create a simple jobs table
 +  Create a jobs applied for table
++  add a Filters section on the side menu
 +  Jobs detail page
 +  **Upload resume functionality**
 + Add  /feed.rss endpoint with latest jobs
