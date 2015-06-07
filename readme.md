@@ -23,8 +23,9 @@ Todo
 +  Create a simple jobs table
 +  Create a jobs applied for table
 +  Create an API page
-+  add a Filters section on the side menu
-+  Jobs detail page
++  Add a Filters section on the side menu
++  Mark jobs posts as read, that can be done by removing the bold font
++  ~~Jobs detail page~~
 +  **Upload resume functionality**
 + Add  /feed.rss endpoint with latest jobs
 + Import more jobs from external providers/api
