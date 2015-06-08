@@ -44,6 +44,7 @@ Todo
 Future plans
 ==
 +  Apply for jobs while offline(on the train). Use service worker?
++  Make the web app embeddable, like a js widget
 +  Introduce typescript?
 +  [Android app](https://play.google.com/store/apps/details?id=com.AngJobs.app) based on phonegap/ionic frameworks
 +  IOS app based on phonegap/ionic frameworks
