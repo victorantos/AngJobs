@@ -22,8 +22,10 @@ Todo
 +  Create a recruiters page and list all 400+ recruiters from DB
 +  Create a simple jobs table
 +  Create a jobs applied for table
-+  add a Filters section on the side menu
-+  Jobs detail page
++  Create an API page
++  Add a Filters section on the side menu
++  Mark jobs posts as read, that can be done by removing the bold font
++  ~~Jobs detail page~~
 +  **Upload resume functionality**
 + Add  /feed.rss endpoint with latest jobs
 + Import more jobs from external providers/api
@@ -42,6 +44,7 @@ Todo
 Future plans
 ==
 +  Apply for jobs while offline(on the train). Use service worker?
++  Make the web app embeddable, like a js widget
 +  Introduce typescript?
 +  [Android app](https://play.google.com/store/apps/details?id=com.AngJobs.app) based on phonegap/ionic frameworks
 +  IOS app based on phonegap/ionic frameworks
