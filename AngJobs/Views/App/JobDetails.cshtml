@@ -6,7 +6,7 @@
 
 <div class="job-details">
     <div class="wrapper b-b">
-        <h3 class="font-thin m-n">{{details.Title}} <small ng-show="details.tagline"><br />{{details.tagline}}</small></h3>
+        <h3 class="font-thin m-n">{{details.jobTitle}} <small ng-show="details.tagline"><br />{{details.tagline}}</small></h3>
     </div>
     <div class="wrapper b-b">
 
@@ -18,7 +18,7 @@
             <span am-time-ago="details.dateCreated"></span>
         </div>
     </div>
-    <div class="wrapper" ng-bind-html="details.Description">
+    <div class="wrapper" ng-bind-html="details.jobDescription">
     </div>
     <div class="wrapper" ng-show="details.sourceReference">
         Source: <a href="{{details.sourceReference}}" target="_blank" title="Imported Angular.Js job source">{{details.sourceReference}}</a>
