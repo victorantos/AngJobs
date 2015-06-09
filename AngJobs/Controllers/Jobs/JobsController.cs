@@ -19,10 +19,16 @@ namespace AngJobs.Controllers.Jobs
         [HttpGet]
         public object Get()
         {
-            var jobs = db.jobPosts.Select(j => new JobModel { Id = j.Id, Title = j.JobTitle, Description = j.JobDescription });
-            var sample = new List<JobModel>{
-                new JobModel{ Title = "Job title 1", Description = "Job description 1"},
-                 new JobModel{ Title = "Job title 2", Description = "Job description 2"}
+            var jobs = db.jobPosts.Select(j => new JobPostViewModel
+            {
+                id = j.Id,
+                jobTitle = j.JobTitle,
+                jobDescription = j.JobDescription,
+                sourceReference = j.SourceReference
+            });
+            var sample = new List<JobPostViewModel>{
+                new JobPostViewModel{ jobTitle = "Job title 1", jobDescription = "Job description 1"},
+                 new JobPostViewModel{ jobTitle = "Job title 2", jobDescription = "Job description 2"}
             };
 
             if (jobs.Any())
@@ -36,7 +42,7 @@ namespace AngJobs.Controllers.Jobs
         {
             var job = db.jobPosts.Where(c => c.Id == jobId);
 
-            return job.Select(j => new JobModel { Id = j.Id, Title = j.JobTitle, Description = j.JobDescription }).SingleOrDefault();
+            return job.Select(j => new JobPostViewModel { id = j.Id, jobTitle = j.JobTitle, jobDescription = j.JobDescription }).SingleOrDefault();
         }
 
         public RoleManager<IdentityRole> RoleManager { get; private set; }

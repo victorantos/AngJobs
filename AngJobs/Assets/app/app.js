@@ -17,7 +17,9 @@
     'contractsJobs.resource',
     'permanentJobs.resource',
     'utils.service',
-    'login'
+    'login',
+    'jobs',
+    'main'
 ]);
 
 
@@ -34,7 +36,7 @@ app.config(['$provide', '$urlRouterProvider', '$httpProvider', '$stateProvider',
     // Routes
     //================================================
 
-    $urlRouterProvider.when('/', '/home');
+    //$urlRouterProvider.when('/', '/home');
 
 
 
@@ -130,7 +132,7 @@ app.config(['$provide', '$urlRouterProvider', '$httpProvider', '$stateProvider',
     
     $urlRouterProvider.otherwise(function ($injector, $location) {
         var $state = $injector.get("$state");
-        $state.go("home");
+      //  $state.go("home");
     })
 
 }]);

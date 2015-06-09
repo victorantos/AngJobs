@@ -1,0 +1,31 @@
+﻿<div ui-view></div>
+
+<div class="wrapper" ng-hide="jobsList!= null && jobsList.length > 0">
+    <span ng-show="jobsList == null">Loading...</span>
+    <span ng-show="jobsList!= null && jobsList.length == 0">
+        Your jobs list is empty.
+        Please <a ui-sref="postjob" style="text-decoration:underline;">post a job</a>. Thank you!
+    </span>
+</div>
+
+<ul class="list-group list-group-lg no-radius">
+    <li class="list-group-item clearfix " ng-repeat="job in filteredItems = (jobsList | filter : searchBy)">
+        <a class="hidden-xs pull-left thumb" href="#/jobdetails/{{job.id}}">
+            <span style="font-size:30px;" title="{{(job.recruiterName ? job.recruiterName: 'Job')  + (job.isHot ? ' - [H]ot angularjs role':   '') }}">{{job.recruiterName == "StackOverflow" ? 'S': (job.isHot ? 'H':   'J')}}</span>
+        </a>
+        <div class="pull-right text-sm text-muted">
+            <span class="hidden-xs">{{job.salaryMin ? '£'+job.salaryMin : ''}} {{job.salaryType ? 'per '+job.salaryType : ''}}</span>
+        </div>
+        <a class="clear short-desc" href="#/jobdetails/{{job.id}}">
+            <div>
+                <span class="text-md">{{job.jobTitle}}</span>
+                <span class="label bg-light">{{job.salaryNote}}</span>
+            </div>
+            <div class="text-2-l">
+                {{job.shortDescription}}
+            </div>
+        </a>
+    </li>
+</ul>
+<div class="wrapper" ng-hide="filteredItems.length || jobsList.length==0">No jobs found.</div>
+
