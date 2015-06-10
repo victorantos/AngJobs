@@ -76,7 +76,8 @@ namespace AngJobs.Models
                JobTitle = "Senior Front End/JavaScript Developer - £60k - ReactJS",
                JobDescription = "My customer started his business when he was 15 from home and it has since become the world leader in their field. Still running the company from the top and with a recent investment from one of the worlds largest .coms he is looking to expand the business even further and is so doubling the team his London based team.",
                IsOnFrontPage = true,
-               JobType = "permanent"
+               JobType = "permanent",
+               JobLocation = "London"
            },
            new JobPost
            {
@@ -91,7 +92,8 @@ namespace AngJobs.Models
                JobTitle = "Technical Lead - Startup - London",
                JobDescription = "Full Stack Technical Lead - Startup - London - £75000 - 95000 per annum, + Equity",
                SourceReference = "hn",
-               JobType = "permanent"
+               JobType = "permanent",
+               JobLocation = "San Francisco"
            }
          );
         }

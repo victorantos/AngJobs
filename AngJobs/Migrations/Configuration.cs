@@ -52,8 +52,32 @@ namespace AngJobs.Migrations
                 }
 
             //Make sure we have a variety of job types
-
             EnsureJobTypes(context);
+
+            //Make sure we have a variety of job locations
+            EnsureJobLocations(context);
+        }
+
+        private void EnsureJobLocations(DBContext context)
+        {
+            const string london = "London";
+            const string sanFrancisco = "San Francisco";
+
+            var lon = context.jobPosts.FirstOrDefault(jp => jp.JobLocation.Equals(london, StringComparison.InvariantCultureIgnoreCase));
+            var san = context.jobPosts.FirstOrDefault(jp => jp.JobLocation.Equals(sanFrancisco, StringComparison.InvariantCultureIgnoreCase));
+
+            if (lon == null)
+            {
+                var p = context.jobPosts.FirstOrDefault();
+                p.JobLocation = london;
+                context.SaveChanges();
+            }
+            if (san == null)
+            {
+                var c = context.jobPosts.OrderByDescending(j => j.Id).FirstOrDefault();
+                c.JobLocation = sanFrancisco;
+                context.SaveChanges();
+            }
         }
 
         private static void EnsureJobTypes(AngJobs.Models.DBContext context)
@@ -71,7 +95,7 @@ namespace AngJobs.Migrations
             }
             if (contr == null)
             {
-                var c = context.jobPosts.OrderBy(j=>j.Ip).FirstOrDefault();
+                var c = context.jobPosts.OrderByDescending(j=>j.Id).FirstOrDefault();
                 c.JobType = contract;
                 context.SaveChanges();
             }

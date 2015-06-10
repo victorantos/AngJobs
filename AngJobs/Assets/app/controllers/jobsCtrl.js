@@ -46,13 +46,23 @@
                 controller: ['$scope', '$rootScope', '$http', '$location', '$stateParams', '$state',
                      function ($scope, $rootScope, $http, $location, $stateParams, $state) {
                          $scope.$parent.searchBy = {};
-                         if ($stateParams.jobType != "inbox")
-                             $scope.$parent.searchBy.jobType = $stateParams.jobType;
+                         var jobType = $stateParams.jobType;
+                         var jobLocation = $stateParams.location;
+
+                         if (jobLocation == "san-francisco")
+                             jobLocation = "San Francisco";
+
+                         if (jobLocation == "london")
+                             jobLocation = "London";
+
+                         if (jobType == "contract" || jobType == "permanent")
+                             $scope.$parent.searchBy.jobType = jobType;
+                        
                          if ($stateParams.location == 'hn') {
                              $scope.$parent.searchBy.sourceReference = 'hn';
                          }
                          else {
-                             $scope.$parent.searchBy.jobLocation = $stateParams.location;
+                             $scope.$parent.searchBy.jobLocation = jobLocation;
                          }
                      }]})
         }])

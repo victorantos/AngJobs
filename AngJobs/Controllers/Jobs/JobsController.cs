@@ -25,7 +25,8 @@ namespace AngJobs.Controllers.Jobs
                 jobTitle = j.JobTitle,
                 jobDescription = j.JobDescription,
                 sourceReference = j.SourceReference,
-                jobType = j.JobType
+                jobType = j.JobType,
+                jobLocation = j.JobLocation
             });
             var sample = new List<JobPostViewModel>{
                 new JobPostViewModel{ jobTitle = "Job title 1", jobDescription = "Job description 1"},
