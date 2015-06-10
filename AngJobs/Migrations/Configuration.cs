@@ -51,6 +51,30 @@ namespace AngJobs.Migrations
                         );
                 }
 
+            //Make sure we have a variety of job types
+
+            EnsureJobTypes(context);
+        }
+
+        private static void EnsureJobTypes(AngJobs.Models.DBContext context)
+        {
+            const string permanent = "permanent";
+            const string contract = "contract";
+            var perm = context.jobPosts.FirstOrDefault(jp => jp.JobType.Equals(permanent, StringComparison.InvariantCultureIgnoreCase));
+            var contr = context.jobPosts.FirstOrDefault(jp => jp.JobType.Equals(contract, StringComparison.InvariantCultureIgnoreCase));
+
+            if (perm == null)
+            {
+                var p = context.jobPosts.FirstOrDefault();
+                p.JobType = permanent;
+                context.SaveChanges();
+            }
+            if (contr == null)
+            {
+                var c = context.jobPosts.OrderBy(j=>j.Ip).FirstOrDefault();
+                c.JobType = contract;
+                context.SaveChanges();
+            }
         }
 
 

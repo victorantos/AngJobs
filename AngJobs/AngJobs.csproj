@@ -198,6 +198,10 @@
     <Compile Include="Migrations\201506091008369_addedSourceRef.Designer.cs">
       <DependentUpon>201506091008369_addedSourceRef.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201506101344404_addedJobType.cs" />
+    <Compile Include="Migrations\201506101344404_addedJobType.Designer.cs">
+      <DependentUpon>201506101344404_addedJobType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ExternalLogin\ApplicationTypes.cs" />
     <Compile Include="Models\ExternalLogin\AuthRepository.cs" />
@@ -239,7 +243,7 @@
     <Content Include="Assets\app\controllers\mainCtrl.js" />
     <Content Include="Assets\app\controllers\postJobCtrl.js" />
     <Content Include="Assets\app\controllers\aboutCtrl.js" />
-    <Content Include="Assets\app\controllers\contractsCtrl.js" />
+    <Content Include="Assets\app\controllers\contractCtrl.js" />
     <Content Include="Assets\app\controllers\developersCtrl.js" />
     <Content Include="Assets\app\controllers\employersCtrl.js" />
     <Content Include="Assets\app\controllers\homeCtrl.js" />
@@ -338,7 +342,7 @@
     <Content Include="Views\App\About.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\App\Contracts.cshtml" />
+    <Content Include="Views\App\Contract.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\App\Developers.cshtml" />
@@ -361,6 +365,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201506091008369_addedSourceRef.resx">
       <DependentUpon>201506091008369_addedSourceRef.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201506101344404_addedJobType.resx">
+      <DependentUpon>201506101344404_addedJobType.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

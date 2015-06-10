@@ -19,6 +19,8 @@ namespace AngJobs.Models
         public string JobDescription { get; set; }
         [MaxLength(64)]
         public string JobLocation { get; set; }
+        [MaxLength(64)]
+        public string JobType { get; set; }
         public bool? IsDeleted { get; set; }
         public bool? IsOnFrontPage { get; set; }
 

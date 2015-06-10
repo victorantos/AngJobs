@@ -4,7 +4,7 @@
     'ngCookies',
     'LocalStorageModule',
     'home',
-    'contracts',
+    'contract',
     'inbox',
     'permanent',
     'about',
@@ -97,16 +97,16 @@ app.config(['$provide', '$urlRouterProvider', '$httpProvider', '$stateProvider',
        },
        controller: 'inboxCtrl'
    })
-    .state("contracts", {
-        url: "/contracts",
-        templateUrl: 'App/Contracts',
+    .state("contract", {
+        url: "/contract",
+        templateUrl: 'App/Contract',
         resolve: {
             contractsJobsResource: 'contractsJobsResource',
             jobsList: function (contractsJobsResource) {
                 return contractsJobsResource.query();
             }
         },
-        controller: 'contractsCtrl'
+        controller: 'contractCtrl'
     })
     .state("permanent", {
         url: "/permanent",

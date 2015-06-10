@@ -27,7 +27,7 @@ namespace AngJobs.Controllers
         {
             return PartialView();
         }
-        public ActionResult Contracts()
+        public ActionResult Contract()
         {
             return PartialView();
         }

@@ -17,7 +17,7 @@ namespace AngJobs.Models
 
                 id = entity.Id;
                 jobTitle = entity.JobTitle;
-               // jobType = entity.JobType;
+                jobType = entity.JobType;
                 jobDescription = entity.JobDescription;
               //  jobLocation = entity.Location;
               //  jobCountry = entity.Country;

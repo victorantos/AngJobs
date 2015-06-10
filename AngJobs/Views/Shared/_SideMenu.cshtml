@@ -1,18 +1,18 @@
 ﻿<div>
     <ul class="nav nav-pills nav-sm list-inline">
         <li ng-class="{ active: $state.is('jobs.jobType') && $stateParams.jobType=='inbox'}">
-            <a href="/#/inbox">
+            <a href="/#/jobs/inbox">
                 Inbox
             </a>
         </li>
         <li ng-class="activePath == '/permanent' || activePath.indexOf('/permanent')>=0 ? 'active': ''">
-            <a href="/#/permanent">
+            <a href="/#/jobs/permanent">
                 Permanent
             </a>
         </li>
-        <li ng-class="activePath == '/contracts' || activePath.indexOf('/contracts')>=0 ? 'active': ''">
-            <a href="/#/contracts">
-                Contracts
+        <li ng-class="activePath == '/contract' || activePath.indexOf('/contract')>=0 ? 'active': ''">
+            <a href="/#/jobs/contract">
+                Contract
             </a>
         </li>
     </ul>
