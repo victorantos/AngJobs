@@ -40,6 +40,7 @@ Todo
 
 **Other tasks**
 + Setup a continuous delivery service - build server
++ When posting a job, after Remote/Contract/Permanent button click focus on the next textbox
 
 Future plans
 ==
