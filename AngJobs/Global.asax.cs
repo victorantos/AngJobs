@@ -13,6 +13,7 @@ namespace AngJobs
     {
         protected void Application_Start()
         {
+            ImportJobs.Import.LoadHackerNewsFeed();
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
