@@ -7,7 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-namespace AngJobs.Results
+namespace Angjobs.Results
 {
     public class ChallengeResult : IHttpActionResult
     {

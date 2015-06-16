@@ -1,126 +1,98 @@
-namespace AngJobs.Migrations
+namespace Angjobs.Migrations
 {
-    using AngJobs.Models;
+    using Angjobs.Entities;
+    using Angjobs.ImportJobs;
+    using StripeEntities;
     using System;
     using System.Collections.Generic;
-    using System.Data.Entity;
+    using System.Data.Entity; 
+    using System.Data.Entity.Core.Objects;
     using System.Data.Entity.Migrations;
+    using System.Diagnostics;
     using System.Linq;
-    using AngJobs.Helper;
-    using System.IO;
-    using System.Web;
-    using System.Reflection;
-    using System.Web.Hosting;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<AngJobs.Models.DBContext>
+    public class Configuration : DbMigrationsConfiguration<Angjobs.Models.DBContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
+            AutomaticMigrationDataLossAllowed = true;
+            ContextKey = "Angjobs.Models.DBContext";
         }
 
-        protected override void Seed(AngJobs.Models.DBContext context)
+        protected override void Seed(Angjobs.Models.DBContext context)
         {
-            //  This method will be called after migrating to the latest version.
-
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data. E.g.
-            //
-            //    context.People.AddOrUpdate(
-            //      p => p.FullName,
-            //      new Person { FullName = "Andrew Peters" },
-            //      new Person { FullName = "Brice Lambson" },
-            //      new Person { FullName = "Rowan Miller" }
-            //    );
-
-
             if (context.Clients.Count() == 0)
             {
                 context.Clients.AddRange(BuildClientsList());
             }
 
-            var recruitersSeedFile = MapPath("~/App_Data/recruiters.json");
-            if (File.Exists(recruitersSeedFile))
-                using (var streamReader = new StreamReader(recruitersSeedFile))
+            AddSubscriptionPlan(context);
+
+            AddHackerNewsJobs(context);
+
+            context.SaveChanges();
+        }
+
+        private void AddHackerNewsJobs(Models.DBContext context)
+        {
+            var anyJobLastMonth = context.JobPosts.FirstOrDefault(j => j.SourceReference.Contains("news.ycombinator")
+                && DbFunctions.TruncateTime(j.SourcePostedDate).Value.Month == DbFunctions.TruncateTime(DateTime.UtcNow).Value.Month-1
+                && DbFunctions.TruncateTime(j.SourcePostedDate).Value.Year == DbFunctions.TruncateTime(DateTime.UtcNow).Value.Year);
+            if (anyJobLastMonth == null)
+            {
+                var lastMonthJobs = Import.LoadHackerNewsFeed(DateTime.UtcNow.AddMonths(-1));
+                if (lastMonthJobs.Any())
+                    context.JobPosts.AddRange(lastMonthJobs);
+            }
+
+            var anyJobThisMonth = context.JobPosts.FirstOrDefault(j => j.SourceReference.Contains("news.ycombinator")
+              && DbFunctions.TruncateTime(j.SourcePostedDate).Value.Month == DbFunctions.TruncateTime(DateTime.UtcNow).Value.Month
+              && DbFunctions.TruncateTime(j.SourcePostedDate).Value.Year == DbFunctions.TruncateTime(DateTime.UtcNow).Value.Year);
+            if (anyJobThisMonth == null)
+            {
+                var thisMonthJobs = Import.LoadHackerNewsFeed();
+                if (thisMonthJobs.Any())
+                    context.JobPosts.AddRange(thisMonthJobs);
+            }
+        }
+
+        private static void AddSubscriptionPlan(Angjobs.Models.DBContext context)
+        {
+            string paymentSystemId = "Up100PerMo";
+            if (context.SubscriptionPlans.FirstOrDefault(p => p.PaymentSystemId == paymentSystemId) == null)
+            {
+                var plan = new SubscriptionPlan();
+                plan.Description = "Up to 100 job applications - monthly plan";
+                plan.PaymentSystemId = paymentSystemId;
+                plan.Price = 3.99f;
+                plan.Currency = "gbp";
+                plan.State = SubscriptionPlan.SubscriptionState.Available;
+                plan.Title = "Up to 100 job applications per month";
+                plan.CreatedDateUtc = DateTime.UtcNow;
+                plan.IsSoftDeleted = false;
+
+                context.SubscriptionPlans.Add(plan);
+
+                try
                 {
-                    string content = streamReader.ReadToEnd();
-                    var list = Newtonsoft.Json.JsonConvert.DeserializeObject<List<string>>(content);
-                    context.recruiters.AddOrUpdate(
-                        r => r.Website,
-                           list.Select(l => new Recruiter { Website = l }).ToArray()
-                        );
+                    StripeManager.CreatePlan(plan);
                 }
+                catch (Exception ex)
+                {
 
-            //Make sure we have a variety of job types
-            EnsureJobTypes(context);
-
-            //Make sure we have a variety of job locations
-            EnsureJobLocations(context);
-        }
-
-        private void EnsureJobLocations(DBContext context)
-        {
-            const string london = "London";
-            const string sanFrancisco = "San Francisco";
-
-            var lon = context.jobPosts.FirstOrDefault(jp => jp.JobLocation.Equals(london, StringComparison.InvariantCultureIgnoreCase));
-            var san = context.jobPosts.FirstOrDefault(jp => jp.JobLocation.Equals(sanFrancisco, StringComparison.InvariantCultureIgnoreCase));
-
-            if (lon == null)
-            {
-                var p = context.jobPosts.FirstOrDefault();
-                p.JobLocation = london;
-                context.SaveChanges();
-            }
-            if (san == null)
-            {
-                var c = context.jobPosts.OrderByDescending(j => j.Id).FirstOrDefault();
-                c.JobLocation = sanFrancisco;
-                context.SaveChanges();
+                    Debug.WriteLine("Error:", ex.Message);
+                }
+              
             }
         }
-
-        private static void EnsureJobTypes(AngJobs.Models.DBContext context)
-        {
-            const string permanent = "permanent";
-            const string contract = "contract";
-            var perm = context.jobPosts.FirstOrDefault(jp => jp.JobType.Equals(permanent, StringComparison.InvariantCultureIgnoreCase));
-            var contr = context.jobPosts.FirstOrDefault(jp => jp.JobType.Equals(contract, StringComparison.InvariantCultureIgnoreCase));
-
-            if (perm == null)
-            {
-                var p = context.jobPosts.FirstOrDefault();
-                p.JobType = permanent;
-                context.SaveChanges();
-            }
-            if (contr == null)
-            {
-                var c = context.jobPosts.OrderByDescending(j=>j.Id).FirstOrDefault();
-                c.JobType = contract;
-                context.SaveChanges();
-            }
-        }
-
-
-        private string MapPath(string seedFile)
-        {
-            if (HttpContext.Current != null)
-                return HostingEnvironment.MapPath(seedFile);
-
-            var absolutePath = new Uri(Assembly.GetExecutingAssembly().CodeBase).AbsolutePath;
-            var directoryName = Path.GetDirectoryName(absolutePath);
-            var path = Path.Combine(directoryName, ".." + seedFile.TrimStart('~').Replace('/', '\\'));
-
-            return path;
-        }
-
         private static List<Client> BuildClientsList()
         {
             List<Client> ClientsList = new List<Client> 
             {
                 new Client
                 { Id = "angjobsApp", 
-                    Secret= Helper.GetHash("angjobsSecret"), 
+                    Secret= Helpers.GetHash("azieziuata2014."), 
                     Name="AngJobs web app", 
                     ApplicationType =  Models.ApplicationTypes.JavaScript, 
                     Active = true, 
@@ -128,15 +100,15 @@ namespace AngJobs.Migrations
 
                     AllowedOrigin =
                                         #if DEBUG
-                                         "http://localhost:33651"
+                                         "http://localhost:33652"
                                         #else
                                           "https://angjobs.com"
                                         #endif
                 },
                 new Client
                 { Id = "angjobsMobileApp", 
-                    Secret=Helper.GetHash("angjobsSecret."), 
-                    Name="AngJobs Mobile App", 
+                    Secret=Helpers.GetHash("azieziuata2014."), 
+                    Name="Sneos Mobile App", 
                     ApplicationType =Models.ApplicationTypes.NativeConfidential, 
                     Active = true, 
                     RefreshTokenLifeTime = 14400, 

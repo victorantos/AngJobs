@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace AngJobs.Models
+namespace Angjobs.Models
 {
     public class UserProfile
     {

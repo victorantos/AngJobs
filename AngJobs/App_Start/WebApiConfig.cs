@@ -6,7 +6,7 @@ using System.Web.Http;
 using Microsoft.Owin.Security.OAuth;
 using Newtonsoft.Json.Serialization;
 
-namespace AngJobs
+namespace Angjobs
 {
     public static class WebApiConfig
     {
@@ -26,15 +26,8 @@ namespace AngJobs
             //Adding the action to the routeTemplte correct this issue.
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",//"api/{controller}/{action}/{id}", //routeTemplate: "api/{controller}/{id}",
+                routeTemplate: "api/{controller}/{action}/{id}", //routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
-            );
-
-            config.Routes.MapHttpRoute(
-              name: "RpcApi",
-                // it starts with "services" as the path prefix 
-              routeTemplate: "services/{controller}/{action}/{id}",
-               defaults: new { id = RouteParameter.Optional }
             );
         }
     }

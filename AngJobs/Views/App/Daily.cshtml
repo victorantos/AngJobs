@@ -1,0 +1,26 @@
+﻿    <!-- header -->
+<div class="wrapper bg-light lter b-b top-actions hidden-xs">
+    <h2 class="font-thin m-n">Daily jobs</h2>
+</div>
+<!-- / header -->
+<div class="jobs-list">
+    <span ng-show="dailyJobs == null">Loading...</span>
+    <div ng-repeat="day in dailyJobs | keys" ng-init="jobs = dailyJobs[day]">
+        <a href="/#!/daily/{{day | amDateFormat:'YYYY-MM-DD'}}">
+            <h4 class="wrapper font-thin m-n">{{day | amDateFormat:'dddd, MMMM Do YYYY' }}</h4>
+        </a>
+        <ul class="list-group list-group-lg no-radius">
+            <li class="list-group-item clearfix " ng-repeat="job in jobs">
+                <div class="pull-right text-sm text-muted">
+                    <span class="hidden-xs">{{job.salaryMin ? '£'+job.salaryMin : ''}} {{job.salaryType ? 'per '+job.salaryType : ''}}</span>
+                </div>
+                <div class="clear short-desc" ng-click="goTo('/jobdetails/' + job.id )">
+                    <div>
+                        <a class="text-md" href="/#!/jobdetails/{{job.id}}">{{job.jobTitle}}</a>
+                        <span class="label bg-light">{{job.salaryNote}}</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -216,6 +216,9 @@ m-r-sm {
 .text-active {
     color: #428bca;
 }
+.text-active-hn {
+    color: #ff6600;
+}
 .text-sm {
     font-size: 13px;
 }
@@ -231,6 +234,15 @@ a.short-desc:hover {
         font-weight:800;
           font-size: 14px;
     }
+       .short-desc .job-line {
+        font-weight:800;
+          font-size: 14px;
+          display:inline;
+    }
+
+a.job-desc {
+    text-decoration:none;
+}
 .thumb-xs {
     display: inline-block;
     width: 34px;
@@ -301,7 +313,12 @@ padding-bottom:10px;
 div.add-skill {
 margin-left: 7px;
 }
- 
+ .add-cv {
+    display: inline;
+}
+div.add-cv {
+margin-left: 7px;
+}
 
 /*** Landing page ***/
 .landing-header {

@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace AngJobs
+namespace Angjobs
 {
     public class FilterConfig
     {

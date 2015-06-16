@@ -13,20 +13,23 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
-using AngJobs.Models;
-using AngJobs.Providers;
+using Angjobs.Models;
+using Angjobs.Providers;
+using Angjobs.Results;
 using Newtonsoft.Json.Linq;
 using System.Linq;
+using Angjobs.Models.GitHub;
+using Angjobs.Models.Twitter;
+using Angjobs.Models.StackExchange;
 using System.Net;
 using System.IO.Compression;
 using System.IO;
 using System.Text;
-using AngJobs.Results;
 
-namespace AngJobs.Controllers
+namespace Angjobs.Controllers
 {
-    [RoutePrefix("services/Account")]
-    public class AccountController : ApiController
+    [RoutePrefix("api/Account")]
+    public class AccountController : ApiBaseController
     {
         const string LinkedIn = "LinkedIn";
         const string GitHub = "GitHub";
@@ -199,7 +202,7 @@ namespace AngJobs.Controllers
             }
 
             if (!string.Equals(client.AllowedOrigin.Replace("http://", string.Empty).Replace("https://", string.Empty),
-                redirectUri.GetLeftPart(UriPartial.Authority).Replace("http://", string.Empty).Replace("https://", string.Empty),
+                redirectUri.GetLeftPart(UriPartial.Authority).Replace("http://", string.Empty).Replace("https://", string.Empty), 
                 StringComparison.OrdinalIgnoreCase))
             {
                 return string.Format("The given URL is not allowed by Client_id '{0}' configuration.", clientId);
@@ -279,42 +282,42 @@ namespace AngJobs.Controllers
             switch (provider)
             {
                 case LinkedIn:
-                    // verifyTokenEndPoint = string.Format("https://api.linkedin.com/v1/companies/universal-name=victor:(id,name,ticker,description)?oauth2_access_token={0}", accessToken);
+                   // verifyTokenEndPoint = string.Format("https://api.linkedin.com/v1/companies/universal-name=victor:(id,name,ticker,description)?oauth2_access_token={0}", accessToken);
                     verifyTokenEndPoint = string.Format("https://api.linkedin.com/v1/people/~:(id,first-name,last-name,formatted-name,email-address,positions,headline,location,public-profile-url)?oauth2_access_token={0}", accessToken);
                     break;
-                //case GitHub:
-                //    verifyTokenEndPoint = string.Format("https://api.github.com/user?access_token={0}", accessToken);
-                //    break;
-                //case Twitter:
-                //    verifyTokenEndPoint = string.Format("https://api.twitter.com/1.1/users/show.json?access_token={0}", accessToken);
-                //    break;
-                //case StackExchange:
-                //    verifyTokenEndPoint = string.Format("https://api.stackexchange.com/2.2/me?order=desc&sort=reputation&site=stackoverflow&access_token={0}&key={1}", accessToken, Startup.stackexchangeAuthOptions.Key);
-                //    break;
-                //case Facebook:
-                //    //You can get it from here: https://developers.facebook.com/tools/accesstoken/
-                //    //More about debug_tokn here: http://stackoverflow.com/questions/16641083/how-does-one-get-the-app-access-token-for-debug-token-inspection-on-facebook
-                //    var appToken = "xxxxx";
-                //    verifyTokenEndPoint = string.Format("https://graph.facebook.com/debug_token?input_token={0}&access_token={1}", accessToken, appToken);
-                //    break;
-                //case GooglePlus:
-                //    verifyTokenEndPoint = string.Format("https://www.googleapis.com/oauth2/v1/tokeninfo?access_token={0}", accessToken);
-                //    break;
-                //case Stripe:
-                //    const string UserInfoEndpoint = "https://api.stripe.com/v1/account";
-                //    HttpRequestMessage userRequest;
-                //    var httpClient = getWebClient(accessToken, UserInfoEndpoint, out userRequest);
+                case GitHub:
+                    verifyTokenEndPoint = string.Format("https://api.github.com/user?access_token={0}", accessToken);
+                    break;
+                case Twitter:
+                    verifyTokenEndPoint = string.Format("https://api.twitter.com/1.1/users/show.json?access_token={0}", accessToken);
+                    break;
+                case StackExchange:
+                    verifyTokenEndPoint = string.Format("https://api.stackexchange.com/2.2/me?order=desc&sort=reputation&site=stackoverflow&access_token={0}&key={1}", accessToken, Startup.stackexchangeAuthOptions.Key);
+                    break;
+                case Facebook:
+                    //You can get it from here: https://developers.facebook.com/tools/accesstoken/
+                    //More about debug_tokn here: http://stackoverflow.com/questions/16641083/how-does-one-get-the-app-access-token-for-debug-token-inspection-on-facebook
+                    var appToken = "xxxxx";
+                    verifyTokenEndPoint = string.Format("https://graph.facebook.com/debug_token?input_token={0}&access_token={1}", accessToken, appToken);
+                    break;
+                case GooglePlus:
+                    verifyTokenEndPoint = string.Format("https://www.googleapis.com/oauth2/v1/tokeninfo?access_token={0}", accessToken);
+                    break;
+                case Stripe:
+                    const string UserInfoEndpoint = "https://api.stripe.com/v1/account";
+                    HttpRequestMessage userRequest;
+                    var httpClient = getWebClient(accessToken, UserInfoEndpoint, out userRequest);
 
-                //    HttpResponseMessage graphResponse = await httpClient.SendAsync(userRequest);
-                //    graphResponse.EnsureSuccessStatusCode();
-                //    var content = await graphResponse.Content.ReadAsStringAsync();
-                //    dynamic jObj = (JObject)Newtonsoft.Json.JsonConvert.DeserializeObject(content);
-                //    parsedToken = new ParsedExternalAccessToken();
+                    HttpResponseMessage graphResponse = await httpClient.SendAsync(userRequest);
+                    graphResponse.EnsureSuccessStatusCode();
+                    var content = await graphResponse.Content.ReadAsStringAsync();
+                    dynamic jObj = (JObject)Newtonsoft.Json.JsonConvert.DeserializeObject(content);
+                    parsedToken = new ParsedExternalAccessToken();
 
-                //    parsedToken.user_id = jObj["id"];
-                //    //parsedToken.email = jObj["email"];
+                    parsedToken.user_id = jObj["id"];
+                    //parsedToken.email = jObj["email"];
 
-                //    return parsedToken;
+                    return parsedToken;
                 default:
                     break;
             }
@@ -336,14 +339,14 @@ namespace AngJobs.Controllers
                 client.DefaultRequestHeaders.Add("x-li-format", "json");
             if (provider.Equals(GitHub, StringComparison.InvariantCultureIgnoreCase))
                 client.DefaultRequestHeaders.Add("User-Agent", ClientName);
-
+            
             var response = await client.GetAsync(uri);
 
             if (response.IsSuccessStatusCode)
             {
                 string content = await response.Content.ReadAsStringAsync();
 
-
+               
 
                 dynamic jObj = (JObject)Newtonsoft.Json.JsonConvert.DeserializeObject(content);
                 JObject profile = jObj as JObject;
@@ -355,43 +358,43 @@ namespace AngJobs.Controllers
                         parsedToken.user_id = jObj["id"];
                         parsedToken.userProfile = profile.ToObject<UserProfile>();
                         parsedToken.email = parsedToken.userProfile.emailAddress;
-                        //if (!string.Equals(Startup.linkedinAuthOptions.ClientId, parsedToken.app_id, StringComparison.OrdinalIgnoreCase))
-                        //{
-                        //    return null;
-                        //}
+                    //if (!string.Equals(Startup.linkedinAuthOptions.ClientId, parsedToken.app_id, StringComparison.OrdinalIgnoreCase))
+                    //{
+                    //    return null;
+                    //}
                         break;
-                    //case GitHub:
-                    //    parsedToken.user_id = jObj["id"];
-                    //    parsedToken.githubUserProfile = profile.ToObject<GitHubUserProfile>();
-                    //    parsedToken.email = parsedToken.githubUserProfile.email;
-                    //    break;
-                    //case Twitter:
-                    //    parsedToken.user_id = jObj["id"];
-                    //    parsedToken.twitterUserProfile = profile.ToObject<TwitterUserProfile>();
-                    //    parsedToken.email = parsedToken.twitterUserProfile.email;
-                    //    break;
-                    //case StackExchange:
-                    //    parsedToken.stackexchangeUserProfile = profile.ToObject<Angjobs.Models.StackExchange.RootObject>().items[0];
-                    //    parsedToken.user_id = parsedToken.stackexchangeUserProfile.user_id.ToString();
-                    //    break;
-                    //case "Facebook":
-                    //    parsedToken.user_id = jObj["data"]["user_id"];
-                    //    parsedToken.app_id = jObj["data"]["app_id"];
+                    case GitHub:
+                        parsedToken.user_id = jObj["id"];
+                        parsedToken.githubUserProfile = profile.ToObject<GitHubUserProfile>();
+                        parsedToken.email = parsedToken.githubUserProfile.email;
+                        break;
+                    case Twitter:
+                        parsedToken.user_id = jObj["id"];
+                        parsedToken.twitterUserProfile = profile.ToObject<TwitterUserProfile>();
+                        parsedToken.email = parsedToken.twitterUserProfile.email;
+                        break;
+                    case StackExchange:
+                        parsedToken.stackexchangeUserProfile = profile.ToObject<Angjobs.Models.StackExchange.RootObject>().items[0];
+                        parsedToken.user_id = parsedToken.stackexchangeUserProfile.user_id.ToString();
+                        break;
+                    case "Facebook":
+                        parsedToken.user_id = jObj["data"]["user_id"];
+                        parsedToken.app_id = jObj["data"]["app_id"];
 
-                    //    if (!string.Equals(Startup.facebookAuthOptions.AppId, parsedToken.app_id, StringComparison.OrdinalIgnoreCase))
-                    //    {
-                    //        return null;
-                    //    }
-                    //    break;
-                    //case "GooglePlus":
-                    //    parsedToken.user_id = jObj["user_id"];
-                    //    parsedToken.app_id = jObj["audience"];
-                    //    //parsedToken.email = jObj["email"];
-                    //    if (!string.Equals(Startup.googleAuthOptions.ClientId, parsedToken.app_id, StringComparison.OrdinalIgnoreCase))
-                    //    {
-                    //        return null;
-                    //    }
-                    //    break;
+                        if (!string.Equals(Startup.facebookAuthOptions.AppId, parsedToken.app_id, StringComparison.OrdinalIgnoreCase))
+                        {
+                            return null;
+                        }
+                        break;
+                    case "GooglePlus":
+                        parsedToken.user_id = jObj["user_id"];
+                        parsedToken.app_id = jObj["audience"];
+                        //parsedToken.email = jObj["email"];
+                        if (!string.Equals(Startup.googleAuthOptions.ClientId, parsedToken.app_id, StringComparison.OrdinalIgnoreCase))
+                        {
+                            return null;
+                        }
+                        break;
                     default:
                         break;
                 }
@@ -399,7 +402,7 @@ namespace AngJobs.Controllers
 
             return parsedToken;
         }
-
+         
         private static HttpClient getWebClient(string accessToken, string UserInfoEndpoint, out HttpRequestMessage userRequest)
         {
             userRequest = new HttpRequestMessage(HttpMethod.Get, UserInfoEndpoint);
@@ -469,7 +472,7 @@ namespace AngJobs.Controllers
             {
                 return BadRequest("External user is already registered");
             }
-
+      
             user = new User() { UserName = model.UserName, Email = model.Email ?? verifiedAccessToken.email };
 
             IdentityResult result = await _repo.CreateAsync(user);
@@ -542,18 +545,18 @@ namespace AngJobs.Controllers
             {
                 accessTokenResponse.Add("userProfile", JToken.FromObject(verifiedAccessToken.userProfile));
             }
-            //if (provider == GitHub)
-            //{
-            //    accessTokenResponse.Add("githubUserProfile", JToken.FromObject(verifiedAccessToken.githubUserProfile));
-            //}
-            //if (provider == StackExchange)
-            //{
-            //    accessTokenResponse.Add("stackexchangeUserProfile", JToken.FromObject(verifiedAccessToken.stackexchangeUserProfile));
-            //}
-            //if (provider == Twitter)
-            //{
-            //    accessTokenResponse.Add("twitterUserProfile", JToken.FromObject(verifiedAccessToken.twitterUserProfile));
-            //}
+            if (provider == GitHub)
+            {
+                accessTokenResponse.Add("githubUserProfile", JToken.FromObject(verifiedAccessToken.githubUserProfile));
+            }
+            if (provider == StackExchange)
+            {
+                accessTokenResponse.Add("stackexchangeUserProfile", JToken.FromObject(verifiedAccessToken.stackexchangeUserProfile));
+            }
+            if (provider == Twitter)
+            {
+                accessTokenResponse.Add("twitterUserProfile", JToken.FromObject(verifiedAccessToken.twitterUserProfile));
+            }
         }
 
         private IAuthenticationManager AuthenticationManager

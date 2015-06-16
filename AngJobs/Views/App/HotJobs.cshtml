@@ -1,0 +1,24 @@
+﻿    <!-- header -->
+<div class="wrapper bg-light lter b-b top-actions">
+    <h2 class="font-thin m-n">Hot AngularJs Jobs! Check your <a style="text-decoration:underline;" ui-sref="jobs.jobType({jobType:'inbox'})">Inbox</a> <span class="hidden-xs">for more opportunities</span>.</h2>
+</div>
+<!-- / header -->
+<div class="jobs-list">
+    <span ng-show="hotJobs == null">Loading...</span>
+    <div>
+        @*  <h4 class="wrapper font-thin m-n">{{day | amDateFormat:'dddd, MMMM Do YYYY' }}</h4>*@
+        <ul class="list-group list-group-lg no-radius">
+            <li class="list-group-item clearfix " ng-repeat="job in hotJobs">
+                <div class="pull-right text-sm text-muted">
+                    <span class="hidden-xs">{{job.salaryMin ? '£'+job.salaryMin : ''}} {{job.salaryType ? 'per '+job.salaryType : ''}}</span>
+                </div>
+                <div class="clear short-desc" ng-click="goTo('/jobdetails/' + job.id )">
+                    <div>
+                        <span class="label bg-light">{{job.salaryNote}}</span>
+                        <div job-line job-id="{{job.id}}" job-title="{{job.jobTitle}}" class="job-line"></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AngJobs</RootNamespace>
-    <AssemblyName>AngJobs</AssemblyName>
+    <RootNamespace>Angjobs</RootNamespace>
+    <AssemblyName>Angjobs</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -20,6 +20,10 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\..\..\..\Test\JobServe-API-Client-master\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -43,6 +47,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="CsQuery">
+      <HintPath>..\packages\CsQuery.1.3.4\lib\net40\CsQuery.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
@@ -50,6 +57,13 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentEmail">
+      <HintPath>..\packages\fluent-email.1.4\lib\net40\FluentEmail.dll</HintPath>
+    </Reference>
+    <Reference Include="Masticore, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Masticore.1.0.2\lib\Masticore.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -68,6 +82,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.Owin.3.0.0\lib\net45\Microsoft.Owin.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Owin.Cors">
+      <HintPath>..\packages\Microsoft.Owin.Cors.3.0.0\lib\net45\Microsoft.Owin.Cors.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
@@ -80,13 +97,38 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.0\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.0\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.0\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.0\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Owin.Security.OAuth, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.0\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.0\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Newtonsoft.Json.6.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PreMailer.Net">
+      <HintPath>..\packages\PreMailer.Net.1.2.8\lib\net40\PreMailer.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="RazorEngine">
+      <HintPath>..\packages\RazorEngine.3.2.0\lib\net40\RazorEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Stripe.net">
+      <HintPath>..\packages\Stripe.net.2.9.0\lib\net40\Stripe.net.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -95,11 +137,15 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.2\lib\net45\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Web.Cors">
+      <HintPath>..\packages\Microsoft.AspNet.Cors.5.2.2\lib\net45\System.Web.Cors.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.Helpers.dll</HintPath>
@@ -124,6 +170,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.2\lib\net45\System.Web.Razor.dll</HintPath>
     </Reference>
+    <Reference Include="System.Web.Routing" />
     <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.WebPages.dll</HintPath>
@@ -136,10 +183,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Web" />
-    <Reference Include="System.Web.Abstractions" />
-    <Reference Include="System.Web.Routing" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Runtime.Serialization" />
@@ -154,6 +197,7 @@
     <Reference Include="System.Web.Optimization">
       <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
     </Reference>
+    <Reference Include="System.Xml.Linq" />
     <Reference Include="WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
@@ -167,96 +211,312 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
-    <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Areas\HelpPage\ApiDescriptionExtensions.cs" />
+    <Compile Include="Areas\HelpPage\App_Start\HelpPageConfig.cs" />
+    <Compile Include="Areas\HelpPage\Controllers\HelpController.cs" />
+    <Compile Include="Areas\HelpPage\HelpPageAreaRegistration.cs" />
+    <Compile Include="Areas\HelpPage\HelpPageConfigurationExtensions.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\CollectionModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ComplexTypeModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\DictionaryModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\EnumTypeModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\EnumValueDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\IModelDocumentationProvider.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\KeyValuePairModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ModelDescriptionGenerator.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ModelNameAttribute.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ModelNameHelper.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ParameterAnnotation.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ParameterDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\SimpleTypeModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\Models\HelpPageApiModel.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\HelpPageSampleGenerator.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\HelpPageSampleKey.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\ImageSample.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\InvalidSample.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\ObjectGenerator.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
+    <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ApiBaseController.cs" />
     <Compile Include="Controllers\AppController.cs" />
-    <Compile Include="Controllers\Jobs\JobApplicationsController.cs" />
-    <Compile Include="Controllers\Jobs\PermanentJobsController.cs" />
-    <Compile Include="Controllers\Jobs\ContractsJobsController.cs" />
-    <Compile Include="Controllers\Jobs\PromotedJobsController.cs" />
-    <Compile Include="ImportJobs\Import.cs" />
-    <Compile Include="Migrations\201505251345271_addedJoPostTbl.cs" />
-    <Compile Include="Migrations\201505251345271_addedJoPostTbl.Designer.cs">
-      <DependentUpon>201505251345271_addedJoPostTbl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201505252154340_addedIsfrontpagejob.cs" />
-    <Compile Include="Migrations\201505252154340_addedIsfrontpagejob.Designer.cs">
-      <DependentUpon>201505252154340_addedIsfrontpagejob.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201506011545430_addedExternalAuth.cs" />
-    <Compile Include="Migrations\201506011545430_addedExternalAuth.Designer.cs">
-      <DependentUpon>201506011545430_addedExternalAuth.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201506041617175_addedREcruiters.cs" />
-    <Compile Include="Migrations\201506041617175_addedREcruiters.Designer.cs">
-      <DependentUpon>201506041617175_addedREcruiters.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201506091008369_addedSourceRef.cs" />
-    <Compile Include="Migrations\201506091008369_addedSourceRef.Designer.cs">
-      <DependentUpon>201506091008369_addedSourceRef.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201506101344404_addedJobType.cs" />
-    <Compile Include="Migrations\201506101344404_addedJobType.Designer.cs">
-      <DependentUpon>201506101344404_addedJobType.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\ExternalLogin\ApplicationTypes.cs" />
-    <Compile Include="Models\ExternalLogin\AuthRepository.cs" />
-    <Compile Include="Models\ExternalLogin\Client.cs" />
-    <Compile Include="Models\ExternalLogin\ExternalLoginModels.cs" />
-    <Compile Include="Models\ExternalLogin\RefreshToken.cs" />
-    <Compile Include="Models\JobApplicationViewModel.cs" />
-    <Compile Include="Models\JobPostViewModel.cs" />
-    <Compile Include="Models\Jobs\JobApplication.cs" />
-    <Compile Include="Models\Jobs\JobPost.cs" />
-    <Compile Include="Models\Jobs\JobModel.cs" />
-    <Compile Include="Controllers\Jobs\JobsController.cs" />
+    <Compile Include="Controllers\GoogleBotController.cs" />
+    <Compile Include="Controllers\PaymentController.cs" />
     <Compile Include="Controllers\MainController.cs" />
+    <Compile Include="Controllers\PhotoViewModel.cs" />
+    <Compile Include="Controllers\Sitemap_F92C179D37124DCDA570B3D65B1BE533Controller.cs" />
+    <Compile Include="Controllers\CvController.cs" />
     <Compile Include="Controllers\WS_AccountController.cs" />
+    <Compile Include="Controllers\JobsController.cs" />
+    <Compile Include="CVs\CvActionResult.cs" />
+    <Compile Include="CVs\CvMultipartFormDataStreamProvider.cs" />
+    <Compile Include="CVs\ICvManager.cs" />
+    <Compile Include="CVs\LocalCvManager.cs" />
+    <Compile Include="Entities\Client.cs" />
+    <Compile Include="Entities\RefreshToken.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\AccountBindingModels.cs" />
-    <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="EmailSender\Helper.cs" />
+    <Compile Include="Helpers\Cache.cs" />
+    <Compile Include="Helpers\Helpers.cs" />
+    <Compile Include="Helpers\HtmlExtensions.cs" />
+    <Compile Include="Helpers\urlset.cs" />
+    <Compile Include="IdentityConfig.cs" />
+    <Compile Include="ImportJobs\Import.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201410041059502_InitialCreate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201410041059502_InitialCreate.Designer.cs">
+      <DependentUpon>201410041059502_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201410050808486_addedISDeleted.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201410050808486_addedISDeleted.Designer.cs">
+      <DependentUpon>201410050808486_addedISDeleted.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201410052201280_addedISDeleted1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201410052201280_addedISDeleted1.Designer.cs">
+      <DependentUpon>201410052201280_addedISDeleted1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201410071233043_addedapplicanttbl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201410071233043_addedapplicanttbl.Designer.cs">
+      <DependentUpon>201410071233043_addedapplicanttbl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201410071328573_addedapplicantionstbl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201410071328573_addedapplicantionstbl.Designer.cs">
+      <DependentUpon>201410071328573_addedapplicantionstbl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201410071503473_fixedjobPostId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201410071503473_fixedjobPostId.Designer.cs">
+      <DependentUpon>201410071503473_fixedjobPostId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201410092132463_addedlogo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201410092132463_addedlogo.Designer.cs">
+      <DependentUpon>201410092132463_addedlogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201410092202164_addedCountry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201410092202164_addedCountry.Designer.cs">
+      <DependentUpon>201410092202164_addedCountry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201410092237003_addedSourceref.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201410092237003_addedSourceref.Designer.cs">
+      <DependentUpon>201410092237003_addedSourceref.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201410092239261_addedTelecomm.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201410092239261_addedTelecomm.Designer.cs">
+      <DependentUpon>201410092239261_addedTelecomm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201410101359517_addedtagline.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201410101359517_addedtagline.Designer.cs">
+      <DependentUpon>201410101359517_addedtagline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201410111952529_addedJobShortDescription.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201410111952529_addedJobShortDescription.Designer.cs">
+      <DependentUpon>201410111952529_addedJobShortDescription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201411071149378_added2tblsClients.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201411071149378_added2tblsClients.Designer.cs">
+      <DependentUpon>201411071149378_added2tblsClients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201411091615216_addedUsertoApplication.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201411091615216_addedUsertoApplication.Designer.cs">
+      <DependentUpon>201411091615216_addedUsertoApplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201411101102126_addedcurrency.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201411101102126_addedcurrency.Designer.cs">
+      <DependentUpon>201411101102126_addedcurrency.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201411130745518_addedIshot.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201411130745518_addedIshot.Designer.cs">
+      <DependentUpon>201411130745518_addedIshot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201411131306429_removedJobpostid.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201411131306429_removedJobpostid.Designer.cs">
+      <DependentUpon>201411131306429_removedJobpostid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201411170557586_removedTodoitemsAddedJObAppRef.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201411170557586_removedTodoitemsAddedJObAppRef.Designer.cs">
+      <DependentUpon>201411170557586_removedTodoitemsAddedJObAppRef.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201411271232146_addedownerforjobpost.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201411271232146_addedownerforjobpost.Designer.cs">
+      <DependentUpon>201411271232146_addedownerforjobpost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201504201915547_addedStripe.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201504201915547_addedStripe.Designer.cs">
+      <DependentUpon>201504201915547_addedStripe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201504201941402_addedStripe2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201504201941402_addedStripe2.Designer.cs">
+      <DependentUpon>201504201941402_addedStripe2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201504211004476_addedCurrency2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201504211004476_addedCurrency2.Designer.cs">
+      <DependentUpon>201504211004476_addedCurrency2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201505211128252_addedCV.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201505211128252_addedCV.Designer.cs">
+      <DependentUpon>201505211128252_addedCV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201505211130054_addedAssocCv.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201505211130054_addedAssocCv.Designer.cs">
+      <DependentUpon>201505211130054_addedAssocCv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201505211134174_addedDateCreated.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201505211134174_addedDateCreated.Designer.cs">
+      <DependentUpon>201505211134174_addedDateCreated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201505211137524_addedGuid.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201505211137524_addedGuid.Designer.cs">
+      <DependentUpon>201505211137524_addedGuid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201506120926572_alterTitle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201506120926572_alterTitle.Designer.cs">
+      <DependentUpon>201506120926572_alterTitle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201506121115180_alterFieldSize.cs" />
+    <Compile Include="Migrations\201506121115180_alterFieldSize.Designer.cs">
+      <DependentUpon>201506121115180_alterFieldSize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201506121117179_alterFieldSize2.cs" />
+    <Compile Include="Migrations\201506121117179_alterFieldSize2.Designer.cs">
+      <DependentUpon>201506121117179_alterFieldSize2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201506121121255_alterFieldSize3.cs" />
+    <Compile Include="Migrations\201506121121255_alterFieldSize3.Designer.cs">
+      <DependentUpon>201506121121255_alterFieldSize3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201506121549548_addedFields4.cs" />
+    <Compile Include="Migrations\201506121549548_addedFields4.Designer.cs">
+      <DependentUpon>201506121549548_addedFields4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\ApplicationTypes.cs" />
+    <Compile Include="Models\AuthRepository.cs" />
+    <Compile Include="Models\CurrencyType.cs" />
+    <Compile Include="Models\CV.cs" />
+    <Compile Include="Models\CvViewModel.cs" />
     <Compile Include="Models\DataModels.cs" />
-    <Compile Include="Models\Recruiters\Recruiter.cs" />
+    <Compile Include="Models\EmployerRepository.cs" />
+    <Compile Include="Models\EmployersJobApplicationsViewModel.cs" />
+    <Compile Include="Models\ExternalLoginModels.cs" />
+    <Compile Include="Models\GoogleBotPage.cs" />
+    <Compile Include="Models\JobApplication.cs" />
+    <Compile Include="Models\JobApplicationViewModel.cs" />
+    <Compile Include="Models\JobPost.cs" />
+    <Compile Include="Models\JobPostViewModel.cs" />
+    <Compile Include="Models\Stripe\StripeChargeModel.cs" />
+    <Compile Include="Models\Stripe\Subscription.cs" />
     <Compile Include="Models\TodoItemViewModel.cs" />
-    <Compile Include="Controllers\Utility\ModelErrorChecker.cs" />
     <Compile Include="Models\UserModel.cs" />
+    <Compile Include="Models\UserProfile\UserProfileGitHubModels.cs" />
     <Compile Include="Models\UserProfile\UserProfileModels.cs" />
+    <Compile Include="Models\UserProfile\UserProfileStackExchangeModels.cs" />
+    <Compile Include="Models\UserProfile\UserProfileTwitterModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Providers\FacebookAuthProvider.cs" />
+    <Compile Include="Providers\TwitterAuthProvider.cs" />
+    <Compile Include="Providers\GoogleAuthProvider.cs" />
     <Compile Include="Providers\LinkedInAuthProvider.cs" />
-    <Compile Include="Providers\RefreshTokenProvider.cs" />
+    <Compile Include="Providers\GitHubAuthProvider.cs" />
     <Compile Include="Providers\SimpleAuthorizationServerProvider.cs" />
     <Compile Include="Providers\SimpleRefreshTokenProvider.cs" />
+    <Compile Include="Providers\StackExchangeAuthProvider.cs" />
+    <Compile Include="Providers\StripeAuthProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\CV\empty.txt" />
+    <Content Include="App_Data\Mails\empty.txt" />
+    <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Assets\app\app.js" />
+    <Content Include="Assets\app\controllers\servicesCtrl.js" />
+    <Content Include="Assets\app\controllers\payCtrl.js" />
+    <Content Include="Assets\app\controllers\developerCtrl.js" />
+    <Content Include="Assets\app\controllers\employerCtrl.js" />
+    <Content Include="Assets\app\controllers\hotCtrl.js" />
+    <Content Include="Assets\app\controllers\aboutCtrl.js" />
+    <Content Include="Assets\app\controllers\associateCtrl.js" />
+    <Content Include="Assets\app\controllers\dailyCtrl.js" />
+    <Content Include="Assets\app\controllers\homeCtrl.js" />
+    <Content Include="Assets\app\controllers\loginCtrl.js" />
+    <Content Include="Assets\app\controllers\postJobCtrl.js" />
     <Content Include="Assets\app\controllers\jobDetailsCtrl.js" />
     <Content Include="Assets\app\controllers\jobsCtrl.js" />
-    <Content Include="Assets\app\controllers\loginCtrl.js" />
+    <Content Include="Assets\app\controllers\mail-service.js" />
+    <Content Include="Assets\app\controllers\mailCtrl.js" />
     <Content Include="Assets\app\controllers\mainCtrl.js" />
-    <Content Include="Assets\app\controllers\postJobCtrl.js" />
-    <Content Include="Assets\app\controllers\aboutCtrl.js" />
-    <Content Include="Assets\app\controllers\contractCtrl.js" />
-    <Content Include="Assets\app\controllers\developersCtrl.js" />
-    <Content Include="Assets\app\controllers\employersCtrl.js" />
-    <Content Include="Assets\app\controllers\homeCtrl.js" />
-    <Content Include="Assets\app\controllers\inboxCtrl.js" />
-    <Content Include="Assets\app\controllers\permanentCtrl.js" />
-    <Content Include="Assets\app\resources\permanentJobsResource.js" />
-    <Content Include="Assets\app\resources\contractsJobsResource.js" />
-    <Content Include="Assets\app\resources\promotedJobsResource.js" />
-    <Content Include="Assets\app\resources\jobsResource.js" />
+    <Content Include="Assets\app\directives\jobLine.js" />
     <Content Include="Assets\app\services\authInterceptorService.js" />
     <Content Include="Assets\app\services\authService.js" />
+    <Content Include="Assets\app\services\cvsService.js" />
+    <Content Include="Assets\app\services\jobsService.js" />
+    <Content Include="Assets\app\services\tokensManagerService.js" />
+    <Content Include="Assets\app\utils\utils-service.js" />
     <Content Include="Assets\app\views\associate.html" />
+    <Content Include="Assets\app\views\landing.html" />
     <Content Include="Assets\bootstrap\css\bootstrap-theme.css" />
     <Content Include="Assets\bootstrap\css\bootstrap-theme.min.css" />
     <Content Include="Assets\bootstrap\css\bootstrap.css" />
@@ -267,26 +527,94 @@
     <Content Include="Assets\jquery\jquery.min.js" />
     <Content Include="Assets\misc\modernizr.min.js" />
     <Content Include="Assets\misc\respond.min.js" />
+    <Content Include="Assets\ng\angular-cookies.min.js" />
+    <Content Include="Assets\ng\angular-resource.min.js" />
+    <Content Include="Assets\ng\angular.min.js" />
+    <Content Include="Assets\ng\textAngular-sanitize.min.js" />
+    <Content Include="Assets\ng\textAngular.min.js" />
     <Content Include="Assets\styles\styles.css" />
+    <Content Include="Assets\styles\textAngular.min.css" />
     <Content Include="authComplete.html" />
-    <Content Include="bower_components\angular-cookies\angular-cookies.min.js" />
+    <Content Include="bower_components\angular-cache\dist\angular-cache.min.js" />
     <Content Include="bower_components\angular-local-storage\dist\angular-local-storage.min.js" />
-    <Content Include="bower_components\angular-resource\angular-resource.min.js" />
+    <Content Include="bower_components\angular-moment\angular-moment.min.js" />
+    <Content Include="bower_components\angular-snap\angular-snap.custom.css" />
+    <Content Include="bower_components\angular-snap\angular-snap-only.css" />
+    <Content Include="bower_components\angular-snap\angular-snap-only.min.css" />
+    <Content Include="bower_components\angular-snap\angular-snap.css" />
+    <Content Include="bower_components\angular-snap\angular-snap.js" />
+    <Content Include="bower_components\angular-snap\angular-snap.min.css" />
+    <Content Include="bower_components\angular-snap\angular-snap.min.js" />
     <Content Include="bower_components\angular-ui-router\release\angular-ui-router.min.js" />
-    <Content Include="bower_components\angular\angular.min.js" />
-    <Content Include="bower_components\components-font-awesome\css\font-awesome.min.css" />
-    <Content Include="bower_components\components-font-awesome\fonts\fontawesome-webfont.svg" />
-    <Content Include="bower_components\font-awesome\css\font-awesome.min.css" />
-    <Content Include="bower_components\font-awesome\fonts\fontawesome-webfont.svg" />
-    <Content Include="bower_components\rangy\rangy-core.min.js" />
-    <Content Include="bower_components\rangy\rangy-selectionsaverestore.min.js" />
-    <Content Include="bower_components\textAngular\angular_textangular-122textAngular-sanitize-textAngular.js" />
-    <Content Include="bower_components\textAngular\dist\textAngular-sanitize.min.js" />
-    <Content Include="bower_components\textAngular\dist\textAngular.css" />
-    <Content Include="bower_components\textAngular\dist\textAngular.min.js" />
+    <Content Include="bower_components\moment\min\moment.min.js" />
+    <Content Include="bower_components\snapjs\.gitignore" />
+    <Content Include="bower_components\snapjs\snap.css" />
+    <Content Include="bower_components\snapjs\snap.js" />
+    <Content Include="bower_components\snapjs\snap.min.js" />
+    <Content Include="bower_components\stripe-angular\stripe-angular.js" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
     <Content Include="favicon.ico" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="img\ang-jobs-16x.png" />
+    <Content Include="img\ang-jobs.png" />
+    <Content Include="img\head-resourcing.png" />
+    <Content Include="img\landing-bg.jpg" />
+    <Content Include="img\profile-victorantos-angular.jpg" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Areas\HelpPage\Views\Web.config" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\TextSample.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\SimpleTypeModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\Samples.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\Parameters.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ModelDescriptionLink.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\KeyValuePairModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\InvalidSample.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ImageSample.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\HelpPageApiModel.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\EnumTypeModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\DictionaryModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ComplexTypeModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
+    <None Include="Properties\PublishProfiles\Default Settings %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Default Settings %283%29.pubxml" />
+    <None Include="Scripts\jquery-2.1.1.intellisense.js" />
+    <Content Include="logo-angjobs.png" />
     <Content Include="Scripts\authComplete.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\FileAPI.flash.swf" />
+    <Content Include="Scripts\FileAPI.js" />
+    <Content Include="Scripts\FileAPI.min.js" />
+    <Content Include="Scripts\jquery-2.1.1.js" />
+    <Content Include="Scripts\jquery-2.1.1.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\ng-file-upload-all.js" />
+    <Content Include="Scripts\ng-file-upload-all.min.js" />
+    <Content Include="Scripts\ng-file-upload-shim.js" />
+    <Content Include="Scripts\ng-file-upload-shim.min.js" />
+    <Content Include="Scripts\ng-file-upload.js" />
+    <Content Include="Scripts\ng-file-upload.min.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
+    <Content Include="Scripts\respond.min.js" />
     <Content Include="test\e2e\scenarios.js" />
     <Content Include="test\karma.conf.js" />
     <Content Include="test\protractor-conf.js" />
@@ -304,104 +632,195 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Scripts\jquery-2.1.1.min.map" />
+    <Content Include="Views\App\Jobs.cshtml" />
+    <Content Include="Views\App\JobApplyLinkedIn.cshtml" />
+    <Content Include="Views\App\JobApplyGitHub.cshtml" />
+    <Content Include="Views\App\JobApplyTwitter.cshtml" />
+    <Content Include="Views\App\JobApplyStackExchange.cshtml" />
+    <Content Include="Views\App\HotJobs.cshtml" />
+    <Content Include="Views\App\Employer.cshtml" />
+    <Content Include="Views\App\EmployerLeftSideMenu.cshtml" />
+    <Content Include="Views\App\JobApplications.cshtml" />
+    <Content Include="Views\App\JobApplication.cshtml" />
+    <Content Include="Views\Sitemap_F92C179D37124DCDA570B3D65B1BE533\Index.cshtml" />
+    <Content Include="Views\App\Day.cshtml" />
+    <Content Include="Views\GoogleBot\_Day.cshtml" />
+    <Content Include="Views\App\Pay.cshtml" />
+    <Content Include="Views\App\Services.cshtml" />
+    <Content Include="Views\App\Resumes.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bower_components\components-font-awesome\fonts\fontawesome-webfont.eot" />
-    <Content Include="bower_components\components-font-awesome\fonts\fontawesome-webfont.ttf" />
-    <Content Include="bower_components\components-font-awesome\fonts\fontawesome-webfont.woff" />
-    <Content Include="bower_components\components-font-awesome\fonts\fontawesome-webfont.woff2" />
-    <Content Include="bower_components\components-font-awesome\fonts\FontAwesome.otf" />
+    <Folder Include="sitemap\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Assets\bootstrap\css\bootstrap-theme.css.map" />
     <Content Include="Assets\bootstrap\css\bootstrap.css.map" />
     <Content Include="Assets\bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Assets\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Assets\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Assets\ng\angular-cookies.min.js.map" />
+    <Content Include="Assets\ng\angular-resource.min.js.map" />
+    <Content Include="Assets\ng\angular.min.js.map" />
     <Content Include="Views\Main\Index.cshtml" />
     <Content Include="Views\App\Home.cshtml" />
     <Content Include="Views\App\Register.cshtml" />
     <Content Include="Views\App\SignIn.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Shared\_AppLayout.cshtml" />
+    <Content Include="js\app\mail\mails.json" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Shared\_SideMenu.cshtml" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\App\Inbox.cshtml" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\App\Employers.cshtml" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\App\Permanent.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\App\About.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\App\Contract.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\App\Developers.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\App\PostJob.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201505251345271_addedJoPostTbl.resx">
-      <DependentUpon>201505251345271_addedJoPostTbl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201505252154340_addedIsfrontpagejob.resx">
-      <DependentUpon>201505252154340_addedIsfrontpagejob.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201506011545430_addedExternalAuth.resx">
-      <DependentUpon>201506011545430_addedExternalAuth.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201506041617175_addedREcruiters.resx">
-      <DependentUpon>201506041617175_addedREcruiters.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201506091008369_addedSourceRef.resx">
-      <DependentUpon>201506091008369_addedSourceRef.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201506101344404_addedJobType.resx">
-      <DependentUpon>201506101344404_addedJobType.cs</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="bower_components\font-awesome\fonts\fontawesome-webfont.eot" />
-    <Content Include="bower_components\font-awesome\fonts\fontawesome-webfont.ttf" />
-    <Content Include="bower_components\font-awesome\fonts\fontawesome-webfont.woff" />
-    <Content Include="bower_components\font-awesome\fonts\fontawesome-webfont.woff2" />
-    <Content Include="bower_components\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="fonts\FontAwesome.otf" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\App\JobDetails.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\app\utils\utils.service.js" />
+    <Content Include="Views\App\PostJob.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AngJobs.Helper\AngJobs.Helper.csproj">
-      <Project>{5bd74a7e-5428-4be1-aeeb-a88f36c394dc}</Project>
-      <Name>AngJobs.Helper</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Owin.Security.Providers\Owin.Security.Providers.csproj">
+    <Content Include="Views\App\About.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bower_components\angular-snap\.bower.json" />
+    <Content Include="bower_components\angular-snap\bower.json" />
+    <Content Include="bower_components\angular-snap\LICENSE-MIT" />
+    <Content Include="bower_components\snapjs\.bower.json" />
+    <Content Include="bower_components\snapjs\component.json" />
+    <Content Include="bower_components\snapjs\README.md" />
+    <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\Index.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\ResourceModel.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\HelpPage\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Shared\_AppLayout.cshtml" />
+    <None Include="Properties\PublishProfiles\angjobs.pubxml" />
+    <None Include="Properties\PublishProfiles\Default Settings.pubxml" />
+    <Content Include="Views\GoogleBot\Index.cshtml" />
+    <Content Include="Views\Shared\_AppLayout.cshtml" />
+    <Content Include="Views\GoogleBot\_Home.cshtml" />
+    <Content Include="Views\GoogleBot\_JobDetails.cshtml" />
+    <Content Include="Views\Shared\_SideMenu.cshtml" />
+    <Content Include="Views\App\Daily.cshtml" />
+    <Content Include="Views\GoogleBot\_Daily.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\SneoS\Authentication Step 1\OwinOAuthProviders\Owin.Security.Providers\Owin.Security.Providers.csproj">
       <Project>{6ad9ba00-1330-426d-8bae-2d3bc0d976e4}</Project>
       <Name>Owin.Security.Providers</Name>
     </ProjectReference>
+    <ProjectReference Include="..\StripeEntities\StripeEntities.csproj">
+      <Project>{56e6088c-3a4b-4f08-a440-588f450d3721}</Project>
+      <Name>StripeEntities</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\App\JobApplyLinkedIn.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="App_Data\recruiters.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\App\Jobs.cshtml" />
+    <EmbeddedResource Include="Migrations\201410041059502_InitialCreate.resx">
+      <DependentUpon>201410041059502_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201410050808486_addedISDeleted.resx">
+      <DependentUpon>201410050808486_addedISDeleted.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201410052201280_addedISDeleted1.resx">
+      <DependentUpon>201410052201280_addedISDeleted1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201410071233043_addedapplicanttbl.resx">
+      <DependentUpon>201410071233043_addedapplicanttbl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201410071328573_addedapplicantionstbl.resx">
+      <DependentUpon>201410071328573_addedapplicantionstbl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201410071503473_fixedjobPostId.resx">
+      <DependentUpon>201410071503473_fixedjobPostId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201410092132463_addedlogo.resx">
+      <DependentUpon>201410092132463_addedlogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201410092202164_addedCountry.resx">
+      <DependentUpon>201410092202164_addedCountry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201410092237003_addedSourceref.resx">
+      <DependentUpon>201410092237003_addedSourceref.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201410092239261_addedTelecomm.resx">
+      <DependentUpon>201410092239261_addedTelecomm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201410101359517_addedtagline.resx">
+      <DependentUpon>201410101359517_addedtagline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201410111952529_addedJobShortDescription.resx">
+      <DependentUpon>201410111952529_addedJobShortDescription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201411071149378_added2tblsClients.resx">
+      <DependentUpon>201411071149378_added2tblsClients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201411091615216_addedUsertoApplication.resx">
+      <DependentUpon>201411091615216_addedUsertoApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201411101102126_addedcurrency.resx">
+      <DependentUpon>201411101102126_addedcurrency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201411130745518_addedIshot.resx">
+      <DependentUpon>201411130745518_addedIshot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201411131306429_removedJobpostid.resx">
+      <DependentUpon>201411131306429_removedJobpostid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201411170557586_removedTodoitemsAddedJObAppRef.resx">
+      <DependentUpon>201411170557586_removedTodoitemsAddedJObAppRef.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201411271232146_addedownerforjobpost.resx">
+      <DependentUpon>201411271232146_addedownerforjobpost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201504201915547_addedStripe.resx">
+      <DependentUpon>201504201915547_addedStripe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201504201941402_addedStripe2.resx">
+      <DependentUpon>201504201941402_addedStripe2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201504211004476_addedCurrency2.resx">
+      <DependentUpon>201504211004476_addedCurrency2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201505211128252_addedCV.resx">
+      <DependentUpon>201505211128252_addedCV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201505211130054_addedAssocCv.resx">
+      <DependentUpon>201505211130054_addedAssocCv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201505211134174_addedDateCreated.resx">
+      <DependentUpon>201505211134174_addedDateCreated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201505211137524_addedGuid.resx">
+      <DependentUpon>201505211137524_addedGuid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201506120926572_alterTitle.resx">
+      <DependentUpon>201506120926572_alterTitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201506121115180_alterFieldSize.resx">
+      <DependentUpon>201506121115180_alterFieldSize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201506121117179_alterFieldSize2.resx">
+      <DependentUpon>201506121117179_alterFieldSize2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201506121121255_alterFieldSize3.resx">
+      <DependentUpon>201506121121255_alterFieldSize3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201506121549548_addedFields4.resx">
+      <DependentUpon>201506121549548_addedFields4.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -421,7 +840,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>33651</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:33651/</IISUrl>
+          <IISUrl>http://localhost:33652/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
@@ -431,6 +850,13 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

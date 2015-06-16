@@ -2,17 +2,37 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
  }
 @RenderBody()
-@Scripts.Render("~/bower")
- 
+
+@Scripts.Render("~/ng")
+<script src="~/bower_components/stripe-angular/stripe-angular.js"></script>
+<script src="~/bower_components/angular-local-storage/dist/angular-local-storage.min.js"></script>
+<script src="~/bower_components/angular-cache/dist/angular-cache.min.js"></script>
+
 @Scripts.Render("~/app")
 
+
+<script src="~/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
 @Scripts.Render("~/jquery")
 @Scripts.Render("~/bootstrap")
 @Scripts.Render("~/misc")
 
+<script src="~/bower_components/moment/min/moment.min.js"></script>
+<script src="~/bower_components/angular-moment/angular-moment.min.js"></script>
+<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+
+<script src="https://cdn.jsdelivr.net/g/angular.textangular@1.2.2(textAngular-sanitize.min.js+textAngular.min.js)"></script>
 
 <script>
-  //include Google Analytics script here 
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-52859556-3', 'auto');
+    if (navigator.language != "ru" || navigator.language != "ru-ru")
+        ga('send', 'pageview');
 
 </script>
 

@@ -1,14 +1,40 @@
-﻿<!DOCTYPE html>
+﻿@using Angjobs.Extensions;
+<!DOCTYPE html>
 <html ng-app="app" ng-controller="mainCtrl">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
-    @Styles.Render("~/Assets/Bootstrap/css/bootstrap.css")
+    <meta name="description" content='@(string.IsNullOrEmpty(ViewBag.Description) ? "AngularJs Job Board" : ViewBag.Description)'>
+    <meta name="keywords" content='@(!string.IsNullOrEmpty(ViewBag.Keywords) ? ViewBag.Keywords : "Angularjs,Twitter Bootstrap,Asp.NET,MVC,C#,Java,Python,Django,Frontend,UI,UX,Backend,HTML,CSS,JavaScript,.NET,WebApi,JSON,Knockoutjs")' >
+    <meta name="author" content="Victor Antofica">
 
-    @Styles.Render("~/bower_components/font-awesome/css/font-awesome.min.css")
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+
+    @if (ViewBag.ShowFragmentMeta != null && ViewBag.ShowFragmentMeta)
+    {
+        <meta name="fragment" content="!">
+    }
+
+    <title ng-bind="pageTitle">@ViewBag.Title</title>
+  
+    @Styles.Render("~/Assets/Bootstrap/css/bootstrap.css")
+    @Styles.Render("~/Content/font-awesome.min.css")
 
     @Styles.Render("~/styles")
+    <script type="text/javascript">
+        var serviceBase = 'https://angjobs.com/'; 
+        var authServiceBase = 'https://angjobs.com/'; 
+            @if (Html.IsDebug())
+            {
+                 <text>
+                       authServiceBase = 'http://localhost:33652/';
+                </text>
+            }
+            
+    </script>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
     @RenderBody()

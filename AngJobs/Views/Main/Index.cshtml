@@ -1,6 +1,6 @@
-﻿ @{
-     Layout = "~/Views/Shared/_AppLayout.cshtml";
-     ViewBag.Title = "AngJobs - AngularJs job board";
+﻿@{
+    Layout = "~/Views/Shared/_AppLayout.cshtml";
+    ViewBag.Title = "AngJobs - AngularJs job board";
 }
 <div class="container-fluid">
     <div class="navbar navbar-default" role="navigation">
@@ -16,11 +16,11 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li ng-class="{ active: $state.includes('developers')}">
-                        <a ui-sref="developers">Developers</a>
+                    <li ng-class="activePath.indexOf('job') == 1 ? 'active': ''">
+                        <a ui-sref="jobs.jobType({jobType:'inbox'})">Developers</a>
                     </li>
                     <li ng-class="{ active: $state.includes('employer')}">
-                        <a ui-sref="employers">Employers</a>
+                        <a ui-sref="employer">Employers</a>
                     </li>
                     @*<li ng-class="{ active: $state.includes('services')}">
                         <a ui-sref="services">Our services <span class="label label-default" style="vertical-align:top">new</span></a>
@@ -43,9 +43,10 @@
                         <li class="dropdown">
                             <a href="javascript: void(0);" class="dropdown-toggle" data-toggle="dropdown">Settings <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
+                                <li><a href="/Help">API Page</a></li>
                                 <li class="divider"></li>
                                 @*<li><a href="#">Contact us</a></li>*@
-                                <li><a href="/#/about">About</a></li>
+                                <li><a href="/#!/about">About</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -60,29 +61,30 @@
                 <div class="col-md-1 col-xs-1 col left-menu  hidden-xs">
                     <div class="wrapper left-corner-action">
                         @*<button class="btn btn-sm btn-default pull-right visible-xs"><i class="fa fa-bars"></i></button>*@
-                        <a class="btn btn-sm btn-danger font-bold" href="/#/postjob">Post a job</a>
+                        <a class="btn btn-sm btn-danger font-bold" href="#!/postjob">Post a job</a>
                     </div>
                     <div class="wrapper">
-                        
-                            @Html.Partial("_SideMenu")
-                        
+                        @Html.Partial("_SideMenu")
                     </div>
                 </div>
                 <div class="col-md-10 col col-middle" ui-view>
-                   
-                </div>
+              
+                  </div>
             </div>
         </div>
     </div>
     <div class="row site-footer wrapper bg-light">
         <div class="col-md-10 col-md-offset-1">
             <footer>
-                This job board is an open source implementation of <a href="http://AngJobs.com" target="_blank" title="Open source job board">AngJobs</a>
+                @*<span class="pull-right ng-binding hidden-xs">@Html.CurrentVersion()<a href="/" class="text-muted"><i class="fa fa-long-arrow-up"></i></a></span>*@
 
                 <ul class="list-inline">
-                    <li>© @DateTime.Now.Year AngJobs.com</li>
+                    <li>© 2015 AngJobs.com</li>
                     <li>|</li>
-                    <li><a href="/#/about">About Us</a></li>
+                    <li><a href="/Help">Api Page</a></li>
+                    <li>|</li>
+                    <li><a href="/#!/about">About Us</a></li>
+                    <li><a href="/#!/daily">Daily Jobs</a></li>
                 </ul>
             </footer>
         </div>

@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.OAuth;
-using AngJobs.Models;
+using Angjobs.Entities;
+using Angjobs.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace AngJobs.Providers
+namespace Angjobs.Providers
 {
     public class SimpleAuthorizationServerProvider : OAuthAuthorizationServerProvider
     {
@@ -103,7 +104,7 @@ namespace AngJobs.Providers
                 }
                 else
                 {
-                    if (client.Secret != Helper.Helper.GetHash(clientSecret))
+                    if (client.Secret !=  Helpers.GetHash(clientSecret))
                     {
                         context.SetError("invalid_clientId", "Client secret is invalid.");
                         return Task.FromResult<object>(null);

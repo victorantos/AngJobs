@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace AngJobs.Models
+namespace Angjobs.Models
 {
     public class JobPostViewModel
     {
@@ -14,30 +14,37 @@ namespace AngJobs.Models
         public JobPostViewModel(JobPost entity)
         {
             var stackOverflow = "StackOverflow";
+            string sr =  null;
+
+            if (entity.RecruiterName == stackOverflow)
+                sr = entity.SourceReference;
+            
+            if (!string.IsNullOrEmpty(entity.SourceReference) && entity.SourceReference.Contains("news.ycomb"))
+                sr = "hn";
 
                 id = entity.Id;
                 jobTitle = entity.JobTitle;
                 jobType = entity.JobType;
                 jobDescription = entity.JobDescription;
-              //  jobLocation = entity.Location;
-              //  jobCountry = entity.Country;
-                //hiringCompany = entity.HiringCompany;
-                //hiringCompanyWebsite = entity.HiringCompanyWebsite;
-                //hiringCompanyLogo = entity.HiringCompanyLogo;
-                //tagline = entity.Tagline;
-                //salaryMin = entity.SalaryMin;
-                //salaryMax = entity.SalaryMax;
-                //salaryType = entity.SalaryType;
-                //currency = entity.Currency;
-                //salaryNote = entity.SalaryNote;
-                //expiresOn = entity.ExpiresOn;
-                //dateCreated = entity.SourcePostedDate ?? entity.DateCreated;
-                //datePosted = entity.SourcePostedDate;
-                //sourceReference = entity.RecruiterName == stackOverflow ? entity.SourceReference : null; ;
-                //recruiterName = entity.RecruiterName == stackOverflow ? entity.RecruiterName : null;
-                //contactName = entity.ContactName;
-                //priority = string.IsNullOrEmpty(entity.Ip) ? (int?)null : 1;
-                //isHot = entity.IsHot;
+                jobLocation = entity.Location;
+                jobCountry = entity.Country;
+                hiringCompany = entity.HiringCompany;
+                hiringCompanyWebsite = entity.HiringCompanyWebsite;
+                hiringCompanyLogo = entity.HiringCompanyLogo;
+                tagline = entity.Tagline;
+                salaryMin = entity.SalaryMin;
+                salaryMax = entity.SalaryMax;
+                salaryType = entity.SalaryType;
+                currency = entity.Currency;
+                salaryNote = entity.SalaryNote;
+                expiresOn = entity.ExpiresOn;
+                dateCreated = entity.SourcePostedDate ?? entity.DateCreated;
+                datePosted = entity.SourcePostedDate;
+                sourceReference =sr;
+                recruiterName = entity.RecruiterName == stackOverflow ? entity.RecruiterName : null;
+                contactName = entity.ContactName;
+                priority = string.IsNullOrEmpty(entity.Ip) ? (int?)null : 1;
+                isHot = entity.IsHot;
         }
 
         public int id { get; set; }
@@ -59,7 +66,7 @@ namespace AngJobs.Models
         public int salaryMin { get; set; }
         public int salaryMax { get; set; }
         public string salaryType { get; set; }
-       // public CurrencyType currency { get; set; }
+        public CurrencyType currency { get; set; }
         public string salaryNote { get; set; }
         public DateTime? expiresOn { get; set; }
         public DateTime? dateCreated { get; set; }
@@ -72,65 +79,65 @@ namespace AngJobs.Models
             return new JobPost
             {
                 JobTitle = jobTitle,
-             //   JobType = jobType,
+                JobType = jobType,
                 JobDescription = jobDescription,
-                //Location = Helpers.UppercaseFirst(jobLocation),
-                //Country = jobCountry,
-                //JobEmail = jobEmail,
-                //HiringCompany = hiringCompany,
-                //HiringCompanyWebsite = Helpers.EnsureValidUrl(hiringCompanyWebsite),
-                //Tagline = tagline,
-                //SalaryMin = salaryMin,
-                //SalaryMax = salaryMax,
-                //SalaryType = salaryType,
-                //Currency = currency,
-                //ExpiresOn = expiresOn,
+                Location = Helpers.UppercaseFirst(jobLocation),
+                Country = jobCountry,
+                JobEmail = jobEmail,
+                HiringCompany = hiringCompany,
+                HiringCompanyWebsite = Helpers.EnsureValidUrl(hiringCompanyWebsite),
+                Tagline = tagline,
+                SalaryMin = salaryMin,
+                SalaryMax = salaryMax,
+                SalaryType = salaryType,
+                Currency = currency,
+                ExpiresOn = expiresOn,
                 Ip = HttpContext.Current.Request.UserHostAddress
             };
         }
 
-        //public string GetSalary()
-        //{
-        //    var salary = "";
-        //    var salaryMin = this.salaryMin;
-        //    var salaryMax = this.salaryMax;
-        //    var currencyCode = getCurrencyCode(this.currency);
+        public string GetSalary()
+        {
+            var salary = "";
+            var salaryMin = this.salaryMin;
+            var salaryMax = this.salaryMax;
+            var currencyCode = getCurrencyCode(this.currency);
 
-        //    if (salaryMax != 0 && salaryMin != 0)
-        //        salary += salaryMin + " - " + currencyCode + salaryMax;
-        //    else
-        //    {
-        //        if (salaryMin != 0)
-        //            salary += salaryMin;
-        //        if (salaryMax != 0)
-        //            salary += salaryMax;
-        //    }
-        //    if (!string.IsNullOrEmpty(this.salaryType))
-        //        salary += " per " + this.salaryType;
+            if (salaryMax != 0 && salaryMin != 0)
+                salary += salaryMin + " - " + currencyCode + salaryMax;
+            else
+            {
+                if (salaryMin != 0)
+                    salary += salaryMin;
+                if (salaryMax != 0)
+                    salary += salaryMax;
+            }
+            if (!string.IsNullOrEmpty(this.salaryType))
+                salary += " per " + this.salaryType;
 
-        //    if (!string.IsNullOrEmpty(salary))
-        //        salary.Insert(0, currencyCode);
-        //    return salary;
-        //}
+            if (!string.IsNullOrEmpty(salary))
+                salary.Insert(0, currencyCode);
+            return salary;
+        }
 
-        //private string getCurrencyCode(CurrencyType currencyType)
-        //{
-        //    string code = "£";
-        //    switch (currencyType)
-        //    {
-        //        case CurrencyType.Pound:
-        //            code = "£";
-        //            break;
-        //        case CurrencyType.Euro:
-        //            code = "euro";
-        //            break;
-        //        case CurrencyType.Usd:
-        //            code = "$";
-        //            break;
-        //        default:
-        //            break;
-        //    }
-        //    return code;
-        //}
+        private string getCurrencyCode(CurrencyType currencyType)
+        {
+            string code = "£";
+            switch (currencyType)
+            {
+                case CurrencyType.Pound:
+                    code = "£";
+                    break;
+                case CurrencyType.Euro:
+                    code = "euro";
+                    break;
+                case CurrencyType.Usd:
+                    code = "$";
+                    break;
+                default:
+                    break;
+            }
+            return code;
+        }
     }
 }

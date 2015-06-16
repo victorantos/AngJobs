@@ -7,21 +7,33 @@
                   url: '/',
                   templateUrl: 'App/Jobs',
                   resolve: {
-                      jobsResource: 'jobsResource',
-                      jobsList: function (jobsResource) {
-                          return jobsResource.query();
-                      }
+                      jobs: ['jobs',
+                        function (jobs) {
+                            return jobs.all();
+                        }]
                   },
-                  controller: ['$scope', 'jobsList', function ($scope, jobsList) {
-                      $scope.jobsList = jobsList;
+                  controller: ['$scope', 'jobs', function ($scope,jobs) {
+                      $scope.jobsList = jobs;
                   }]
                   // You can pair a controller to your template. There *must* be a template to pair with.
+              })
+              .state('jobs.filter', {
+                  url: 'jobs/filter/:query',
+                  template: '<div ui-view></div>',
+                  controller: ['$scope', '$rootScope', '$stateParams',
+                      function ($scope,$rootScope,$stateParams) {
+                          if ($stateParams.query) {
+                              $scope.$parent.searchBy = {};
+                              $scope.$parent.$parent.query = $stateParams.query;
+                          } else
+                              $scope.$parent.searchBy = null;
+                      }]
               })
               .state('jobs.jobType', {
                   url: 'jobs/:jobType',
                   template: '<div ui-view></div>',
-                  controller: ['$scope', '$rootScope', '$http', '$location', '$stateParams', '$state',
-                       function ($scope, $rootScope, $http, $location, $stateParams, $state) {
+                  controller: ['$scope', '$rootScope', '$http', '$location', '$stateParams', '$state','jobs',
+                       function ($scope, $rootScope, $http, $location, $stateParams, $state, jobs) {
                            if ($stateParams.jobType && $stateParams.jobType != 'inbox') {
                                $scope.$parent.searchBy = {};
                                if ($stateParams.jobType == 'remote')
@@ -30,7 +42,7 @@
                                    $scope.$parent.searchBy.jobType = $stateParams.jobType;
                            }
                            else
-                               $scope.$parent.searchBy = {};
+                               $scope.$parent.searchBy = null;
                            
                            $scope.reset = function () {
                                $scope.$parent.query = '';
@@ -46,23 +58,13 @@
                 controller: ['$scope', '$rootScope', '$http', '$location', '$stateParams', '$state',
                      function ($scope, $rootScope, $http, $location, $stateParams, $state) {
                          $scope.$parent.searchBy = {};
-                         var jobType = $stateParams.jobType;
-                         var jobLocation = $stateParams.location;
-
-                         if (jobLocation == "san-francisco")
-                             jobLocation = "San Francisco";
-
-                         if (jobLocation == "london")
-                             jobLocation = "London";
-
-                         if (jobType == "contract" || jobType == "permanent")
-                             $scope.$parent.searchBy.jobType = jobType;
-                        
+                         if ($stateParams.jobType != "inbox")
+                             $scope.$parent.searchBy.jobType = $stateParams.jobType;
                          if ($stateParams.location == 'hn') {
                              $scope.$parent.searchBy.sourceReference = 'hn';
                          }
                          else {
-                             $scope.$parent.searchBy.jobLocation = jobLocation;
+                             $scope.$parent.searchBy.jobLocation = $stateParams.location;
                          }
                      }]})
         }])

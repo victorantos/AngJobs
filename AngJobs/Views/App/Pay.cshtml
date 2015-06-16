@@ -1,0 +1,68 @@
+﻿
+<div ui-view></div>
+<!-- header -->
+<div class="wrapper bg-light lter b-b top-actions">
+    <h2 class="font-thin m-n">Pay by card <small>(via Stripe)</small></h2>
+</div>
+<!-- / header -->
+
+<div class="wrapper ">
+    <div class="" ng-hide="hasPaid">
+        <form class="col-md-6 well" action="" stripe:form="saveCustomer" id="payment-form">
+            <div class="form-row">
+
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">Email</span>
+                    <input type="text" class="form-control" placeholder="please enter your email" ng-model="email" aria-describedby="basic-addon1" required>
+                </div>
+            </div>
+            <hr />
+            <div class="form-row">
+
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">Card Number</span>
+                    <input type="text" size="20" data-stripe="number" class="form-control" placeholder="enter your card number" value="" aria-describedby="basic-addon1" />
+                </div>
+
+            </div>
+
+            <div class="form-row">
+
+                <div class="input-group" style="width:150px;">
+                    <span class="input-group-addon" id="basic-addon1">CVC</span>
+                    <input type="text" class="form-control" size="4" placeholder="verif. code" data-stripe="cvc" value="" aria-describedby="basic-addon1" />
+
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">Expiration (<span>MM/YYYY</span>)</span>
+                    <input type="text" size="2" data-stripe="exp-month" value="" placeholder="month" class="form-control" aria-describedby="basic-addon1" />
+
+                    <input type="text" size="4" data-stripe="exp-year" value="" placeholder="year" class="form-control" aria-describedby="basic-addon1" />
+
+                </div>
+
+
+            </div>
+
+            <button type="submit" class="btn btn-sm btn-info" ng-click="error=null" ng-disabled="isPaying">{{payBtnText}}</button>
+            <h6>
+                <span class="btn btn-danger" ng-show="error != null" ng-click="error=null">{{ error!=null? error.message: ''}}</span>
+            </h6>
+        </form>
+
+        <div class="col-md-6">
+
+            <h3 class="text-center">
+                <span class="glyphicon glyphicon-ok" style="color:green"></span>
+                {{product}}
+            </h3>
+        </div>
+    </div>
+    <h3 ng-show="hasPaid" class="text-center">
+        <span class="glyphicon glyphicon-ok" style="color:green"></span> Thank you for your payment!
+        <small>We will send you a daily/weekly progress report by email.</small>
+    </h3>
+</div>

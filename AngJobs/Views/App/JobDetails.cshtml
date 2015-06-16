@@ -12,7 +12,7 @@
 
         <span class="thumbnail thumb-sm m-r-sm" style="font-size:30px;">Job</span>
         <span ng-show="details.hiringCompany && !details.hiringCompanyWebsite">{{details.hiringCompany}},</span>
-        <a ng-show="details.hiringCompanyWebsite && details.hiringCompany" style="text-decoration:underline;" href="{{details.hiringCompanyWebsite}}" target="_blank">{{details.hiringCompany}},</a>
+        <a ng-show="details.hiringCompanyWebsite && details.hiringCompany" style="text-decoration:underline;" href="{{ details.hiringCompanyWebsite && details.hiringCompanyWebsite.indexOf('http://') < 0 ? 'http://' + details.hiringCompanyWebsite : details.hiringCompanyWebsite  }}" target="_blank" rel="nofollow">{{details.hiringCompany}},</a>
         <span>{{details.salaryNote}} {{details.jobLocation ? details.jobLocation + ',': ''}} {{details.jobCountry ? details.jobCountry: ''}} <i ng-class="details.currencyIconCss" ng-show="details.currencyIconCss"></i> {{details.salaryMin || details.salaryMax ? salary() : ''}}</span>
         <div class="pull-right text-sm text-muted">
             <span am-time-ago="details.dateCreated"></span>
@@ -47,7 +47,7 @@
                                 <a class="btn-link label label-info " href="javascript:void(0);" data-ng-click="authExternalProvider('LinkedIn')">+ Add LinkedIn</a>
 
                             </div>
-                            @*<div ng-controller="loginCtrl" class="add-linkedin">
+                            <div ng-controller="loginCtrl" class="add-linkedin">
                                 <a class="btn-link label label-default " href="javascript:void(0);" data-ng-click="authExternalProvider('GitHub')">+ Add GitHub</a>
 
                             </div>
@@ -58,8 +58,8 @@
                             </div>
 
                             <div class="add-cv">
-                                +<a class="button btn-link" href="javascript:void(0);" ngf-select ngf-change="upload($files)" ngf-multiple="multiple">Attach CV</a>
-                            </div>*@
+                                +<a class="button btn-link" href="javascript:void(0);"  ngf-select ngf-change="upload($files)" ngf-multiple="multiple">Attach CV</a>
+                            </div>
                         </div>
                     </div>
                     <div ui-view></div>

@@ -4,11 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace AngJobs.Controllers
+namespace Angjobs.Controllers
 {
-    /// <summary>
-    /// Create an ActionResult and PartialView for each angular partial view you want to attatch to a route in the angular app.js file.
-    /// </summary>
     public class AppController : Controller
     {
         public ActionResult Register()
@@ -23,31 +20,7 @@ namespace AngJobs.Controllers
         {
             return PartialView();
         }
-        public ActionResult Inbox()
-        {
-            return PartialView();
-        }
-        public ActionResult Contract()
-        {
-            return PartialView();
-        }
-        public ActionResult Permanent()
-        {
-            return PartialView();
-        }
-        public ActionResult Employers()
-        {
-            return PartialView();
-        }
-        public ActionResult Developers()
-        {
-            return PartialView();
-        }
-        public ActionResult About()
-        {
-            return PartialView();
-        }
-        public ActionResult PostJob()
+        public ActionResult Jobs()
         {
             return PartialView();
         }
@@ -59,7 +32,67 @@ namespace AngJobs.Controllers
         {
             return PartialView();
         }
-        public ActionResult Jobs()
+        public ActionResult JobApplyGitHub()
+        {
+            return PartialView();
+        }
+        public ActionResult JobApplyStackExchange()
+        {
+            return PartialView();
+        }
+        public ActionResult JobApplyTwitter()
+        {
+            return PartialView();
+        }
+        public ActionResult PostJob()
+        {
+            return PartialView();
+        }
+        public ActionResult About()
+        {
+            return PartialView();
+        }
+        public ActionResult Daily()
+        {
+            return PartialView();
+        }
+        public ActionResult Day()
+        {
+            return PartialView();
+        }
+        public ActionResult Api()
+        {
+            return PartialView();
+        }
+        public ActionResult HotJobs()
+        {
+            return PartialView();
+        }
+        public ActionResult Employer()
+        {
+            return PartialView();
+        }
+        public ActionResult EmployerLeftSideMenu()
+        {
+            return PartialView();
+        }
+        public ActionResult JobApplications()
+        {
+            return PartialView();
+        }
+        public ActionResult JobApplication()
+        {
+            return PartialView();
+        }
+        public ActionResult Pay()
+        {
+            return PartialView();
+        }  
+        public ActionResult Services()
+        {
+            return PartialView();
+        }
+        public ActionResult Resumes()
         {
             return PartialView();
         }

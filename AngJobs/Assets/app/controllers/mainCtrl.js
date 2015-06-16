@@ -1,14 +1,13 @@
 ﻿angular.module('main', ['ngCookies', 'ui.router'])
-    .controller('mainCtrl', ['$scope', '$rootScope', '$state', '$http', '$cookies', '$cookieStore', '$location', '$stateParams', 'localStorageService', 'authService',
-        function ($scope, $rootScope, $state, $http, $cookies, $cookieStore, $location, $stateParams, localStorageService, authService) {
+    .controller('mainCtrl', ['$scope', '$rootScope', '$state', '$http', '$cookies', '$cookieStore', '$location', '$stateParams', 'localStorageService', 'authService', 'moment', function ($scope, $rootScope, $state, $http, $cookies, $cookieStore, $location, $stateParams, localStorageService, authService, moment) {
         var dateFormat = "YYYY-MM-DD";
         $scope.query = '';
         $scope.searchByTemp = {};
         $scope.filter = {
             myNewFilter: ''
         };
-        //$scope.today = new moment().format(dateFormat);
-        //$scope.yesterday = new moment($scope.today).add('days', -1).format(dateFormat);
+        $scope.today = new moment().format(dateFormat);
+        $scope.yesterday = new moment($scope.today).add('days', -1).format(dateFormat);
 
         if (localStorageService.get('myFilters') == null)
             $scope.filter.myNewFilter = 'python';
@@ -48,7 +47,19 @@
                 }
             }
         });
- 
+
+        $scope.getUserName = function () {
+            $http.get('/api/WS_Account/GetCurrentUserName')
+            .success(function (data, status, headers, config) {
+                if (data != "null") {
+                    $scope.loggedIn = true;
+                    $scope.username = data.replace(/["']{1}/gi, "");//Remove any quotes from the username before pushing it out.
+                }
+                else
+                    $scope.loggedIn = false;
+            });
+        }
+
         $scope.$on('$locationChangeSuccess', function (event) {
             //possiblity of updating token on this request.  This could be the keepalive function.
             // $scope.getUserName();
@@ -63,6 +74,8 @@
 
         $scope.authentication = authService.authentication;
 
+        //On Load, get the username
+        $scope.getUserName();
     }]);
    
  

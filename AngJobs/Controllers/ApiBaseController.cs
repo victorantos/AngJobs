@@ -1,4 +1,4 @@
-﻿using AngJobs.Models;
+﻿using Angjobs.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
@@ -11,9 +11,8 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Http.Description;
 
-namespace AngJobs
+namespace Angjobs.Controllers
 {
-
     [ApiExplorerSettings(IgnoreApi = true)]
     public class ApiBaseController : ApiController
     {
@@ -23,7 +22,7 @@ namespace AngJobs
         {
             db = HttpContext.Current.GetOwinContext().Get<DBContext>();
         }
-
+        
         protected void CheckForAnonymousActions()
         {
             var guidCookie = HttpContext.Current.Request.Cookies["guid"];

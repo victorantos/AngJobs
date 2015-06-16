@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace AngJobs
+namespace Angjobs
 {
     public class BundleConfig
     {
@@ -10,31 +10,30 @@ namespace AngJobs
         {
 
             bundles.Add(new ScriptBundle("~/bootstrap").Include(
-                     "~/Assets/Bootstrap/js/bootstrap.js"));
+                      "~/Assets/Bootstrap/js/bootstrap.js"));
 
             //Moved bootstrap css to own style tag in the _layout page.  This is to remove it from the optimizations which was breaking the fonts and icons.
-            bundles.Add(new StyleBundle("~/styles").IncludeDirectory("~/Assets", "*.css", true));
+            bundles.Add(new StyleBundle("~/styles").Include(
+                "~/Assets/Styles/styles.css"));
 
 
-            bundles.Add(new ScriptBundle("~/bower").Include(
-                        "~/bower_components/angular/angular.min.js",
-                        "~/bower_components/angular-resource/angular-resource.min.js",
-                        "~/bower_components/angular-cookies/angular-cookies.min.js",
-                        "~/bower_components/angular-ui-router/release/angular-ui-router.min.js",
-                        "~/bower_components/textAngular/angular_textangular-122textAngular-sanitize-textAngular.js",
-                        "~/bower_components/angular-local-storage/dist/angular-local-storage.min.js"
-                        ));
+            bundles.Add(new ScriptBundle("~/ng").Include(
+                        "~/Assets/ng/angular.min.js",
+                        "~/Assets/ng/angular-cookies.min.js",
+                        "~/Scripts/ng-file-upload.min.js"));
 
             bundles.Add(new ScriptBundle("~/app").IncludeDirectory("~/Assets/app", "*.js", true));
 
             bundles.Add(new ScriptBundle("~/jquery").Include(
                         "~/Assets/jquery/jquery.min.js"));
 
-            bundles.Add(new ScriptBundle("~/misc").IncludeDirectory("~/Assets/misc", "*.js", true));
+            bundles.Add(new ScriptBundle("~/misc").Include(
+                "~/Assets/misc/modernizr.min.js",
+                "~/Assets/misc/respond.min.js"
+                ));
 
             // Set EnableOptimizations to false for debugging. For more information,
             // visit http://go.microsoft.com/fwlink/?LinkId=301862
-
 #if !DEBUG
              BundleTable.EnableOptimizations = true;
 #endif

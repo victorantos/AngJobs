@@ -3,13 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngJobs", "AngJobs\AngJobs.csproj", "{0AB0A3F4-F35F-4F99-8F53-E1DDD4A2227F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngJobs.Android", "AngJobs.Android\AngJobs.Android.csproj", "{8E6A64CF-209E-4790-BAE3-A10CE4B76B28}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angjobs", "AngJobs\Angjobs.csproj", "{0AB0A3F4-F35F-4F99-8F53-E1DDD4A2227F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owin.Security.Providers", "Owin.Security.Providers\Owin.Security.Providers.csproj", "{6AD9BA00-1330-426D-8BAE-2D3BC0D976E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngJobs.Helper", "AngJobs.Helper\AngJobs.Helper.csproj", "{5BD74A7E-5428-4BE1-AEEB-A88F36C394DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngJobs.Android", "AngJobs.Android\AngJobs.Android.csproj", "{8E6A64CF-209E-4790-BAE3-A10CE4B76B28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C1BB2C9E-1324-4EA1-9357-146F25E2D646}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripeEntities", "StripeEntities\StripeEntities.csproj", "{56E6088C-3A4B-4F08-A440-588F450D3721}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +28,18 @@ Global
 		{0AB0A3F4-F35F-4F99-8F53-E1DDD4A2227F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AB0A3F4-F35F-4F99-8F53-E1DDD4A2227F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AB0A3F4-F35F-4F99-8F53-E1DDD4A2227F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8E6A64CF-209E-4790-BAE3-A10CE4B76B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8E6A64CF-209E-4790-BAE3-A10CE4B76B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8E6A64CF-209E-4790-BAE3-A10CE4B76B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8E6A64CF-209E-4790-BAE3-A10CE4B76B28}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6AD9BA00-1330-426D-8BAE-2D3BC0D976E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6AD9BA00-1330-426D-8BAE-2D3BC0D976E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AD9BA00-1330-426D-8BAE-2D3BC0D976E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AD9BA00-1330-426D-8BAE-2D3BC0D976E4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5BD74A7E-5428-4BE1-AEEB-A88F36C394DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5BD74A7E-5428-4BE1-AEEB-A88F36C394DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5BD74A7E-5428-4BE1-AEEB-A88F36C394DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5BD74A7E-5428-4BE1-AEEB-A88F36C394DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E6A64CF-209E-4790-BAE3-A10CE4B76B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E6A64CF-209E-4790-BAE3-A10CE4B76B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E6A64CF-209E-4790-BAE3-A10CE4B76B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E6A64CF-209E-4790-BAE3-A10CE4B76B28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E6088C-3A4B-4F08-A440-588F450D3721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E6088C-3A4B-4F08-A440-588F450D3721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E6088C-3A4B-4F08-A440-588F450D3721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E6088C-3A4B-4F08-A440-588F450D3721}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

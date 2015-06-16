@@ -1,19 +1,55 @@
-﻿<div>
+﻿<div ui-view="leftSideMenu">
     <ul class="nav nav-pills nav-sm list-inline">
         <li ng-class="{ active: $state.is('jobs.jobType') && $stateParams.jobType=='inbox'}">
-            <a href="/#/jobs/inbox">
+            <a href="/#!/jobs/inbox">
+                @*<span class="badge pull-right">42</span>*@
                 Inbox
             </a>
         </li>
-        <li ng-class="activePath == '/permanent' || activePath.indexOf('/permanent')>=0 ? 'active': ''">
-            <a href="/#/jobs/permanent">
+        <li ng-class="activePath == '/jobs/permanent' || activePath.indexOf('/jobs/permanent')>=0 ? 'active': ''">
+            <a href="/#!/jobs/permanent">
+                @*<span class="badge pull-right">1</span>*@
                 Permanent
             </a>
         </li>
-        <li ng-class="activePath == '/contract' || activePath.indexOf('/contract')>=0 ? 'active': ''">
-            <a href="/#/jobs/contract">
-                Contract
+        <li ng-class="activePath == '/jobs/contract' || activePath.indexOf('/jobs/contract')>=0 ? 'active': ''">
+            <a href="/#!/jobs/contract">
+                Contracts
             </a>
+        </li>
+        <li ng-class="activePath == '/daily' || activePath.indexOf('/daily')>=0 ? 'active': ''">
+            <a href="/#!/daily">
+                History
+            </a>
+            <ul>
+                <li><a href="/#!/daily/{{today}}">Today</a></li>
+                <li><a href="/#!/daily/{{yesterday}}">Yesterday</a></li>
+            </ul>
+        </li>
+        <li class="visible-xs">
+            <ul class="nav navbar-nav navbar-right" style="margin-top:-3px;">
+                <li class="dropdown">
+                    <a href="javascript: void(0);" class="dropdown-toggle" data-toggle="dropdown">Filters <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li>
+                            <a href="/#!/jobs/{{searchBy.jobType ? searchBy.jobType : 'inbox'}}/london">
+                                <i class="fa fa-fw fa-circle text-muted"></i>
+                                London, UK
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/#!/jobs/{{searchBy.jobType ? searchBy.jobType : 'inbox'}}/us">
+                                <i class="fa fa-fw fa-circle text-muted "></i>
+                                US
+                            </a>
+                        </li>
+
+                        <li class="divider"></li>
+                        <li><a href="javascript: void(0);">Exit</a></li>
+                    </ul>
+                </li>
+            </ul>
         </li>
     </ul>
     <div class="hidden-xs">
@@ -23,7 +59,7 @@
             <li>
                 <div class="text-1-l">
 
-                    <a href="/#/jobs/{{searchBy.jobType ? searchBy.jobType : 'inbox'}}/london">
+                    <a href="/#!/jobs/{{searchBy.jobType ? searchBy.jobType : 'inbox'}}/london">
                         <i class="fa fa-fw fa-circle text-muted" ng-class="searchBy && searchBy.jobLocation == 'london' ? 'text-active' : 'text-muted'"></i>
                         London, UK
                     </a>
@@ -31,16 +67,24 @@
             </li>
             <li>
                 <div class="text-1-l">
-                    <a href="/#/jobs/{{searchBy.jobType ? searchBy.jobType : 'inbox'}}/san-francisco">
-                        <i class="fa fa-fw fa-circle text-muted" ng-class="searchBy && searchBy.jobLocation == 'san francisco' ? 'text-active' : 'text-muted'"></i>
-                        San Francisco
+                    <a href="/#!/jobs/{{searchBy.jobType ? searchBy.jobType : 'inbox'}}/us">
+                        <i class="fa fa-fw fa-circle text-muted" ng-class="searchBy && searchBy.jobLocation == 'us' ? 'text-active' : 'text-muted'"></i>
+                        US
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="text-1-l">
+                    <a href="/#!/jobs/{{searchBy.jobType ? searchBy.jobType : 'inbox'}}/hn">
+                        <i class="fa fa-fw fa-circle text-muted" ng-class="searchBy && searchBy.sourceReference == 'hn' ? 'text-active-hn' : 'text-muted'"></i>
+                       HackerNews
                     </a>
                 </div>
             </li>
             <li ng-repeat="f in myFilters">
                 <div class="text-1-l">
                     <button class="btn-link" ng-show="searchBy == decodeUriComponent(f)" ng-click="removeFilter($index)"><i class="fa fa-fw fa-remove"></i></button>
-                    <a href="{{ '/#/jobs/filter/' +f}}">
+                    <a href="{{ '/#!/jobs/filter/' +f}}">
                         <i class="fa fa-fw fa-circle text-muted" ng-hide="searchBy == decodeUriComponent(f)" ng-class="searchBy == decodeUriComponent(f) ? 'text-active' : 'text-muted'"></i>
                         <span ng-bind="decodeUriComponent(f)"></span>
                     </a>

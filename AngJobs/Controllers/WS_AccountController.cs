@@ -1,4 +1,4 @@
-﻿using AngJobs.Models;
+﻿using Angjobs.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
@@ -10,13 +10,10 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-namespace AngJobs.Controllers
+namespace Angjobs.Controllers
 {
-    public class WS_AccountController : ApiController
+    public class WS_AccountController : ApiBaseController
     {
-        private DBContext db = new DBContext();
-        //HttpContext httpContext = new HttpContext(new Http
-
         public RoleManager<IdentityRole> RoleManager { get; private set; }
 
         private ApplicationUserManager _userManager;

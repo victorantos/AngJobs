@@ -6,7 +6,7 @@ using System.Web;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 
-namespace AngJobs.Models
+namespace Angjobs.Models
 {
     public class JobApplicationViewModel
     {
@@ -19,11 +19,14 @@ namespace AngJobs.Models
         { 
                 id = entity.Id;
                 email = entity.ApplicantEmail;
-              
+                skills = entity.ApplicantSkills;
+                experience = entity.ApplicantExperience;
                 message = entity.ApplicantMessage;
                 dateCreated = entity.DateCreated;
 
                 idealJobTitle = entity.JobPost.JobTitle;
+                idealLocation = entity.JobPost.Location;
+                idealSalary = entity.JobPost.SalaryNote;
         }
 
         public int id { get; set; }
@@ -43,15 +46,15 @@ namespace AngJobs.Models
 
         public JobApplication ToEntity()
         {
-            //TODO
-           // CV cv = cvGuid.HasValue ? db.CVs.FirstOrDefault(f => f.Guid.Equals(cvGuid.Value)) : null; 
+            CV cv = cvGuid.HasValue ? db.CVs.FirstOrDefault(f => f.Guid.Equals(cvGuid.Value)) : null; 
             return new JobApplication
             {
                 ApplicantEmail = email,
-               
+                ApplicantSkills = skills,
+                ApplicantExperience = experience,
                 ApplicantMessage = message,
-                JobPost = db.jobPosts.Find(this.jobPostId),
-               // CV = cv,
+                JobPost = db.JobPosts.Find(jobPostId),
+                CV = cv,
                 Ip = HttpContext.Current.Request.UserHostAddress
             };
         }

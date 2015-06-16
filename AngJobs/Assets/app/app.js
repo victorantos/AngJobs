@@ -1,44 +1,66 @@
-﻿var app = angular.module('app', [
+﻿/* App Module */
+
+var app = angular.module('app', [
     'ui.router',
-    'ngResource',
     'ngCookies',
+    'ngFileUpload',
+    'stripe',
     'LocalStorageModule',
-    'home',
-    'contract',
-    'inbox',
-    'permanent',
-    'about',
-    'employers',
-    'developers',
-    'postJob',
-    'jobDetails',
-    'jobs.resource',
-    'promotedJobs.resource',
-    'contractsJobs.resource',
-    'permanentJobs.resource',
+    'angular-cache',
+    'main',
     'utils.service',
-    'login',
+    'jobs.service',
+    'home',
     'jobs',
-    'main'
+    'hot',
+    'about',
+    'daily',
+    'register',
+    'login',
+    'jobDetails',
+    'postJob',
+    'angularMoment',
+    'associate',
+    'employer',
+    'developer',
+    'pay',
+    'services'
 ]);
-
-
+    
 
 app.constant('ngAuthSettings', {
-    apiServiceBaseUri: typeof serviceBase != 'undefined' ? serviceBase : 'http://localhost:33651/',
-    authServiceBaseUri: typeof authServiceBase != 'undefined' ? authServiceBase : 'http://localhost:33651/',
+    apiServiceBaseUri: typeof serviceBase != 'undefined' ? serviceBase : 'https://angjobs.com/',
+    authServiceBaseUri: typeof authServiceBase != 'undefined' ? authServiceBase : 'https://angjobs.com/',
     clientId: 'angjobsApp'
 });
 
-app.config(['$provide', '$urlRouterProvider', '$httpProvider', '$stateProvider', 'localStorageServiceProvider', function ($provide, $urlRouterProvider, $httpProvider, $stateProvider, localStorageServiceProvider) {
+app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', '$httpProvider', 'localStorageServiceProvider', 'CacheFactoryProvider', function ($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider, localStorageServiceProvider, CacheFactoryProvider) {
+
+    Stripe.setPublishableKey('pk_live_UiOp1gWlytAgr4d28YiX83H4');
+
+    $locationProvider.hashPrefix('!');
+    //localStorageServiceProvider.setStorageCookie(1, '/');
+
+    angular.extend(CacheFactoryProvider.defaults, { maxAge: 15 * 60 * 1000 });
+
+    //================================================
+    // Add an interceptor for AJAX errors
+    //================================================
+    $httpProvider.interceptors.push('authInterceptorService');
+
+    // TODO this does not work. allow case insensitive urls
+    //$urlRouterProvider.rule(function ($injector, $location) {
+    //    //what this function returns will be set as the $location.url
+    //    var path = $location.path(), normalized = path.toLowerCase();
+    //    if (path != normalized) {
+    //        //instead of returning a new url string, I'll just change the $location.path directly so I don't have to worry about constructing a new url string and so a new state change is not triggered
+    //        $location.replace().path(normalized);
+    //    }
+    //})
 
     //================================================
     // Routes
     //================================================
-
-    //$urlRouterProvider.when('/', '/home');
-
-
 
     //////////////////////////
     // State Configurations //
@@ -66,17 +88,17 @@ app.config(['$provide', '$urlRouterProvider', '$httpProvider', '$stateProvider',
 
       //})
       .state("home", {
-          url: "/home",
-          templateUrl: 'App/Home',
-          resolve: {
-              promotedJobsResource: 'promotedJobsResource',
-              jobsList: function (promotedJobsResource) {
-                  return promotedJobsResource.query();
-              }
-          },
-          controller: 'homeCtrl'
-      })
-     .state("postJob", {
+            url: "/home",
+            templateUrl: 'App/HotJobs',
+            resolve: {
+                hotlist: ['jobs',
+                 function (jobs) {
+                     return jobs.hot();
+                 }]
+            },
+            controller: 'hotCtrl'
+        })
+     .state("postjob", {
          url: "/postjob",
          templateUrl: 'App/PostJob',
          controller: 'postJobCtrl'
@@ -86,75 +108,125 @@ app.config(['$provide', '$urlRouterProvider', '$httpProvider', '$stateProvider',
         templateUrl: 'App/About',
         controller: 'aboutCtrl'
     })
-   .state("inbox", {
-       url: "/inbox",
-       templateUrl: 'App/Inbox',
-       resolve: {
-           jobsResource: 'jobsResource',
-           jobsList: function (jobsResource) {
-               return jobsResource.query();
-           }
-       },
-       controller: 'inboxCtrl'
-   })
-    .state("contract", {
-        url: "/contract",
-        templateUrl: 'App/Contract',
-        resolve: {
-            contractsJobsResource: 'contractsJobsResource',
-            jobsList: function (contractsJobsResource) {
-                return contractsJobsResource.query();
+    .state("pay", {
+        url: "/pay",
+        templateUrl: 'App/Pay',
+        controller: 'payCtrl'
+    })
+    .state("payFor", {
+        url: "/pay/:type/:email",
+        params: {
+            email: {
+                value: null,
+                squash: true
             }
         },
-        controller: 'contractCtrl'
+         templateUrl: 'App/Pay',
+         controller: 'payCtrl'
     })
-    .state("permanent", {
-        url: "/permanent",
-        templateUrl: 'App/Permanent',
+        .state("services", {
+        url: "/services",
+        templateUrl: 'App/Services',
+        controller: 'servicesCtrl'
+    })
+    .state("daily", {
+        url: "/daily",
+        templateUrl: 'App/Daily',
+        controller: 'dailyCtrl'
+    })
+   .state("byday", {
+       url: "/daily/:day",
+          templateUrl: 'App/Day',
+          controller: 'dailyCtrl'
+      })
+    .state("employer", {
+        url: "/employer",
         resolve: {
-            permanentJobsResource: 'permanentJobsResource',
-            jobsList: function (permanentJobsResource) {
-                return permanentJobsResource.query();
-            }
+            todaysJobApplications: ['$cookies','jobs',
+            function ($cookies,jobs) {
+                return jobs.getTodaysJobApplicationsForRecruiter($cookies.guid);
+            }]
         },
-        controller: 'permanentCtrl'
+        views: {
+            '': {
+                templateUrl: 'App/Employer',
+                controller:  ['$scope', 'todaysJobApplications', function ($scope,todaysJobApplications) {
+                    $scope.todaysJobApplications = todaysJobApplications;
+                }]
+            },
+            'dashboardTitle@employer': {
+                template: '',
+                controller: function ($scope) {
+                }
+            },
+            'leftSideMenu': {
+                templateUrl: 'App/EmployerLeftSideMenu',
+                controller: function ($scope) {
+                }
+            }
+        }
     })
-    .state("employers", {
-        url: "/employers",
-        templateUrl: 'App/Employers',
-        controller: 'employersCtrl'
-    })
-     .state("developers", {
-         url: "/developers",
-         templateUrl: 'App/Developers',
-         controller: 'developersCtrl'
+     .state("developer", {
+         url: "/developer",
+         resolve: {
+             todaysJobApplications: ['$cookies', 'jobs',
+             function ($cookies, jobs) {
+                 return jobs.getTodaysJobApplicationsForRecruiter($cookies.guid);
+             }]
+         },
+         views: {
+             '': {
+                 templateUrl: 'App/Employer',
+                 controller: ['$scope', 'todaysJobApplications', function ($scope, todaysJobApplications) {
+                     $scope.todaysJobApplications = todaysJobApplications;
+                 }]
+             },
+             'dashboardTitle@developer': {
+                 template: '',
+                 controller: function ($scope) {
+                 }
+             },
+             'leftSideMenu': {
+                 templateUrl: 'App/EmployerLeftSideMenu',
+                 controller: function ($scope) {
+                 }
+             }
+         }
      })
-    
-    $urlRouterProvider.otherwise(function ($injector, $location) {
-        var $state = $injector.get("$state");
-      //  $state.go("home");
-    })
+
+    $urlRouterProvider.when('/', '/home');
+
+    $urlRouterProvider.otherwise('/home');
 
 }]);
 
-//GLOBAL FUNCTIONS - pretty much a root/global controller.
-//Get username on each page
-//Get updated token on page change.
-//Logout available on each page.
-app.run(['$rootScope', '$http', '$cookies', '$cookieStore', '$state', '$stateParams', function ($rootScope, $http, $cookies, $cookieStore, $state, $stateParams) {
-
+app.run(['$http', '$cookies', '$cookieStore', 'authService', '$rootScope', '$state', '$stateParams', '$log',
+    function ($http, $cookies, $cookieStore, authService, $rootScope, $state, $stateParams, $log) {
+    
     $rootScope.$state = $state;
     $rootScope.$stateParams = $stateParams;
+    $rootScope.$log = $log;
+
+    authService.fillAuthData();
+
+    //If a token exists in the cookie, load it after the app is loaded, so that the application can maintain the authenticated state.
+    $http.defaults.headers.common.Authorization = 'Bearer ' + $cookieStore.get('_Token');
 
     $rootScope.previousState;
+    $rootScope.previousStateParams;
+    $rootScope.tempState;
+    $rootScope.tempStateParams;
     $rootScope.currentState;
 
     $rootScope.$on('$stateChangeSuccess', function (ev, to, toParams, from, fromParams) {
         $rootScope.previousState = from;
+        $rootScope.previousStateParams = fromParams;
         $rootScope.currentState = to;
+
         console.dir('Previous state:' + $rootScope.previousState)
         console.dir('Current state:' + $rootScope.currentState)
     });
 
 }]);
+
 

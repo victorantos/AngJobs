@@ -1,13 +1,13 @@
 ﻿using Microsoft.Owin.Security.Infrastructure;
-using AngJobs.Models;
+using Angjobs.Entities;
+using Angjobs.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
-using AngJobs.Helper;
 
-namespace AngJobs.Providers
+namespace Angjobs.Providers
 {
     public class SimpleRefreshTokenProvider : IAuthenticationTokenProvider
     {
@@ -28,7 +28,7 @@ namespace AngJobs.Providers
 
                 var token = new RefreshToken()
                 {
-                    Id = Helper.Helper.GetHash(refreshTokenId),
+                    Id = Helpers.GetHash(refreshTokenId),
                     ClientId = clientid,
                     Subject = context.Ticket.Identity.Name,
                     IssuedUtc = DateTime.UtcNow,
@@ -65,7 +65,7 @@ namespace AngJobs.Providers
             var allowedOrigin = context.OwinContext.Get<string>("as:clientAllowedOrigin");
             context.OwinContext.Response.Headers.Add("Access-Control-Allow-Origin", new[] { allowedOrigin });
 
-            string hashedTokenId = Helper.Helper.GetHash(context.Token);
+            string hashedTokenId = Helpers.GetHash(context.Token);
 
             using (AuthRepository _repo = new AuthRepository())
             {

@@ -1,0 +1,29 @@
+﻿@using Angjobs.Models
+    <!-- header -->
+<div class="wrapper bg-light lter b-b top-actions hidden-xs">
+    <h2 class="font-thin m-n">Daily jobs - @Model.day.ToString("d MMM yyyy")</h2>
+</div>
+<!-- / header -->
+<div class="jobs-list">
+  
+    <h4 class="wrapper font-thin m-n">@Model.day.ToString("dddd, MMMM d")</h4>
+ 
+    <ul class="list-group list-group-lg no-radius">
+        @foreach (JobPostViewModel job in Model.list!= null ? Model.list : new List<JobPostViewModel>())
+        {
+            <li class="list-group-item clearfix " ng-repeat="job in jobs">
+                <div class="pull-right text-sm text-muted">
+                    <span class="hidden-xs">@((job.salaryMin > 0 ? "£" + job.salaryMin : "") + (!string.IsNullOrEmpty(job.salaryType) ? "per " + job.salaryType : ""))</span>
+                </div>
+                <div class="clear short-desc" ng-click="goTo('/jobdetails/' + @job.id )">
+                    <div>
+                        <a class="text-md" href="/#!/jobdetails/@job.id">@job.jobTitle</a>
+                        <span class="label bg-light">@job.salaryNote</span>
+                    </div>
+                </div>
+            </li>
+        }
+
+    </ul>
+
+</div>

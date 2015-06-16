@@ -1,24 +1,18 @@
-﻿angular.module('jobDetails', ['ngSanitize', 'ui.router'])
+﻿angular.module('jobDetails', ['ngSanitize', 'ui.router', 'login', 'ngFileUpload'])
     .config(['$stateProvider', '$urlRouterProvider', 
         function ($stateProvider, $urlRouterProvider) {
             $stateProvider
             .state('jobdetails', {
                 url: '/jobdetails/:jobId',
                 resolve: {
-                    jobsResource: 'jobsResource',
-                    jobdetail: function (jobsResource, $stateParams) {
-
-                        // Extract customer ID from $stateParams
-                        var jobId = $stateParams.jobId;
-
-                        // Return a promise to make sure the customer is completely
-                        // resolved before the controller is instantiated
-                        return jobsResource.get({ jobId: jobId }).$promise;
-                    }
+                    jobdetail: ['jobs' ,'$stateParams',
+                     function (jobs, $stateParams) {
+                         return jobs.get($stateParams.jobId);
+                      }]
                 },
                 templateUrl: 'App/JobDetails',
-                controller: ['$scope', '$rootScope', '$http', '$location', '$state', 'jobdetail', 'utils', '$cookies',
-                    function ($scope, $rootScope, $http, $location, $state, jobdetail, utils, $cookies) { 
+                controller: ['$scope', '$rootScope', '$http', '$location', '$state', 'jobdetail', 'utils', '$cookies','Upload',
+                    function ($scope, $rootScope, $http, $location, $state, jobdetail, utils, $cookies, Upload) { 
                         $scope.details = jobdetail;
                         $scope.applicant = {};
                         $scope.details.currencyIconCss = null;
@@ -64,12 +58,12 @@
                                     skills: $scope.applicant.skills,
                                     experience: $scope.applicant.experience,
                                     message: $scope.applicant.message,
-                                    jobPostId: $scope.details.Id,
+                                    jobPostId: $scope.details.id,
                                     cvGuid : $scope.attachedCvId
                                 };
 
                             if ($scope.applicant.email != '') {
-                                $http.post('/api/JobApplications/Apply', item)
+                                $http.post('/api/Jobs/ApplyForJob', item)
                                     .success(function (data, status, headers, config) {
                                         // todo redirect to thank you state
 
@@ -126,11 +120,15 @@
 
                         $rootScope.pageTitle = $scope.details.jobTitle + ' - AngularJs job';
 
+
+                        $rootScope.tempState = $rootScope.previousState;
+                        $rootScope.tempStateParams = $rootScope.previousStateParams;
+
                         $scope.goBack = function () {
-                            if ($rootScope.previousState == null || $rootScope.previousState.name == '' )
-                                location.href = '/#/jobs/inbox';
+                            if ($rootScope.tempState == null || $rootScope.tempState.name == '')
+                                location.href = '/#!/jobs/inbox';
                             else
-                                $rootScope.$state.transitionTo($rootScope.previousState.name, $rootScope.$stateParams);
+                                $rootScope.$state.transitionTo($rootScope.tempState.name, $rootScope.tempStateParams);
                         }
                     }
                 ]
@@ -176,14 +174,6 @@
                     }
                 }]
             })
-            //.state('jobdetails.apply', {
-            //    url: '/apply',
-            //    template: ' ',
-            //    controller: ['$scope', '$location', '$timeout', 'authService',
-            //        function ($scope, $location, $timeout, authService) {
-            //            $scope.$parent.apply = true;
-            //        }]
-            //})
             .state('jobdetails.apply', {
                 url: '/apply/LinkedIn',
                 templateUrl: 'App/JobApplyLinkedIn',

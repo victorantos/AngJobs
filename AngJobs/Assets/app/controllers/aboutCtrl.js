@@ -1,4 +1,4 @@
 ﻿angular.module('about', [])
-    .controller('aboutCtrl', ['$scope', '$http', function ($scope, $http) {
-       
+    .controller('aboutCtrl', ['$scope', function ($scope) {
     }]);
+         

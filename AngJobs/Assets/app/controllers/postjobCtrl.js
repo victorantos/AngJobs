@@ -6,12 +6,13 @@
 
         $scope.saveJob = function () {
             var expiresOn = $scope.jobPost.expiresOn;
-            if (expiresOn) {
-                if (moment(expiresOn, 'MM/DD').isValid())
+            if (expiresOn)
+            {
+                if(moment(expiresOn, 'MM/DD').isValid())
                     expiresOn = moment(expiresOn, 'MM/DD');
-                else if (moment(expiresOn, 'YYYY/MM/DD').isValid())
+                else if(moment(expiresOn, 'YYYY/MM/DD').isValid())
                     expiresOn = moment(expiresOn, 'YYYY/MM/DD');
-
+                
                 // add year if needed
                 if (moment().diff(expiresOn, "days") > 0)
                     expiresOn = expiresOn.add(1, 'year');
@@ -47,3 +48,4 @@
             }
         }
     }]);
+ 

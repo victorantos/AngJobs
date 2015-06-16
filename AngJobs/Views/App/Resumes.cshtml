@@ -1,0 +1,25 @@
+﻿<div class="job-applications">
+    <span ng-show="resumes == null">Loading...</span>
+    <div class="list-group-item">
+        <h4 class="list-group-item-heading">
+            <i class="glyphicon glyphicon-paperclip"></i>    Resumes
+        </h4>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Updated</th>
+                    <th>File</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr ng-repeat="r in resumes">
+                    <td><span am-time-ago="r.Modified"></span></td>
+                    <td><i class="fa fa-file-text"></i> {{r.Name}} <i class="glyphicon glyphicon-download-alt"></i><i>(download soon)</i></td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </div>
+</div>

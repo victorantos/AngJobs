@@ -1,0 +1,19 @@
+{
+  "name": "angjobs",
+  "description": "angjobs.com using AngularJS",
+  "version": "0.0.0",
+  "homepage": "http://angjobs.com",
+  "private": true,
+  "dependencies": {
+    "angular": "1.3.0-beta.7",
+    "angular-mocks": "~1.2.x",
+    "jquery": "1.10.2",
+    "bootstrap": "~3.1.1",
+    "angular-route": "~1.2.x",
+    "angular-resource": "~1.2.x",
+    "angular-cache": "~4.2.0"
+  },
+  "resolutions": {
+    "angular": "1.3.0-beta.7"
+  }
+}

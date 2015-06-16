@@ -1,0 +1,21 @@
+﻿<div class="job-applications">
+    <span ng-show="dailyJobApplications == null">Loading...</span>
+    <div ng-repeat="day in dailyJobApplications | keys" ng-init="jobs = dailyJobApplications[day]">
+        <h4 class="wrapper font-thin m-n">{{day | amDateFormat:'dddd, MMMM Do YYYY' }}</h4>
+        <ul class="list-group list-group-lg no-radius">
+            <li class="list-group-item clearfix " ng-repeat="job in jobs">
+                <div class="pull-right text-sm text-muted">
+                    <span class="hidden-xs">{{job.salaryMin ? '£'+job.salaryMin : ''}} {{job.salaryType ? 'per '+job.salaryType : ''}}</span>
+                </div>
+                <div class="clear short-desc" >
+                    <div>
+                        <a class="text-md" href="/#!/jobapplication/{{job.id}}" style="text-decoration:underline;">{{job.applicant}}</a>
+                        applied for:
+                        <a class="text-md" href="/#!/jobdetails/{{job.jobPostId}}">{{job.jobTitle}}</a>
+                        <span class="label bg-light">{{job.salaryNote}}</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
