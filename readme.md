@@ -24,6 +24,7 @@ Todo
 +  Create a jobs applied for table
 +  Create an API page
 +  Add a Filters section on the side menu
++  Option to remove a filter, a cross btn
 +  Mark jobs posts as read, that can be done by removing the bold font
 +  ~~Jobs detail page~~
 +  **Upload resume functionality**
