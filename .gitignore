@@ -207,3 +207,5 @@ FakesAssemblies/
 
 /bower_components/font-awesome
 AngJobs.Android/Web.Release.config
+
+/AngJobs/Web.Release.config
