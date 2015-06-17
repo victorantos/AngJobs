@@ -3,6 +3,8 @@ AngJobs - job board built by developers for developers
 
 Looking for a demo? - Check http://AngJobs.com which is based on this open source job board.
 
+*update: current repository matches live website, additionally it automatically import about 500 real jobs when you run it for the first time!*
+
 
 UI
 ====
