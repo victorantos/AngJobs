@@ -182,6 +182,13 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 /bower_components
+!/bower_components/angular/angular.min.js
+!/bower_components/stripe-angular/stripe-angular.js
+!/bower_components/angular-cache/dist/angular-cache.min.js
+!/bower_components/angular-local-storage/dist/angular-local-storage.min.js
+!/bower_components/angular-ui-router/release/angular-ui-router.min.js
+!/bower_components/moment/min/moment.min.js
+!/bower_components/angular-moment/angular-moment.min.js
 *.map
 
 App_Data/CV/
