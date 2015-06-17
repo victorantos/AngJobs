@@ -48,9 +48,6 @@ namespace Owin.Security.Providers.LinkedIn
                 Timeout = Options.BackchannelTimeout,
                 MaxResponseContentBufferSize = 1024*1024*10
             };
-
-            // Fix for LinkedIn Expect: 100- continue issue
-            httpClient.DefaultRequestHeaders.ExpectContinue = false;
         }
 
         /// <summary>

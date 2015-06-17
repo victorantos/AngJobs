@@ -1,27 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Security.Claims;
-using System.Threading.Tasks;
-using Microsoft.Owin;
+﻿using Microsoft.Owin;
 using Microsoft.Owin.Infrastructure;
 using Microsoft.Owin.Logging;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Infrastructure;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Http;
+using System.Security.Claims;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Owin.Security.Providers.GitHub
+namespace Owin.Security.Providers.Stripe
 {
-    public class GitHubAuthenticationHandler : AuthenticationHandler<GitHubAuthenticationOptions>
+    public class StripeAuthenticationHandler: AuthenticationHandler<StripeAuthenticationOptions>
     {
+        //
+        //authorize_url: https://connect.stripe.com/oauth/authorize
+        //access_token_url: https://connect.stripe.com/oauth/token
+
         private const string XmlSchemaString = "http://www.w3.org/2001/XMLSchema#string";
+        private const string TokenEndpoint = "https://connect.stripe.com/oauth/token";
+        private const string UserInfoEndpoint = "https://api.stripe.com/v1/account";
 
         private readonly ILogger logger;
         private readonly HttpClient httpClient;
 
-        public GitHubAuthenticationHandler(HttpClient httpClient, ILogger logger)
+        public StripeAuthenticationHandler(HttpClient httpClient, ILogger logger)
         {
             this.httpClient = httpClient;
             this.logger = logger;
@@ -65,51 +72,65 @@ namespace Owin.Security.Providers.GitHub
 
                 // Build up the body for the token request
                 var body = new List<KeyValuePair<string, string>>();
+                body.Add(new KeyValuePair<string, string>("grant_type", "authorization_code"));
+                body.Add(new KeyValuePair<string, string>("client_secret", Options.ClientSecret));
                 body.Add(new KeyValuePair<string, string>("code", code));
                 body.Add(new KeyValuePair<string, string>("redirect_uri", redirectUri));
-                body.Add(new KeyValuePair<string, string>("client_id", Options.ClientId));
-                body.Add(new KeyValuePair<string, string>("client_secret", Options.ClientSecret));
+                body.Add(new KeyValuePair<string, string>("state", state));
+                body.Add(new KeyValuePair<string, string>("scope", string.Join(",", Options.Scope)));
+                var request = new HttpRequestMessage(HttpMethod.Post, TokenEndpoint);
+                request.Content = new FormUrlEncodedContent(body);
 
                 // Request the token
-                var requestMessage = new HttpRequestMessage(HttpMethod.Post, Options.Endpoints.TokenEndpoint);
-                requestMessage.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-                requestMessage.Content = new FormUrlEncodedContent(body);
-                HttpResponseMessage tokenResponse = await httpClient.SendAsync(requestMessage);
+
+                HttpResponseMessage tokenResponse =
+                    await httpClient.PostAsync(TokenEndpoint, new FormUrlEncodedContent(body));
                 tokenResponse.EnsureSuccessStatusCode();
                 string text = await tokenResponse.Content.ReadAsStringAsync();
 
                 // Deserializes the token response
                 dynamic response = JsonConvert.DeserializeObject<dynamic>(text);
                 string accessToken = (string)response.access_token;
+                string expires = (string) response.expires_in;
+                string refreshToken = (string) response.refresh_token;
 
-                // Get the GitHub user
-                HttpRequestMessage userRequest = new HttpRequestMessage(HttpMethod.Get, Options.Endpoints.UserInfoEndpoint + "?access_token=" + Uri.EscapeDataString(accessToken));
-                userRequest.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage userResponse = await httpClient.SendAsync(userRequest, Request.CallCancelled);
-                userResponse.EnsureSuccessStatusCode();
-                text = await userResponse.Content.ReadAsStringAsync();
+                // Get the Stripe Account
+                HttpRequestMessage userRequest = new HttpRequestMessage(HttpMethod.Get, UserInfoEndpoint);
+                userRequest.Headers.Add("User-Agent", "OWIN OAuth Provider");
+                userRequest.Headers.Add("Authorization", "bearer " + Uri.EscapeDataString(accessToken) + "");
+                HttpResponseMessage graphResponse = await httpClient.SendAsync(userRequest, Request.CallCancelled);
+                graphResponse.EnsureSuccessStatusCode();
+                text = await graphResponse.Content.ReadAsStringAsync();
                 JObject user = JObject.Parse(text);
 
-                var context = new GitHubAuthenticatedContext(Context, user, accessToken);
+                var context = new StripeAuthenticatedContext(Context, user, accessToken, expires, refreshToken);
                 context.Identity = new ClaimsIdentity(
                     Options.AuthenticationType,
                     ClaimsIdentity.DefaultNameClaimType,
                     ClaimsIdentity.DefaultRoleClaimType);
                 if (!string.IsNullOrEmpty(context.Id))
                 {
-                    context.Identity.AddClaim(new Claim(ClaimTypes.NameIdentifier, context.Id, XmlSchemaString, Options.AuthenticationType));
+                    context.Identity.AddClaim(new Claim(ClaimTypes.NameIdentifier, context.UserName, XmlSchemaString, Options.AuthenticationType));
                 }
                 if (!string.IsNullOrEmpty(context.UserName))
                 {
                     context.Identity.AddClaim(new Claim(ClaimsIdentity.DefaultNameClaimType, context.UserName, XmlSchemaString, Options.AuthenticationType));
                 }
-                if (!string.IsNullOrEmpty(context.Name))
+                if (!string.IsNullOrEmpty(context.Email))
                 {
-                    context.Identity.AddClaim(new Claim("urn:github:name", context.Name, XmlSchemaString, Options.AuthenticationType));
+                    context.Identity.AddClaim(new Claim("urn:stripe:account:email", context.Email, XmlSchemaString, Options.AuthenticationType));
+                }
+                if (!string.IsNullOrEmpty(context.Id))
+                {
+                    context.Identity.AddClaim(new Claim("urn:stripe:account:id", context.Id, XmlSchemaString, Options.AuthenticationType));
                 }
                 if (!string.IsNullOrEmpty(context.Link))
                 {
-                    context.Identity.AddClaim(new Claim("urn:github:url", context.Link, XmlSchemaString, Options.AuthenticationType));
+                    context.Identity.AddClaim(new Claim("urn:stripe:url", context.Link, XmlSchemaString, Options.AuthenticationType));
+                }
+                if (!string.IsNullOrEmpty(context.AccessToken))
+                {
+                    context.Identity.AddClaim(new Claim("urn:stripe:accesstoken", context.AccessToken, XmlSchemaString, Options.AuthenticationType));
                 }
                 context.Properties = properties;
 
@@ -165,11 +186,13 @@ namespace Owin.Security.Providers.GitHub
                 string state = Options.StateDataFormat.Protect(properties);
 
                 string authorizationEndpoint =
-                    Options.Endpoints.AuthorizationEndpoint +
-                        "?client_id=" + Uri.EscapeDataString(Options.ClientId) +
-                        "&redirect_uri=" + Uri.EscapeDataString(redirectUri) +
-                        "&scope=" + Uri.EscapeDataString(scope) +
-                        "&state=" + Uri.EscapeDataString(state);
+                    "https://connect.stripe.com/oauth/authorize" +
+                    "?response_type=code" +
+                    "&client_id=" + Uri.EscapeDataString(Options.ClientId) +
+                    "&redirect_uri=" + Uri.EscapeDataString(redirectUri) +
+                    "&scope=" + Uri.EscapeDataString(scope) +
+                    "&state=" + Uri.EscapeDataString(state) +
+                    "&duration=permanent";
 
                 Response.Redirect(authorizationEndpoint);
             }
@@ -196,7 +219,7 @@ namespace Owin.Security.Providers.GitHub
                     return true;
                 }
 
-                var context = new GitHubReturnEndpointContext(Context, ticket);
+                var context = new StripeReturnEndpointContext(Context, ticket);
                 context.SignInAsAuthenticationType = Options.SignInAsAuthenticationType;
                 context.RedirectUri = ticket.Properties.RedirectUri;
 

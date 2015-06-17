@@ -718,7 +718,7 @@
     <Content Include="Views\GoogleBot\_Daily.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\SneoS\Authentication Step 1\OwinOAuthProviders\Owin.Security.Providers\Owin.Security.Providers.csproj">
+    <ProjectReference Include="..\Owin.Security.Providers\Owin.Security.Providers.csproj">
       <Project>{6ad9ba00-1330-426d-8bae-2d3bc0d976e4}</Project>
       <Name>Owin.Security.Providers</Name>
     </ProjectReference>

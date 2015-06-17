@@ -31,7 +31,6 @@ namespace Owin.Security.Providers.GitHub
             Name = TryGetValue(user, "name");
             Link = TryGetValue(user, "url");
             UserName = TryGetValue(user, "login");
-            Email = TryGetValue(user, "email");
         }
 
         /// <summary>
@@ -64,11 +63,6 @@ namespace Owin.Security.Providers.GitHub
         /// Gets the GitHub username
         /// </summary>
         public string UserName { get; private set; }
-
-        /// <summary>
-        /// Gets the GitHub email
-        /// </summary>
-        public string Email { get; private set; }
 
         /// <summary>
         /// Gets the <see cref="ClaimsIdentity"/> representing the user

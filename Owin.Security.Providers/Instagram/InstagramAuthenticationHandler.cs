@@ -156,8 +156,8 @@ namespace Owin.Security.Providers.Instagram
                 // OAuth2 10.12 CSRF
                 GenerateCorrelationId(properties);
 
-                // plus separated (do not URL encode)
-                string scope = string.Join("+", Options.Scope);
+                // comma separated
+                string scope = string.Join(",", Options.Scope);
 
                 string state = Options.StateDataFormat.Protect(properties);
 
@@ -166,7 +166,7 @@ namespace Owin.Security.Providers.Instagram
                         "?response_type=code" +
                         "&client_id=" + Uri.EscapeDataString(Options.ClientId) +
                         "&redirect_uri=" + Uri.EscapeDataString(redirectUri) +
-                        "&scope=" + scope +
+                        "&scope=" + Uri.EscapeDataString(scope) +
                         "&state=" + Uri.EscapeDataString(state);
 
                 Response.Redirect(authorizationEndpoint);

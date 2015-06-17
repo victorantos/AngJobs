@@ -86,7 +86,6 @@ namespace Owin.Security.Providers.Salesforce
                 dynamic response = JsonConvert.DeserializeObject<dynamic>(text);
                 string accessToken = (string)response.access_token;
                 string refreshToken = (string)response.refresh_token;
-                string instanceUrl = (string)response.instance_url;
 
                 // Get the Salesforce user using the user info endpoint, which is part of the token - response.id
                 HttpRequestMessage userRequest = new HttpRequestMessage(HttpMethod.Get, (string)response.id + "?access_token=" + Uri.EscapeDataString(accessToken));
@@ -96,7 +95,7 @@ namespace Owin.Security.Providers.Salesforce
                 text = await userResponse.Content.ReadAsStringAsync();
                 JObject user = JObject.Parse(text);
 
-                var context = new SalesforceAuthenticatedContext(Context, user, accessToken, refreshToken, instanceUrl);
+                var context = new SalesforceAuthenticatedContext(Context, user, accessToken, refreshToken);
                 context.Identity = new ClaimsIdentity(
                     Options.AuthenticationType,
                     ClaimsIdentity.DefaultNameClaimType,
@@ -134,11 +133,6 @@ namespace Owin.Security.Providers.Salesforce
                 if (!string.IsNullOrEmpty(context.DisplayName))
                 {
                     context.Identity.AddClaim(new Claim("urn:Salesforce:name", context.DisplayName, XmlSchemaString, Options.AuthenticationType));
-                }
-
-                if (!string.IsNullOrEmpty(context.OrganizationId))
-                {
-                    context.Identity.AddClaim(new Claim("urn:Salesforce:organization_id", context.OrganizationId, XmlSchemaString, Options.AuthenticationType));
                 }
                 
                 context.Properties = properties;
