@@ -505,10 +505,9 @@
     <Content Include="Assets\app\controllers\postJobCtrl.js" />
     <Content Include="Assets\app\controllers\jobDetailsCtrl.js" />
     <Content Include="Assets\app\controllers\jobsCtrl.js" />
-    <Content Include="Assets\app\controllers\mail-service.js" />
-    <Content Include="Assets\app\controllers\mailCtrl.js" />
     <Content Include="Assets\app\controllers\mainCtrl.js" />
     <Content Include="Assets\app\directives\jobLine.js" />
+    <Content Include="Assets\app\filters\highlight.js" />
     <Content Include="Assets\app\services\authInterceptorService.js" />
     <Content Include="Assets\app\services\authService.js" />
     <Content Include="Assets\app\services\cvsService.js" />

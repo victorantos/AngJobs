@@ -22,7 +22,7 @@
                 <div job-line job-id="{{job.id}}" job-title="{{job.jobTitle}}" class="job-line"></div>
             </div>
             <a class="text-2-l job-desc" href="#!/jobdetails/{{job.id}}">
-                {{job.shortDescription}}
+                <span ng-bind-html="job.shortDescription | highlight: searchBy"></span> 
             </a>
         </div>
     </li>
