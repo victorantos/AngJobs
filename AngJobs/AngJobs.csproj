@@ -537,19 +537,8 @@
     <Content Include="bower_components\angular-cache\dist\angular-cache.min.js" />
     <Content Include="bower_components\angular-local-storage\dist\angular-local-storage.min.js" />
     <Content Include="bower_components\angular-moment\angular-moment.min.js" />
-    <Content Include="bower_components\angular-snap\angular-snap.custom.css" />
-    <Content Include="bower_components\angular-snap\angular-snap-only.css" />
-    <Content Include="bower_components\angular-snap\angular-snap-only.min.css" />
-    <Content Include="bower_components\angular-snap\angular-snap.css" />
-    <Content Include="bower_components\angular-snap\angular-snap.js" />
-    <Content Include="bower_components\angular-snap\angular-snap.min.css" />
-    <Content Include="bower_components\angular-snap\angular-snap.min.js" />
     <Content Include="bower_components\angular-ui-router\release\angular-ui-router.min.js" />
     <Content Include="bower_components\moment\min\moment.min.js" />
-    <Content Include="bower_components\snapjs\.gitignore" />
-    <Content Include="bower_components\snapjs\snap.css" />
-    <Content Include="bower_components\snapjs\snap.js" />
-    <Content Include="bower_components\snapjs\snap.min.js" />
     <Content Include="bower_components\stripe-angular\stripe-angular.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -569,8 +558,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
     <Content Include="Areas\HelpPage\Views\Web.config" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\TextSample.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\SimpleTypeModelDescription.cshtml" />
@@ -631,7 +618,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Scripts\jquery-2.1.1.min.map" />
     <Content Include="Views\App\Jobs.cshtml" />
     <Content Include="Views\App\JobApplyLinkedIn.cshtml" />
     <Content Include="Views\App\JobApplyGitHub.cshtml" />
@@ -656,21 +642,13 @@
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Assets\bootstrap\css\bootstrap-theme.css.map" />
-    <Content Include="Assets\bootstrap\css\bootstrap.css.map" />
     <Content Include="Assets\bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Assets\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Assets\bootstrap\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Assets\ng\angular-cookies.min.js.map" />
-    <Content Include="Assets\ng\angular-resource.min.js.map" />
-    <Content Include="Assets\ng\angular.min.js.map" />
     <Content Include="Views\Main\Index.cshtml" />
     <Content Include="Views\App\Home.cshtml" />
     <Content Include="Views\App\Register.cshtml" />
     <Content Include="Views\App\SignIn.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="js\app\mail\mails.json" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\fontawesome-webfont.woff" />
@@ -694,12 +672,6 @@
     <Content Include="Views\App\About.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bower_components\angular-snap\.bower.json" />
-    <Content Include="bower_components\angular-snap\bower.json" />
-    <Content Include="bower_components\angular-snap\LICENSE-MIT" />
-    <Content Include="bower_components\snapjs\.bower.json" />
-    <Content Include="bower_components\snapjs\component.json" />
-    <Content Include="bower_components\snapjs\README.md" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Index.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\ResourceModel.cshtml" />
