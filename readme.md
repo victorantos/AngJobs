@@ -23,6 +23,7 @@ Mobile app
 Todo
 ===
 +  Create a jobs applied for table
++  Create a responsive left side menu
 +  ~~Create an API page~~
 +  ~~Add a Filters section on the side menu~~
 +  Mark jobs posts as read, that can be done by removing the bold font
