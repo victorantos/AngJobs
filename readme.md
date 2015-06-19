@@ -25,6 +25,9 @@ Todo
 +  Create a jobs applied for table
 +  Create a responsive left side menu
 +  Implement the "[digital roses](http://www.slate.com/articles/business/the_dismal_science/2012/02/internet_dating_how_digital_roses_can_make_it_a_better_experience_.html)" concept to job applications
+   +  by default give 2 badgets per day for use to each candidate, max 10 badgets per week
+   +  recruiters will be able to see whether the candidate used its badget in order to apply for a job
+   +  why use badgets? it should help to select the right candidates more easily
 +  ~~Create an API page~~
 +  ~~Add a Filters section on the side menu~~
 +  Mark jobs posts as read, that can be done by removing the bold font
