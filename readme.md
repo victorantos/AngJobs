@@ -31,6 +31,7 @@ Todo
 +  ~~Create an API page~~
 +  ~~Add a Filters section on the side menu~~
 +  Mark jobs posts as read, that can be done by removing the bold font
++  Mark the jobs applied for
 +  ~~Jobs detail page~~
 +  ~~Upload resume functionality~~
 + Add  /feed.rss endpoint with latest jobs
