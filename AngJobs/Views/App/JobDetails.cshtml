@@ -12,7 +12,7 @@
 
         <span class="thumbnail thumb-sm m-r-sm" style="font-size:30px;">Job</span>
         <span ng-show="details.hiringCompany && !details.hiringCompanyWebsite">{{details.hiringCompany}},</span>
-        <a ng-show="details.hiringCompanyWebsite && details.hiringCompany" style="text-decoration:underline;" href="{{ details.hiringCompanyWebsite && details.hiringCompanyWebsite.indexOf('http://') < 0 ? 'http://' + details.hiringCompanyWebsite : details.hiringCompanyWebsite  }}" target="_blank" rel="nofollow">{{details.hiringCompany}},</a>
+        <a ng-show="details.hiringCompanyWebsite && details.hiringCompany" style="text-decoration:underline;" href="{{ details.hiringCompanyWebsite && details.hiringCompanyWebsite.indexOf('http') < 0 ? ('http://' + details.hiringCompanyWebsite) : details.hiringCompanyWebsite  }}" target="_blank" rel="nofollow">{{details.hiringCompany}},</a>
         <span>{{details.salaryNote}} {{details.jobLocation ? details.jobLocation + ',': ''}} {{details.jobCountry ? details.jobCountry: ''}} <i ng-class="details.currencyIconCss" ng-show="details.currencyIconCss"></i> {{details.salaryMin || details.salaryMax ? salary() : ''}}</span>
         <div class="pull-right text-sm text-muted">
             <span am-time-ago="details.dateCreated"></span>

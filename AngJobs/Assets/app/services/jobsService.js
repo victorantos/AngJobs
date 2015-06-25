@@ -31,6 +31,14 @@
         return jobs;
     };
      
+    factory.getHNJobs = function () {
+        var list = $http.get('/api/Jobs/GetHackerNewsJobs')
+            .then(function (resp) {
+            return resp.data;
+        });
+        return list;
+    }
+
     factory.byRecruiter = function (recruiterId) {
         var list = $http.get('/api/Jobs/GetJobsByRecruiter', {
             params: { id: recruiterId }

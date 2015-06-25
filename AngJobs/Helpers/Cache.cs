@@ -73,6 +73,8 @@ namespace Angjobs
         const string listJobPostsStr = "ListJobPosts";
         const string listRecruiterJobPosts = "ListRecruiterJobPosts";
         const string listRecruiterDailyJobApplications = "ListRecruiterDailyJobApplications";
+        const string listJobPostsFromHN = "ListJobPostsFromHN";
+
 
 
         const int maxJobs = 115;
@@ -170,6 +172,9 @@ namespace Angjobs
                     case listRecruiterDailyJobApplications:
                         list = new Queue<RecruiterDailyJobApplications>(maxRecruitersToCache);
                         break;
+                    case listJobPostsFromHN:
+                        list = Helpers.GetAllJobPostsFromHN(db, maxJobs);
+                        break;
                     default:
                         break;
                 }
@@ -254,7 +259,15 @@ namespace Angjobs
         {
             return db.JobPosts.Where(j => !j.IsDeleted.HasValue || !j.IsDeleted.Value).OrderByDescending(j => j.SourcePostedDate).ToList().Select(j => new JobPostViewModel(j)).Take(maxJobs).ToList();
         }
-    }
 
-   
+        public static List<JobPostViewModel> ListJobPostsFromHN
+        {
+            get
+            {
+                if (!_cache.Contains(listJobPostsFromHN))
+                    RefreshListJobPosts(listJobPostsFromHN);
+                return _cache.Get(listJobPostsFromHN) as List<JobPostViewModel>;
+            }
+        }
+    }
 }

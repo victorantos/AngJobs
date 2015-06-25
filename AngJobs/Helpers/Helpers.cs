@@ -61,9 +61,9 @@ namespace Angjobs
                 shortDesc = desc.Substring(0, maxLength);
             else
                 shortDesc = desc;
-          return Helpers.HtmlRemoval.StripTagsCharArray(shortDesc);
+            return Helpers.HtmlRemoval.StripTagsCharArray(shortDesc);
         }
- 
+
         public static ExpandoObject ToExpando(this object anonymousObject)
         {
             IDictionary<string, object> expando = new ExpandoObject();
@@ -89,62 +89,78 @@ namespace Angjobs
             return list.ToList();
         }
 
-/// <summary>
-/// Methods to remove HTML from strings.
-/// </summary>
+
+        public static object GetAllJobPostsFromHN(DBContext db, int maxJobs)
+        {
+            var list = db.JobPosts.Where(j => (!j.IsDeleted.HasValue || !j.IsDeleted.Value) && j.SourceReference.Contains("news.ycomb")).ToList()
+                .Select(j => new JobPostViewModel(j)).OrderByDescending(j => j.dateCreated).Take(maxJobs).ToList();
+
+            foreach (var item in list)
+            {
+                item.shortDescription = ShortenDescription(item.jobDescription);
+                item.jobDescription = null;
+            }
+
+            return list.ToList();
+        }
+
+        /// <summary>
+        /// Methods to remove HTML from strings.
+        /// </summary>
         public static class HtmlRemoval
-{
-    /// <summary>
-    /// Remove HTML from string with Regex.
-    /// </summary>
-    public static string StripTagsRegex(string source)
-    {
-	return Regex.Replace(source, "<.*?>", string.Empty);
-    }
+        {
+            /// <summary>
+            /// Remove HTML from string with Regex.
+            /// </summary>
+            public static string StripTagsRegex(string source)
+            {
+                return Regex.Replace(source, "<.*?>", string.Empty);
+            }
 
-    /// <summary>
-    /// Compiled regular expression for performance.
-    /// </summary>
-    static Regex _htmlRegex = new Regex("<.*?>", RegexOptions.Compiled);
+            /// <summary>
+            /// Compiled regular expression for performance.
+            /// </summary>
+            static Regex _htmlRegex = new Regex("<.*?>", RegexOptions.Compiled);
 
-    /// <summary>
-    /// Remove HTML from string with compiled Regex.
-    /// </summary>
-    public static string StripTagsRegexCompiled(string source)
-    {
-	return _htmlRegex.Replace(source, string.Empty);
-    }
+            /// <summary>
+            /// Remove HTML from string with compiled Regex.
+            /// </summary>
+            public static string StripTagsRegexCompiled(string source)
+            {
+                return _htmlRegex.Replace(source, string.Empty);
+            }
 
-    /// <summary>
-    /// Remove HTML tags from string using char array.
-    /// </summary>
-    public static string StripTagsCharArray(string source)
-    {
-	char[] array = new char[source.Length];
-	int arrayIndex = 0;
-	bool inside = false;
+            /// <summary>
+            /// Remove HTML tags from string using char array.
+            /// </summary>
+            public static string StripTagsCharArray(string source)
+            {
+                char[] array = new char[source.Length];
+                int arrayIndex = 0;
+                bool inside = false;
 
-	for (int i = 0; i < source.Length; i++)
-	{
-	    char let = source[i];
-	    if (let == '<')
-	    {
-		inside = true;
-		continue;
-	    }
-	    if (let == '>')
-	    {
-		inside = false;
-		continue;
-	    }
-	    if (!inside)
-	    {
-		array[arrayIndex] = let;
-		arrayIndex++;
-	    }
-	}
-	return new string(array, 0, arrayIndex);
-    }
-}
+                for (int i = 0; i < source.Length; i++)
+                {
+                    char let = source[i];
+                    if (let == '<')
+                    {
+                        inside = true;
+                        continue;
+                    }
+                    if (let == '>')
+                    {
+                        inside = false;
+                        continue;
+                    }
+                    if (!inside)
+                    {
+                        array[arrayIndex] = let;
+                        arrayIndex++;
+                    }
+                }
+                return new string(array, 0, arrayIndex);
+            }
+        }
+
     }
 }

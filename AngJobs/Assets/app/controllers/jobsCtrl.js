@@ -7,13 +7,37 @@
                   url: '/',
                   templateUrl: 'App/Jobs',
                   resolve: {
-                      jobs: ['jobs',
+                      jobsAll: ['jobs',
                         function (jobs) {
                             return jobs.all();
-                        }]
+                        }] 
                   },
-                  controller: ['$scope', 'jobs', function ($scope,jobs) {
-                      $scope.jobsList = jobs;
+                  controller: ['$scope', 'jobsAll', '$filter', function ($scope, jobsAll, $filter) {
+                      $scope.jobsList = jobsAll;
+                      $scope.maxItemsPerPage = 100;
+                      $scope.filteredItems = $scope.jobsList;
+                      $scope.pages = Math.ceil($scope.filteredItems.length / $scope.maxItemsPerPage);
+
+                      $scope.currentPage = 1;
+
+                      $scope.nextPage = function () {
+                          $scope.currentPage = $scope.currentPage + 1;
+                      }
+                      $scope.prevPage = function () {
+                          $scope.currentPage = $scope.currentPage - 1;
+                      }
+
+                      $scope.$watch('searchBy', function (newVal, oldVal) {
+                          console.log("new value in filter box:", newVal);
+                          $scope.filteredItems = $filter('filter')($scope.jobsList, newVal);
+                          $scope.pages = Math.ceil($scope.filteredItems.length / $scope.maxItemsPerPage);
+                      });
+
+                      $scope.$watch('jobsList.length', function (newVal, oldVal) {
+                          console.log("job list length changed:", $scope.jobsList.length);
+                          $scope.filteredItems = $scope.jobsList;
+                          $scope.pages = Math.ceil($scope.filteredItems.length / $scope.maxItemsPerPage);
+                      });
                   }]
                   // You can pair a controller to your template. There *must* be a template to pair with.
               })
@@ -32,8 +56,8 @@
               .state('jobs.jobType', {
                   url: 'jobs/:jobType',
                   template: '<div ui-view></div>',
-                  controller: ['$scope', '$rootScope', '$http', '$location', '$stateParams', '$state','jobs',
-                       function ($scope, $rootScope, $http, $location, $stateParams, $state, jobs) {
+                  controller: ['$scope', '$rootScope', '$http', '$location', '$stateParams', '$state',
+                       function ($scope, $rootScope, $http, $location, $stateParams, $state) {
                            if ($stateParams.jobType && $stateParams.jobType != 'inbox') {
                                $scope.$parent.searchBy = {};
                                if ($stateParams.jobType == 'remote')
@@ -55,13 +79,25 @@
               })
              .state('jobs.jobType.location', {
                  url: '/:location',
-                controller: ['$scope', '$rootScope', '$http', '$location', '$stateParams', '$state',
-                     function ($scope, $rootScope, $http, $location, $stateParams, $state) {
+                 controller: ['$scope', '$rootScope', '$http', '$location', '$stateParams', '$state','jobs',
+                     function ($scope, $rootScope, $http, $location, $stateParams, $state,jobs) {
                          $scope.$parent.searchBy = {};
+                        
                          if ($stateParams.jobType != "inbox")
                              $scope.$parent.searchBy.jobType = $stateParams.jobType;
                          if ($stateParams.location == 'hn') {
-                             $scope.$parent.searchBy.sourceReference = 'hn';
+
+                             if (!$rootScope.isHNJobsLoaded) {
+                                 $rootScope.isHNJobsLoaded = true;
+
+                                 //load HN jobs first
+                                 jobs.getHNJobs().then(function (data) {
+                                     $scope.jobsList.push.apply($scope.jobsList, data);
+                                     $scope.$parent.searchBy.sourceReference = 'hn';
+                                 });
+                             }
+                             else
+                                 $scope.$parent.searchBy.sourceReference = 'hn';
                          }
                          else {
                              $scope.$parent.searchBy.jobLocation = $stateParams.location;

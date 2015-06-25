@@ -50,7 +50,7 @@
                         }
 
                         $scope.attachedCvId = null;
-
+ 
                         $scope.applyForJob = function () {
                             item =
                                 {

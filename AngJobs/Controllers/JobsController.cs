@@ -166,6 +166,13 @@ namespace Angjobs.Controllers
             return JobsCacheManager.ListJobPostsShortDescription;
         }
 
+        [ApiExplorerSettings(IgnoreApi = false)]
+        [HttpGet]
+        public IEnumerable<JobPostViewModel> GetHackerNewsJobs()
+        {
+            return JobsCacheManager.ListJobPostsFromHN;
+        }
+
         [HttpGet]
         public OrderedDictionary GetDailyJobs()
         {
