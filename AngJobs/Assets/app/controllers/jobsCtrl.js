@@ -31,11 +31,10 @@
                           console.log("new value in filter box:", newVal);
                           $scope.filteredItems = $filter('filter')($scope.jobsList, newVal);
                           $scope.pages = Math.ceil($scope.filteredItems.length / $scope.maxItemsPerPage);
-                      });
+                      }, true);
 
                       $scope.$watch('jobsList.length', function (newVal, oldVal) {
                           console.log("job list length changed:", $scope.jobsList.length);
-                          $scope.filteredItems = $scope.jobsList;
                           $scope.pages = Math.ceil($scope.filteredItems.length / $scope.maxItemsPerPage);
                       });
                   }]
@@ -93,6 +92,7 @@
                                  //load HN jobs first
                                  jobs.getHNJobs().then(function (data) {
                                      $scope.jobsList.push.apply($scope.jobsList, data);
+                                 }).then(function () {
                                      $scope.$parent.searchBy.sourceReference = 'hn';
                                  });
                              }
