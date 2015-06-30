@@ -11,7 +11,7 @@
 <ul class="list-group list-group-lg no-radius">
     <li class="list-group-item clearfix " ng-repeat="job in filteredItems">
         <a class="hidden-xs pull-left thumb" href="#!/jobdetails/{{job.id}}">
-            <span style="font-size:30px;" title="{{(job.recruiterName ? job.recruiterName: 'Job')  + (job.isHot ? ' - [H]ot angularjs role':   '') }}">{{job.recruiterName == "StackOverflow" ? 'S': (job.isHot ? 'H':   'J')}}</span>
+            <span style="font-size:30px;" ng-class="{'text-active-hn':$root.isFilterByHN}" title="{{(job.recruiterName ? job.recruiterName: 'Job')  + (job.isHot ? ' - [H]ot angularjs role':   '') }}">{{$root.isFilterByHN ? 'H': 'J'}}</span>
         </a>
         <div class="pull-right text-sm text-muted">
             <span class="hidden-xs">{{job.salaryMin ? '£'+job.salaryMin : ''}} {{job.salaryType ? 'per '+job.salaryType : ''}}</span>

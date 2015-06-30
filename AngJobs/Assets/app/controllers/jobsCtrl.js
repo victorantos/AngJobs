@@ -94,13 +94,17 @@
                                      $scope.jobsList.push.apply($scope.jobsList, data);
                                  }).then(function () {
                                      $scope.$parent.searchBy.sourceReference = 'hn';
+                                     $rootScope.isFilterByHN = true;
                                  });
                              }
-                             else
+                             else {
                                  $scope.$parent.searchBy.sourceReference = 'hn';
+                                 $rootScope.isFilterByHN = true;
+                             }
                          }
                          else {
                              $scope.$parent.searchBy.jobLocation = $stateParams.location;
+                             $rootScope.isFilterByHN = false;
                          }
                      }]})
         }])
