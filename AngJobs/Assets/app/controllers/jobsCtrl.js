@@ -59,6 +59,8 @@
                        function ($scope, $rootScope, $http, $location, $stateParams, $state) {
                            if ($stateParams.jobType && $stateParams.jobType != 'inbox') {
                                $scope.$parent.searchBy = {};
+                               $rootScope.isFilterByHN = false;
+
                                if ($stateParams.jobType == 'remote')
                                    $scope.$parent.searchBy.jobType = "freelance";
                                else
@@ -66,7 +68,6 @@
                            }
                            else {
                                $scope.$parent.searchBy = null;
-                               $rootScope.isFilterByHN = false;
                            }
                            
                            $scope.reset = function () {
