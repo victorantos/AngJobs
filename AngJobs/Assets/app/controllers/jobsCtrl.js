@@ -64,8 +64,10 @@
                                else
                                    $scope.$parent.searchBy.jobType = $stateParams.jobType;
                            }
-                           else
+                           else {
                                $scope.$parent.searchBy = null;
+                               $rootScope.isFilterByHN = false;
+                           }
                            
                            $scope.reset = function () {
                                $scope.$parent.query = '';
