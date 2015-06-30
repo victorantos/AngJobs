@@ -15,12 +15,12 @@ namespace Angjobs.Models
         {
             var stackOverflow = "StackOverflow";
             string sr =  null;
-
+            const string hn = "hn";
             if (entity.RecruiterName == stackOverflow)
                 sr = entity.SourceReference;
             
             if (!string.IsNullOrEmpty(entity.SourceReference) && entity.SourceReference.Contains("news.ycomb"))
-                sr = "hn";
+                sr = hn;
 
                 id = entity.Id;
                 jobTitle = entity.JobTitle;
@@ -41,6 +41,10 @@ namespace Angjobs.Models
                 dateCreated = entity.SourcePostedDate ?? entity.DateCreated;
                 datePosted = entity.SourcePostedDate;
                 sourceReference =sr;
+                if(sr == hn)
+                {
+                    srUrl = entity.SourceReference;
+                }
                 recruiterName = entity.RecruiterName == stackOverflow ? entity.RecruiterName : null;
                 contactName = entity.ContactName;
                 priority = string.IsNullOrEmpty(entity.Ip) ? (int?)null : 1;
@@ -60,6 +64,8 @@ namespace Angjobs.Models
         public string hiringCompanyWebsite { get; set; }
         public string hiringCompanyLogo { get; set; }
         public string sourceReference { get; set; }
+        // source ref URL
+        public string srUrl { get; set; }
         public string recruiterName { get; set; }
         public string contactName { get; set; }
         public string tagline { get; set; }
