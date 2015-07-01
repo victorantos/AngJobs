@@ -24,39 +24,51 @@ namespace Angjobs.ImportJobs
             //https://raw.githubusercontent.com/gaganpreet/hn-hiring-mapped/gh-pages/src/web/data/2015-06.json
             var sourceUrl = "https://raw.githubusercontent.com/gaganpreet/hn-hiring-mapped/gh-pages/src/web/data/{0}.json";
             var webClient = new WebClient();
-            var feedContent = webClient.DownloadString(string.Format(sourceUrl, date.Value.ToString("yyy-MM")));
-
-            dynamic jObj = (JArray)Newtonsoft.Json.JsonConvert.DeserializeObject(feedContent);
-
-            foreach (var item in jObj)
+            string feedContent = null;
+            try
             {
-                string emails = TryParseEmails((string)item.full_html);
-                string website = TryParseWebsite(emails);
-                string companyName = TryParseCompany(emails);
-             
-                string jobDescription = TryParseJobDescription((string)item.full_html);
-                string jobTitle = TryParseJobTitle(jobDescription);
+                webClient.DownloadString(string.Format(sourceUrl, date.Value.ToString("yyy-MM")));
 
-                if(!string.IsNullOrEmpty(emails) && !string.IsNullOrEmpty(jobTitle))
+            }
+            catch (WebException ex)
+            {
+               //probably not found, the link does not exists yet
+            }
+
+            if (!string.IsNullOrEmpty(feedContent))
+            {
+                dynamic jObj = (JArray)Newtonsoft.Json.JsonConvert.DeserializeObject(feedContent);
+
+                foreach (var item in jObj)
                 {
-                    list.Add(new JobPost
+                    string emails = TryParseEmails((string)item.full_html);
+                    string website = TryParseWebsite(emails);
+                    string companyName = TryParseCompany(emails);
+
+                    string jobDescription = TryParseJobDescription((string)item.full_html);
+                    string jobTitle = TryParseJobTitle(jobDescription);
+
+                    if (!string.IsNullOrEmpty(emails) && !string.IsNullOrEmpty(jobTitle))
                     {
-                        Location = item.location, //item.address,
-                        Country = item.country,
-                        JobTitle = jobTitle,
-                        JobDescription = jobDescription,
-                        //VisasPossible = Boolean.Parse((string)item.h1b) ? "h1b" : null,
-                        //Intern = Boolean.Parse((string)item.intern) ? true : (bool?)null,
-                        CanTelecommute = Boolean.Parse((string)item.remote) ? true : (bool?)null,
-                        SourceReference = item.url,
-                        ContactName = item.user,
-                        JobEmail = emails,
-                        SourcePostedDate = date,
-                        HiringCompanyWebsite = website,
-                        HiringCompany = companyName,
-                        //Lat = item.lat,
-                        //Lon = item.lon
-                    });
+                        list.Add(new JobPost
+                        {
+                            Location = item.location, //item.address,
+                            Country = item.country,
+                            JobTitle = jobTitle,
+                            JobDescription = jobDescription,
+                            //VisasPossible = Boolean.Parse((string)item.h1b) ? "h1b" : null,
+                            //Intern = Boolean.Parse((string)item.intern) ? true : (bool?)null,
+                            CanTelecommute = Boolean.Parse((string)item.remote) ? true : (bool?)null,
+                            SourceReference = item.url,
+                            ContactName = item.user,
+                            JobEmail = emails,
+                            SourcePostedDate = date,
+                            HiringCompanyWebsite = website,
+                            HiringCompany = companyName,
+                            //Lat = item.lat,
+                            //Lon = item.lon
+                        });
+                    }
                 }
             }
             return list;
