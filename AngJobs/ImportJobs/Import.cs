@@ -16,6 +16,8 @@ namespace Angjobs.ImportJobs
     {
         public static List<JobPost> LoadHackerNewsFeed(DateTime? date = null)
         {
+            //if (System.Diagnostics.Debugger.IsAttached == false)
+            //    System.Diagnostics.Debugger.Launch();
             if (!date.HasValue)
                 date = DateTime.UtcNow;
 
@@ -27,7 +29,7 @@ namespace Angjobs.ImportJobs
             string feedContent = null;
             try
             {
-                webClient.DownloadString(string.Format(sourceUrl, date.Value.ToString("yyy-MM")));
+               feedContent = webClient.DownloadString(string.Format(sourceUrl, date.Value.ToString("yyy-MM")));
 
             }
             catch (WebException ex)
