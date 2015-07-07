@@ -15,7 +15,7 @@
                 $http.defaults.headers.common.RefreshToken = data.refresh_token;
                 
                 $cookieStore.put('_Token', data.access_token);
-                window.location = '#/todomanager';
+                window.location = '#/home';
             })
             .error(function (data, status, headers, config) {
                 $scope.message = data.error_description.replace(/["']{1}/gi, "");

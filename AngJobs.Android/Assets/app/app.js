@@ -3,8 +3,7 @@
     'ngCookies',
     'home',
     'signIn',
-    'register',
-    'todoManager'
+    'register' 
 ]);
 
 
@@ -50,10 +49,6 @@ app.config(['$provide', '$routeProvider', '$httpProvider', function ($provide, $
     $routeProvider.when('/signin/:message?', {
         templateUrl: 'App/SignIn',
         controller: 'signInCtrl'
-    });
-    $routeProvider.when('/todomanager', {
-        templateUrl: 'App/TodoManager',
-        controller: 'todoManagerCtrl'
     });
     
     $routeProvider.otherwise({
