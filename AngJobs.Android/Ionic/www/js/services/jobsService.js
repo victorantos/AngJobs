@@ -9,14 +9,16 @@
     var hotPath = '/api/Jobs/GetHotJobs';
     var factory = {};
 
-    var hotJobs = $http.get(basePath + hotPath).then(function (resp) {
+    var hotJobs = $http.get(basePath + hotPath, {
+        params: { maxJobs: 15 }
+    }).then(function (resp) {
         return resp.data;
     });
-   
+
     factory.hot = function () {
         return hotJobs;
     };
-    
+
     factory.get = function (jobId) {
         var path = basePath + '/api/Jobs/GetJobDetails';
         var detail = $http.get(path, {
@@ -27,6 +29,6 @@
         return detail;
     };
 
-   
+
     return factory;
 }]);

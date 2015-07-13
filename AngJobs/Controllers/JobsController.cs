@@ -216,7 +216,7 @@ namespace Angjobs.Controllers
         }
         [ApiExplorerSettings(IgnoreApi = false)]
         [HttpGet]
-        public object GetHotJobs(int? maxJobs = null)
+        public object GetHotJobs(int maxJobs = 10)
         {
             return JobsCacheManager.GetHotJobPostsShortDescription(maxJobs);
         }
