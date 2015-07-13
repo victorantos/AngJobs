@@ -78,7 +78,7 @@ namespace Angjobs
 
 
         const int maxJobs = 115;
-        static int maxHotJobs = 10;
+        static int maxHotJobs = 30;
         static int maxRecruitersToCache = 5;
 
         private static MemoryCache _cache = MemoryCache.Default;
@@ -111,15 +111,7 @@ namespace Angjobs
                 return _cache.Get(listDailyJobPostsShortDescriptionStr) as OrderedDictionary;
             }
         }
-        public static IEnumerable<JobPostViewModel> ListHotJobPostsShortDescription
-        {
-            get
-            {
-                if (!_cache.Contains(listHotJobPostsShortDescriptionStr))
-                    RefreshListJobPosts(listHotJobPostsShortDescriptionStr);
-                return _cache.Get(listHotJobPostsShortDescriptionStr) as IEnumerable<JobPostViewModel>;
-            }
-        }
+      
         public static Queue<RecruiterJobPosts> ListRecruiterJobPosts
         {
             get
@@ -196,15 +188,22 @@ namespace Angjobs
             public OrderedDictionary Jobs { get; set; }
         }
 
-        private static object GetHotJobPostsShortDescription(int maxHotJobs)
+        public static object GetHotJobPostsShortDescription(int? maxHotJobs = 0)
         {
-            var hotList = ListJobPostsShortDescription.Where(j => j.isHot.HasValue && j.isHot.Value).Take(maxHotJobs);
+            var hotList = ListJobPostsShortDescription.Where(j => j.isHot.HasValue && j.isHot.Value).Take(maxHotJobs.Value);
             if (hotList.Count() == 0)
-                hotList = ListJobPostsShortDescription.Take(maxHotJobs);
+                hotList = ListJobPostsShortDescription.Take(maxHotJobs.Value);
 
             return hotList;
         }
-         
+
+        private static IEnumerable<JobPostViewModel> ListHotJobPostsShortDescription()
+        {
+                if (!_cache.Contains(listHotJobPostsShortDescriptionStr))
+                    RefreshListJobPosts(listHotJobPostsShortDescriptionStr);
+                return _cache.Get(listHotJobPostsShortDescriptionStr) as IEnumerable<JobPostViewModel>;
+        }
+
         private static object GetDailyJobPostsShortDescription()
         {
             var q = from j in db.JobPosts

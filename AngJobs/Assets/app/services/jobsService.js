@@ -15,7 +15,10 @@
         });
     }
 
-    var hotJobs = $http.get(hotPath).then(function (resp) {
+    var hotJobs = $http.get(hotPath, {
+        params: { maxJobs: 15 }
+    }
+    ).then(function (resp) {
         return resp.data;
     });
 

@@ -216,10 +216,11 @@ namespace Angjobs.Controllers
         }
         [ApiExplorerSettings(IgnoreApi = false)]
         [HttpGet]
-        public IEnumerable<JobPostViewModel> GetHotJobs()
+        public object GetHotJobs(int? maxJobs = null)
         {
-            return JobsCacheManager.ListHotJobPostsShortDescription;
+            return JobsCacheManager.GetHotJobPostsShortDescription(maxJobs);
         }
+
         [ApiExplorerSettings(IgnoreApi = false)]
         [HttpPost]
         public HttpResponseMessage ApplyForJob(JobApplicationViewModel item)
