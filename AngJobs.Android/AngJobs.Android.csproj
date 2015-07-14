@@ -248,6 +248,7 @@
     <Content Include="Ionic\www\lib\ionic\js\ionic.bundle.min.js" />
     <Content Include="Ionic\www\lib\ionic\js\ionic.js" />
     <Content Include="Ionic\www\lib\ionic\js\ionic.min.js" />
+    <Content Include="Ionic\www\templates\about.html" />
     <Content Include="Ionic\www\templates\menu.html" />
     <Content Include="Ionic\www\templates\job.html" />
     <Content Include="Ionic\www\templates\jobs.html" />
