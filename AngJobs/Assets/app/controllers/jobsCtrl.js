@@ -12,7 +12,7 @@
                             return jobs.all();
                         }] 
                   },
-                  controller: ['$scope', 'jobsAll', '$filter', function ($scope, jobsAll, $filter) {
+                  controller: ['$scope', 'jobsAll', '$filter', '$location', function ($scope, jobsAll, $filter, $location) {
                       $scope.jobsList = jobsAll;
                       $scope.maxItemsPerPage = 100;
                       $scope.filteredItems = $scope.jobsList;
@@ -37,6 +37,10 @@
                           console.log("job list length changed:", $scope.jobsList.length);
                           $scope.pages = Math.ceil($scope.filteredItems.length / $scope.maxItemsPerPage);
                       });
+
+                      $scope.goTo = function (path) {
+                          $location.go(path);
+                      }
                   }]
                   // You can pair a controller to your template. There *must* be a template to pair with.
               })
@@ -74,9 +78,7 @@
                                $scope.$parent.query = '';
                            }
 
-                           $scope.goTo = function (path) {
-                               $location.go(path);
-                           }
+                           
                        }]
               })
              .state('jobs.jobType.location', {

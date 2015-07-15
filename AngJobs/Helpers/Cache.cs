@@ -12,59 +12,6 @@ using System.Collections;
 
 namespace Angjobs
 {
-    public enum MyCachePriority
-    {
-        Default,
-        NotRemovable
-    }
-
-    public class MyCache
-    {
-        // Gets a reference to the default MemoryCache instance. 
-        private static ObjectCache cache = MemoryCache.Default;
-        private CacheItemPolicy policy = null;
-        private CacheEntryRemovedCallback callback = null;
-
-       
-        public void AddToMyCache(String CacheKeyName, Object CacheItem, MyCachePriority MyCacheItemPriority, List<String> FilePath)
-        {
-            callback = new CacheEntryRemovedCallback(this.MyCachedItemRemovedCallback);
-            policy = new CacheItemPolicy();
-            policy.Priority = (MyCacheItemPriority == MyCachePriority.Default) ? CacheItemPriority.Default : CacheItemPriority.NotRemovable;
-            policy.AbsoluteExpiration = DateTimeOffset.Now.AddSeconds(86400.00);
-            policy.RemovedCallback = callback;
-            policy.ChangeMonitors.Add(new HostFileChangeMonitor(FilePath));
-
-            // Add inside cache 
-            cache.Set(CacheKeyName, CacheItem, policy);
-        }
-
-        public Object GetMyCachedItem(String CacheKeyName)
-        {
-            return cache[CacheKeyName] as Object;
-        }
-
-        public void RemoveMyCachedItem(String CacheKeyName)
-        {
-            if (cache.Contains(CacheKeyName))
-            {
-                cache.Remove(CacheKeyName);
-            }
-        }
-
-        private void MyCachedItemRemovedCallback(CacheEntryRemovedArguments arguments)
-        {
-            // Log these values from arguments list 
-            String strLog = String.Concat("Reason: ", arguments.RemovedReason.ToString(), " | Key-Name: ", arguments.CacheItem.Key, " | Value-Object: ", arguments.CacheItem.Value.ToString());
-        }
-
-        public JobPostViewModel FindBy(int jobPostId)
-        {
-            return JobsCacheManager.ListJobPosts.SingleOrDefault(x => x.id == jobPostId);
-        }
-    }
-
- 
     public static class JobsCacheManager
     {
         const string listJobPostsShortDescriptionStr = "ListJobPostsShortDescription";
@@ -82,24 +29,25 @@ namespace Angjobs
         static int maxRecruitersToCache = 5;
 
         private static MemoryCache _cache = MemoryCache.Default;
+        private static MyCache _myCache = new MyCache();
         private static DBContext db =  HttpContext.Current.GetOwinContext().Get<DBContext>();
 
         public static List<JobPostViewModel> ListJobPosts
         {
             get
             {
-                if (!_cache.Contains("ListJobPosts"))
+                if (_myCache.GetMyCachedItem("ListJobPosts") == null)
                     RefreshListJobPosts();
-                return _cache.Get("ListJobPosts") as List<JobPostViewModel>;
+                return _myCache.GetMyCachedItem("ListJobPosts") as List<JobPostViewModel>;
             }
         }
         public static List<JobPostViewModel> ListJobPostsShortDescription
         {
             get
             {
-                if (!_cache.Contains(listJobPostsShortDescriptionStr))
+                if (_myCache.GetMyCachedItem(listJobPostsShortDescriptionStr) == null)
                     RefreshListJobPosts(listJobPostsShortDescriptionStr);
-                return _cache.Get(listJobPostsShortDescriptionStr) as List<JobPostViewModel>;
+                return _myCache.GetMyCachedItem(listJobPostsShortDescriptionStr) as List<JobPostViewModel>;
             }
         }
         public static OrderedDictionary ListDailyJobPostsShortDescription
@@ -134,13 +82,18 @@ namespace Angjobs
         public static void RefreshListJobPosts()
         {
             var list = GetAllJobPosts();
+             string cacheKey = listJobPostsStr;
 
-            CacheItemPolicy cacheItemPolicy = new CacheItemPolicy();
-            cacheItemPolicy.AbsoluteExpiration = DateTime.Now.AddDays(1);
+             AddToMyCache(list, cacheKey);
+        }
+
+        private static void AddToMyCache(object list, string cacheKey)
+        {
+            string filePath = HttpContext.Current.Server.MapPath("~/App_Data/Logs/import.txt");
 
             //check again before adding it
-            if (!_cache.Contains(listJobPostsStr))
-                _cache.Add(listJobPostsStr, list, cacheItemPolicy);
+            if (_myCache.GetMyCachedItem(cacheKey) == null)
+                _myCache.AddToMyCache(cacheKey, list, MyCachePriority.Default, new List<string> { filePath });
         }
 
         public static void RefreshListJobPosts(string cacheKey)
@@ -151,29 +104,40 @@ namespace Angjobs
                 {
                     case listJobPostsShortDescriptionStr:
                         list = Helpers.GetAllJobPostsShortDescription(db, maxJobs);
+                        AddToMyCache(list, cacheKey);
                         break;
                     case listDailyJobPostsShortDescriptionStr:
                         list = GetDailyJobPostsShortDescription();
+                        AddToMemCache(cacheKey, list);
                         break;
                     case listHotJobPostsShortDescriptionStr:
                         list = GetHotJobPostsShortDescription(maxHotJobs);
+                        AddToMemCache(cacheKey, list);
                         break;
                     case listRecruiterJobPosts:
-                        list = new Queue<RecruiterJobPosts>(maxRecruitersToCache); 
+                        list = new Queue<RecruiterJobPosts>(maxRecruitersToCache);
+                        AddToMemCache(cacheKey, list);
                         break;
                     case listRecruiterDailyJobApplications:
                         list = new Queue<RecruiterDailyJobApplications>(maxRecruitersToCache);
+                        AddToMemCache(cacheKey, list);
                         break;
                     case listJobPostsFromHN:
                         list = Helpers.GetAllJobPostsFromHN(db, maxJobs);
+                        AddToMemCache(cacheKey, list);
                         break;
                     default:
                         break;
                 }
 
+                
+        }
+
+        private static void AddToMemCache(string cacheKey, object list)
+        {
             var cacheItemPolicy = new CacheItemPolicy();
             cacheItemPolicy.AbsoluteExpiration = DateTime.Now.AddDays(1);
-            
+
             _cache.Add(cacheKey, list, cacheItemPolicy);
         }
 
