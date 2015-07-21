@@ -7,12 +7,11 @@
                   <h3 class="font-thin m-n">{{details.jobTitle}} <small ng-show="details.tagline"><br />{{details.tagline}}</small></h3>
               </div>
               <div class="wrapper b-b">
-
                   <span ng-show="details.hiringCompany && !details.hiringCompanyWebsite">{{details.hiringCompany}},</span>
                   <a ng-show="details.hiringCompanyWebsite && details.hiringCompany" style="text-decoration:underline;" href="{{details.hiringCompanyWebsite}}" target="_blank">{{details.hiringCompany}},</a>
                   <span>{{details.salaryNote}} {{details.jobLocation ? details.jobLocation + ',': ''}} {{details.jobCountry ? details.jobCountry: ''}} <i ng-class="details.currencyIconCss" ng-show="details.currencyIconCss"></i> {{details.salaryMin || details.salaryMax ? salary() : ''}}</span>
                   <div class="pull-right text-sm text-muted">
-                      <span am-time-ago="details.dateCreated"></span>
+                      (<small>posted </small><small am-time-ago="details.datePosted"></small>)
                   </div>
               </div>
               <div class="wrapper" ng-bind-html="details.jobDescription">

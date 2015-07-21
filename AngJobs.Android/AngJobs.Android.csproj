@@ -229,6 +229,7 @@
     <Content Include="Ionic\www\js\app.js" />
     <Content Include="Ionic\www\js\controllers.js" />
     <Content Include="Ionic\www\js\services\jobsService.js" />
+    <Content Include="Ionic\www\lib\angular-moment\angular-moment.min.js" />
     <Content Include="Ionic\www\lib\ionic\css\ionic.css" />
     <Content Include="Ionic\www\lib\ionic\css\ionic.min.css" />
     <Content Include="Ionic\www\lib\ionic\fonts\ionicons.svg" />
@@ -248,6 +249,7 @@
     <Content Include="Ionic\www\lib\ionic\js\ionic.bundle.min.js" />
     <Content Include="Ionic\www\lib\ionic\js\ionic.js" />
     <Content Include="Ionic\www\lib\ionic\js\ionic.min.js" />
+    <Content Include="Ionic\www\lib\moment\min\moment.min.js" />
     <Content Include="Ionic\www\templates\about.html" />
     <Content Include="Ionic\www\templates\menu.html" />
     <Content Include="Ionic\www\templates\job.html" />

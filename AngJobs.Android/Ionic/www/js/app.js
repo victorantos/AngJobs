@@ -7,7 +7,8 @@
 angular.module('starter', [
     'ionic',
     'starter.controllers',
-   'jobs.service'
+   'jobs.service',
+   'angularMoment'
 ])
 
 .run(function($ionicPlatform) {
