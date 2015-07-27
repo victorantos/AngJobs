@@ -2,11 +2,11 @@
     <ion-content>
 
         <ion-list>
-            <ion-item ng-repeat="playlist in playlists" ng-href="#/app/jobs/{{playlist.id}}">
-                <a href="javascript:void(0);" ng-click="openJob(playlist.id);">
-                    {{playlist.jobTitle}}
+            <ion-item ng-repeat="j in playlists" ng-href="#/app/jobs/{{j.id}}">
+                <a href="javascript:void(0);" ng-click="openJob(j.id);">
+                    {{j.jobTitle}}
                 </a>
-              
+                <span class="label label-info">{{j.salaryNote}}</span>
             </ion-item>
         </ion-list>
     </ion-content>
