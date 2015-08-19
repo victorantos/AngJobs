@@ -6,7 +6,10 @@
 
 <div class="job-details">
     <div class="wrapper b-b">
-        <h3 class="font-thin m-n">{{details.jobTitle}} <small ng-show="details.tagline"><br />{{details.tagline}}</small></h3>
+        <h3 class="font-thin m-n">
+            <b job-line job-id="{{details.id}}" job-title="{{details.jobTitle}}" class="job-line"></b>
+            <small ng-show="details.tagline"><br />{{details.tagline}}</small>
+        </h3>
     </div>
     <div class="wrapper b-b">
 
