@@ -26,26 +26,27 @@ Mobile app
 (https://play.google.com/store/apps/details?id=com.AngJobs.app)
 Todo
 ===
-+  Create a jobs applied for table
++  Create a recruiters page and list all 400+ recruiters from DB
++ Create a jobs applied for table
 +  Create a responsive left side menu
 +  Implement the "[digital roses](http://www.slate.com/articles/business/the_dismal_science/2012/02/internet_dating_how_digital_roses_can_make_it_a_better_experience_.html)" concept to job applications
    +  by default give 2 badgets per day for use to each candidate, max 10 badgets per week
    +  recruiters will be able to see whether the candidate used its badget in order to apply for a job
    +  why use badgets? it should help to select the right candidates more easily
-+  ~~Create an API page~~
-+  ~~Add a Filters section on the side menu~~
+
 +  Mark jobs posts as read, that can be done by removing the bold font
 +  Mark the jobs applied for
-+  ~~Jobs detail page~~
-+  ~~Upload resume functionality~~
 + Add  /feed.rss endpoint with latest jobs
 + Import more jobs from external providers/api
++  ~~Jobs detail page~~
++  ~~Upload resume functionality~~
 + ~~Import jobs from Hacker News this is the json~~ https://github.com/gaganpreet/hn-hiring-mapped/blob/gh-pages/src/web/data/2015-06.json
++  ~~Create an API page~~
++  ~~Add a Filters section on the side menu~~
 + Find and import some "remote jobs" providers from here https://github.com/lukasz-madon/awesome-remote-job
 + [Client side testing(unit test and e2e tests)](https://docs.angularjs.org/guide/unit-testing)
 + integrate the [Me-Api](https://github.com/danfang/me-api). Explore developers
 + ~~add angular-cache~~ 
-+  Create a recruiters page and list all 400+ recruiters from DB
 +  
 **Mobile app**
 + arrange/format content on job details screen
