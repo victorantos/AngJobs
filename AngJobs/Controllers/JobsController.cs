@@ -86,9 +86,12 @@ namespace Angjobs.Controllers
 
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, ex);
             }
-        
+
             if (job == null)
                 return Request.CreateResponse(HttpStatusCode.NotFound);
+            else if(job.expiresOn.HasValue && job.expiresOn.Value < DateTime.UtcNow)
+                return Request.CreateResponse(HttpStatusCode.Gone);
+            
             return Request.CreateResponse<JobPostViewModel>(HttpStatusCode.OK, job);
         }
 
