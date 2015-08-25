@@ -83,7 +83,6 @@ namespace Angjobs.Controllers
             }
             catch (Exception ex)
             {
-
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, ex);
             }
 

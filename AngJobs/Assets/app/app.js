@@ -24,7 +24,8 @@ var app = angular.module('app', [
     'employer',
     'developer',
     'pay',
-    'services'
+    'services',
+    'testimonials'
 ]);
     
 
@@ -107,6 +108,11 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', '$httpP
         url: "/about",
         templateUrl: 'App/About',
         controller: 'aboutCtrl'
+    })
+    .state("testimonials", {
+        url: "/testimonials",
+        templateUrl: 'App/Testimonials',
+        controller: 'testimonialsCtrl'
     })
     .state("pay", {
         url: "/pay",

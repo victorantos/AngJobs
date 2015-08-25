@@ -494,6 +494,7 @@
     <Content Include="App_Data\Mails\empty.txt" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Assets\app\app.js" />
+    <Content Include="Assets\app\controllers\testimonialsCtrl.js" />
     <Content Include="Assets\app\controllers\servicesCtrl.js" />
     <Content Include="Assets\app\controllers\payCtrl.js" />
     <Content Include="Assets\app\controllers\developerCtrl.js" />
@@ -636,6 +637,7 @@
     <Content Include="Views\App\Pay.cshtml" />
     <Content Include="Views\App\Services.cshtml" />
     <Content Include="Views\App\Resumes.cshtml" />
+    <Content Include="Views\App\Testimonials.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="sitemap\" />

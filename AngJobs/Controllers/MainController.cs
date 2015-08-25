@@ -34,6 +34,7 @@ namespace Angjobs.Controllers
                 var home = "home";
                 var inbox = "inbox";
                 var about = "about";
+                var testimonials = "testimonials";
 
                 const string permanent = "permanent";
                 const string fulltime = "full-time";
@@ -44,7 +45,9 @@ namespace Angjobs.Controllers
                 var pJobsIndex = escaped_fragment.IndexOf(jobs + "/", StringComparison.InvariantCultureIgnoreCase);
                 var pDailyIndex = escaped_fragment.IndexOf(daily, StringComparison.InvariantCultureIgnoreCase);
                 var pAboutIndex = escaped_fragment.IndexOf(about, StringComparison.InvariantCultureIgnoreCase);
+                var pTestimonialsIndex = escaped_fragment.IndexOf(testimonials, StringComparison.InvariantCultureIgnoreCase);
               
+
                 if (pDetailsIndex > 0)
                 {
                     var jobId = int.Parse(escaped_fragment.Substring(pDetailsIndex + 1 + jobdetails.Length));
@@ -74,6 +77,10 @@ namespace Angjobs.Controllers
                 else if (pAboutIndex > 0)
                 {
                     return View(googlebotView, new GoogleBotPage { page = about, data =  null });
+                }
+                else if (pTestimonialsIndex > 0)
+                {
+                    return View(googlebotView, new GoogleBotPage { page = testimonials, data = null });
                 }
 
                 string jobType = pJobsIndex > 0 ? escaped_fragment.Substring(pJobsIndex + 1 + jobs.Length) : string.Empty;

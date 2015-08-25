@@ -96,5 +96,9 @@ namespace Angjobs.Controllers
         {
             return PartialView();
         }
+        public ActionResult Testimonials()
+        {
+            return PartialView();
+        }
     }
 }
