@@ -30,7 +30,7 @@ namespace Angjobs
 
         private static MemoryCache _cache = MemoryCache.Default;
         private static MyCache _myCache = new MyCache();
-        private static DBContext db =  HttpContext.Current.GetOwinContext().Get<DBContext>();
+        private static DBContext db = new DBContext();//  HttpContext.Current.GetOwinContext().Get<DBContext>();
 
         public static List<JobPostViewModel> ListJobPosts
         {
