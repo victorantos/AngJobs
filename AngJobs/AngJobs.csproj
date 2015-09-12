@@ -250,11 +250,26 @@
     <Compile Include="Controllers\ApiBaseController.cs" />
     <Compile Include="Controllers\AppController.cs" />
     <Compile Include="Controllers\GoogleBotController.cs" />
+    <Compile Include="Controllers\InProgressController.cs" />
     <Compile Include="Controllers\PaymentController.cs" />
     <Compile Include="Controllers\MainController.cs" />
     <Compile Include="Controllers\PhotoViewModel.cs" />
     <Compile Include="Controllers\Sitemap_F92C179D37124DCDA570B3D65B1BE533Controller.cs" />
     <Compile Include="Controllers\CvController.cs" />
+    <Compile Include="Helpers\RegexUtilities.cs" />
+    <Compile Include="Migrations\201509112111290_addedSubscriberTbl.cs" />
+    <Compile Include="Migrations\201509112111290_addedSubscriberTbl.Designer.cs">
+      <DependentUpon>201509112111290_addedSubscriberTbl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201509112126298_addedSubscriberIp.cs" />
+    <Compile Include="Migrations\201509112126298_addedSubscriberIp.Designer.cs">
+      <DependentUpon>201509112126298_addedSubscriberIp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201509112127585_addedSubscriberEmailReq.cs" />
+    <Compile Include="Migrations\201509112127585_addedSubscriberEmailReq.Designer.cs">
+      <DependentUpon>201509112127585_addedSubscriberEmailReq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Subscriber.cs" />
     <Compile Include="Controllers\WS_AccountController.cs" />
     <Compile Include="Controllers\JobsController.cs" />
     <Compile Include="CVs\CvActionResult.cs" />
@@ -276,187 +291,13 @@
     <Compile Include="ImportJobs\Import.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Migrations\201410041059502_InitialCreate.cs">
-      <SubType>Code</SubType>
+    <Compile Include="Migrations\201509080823274_InitialMigrations.cs" />
+    <Compile Include="Migrations\201509080823274_InitialMigrations.Designer.cs">
+      <DependentUpon>201509080823274_InitialMigrations.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201410041059502_InitialCreate.Designer.cs">
-      <DependentUpon>201410041059502_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201410050808486_addedISDeleted.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201410050808486_addedISDeleted.Designer.cs">
-      <DependentUpon>201410050808486_addedISDeleted.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201410052201280_addedISDeleted1.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201410052201280_addedISDeleted1.Designer.cs">
-      <DependentUpon>201410052201280_addedISDeleted1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201410071233043_addedapplicanttbl.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201410071233043_addedapplicanttbl.Designer.cs">
-      <DependentUpon>201410071233043_addedapplicanttbl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201410071328573_addedapplicantionstbl.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201410071328573_addedapplicantionstbl.Designer.cs">
-      <DependentUpon>201410071328573_addedapplicantionstbl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201410071503473_fixedjobPostId.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201410071503473_fixedjobPostId.Designer.cs">
-      <DependentUpon>201410071503473_fixedjobPostId.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201410092132463_addedlogo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201410092132463_addedlogo.Designer.cs">
-      <DependentUpon>201410092132463_addedlogo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201410092202164_addedCountry.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201410092202164_addedCountry.Designer.cs">
-      <DependentUpon>201410092202164_addedCountry.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201410092237003_addedSourceref.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201410092237003_addedSourceref.Designer.cs">
-      <DependentUpon>201410092237003_addedSourceref.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201410092239261_addedTelecomm.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201410092239261_addedTelecomm.Designer.cs">
-      <DependentUpon>201410092239261_addedTelecomm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201410101359517_addedtagline.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201410101359517_addedtagline.Designer.cs">
-      <DependentUpon>201410101359517_addedtagline.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201410111952529_addedJobShortDescription.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201410111952529_addedJobShortDescription.Designer.cs">
-      <DependentUpon>201410111952529_addedJobShortDescription.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201411071149378_added2tblsClients.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201411071149378_added2tblsClients.Designer.cs">
-      <DependentUpon>201411071149378_added2tblsClients.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201411091615216_addedUsertoApplication.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201411091615216_addedUsertoApplication.Designer.cs">
-      <DependentUpon>201411091615216_addedUsertoApplication.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201411101102126_addedcurrency.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201411101102126_addedcurrency.Designer.cs">
-      <DependentUpon>201411101102126_addedcurrency.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201411130745518_addedIshot.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201411130745518_addedIshot.Designer.cs">
-      <DependentUpon>201411130745518_addedIshot.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201411131306429_removedJobpostid.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201411131306429_removedJobpostid.Designer.cs">
-      <DependentUpon>201411131306429_removedJobpostid.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201411170557586_removedTodoitemsAddedJObAppRef.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201411170557586_removedTodoitemsAddedJObAppRef.Designer.cs">
-      <DependentUpon>201411170557586_removedTodoitemsAddedJObAppRef.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201411271232146_addedownerforjobpost.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201411271232146_addedownerforjobpost.Designer.cs">
-      <DependentUpon>201411271232146_addedownerforjobpost.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201504201915547_addedStripe.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201504201915547_addedStripe.Designer.cs">
-      <DependentUpon>201504201915547_addedStripe.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201504201941402_addedStripe2.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201504201941402_addedStripe2.Designer.cs">
-      <DependentUpon>201504201941402_addedStripe2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201504211004476_addedCurrency2.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201504211004476_addedCurrency2.Designer.cs">
-      <DependentUpon>201504211004476_addedCurrency2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201505211128252_addedCV.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201505211128252_addedCV.Designer.cs">
-      <DependentUpon>201505211128252_addedCV.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201505211130054_addedAssocCv.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201505211130054_addedAssocCv.Designer.cs">
-      <DependentUpon>201505211130054_addedAssocCv.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201505211134174_addedDateCreated.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201505211134174_addedDateCreated.Designer.cs">
-      <DependentUpon>201505211134174_addedDateCreated.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201505211137524_addedGuid.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201505211137524_addedGuid.Designer.cs">
-      <DependentUpon>201505211137524_addedGuid.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201506120926572_alterTitle.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201506120926572_alterTitle.Designer.cs">
-      <DependentUpon>201506120926572_alterTitle.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201506121115180_alterFieldSize.cs" />
-    <Compile Include="Migrations\201506121115180_alterFieldSize.Designer.cs">
-      <DependentUpon>201506121115180_alterFieldSize.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201506121117179_alterFieldSize2.cs" />
-    <Compile Include="Migrations\201506121117179_alterFieldSize2.Designer.cs">
-      <DependentUpon>201506121117179_alterFieldSize2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201506121121255_alterFieldSize3.cs" />
-    <Compile Include="Migrations\201506121121255_alterFieldSize3.Designer.cs">
-      <DependentUpon>201506121121255_alterFieldSize3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201506121549548_addedFields4.cs" />
-    <Compile Include="Migrations\201506121549548_addedFields4.Designer.cs">
-      <DependentUpon>201506121549548_addedFields4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201508271325311_addUsersTblUpdate.cs" />
-    <Compile Include="Migrations\201508271325311_addUsersTblUpdate.Designer.cs">
-      <DependentUpon>201508271325311_addUsersTblUpdate.cs</DependentUpon>
+    <Compile Include="Migrations\201509091537177_removeZipField.cs" />
+    <Compile Include="Migrations\201509091537177_removeZipField.Designer.cs">
+      <DependentUpon>201509091537177_removeZipField.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs">
       <SubType>Code</SubType>
@@ -502,6 +343,7 @@
     <Content Include="App_Data\Mails\empty.txt" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Assets\app\app.js" />
+    <Content Include="Assets\app\controllers\employer\consultantsCtrl.js" />
     <Content Include="Assets\app\controllers\testimonialsCtrl.js" />
     <Content Include="Assets\app\controllers\servicesCtrl.js" />
     <Content Include="Assets\app\controllers\payCtrl.js" />
@@ -646,6 +488,7 @@
     <Content Include="Views\App\Services.cshtml" />
     <Content Include="Views\App\Resumes.cshtml" />
     <Content Include="Views\App\Testimonials.cshtml" />
+    <Content Include="Views\App\About.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="sitemap\" />
@@ -681,7 +524,7 @@
     <Content Include="Views\App\PostJob.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\App\About.cshtml" />
+    <Content Include="Views\App\Consultants.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
@@ -711,101 +554,20 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201410041059502_InitialCreate.resx">
-      <DependentUpon>201410041059502_InitialCreate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201509080823274_InitialMigrations.resx">
+      <DependentUpon>201509080823274_InitialMigrations.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201410050808486_addedISDeleted.resx">
-      <DependentUpon>201410050808486_addedISDeleted.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201509091537177_removeZipField.resx">
+      <DependentUpon>201509091537177_removeZipField.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201410052201280_addedISDeleted1.resx">
-      <DependentUpon>201410052201280_addedISDeleted1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201509112111290_addedSubscriberTbl.resx">
+      <DependentUpon>201509112111290_addedSubscriberTbl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201410071233043_addedapplicanttbl.resx">
-      <DependentUpon>201410071233043_addedapplicanttbl.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201509112126298_addedSubscriberIp.resx">
+      <DependentUpon>201509112126298_addedSubscriberIp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201410071328573_addedapplicantionstbl.resx">
-      <DependentUpon>201410071328573_addedapplicantionstbl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201410071503473_fixedjobPostId.resx">
-      <DependentUpon>201410071503473_fixedjobPostId.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201410092132463_addedlogo.resx">
-      <DependentUpon>201410092132463_addedlogo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201410092202164_addedCountry.resx">
-      <DependentUpon>201410092202164_addedCountry.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201410092237003_addedSourceref.resx">
-      <DependentUpon>201410092237003_addedSourceref.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201410092239261_addedTelecomm.resx">
-      <DependentUpon>201410092239261_addedTelecomm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201410101359517_addedtagline.resx">
-      <DependentUpon>201410101359517_addedtagline.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201410111952529_addedJobShortDescription.resx">
-      <DependentUpon>201410111952529_addedJobShortDescription.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201411071149378_added2tblsClients.resx">
-      <DependentUpon>201411071149378_added2tblsClients.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201411091615216_addedUsertoApplication.resx">
-      <DependentUpon>201411091615216_addedUsertoApplication.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201411101102126_addedcurrency.resx">
-      <DependentUpon>201411101102126_addedcurrency.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201411130745518_addedIshot.resx">
-      <DependentUpon>201411130745518_addedIshot.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201411131306429_removedJobpostid.resx">
-      <DependentUpon>201411131306429_removedJobpostid.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201411170557586_removedTodoitemsAddedJObAppRef.resx">
-      <DependentUpon>201411170557586_removedTodoitemsAddedJObAppRef.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201411271232146_addedownerforjobpost.resx">
-      <DependentUpon>201411271232146_addedownerforjobpost.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201504201915547_addedStripe.resx">
-      <DependentUpon>201504201915547_addedStripe.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201504201941402_addedStripe2.resx">
-      <DependentUpon>201504201941402_addedStripe2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201504211004476_addedCurrency2.resx">
-      <DependentUpon>201504211004476_addedCurrency2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201505211128252_addedCV.resx">
-      <DependentUpon>201505211128252_addedCV.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201505211130054_addedAssocCv.resx">
-      <DependentUpon>201505211130054_addedAssocCv.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201505211134174_addedDateCreated.resx">
-      <DependentUpon>201505211134174_addedDateCreated.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201505211137524_addedGuid.resx">
-      <DependentUpon>201505211137524_addedGuid.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201506120926572_alterTitle.resx">
-      <DependentUpon>201506120926572_alterTitle.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201506121115180_alterFieldSize.resx">
-      <DependentUpon>201506121115180_alterFieldSize.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201506121117179_alterFieldSize2.resx">
-      <DependentUpon>201506121117179_alterFieldSize2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201506121121255_alterFieldSize3.resx">
-      <DependentUpon>201506121121255_alterFieldSize3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201506121549548_addedFields4.resx">
-      <DependentUpon>201506121549548_addedFields4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201508271325311_addUsersTblUpdate.resx">
-      <DependentUpon>201508271325311_addUsersTblUpdate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201509112127585_addedSubscriberEmailReq.resx">
+      <DependentUpon>201509112127585_addedSubscriberEmailReq.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

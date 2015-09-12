@@ -68,6 +68,10 @@ namespace Angjobs.Controllers
         {
             return PartialView();
         }
+        public ActionResult Consultants()
+        {
+            return PartialView();
+        }
         public ActionResult Employer()
         {
             return PartialView();
@@ -100,5 +104,6 @@ namespace Angjobs.Controllers
         {
             return PartialView();
         }
+      
     }
 }

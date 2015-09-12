@@ -1,0 +1,40 @@
+﻿
+<div ui-view></div>
+<div class="wrapper">
+    <h3 class="col-md-4">
+        Search IT Consultants companies.<br />
+        <small>Thousands of UK IT contractors - take a look into their financials</small>
+    </h3>
+
+    <div class="col-md-4">
+        <h3>How is this possible?</h3>
+        <p>
+            We have a database with millions of UK companies, our task is to filter only companies with a certain SIC code, for example: <br />
+            <blockquote>62020 - Information technology consultancy activities</blockquote>
+            and then display it here(<i>/#!/employer/consultants</i>), in a nice format along with a search box.
+        </p>
+    </div>
+    <div class="col-md-4">
+        <form role="form" ng-submit="subscribe()" ng-hide="subscribed">
+            <h3 class="form-group">
+                Show your interest!<br />
+                <small>Get notified when this feature is released.</small>
+            </h3>
+            <div class="form-group">
+                <label for="email">Your email address:</label>
+                <input type="email" class="form-control" ng-model="email">
+            </div>
+
+
+            <button type="submit" class="btn btn-block btn-info">SUBSCRIBE*</button>
+            <small>*We hate SPAM, so don't worry!</small>
+        </form>
+        <div ng-show="subscribed">
+            <h3 class="text-success">
+                <span class="glyphicon glyphicon-check"></span> Thank you!<br />
+                <small>We will see you soon.</small>
+            </h3>
+            <p>Check our latest job opportunities: <a href="/#!/jobs/inbox" style="text-decoration:underline;">Inbox</a></p>
+        </div>
+    </div>
+</div>

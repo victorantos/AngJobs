@@ -34,7 +34,7 @@ namespace AngJobs.CVs
             await Task.Factory.StartNew(() =>
             {
                 cvs = photoFolder.EnumerateFiles()
-                                            .Where(fi => new[] { ".doc", ".pdf", ".docx", ".txt", ".rtf" }.Contains(fi.Extension.ToLower()))
+                                            .Where(fi => new[] { ".doc", ".pdf", ".docx", ".txt", ".rtf", ".odt" }.Contains(fi.Extension.ToLower()))
                                             .Select(fi => new CvViewModel
                                             {
                                                 Name = fi.Name,                                                

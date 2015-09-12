@@ -1,5 +1,17 @@
 ﻿<div class="job-applications">
-    <span ng-show="dailyJobApplications == null">Loading...</span>
+ 
+    <div class="wrapper" >
+       
+        <span ng-show="dailyJobApplications == null">Loading...</span>
+        <div ng-show="isEmptyList">
+           <h4>Job applications</h4>
+
+            Your job applications list is empty.
+            Please <a ui-sref="postjob" style="text-decoration:underline;">post more jobs</a> and check back later. Thank you!
+        </div>
+    </div>
+
+
     <div ng-repeat="day in dailyJobApplications | keys" ng-init="jobs = dailyJobApplications[day]">
         <h4 class="wrapper font-thin m-n">{{day | amDateFormat:'dddd, MMMM Do YYYY' }}</h4>
         <ul class="list-group list-group-lg no-radius">

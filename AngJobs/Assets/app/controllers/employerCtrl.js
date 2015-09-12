@@ -37,8 +37,14 @@
                 views: {
                     '': {
                         templateUrl: 'App/JobApplications',
-                        controller: ['$scope', 'jobApplications', function ($scope, jobApplications) {
+                        controller: ['$scope', 'jobApplications', 'utils', function ($scope, jobApplications, utils) {
+
+                            if (utils.isEmptyObject(jobApplications)) {
+                                $scope.isEmptyList = true;
+                            }
                             $scope.dailyJobApplications = jobApplications;
+
+                             
                         }]
                     },
                     'dashboardTitle@employer': {

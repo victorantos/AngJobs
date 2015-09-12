@@ -34,6 +34,9 @@ angular.module('utils.service', [
                 randKey = coll[Math.floor(coll.length * Math.random())][key];
             } while (randKey == currentKey);
             return randKey;
+        },
+        isEmptyObject: function isEmpty(obj) {
+            return Object.keys(obj).length === 0;
         }
     };
 });

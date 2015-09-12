@@ -18,7 +18,7 @@ namespace Angjobs.Models
     {
         //Validation on the UserName field is done by the CustomUserValidator, the CustomerUserValidator must be initialized and is done so in the AccountController contructor.
         public string phone { get; set; }
-        public string zip { get; set; }
+        
         public string firstName { get; set; }
         public string lastname { get; set; }
 
@@ -82,7 +82,7 @@ namespace Angjobs.Models
         public DbSet<Subscription> Subscriptions { get; set; }
         public DbSet<StripeEntities.SubscriptionPlan> SubscriptionPlans { get; set; }
         public DbSet<CV> CVs { get; set; }
-
+        public DbSet<Subscriber> Subscribers { get; set; }
 
     }
 
