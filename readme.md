@@ -28,33 +28,6 @@ Mobile app
 ]
 (https://play.google.com/store/apps/details?id=com.AngJobs.app)
 
-**Mobile app**
-+ arrange/format content on job details screen
-
-**Other tasks**
-+ Setup a continuous delivery service - build server
-+ When posting a job, after Remote/Contract/Permanent button click focus on the next textbox
-
-Future plans
-==
-+  Apply for jobs while offline(on the train). Use service worker?
-+  Make the web app embeddable, like a js widget
-+  Introduce typescript?
-+  [Android app](https://play.google.com/store/apps/details?id=com.AngJobs.app) based on phonegap/ionic frameworks
-+  IOS app based on phonegap/ionic frameworks
-+  Provide an Api. GET jobs, job applications. POST job, resume.
-
-Frameworks used or willing to use
-==
-
-- Angular
-- TypeScript
-- Web API
-- Gulp
-- Bower
-- AppVeyor (for Continuous Integration)
-- Testing(protractor for e2e)
-- Ionic framework for mobile app, uses AngularJs
 
 Setup for devs
 ==
@@ -98,3 +71,30 @@ Todo
 + integrate the [Me-Api](https://github.com/danfang/me-api). Explore developers
 + ~~add angular-cache~~ 
 +  
+**Mobile app**
++ arrange/format content on job details screen
+
+**Other tasks**
++ Setup a continuous delivery service - build server
++ When posting a job, after Remote/Contract/Permanent button click focus on the next textbox
+
+Future plans
+==
++  Apply for jobs while offline(on the train). Use service worker?
++  Make the web app embeddable, like a js widget
++  Introduce typescript?
++  [Android app](https://play.google.com/store/apps/details?id=com.AngJobs.app) based on phonegap/ionic frameworks
++  IOS app based on phonegap/ionic frameworks
++  Provide an Api. GET jobs, job applications. POST job, resume.
+
+Frameworks used or willing to use
+==
+
+- Angular
+- TypeScript
+- Web API
+- Gulp
+- Bower
+- AppVeyor (for Continuous Integration)
+- Testing(protractor for e2e)
+- Ionic framework for mobile app, uses AngularJs
