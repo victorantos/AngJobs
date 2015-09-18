@@ -27,6 +27,26 @@ Mobile app
 ![](https://angjobs.com/angjobs-mobile-app.jpg)
 ]
 (https://play.google.com/store/apps/details?id=com.AngJobs.app)
+
+
+Setup for devs
+==
+The single page app is based on [ng.Net.Template](https://visualstudiogallery.msdn.microsoft.com/48d928e3-9b5c-4faf-b46f-d6baa7d9886c) by Dahln Farnes 
+
+On server side it uses .NET C# to provide the JSON endpoints(~/api/...) and Entity Framework Code First apropach for the data layer.
+The single page app code(javascript+css) is located in ~/Assets/app
+
+To run the web app on Windows you need [Visual Studio]( https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx)
+and [Sql Server Express](https://www.microsoft.com/en-gb/server-cloud/products/sql-server-editions/sql-server-express.aspx) both are free tools by Microsoft 
+
+Run tests
+==
+To run unit tests use this command at your command prompt:
+
+AngJobs\AngJobs>**karma start test/karma.conf.js**
+
+![](https://dl.dropboxusercontent.com/u/45940875/Angjobs/tests-karma-angjobs.jpg)
+
 Todo
 ===
 +  Create a recruiters page and list all 400+ recruiters from DB
@@ -78,21 +98,3 @@ Frameworks used or willing to use
 - AppVeyor (for Continuous Integration)
 - Testing(protractor for e2e)
 - Ionic framework for mobile app, uses AngularJs
-
-Setup for devs
-==
-The single page app is based on [ng.Net.Template](https://visualstudiogallery.msdn.microsoft.com/48d928e3-9b5c-4faf-b46f-d6baa7d9886c) by Dahln Farnes 
-
-On server side it uses .NET C# to provide the JSON endpoints(~/api/...) and Entity Framework Code First apropach for the data layer.
-The single page app code(javascript+css) is located in ~/Assets/app
-
-To run the web app on Windows you need [Visual Studio]( https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx)
-and [Sql Server Express](https://www.microsoft.com/en-gb/server-cloud/products/sql-server-editions/sql-server-express.aspx) both are free tools by Microsoft 
-
-Run tests
-==
-To run unit tests use this command at your command prompt:
-
-AngJobs\AngJobs>**karma start test/karma.conf.js**
-
-![](https://dl.dropboxusercontent.com/u/45940875/Angjobs/tests-karma-angjobs.jpg)
