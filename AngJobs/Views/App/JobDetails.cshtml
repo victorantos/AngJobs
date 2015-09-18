@@ -40,7 +40,9 @@
                 <div class="panel-heading b-b b-light">
                     <div class="form-group" ng-show="details.contactName">
                         <label for="toContactName" class=" col-md-1 control-label">To:</label>
-                        <div class="col-md-7"><input id="toContactName" class="input input-sm form-control" type="text" disabled ng-model="details.contactName" /></div>
+                        <div class="col-md-7">
+                            <input id="toContactName" class="input input-sm form-control" type="text" disabled ng-model="receiver" />
+                        </div>
                     </div>
                     <div class="form-group">
                         <label for="email" class=" col-md-1 control-label">From:</label>
@@ -61,7 +63,7 @@
                             </div>
 
                             <div class="add-cv">
-                                +<a class="button btn-link" href="javascript:void(0);"  ngf-select ngf-change="upload($files)" ngf-multiple="multiple">Attach CV</a>
+                                +<a class="button btn-link" href="javascript:void(0);" ngf-select ngf-change="upload($files)" ngf-multiple="multiple">Attach CV</a>
                             </div>
                         </div>
                     </div>

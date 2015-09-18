@@ -16,6 +16,17 @@
                         $scope.details = jobdetail;
                         $scope.applicant = {};
                         $scope.details.currencyIconCss = null;
+
+                        Object.defineProperty($scope, 'receiver', {
+                            get: function () {
+                                return $scope.details.recruiterName ? $scope.details.contactName + ' (' + $scope.details.recruiterName + ')' : $scope.details.contactName;
+                            },
+                            set: function (newValue) {
+                                //not needed
+                            }
+                        });
+
+
                         $scope.salary = function () {
                             var currency = "£";
                             switch ($scope.details.currency) {

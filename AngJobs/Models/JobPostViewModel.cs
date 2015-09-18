@@ -45,7 +45,7 @@ namespace Angjobs.Models
                 {
                     srUrl = entity.SourceReference;
                 }
-                recruiterName = entity.RecruiterName == stackOverflow ? entity.RecruiterName : null;
+                recruiterName = entity.RecruiterName != stackOverflow ? entity.RecruiterName : null;
                 contactName = entity.ContactName;
                 priority = string.IsNullOrEmpty(entity.Ip) ? (int?)null : 1;
                 isHot = entity.IsHot;
