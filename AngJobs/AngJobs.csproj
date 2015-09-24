@@ -339,7 +339,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\CV\empty.txt" />
-    <Content Include="App_Data\Logs\import.txt" />
     <Content Include="App_Data\Mails\empty.txt" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Assets\app\app.js" />
@@ -360,7 +359,6 @@
     <Content Include="Assets\app\controllers\jobsCtrl.js" />
     <Content Include="Assets\app\controllers\mainCtrl.js" />
     <Content Include="Assets\app\directives\jobLine.js" />
-    <Content Include="Assets\app\filters\highlight.js" />
     <Content Include="Assets\app\services\authInterceptorService.js" />
     <Content Include="Assets\app\services\authService.js" />
     <Content Include="Assets\app\services\cvsService.js" />
@@ -491,6 +489,7 @@
     <Content Include="Views\App\About.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Data\Logs\" />
     <Folder Include="sitemap\" />
   </ItemGroup>
   <ItemGroup>
