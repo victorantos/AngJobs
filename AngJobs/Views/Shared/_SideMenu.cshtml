@@ -3,7 +3,12 @@
         <li ng-class="{ active: $state.is('jobs.jobType') && $stateParams.jobType=='inbox'}">
             <a href="/#!/jobs/inbox">
                 @*<span class="badge pull-right">42</span>*@
-                Inbox
+                All jobs
+            </a>
+        </li>
+        <li ng-class="activePath == '/jobs/contract' || activePath.indexOf('/jobs/contract')>=0 ? 'active': ''">
+            <a href="/#!/jobs/contract">
+                Contract
             </a>
         </li>
         <li ng-class="activePath == '/jobs/permanent' || activePath.indexOf('/jobs/permanent')>=0 ? 'active': ''">
@@ -12,20 +17,7 @@
                 Permanent
             </a>
         </li>
-        <li ng-class="activePath == '/jobs/contract' || activePath.indexOf('/jobs/contract')>=0 ? 'active': ''">
-            <a href="/#!/jobs/contract">
-                Contracts
-            </a>
-        </li>
-        <li ng-class="activePath == '/daily' || activePath.indexOf('/daily')>=0 ? 'active': ''">
-            <a href="/#!/daily">
-                History
-            </a>
-            <ul>
-                <li><a href="/#!/daily/{{today}}">Today</a></li>
-                <li><a href="/#!/daily/{{yesterday}}">Yesterday</a></li>
-            </ul>
-        </li>
+       
         <li class="visible-xs">
             <ul class="nav navbar-nav navbar-right" style="margin-top:-3px;">
                 <li class="dropdown">
@@ -101,6 +93,20 @@
         </form>
         <span ng-model="query"></span>
     </div>
+
+    <hr />
+    <ul class="nav nav-pills nav-sm list-inline">
+        <li ng-class="activePath == '/daily' || activePath.indexOf('/daily')>=0 ? 'active': ''">
+            <a href="/#!/daily">
+                Daily jobs
+            </a>
+            <ul>
+                <li><a href="/#!/daily/{{today}}">Today</a></li>
+                <li><a href="/#!/daily/{{yesterday}}">Yesterday</a></li>
+            </ul>
+        </li>
+    </ul>
+    <hr />
 </div>
 
 
