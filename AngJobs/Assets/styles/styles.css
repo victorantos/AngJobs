@@ -231,17 +231,23 @@ a.short-desc:hover {
     text-decoration: none;
 }
     a.short-desc > div > span.text-md {
-        font-weight:800;
+        font-weight:600;
           font-size: 14px;
     }
        .short-desc .job-line {
-        font-weight:800;
+        font-weight:600;
           font-size: 14px;
           display:inline;
     }
 
 a.job-desc {
     text-decoration:none;
+    font-size: 80%;
+    height: 3.03ex;
+    outline: none;
+    padding: 3px 0 1px;
+    vertical-align: middle;
+    white-space: nowrap;
 }
 .thumb-xs {
     display: inline-block;
