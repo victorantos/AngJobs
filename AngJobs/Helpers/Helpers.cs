@@ -52,7 +52,7 @@ namespace Angjobs
                 return string.Empty;
 
             var desc = description;
-            var maxLength = 400;
+            var maxLength = 220;
             if (desc.Length < maxLength)
                 maxLength = desc.Length - 7;
 
