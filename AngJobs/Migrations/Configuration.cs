@@ -2,14 +2,21 @@ namespace Angjobs.Migrations
 {
     using Angjobs.Entities;
     using Angjobs.ImportJobs;
+    using Microsoft.AspNet.Identity;
+    using Microsoft.AspNet.Identity.EntityFramework;
     using StripeEntities;
     using System;
     using System.Collections.Generic;
-    using System.Data.Entity; 
+    using System.Data.Entity;
     using System.Data.Entity.Core.Objects;
     using System.Data.Entity.Migrations;
     using System.Diagnostics;
     using System.Linq;
+    using Microsoft.AspNet.Identity.Owin;
+
+using System.Web;
+    using Microsoft.Owin;
+    using Angjobs.Models;
 
     public class Configuration : DbMigrationsConfiguration<Angjobs.Models.DBContext>
     {
@@ -27,11 +34,32 @@ namespace Angjobs.Migrations
                 context.Clients.AddRange(BuildClientsList());
             }
 
+            AddRolesAndUsers(context);
+
             AddSubscriptionPlan(context);
 
             AddHackerNewsJobs(context);
 
             context.SaveChanges();
+        }
+
+        private void AddRolesAndUsers(Models.DBContext context)
+        {
+            string admin = "Admin";
+           
+            var roleStore = new RoleStore<IdentityRole>(context);
+            var roleManager = new RoleManager<IdentityRole>(roleStore);
+
+            var userStore = new UserStore<User>(context);
+            var userManager = new UserManager<User>(userStore);
+
+            var adminUser = context.Users.FirstOrDefault(u => u.Email == "victorantos@gmail.com" && u.UserName == "VictorAntofica");
+ 
+            if(!roleManager.RoleExists(admin))
+            {
+                roleManager.Create(new IdentityRole { Name = admin });
+            }
+            userManager.AddToRole(adminUser.Id, admin);
         }
 
         private void AddHackerNewsJobs(Models.DBContext context)
@@ -118,5 +146,7 @@ namespace Angjobs.Migrations
 
             return ClientsList;
         }
+
+       
     }
 }

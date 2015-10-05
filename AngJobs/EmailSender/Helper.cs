@@ -177,5 +177,11 @@ namespace Angjobs
                 Debug.WriteLine("Send Completed. UserState:" + e.UserState);
             }
         }
+
+        public static void NotifyAdmin(Models.JobApplication entity)
+        {
+            //TODO
+            //throw new NotImplementedException();
+        }
     }
 }

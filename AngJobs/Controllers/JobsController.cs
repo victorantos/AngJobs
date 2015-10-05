@@ -265,6 +265,10 @@ namespace Angjobs.Controllers
                        string cvFolder = HttpRuntime.AppDomainAppPath +  @"\App_Data\CV";
                        Helper.NotifyRecruiter(entity, cvFolder);
                     }
+                    else
+                    {
+                        Helper.NotifyAdmin(entity);
+                    }
 
                     // clear recruiter's jobapplications cache
                     JobsCacheManager.ListRecruiterDailyJobApplications.Clear();

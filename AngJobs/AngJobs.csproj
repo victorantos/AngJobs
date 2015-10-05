@@ -269,6 +269,7 @@
     <Compile Include="Migrations\201509112127585_addedSubscriberEmailReq.Designer.cs">
       <DependentUpon>201509112127585_addedSubscriberEmailReq.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\ApplicationRoleManager.cs" />
     <Compile Include="Models\Subscriber.cs" />
     <Compile Include="Controllers\WS_AccountController.cs" />
     <Compile Include="Controllers\JobsController.cs" />
