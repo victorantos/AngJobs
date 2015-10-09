@@ -98,3 +98,8 @@ Frameworks used or willing to use
 - AppVeyor (for Continuous Integration)
 - Testing(protractor for e2e)
 - Ionic framework for mobile app, uses AngularJs
+
+Contributors
+==
++  Victor Antofica
++  
