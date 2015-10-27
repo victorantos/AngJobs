@@ -89,7 +89,7 @@ Frameworks used
 
 - Angular
 - Web API
-- Testing(protractor for e2e)
+- Protractor for testing - end to end
 - Ionic framework for mobile app, uses AngularJs
 
 Contributors
