@@ -154,6 +154,8 @@ namespace Angjobs
 
         public static object GetHotJobPostsShortDescription(int? maxHotJobs = 0)
         {
+            if (ListJobPostsShortDescription == null)
+                return null;
             var hotList = ListJobPostsShortDescription.Where(j => j.isHot.HasValue && j.isHot.Value).Take(maxHotJobs.Value);
             if (hotList.Count() == 0)
                 hotList = ListJobPostsShortDescription.Take(maxHotJobs.Value);

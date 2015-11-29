@@ -50,7 +50,7 @@ namespace Angjobs.Models
         {
             Database.SetInitializer<DBContext>(new DBInitializer());
 
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<DBContext, Angjobs.Migrations.Configuration>()); 
+           // Database.SetInitializer(new MigrateDatabaseToLatestVersion<DBContext, Angjobs.Migrations.Configuration>()); 
  
 
         }
@@ -59,6 +59,9 @@ namespace Angjobs.Models
         {
             base.OnModelCreating(modelBuilder);
 
+            //if (System.Diagnostics.Debugger.IsAttached == false)
+            //    System.Diagnostics.Debugger.Launch();
+
             //When the Model/Database are created, the default user and roles tables will be mapped to different names. EX: IdentityUser -> Users.
             modelBuilder.Entity<IdentityUser>().ToTable("Users");
             modelBuilder.Entity<User>().ToTable("Users");
@@ -66,7 +69,10 @@ namespace Angjobs.Models
             modelBuilder.Entity<IdentityUserRole>().ToTable("UserRoles");
 
             //modelBuilder.Entity<JobPost>().Property(p=>p.Lat).HasPrecision(12,6);
-            //modelBuilder.Entity<JobPost>().Property(p => p.Lon).HasPrecision(12, 6); 
+            //modelBuilder.Entity<JobPost>().Property(p => p.Lon).HasPrecision(12, 6);
+
+          
+
         }
 
         public static DBContext Create()

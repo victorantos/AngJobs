@@ -257,18 +257,11 @@
     <Compile Include="Controllers\Sitemap_F92C179D37124DCDA570B3D65B1BE533Controller.cs" />
     <Compile Include="Controllers\CvController.cs" />
     <Compile Include="Helpers\RegexUtilities.cs" />
-    <Compile Include="Migrations\201509112111290_addedSubscriberTbl.cs" />
-    <Compile Include="Migrations\201509112111290_addedSubscriberTbl.Designer.cs">
-      <DependentUpon>201509112111290_addedSubscriberTbl.cs</DependentUpon>
+    <Compile Include="Migrations\201511291615121_Initial.cs" />
+    <Compile Include="Migrations\201511291615121_Initial.Designer.cs">
+      <DependentUpon>201511291615121_Initial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201509112126298_addedSubscriberIp.cs" />
-    <Compile Include="Migrations\201509112126298_addedSubscriberIp.Designer.cs">
-      <DependentUpon>201509112126298_addedSubscriberIp.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201509112127585_addedSubscriberEmailReq.cs" />
-    <Compile Include="Migrations\201509112127585_addedSubscriberEmailReq.Designer.cs">
-      <DependentUpon>201509112127585_addedSubscriberEmailReq.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationRoleManager.cs" />
     <Compile Include="Models\Subscriber.cs" />
     <Compile Include="Controllers\WS_AccountController.cs" />
@@ -290,17 +283,6 @@
     <Compile Include="Helpers\urlset.cs" />
     <Compile Include="IdentityConfig.cs" />
     <Compile Include="ImportJobs\Import.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Migrations\201509080823274_InitialMigrations.cs" />
-    <Compile Include="Migrations\201509080823274_InitialMigrations.Designer.cs">
-      <DependentUpon>201509080823274_InitialMigrations.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201509091537177_removeZipField.cs" />
-    <Compile Include="Migrations\201509091537177_removeZipField.Designer.cs">
-      <DependentUpon>201509091537177_removeZipField.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Models\ApplicationTypes.cs" />
@@ -554,20 +536,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201509080823274_InitialMigrations.resx">
-      <DependentUpon>201509080823274_InitialMigrations.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201509091537177_removeZipField.resx">
-      <DependentUpon>201509091537177_removeZipField.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201509112111290_addedSubscriberTbl.resx">
-      <DependentUpon>201509112111290_addedSubscriberTbl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201509112126298_addedSubscriberIp.resx">
-      <DependentUpon>201509112126298_addedSubscriberIp.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201509112127585_addedSubscriberEmailReq.resx">
-      <DependentUpon>201509112127585_addedSubscriberEmailReq.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201511291615121_Initial.resx">
+      <DependentUpon>201511291615121_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -31,8 +31,9 @@ namespace Angjobs
             policy.RemovedCallback = callback;
             policy.ChangeMonitors.Add(new HostFileChangeMonitor(FilePath));
 
-            // Add inside cache 
-            cache.Set(CacheKeyName, CacheItem, policy);
+
+            if (((List<JobPostViewModel>)CacheItem).Any())
+                cache.Set(CacheKeyName, CacheItem, policy);
         }
 
         public Object GetMyCachedItem(String CacheKeyName)
