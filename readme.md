@@ -11,6 +11,11 @@ Testimonials
 ===
 +   "*Really like how it works. Extremely easy to use, straight forward, and as a job board being able to attach LinkedIn/CV/etc right on the job page is a what you want in something like this. Great job.*"  by Redditor FlatTextOnAScreen
 
+First run
+=======
+Make sure you create the database first by running this command in the "Package manager console" window in Visual Studio
+> update-database
+
 UI
 ====
 
