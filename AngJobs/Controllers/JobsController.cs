@@ -220,7 +220,10 @@ namespace Angjobs.Controllers
         [HttpGet]
         public object GetHotJobs(int maxJobs = 10)
         {
-            return JobsCacheManager.GetHotJobPostsShortDescription(maxJobs);
+            var list = JobsCacheManager.GetHotJobPostsShortDescription(maxJobs);
+            if (list == null)
+                return new List<object>();
+            return list;
         }
 
         [ApiExplorerSettings(IgnoreApi = false)]

@@ -19,11 +19,11 @@
         params: { maxJobs: 15 }
     }
     ).then(function (resp) {
-        return resp.data;
+        return resp.data || [];
     });
 
     var jobs = $http.get(path).then(function (resp) {
-        return resp.data;
+        return resp.data || [];
     });
 
     var factory = {};

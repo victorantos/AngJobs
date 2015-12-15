@@ -94,7 +94,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', '$httpP
             resolve: {
                 hotlist: ['jobs',
                  function (jobs) {
-                     return jobs.hot();
+                     return jobs.hot() || [];
                  }]
             },
             controller: 'hotCtrl'
