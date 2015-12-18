@@ -34,7 +34,7 @@ Mobile app
 (https://play.google.com/store/apps/details?id=com.AngJobs.app)
 
 
-Setup for devs
+The code. Setup for devs
 ==
 The single page app is based on [ng.Net.Template](https://visualstudiogallery.msdn.microsoft.com/48d928e3-9b5c-4faf-b46f-d6baa7d9886c) by Dahln Farnes 
 
@@ -43,6 +43,8 @@ The single page app code(javascript+css) is located in ~/Assets/app
 
 To run the web app on Windows you need [Visual Studio]( https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx)
 and [Sql Server Express](https://www.microsoft.com/en-gb/server-cloud/products/sql-server-editions/sql-server-express.aspx) both are free tools by Microsoft 
+
+*update*: this is the code style I might want to follow https://github.com/johnpapa/angular-styleguide#iife
 
 Run tests
 ==
