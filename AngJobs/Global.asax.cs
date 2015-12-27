@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Http;
@@ -17,7 +18,23 @@ namespace Angjobs
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-            BundleConfig.RegisterBundles(BundleTable.Bundles); 
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
+        }
+
+        protected void Application_Error(object sender, EventArgs e)
+        {
+            var exception = Server.GetLastError();
+
+            var filePath = Server.MapPath("~/App_Data/Logs/errors.txt");
+
+
+            HttpException httpException = exception as HttpException;
+
+            using (var sw = File.AppendText(filePath))
+            {
+                sw.WriteLine(httpException.GetHttpCode() +": " + exception.InnerException.ToString());
+            }
+ 
         }
     }
 }
