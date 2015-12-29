@@ -96,7 +96,11 @@
 
                                  //load HN jobs first
                                  jobs.getHNJobs().then(function (data) {
+
+                                     $scope.jobsList = $scope.jobsList || [];
                                      $scope.jobsList.push.apply($scope.jobsList, data);
+                                    
+                                   
                                  }).then(function () {
                                      $scope.$parent.searchBy.sourceReference = 'hn';
                                      $rootScope.isFilterByHN = true;

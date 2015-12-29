@@ -124,7 +124,18 @@ namespace Angjobs
                 
                 object fileAttachment = attachment;
 
+                EnsureEmailFolderExists();
                 email.SendAsync(SendCompletedEventHandler_NotifyRecruiter, fileAttachment);
+            }
+        }
+
+        private static void EnsureEmailFolderExists()
+        {
+            //TODO put this in config file
+            string mailFolderPath = @"C:\Mails";
+            if(!Directory.Exists(mailFolderPath))
+            {
+                Directory.CreateDirectory(mailFolderPath);
             }
         }
 

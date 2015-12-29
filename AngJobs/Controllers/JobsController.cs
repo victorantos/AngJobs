@@ -67,7 +67,7 @@ namespace Angjobs.Controllers
 
         [ApiExplorerSettings(IgnoreApi = false)]
         [HttpGet]
-        public HttpResponseMessage GetJobDetails(int id)
+        public HttpResponseMessage GetJobDetails(int id) 
         {
             JobPostViewModel job = null;
             try
@@ -281,7 +281,7 @@ namespace Angjobs.Controllers
                 catch(Exception ex)
                 {
                     // TODO log errors
-                    return Request.CreateResponse(HttpStatusCode.InternalServerError);
+                    return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
                 }
             }
             else
