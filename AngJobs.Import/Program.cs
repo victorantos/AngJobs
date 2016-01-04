@@ -12,9 +12,8 @@ namespace AngJobs.Import
         {
             var hn = new HackerNews();
 
-          Task.WaitAll(hn.GetAngularFreelancers());
+            Task.WaitAll(hn.GetAngularFreelancers());
 
-            Console.ReadKey();
         }
     }
 }

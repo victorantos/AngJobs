@@ -18,10 +18,6 @@ namespace AngJobs.Import
 
         public FileInfo destFile = null;
 
-        /// <summary>
-        /// returns the file path that contains freelancers
-        /// </summary>
-        /// <returns></returns>
         public async Task GetAngularFreelancers()
         {
             int? postId = GetPostId();
@@ -43,10 +39,13 @@ namespace AngJobs.Import
 
             }
 
+            int i = 1;
             foreach (var item in comments)
             {
-               // await WriteTextAsync(destFile.FullName, ",\r\n");
-                await ExtractAndSaveFreelancer(item, destFile);
+                // await WriteTextAsync(destFile.FullName, ",\r\n");
+                Console.WriteLine("Get freelancer number {0}", i);
+                await ExtractAndSaveFreelancer(item, destFile, i);
+                i++;
             }
         }
 
@@ -61,17 +60,17 @@ namespace AngJobs.Import
             return destFile.Replace(" ", string.Empty) + ".json";
         }
 
-        private async Task ExtractAndSaveFreelancer(JToken item, FileInfo destFile)
+        private async Task ExtractAndSaveFreelancer(JToken item, FileInfo destFile, int i)
         {
             var postId = item.ToString();
 
             string endpoint = String.Format(apiUrl, postId);
             var webClient = new WebClient();
             var content = await webClient.DownloadStringTaskAsync(new Uri(endpoint));
-            ProcessHNPost(content);
+            ProcessHNPost(content, i);
         }
 
-        private async void ProcessHNPost(string content)
+        private async void ProcessHNPost(string content, int i)
         {
 
             var text = ((JObject)Newtonsoft.Json.JsonConvert.DeserializeObject(content))["text"];
@@ -81,6 +80,7 @@ namespace AngJobs.Import
             //todo save to file
             if (destFile != null && destFile.Exists)
             {
+                Console.WriteLine("Write freelancer number {0}", i);
                 await WriteTextAsync(destFile.FullName, JObject.FromObject(new { by = by, text = text, time = time }).ToString()+ ",\r\n");
             }
         }
