@@ -29,11 +29,11 @@ namespace Angjobs
             policy.Priority = (MyCacheItemPriority == MyCachePriority.Default) ? CacheItemPriority.Default : CacheItemPriority.NotRemovable;
             policy.AbsoluteExpiration = DateTimeOffset.Now.AddSeconds(86400.00);
             policy.RemovedCallback = callback;
-            policy.ChangeMonitors.Add(new HostFileChangeMonitor(FilePath));
-
 
             if (((List<JobPostViewModel>)CacheItem).Any())
                 cache.Set(CacheKeyName, CacheItem, policy);
+
+            policy.ChangeMonitors.Add(new HostFileChangeMonitor(FilePath));
         }
 
         public Object GetMyCachedItem(String CacheKeyName)
