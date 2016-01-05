@@ -1,0 +1,10 @@
+﻿<div class="wrapper">
+    <h3>Seeking Work</h3>
+    <p ng-hide="freelancers!=null">Loading...</p>
+    <ul class="list-group">
+        <li class="list-group-item" ng-repeat="item in freelancers">
+            <h3 class="list-group-item-heading" ng-bind="item.by"></h3>
+            <p ng-bind-html="item.text"></p>
+        </li>
+    </ul>
+</div>

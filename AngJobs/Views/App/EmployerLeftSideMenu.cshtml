@@ -1,4 +1,9 @@
-﻿<ul class="nav nav-pills nav-sm list-inline">
+﻿<ul class="nav list-inline">
+    <li ng-class="{ active: $state.includes('employer.seeking')}">
+        <a href="#!/employer/seeking">
+            Seeking<sup>work</sup>
+        </a>
+    </li>
     <li ng-class="{ active: $state.includes('employer.applications')}">
         <a href="#!/employer/applications">
             Applications

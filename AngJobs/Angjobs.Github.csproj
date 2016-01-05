@@ -249,6 +249,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ApiBaseController.cs" />
     <Compile Include="Controllers\AppController.cs" />
+    <Compile Include="Controllers\EmployerController.cs" />
     <Compile Include="Controllers\GoogleBotController.cs" />
     <Compile Include="Controllers\InProgressController.cs" />
     <Compile Include="Controllers\PaymentController.cs" />
@@ -471,6 +472,7 @@
     <Content Include="Views\App\Resumes.cshtml" />
     <Content Include="Views\App\Testimonials.cshtml" />
     <Content Include="Views\App\About.cshtml" />
+    <Content Include="Views\App\SeekingWork.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\Logs\" />

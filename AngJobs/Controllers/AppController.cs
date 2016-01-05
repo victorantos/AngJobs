@@ -72,6 +72,10 @@ namespace Angjobs.Controllers
         {
             return PartialView();
         }
+        public ActionResult SeekingWork()
+        {
+            return PartialView();
+        }
         public ActionResult Employer()
         {
             return PartialView();

@@ -10,6 +10,7 @@ var app = angular.module('app', [
     'main',
     'utils.service',
     'jobs.service',
+    'employer.service',
     'home',
     'jobs',
     'hot',
