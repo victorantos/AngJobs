@@ -92,6 +92,8 @@ namespace Angjobs.ImportJobs
                     if (i < 0)
                     {
                         i = jobDescription.IndexOf("<a");
+                        if( i < 0)
+                         i = jobDescription.IndexOf("< a href");
                     }
 
                     if (i > 3)

@@ -32,7 +32,7 @@ namespace Angjobs
 
             using (var sw = File.AppendText(filePath))
             {
-                sw.WriteLine(httpException.GetHttpCode() + ": " + exception.Message);
+                sw.WriteLine(DateTime.UtcNow.ToString() + " " + httpException.GetHttpCode() + ": " + exception.Message);
                 if (exception.InnerException != null)
                     sw.WriteLine(exception.InnerException.ToString());
             }

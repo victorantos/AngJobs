@@ -52,7 +52,7 @@ namespace Angjobs.Controllers
                     db.JobPosts.Add(entity);
                     db.SaveChanges();
 
-                    return Request.CreateResponse(HttpStatusCode.Created,  entity);
+                    return Request.CreateResponse(HttpStatusCode.Created, entity);
                 }
                 catch
                 {
@@ -67,7 +67,7 @@ namespace Angjobs.Controllers
 
         [ApiExplorerSettings(IgnoreApi = false)]
         [HttpGet]
-        public HttpResponseMessage GetJobDetails(int id) 
+        public HttpResponseMessage GetJobDetails(int id)
         {
             JobPostViewModel job = null;
             try
@@ -88,14 +88,14 @@ namespace Angjobs.Controllers
 
             if (job == null)
                 return Request.CreateResponse(HttpStatusCode.NotFound);
-            else if(job.expiresOn.HasValue && job.expiresOn.Value < DateTime.UtcNow)
+            else if (job.expiresOn.HasValue && job.expiresOn.Value < DateTime.UtcNow)
                 return Request.CreateResponse(HttpStatusCode.Gone);
-            
+
             return Request.CreateResponse<JobPostViewModel>(HttpStatusCode.OK, job);
         }
 
         [HttpGet]
-        public HttpResponseMessage GetJobsByRecruiter(string id=null)
+        public HttpResponseMessage GetJobsByRecruiter(string id = null)
         {
             if (User.Identity.IsAuthenticated)
                 id = User.Identity.GetUserId();
@@ -120,7 +120,7 @@ namespace Angjobs.Controllers
         }
 
         [HttpGet]
-        public HttpResponseMessage GetDailyJobApplicationsForRecruiter(string id=null)
+        public HttpResponseMessage GetDailyJobApplicationsForRecruiter(string id = null)
         {
             var recruiter = JobsCacheManager.ListRecruiterDailyJobApplications.FirstOrDefault(r => r.Id == id);
             if (recruiter == null)
@@ -151,7 +151,7 @@ namespace Angjobs.Controllers
             object todaysJobApplications = null;
             if (recruiter.Jobs.Count > 0)
                 todaysJobApplications = recruiter.Jobs[0];
-            return Request.CreateResponse<object>(HttpStatusCode.OK, todaysJobApplications== null? new string[0]: todaysJobApplications);
+            return Request.CreateResponse<object>(HttpStatusCode.OK, todaysJobApplications == null ? new string[0] : todaysJobApplications);
         }
 
         [HttpGet]
@@ -239,12 +239,12 @@ namespace Angjobs.Controllers
                     if (e.ErrorMessage != null && e.ErrorMessage.Trim() != "")
                         errors.Add(e.ErrorMessage);
 
-            var currentUser =  User.Identity.IsAuthenticated ? UserManager.FindByName(User.Identity.Name) : null;
+            var currentUser = User.Identity.IsAuthenticated ? UserManager.FindByName(User.Identity.Name) : null;
             var entity = item.ToEntity();
 
             // check is limit of applys per day reached
-             if (IsJobApplicationsLimitReached(currentUser, entity))
-                 errors.Add("Jobs applications limit reached for today.");
+            if (IsJobApplicationsLimitReached(currentUser, entity))
+                errors.Add("Jobs applications limit reached for today.");
 
             if (errors.Count == 0)
             {
@@ -253,7 +253,7 @@ namespace Angjobs.Controllers
                     if (User.Identity.IsAuthenticated)
                     {
                         entity.User = currentUser;
-                         // make sure any anonymous posts are associated to the user
+                        // make sure any anonymous posts are associated to the user
                         CheckForAnonymousActions();
                         entity.CreatedBy = currentUser.Id;
                     }
@@ -265,8 +265,8 @@ namespace Angjobs.Controllers
 
                     if (currentUser != null)
                     {
-                       string cvFolder = HttpRuntime.AppDomainAppPath +  @"\App_Data\CV";
-                       Helper.NotifyRecruiter(entity, cvFolder);
+                        string cvFolder = HttpRuntime.AppDomainAppPath + @"\App_Data\CV";
+                        Helper.NotifyRecruiter(entity, cvFolder);
                     }
                     else
                     {
@@ -278,10 +278,10 @@ namespace Angjobs.Controllers
 
                     return Request.CreateResponse(HttpStatusCode.Created, entity);
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     // TODO log errors
-                    return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+                    return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.ToString());
                 }
             }
             else
@@ -298,7 +298,7 @@ namespace Angjobs.Controllers
             var sameApplications = user.jobApplications.Where(ja => ja.JobPost.Id == entity.JobPost.Id);
 
             // check if already applied for this same job
-            var isAllowed= true;
+            var isAllowed = true;
             if (sameApplications.Count() > 1)
                 isAllowed = false;
 

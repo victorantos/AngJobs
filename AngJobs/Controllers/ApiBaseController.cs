@@ -26,7 +26,11 @@ namespace Angjobs.Controllers
         protected void CheckForAnonymousActions()
         {
             var guidCookie = HttpContext.Current.Request.Cookies["guid"];
-            var existingUser = UserManager.FindById<Models.User, string>(guidCookie.Value);
+            Models.User existingUser = null;
+
+            if(guidCookie != null)
+                existingUser = UserManager.FindById<Models.User, string>(guidCookie.Value);
+
             // if anonymous user
             if (existingUser == null)
             {
