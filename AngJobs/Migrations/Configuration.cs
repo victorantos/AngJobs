@@ -43,7 +43,7 @@ namespace Angjobs.Migrations
             {
                 new Client
                 { Id = "angjobsApp",
-                    Secret= Helpers.GetHash("angjobsSecret"),
+                    Secret= Helpers.Common.GetHash("angjobsSecret"),
                     Name="AngJobs web app",
                     ApplicationType =  Models.ApplicationTypes.JavaScript,
                     Active = true,
@@ -58,7 +58,7 @@ namespace Angjobs.Migrations
                 },
                 new Client
                 { Id = "angjobsMobileApp",
-                    Secret=Helpers.GetHash("angjobsSecret."),
+                    Secret=Helpers.Common.GetHash("angjobsSecret."),
                     Name="AngJobs Mobile App",
                     ApplicationType =Models.ApplicationTypes.NativeConfidential,
                     Active = true,

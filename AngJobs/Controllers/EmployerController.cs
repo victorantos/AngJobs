@@ -25,38 +25,11 @@ namespace Angjobs.Controllers
         [HttpGet]
         public HttpResponseMessage GetSeekingWork()
         {
-            IEnumerable<object> freelancers = null;
-            const string fileNameFormat = "MMMMyyyy";
-            var seekingWorkFolder = new DirectoryInfo(HttpContext.Current.Server.MapPath("~/App_Data/SeekingWork/"));
-            string seekingWorkFileName = DateTime.UtcNow.ToString(fileNameFormat, CultureInfo.InvariantCulture) + ".json";
-            string prevSeekingWorkFileName = DateTime.UtcNow.AddMonths(-1).ToString(fileNameFormat, CultureInfo.InvariantCulture) + ".json";
-
-            var seekingWorkFilePath = Path.Combine(seekingWorkFolder.FullName, seekingWorkFileName);
-
-            if (!File.Exists(seekingWorkFilePath))
-                seekingWorkFilePath = Path.Combine(seekingWorkFolder.FullName, prevSeekingWorkFileName);
-
-            if (File.Exists(seekingWorkFilePath))
-            {
-                var content = File.ReadAllText(seekingWorkFilePath);
-                dynamic jObj = (JArray)Newtonsoft.Json.JsonConvert.DeserializeObject(content);
-                freelancers = ParseSeekWorkFile(jObj);
-            }
+            //TODO move it to helper and uset for GBOT
+            IEnumerable<object> freelancers = Helpers.Freelancers.GetFreelancers();
 
             return Request.CreateResponse<object>(HttpStatusCode.OK, freelancers == null ? new string[0] : freelancers);
         }
 
-        private IEnumerable<object> ParseSeekWorkFile(dynamic jObj)
-        {
-            foreach (var item in jObj)
-            {
-                yield return new
-                {
-                    by = item["by"],
-                    text = item["text"],
-                    time = item["time"]
-                };
-            }
-        } 
     }
 }

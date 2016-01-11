@@ -108,7 +108,7 @@ namespace Angjobs.Controllers
                 var jobs = db.JobPosts.Where(j => !(j.IsDeleted ?? false) && j.CreatedBy == id).ToList().Select(j => new JobPostViewModel(j)).OrderByDescending(j => j.dateCreated).ToList();
                 foreach (var item in jobs)
                 {
-                    item.shortDescription = Helpers.ShortenDescription(item.jobDescription);
+                    item.shortDescription = Helpers.Common.ShortenDescription(item.jobDescription);
                     item.jobDescription = null;
                 }
 

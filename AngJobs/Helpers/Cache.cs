@@ -103,7 +103,7 @@ namespace Angjobs
                 switch (cacheKey)
                 {
                     case listJobPostsShortDescriptionStr:
-                        list = Helpers.GetAllJobPostsShortDescription(db, maxJobs);
+                        list = Helpers.Common.GetAllJobPostsShortDescription(db, maxJobs);
                         AddToMyCache(list, cacheKey);
                         break;
                     case listDailyJobPostsShortDescriptionStr:
@@ -123,7 +123,7 @@ namespace Angjobs
                         AddToMemCache(cacheKey, list);
                         break;
                     case listJobPostsFromHN:
-                        list = Helpers.GetAllJobPostsFromHN(db, maxJobs);
+                        list = Helpers.Common.GetAllJobPostsFromHN(db, maxJobs);
                         AddToMemCache(cacheKey, list);
                         break;
                     default:

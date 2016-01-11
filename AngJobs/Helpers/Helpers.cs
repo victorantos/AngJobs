@@ -9,9 +9,9 @@ using System.ComponentModel;
 using Angjobs.Models;
 using System.Security.Cryptography;
 
-namespace Angjobs
+namespace Angjobs.Helpers
 {
-    public static class Helpers
+    public static class Common
     {
         public static string GetHash(string input)
         {
@@ -61,7 +61,7 @@ namespace Angjobs
                 shortDesc = desc.Substring(0, maxLength);
             else
                 shortDesc = desc;
-            return Helpers.HtmlRemoval.StripTagsCharArray(shortDesc);
+            return Common.HtmlRemoval.StripTagsCharArray(shortDesc);
         }
 
         public static ExpandoObject ToExpando(this object anonymousObject)

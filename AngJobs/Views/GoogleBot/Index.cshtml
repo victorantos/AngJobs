@@ -147,6 +147,10 @@
                   {
                     @Html.Partial("~/Views/App/About.cshtml", Model.data)
                   }
+                  else if (@Model.page == "employer/seeking")
+                  {
+                    @Html.Partial("~/Views/GoogleBot/_Seeking.cshtml", Model.data)
+                  }
                   else if (@Model.page == "testimonials")
                   {
                     @Html.Partial("~/Views/App/Testimonials.cshtml", Model.data)

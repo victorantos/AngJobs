@@ -1,0 +1,14 @@
+﻿@using Angjobs.Models 
+<div class="wrapper">
+    <h3>Seeking Work</h3> 
+    <ul class="list-group">
+        @foreach (var item in Model)
+        {
+            <li class="list-group-item">
+                <h3 class="list-group-item-heading">@item.by</h3>
+                @Html.Raw(item.text)
+            </li>
+        }
+      
+    </ul>
+</div>

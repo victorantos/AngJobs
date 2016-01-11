@@ -104,7 +104,7 @@ namespace Angjobs.Providers
                 }
                 else
                 {
-                    if (client.Secret !=  Helpers.GetHash(clientSecret))
+                    if (client.Secret !=  Helpers.Common.GetHash(clientSecret))
                     {
                         context.SetError("invalid_clientId", "Client secret is invalid.");
                         return Task.FromResult<object>(null);

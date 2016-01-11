@@ -6,6 +6,7 @@ using System.Web;
 using System.Web.Mvc;
 using Microsoft.AspNet.Identity.Owin;
 using System.Collections.Specialized;
+using Angjobs.Helpers;
 
 namespace Angjobs.Controllers
 {
@@ -35,6 +36,7 @@ namespace Angjobs.Controllers
                 var inbox = "inbox";
                 var about = "about";
                 var testimonials = "testimonials";
+                var seeking = "employer/seeking";
 
                 const string permanent = "permanent";
                 const string fulltime = "full-time";
@@ -45,6 +47,8 @@ namespace Angjobs.Controllers
                 var pJobsIndex = escaped_fragment.IndexOf(jobs + "/", StringComparison.InvariantCultureIgnoreCase);
                 var pDailyIndex = escaped_fragment.IndexOf(daily, StringComparison.InvariantCultureIgnoreCase);
                 var pAboutIndex = escaped_fragment.IndexOf(about, StringComparison.InvariantCultureIgnoreCase);
+                var pSeekingIndex = escaped_fragment.IndexOf(seeking, StringComparison.InvariantCultureIgnoreCase);
+
                 var pTestimonialsIndex = escaped_fragment.IndexOf(testimonials, StringComparison.InvariantCultureIgnoreCase);
               
 
@@ -82,6 +86,11 @@ namespace Angjobs.Controllers
                 {
                     return View(googlebotView, new GoogleBotPage { page = testimonials, data = null });
                 }
+                else if (pSeekingIndex > 0)
+                {
+                    var freelancers = Helpers.Freelancers.GetFreelancers();
+                    return View(googlebotView, new GoogleBotPage { page = seeking, data = freelancers });
+                }
 
                 string jobType = pJobsIndex > 0 ? escaped_fragment.Substring(pJobsIndex + 1 + jobs.Length) : string.Empty;
  
@@ -111,7 +120,7 @@ namespace Angjobs.Controllers
                 new GoogleBotPage
                 {
                     page = page,
-                    data = Helpers.GetAllJobPostsShortDescription(db, maxJobs)
+                    data = Helpers.Common.GetAllJobPostsShortDescription(db, maxJobs)
             
             //db.JobPosts.Where(j => !(j.IsDeleted ?? false) 
             //            && (j.JobType.Equals(jobType, StringComparison.InvariantCultureIgnoreCase)

@@ -1,4 +1,5 @@
-﻿using Angjobs.Sitemap;
+﻿using Angjobs.Helpers;
+using Angjobs.Sitemap;
 using System;
 using System.Collections.Generic;
 using System.IO;
