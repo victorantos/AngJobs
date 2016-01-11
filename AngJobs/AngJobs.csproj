@@ -251,6 +251,7 @@
     <Compile Include="Controllers\AppController.cs" />
     <Compile Include="Controllers\GoogleBotController.cs" />
     <Compile Include="Controllers\InProgressController.cs" />
+    <Compile Include="Controllers\EmployerController.cs" />
     <Compile Include="Controllers\PaymentController.cs" />
     <Compile Include="Controllers\MainController.cs" />
     <Compile Include="Controllers\PhotoViewModel.cs" />
@@ -326,6 +327,7 @@
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Assets\app\app.js" />
     <Content Include="Assets\app\controllers\employer\consultantsCtrl.js" />
+    <Content Include="Assets\app\controllers\employer\seekingCtrl.js" />
     <Content Include="Assets\app\controllers\testimonialsCtrl.js" />
     <Content Include="Assets\app\controllers\servicesCtrl.js" />
     <Content Include="Assets\app\controllers\payCtrl.js" />
@@ -345,6 +347,7 @@
     <Content Include="Assets\app\services\authInterceptorService.js" />
     <Content Include="Assets\app\services\authService.js" />
     <Content Include="Assets\app\services\cvsService.js" />
+    <Content Include="Assets\app\services\employerService.js" />
     <Content Include="Assets\app\services\jobsService.js" />
     <Content Include="Assets\app\services\tokensManagerService.js" />
     <Content Include="Assets\app\utils\utils-service.js" />
@@ -407,6 +410,7 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ComplexTypeModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
+    <Content Include="App_Data\SeekingWork\January2016.json" />
     <None Include="Properties\PublishProfiles\Default Settings %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\Default Settings %283%29.pubxml" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
@@ -470,6 +474,7 @@
     <Content Include="Views\App\Resumes.cshtml" />
     <Content Include="Views\App\Testimonials.cshtml" />
     <Content Include="Views\App\About.cshtml" />
+    <Content Include="Views\App\SeekingWork.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\Logs\" />
