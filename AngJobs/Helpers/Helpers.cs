@@ -78,7 +78,7 @@ namespace Angjobs.Helpers
 
         public static object GetAllJobPostsShortDescription(DBContext db, int maxJobs)
         {
-            var list = db.JobPosts.Where(j => (!j.IsDeleted.HasValue || !j.IsDeleted.Value)).ToList().Select(j => new JobPostViewModel(j)).OrderByDescending(j => j.dateCreated).Take(maxJobs).OrderByDescending(j => j.datePosted).OrderByDescending(c => c.priority).ToList();
+            var list = db.JobPosts.AsNoTracking().Where(j => (!j.IsDeleted.HasValue || !j.IsDeleted.Value)).ToList().Select(j => new JobPostViewModel(j)).OrderByDescending(j => j.dateCreated).Take(maxJobs).OrderByDescending(j => j.datePosted).OrderByDescending(c => c.priority).ToList();
 
             foreach (var item in list)
             {
@@ -87,6 +87,7 @@ namespace Angjobs.Helpers
             }
 
             return list.ToList();
+
         }
 
 
