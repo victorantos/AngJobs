@@ -328,6 +328,7 @@
     <Content Include="App_Data\CV\empty.txt" />
     <Content Include="App_Data\Mails\empty.txt" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
+    <Content Include="Assets\app2\index.html" />
     <Content Include="Assets\app\app.js" />
     <Content Include="Assets\app\controllers\employer\consultantsCtrl.js" />
     <Content Include="Assets\app\controllers\employer\seekingCtrl.js" />
