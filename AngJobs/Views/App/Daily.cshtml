@@ -12,7 +12,7 @@
         <ul class="list-group list-group-lg no-radius">
             <li class="list-group-item clearfix " ng-repeat="job in jobs">
                 <div class="pull-right text-sm text-muted">
-                    <span class="hidden-xs">{{job.salaryMin ? '£'+job.salaryMin : ''}} {{job.salaryType ? 'per '+job.salaryType : ''}}</span>
+                    <span class="hidden-xs">{{job.salaryMin ? (job.currency | currency)+job.salaryMin : ''}} {{job.salaryType ? 'per '+job.salaryType : ''}}</span>
                 </div>
                 <div class="clear short-desc" ng-click="goTo('/jobdetails/' + job.id )">
                     <div>

@@ -14,7 +14,7 @@
 			<span style="font-size:30px;" ng-class="{'text-active-hn':$root.isFilterByHN}" title="{{(job.recruiterName ? job.recruiterName: 'Job')  + (job.isHot ? ' - [H]ot angularjs role':   '') }}">{{$root.isFilterByHN ? 'H': 'J'}}</span>
 		</a>
 		<div class="pull-right text-sm text-muted">
-			<span class="hidden-xs">{{job.salaryMin ? '£'+job.salaryMin : ''}} {{job.salaryType ? 'per '+job.salaryType : ''}}</span>
+			<span class="hidden-xs">{{job.salaryMin ? (job.currency | currency) + job.salaryMin : ''}} {{job.salaryType ? 'per '+job.salaryType : ''}}</span>
 		</div>
 		<div class="clear short-desc">
 			<div>
