@@ -11,6 +11,7 @@ var app = angular.module('app', [
     'utils.service',
     'jobs.service',
     'employer.service',
+    'cvs.service',
     'home',
     'jobs',
     'hot',
