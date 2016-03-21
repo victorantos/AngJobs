@@ -51,7 +51,7 @@
         $scope.getUserName = function () {
             $http.get('/api/WS_Account/GetCurrentUserName')
             .success(function (data, status, headers, config) {
-                if (data != "null") {
+                if (data != "null" && data) {
                     $scope.loggedIn = true;
                     $scope.username = data.replace(/["']{1}/gi, "");//Remove any quotes from the username before pushing it out.
                 }
