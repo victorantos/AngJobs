@@ -1,38 +1,38 @@
 ﻿<div ui-view></div>
 
 <div class="wrapper" ng-hide="jobsList!= null && jobsList.length > 0">
-    <span ng-show="jobsList == null">Loading...</span>
-    <span ng-show="jobsList!= null && jobsList.length == 0">
-        Your jobs list is empty.
-        Please <a ui-sref="postjob" style="text-decoration:underline;">post a job</a>. Thank you!
-    </span>
+	<span ng-show="jobsList == null">Loading...</span>
+	<span ng-show="jobsList!= null && jobsList.length == 0">
+		Your jobs list is empty.
+		Please <a ui-sref="postjob" style="text-decoration:underline;">post a job</a>. Thank you!
+	</span>
 </div>
 
 <ul class="list-group list-group-lg no-radius">
-    <li class="list-group-item clearfix " ng-repeat="job in filteredItems">
-        <a class="hidden-xs pull-left thumb" href="#!/jobdetails/{{job.id}}">
-            <span style="font-size:30px;" ng-class="{'text-active-hn':$root.isFilterByHN}" title="{{(job.recruiterName ? job.recruiterName: 'Job')  + (job.isHot ? ' - [H]ot angularjs role':   '') }}">{{$root.isFilterByHN ? 'H': 'J'}}</span>
-        </a>
-        <div class="pull-right text-sm text-muted">
-            <span class="hidden-xs">{{job.salaryMin ? '£'+job.salaryMin : ''}} {{job.salaryType ? 'per '+job.salaryType : ''}}</span>
-        </div>
-        <div class="clear short-desc">
-            <div>
-                <span class="label bg-light">{{job.salaryNote}}</span>
-                <div job-line job-id="{{job.id}}" job-title="{{job.jobTitle}}" class="job-line"></div>
-            </div>
-            <a class="text-2-l job-desc" href="#!/jobdetails/{{job.id}}">
-                <span ng-bind-html="job.shortDescription | highlight: searchBy"></span>
-            </a>
-        </div>
-    </li>
+	<li class="list-group-item clearfix " ng-repeat="job in pagedItems[currentPage]">
+		<a class="hidden-xs pull-left thumb" href="#!/jobdetails/{{job.id}}">
+			<span style="font-size:30px;" ng-class="{'text-active-hn':$root.isFilterByHN}" title="{{(job.recruiterName ? job.recruiterName: 'Job')  + (job.isHot ? ' - [H]ot angularjs role':   '') }}">{{$root.isFilterByHN ? 'H': 'J'}}</span>
+		</a>
+		<div class="pull-right text-sm text-muted">
+			<span class="hidden-xs">{{job.salaryMin ? '£'+job.salaryMin : ''}} {{job.salaryType ? 'per '+job.salaryType : ''}}</span>
+		</div>
+		<div class="clear short-desc">
+			<div>
+				<span class="label bg-light">{{job.salaryNote}}</span>
+				<div job-line job-id="{{job.id}}" job-title="{{job.jobTitle}}" class="job-line"></div>
+			</div>
+			<a class="text-2-l job-desc" href="#!/jobdetails/{{job.id}}">
+				<span ng-bind-html="job.shortDescription | highlight: searchBy"></span>
+			</a>
+		</div>
+	</li>
 </ul>
 
 <div class="wrapper" ng-hide="filteredItems.length || jobsList.length==0">No jobs found.</div>
- 
-<div class="text-center" ng-show="pages > 0">
-    <ul class="pagination pagination-lg">
-        <li><a href="javascript:void(0);" class="btn btn-link"  ng-click="prevPage()" ng-disabled="currentPage < 2"><span aria-hidden="true">&laquo;</span> Previous page</a></li>
-        <li class="pull-right" style="padding-left:25px;"><a class="btn btn-link" ng-click="nextPage()" ng-disabled="currentPage >= pages" href="javascript:void(0);">Next page <span aria-hidden="true">&raquo;</span> </a></li>
-    </ul>
+
+<div class="text-center" ng-show="pagedItems.length > 0">
+	<ul class="pagination pagination-lg">
+		<li ng-class="{disabled: currentPage == 0}"><a href="javascript:void(0);" class="btn btn-link" ng-click="prevPage()"><span aria-hidden="true">&laquo;</span> Previous page</a></li>
+		<li ng-class="{disabled: currentPage == pagedItems.length - 1}" class="pull-right" style="padding-left:25px;"><a class="btn btn-link" ng-click="nextPage()" href="javascript:void(0);">Next page <span aria-hidden="true">&raquo;</span> </a></li>
+	</ul>
 </div>
