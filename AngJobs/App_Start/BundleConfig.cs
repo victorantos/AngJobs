@@ -10,7 +10,7 @@ namespace Angjobs
         {
 
             bundles.Add(new ScriptBundle("~/bootstrap").Include(
-                      "~/Assets/Bootstrap/js/bootstrap.js"));
+                      "~/bower_components/Bootstrap/dist/js/bootstrap.min.js"));
 
             //Moved bootstrap css to own style tag in the _layout page.  This is to remove it from the optimizations which was breaking the fonts and icons.
             bundles.Add(new StyleBundle("~/styles").Include(
@@ -18,9 +18,9 @@ namespace Angjobs
 
 
             bundles.Add(new ScriptBundle("~/ng").Include(
-                        "~/Assets/ng/angular.min.js",
-                        "~/Assets/ng/angular-cookies.min.js",
-                        "~/Scripts/ng-file-upload.min.js"));
+                        "~/bower_components/angular/angular.min.js",
+                        "~/bower_components/angular-cookies/angular-cookies.min.js",
+                        "~/bower_components/ng-file-upload/ng-file-upload.min.js"));
 
             bundles.Add(new ScriptBundle("~/app").IncludeDirectory("~/Assets/app", "*.js", true));
 
