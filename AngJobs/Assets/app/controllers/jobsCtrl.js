@@ -13,35 +13,53 @@
                         }] 
                   },
                   controller: ['$scope', 'jobsAll', '$filter', '$location', function ($scope, jobsAll, $filter, $location) {
-                      $scope.jobsList = jobsAll;
-                      $scope.maxItemsPerPage = 100;
-                      $scope.filteredItems = $scope.jobsList;
-                      $scope.pages = Math.ceil($scope.filteredItems.length / $scope.maxItemsPerPage);
+										$scope.jobsList = jobsAll;
+										$scope.pagedItems = [];
+										$scope.maxItemsPerPage = 100;
+										$scope.filteredItems = $scope.jobsList;
 
-                      $scope.currentPage = 1;
+										$scope.currentPage = 0;
 
-                      $scope.nextPage = function () {
-                          $scope.currentPage = $scope.currentPage + 1;
-                      }
-                      $scope.prevPage = function () {
-                          $scope.currentPage = $scope.currentPage - 1;
-                      }
+										$scope.nextPage = function () {
+											if ($scope.currentPage < $scope.pagedItems.length - 1) {
+												$scope.currentPage++;
+											}
+										};
 
-                      $scope.$watch('searchBy', function (newVal, oldVal) {
-                          console.log("new value in filter box:", newVal);
-                          $scope.filteredItems = $filter('filter')($scope.jobsList, newVal);
-                          $scope.pages = Math.ceil($scope.filteredItems.length / $scope.maxItemsPerPage);
-                      }, true);
+										$scope.prevPage = function () {
+											if ($scope.currentPage > 0) {
+												$scope.currentPage--;
+											}
+										};
 
-                      $scope.$watch('jobsList.length', function (newVal, oldVal) {
-                          console.log("job list length changed:", $scope.jobsList.length);
-                          $scope.pages = Math.ceil($scope.filteredItems.length / $scope.maxItemsPerPage);
-                      });
+										$scope.$watch('searchBy', function (newVal, oldVal) {
+											console.log("new value in filter box:", newVal);
+											$scope.currentPage = 0;
+											$scope.filteredItems = $filter('filter')($scope.jobsList, newVal);
+											$scope.groupPages();
 
-                      $scope.goTo = function (path) {
-                          $location.go(path);
-                      }
-                  }]
+										}, true);
+
+										$scope.$watch('jobsList.length', function (newVal, oldVal) {
+												console.log("job list length changed:", $scope.jobsList.length);
+										});
+
+										$scope.groupPages = function () {
+											$scope.pagedItems = [];
+
+											for (var i = 0; i < $scope.filteredItems.length; i++) {
+												if (i % $scope.maxItemsPerPage === 0) {
+													$scope.pagedItems[Math.floor(i / $scope.maxItemsPerPage)] = [$scope.filteredItems[i]];
+												} else {
+													$scope.pagedItems[Math.floor(i / $scope.maxItemsPerPage)].push($scope.filteredItems[i]);
+												}
+											}
+										};
+
+										$scope.goTo = function (path) {
+												$location.go(path);
+										}
+										}]
                   // You can pair a controller to your template. There *must* be a template to pair with.
               })
               .state('jobs.filter', {
