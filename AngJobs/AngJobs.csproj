@@ -348,6 +348,8 @@
     <Content Include="Assets\app\controllers\jobsCtrl.js" />
     <Content Include="Assets\app\controllers\mainCtrl.js" />
     <Content Include="Assets\app\directives\jobLine.js" />
+    <Content Include="Assets\app\filters\currency.js" />
+    <Content Include="Assets\app\filters\highlight.js" />
     <Content Include="Assets\app\services\authInterceptorService.js" />
     <Content Include="Assets\app\services\authService.js" />
     <Content Include="Assets\app\services\cvsService.js" />

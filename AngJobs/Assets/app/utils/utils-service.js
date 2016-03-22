@@ -37,6 +37,7 @@ angular.module('utils.service', [
         },
         isEmptyObject: function isEmpty(obj) {
             return Object.keys(obj).length === 0;
-        }
+        },
+        CurrencySymbol: Object.freeze({ 0: "\xA3", 1: "\u20AC", 2: "$" })
     };
 });
