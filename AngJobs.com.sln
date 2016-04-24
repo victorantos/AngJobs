@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angjobs", "AngJobs\Angjobs.csproj", "{0AB0A3F4-F35F-4F99-8F53-E1DDD4A2227F}"
 EndProject
@@ -19,6 +19,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripeEntities", "StripeEntities\StripeEntities.csproj", "{56E6088C-3A4B-4F08-A440-588F450D3721}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngJobs.Import", "AngJobs.Import\AngJobs.Import.csproj", "{641574B0-1AD2-4174-B4C1-FDBC5FD8B5C2}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "New AngJobs - ASP.NET Core 1.0 version", "New AngJobs - ASP.NET Core 1.0 version\New AngJobs - ASP.NET Core 1.0 version.xproj", "{38D91A22-BC04-4CB9-B119-B5CF5AE46BBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6D507806-2DC6-4961-88C2-BF66BE5BE26C}"
+	ProjectSection(SolutionItems) = preProject
+		New AngJobs - ASP.NET Core 1.0 version\global.json = New AngJobs - ASP.NET Core 1.0 version\global.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +53,10 @@ Global
 		{641574B0-1AD2-4174-B4C1-FDBC5FD8B5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{641574B0-1AD2-4174-B4C1-FDBC5FD8B5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{641574B0-1AD2-4174-B4C1-FDBC5FD8B5C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38D91A22-BC04-4CB9-B119-B5CF5AE46BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D91A22-BC04-4CB9-B119-B5CF5AE46BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D91A22-BC04-4CB9-B119-B5CF5AE46BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D91A22-BC04-4CB9-B119-B5CF5AE46BBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
