@@ -85,6 +85,7 @@ Todo
 
 Future plans
 ==
++  Move to AspNET Core 1, so that Ubuntu/MacOS can be used to develop/deploy easily
 +  Apply for jobs while offline(on the train). Use service worker?
 +  [Android app](https://play.google.com/store/apps/details?id=com.AngJobs.app) based on phonegap/ionic frameworks
 +  Provide an Api. GET jobs, job applications. POST job, resume.
