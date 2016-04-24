@@ -259,6 +259,7 @@
     <Compile Include="Controllers\PhotoViewModel.cs" />
     <Compile Include="Controllers\Sitemap_F92C179D37124DCDA570B3D65B1BE533Controller.cs" />
     <Compile Include="Controllers\CvController.cs" />
+    <Compile Include="Helpers\ExternalProviders.cs" />
     <Compile Include="Helpers\Freelancers.cs" />
     <Compile Include="Helpers\RegexUtilities.cs" />
     <Compile Include="Migrations\201511291615121_Initial.cs" />

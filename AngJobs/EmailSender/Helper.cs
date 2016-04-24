@@ -32,74 +32,33 @@ namespace Angjobs
         const string subject = "[AngJobs] ";
 
 
-        public static void NotifyRecruiter(Models.JobApplication entity, string cvFolder)
+        public static async void NotifyRecruiter(Models.JobApplication entity, string cvFolder, string templateType = null, string userId = null)
         {
-            // Save in Mails folder for sending later
-            
-            //E:\Work\AngJobs.com\src\Angjobs\Angjobs\Assets\bootstrap\css\bootstrap-theme.css
-            //E:\Work\AngJobs.com\src\Angjobs\Angjobs\Assets\bootstrap\css\bootstrap.min.css
-            //E:\Work\AngJobs.com\src\Angjobs\Angjobs\Assets\styles\styles.css
-            var template = new StringBuilder();
-            template.AppendLine(@"<html>");
-            template.AppendLine(@"<style>");
+            // Save it in the \Mails folder for sending later
 
-                template.AppendLine(@"     .bg-light {                  ");
-                template.AppendLine(@"    color: #58666e;               ");
-                template.AppendLine(@"    background-color: #edf1f2;    ");
-                template.AppendLine(@"    }                             ");
-                template.AppendLine(@"    .label {                      ");
-                template.AppendLine(@"        display: inline;          ");
-                template.AppendLine(@"        padding: .2em .6em .3em;  ");
-                template.AppendLine(@"        font-size: 75%;           ");
-                template.AppendLine(@"        font-weight: bold;        ");
-                template.AppendLine(@"        line-height: 1;           ");
-                template.AppendLine(@"        color: #fff;              ");
-                template.AppendLine(@"        text-align: center;       ");
-                template.AppendLine(@"        white-space: nowrap;      ");
-                template.AppendLine(@"    }                             ");
-                template.AppendLine(@"    dl {                          ");
-                template.AppendLine(@"        margin-top: 0;            ");
-                template.AppendLine(@"        margin-bottom: 20px;      ");
-                template.AppendLine(@"    }                             ");
-                template.AppendLine(@"    dt {                          ");
-                template.AppendLine(@"      font-weight: bold;          ");
-                template.AppendLine(@"    }                             ");
-                template.AppendLine(@"    dt, dd {                      ");
-                template.AppendLine(@"        line-height: 1.42857143;  ");
-                template.AppendLine(@"    }                             ");
-                template.AppendLine(@"    p {                             ");
-                template.AppendLine(@"        margin: 0 0 10px;           ");
-                template.AppendLine(@"    }                               ");
+            StringBuilder template = null;
 
-          
-            template.AppendLine(    @"</style>");
-            template.AppendLine(@"<body>");
-            
-            template.AppendLine("Hello @Model.Name,");
-            template.AppendLine(@"<br/>");
-            template.AppendLine(@"<br/>");
-            template.AppendLine(@"@Model.Applicant applied for a <a href='@Model.JobLink' target='_blank'>job</a> you advertised recently.");
-
-            if (!string.IsNullOrEmpty(entity.ApplicantMessage))
-                template.AppendLine(@" Below is the candidate's resume:");
-            template.AppendLine(@"<br/>");
-            template.AppendLine(@"<br/>");
-            template.Append(@entity.ApplicantMessage);
-
-            template.AppendLine(@"</body>");
-            template.AppendLine(@"</html>");
+            switch (templateType)
+            {
+                case "StackExchange":
+                    var userProfile = (await Helpers.ExternalProviders.LoadStackExchangeUserProfile(userId));
+                    var stackexchangeUserProfile = userProfile.stackexchangeUserProfile;
+                    if (stackexchangeUserProfile != null)
+                        template = BuildStackExchangeTemplate(entity, stackexchangeUserProfile.link, stackexchangeUserProfile.profile_image);
+                    break;
+                default:
+                    template = BuildSimpleTemplate(entity);
+                    break;
+            }
 
             string htmlBody = template.ToString();
-
-
             var result = PreMailer.Net.PreMailer.MoveCssInline(htmlBody);
-
             htmlBody = result.Html;
 
-               // result.Html   
+            // result.Html   
 
             string fromEmail = ParseEmail(entity.ApplicantEmail);
-            if(!string.IsNullOrEmpty(fromEmail))
+            if (!string.IsNullOrEmpty(fromEmail))
             {
                 var message = new MailMessage() { IsBodyHtml = true };
                 Attachment attachment = getAttachment(entity.CV, cvFolder);
@@ -116,17 +75,118 @@ namespace Angjobs
                     {
                         Name = entity.JobPost.ContactName,
                         Applicant = entity.ApplicantEmail, // TODO Actually it includes the name as well
-                        JobLink = "http://angjobs.com/#!/jobdetails/"+ entity.JobPost.Id
+                        JobLink = "http://angjobs.com/#!/jobdetails/" + entity.JobPost.Id
                     }, true)
                     .BodyAsHtml()
                     .ReplyTo(fromEmail)
                     .Attach(attachments);
-                
+
                 object fileAttachment = attachment;
 
                 EnsureEmailFolderExists();
                 email.SendAsync(SendCompletedEventHandler_NotifyRecruiter, fileAttachment);
             }
+        }
+
+        private static StringBuilder BuildSimpleTemplate(Models.JobApplication entity)
+        {
+            var template = new StringBuilder();
+            template.AppendLine(@"<html>");
+                InsertCssStyle(template);
+            template.AppendLine(@"<body>");
+                InsertHTMLBody(entity, template);
+            template.AppendLine(@"</body>");
+
+            template.AppendLine(@"</html>");
+
+            return template;
+        }
+
+        private static StringBuilder BuildStackExchangeTemplate(Models.JobApplication entity, string userProfileUrl, string userProfileImg)
+        {
+            var template = new StringBuilder();
+            template.AppendLine(@"<html>");
+            InsertCssStyle(template);
+
+            template.AppendLine(@"<body>");
+
+            InsertStackExchangeHTMLBody(entity, template, userProfileUrl, userProfileImg);
+
+            template.AppendLine(@"</body>");
+            template.AppendLine(@"</html>");
+
+            return template;
+        }
+
+        private static void InsertHTMLBody(Models.JobApplication entity, StringBuilder template)
+        {
+            template.AppendLine("Hello @Model.Name,");
+            template.AppendLine(@"<br/>");
+            template.AppendLine(@"<br/>");
+            template.AppendLine(@"@Model.Applicant applied for a <a href='@Model.JobLink' target='_blank'>job</a> you advertised recently.");
+
+            if (!string.IsNullOrEmpty(entity.ApplicantMessage))
+                template.AppendLine(@" Below is the candidate's resume:");
+            template.AppendLine(@"<br/>");
+            template.AppendLine(@"<br/>");
+            template.Append(@entity.ApplicantMessage);
+        }
+        private static void InsertStackExchangeHTMLBody(Models.JobApplication entity, StringBuilder template, string userProfileUrl, string userProfileImg)
+        {
+            template.AppendLine("Hello @Model.Name,");
+            template.AppendLine(@"<br/>");
+            template.AppendLine(@"<br/>");
+            template.AppendLine(@"@Model.Applicant applied for a <a href='@Model.JobLink' target='_blank'>job</a> you advertised recently.");
+
+            if (!string.IsNullOrEmpty(entity.ApplicantMessage))
+                template.AppendLine(@" Below is the candidate's resume:");
+            template.AppendLine(@"<br/>");
+
+            if (!string.IsNullOrEmpty(userProfileUrl) && !string.IsNullOrEmpty(userProfileImg))
+            {
+                // add profile picture with points
+                template.AppendLine(@"<a href='" + userProfileUrl + "' target='_blank'>");
+                template.AppendLine(@"<img src='" + userProfileImg + "' width='208' height='58' />");
+                template.AppendLine(@"</a>");
+            }
+
+            template.AppendLine(@"<br/>");
+            template.Append(@entity.ApplicantMessage);
+        }
+
+        private static void InsertCssStyle(StringBuilder template)
+        {
+            template.AppendLine(@"<style>");
+            template.AppendLine(@"     .bg-light {                  ");
+            template.AppendLine(@"    color: #58666e;               ");
+            template.AppendLine(@"    background-color: #edf1f2;    ");
+            template.AppendLine(@"    }                             ");
+            template.AppendLine(@"    .label {                      ");
+            template.AppendLine(@"        display: inline;          ");
+            template.AppendLine(@"        padding: .2em .6em .3em;  ");
+            template.AppendLine(@"        font-size: 75%;           ");
+            template.AppendLine(@"        font-weight: bold;        ");
+            template.AppendLine(@"        line-height: 1;           ");
+            template.AppendLine(@"        color: #fff;              ");
+            template.AppendLine(@"        text-align: center;       ");
+            template.AppendLine(@"        white-space: nowrap;      ");
+            template.AppendLine(@"    }                             ");
+            template.AppendLine(@"    dl {                          ");
+            template.AppendLine(@"        margin-top: 0;            ");
+            template.AppendLine(@"        margin-bottom: 20px;      ");
+            template.AppendLine(@"    }                             ");
+            template.AppendLine(@"    dt {                          ");
+            template.AppendLine(@"      font-weight: bold;          ");
+            template.AppendLine(@"    }                             ");
+            template.AppendLine(@"    dt, dd {                      ");
+            template.AppendLine(@"        line-height: 1.42857143;  ");
+            template.AppendLine(@"    }                             ");
+            template.AppendLine(@"    p {                             ");
+            template.AppendLine(@"        margin: 0 0 10px;           ");
+            template.AppendLine(@"    }                               ");
+
+
+            template.AppendLine(@"</style>");
         }
 
         private static void EnsureEmailFolderExists()

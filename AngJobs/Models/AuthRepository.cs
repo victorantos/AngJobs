@@ -135,12 +135,19 @@ namespace Angjobs.Models
 
         public Task AddClaimAsync(string userId, Claim claim)
         {
-            return _userManager.AddClaimAsync(userId, claim);
+              return _userManager.AddClaimAsync(userId, claim);
         }
 
         public Task<IList<Claim>> GetClaimsAsync(string userId)
         {
             return _userManager.GetClaimsAsync(userId);
+        }
+
+        public Task UpdateClaimAsync(string userId, Claim tokenClaim)
+        {
+            _userManager.RemoveClaim(userId, tokenClaim);
+
+            return _userManager.AddClaimAsync(userId, tokenClaim);
         }
     }
 }

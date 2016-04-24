@@ -226,6 +226,7 @@ namespace Angjobs.Controllers
             return list;
         }
 
+        [Authorize]
         [ApiExplorerSettings(IgnoreApi = false)]
         [HttpPost]
         public HttpResponseMessage ApplyForJob(JobApplicationViewModel item)
@@ -248,10 +249,16 @@ namespace Angjobs.Controllers
 
             if (errors.Count == 0)
             {
+                string templateType = null;
+               
                 try
                 {
                     if (User.Identity.IsAuthenticated)
                     {
+                        //TODO don't take the last login provider, but find the current login provider
+                        var login = currentUser.Logins.LastOrDefault();
+                        if (login != null)
+                            templateType = login.LoginProvider;
                         entity.User = currentUser;
                         // make sure any anonymous posts are associated to the user
                         CheckForAnonymousActions();
@@ -266,7 +273,7 @@ namespace Angjobs.Controllers
                     if (currentUser != null)
                     {
                         string cvFolder = HttpRuntime.AppDomainAppPath + @"\App_Data\CV";
-                        Helper.NotifyRecruiter(entity, cvFolder);
+                        Helper.NotifyRecruiter(entity, cvFolder, templateType, currentUser.Id);
                     }
                     else
                     {

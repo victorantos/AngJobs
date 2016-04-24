@@ -25,6 +25,7 @@ using System.Net;
 using System.IO.Compression;
 using System.IO;
 using System.Text;
+using Angjobs.Helpers;
 
 namespace Angjobs.Controllers
 {
@@ -163,6 +164,14 @@ namespace Angjobs.Controllers
                                             hasRegistered.ToString(),
                                             externalLogin.UserName);
 
+            //update the access token
+            if (hasRegistered)
+            {
+                var token = user.Claims.SingleOrDefault(c => c.ClaimType == "ExternalAccessToken");
+                if (token != null)
+                    token.ClaimValue = externalLogin.ExternalAccessToken;
+            }
+                
             await StoreAuthTokenClaims(user);
 
             return Redirect(redirectUri);
@@ -201,11 +210,15 @@ namespace Angjobs.Controllers
                 return string.Format("Client_id '{0}' is not registered in the system.", clientId);
             }
 
+
             if (!string.Equals(client.AllowedOrigin.Replace("http://", string.Empty).Replace("https://", string.Empty),
                 redirectUri.GetLeftPart(UriPartial.Authority).Replace("http://", string.Empty).Replace("https://", string.Empty), 
                 StringComparison.OrdinalIgnoreCase))
             {
-                return string.Format("The given URL is not allowed by Client_id '{0}' configuration.", clientId);
+                #if !DEBUG
+                    return string.Format("The given URL is not allowed by Client_id '{0}' configuration.", clientId);
+                #endif
+
             }
 
             redirectUriOutput = redirectUri.AbsoluteUri;
@@ -227,51 +240,7 @@ namespace Angjobs.Controllers
             return match.Value;
         }
 
-        private class ExternalLoginData
-        {
-            public string LoginProvider { get; set; }
-            public string ProviderKey { get; set; }
-            public string UserName { get; set; }
-            public string ExternalAccessToken { get; set; }
-
-            public static ExternalLoginData FromIdentity(ClaimsIdentity identity)
-            {
-                if (identity == null)
-                {
-                    return null;
-                }
-
-                Claim providerKeyClaim = identity.FindFirst(ClaimTypes.NameIdentifier);
-
-
-                if (providerKeyClaim == null || String.IsNullOrEmpty(providerKeyClaim.Issuer) || String.IsNullOrEmpty(providerKeyClaim.Value))
-                {
-                    return null;
-                }
-
-                if (providerKeyClaim.Issuer == ClaimsIdentity.DefaultIssuer)
-                {
-                    return null;
-                }
-
-                string userId = string.Empty;
-
-                if (providerKeyClaim.Issuer.Equals(Stripe, StringComparison.InvariantCultureIgnoreCase))
-                    userId = identity.FindFirst("urn:stripe:account:id").Value;
-                else
-                    userId = providerKeyClaim.Value;
-
-                if (String.IsNullOrEmpty(userId))
-                    return null;
-                return new ExternalLoginData
-                {
-                    LoginProvider = providerKeyClaim.Issuer,
-                    ProviderKey = userId,
-                    UserName = identity.FindFirstValue(ClaimTypes.Name),
-                    ExternalAccessToken = identity.FindFirstValue("ExternalAccessToken"),
-                };
-            }
-        }
+       
 
         private async Task<ParsedExternalAccessToken> VerifyExternalAccessToken(string provider, string accessToken)
         {
@@ -345,8 +314,6 @@ namespace Angjobs.Controllers
             if (response.IsSuccessStatusCode)
             {
                 string content = await response.Content.ReadAsStringAsync();
-
-               
 
                 dynamic jObj = (JObject)Newtonsoft.Json.JsonConvert.DeserializeObject(content);
                 JObject profile = jObj as JObject;
@@ -529,6 +496,13 @@ namespace Angjobs.Controllers
             {
                 return BadRequest("External user is not registered");
             }
+            else
+            {
+                // update the ExternalAccessToekn for this user
+
+           // verifiedAccessToken.user_id
+             //       _repo.AddClaimAsync
+            }
 
             //generate access token response
             var accessTokenResponse = GenerateLocalAccessTokenResponse(user.UserName);
@@ -577,6 +551,7 @@ namespace Angjobs.Controllers
                 var currentClaims = await _repo.GetClaimsAsync(user.Id);
 
                 // Get the list of access token related claims from the identity
+                //TODO add ExternalAccessToken against Identity!
                 var tokenClaims = claimsIdentity.Claims.Where(c => c.Type.Equals("ExternalAccessToken")
                     || c.Type.StartsWith("urn:stripe:refreshToken"));
 
@@ -587,6 +562,11 @@ namespace Angjobs.Controllers
                     {
                         await _repo.AddClaimAsync(user.Id, tokenClaim);
                     }
+                    else {
+                        //update claim value
+                        //await _repo.UpdateClaimAsync(user.Id, tokenClaim);
+                    }
+                    
                 }
             }
 
