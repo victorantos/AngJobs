@@ -1,8 +1,6 @@
 AngJobs - job board for developers
 =======
 
-[![Join the chat at https://gitter.im/victorantos/AngJobs](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/victorantos/AngJobs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 Looking for a demo? - check [AngJobs.com](http://AngJobs.com)
 
 *update: current repository matches live website, additionally it automatically imports about 500 real jobs when you run it for the first time!*
@@ -22,14 +20,14 @@ UI
 This job board wants to be like the Gmail app, responsive, fast and easy to use. 
 
 [
-![](https://angjobs.com/github-angjobs-printscreen3.jpg)
+![](http://angjobs.com/github-angjobs-printscreen3.jpg)
 ]
 (http://AngJobs.com)
 
 Mobile app
 ==
 [
-![](https://angjobs.com/angjobs-mobile-app.jpg)
+![](http://angjobs.com/angjobs-mobile-app.jpg)
 ]
 (https://play.google.com/store/apps/details?id=com.AngJobs.app)
 
