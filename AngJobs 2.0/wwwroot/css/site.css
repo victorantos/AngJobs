@@ -1,8 +1,10 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
 }
-
+ 
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
@@ -18,11 +20,40 @@ textarea {
 }
 
 .jumbotron {
-background-image: url("../img/jumbotron_bg.jpg");
-background-size: cover;
-color: #fff;
+    background-image: url("../img/jumbotron_bg.jpg");
+    background-size: cover;
+    color: #fff;
 }
 
 .container {
     padding-top: 5px;
+}
+ 
+.sidebar {
+    background-color: #f5f5f5;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    display: block;
+    min-height:414px;
+}
+
+.list-group li {
+    list-style: none;
+}
+
+.panel-info, .panel-rating, .panel-more1 {
+    float: left;
+    margin: 0 10px;
+}
+
+.footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
 }

@@ -27,7 +27,7 @@ namespace AngJobs
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-           services.AddGlimpse();
+           //services.AddGlimpse();
 
           services.Configure<SiteSettings>(settings =>
             {
@@ -49,7 +49,7 @@ namespace AngJobs
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
-            app.UseGlimpse();
+           // app.UseGlimpse();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
