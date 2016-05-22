@@ -1,6 +1,11 @@
-# Welcome to ASP.NET Core
+# This is the next version of AngJobs
 
-We've made some big updates in this release, so it’s **important** that you spend a few minutes to learn what’s new.
+It is based on a cross platform framework, ASP.NET Core
+To build/develop this project use Visual Studio Code, which can run on MAC/Linux/Windows
+
+# This web app is based on ASP.NET Core
+
+Below is the default Readme for this template
 
 You've created a new ASP.NET Core project. [Learn what's new](https://go.microsoft.com/fwlink/?LinkId=518016)
 
