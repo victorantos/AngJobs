@@ -2,10 +2,10 @@
 
 @Component({
     selector: 'job-item',
-    templateUrl: './app/jobs/jobitem.html',
+    templateUrl: './app/jobs/job-item.html',
     directives: []
 })
-export class JobItem implements IJobItem {
+export class JobItemComponent implements IJobItem {
     @Input() title: string;
     @Input('job-id') id: number;
 }

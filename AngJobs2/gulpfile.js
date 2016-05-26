@@ -5,12 +5,14 @@ var gulp = require("gulp"),
     rimraf = require("rimraf"),
     concat = require("gulp-concat"),
     cssmin = require("gulp-cssmin"),
-    uglify = require("gulp-uglify");
+    uglify = require("gulp-uglify"),
+    tsc = require("gulp-typescript");
 
 var webroot = "./wwwroot/";
 
 var paths = {
     js: webroot + "js/**/*.js",
+    ts: webroot + "app/**/*.ts",
     minJs: webroot + "js/**/*.min.js",
     css: webroot + "css/**/*.css",
     minCss: webroot + "css/**/*.min.css",

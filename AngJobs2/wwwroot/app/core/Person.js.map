@@ -1,1 +1,1 @@
-{"version":3,"file":"Person.js","sourceRoot":"","sources":["Person.ts"],"names":[],"mappings":";;;;;;;YAAA;gBAAA;gBAUA,CAAC;gBAHG,sBAAW,wBAAI;yBAAf;wBACI,MAAM,CAAC,IAAI,CAAC,KAAK,GAAG,GAAG,GAAG,IAAI,CAAC,IAAI,CAAC;oBACxC,CAAC;;;mBAAA;gBACL,aAAC;YAAD,CAAC,AAVD,IAUC;YAVD,2BAUC,CAAA"}
+{"version":3,"file":"Person.js","sourceRoot":"","sources":["Person.ts"],"names":[],"mappings":";AAAA;IAOI,IAAW,IAAI;QACX,MAAM,CAAC,IAAI,CAAC,KAAK,GAAG,GAAG,GAAG,IAAI,CAAC,IAAI,CAAC;IACxC,CAAC;AACL,CAAC;AAVY,cAAM,SAUlB,CAAA"}

@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "private": true,
    "dependencies": {
-    "angular2": "2.0.0-beta.9",
+    "angular2": "*",
+    "es6-shim": "*",
+    "rxjs": "5.0.0-beta.6",
+    "zone.js": "*",
     "bootstrap": "^3.3.5",
     "jquery": "^2.1.4",
     "less": "^2.5.3",

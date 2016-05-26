@@ -1,8 +1,8 @@
-import {Http} from 'angular2/http';
+import {Http, Response} from 'angular2/http';
 import {Injectable} from 'angular2/core';
 import {JobPost} from '../core/jobpost';
 import {Observable} from 'rxjs/Observable';
-import {IJobItem} from './jobitem';
+ 
 
 import 'rxjs/Rx';
 /**
@@ -25,9 +25,9 @@ export class JobsService {
             });
     }
 
-    getProducts(): Observable<IJobItem[]> {
+    getProducts(): Observable<JobPost[]> {
         return this._http.get(this._contractsUrl)
-            .map((response: Response) => <IProduct[]>response.json())
+            .map((response: Response) => <JobPost[]>response.json())
             .do(data => console.log("All: " + JSON.stringify(data)))
             .catch(this.handleError);
     }
@@ -39,6 +39,12 @@ export class JobsService {
             });
     }
 
+    private handleError(error: Response) {
+        // in a real world app, we may send the server to some remote logging infrastructure
+        // instead of just logging it to the console
+        console.error(error);
+        return Observable.throw(error.json().error || 'Server error');
+    }
     //private _fetchFailed(error: any) {
     //    console.error(error);
     //    return Promise.reject(error);

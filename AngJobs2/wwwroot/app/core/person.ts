@@ -3,7 +3,7 @@ export class Person {
     public first: string;
     public last: string;
     public age: number;
-    public favoriteBeer: string;
+    public favoriteBeerz: string;
 
     public get Name(): string {
         return this.first + ' ' + this.last;

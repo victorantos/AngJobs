@@ -9,26 +9,23 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 const core_1 = require('angular2/core');
-const router_1 = require('angular2/router');
-const people_service_1 = require('./people.service');
-let PersonDetail = class PersonDetail {
-    constructor(_peopleService, _routeParams, _router) {
-        this._peopleService = _peopleService;
-        this._routeParams = _routeParams;
-        this._router = _router;
-        let id = +this._routeParams.get('id');
-        _peopleService.getPerson(id)
-            .subscribe(res => this.person = res);
-    }
+let JobItemComponent = class JobItemComponent {
 };
-PersonDetail = __decorate([
+__decorate([
+    core_1.Input(), 
+    __metadata('design:type', String)
+], JobItemComponent.prototype, "title", void 0);
+__decorate([
+    core_1.Input('job-id'), 
+    __metadata('design:type', Number)
+], JobItemComponent.prototype, "id", void 0);
+JobItemComponent = __decorate([
     core_1.Component({
-        selector: 'person-detail',
-        templateUrl: './app/people/person.html',
-        directives: [],
-        inputs: ['person']
+        selector: 'job-item',
+        templateUrl: './app/jobs/job-item.html',
+        directives: []
     }), 
-    __metadata('design:paramtypes', [people_service_1.PeopleService, router_1.RouteParams, router_1.Router])
-], PersonDetail);
-exports.PersonDetail = PersonDetail;
-//# sourceMappingURL=PersonDetail.js.map
+    __metadata('design:paramtypes', [])
+], JobItemComponent);
+exports.JobItemComponent = JobItemComponent;
+//# sourceMappingURL=job-item.component.js.map

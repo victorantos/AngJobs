@@ -1,0 +1,1 @@
+{"version":3,"file":"job-item.component.js","sourceRoot":"","sources":["job-item.component.ts"],"names":[],"mappings":";;;;;;;;;;AAAA,uBAA+B,eAAe,CAAC,CAAA;AAO/C;AAGA,CAAC;AAFG;IAAC,YAAK,EAAE;;+CAAA;AACR;IAAC,YAAK,CAAC,QAAQ,CAAC;;4CAAA;AAPpB;IAAC,gBAAS,CAAC;QACP,QAAQ,EAAE,UAAU;QACpB,WAAW,EAAE,0BAA0B;QACvC,UAAU,EAAE,EAAE;KACjB,CAAC;;oBAAA;AACW,wBAAgB,mBAG5B,CAAA"}

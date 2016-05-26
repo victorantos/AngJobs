@@ -10,26 +10,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 const core_1 = require('angular2/core');
 const router_1 = require('angular2/router');
-//import {Routes} from '../routes.config';
-const jobs_list_component_1 = require('../jobs/jobs-list.component');
-let Home = class Home {
-    constructor(_router) {
+const jobs_service_1 = require('../jobs/jobs.service');
+const job_item_component_1 = require('./job-item.component');
+let JobsListComponent = class JobsListComponent {
+    constructor(_router, _jobsService) {
         this._router = _router;
+        this._jobsService = _jobsService;
         this.errorMessage = '';
     }
-    goToPeople() {
-        this._router.navigate(['People', {}]);
-    }
     ngOnInit() {
+        console.log("load contracts: " + this.contracts);
+        this._jobsService.getProducts()
+            .subscribe(contracts => this.contracts = contracts, error => this.errorMessage = error);
+        console.log("loaded contracts: " + this.contracts);
     }
 };
-Home = __decorate([
+JobsListComponent = __decorate([
     core_1.Component({
-        selector: 'home',
-        templateUrl: './app/home/home.html',
-        directives: [jobs_list_component_1.JobsListComponent]
+        selector: 'jobs-list',
+        templateUrl: 'app/jobs/jobs-list.component.html',
+        directives: [job_item_component_1.JobItemComponent],
+        providers: [jobs_service_1.JobsService]
     }), 
-    __metadata('design:paramtypes', [router_1.Router])
-], Home);
-exports.Home = Home;
-//# sourceMappingURL=Home.js.map
+    __metadata('design:paramtypes', [router_1.Router, jobs_service_1.JobsService])
+], JobsListComponent);
+exports.JobsListComponent = JobsListComponent;
+//# sourceMappingURL=jobs-list.component.js.map
