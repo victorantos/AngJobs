@@ -1,24 +1,20 @@
-   <div class="row">
-                <div class="col-sm-6">
-                                 
-                    
-<h2>Contract</h2>                  
-    <p class="text-muted">Contract opportunities for IT Consultants.</p>
-    <ul class="list-group">
-        <li  *ngFor="#item of contracts">
-                <job-item [title]='item["title"]' [job-id]='item["id"]' [description]='item["description"]'></job-item> 
-        </li>
-    </ul>
-                        
-                    </div>
-                    <div class="col-sm-6">
-                        <h2>Permanent</h2>
-                        <p class="text-muted">Permanent employment opportunities.</p>
-                       <ul class="list-group">
-        <li  *ngFor="#item of contracts">
-                <job-item [title]='item["title"]' [job-id]='item["id"]' [description]='item["description"]'></job-item> 
-        </li>
-    </ul>
-                    </div>
-                </div> 
-
+<div class="row">
+    <div class="col-sm-6">
+        <h2>Contract</h2>
+        <p class="text-muted">Contract opportunities for IT Consultants.</p>
+        <ul class="list-group">
+            <li *ngFor="#item of homepageJobs | jobFilter: contractFilter">
+                <job-item [title]='item["title"]' [job-id]='item["id"]' [description]='item["description"]'></job-item>
+            </li>
+        </ul>
+    </div>
+    <div class="col-sm-6">
+        <h2>Permanent</h2>
+        <p class="text-muted">Permanent employment opportunities.</p>
+        <ul class="list-group">
+            <li *ngFor="#item of homepageJobs | jobFilter: permanentFilter">
+                <job-item [title]='item["title"]' [job-id]='item["id"]' [description]='item["description"]'></job-item>
+            </li>
+        </ul>
+    </div>
+</div>

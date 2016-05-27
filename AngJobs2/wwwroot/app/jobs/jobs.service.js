@@ -29,7 +29,7 @@ let JobsService = class JobsService {
             return response.json();
         });
     }
-    getProducts() {
+    getHomepageJobs() {
         return this._http.get(this._contractsUrl)
             .map((response) => response.json())
             .do(data => console.log("All: " + JSON.stringify(data)))

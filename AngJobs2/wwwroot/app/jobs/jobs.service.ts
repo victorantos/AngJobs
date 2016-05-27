@@ -25,7 +25,7 @@ export class JobsService {
             });
     }
 
-    getProducts(): Observable<JobPost[]> {
+    getHomepageJobs(): Observable<JobPost[]> {
         return this._http.get(this._contractsUrl)
             .map((response: Response) => <JobPost[]>response.json())
             .do(data => console.log("All: " + JSON.stringify(data)))

@@ -12,17 +12,18 @@ const core_1 = require('angular2/core');
 const router_1 = require('angular2/router');
 const jobs_service_1 = require('../jobs/jobs.service');
 const job_item_component_1 = require('./job-item.component');
+const job_filter_pipe_1 = require('./job-filter.pipe');
 let JobsListComponent = class JobsListComponent {
     constructor(_router, _jobsService) {
         this._router = _router;
         this._jobsService = _jobsService;
         this.errorMessage = '';
+        this.contractFilter = "contract";
+        this.permanentFilter = "permanent";
     }
     ngOnInit() {
-        //  console.log("load contracts: " + this.contracts);
-        this._jobsService.getProducts()
-            .subscribe(contracts => this.contracts = contracts, error => this.errorMessage = error);
-        console.log("loaded contracts: " + this.contracts);
+        this._jobsService.getHomepageJobs()
+            .subscribe(jobs => this.homepageJobs = jobs, error => this.errorMessage = error);
     }
 };
 JobsListComponent = __decorate([
@@ -30,6 +31,7 @@ JobsListComponent = __decorate([
         selector: 'jobs-list',
         templateUrl: 'app/jobs/jobs-list.component.html',
         directives: [job_item_component_1.JobItemComponent],
+        pipes: [job_filter_pipe_1.JobFilterPipe],
         providers: [jobs_service_1.JobsService]
     }), 
     __metadata('design:paramtypes', [router_1.Router, jobs_service_1.JobsService])
