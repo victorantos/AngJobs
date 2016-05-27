@@ -16,13 +16,17 @@ __decorate([
     __metadata('design:type', String)
 ], JobItemComponent.prototype, "title", void 0);
 __decorate([
+    core_1.Input(), 
+    __metadata('design:type', String)
+], JobItemComponent.prototype, "description", void 0);
+__decorate([
     core_1.Input('job-id'), 
     __metadata('design:type', Number)
 ], JobItemComponent.prototype, "id", void 0);
 JobItemComponent = __decorate([
     core_1.Component({
         selector: 'job-item',
-        templateUrl: './app/jobs/job-item.html',
+        templateUrl: './app/jobs/job-item.component.html',
         directives: []
     }), 
     __metadata('design:paramtypes', [])

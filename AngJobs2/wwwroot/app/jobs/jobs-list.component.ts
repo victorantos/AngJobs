@@ -16,7 +16,7 @@ export class JobsListComponent implements OnInit {
  constructor(private _router: Router, private _jobsService: JobsService) {
     }
      ngOnInit() {     
-        console.log("load contracts: " + this.contracts);
+      //  console.log("load contracts: " + this.contracts);
         this._jobsService.getProducts()
             .subscribe( 
             contracts => this.contracts = contracts,

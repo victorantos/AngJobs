@@ -19,7 +19,7 @@ let JobsListComponent = class JobsListComponent {
         this.errorMessage = '';
     }
     ngOnInit() {
-        console.log("load contracts: " + this.contracts);
+        //  console.log("load contracts: " + this.contracts);
         this._jobsService.getProducts()
             .subscribe(contracts => this.contracts = contracts, error => this.errorMessage = error);
         console.log("loaded contracts: " + this.contracts);
