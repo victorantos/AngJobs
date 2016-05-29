@@ -44,3 +44,17 @@ textarea {
 }
 
 
+.jumbotron {
+    position: relative;
+    background: #000 url("../images/angjobs-bg-bw.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'Roboto Slab', serif;
+
+}
+.jumbotron h1{
+    color: rgb(221, 186, 205);
+    background-color: rgba(38, 38, 38, 0.71);
+}
