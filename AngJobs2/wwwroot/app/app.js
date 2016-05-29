@@ -16,7 +16,7 @@ const people_service_1 = require('./people/people.service');
 const Home_1 = require('./home/Home');
 const About_1 = require('./about/About');
 const People_1 = require('./people/People');
-const PersonDetail_1 = require('./people/PersonDetail');
+const JobDetail_1 = require('./jobs/JobDetail');
 let App = class App {
 };
 App = __decorate([
@@ -31,7 +31,7 @@ App = __decorate([
         { path: '/', name: 'Home', component: Home_1.Home, useAsDefault: true },
         { path: '/about', name: 'About', component: About_1.About },
         { path: '/people', name: 'People', component: People_1.People },
-        { path: '/people/:id', name: 'Detail', component: PersonDetail_1.PersonDetail }
+        { path: '/jobdetail/:id', name: 'JobDetail', component: JobDetail_1.JobDetail }
     ]), 
     __metadata('design:paramtypes', [])
 ], App);

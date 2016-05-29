@@ -4,10 +4,11 @@ import {JobsService} from '../jobs/jobs.service';
 import {RouteParams, Router} from 'angular2/router';
 
 @Component({
-    selector: 'job-detail',
-    templateUrl: './app/jobs/job-detail.html',
+    selector:"job-detail",
+    templateUrl: './app/jobs/jobdetail.html',
     directives: [],
-    inputs: ['jobpost']
+    inputs: ['jobpost'],
+    providers: [JobsService]
 })
 export class JobDetail {
     public jobPost: JobPost;
@@ -15,7 +16,7 @@ export class JobDetail {
     constructor(private _jobsService: JobsService,
         private _routeParams: RouteParams, private _router: Router) {
         let id = +this._routeParams.get('id');
-        _jobsService.getJobDetail(id)
-            .subscribe(res => this.jobPost = res);
+        // _jobsService.getJobDetail(id)
+        //     .subscribe(res => this.jobPost = res);
     } 
 }

@@ -12,6 +12,7 @@ const core_1 = require('angular2/core');
 const router_1 = require('angular2/router');
 const jobs_service_1 = require('../jobs/jobs.service');
 const job_item_component_1 = require('./job-item.component');
+const jobdetail_1 = require('./jobdetail');
 const job_filter_pipe_1 = require('./job-filter.pipe');
 let JobsListComponent = class JobsListComponent {
     constructor(_router, _jobsService) {
@@ -25,13 +26,17 @@ let JobsListComponent = class JobsListComponent {
         this._jobsService.getHomepageJobs()
             .subscribe(jobs => this.homepageJobs = jobs, error => this.errorMessage = error);
     }
+    gotoDetail(job) {
+        let link = ['JobDetail', { id: job.id }];
+        this._router.navigate(link);
+    }
 };
 JobsListComponent = __decorate([
     core_1.Component({
         selector: 'jobs-list',
         templateUrl: 'app/jobs/jobs-list.component.html',
         styleUrls: ['app/jobs/jobs-list.component.css'],
-        directives: [job_item_component_1.JobItemComponent],
+        directives: [job_item_component_1.JobItemComponent, router_1.ROUTER_DIRECTIVES, jobdetail_1.JobDetail],
         pipes: [job_filter_pipe_1.JobFilterPipe],
         providers: [jobs_service_1.JobsService]
     }), 

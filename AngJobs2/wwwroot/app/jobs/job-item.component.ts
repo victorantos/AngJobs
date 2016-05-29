@@ -1,10 +1,13 @@
 ﻿import {Component, Input} from 'angular2/core';
+import {JobDetail} from './jobdetail';
+
 
 @Component({
     selector: 'job-item',
     templateUrl: './app/jobs/job-item.component.html',
     styleUrls: ['./app/jobs/job-item.component.css'],
     directives: []
+ 
 })
 export class JobItemComponent implements IJobItem {
     @Input() title: string;

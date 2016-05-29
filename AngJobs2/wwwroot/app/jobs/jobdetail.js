@@ -17,16 +17,17 @@ let JobDetail = class JobDetail {
         this._routeParams = _routeParams;
         this._router = _router;
         let id = +this._routeParams.get('id');
-        _jobsService.getJobDetail(id)
-            .subscribe(res => this.jobPost = res);
+        // _jobsService.getJobDetail(id)
+        //     .subscribe(res => this.jobPost = res);
     }
 };
 JobDetail = __decorate([
     core_1.Component({
-        selector: 'job-detail',
-        templateUrl: './app/jobs/job-detail.html',
+        selector: "job-detail",
+        templateUrl: './app/jobs/jobdetail.html',
         directives: [],
-        inputs: ['jobpost']
+        inputs: ['jobpost'],
+        providers: [jobs_service_1.JobsService]
     }), 
     __metadata('design:paramtypes', [jobs_service_1.JobsService, router_1.RouteParams, router_1.Router])
 ], JobDetail);

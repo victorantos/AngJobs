@@ -6,7 +6,7 @@ import {PeopleService} from './people/people.service';
 import { Home } from './home/Home';
 import { About } from './about/About';
 import { People } from './people/People';
-import { PersonDetail } from './people/PersonDetail';
+import { JobDetail } from './jobs/JobDetail';
 
 @Component({
     selector: 'app',
@@ -19,7 +19,7 @@ import { PersonDetail } from './people/PersonDetail';
     { path: '/', name: 'Home', component: Home, useAsDefault: true },
     { path: '/about', name: 'About', component: About },
     { path: '/people', name: 'People', component: People },
-    { path: '/people/:id', name: 'Detail', component: PersonDetail }
+    { path: '/jobdetail/:id', name: 'JobDetail', component: JobDetail }
 ])
 export class App {
 
