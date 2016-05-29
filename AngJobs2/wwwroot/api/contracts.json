@@ -10,5 +10,23 @@
         "title": "this is a job title 1",
         "description": "this is a job description 1",
         "jobType": "permanent"
+    },
+    {
+        "id": 2,
+        "title": "this is a job title 2",
+        "description": "this is a job description 2",
+        "jobType": "permanent"
+    },
+     {
+        "id": 3,
+        "title": "this is a job title 3",
+        "description": "this is a job description 2333",
+        "jobType": "contract"
+    },
+     {
+        "id": 4,
+        "title": "this is a job title 4443",
+        "description": "this is a job description 4442333",
+        "jobType": "contract"
     }
 ]

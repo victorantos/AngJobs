@@ -30,6 +30,7 @@ JobsListComponent = __decorate([
     core_1.Component({
         selector: 'jobs-list',
         templateUrl: 'app/jobs/jobs-list.component.html',
+        styleUrls: ['app/jobs/jobs-list.component.css'],
         directives: [job_item_component_1.JobItemComponent],
         pipes: [job_filter_pipe_1.JobFilterPipe],
         providers: [jobs_service_1.JobsService]

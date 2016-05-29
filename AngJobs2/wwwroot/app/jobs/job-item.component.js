@@ -27,6 +27,7 @@ JobItemComponent = __decorate([
     core_1.Component({
         selector: 'job-item',
         templateUrl: './app/jobs/job-item.component.html',
+        styleUrls: ['./app/jobs/job-item.component.css'],
         directives: []
     }), 
     __metadata('design:paramtypes', [])

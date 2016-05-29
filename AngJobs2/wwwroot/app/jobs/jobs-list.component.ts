@@ -8,6 +8,7 @@ import {JobFilterPipe} from './job-filter.pipe';
 @Component({
     selector: 'jobs-list',
     templateUrl: 'app/jobs/jobs-list.component.html',
+    styleUrls: ['app/jobs/jobs-list.component.css'],
     directives: [JobItemComponent],
     pipes: [JobFilterPipe],
     providers: [JobsService]

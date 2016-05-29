@@ -3,6 +3,7 @@
 @Component({
     selector: 'job-item',
     templateUrl: './app/jobs/job-item.component.html',
+    styleUrls: ['./app/jobs/job-item.component.css'],
     directives: []
 })
 export class JobItemComponent implements IJobItem {
