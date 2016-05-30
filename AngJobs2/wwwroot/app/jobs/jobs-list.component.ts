@@ -5,6 +5,7 @@ import {JobsService} from '../jobs/jobs.service';
 import {JobItemComponent } from './job-item.component';
 import {JobDetail} from './jobdetail'
 import {JobFilterPipe} from './job-filter.pipe';
+import {SharedService} from '../core/shared.service';
  
 
 @Component({
@@ -13,7 +14,7 @@ import {JobFilterPipe} from './job-filter.pipe';
     styleUrls: ['app/jobs/jobs-list.component.css'],
     directives: [JobItemComponent, ROUTER_DIRECTIVES, JobDetail],
     pipes: [JobFilterPipe],
-    providers: [JobsService]
+    providers: [JobsService, SharedService] 
 })
 export class JobsListComponent implements OnInit {
     errorMessage: string = '';
@@ -21,7 +22,8 @@ export class JobsListComponent implements OnInit {
     contractFilter: string = "contract";
     permanentFilter: string = "permanent";
     
-    constructor(  private _router: Router,private _jobsService: JobsService) {
+    constructor(  private _router: Router,private _jobsService: JobsService,
+    private _sharedService: SharedService ) {
     }
     ngOnInit() {
         this._jobsService.getHomepageJobs()
@@ -32,6 +34,7 @@ export class JobsListComponent implements OnInit {
      
     gotoDetail(job: JobPost) {
         let link = ['JobDetail', {id:job.id}];
+        this._sharedService.saveSelectedJob(job);
         this._router.navigate(link);
     }
 

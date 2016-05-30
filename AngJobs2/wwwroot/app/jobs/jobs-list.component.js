@@ -14,10 +14,12 @@ const jobs_service_1 = require('../jobs/jobs.service');
 const job_item_component_1 = require('./job-item.component');
 const jobdetail_1 = require('./jobdetail');
 const job_filter_pipe_1 = require('./job-filter.pipe');
+const shared_service_1 = require('../core/shared.service');
 let JobsListComponent = class JobsListComponent {
-    constructor(_router, _jobsService) {
+    constructor(_router, _jobsService, _sharedService) {
         this._router = _router;
         this._jobsService = _jobsService;
+        this._sharedService = _sharedService;
         this.errorMessage = '';
         this.contractFilter = "contract";
         this.permanentFilter = "permanent";
@@ -28,6 +30,7 @@ let JobsListComponent = class JobsListComponent {
     }
     gotoDetail(job) {
         let link = ['JobDetail', { id: job.id }];
+        this._sharedService.saveSelectedJob(job);
         this._router.navigate(link);
     }
 };
@@ -38,9 +41,9 @@ JobsListComponent = __decorate([
         styleUrls: ['app/jobs/jobs-list.component.css'],
         directives: [job_item_component_1.JobItemComponent, router_1.ROUTER_DIRECTIVES, jobdetail_1.JobDetail],
         pipes: [job_filter_pipe_1.JobFilterPipe],
-        providers: [jobs_service_1.JobsService]
+        providers: [jobs_service_1.JobsService, shared_service_1.SharedService]
     }), 
-    __metadata('design:paramtypes', [router_1.Router, jobs_service_1.JobsService])
+    __metadata('design:paramtypes', [router_1.Router, jobs_service_1.JobsService, shared_service_1.SharedService])
 ], JobsListComponent);
 exports.JobsListComponent = JobsListComponent;
 //# sourceMappingURL=jobs-list.component.js.map

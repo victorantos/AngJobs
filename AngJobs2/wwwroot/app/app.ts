@@ -10,7 +10,7 @@ import { JobDetail } from './jobs/JobDetail';
 
 @Component({
     selector: 'app',
-    templateUrl: './app/app.html',
+    templateUrl: './app/app.html', 
     styleUrls: ['./app/app.css'],
     directives: [ROUTER_DIRECTIVES],
     providers: [PeopleService, ROUTER_PROVIDERS, HTTP_PROVIDERS]
@@ -22,6 +22,6 @@ import { JobDetail } from './jobs/JobDetail';
     { path: '/jobdetail/:id', name: 'JobDetail', component: JobDetail }
 ])
 export class App {
-
+    
 }
 

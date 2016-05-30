@@ -11,14 +11,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 const core_1 = require('angular2/core');
 const jobs_service_1 = require('../jobs/jobs.service');
 const router_1 = require('angular2/router');
+const shared_service_1 = require('../core/shared.service');
 let JobDetail = class JobDetail {
-    constructor(_jobsService, _routeParams, _router) {
+    constructor(_jobsService, _routeParams, _router, _sharedService) {
         this._jobsService = _jobsService;
         this._routeParams = _routeParams;
         this._router = _router;
+        this._sharedService = _sharedService;
         let id = +this._routeParams.get('id');
         // _jobsService.getJobDetail(id)
         //     .subscribe(res => this.jobPost = res);
+        this.jobPost = _sharedService.getSelectedJob();
+        console.log("shared job post", this.jobPost);
     }
 };
 JobDetail = __decorate([
@@ -27,9 +31,9 @@ JobDetail = __decorate([
         templateUrl: './app/jobs/jobdetail.html',
         directives: [],
         inputs: ['jobpost'],
-        providers: [jobs_service_1.JobsService]
+        providers: [jobs_service_1.JobsService, shared_service_1.SharedService]
     }), 
-    __metadata('design:paramtypes', [jobs_service_1.JobsService, router_1.RouteParams, router_1.Router])
+    __metadata('design:paramtypes', [jobs_service_1.JobsService, router_1.RouteParams, router_1.Router, shared_service_1.SharedService])
 ], JobDetail);
 exports.JobDetail = JobDetail;
 //# sourceMappingURL=jobdetail.js.map

@@ -1,6 +1,6 @@
 ﻿import {Component, Input} from 'angular2/core';
 import {JobDetail} from './jobdetail';
-
+import {JobPost} from '../core/jobpost'
 
 @Component({
     selector: 'job-item',
@@ -14,7 +14,7 @@ export class JobItemComponent implements IJobItem {
     @Input() description: string;
     @Input('job-id') id: number;
 }
-
+ 
 export interface IJobItem {
     title: string;
     id: number;

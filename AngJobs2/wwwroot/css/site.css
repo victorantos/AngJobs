@@ -58,3 +58,8 @@ textarea {
     color: rgb(221, 186, 205);
     background-color: rgba(38, 38, 38, 0.71);
 }
+
+.page-header{
+    padding-bottom: 5px;
+    margin: 15px 0 24px;
+}
