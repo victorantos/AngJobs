@@ -14,7 +14,7 @@ import {SharedService} from '../core/shared.service';
     styleUrls: ['app/jobs/jobs-list.component.css'],
     directives: [JobItemComponent, ROUTER_DIRECTIVES, JobDetail],
     pipes: [JobFilterPipe],
-    providers: [JobsService, SharedService] 
+    providers: [JobsService] 
 })
 export class JobsListComponent implements OnInit {
     errorMessage: string = '';

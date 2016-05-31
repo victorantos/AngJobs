@@ -41,7 +41,7 @@ JobsListComponent = __decorate([
         styleUrls: ['app/jobs/jobs-list.component.css'],
         directives: [job_item_component_1.JobItemComponent, router_1.ROUTER_DIRECTIVES, jobdetail_1.JobDetail],
         pipes: [job_filter_pipe_1.JobFilterPipe],
-        providers: [jobs_service_1.JobsService, shared_service_1.SharedService]
+        providers: [jobs_service_1.JobsService]
     }), 
     __metadata('design:paramtypes', [router_1.Router, jobs_service_1.JobsService, shared_service_1.SharedService])
 ], JobsListComponent);

@@ -9,10 +9,10 @@ import {SharedService} from '../core/shared.service';
     templateUrl: './app/jobs/jobdetail.html',
     directives: [],
     inputs: ['jobpost'], 
-    providers: [JobsService, SharedService]
+    providers: [JobsService]
 })
 export class JobDetail {
-    public jobPost: JobPost;
+    public jobpost: JobPost;
      
     constructor(private _jobsService: JobsService,
         private _routeParams: RouteParams, private _router: Router,
@@ -21,7 +21,6 @@ export class JobDetail {
         // _jobsService.getJobDetail(id)
         //     .subscribe(res => this.jobPost = res);
           
-        this.jobPost = _sharedService.getSelectedJob();
-        console.log("shared job post", this.jobPost);
+        this.jobpost = _sharedService.getSelectedJob();
     } 
 }

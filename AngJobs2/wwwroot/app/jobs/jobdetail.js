@@ -21,8 +21,7 @@ let JobDetail = class JobDetail {
         let id = +this._routeParams.get('id');
         // _jobsService.getJobDetail(id)
         //     .subscribe(res => this.jobPost = res);
-        this.jobPost = _sharedService.getSelectedJob();
-        console.log("shared job post", this.jobPost);
+        this.jobpost = _sharedService.getSelectedJob();
     }
 };
 JobDetail = __decorate([
@@ -31,7 +30,7 @@ JobDetail = __decorate([
         templateUrl: './app/jobs/jobdetail.html',
         directives: [],
         inputs: ['jobpost'],
-        providers: [jobs_service_1.JobsService, shared_service_1.SharedService]
+        providers: [jobs_service_1.JobsService]
     }), 
     __metadata('design:paramtypes', [jobs_service_1.JobsService, router_1.RouteParams, router_1.Router, shared_service_1.SharedService])
 ], JobDetail);
