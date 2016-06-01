@@ -3,17 +3,24 @@ import {JobPost} from '../core/jobpost';
 import {JobsService} from '../jobs/jobs.service';
 import {RouteParams, Router} from 'angular2/router';
 import {SharedService} from '../core/shared.service';
+import {JobApplyComponent} from './job-apply.component';
 
 @Component({
     selector:"job-detail",
     templateUrl: './app/jobs/jobdetail.html',
-    directives: [],
+    directives: [JobApplyComponent],
     inputs: ['jobpost'], 
     providers: [JobsService]
 })
 export class JobDetail {
     public jobpost: JobPost;
-     
+    public applying: boolean = false; //applying for a job
+    
+    public showHideApplicationForm() : void{
+        
+        this.applying = ! this.applying;
+    } 
+    
     constructor(private _jobsService: JobsService,
         private _routeParams: RouteParams, private _router: Router,
         private _sharedService: SharedService) {

@@ -12,23 +12,28 @@ const core_1 = require('angular2/core');
 const jobs_service_1 = require('../jobs/jobs.service');
 const router_1 = require('angular2/router');
 const shared_service_1 = require('../core/shared.service');
+const job_apply_component_1 = require('./job-apply.component');
 let JobDetail = class JobDetail {
     constructor(_jobsService, _routeParams, _router, _sharedService) {
         this._jobsService = _jobsService;
         this._routeParams = _routeParams;
         this._router = _router;
         this._sharedService = _sharedService;
+        this.applying = false; //applying for a job
         let id = +this._routeParams.get('id');
         // _jobsService.getJobDetail(id)
         //     .subscribe(res => this.jobPost = res);
         this.jobpost = _sharedService.getSelectedJob();
+    }
+    showHideApplicationForm() {
+        this.applying = !this.applying;
     }
 };
 JobDetail = __decorate([
     core_1.Component({
         selector: "job-detail",
         templateUrl: './app/jobs/jobdetail.html',
-        directives: [],
+        directives: [job_apply_component_1.JobApplyComponent],
         inputs: ['jobpost'],
         providers: [jobs_service_1.JobsService]
     }), 
