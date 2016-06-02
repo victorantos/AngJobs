@@ -32,8 +32,8 @@ var app = angular.module('app', [
     
 
 app.constant('ngAuthSettings', {
-    apiServiceBaseUri: typeof serviceBase != 'undefined' ? serviceBase : 'https://angjobs.com/',
-    authServiceBaseUri: typeof authServiceBase != 'undefined' ? authServiceBase : 'https://angjobs.com/',
+    apiServiceBaseUri: typeof serviceBase != 'undefined' ? serviceBase : 'http://angjobs.com/',
+    authServiceBaseUri: typeof authServiceBase != 'undefined' ? authServiceBase : 'http://angjobs.com/',
     clientId: 'angjobsApp'
 });
 

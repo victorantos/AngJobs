@@ -53,7 +53,7 @@ namespace Angjobs.Migrations
                                         #if DEBUG
                                          "http://localhost:33652"
                                         #else
-                                          "https://angjobs.com"
+                                          "http://angjobs.com"
                                         #endif
                 },
                 new Client
