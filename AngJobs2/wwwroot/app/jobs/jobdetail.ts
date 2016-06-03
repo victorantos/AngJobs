@@ -15,11 +15,17 @@ import {JobApplyComponent} from './job-apply.component';
 export class JobDetail {
     public jobpost: JobPost;
     public applying: boolean = false; //applying for a job
-    
+    public applied: boolean = false; //already applied for a job
+     
     public showHideApplicationForm() : void{
         
-        this.applying = ! this.applying;
+        this.applying = !this.applying;
     } 
+    
+    public showJobAppliedStatus(): void{
+        this.applying = false;
+        this.applied = true;
+    }
     
     constructor(private _jobsService: JobsService,
         private _routeParams: RouteParams, private _router: Router,

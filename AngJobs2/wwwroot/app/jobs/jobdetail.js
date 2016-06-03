@@ -20,6 +20,7 @@ let JobDetail = class JobDetail {
         this._router = _router;
         this._sharedService = _sharedService;
         this.applying = false; //applying for a job
+        this.applied = false; //already applied for a job
         let id = +this._routeParams.get('id');
         // _jobsService.getJobDetail(id)
         //     .subscribe(res => this.jobPost = res);
@@ -27,6 +28,10 @@ let JobDetail = class JobDetail {
     }
     showHideApplicationForm() {
         this.applying = !this.applying;
+    }
+    showJobAppliedStatus() {
+        this.applying = false;
+        this.applied = true;
     }
 };
 JobDetail = __decorate([
