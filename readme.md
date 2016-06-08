@@ -8,7 +8,7 @@ Looking for a demo? - check [AngJobs.com](http://AngJobs.com)
 First run
 =======
 Make sure you create the database first by running this command in the "Package manager console" window in Visual Studio
-> update-database
+>> update-database
 
 UI
 ====
