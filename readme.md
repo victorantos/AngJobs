@@ -5,10 +5,6 @@ Looking for a demo? - check [AngJobs.com](http://AngJobs.com)
 
 *update: current repository matches live website, additionally it automatically imports about 500 real jobs when you run it for the first time!*
 
-Testimonials
-===
-+   "*Really like how it works. Extremely easy to use, straight forward, and as a job board being able to attach LinkedIn/CV/etc right on the job page is a what you want in something like this. Great job.*"  by Redditor FlatTextOnAScreen
-
 First run
 =======
 Make sure you create the database first by running this command in the "Package manager console" window in Visual Studio
@@ -101,4 +97,8 @@ Frameworks used
 Contributors
 ==
 +  Victor Antofica
-+  
++  PankajLala
+
+Testimonials
+===
++   "*Really like how it works. Extremely easy to use, straight forward, and as a job board being able to attach LinkedIn/CV/etc right on the job page is a what you want in something like this. Great job.*"  by Redditor FlatTextOnAScreen
