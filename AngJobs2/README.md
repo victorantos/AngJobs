@@ -1,3 +1,8 @@
+# This Angular2 project is based on crossplatform Asp.NET CORE 1.0 framework
+
+*  You should be able to run it on Windows/Linux/MACOS using Visual Code
+
+## The Default aspnetcore-spa readme file is below 
 # Welcome to ASP.NET 5
 
 We've made some big updates in this release, so it’s **important** that you spend a few minutes to learn what’s new.
