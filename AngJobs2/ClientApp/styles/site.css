@@ -64,3 +64,11 @@
         text-overflow: ellipsis;
     }
 }
+
+.table.borderless>tbody>tr>td{
+      border: none;
+}
+
+.borderless td, .borderless th,  .borderless tr {
+    border: none;
+}
