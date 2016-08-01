@@ -1,34 +1,40 @@
 {
-  "name": "angjobs",
+  "name": "AngJobs2",
   "version": "0.0.0",
-  "private": true,
-   "dependencies": {
-    "angular2": "*",
-    "es6-shim": "0.35.1",
-    "rxjs": "5.0.0-beta.6",
-    "zone.js": "*",
-    "bootstrap": "^3.3.5",
-    "jquery": "^2.1.4",
-    "less": "^2.5.3",
-    "lodash": "^3.10.1",
-    "reflect-metadata": "0.1.2",
-    "systemjs": "^0.19.3"
-  },
   "devDependencies": {
-    "del": "^2.0.2",
-    "event-stream": "^3.3.1",
-    "gulp": "3.9.1",
-    "gulp-concat": "2.6.0",
-    "gulp-cssmin": "0.1.7",
-    "gulp-uglify": "1.5.3",
-    "gulp-inline-ng2-template": "0.0.7",
-    "gulp-sourcemaps": "^1.6.0",
-    "gulp-typescript": "^2.9.0",
-    "typescript": "^1.6.2",
-    "rimraf": "2.5.2"
+    "aspnet-webpack": "^1.0.6",
+    "bootstrap": "^3.3.6",
+    "css-loader": "^0.23.1",
+    "expose-loader": "^0.7.1",
+    "extendify": "^1.0.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "jquery": "^2.2.1",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.0",
+    "ts-loader": "^0.8.1",
+    "typescript": "^1.8.2",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.14",
+    "webpack-hot-middleware": "^2.10.0"
   },
-   "scripts": {
-     "tsc" : "tsc -p . -w",
-     "start" : "gulp build-dev && nodemon --ignore htm,html --ext cs,js --exec \"dotnet web\" -V"
-   }
+  "dependencies": {
+    "@angular/common": "2.0.0-rc.4",
+    "@angular/compiler": "2.0.0-rc.4",
+    "@angular/core": "2.0.0-rc.4",
+    "@angular/http": "2.0.0-rc.4",
+    "@angular/platform-browser": "2.0.0-rc.4",
+    "@angular/platform-browser-dynamic": "2.0.0-rc.4",
+    "@angular/platform-server": "2.0.0-rc.4",
+    "@angular/router": "3.0.0-beta.2",
+    "angular2-universal": "^0.104.5",
+    "aspnet-prerendering": "^1.0.2",
+    "css": "^2.2.1",
+    "es6-shim": "^0.35.1",
+    "isomorphic-fetch": "^2.2.1",
+    "preboot": "^2.0.10",
+    "rxjs": "5.0.0-beta.6",
+    "webpack-externals-plugin": "^1.0.0",
+    "zone.js": "^0.6.12"
+  }
 }

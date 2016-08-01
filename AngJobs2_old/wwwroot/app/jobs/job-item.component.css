@@ -1,0 +1,102 @@
+.title {
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0px #fff;
+  line-height: 1.2em;
+  margin-bottom: 1em;
+  color: #41414c;
+}
+.title .label,
+.title .badge {
+  text-shadow: none;
+  line-height: 1.4em;
+  color: #fff;
+}
+.title strong {
+  text-transform: none;
+}
+.info-text {
+  position: relative;
+  top: -4px;
+}
+.info {
+  margin-bottom: 0em;
+  padding-bottom: 0em;
+  line-height: 1.2em;
+}
+.info.small {
+  font-size: .85em;
+  margin-top: -0.5em;
+}
+.chart small {
+  font-size: .8em;
+  text-align: right;
+  display: block;
+  line-height: 1em;
+}
+.time {
+  font-size: .75em;
+  float: right;
+}
+.stats {
+  padding-top: .75em;
+  margin-bottom: 0em;
+}
+.stats span {
+  margin-right: .75em;
+}
+.img {
+  width: 48px;
+  height: 48px;
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+.img label {
+  display: block;
+  margin: 0px;
+  text-align: center;
+}
+.list .label {
+  margin-top: 1.25em;
+  margin-right: 1.25em;
+}
+.list i {
+  height: 2em;
+  font-size: 1.25em;
+  line-height: 2em;
+  padding: .5em .75em;
+  vertical-align: middle;
+  margin-right: .5em;
+  color: #666633;
+  border-right: 1px solid #dddde2;
+}
+ i.pull-left {
+  font-size: 1.75em;
+  font-size: 2em;
+  line-height: 1em;
+  height: 2em;
+  padding: 0px;
+  margin-right: .5em;
+  margin-top: 3px;
+}
+ .pull-right.strong {
+  margin-top: -0.5em;
+  font-size: 3em;
+}
+ p.pull-right,
+ .label.pull-down {
+  margin-top: 1em;
+  margin-left: 1em;
+  display: block;
+}
+.muted {
+  color: #8a8a9c;
+}
+  .badge {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}

@@ -1,25 +1,13 @@
 {
   "compilerOptions": {
-    
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "module": "commonjs",
-    "noEmitOnError": true,
-    "noImplicitAny": false,
-
-    "removeComments": false,
-    "sourceMap": true,
-    "target": "es6",
     "moduleResolution": "node",
-    "suppressImplicitAnyIndexErrors": true,
-     "watch":true
+    "target": "es5",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipDefaultLibCheck": true
   },
-   "compileOnSave": true,
   "exclude": [
-    "node_modules",
-    "typings/main",
-    "typings/main.d.ts",
-  
-     "typings"
+      "node_modules"
   ]
 }

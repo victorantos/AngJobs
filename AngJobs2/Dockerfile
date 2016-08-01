@@ -1,11 +1,18 @@
-FROM microsoft/aspnet:1.0.0-rc1-update1
-
-RUN printf "deb http://ftp.us.debian.org/debian jessie main\n" >> /etc/apt/sources.list
-RUN apt-get -qq update && apt-get install -qqy sqlite3 libsqlite3-dev && rm -rf /var/lib/apt/lists/*
+FROM microsoft/dotnet:latest
 
 COPY . /app
+
 WORKDIR /app
-RUN ["dnu", "restore"]
+
+# Add Node.js to the container. If you don't want to wait for this to install every
+# time you rebuild your container, consider creating an image that has it preinstalled.
+RUN apt-get update
+RUN apt-get install -y build-essential nodejs nodejs-legacy
+
+RUN ["dotnet", "restore"]
+
+RUN ["dotnet", "build"]
 
 EXPOSE 5000/tcp
-ENTRYPOINT ["dnx", "-p", "project.json", "Microsoft.AspNet.Server.Kestrel", "--server.urls", "http://0.0.0.0:5000"]
+
+ENTRYPOINT ["dotnet", "run", "--server.urls", "http://0.0.0.0:5000"]
