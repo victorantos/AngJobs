@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AngJobs.Models;
 using Angjobs2.ViewModels;
-using AngJobs2.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AngJobs2.Controllers
+namespace AngJobs.Controllers
 {
     [Route("api/[controller]")]
     public class JobsDataController : Controller

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
-using AngJobs2.Models;
+using AngJobs.Models;
 
 namespace AngJobs2.Migrations
 {
@@ -15,7 +15,7 @@ namespace AngJobs2.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.0.0-rtm-21431");
 
-            modelBuilder.Entity("AngJobs2.Models.Job", b =>
+            modelBuilder.Entity("AngJobs.Models.Job", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();

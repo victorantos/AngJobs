@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using Angjobs2.ViewModels;
 
-namespace AngJobs2.Models
+namespace AngJobs.Models
 {
     public class Job
     {
+        public Job()
+        {
+            this.DateCreated = DateTime.UtcNow;
+        }
         public int Id { get; set; }
         public string JobTitle { get; set; }
         public string Summary { get; set; }

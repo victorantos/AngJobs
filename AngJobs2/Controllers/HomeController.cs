@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AngJobs2.Controllers
+namespace AngJobs.Controllers
 {
     public class HomeController : Controller
     {

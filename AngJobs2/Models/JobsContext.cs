@@ -2,7 +2,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
-namespace AngJobs2.Models
+namespace AngJobs.Models
 {
     public class JobsContext : DbContext
     {
