@@ -20,15 +20,29 @@
     "Microsoft.Extensions.Logging": "1.0.0",
     "Microsoft.Extensions.Logging.Console": "1.0.0",
     "Microsoft.Extensions.Logging.Debug": "1.0.0",
-    "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0"
+    "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
+    "Microsoft.EntityFrameworkCore.Design": {
+      "type": "build",
+      "version": "1.0.0-preview2-final"
+    },
+    "Microsoft.EntityFrameworkCore.Sqlite": "1.0.0",
+    "Microsoft.EntityFrameworkCore.Tools": {
+      "version": "1.0.0-preview2-final",
+      "type": "build"
+    }
   },
-
   "tools": {
     "Microsoft.AspNetCore.Razor.Tools": "1.0.0-preview2-final",
     "Microsoft.AspNetCore.Server.IISIntegration.Tools": "1.0.0-preview2-final",
-    "Microsoft.DotNet.Watcher.Tools": "1.0.0-preview2-final"
+    "Microsoft.DotNet.Watcher.Tools": "1.0.0-preview2-final",
+    "Microsoft.EntityFrameworkCore.Tools": {
+      "version": "1.0.0-preview2-final",
+      "imports": [
+        "portable-net45+win8+dnxcore50",
+        "portable-net45+win8"
+      ]
+    }
   },
-
   "frameworks": {
     "netcoreapp1.0": {
       "imports": [
@@ -37,18 +51,15 @@
       ]
     }
   },
-
   "buildOptions": {
     "emitEntryPoint": true,
     "preserveCompilationContext": true
   },
-
   "runtimeOptions": {
     "configProperties": {
       "System.GC.Server": true
     }
   },
-
   "publishOptions": {
     "include": [
       "appsettings.json",
@@ -63,16 +74,16 @@
       "wwwroot"
     ]
   },
-
   "scripts": {
     "prepublish": [
       "npm install",
       "node node_modules/webpack/bin/webpack.js --config webpack.config.vendor.js",
       "node node_modules/webpack/bin/webpack.js"
     ],
-    "postpublish": [ "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%" ]
+    "postpublish": [
+      "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%"
+    ]
   },
-
   "tooling": {
     "defaultNamespace": "AngJobs2"
   }
