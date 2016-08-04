@@ -9,6 +9,6 @@ export const routes: RouterConfig = [
     { path: 'home', component: Home },
     { path: 'counter', component: Counter },
     { path: 'fetch-data', component: FetchData },
-    { path: 'job-detail', component: JobDetail },
+    { path: 'job-detail/:id', component: JobDetail },
     { path: '**', redirectTo: 'home' }
 ];
