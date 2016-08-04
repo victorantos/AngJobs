@@ -25,7 +25,9 @@ namespace AngJobs.Controllers
         [HttpGet("[action]")]
         public IEnumerable<HotJob> HotJobs()
         {
-            var data = _context.Jobs.Select(j=>j.ToHotJob()).ToList();
+            List<HotJob> data = null;
+            if(_context.Jobs.Any())
+            data = _context.Jobs.Select(j=>j.ToHotJob()).ToList();
 
             return data;
 
