@@ -8,8 +8,8 @@ using AngJobs.Models;
 namespace AngJobs2.Migrations
 {
     [DbContext(typeof(JobsContext))]
-    [Migration("20160803104930_InitialDatabase")]
-    partial class InitialDatabase
+    [Migration("20160804153208_InitialMigration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
