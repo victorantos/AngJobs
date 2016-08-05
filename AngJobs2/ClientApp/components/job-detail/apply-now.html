@@ -1,0 +1,17 @@
+﻿<section class="panel panel-info">
+    <div class="panel-heading">
+        Apply now
+        <small class="pull-right"><button type="button" (click)="applyForJob()">Submit now</button></small>
+    </div>
+    <div class="panel-body">
+
+        <form #fApply="ngForm" (submit)="applyForJob()">
+
+            <div class="form-group">
+                <textarea class="form-control" [ngModel]="jobapplicationMsg"></textarea>
+            </div>
+            <button class="btn btn-default" type="submit">Submit now</button>
+
+        </form>
+    </div>
+</section>

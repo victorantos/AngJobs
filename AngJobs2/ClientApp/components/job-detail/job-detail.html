@@ -1,8 +1,18 @@
 ﻿<section *ngIf="jobDetail!=null">
-
-    <h4 class="page-header jobs-page-header">{{jobDetail.jobTitle}}</h4>
+    <h4 class="page-header jobs-page-header">
+        {{jobDetail.jobTitle}}
+        <small class="pull-right" *ngIf="!isApplying"><button type="button" (click)="isApplying=true">Apply Now</button></small>
+    </h4>
     <p>
         {{jobDetail.summary}}
-
     </p>
+    <button *ngIf="!isApplying" type="button" class="btn btn-default"  (click)="isApplying=true">Apply for this job now</button>
+
+  
 </section>
+
+<div class="row" *ngIf="isApplying">
+    <div class="col-md-6">
+        <apply-now [(applied)]="isApplying"></apply-now>
+    </div>
+</div>
