@@ -13,17 +13,19 @@ export class JobDetail implements ng.OnInit {
 
     constructor(
         private route: ActivatedRoute,
-        private router: Router) {
-        //http.get('api/jobsdata/detail').subscribe(result => {
-        //    this.jobDetail = result.json();
-        //});
+        private router: Router, private http: Http) {
+
     }
 
-    ngOnInit()
-    {
+    ngOnInit() {
         this.sub = this.route.params.subscribe(params => {
             let id = +params['id']; // (+) converts string 'id' to a number
             this.jobId = id;
+
+            this.http.get('api/jobsdata/jobdetail/' + this.jobId).subscribe(result => {
+                this.jobDetail = result.json();
+            });
+
             //this.service.getJobDetail(id).then(job => this.jobDetail = job);
         });
     }

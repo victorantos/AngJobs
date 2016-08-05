@@ -211,3 +211,4 @@ AngJobs.Android/Web.Release.config
 /AngJobs/Web.Release.config
 *.db
 /.vs/config
+/AngJobs2.sln

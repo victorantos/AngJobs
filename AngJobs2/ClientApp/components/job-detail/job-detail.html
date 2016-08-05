@@ -1,6 +1,8 @@
-﻿<h2>Job detail</h2>
-<p>
-    Job descr here:
+﻿<section *ngIf="jobDetail!=null">
 
-    {{jobId}}
-</p>
+    <h4 class="page-header jobs-page-header">{{jobDetail.jobTitle}}</h4>
+    <p>
+        {{jobDetail.summary}}
+
+    </p>
+</section>

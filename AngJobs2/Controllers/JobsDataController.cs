@@ -16,12 +16,7 @@ namespace AngJobs.Controllers
         {
             _context = dbContext;
         }
-
-        private static string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
-
+ 
         [HttpGet("[action]")]
         public IEnumerable<HotJob> HotJobs()
         {
@@ -30,16 +25,14 @@ namespace AngJobs.Controllers
             data = _context.Jobs.Select(j=>j.ToHotJob()).ToList();
 
             return data;
-
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new HotJob
-            {
-                JobTitle = "Title " +  Summaries[rng.Next(Summaries.Length)],
-                JobId = rng.Next(1, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
-            });
         }
 
-        
+        [HttpGet("[action]/{id}")]
+        public Job JobDetail(int id)
+        {
+             Job data = _context.Jobs.FirstOrDefault(j => j.Id == id);
+
+            return data;
+        }
     }
 }
