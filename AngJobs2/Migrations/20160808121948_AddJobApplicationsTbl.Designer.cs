@@ -8,9 +8,10 @@ using AngJobs.Models;
 namespace AngJobs2.Migrations
 {
     [DbContext(typeof(JobsContext))]
-    partial class JobsContextModelSnapshot : ModelSnapshot
+    [Migration("20160808121948_AddJobApplicationsTbl")]
+    partial class AddJobApplicationsTbl
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.0.0-rtm-21431");

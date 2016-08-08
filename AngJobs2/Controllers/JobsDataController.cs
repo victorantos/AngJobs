@@ -34,5 +34,22 @@ namespace AngJobs.Controllers
 
             return data;
         }
+
+        [HttpPost("[action]")]
+        public async Task<IActionResult> ApplyForJob([FromBody] JobApplication application)
+        {
+            var jobApplication = _context.JobApplications.Add(new JobApplication()
+            {
+                ApplicationMessage = application.ApplicationMessage,
+                JobId = application.JobId,
+                Applicant = new Applicant()
+                {
+                    Ip = HttpContext.Connection.RemoteIpAddress.ToString()
+                }
+            });
+
+            await _context.SaveChangesAsync();
+            return Ok();// new { applicationId : });
+        }
     }
 }

@@ -14,6 +14,8 @@ namespace AngJobs.Models
         }
 
         public DbSet<Job> Jobs { get; set; }
+        public DbSet<JobApplication> JobApplications { get; set; }
+        public DbSet<Applicant> Applicants { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

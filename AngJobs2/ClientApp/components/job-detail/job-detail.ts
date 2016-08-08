@@ -9,7 +9,7 @@ import {ApplyNow} from './apply-now';
     directives: [ApplyNow]
 })
 export class JobDetail implements ng.OnInit {
-    @ng.Input('job-id') jobId: number;
+    @ng.Input() jobId: number;
     jobDetail: any;
     private sub: any;
 
