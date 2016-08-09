@@ -24,14 +24,17 @@ export class ApplyNow {
     @ng.Input() isApplying: boolean;
     @ng.Input() jobId: number;
     @ng.Output() isApplyingChange = new ng.EventEmitter();
+    @ng.Output() canceledChange = new ng.EventEmitter();;
 
     applied: boolean;
+    canceled: boolean;
     jobapplicationMsg: string;
     errorMsg: any;
     applications: any;
 
     constructor(private http: Http, private router: Router) {
         this.applied = false;
+        this.canceled = false;
     }
 
     private handleError(error: any) {
@@ -66,5 +69,10 @@ export class ApplyNow {
 
     gotBackToJobs() {
         this.router.navigate(['/home']);
+    }
+    cancel()
+    {
+        this.isApplyingChange.emit(false);
+        this.canceledChange.emit(true);
     }
 }

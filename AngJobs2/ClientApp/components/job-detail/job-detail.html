@@ -6,11 +6,11 @@
     <p>
         {{jobDetail.summary}}
     </p>
-    <button *ngIf="!isApplying" type="button" class="btn btn-default" (click)="isApplying=true">Apply for this job now</button>
+    <button *ngIf="!isApplying" type="button" class="btn btn-default" (click)="isApplying=true; canceled = false;">Apply for this job now</button>
 </section>
 
-<div class="row" *ngIf="isApplying">
+<div class="row" *ngIf="isApplying && !canceled">
     <div class="col-md-6">
-        <apply-now [jobId]="jobDetail.id" [(isApplying)]="isApplying"></apply-now>
+        <apply-now [jobId]="jobDetail.id" [(isApplying)]="isApplying" [(canceled)]="canceled"></apply-now>
     </div>
 </div>
