@@ -1,28 +1,5 @@
-<h1>Hot jobs</h1>
-<p>A list of selected Angular 2 job opportunities.</p>
-<p *ngIf="!hotJobs"><em>Loading...</em></p>
 
-<table class='table borderless' *ngIf="hotJobs">
-  <thead>
-    <tr>
-      <th>Job</th>
-      <th>Salary</th>
-      <th>Summary</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="let j of hotJobs">
-      <td>
-        <a class="list-group-item list-group-item-action" [routerLink]="['/job-detail', j.jobId ]">
-          <h5 class="list-group-item-heading">{{j.jobTitle}}</h5>
-          <p class="list-group-item-text">{{j.summary}}</p>
-        </a>
-      </td>
-      <td>{{ j.jobId }}</td>
-      <td>{{ j.summary }}</td>
-    </tr>
-  </tbody>
-</table>
+<jobs-list></jobs-list>
 
 
 <p>For more Angular 2 jobs please browse the <a href="/jobs" title="all angular 2 jobs">main jobs section</a>.</p>

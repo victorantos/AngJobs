@@ -1,25 +1,17 @@
 import * as ng from '@angular/core';
-import {ROUTER_DIRECTIVES} from '@angular/router';
 import { Http } from '@angular/http';
+import { JobsList } from '../jobs/jobs-list';
 
 @ng.Component({
   selector: 'home',
   template: require('./home.html'),
-  directives: [...ROUTER_DIRECTIVES]
+  directives: [JobsList]
 })
 export class Home {
-  public hotJobs: HotJob[];
-
+   
   constructor(http: Http)
   {
-      http.get('api/jobsdata/hotjobs').subscribe(result => {
-            this.hotJobs = result.json();
-        });
+   
   }
 }
-
-interface HotJob{
-    jobId: number;
-    jobTitle: string;
-    summary: string;
-}
+ 
