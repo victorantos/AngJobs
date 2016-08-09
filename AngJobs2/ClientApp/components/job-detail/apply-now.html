@@ -1,7 +1,10 @@
 ﻿<section class="panel panel-info">
     <div class="panel-heading">
         Apply for this job now
-        <small class="pull-right"><button type="button" (click)="applyForJob()">Submit now</button></small>
+        <small class="pull-right">
+            <button type="button" (click)="applyForJob()" *ngIf="!applied">Submit now</button>
+            <button type="button" *ngIf="applied" (click)="gotBackToJobs()">Go back to list of jobs</button>
+        </small>
     </div>
     <div class="panel-body">
 
@@ -10,7 +13,8 @@
             <div class="form-group">
                 <textarea class="form-control" [(ngModel)]="jobapplicationMsg"></textarea>
             </div>
-            <button class="btn btn-default" type="submit">Submit now</button>
+            <button class="btn btn-default" type="submit" *ngIf="!applied">Submit now</button>
+            <button class="btn btn-default" type="button" *ngIf="applied" (click)="gotBackToJobs()">Go back to list of jobs</button>
         </form>
     </div>
 </section>

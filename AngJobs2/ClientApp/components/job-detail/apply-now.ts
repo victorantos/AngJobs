@@ -1,6 +1,7 @@
 ﻿import * as ng from "@angular/core";
 import {Http, RequestOptions, Headers, Response} from "@angular/http";
 import { Observable } from 'rxjs/Observable';
+import {Router} from "@angular/router";
 
 // Statics
 import 'rxjs/add/observable/throw';
@@ -20,15 +21,17 @@ import 'rxjs/add/operator/toPromise';
 
     })
 export class ApplyNow {
-    @ng.Input() applied: boolean;
+    @ng.Input() isApplying: boolean;
     @ng.Input() jobId: number;
-    @ng.Output() appliedChange = new ng.EventEmitter();
+    @ng.Output() isApplyingChange = new ng.EventEmitter();
 
+    applied: boolean;
     jobapplicationMsg: string;
     errorMsg: any;
     applications: any;
 
-    constructor(private http: Http) {
+    constructor(private http: Http, private router: Router) {
+        this.applied = false;
     }
 
     private handleError(error: any) {
@@ -46,16 +49,22 @@ export class ApplyNow {
     }
 
     applyForJob() {
-
-        this.appliedChange.emit(false);
+        // this.isApplyingChange.emit(false);
         let application = { jobId: this.jobId, applicationMessage: this.jobapplicationMsg };
         let body = JSON.stringify(application);
         let headers = new Headers({ 'Content-Type': 'application/json' });
         let options = new RequestOptions({ headers: headers });
 
-        return this.http.post("/api/jobsdata/applyforjob", body, options) 
-            .subscribe(
-            application => this.applications = application,
-                error => this.errorMsg = <any>error);
+        return this.http.post("/api/jobsdata/applyforjob", body, options)
+            .subscribe(application => {
+                console.log(this.applied);
+                this.applied = true;
+            }
+            ,
+            error => this.errorMsg = <any>error);
+    }
+
+    gotBackToJobs() {
+        this.router.navigate(['/home']);
     }
 }
