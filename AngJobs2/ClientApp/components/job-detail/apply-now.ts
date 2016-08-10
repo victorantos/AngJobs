@@ -18,7 +18,6 @@ import 'rxjs/add/operator/toPromise';
     {
         selector: "apply-now",
         template: require('./apply-now.html')
-
     })
 export class ApplyNow {
     @ng.Input() isApplying: boolean;
@@ -35,6 +34,7 @@ export class ApplyNow {
     constructor(private http: Http, private router: Router) {
         this.applied = false;
         this.canceled = false;
+       
     }
 
     private handleError(error: any) {

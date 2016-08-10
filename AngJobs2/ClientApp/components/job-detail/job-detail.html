@@ -1,4 +1,4 @@
-﻿<section *ngIf="jobDetail!=null">
+﻿<section *ngIf="jobDetail!=null" [dynamicPadding]="topPadding">
     <h4 class="page-header jobs-page-header">
         {{jobDetail.jobTitle}}
         <small class="pull-right" *ngIf="!isApplying"><button type="button" (click)="isApplying=true">Apply Now</button></small>

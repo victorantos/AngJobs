@@ -3,11 +3,11 @@
 <p *ngIf="!hotJobs"><em>Loading...</em></p>
 <table class='table borderless' *ngIf="hotJobs">
     <tbody>
-        <tr *ngFor="let j of hotJobs">
+        <tr *ngFor="let j of hotJobs; let i = index;">
             <td >
-                <a class="list-group-item list-group-item-action" [routerLink]="['/job-detail', j.jobId ]">
+                <a class="list-group-item list-group-item-action" [routerLink]="['/job-detail', j.jobId ]" (click)="getCoordinates($event)">
                       <strong class="list-group-item-heading">{{j.jobTitle}}</strong>
-                    <p class="list-group-item-text">{{j.summary}}</p>
+                    <p class="list-group-item-text" [id]="'job-item-'+ i" >{{j.summary}}</p>
                 </a>
             </td>
         </tr>

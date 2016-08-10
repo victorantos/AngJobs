@@ -9,12 +9,14 @@ import { FormBuilder } from '@angular/common';
 import { provideRouter } from '@angular/router';
 import { HTTP_PROVIDERS } from '@angular/http';
 import { App } from './components/app/app';
+import { Helpers } from './services/helpers';
 import { routes } from './routes';
 
 bootstrap(App, [
     ...HTTP_PROVIDERS,
     FormBuilder,
-    provideRouter(routes)
+    provideRouter(routes),
+    Helpers
 ]);
 
 // Basic hot reloading support. Automatically reloads and restarts the Angular 2 app each time
