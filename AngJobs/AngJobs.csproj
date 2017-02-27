@@ -1,4 +1,4 @@
-<Project ToolsVersion="15.0" Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project ToolsVersion="15.0" Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
     <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
@@ -17,6 +17,9 @@
 
     <!-- Files not to publish (note that the 'dist' subfolders are re-added below) -->
     <Content Remove="ClientApp\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="node_modules\%40angular\material\core\theming\prebuilt\deeppurple-amber.css" />
   </ItemGroup>
   <Target Name="RunWebpack" AfterTargets="ComputeFilesToPublish">
     <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
