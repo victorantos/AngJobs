@@ -103,5 +103,6 @@ Testimonials
 ===
 +   "*Really like how it works. Extremely easy to use, straight forward, and as a job board being able to attach LinkedIn/CV/etc right on the job page is a what you want in something like this. Great job.*"  by Redditor FlatTextOnAScreen
 
-==I am on Stackoverflow==
-@AngJobs
+I am on Stackoverflow
+==
+Username @AngJobs
