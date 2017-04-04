@@ -106,3 +106,5 @@ Testimonials
 I am on Stackoverflow
 ==
 Username @AngJobs
+
+![](http://angjobs.com/github-AngJobs--stackoverflow-reputation.jpg)
