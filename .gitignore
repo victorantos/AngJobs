@@ -212,3 +212,5 @@ AngJobs.Android/Web.Release.config
 *.db
 /.vs/config
 /AngJobs2.sln
+/.vs/slnx.sqlite
+/AngJobs/bower_components
