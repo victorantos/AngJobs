@@ -17,8 +17,22 @@
     </md-toolbar>
 
     <div class="app-content">
+        <md-card>
+           <jobslist></jobslist>
+        </md-card>
         <router-outlet>
 
+            <md-list role="list" aria-hidden="false">
+
+                <md-divider></md-divider>
+
+                <div class="md-no-sticky md-subheader _md" role="heading" aria-level="2">  <div class="md-subheader-inner">    <div class="md-subheader-content"><span class="ng-scope">Secondary Buttons</span></div>  </div></div>
+                <md-list-item class="secondary-button-padding md-no-proxy md-with-secondary _md" role="listitem">
+                    <p>Clicking the button to the right will fire the secondary action</p>
+
+                    <div class="md-secondary-container"><button class="md-secondary md-button md-ink-ripple" type="button" ng-transclude="" ng-click="doSecondaryAction($event)"><span class="ng-scope">More Info</span></button></div>
+                </md-list-item>
+            </md-list>
 
         </router-outlet>
         <md-card>
@@ -44,9 +58,9 @@
         <md-card class="app-input-section">
             <md-input-container>
                 <input mdInput placeholder="First name" />
-                
+
                 <input mdInput #nickname placeholder="Nickname" maxlength="50" />
-                
+
             </md-input-container>
         </md-card>
 

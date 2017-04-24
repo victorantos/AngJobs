@@ -9,6 +9,8 @@ import { CounterComponent } from './components/counter/counter.component';
 import { DialogContent } from './components/app/dialogcontent'
 import { MaterialModule } from '@angular/material';
 
+import { JobsListComponent } from './components/app/jobslist.component';
+
 @NgModule({
     bootstrap: [ AppComponent ],
     declarations: [
@@ -17,7 +19,8 @@ import { MaterialModule } from '@angular/material';
         CounterComponent,
         FetchDataComponent,
         HomeComponent,
-        DialogContent
+        DialogContent,
+        JobsListComponent
     ],
     entryComponents: [DialogContent],
     imports: [
