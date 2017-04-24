@@ -1,0 +1,20 @@
+﻿<section class="panel" [ngClass]="applied ? 'panel-success': 'panel-info'">
+    <div class="panel-heading">
+        <span *ngIf="!applied">Apply for this job now</span>
+        <span *ngIf="applied">You applied for this job!</span>
+        <small class="pull-right">
+            <button type="button" (click)="applyForJob()" *ngIf="!applied">Submit now</button>
+            <button type="button" *ngIf="applied" (click)="gotBackToJobs()">Go back to list of jobs</button>
+        </small>
+    </div>
+    <div class="panel-body">
+        <form (submit)="applyForJob()">
+            <div class="form-group">
+                <textarea class="form-control" [(ngModel)]="jobapplicationMsg" [disabled]="applied"></textarea>
+            </div>
+            <button class="btn btn-default" type="submit" *ngIf="!applied">Submit now</button>
+            <button class="btn btn-default" type="button" *ngIf="applied || canceled" (click)="gotBackToJobs()">Go back to list of jobs</button>
+            <button class="btn btn-default" type="button" *ngIf="!applied" (click)="cancel()">Cancel</button>
+        </form>
+    </div>
+</section>
