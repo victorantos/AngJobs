@@ -19,6 +19,11 @@
     <Content Remove="ClientApp\**" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Remove="Models\JobsContext.cs" />
+    <Compile Remove="Models\JobsContextSeedData.cs" />
+    <Compile Remove="Models\JobsRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="node_modules\%40angular\material\core\theming\prebuilt\deeppurple-amber.css" />
   </ItemGroup>
   <Target Name="RunWebpack" AfterTargets="ComputeFilesToPublish">

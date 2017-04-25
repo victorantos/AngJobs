@@ -1,25 +1,26 @@
 import { Component, Optional } from '@angular/core';
-
+import { Http } from '@angular/http'
+import { Job } from '../../model/Job';
 
 @Component({
     selector: 'jobslist',
     templateUrl: './jobslist.component.html'
 })
 export class JobsListComponent {
-    folders = [
-        {
-            name: 'Photos',
-            updated: new Date('1/1/16'),
-        },
-        {
-            name: 'Recipes',
-            updated: new Date('1/17/16'),
-        },
-        {
-            name: 'Work',
-            updated: new Date('1/28/16'),
-        }
-    ];
+    public selectedJob: Job;
+    public jobs: Job[];
+
+    constructor(private http: Http) {
+        http.get('/api/SampleData/GetJobs').subscribe(result => {
+            this.jobs = result.json() as Job[];
+        });
+    }
+
+    onSelect(job: Job): void {
+        this.selectedJob = job;
+        console.log("Selected item:", job);
+    }
+
     notes = [
         {
             name: 'Vacation Itinerary',

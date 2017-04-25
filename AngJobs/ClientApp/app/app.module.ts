@@ -10,6 +10,8 @@ import { DialogContent } from './components/app/dialogcontent'
 import { MaterialModule } from '@angular/material';
 
 import { JobsListComponent } from './components/app/jobslist.component';
+import { JobComponent } from './components/jobs/job.component';
+import { SharedService } from "./services/shared.service";
 
 @NgModule({
     bootstrap: [ AppComponent ],
@@ -20,7 +22,8 @@ import { JobsListComponent } from './components/app/jobslist.component';
         FetchDataComponent,
         HomeComponent,
         DialogContent,
-        JobsListComponent
+        JobsListComponent,
+        JobComponent
     ],
     entryComponents: [DialogContent],
     imports: [
@@ -30,10 +33,13 @@ import { JobsListComponent } from './components/app/jobslist.component';
             { path: 'home', component: HomeComponent },
             { path: 'counter', component: CounterComponent },
             { path: 'fetch-data', component: FetchDataComponent },
+            { path: "job/:id", component: JobComponent },
             { path: '**', redirectTo: 'home' }
+           
         ]),
         MaterialModule
-    ]
+    ],
+    providers: [SharedService]
 })
 export class AppModule {
 }
