@@ -10,13 +10,22 @@ export class SharedService {
 
     public GetRandomOfficeImage(): Observable<FlickrPhoto> {
         let imgUrl = null;
-        let officeImgs = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=ca370d51a054836007519a00ff4ce59e&text=office+space+desk&extras=url_m&per_page=10&format=json&nojsoncallback=1";
+        let itemsPerPage = 30;
+        let officeImgs = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=ca370d51a054836007519a00ff4ce59e&text=office+space+desk&extras=url_m"
+            + "&per_page=" + itemsPerPage
+            + "&format=json&nojsoncallback=1";
 
         return this.http.get(officeImgs)
             .map((result: Response) =>
-                result.json().photos.photo[0]
+                result.json().photos.photo[getRandomInt(0, itemsPerPage-1)]
             )
             .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
+
+        function getRandomInt(min, max) {
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min)) + min;
+        }
     }
 }
 
