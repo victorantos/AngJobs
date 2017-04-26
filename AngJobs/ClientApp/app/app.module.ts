@@ -14,6 +14,7 @@ import { JobApplicationDialog } from './components/jobs/jobapplication.dialog';
 import { JobsListComponent } from './components/app/jobslist.component';
 import { JobComponent } from './components/jobs/job.component';
 import { SharedService } from "./services/shared.service";
+import { FileSelectDirective } from 'ng2-file-upload';
 
 @NgModule({
     bootstrap: [ AppComponent ],
@@ -26,7 +27,8 @@ import { SharedService } from "./services/shared.service";
         DialogContent,
         JobsListComponent,
         JobComponent,
-        JobApplicationDialog
+        JobApplicationDialog,
+        FileSelectDirective
     ],
     entryComponents: [DialogContent, JobApplicationDialog],
     imports: [
