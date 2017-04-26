@@ -1,0 +1,70 @@
+﻿<h1 md-dialog-title>Job application</h1>
+<div md-dialog-content>
+    <form class="example-form">
+        <md-input-container class="example-full-width">
+            <input mdInput placeholder="Job title" disabled value="Software Engineer for Infosys">
+        </md-input-container>
+        <table class="example-full-width" cellspacing="0">
+            <tr>
+                <td>
+                    <md-input-container class="example-full-width">
+                        <input mdInput placeholder="Your email">
+                    </md-input-container>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <md-input-container class="example-full-width">
+                        <input mdInput placeholder="Your name">
+                    </md-input-container>
+
+                </td>
+            </tr>
+        </table>
+
+        <p>
+            <md-input-container class="example-full-width">
+                <textarea mdInput placeholder="Message"></textarea>
+            </md-input-container>
+        </p>
+
+        <table class="example-full-width" cellspacing="0">
+            <tr>
+                <td>
+                    <md-list>
+                        <md-list-item>
+                            <label md-mini-fab md-list-icon [md-tooltip]="'Attach CV'" style="cursor:pointer">
+                                <md-icon class="md-24">attachment</md-icon>
+                                <input #file type="file" [style.display]="'none'" ng2FileSelect [uploader]="uploader" >
+                            </label>
+                            <h4 md-line>Attach CV</h4>
+                        </md-list-item>
+                        <md-list-item *ngIf="file.value">
+                            <table class="table table-condensed">
+                                <tbody>
+                                    <tr md-line *ngFor="let item of uploader.queue">
+                                        <td>{{ item?.file?.name }} ({{item?.progress}}%)</td>
+                                        <td nowrap>{{ (item?.file?.size/1024/1024).toFixed(2) }}MB</td>
+                                        <td class="text-center">
+                                            <span *ngIf="item.isSuccess"><i class="glyphicon glyphicon-ok"></i></span>
+                                            <span *ngIf="item.isCancel"><i class="glyphicon glyphicon-ban-circle"></i></span>
+                                            <span *ngIf="item.isError"><i class="glyphicon glyphicon-remove"></i></span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </md-list-item>
+                    </md-list>
+
+                   
+
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+<div md-dialog-actions>
+    
+    <button md-button (click)="dialogRef.close('Option 1')">Cancel</button>
+    <button md-raised-button color="primary" (click)="dialogRef.close('Option 2')">Send</button>
+</div>
