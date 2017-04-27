@@ -11,10 +11,10 @@ const URL = '/api/upload';
 })
 export class JobApplicationDialog {
     public uploader: FileUploader = new FileUploader({ url: URL, autoUpload: true });
-
+    public fullName: string;
+    public emailAddress: string;
+    public message: string;
     constructor(public dialogRef: MdDialogRef<JobApplicationDialog>) {
     }
-
-
-
+     
 }
