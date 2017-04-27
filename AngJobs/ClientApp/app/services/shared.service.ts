@@ -8,6 +8,13 @@ export class SharedService {
     constructor(private http: Http) {
     }
 
+    public ApplyForJob(data: any): Observable<any>
+    {
+        let url = "/api/Jobs"
+        return this.http.post(url, data)
+            .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
+    }
+
     public GetRandomOfficeImage(): Observable<FlickrPhoto> {
         let imgUrl = null;
         let itemsPerPage = 30;

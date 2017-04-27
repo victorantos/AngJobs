@@ -23,11 +23,25 @@ export class JobComponent implements OnInit {
         this.officePhoto = this.sharedService.GetRandomOfficeImage();
     }
 
+    applyForJob(dialogForm: JobApplicationDialog) {
+        let data = {
+            message: dialogForm.message,
+            applicant: {
+                name: dialogForm.fullName,
+                email: dialogForm.emailAddress,
+            }
+        
+        };
+
+        this.sharedService.ApplyForJob(data).subscribe(result => console.log(result));
+    }
+
     openJobApplication()
     {
         let dialogRef = this.dialog.open(JobApplicationDialog);
         dialogRef.afterClosed().subscribe(result => {
-            //this.selectedOption = result;
+            if (result == "send")
+                this.applyForJob(dialogRef.componentInstance);
         });
     }
 }
