@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using AngJobs.Models;
+using AngJobs.DataAccess;
 
 namespace AngJobs.Controllers
 {
@@ -21,9 +22,9 @@ namespace AngJobs.Controllers
 
         // GET: api/Jobs/5
         [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
+        public Job Get(int id)
         {
-            return "value";
+            return DAL.GetJobById(id);
         }
         
         // POST: api/Jobs
