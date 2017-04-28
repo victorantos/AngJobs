@@ -1,24 +1,31 @@
-import { Component, Optional } from '@angular/core';
-import { Http } from '@angular/http'
-import { Job } from '../../model/Job';
+import { Component, Optional, OnInit } from '@angular/core';
+import { SharedService } from '../../services/shared.service';
+import { JobDetail } from '../../model/JobDetail';
 
 @Component({
     selector: 'jobslist',
     templateUrl: './jobslist.component.html'
 })
-export class JobsListComponent {
-    public selectedJob: Job;
-    public jobs: Job[];
+export class JobsListComponent implements OnInit {
+    public selectedJob: JobDetail;
+    public jobs: JobDetail[];
 
-    constructor(private http: Http) {
-        http.get('/api/SampleData/GetJobs').subscribe(result => {
-            this.jobs = result.json() as Job[];
-        });
+    constructor(private sharedService: SharedService) {
+        console.log("jobs constructor");
     }
 
-    onSelect(job: Job): void {
+    onSelect(job: JobDetail): void {
         this.selectedJob = job;
         console.log("Selected item:", job);
+    }
+    getJobs(): void {
+        this.sharedService.GetJobs().then(result =>  
+             this.jobs = result
+        );
+    }
+
+    ngOnInit(): void{
+        this.getJobs();
     }
 
     notes = [

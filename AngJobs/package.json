@@ -47,7 +47,8 @@
     "webpack-hot-middleware": "^2.12.2",
     "webpack-merge": "^0.14.1",
     "zone.js": "^0.7.7",
-    "ng2-file-upload": "^1.2.1"
+    "ng2-file-upload": "^1.2.1",
+    "immutable": "^3.8.1"
   },
   "devDependencies": {
     "@types/chai": "^3.4.34",

@@ -30,5 +30,22 @@ namespace AngJobs.DataAccess
                        };
             return jobs;
         }
+
+        public static Job GetJobById(int id)
+        {
+            var data = Helpers.LoadJson();
+
+            var jobs = from j in data
+                       where (int)j["id"] == id
+                       select new Job
+                       {
+                           Id = (int)j["id"],
+                           JobTitle = (string)j["jobTitle"],
+                           Summary = (string)j["shortDescription"],
+                           Location = (string)j["jobLocation"],
+                           DateCreated = Convert.ToDateTime((string)j["datePosted"])
+                       };
+            return jobs.FirstOrDefault();
+        }
     }
 }

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Http } from '@angular/http'
-import { Job } from '../../model/Job';
+import { JobDetail } from '../../model/JobDetail';
 
 @Component({
     selector: 'home',
