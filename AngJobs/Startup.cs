@@ -8,7 +8,8 @@ using Microsoft.AspNetCore.SpaServices.Webpack;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.WebUtilities;
 namespace AngJobs
 {
     public class Startup
@@ -61,7 +62,7 @@ namespace AngJobs
                 routes.MapSpaFallbackRoute(
                     name: "spa-fallback",
                     defaults: new { controller = "Home", action = "Index" });
-            });
+            }); 
         }
     }
 }

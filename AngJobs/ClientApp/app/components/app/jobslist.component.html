@@ -5,11 +5,13 @@
         <h4 md-line>{{j.jobTitle}}</h4>
         <p md-line> {{j.summary}} </p>
     </a>
-    <md-divider></md-divider>
-    <h3 md-subheader>Notes</h3>
-    <md-list-item *ngFor="let note of notes">
-        <md-icon md-list-avatar>note</md-icon>
-        <h4 md-line>{{note.name}}</h4>
-        <p md-line> {{note.updated | date}} </p>
-    </md-list-item>
+    <div style="display:none">
+        <md-divider></md-divider>
+        <h3 md-subheader>Recenly applied</h3>
+        <md-list-item *ngFor="let note of notes">
+            <md-icon md-list-avatar>note</md-icon>
+            <h4 md-line>{{note.name}}</h4>
+            <p md-line> {{note.updated | date}} </p>
+        </md-list-item>
+    </div>
 </md-list>
