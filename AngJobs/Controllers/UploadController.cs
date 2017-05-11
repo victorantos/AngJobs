@@ -21,20 +21,22 @@ namespace AngJobs.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Post(IFormFile file)
+        public async Task<ActionResult> Post(IFormFile file, [FromQuery]int jobId)
         {
             try
             {
                 if (file != null && file.Length > 0)
                 {
-                    var savePath = Path.Combine(_hostingEnvironment.ContentRootPath, @"data\uploads", file.FileName);
+                    var guid = Guid.NewGuid().ToString("N");
+                    var savedFileName = guid + "--" + file.FileName;
+                    var savePath = Path.Combine(_hostingEnvironment.ContentRootPath, @"data\uploads", savedFileName);
 
                     using (var fileStream = new FileStream(savePath, FileMode.Create))
                     {
                         await file.CopyToAsync(fileStream);
                     }
 
-                    return Created(savePath, file);
+                    return Created(savePath, guid);
                 }
                 return BadRequest();
             }

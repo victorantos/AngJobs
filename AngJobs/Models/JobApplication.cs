@@ -15,6 +15,7 @@ namespace AngJobs.Models
         public int Id { get; set; }
         public int JobId { get; set; }
         public string Message { get; set; }
+        public List<string> UploadedDocs { get; set; }
         public DateTime DateCreated { get; set; }
 
         public virtual Applicant Applicant { get; set; }
