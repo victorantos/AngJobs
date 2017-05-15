@@ -1,6 +1,6 @@
 ==(*update: this page needs updating, some info below might be not be relevant any more,
 
-*major changes checked in, Angular 2 and Material 2, requireing to **rewrite** all application components - no migration*)==
+*major changes checked in, Angular 2 and Material 2, requiring to **rewrite** all application components - no migration*)==
 
 AngJobs - job board for developers
 =======
