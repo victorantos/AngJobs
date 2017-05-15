@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using AngJobs.Models;
 using AngJobs.DataAccess;
+using Newtonsoft.Json;
+using System.IO;
 
 namespace AngJobs.Controllers
 {
@@ -32,6 +34,11 @@ namespace AngJobs.Controllers
         public void Post([FromBody]JobApplication jobApplication)
         {
             //TODO save the job application
+            jobApplication.Job = DAL.GetJobById(jobApplication.JobId);
+
+            string json = JsonConvert.SerializeObject(jobApplication);
+            // write string to file
+            System.IO.File.WriteAllText("./data/jobApplications/" + jobApplication.JobId+ "--"+ Guid.NewGuid() +".json", json);
         }
         
         // PUT: api/Jobs/5
