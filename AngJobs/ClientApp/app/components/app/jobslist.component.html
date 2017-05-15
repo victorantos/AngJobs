@@ -2,8 +2,8 @@
     <h3 md-subheader>Jobs</h3>
     <a md-list-item *ngFor="let j of jobs" [routerLink]="['/job',j.id]">
         <md-icon md-list-avatar>label</md-icon>
-        <h4 md-line>{{j.jobTitle}}</h4>
-        <p md-line> {{j.summary}} </p>
+        <h4 md-line [innerHtml]="j.jobTitle"></h4>
+        <p md-line [innerHtml]="j.summary"></p>
     </a>
     <div style="display:none">
         <md-divider></md-divider>

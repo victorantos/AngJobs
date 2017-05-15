@@ -1,6 +1,6 @@
 ﻿import { Component, Input, OnInit } from "@angular/core";
 import { Http } from "@angular/http";
-import { ActivatedRoute, Params } from "@angular/router";
+import { ActivatedRoute, Params, Router } from "@angular/router";
 import { SharedService } from "../../services/shared.service";
 import { FlickrPhoto } from "../../model/FlickrPhoto";
 import { Observable } from "rxjs/Observable";
@@ -22,13 +22,12 @@ export class JobComponent implements OnInit {
 
     constructor(private http: Http, public dialog: MdDialog,
         private sharedService: SharedService,
-        private route: ActivatedRoute)
+        private route: ActivatedRoute, private router: Router)
     {
     }
 
     ngOnInit() : void
     {
-        console.log("ngoninit");
         this.officePhoto = this.sharedService.GetRandomOfficeImage();
 
         this.route.params.subscribe(params => {
@@ -76,5 +75,10 @@ export class JobComponent implements OnInit {
             if (result == "send")
                 this.applyForJob(dialogRef.componentInstance);
         });
+    }
+     
+    goBack()
+    {
+        this.router.navigate(['../'], { relativeTo: this.route });
     }
 }
