@@ -35,6 +35,7 @@
     <Content Include="node_modules\%40angular\material\core\theming\prebuilt\deeppurple-amber.css" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="data\jobApplications\" />
     <Folder Include="data\uploads\" />
   </ItemGroup>
   <Target Name="RunWebpack" AfterTargets="ComputeFilesToPublish">

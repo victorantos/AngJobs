@@ -42,6 +42,7 @@ export class JobComponent implements OnInit {
 
     applyForJob(dialogForm: JobApplicationDialog) {
         let data = {
+            jobId: this.jobId,
             message: dialogForm.message,
             uploadedDocs: dialogForm.uploadIds,
             applicant: {
