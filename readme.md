@@ -1,4 +1,6 @@
-==(*update: this page needs updating, some info below might be not be relevant any more*)==
+==(*update: this page needs updating, some info below might be not be relevant any more,
+
+major changes checked in, Angular 2 and Material 2*)==
 
 AngJobs - job board for developers
 =======
