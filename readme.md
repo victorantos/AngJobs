@@ -4,8 +4,7 @@ AngJobs - job board for developers
 =======
 
 Looking for an old demo? - check [AngJobs.com](http://AngJobs.com)
-
-*update: current repository matches live website, additionally it automatically imports about 500 real jobs when you run it for the first time!*
+ 
 
 First run
 =======
