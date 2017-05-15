@@ -1,4 +1,4 @@
-==update: this page needs updating, some info below might be not be relevant any more==
+==(*update: this page needs updating, some info below might be not be relevant any more*)==
 
 AngJobs - job board for developers
 =======
