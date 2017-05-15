@@ -2,17 +2,16 @@
 <md-card class="example-card" *ngIf="jobDetail">
     <md-card-header>
         <div md-card-avatar class="example-header-image"></div>
-        <md-card-title>{{jobDetail.jobTitle}}</md-card-title>
+        <md-card-title [innerHtml]="jobDetail.jobTitle"></md-card-title>
         <md-card-subtitle>{{jobDetail.location}}</md-card-subtitle>
     </md-card-header>
     <img md-card-image style="max-width: 640px" [src]="(officePhoto | async)?.url_m">
     <md-card-content>
-        <p>
-           {{jobDetail.summary}}
+        <p [innerHtml]="jobDetail.summary">
         </p>
     </md-card-content>
     <md-card-actions>
-        <button md-button>SHARE</button>
+        <button md-button (click)="goBack()">BACK</button>
         <button md-button (click)="openJobApplication()">APPLY FOR JOB</button>
     </md-card-actions>
 </md-card>
