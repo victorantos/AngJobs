@@ -1,6 +1,6 @@
 import { Component, Optional } from '@angular/core';
 import { MdSnackBar, MdDialog, MdDialogRef, MdInputContainer, MdInputDirective } from '@angular/material';
- 
+
 import { DialogContent } from './dialogcontent';
 import { JobsListComponent } from './jobslist.component';
 
@@ -8,7 +8,7 @@ import { JobsListComponent } from './jobslist.component';
     selector: 'app',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.css'],
-    
+
 })
 export class AppComponent {
     isDarkTheme: boolean = false;
@@ -19,7 +19,7 @@ export class AppComponent {
         { name: 'Burritos', rating: 'Great' },
         { name: 'French fries', rating: 'Pretty good' },
     ];
-   
+
     progress: number = 0;
 
     constructor(private _dialog: MdDialog, private _snackbar: MdSnackBar) {

@@ -35,8 +35,6 @@ Obj/
 # Workaround for https://github.com/aspnet/JavaScriptServices/issues/235
 !/wwwroot/dist/_placeholder.txt
 !/ClientApp/dist/_placeholder.txt
-
-
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
@@ -49,10 +47,6 @@ TestResult.xml
 [Dd]ebugPS/
 [Rr]eleasePS/
 dlldata.c
-
-# DNX
-project.lock.json
-artifacts/
 
 *_i.c
 *_p.c
@@ -193,10 +187,7 @@ ClientBin/
 *.publishsettings
 orleans.codegen.cs
 
-# Workaround for https://github.com/aspnet/JavaScriptServices/issues/235
-/node_modules/**
-!/node_modules/_placeholder.txt
-
+/node_modules
 /yarn.lock
 
 # RIA/Silverlight projects

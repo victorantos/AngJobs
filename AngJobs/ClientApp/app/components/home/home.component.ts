@@ -7,5 +7,5 @@ import { JobDetail } from '../../model/JobDetail';
     templateUrl: './home.component.html'
 })
 export class HomeComponent {
-   
+
 }
