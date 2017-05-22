@@ -19,6 +19,9 @@ export class JobComponent implements OnInit {
     jobDetail: JobDetail;
     jobId: number;
     officePhoto: Observable<FlickrPhoto>;
+    dialogRef: MdDialogRef<JobApplicationDialog>;
+    applyText: string = 'APPLY FOR JOB';
+    disableApplyButton: boolean = false;
 
     constructor(private http: Http, public dialog: MdDialog,
         private sharedService: SharedService,
@@ -51,7 +54,10 @@ export class JobComponent implements OnInit {
         
         };
 
-        this.sharedService.ApplyForJob(data).subscribe(result => console.log(result));
+        this.sharedService.ApplyForJob(data).subscribe(result => {
+            this.applyText = "APPLIED";
+            this.disableApplyButton = true;
+        });
     }
 
     openJobApplication()
@@ -70,10 +76,12 @@ export class JobComponent implements OnInit {
                 jobId: this.jobId
             }
         };
-        let dialogRef = this.dialog.open(JobApplicationDialog, config);
-        dialogRef.afterClosed().subscribe(result => {
-            if (result == "send")
-                this.applyForJob(dialogRef.componentInstance);
+        this.dialogRef = this.dialog.open(JobApplicationDialog, config);
+        this.dialogRef.afterClosed().subscribe(result => {
+            if (result != 'cancel') {
+                this.applyForJob(result);
+                this.dialogRef = null;
+            }
         });
     }
      

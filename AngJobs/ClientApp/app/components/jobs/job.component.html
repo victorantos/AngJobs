@@ -12,6 +12,6 @@
     </md-card-content>
     <md-card-actions>
         <button md-button (click)="goBack()">BACK</button>
-        <button md-button (click)="openJobApplication()">APPLY FOR JOB</button>
+        <button md-button (click)="openJobApplication()" [disabled]="disableApplyButton">{{applyText}}</button>
     </md-card-actions>
 </md-card>
