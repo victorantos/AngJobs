@@ -2,7 +2,23 @@
 <md-sidenav-container>
 
     <md-sidenav #sidenav mode="side" class="app-sidenav">
-        Menu
+
+        <button md-button [mdMenuTriggerFor]="menu">MY JOBS</button>
+        <md-menu #menu="mdMenu">
+            <button md-menu-item>List of job applications</button>
+        </md-menu>
+        <hr />
+        <button md-button [mdMenuTriggerFor]="menu2">MY JOB POSTS</button>
+        <md-menu #menu2="mdMenu">
+            <button md-menu-item>New Job</button>
+            <button md-menu-item>List of Jobs</button>
+        </md-menu>
+        <hr />
+        <button md-button [mdMenuTriggerFor]="menu3">MY RESUME</button>
+        <md-menu #menu3="mdMenu">
+            <button md-menu-item>Update my CV</button>
+            <button md-menu-item>Upload new CV</button>
+        </md-menu>
     </md-sidenav>
 
     <md-toolbar color="primary">

@@ -43,21 +43,22 @@ export class JobComponent implements OnInit {
     }
 
     applyForJob(dialogForm: JobApplicationDialog) {
-        let data = {
-            jobId: this.jobId,
-            message: dialogForm.message,
-            uploadedDocs: dialogForm.uploadIds,
-            applicant: {
-                name: dialogForm.fullName,
-                email: dialogForm.emailAddress,
-            }
-        
-        };
+        if (dialogForm && dialogForm.emailAddress) {
+            let data = {
+                jobId: this.jobId,
+                message: dialogForm.message,
+                uploadedDocs: dialogForm.uploadIds,
+                applicant: {
+                    name: dialogForm.fullName,
+                    email: dialogForm.emailAddress,
+                }
+            };
 
-        this.sharedService.ApplyForJob(data).subscribe(result => {
-            this.applyText = "APPLIED";
-            this.disableApplyButton = true;
-        });
+            this.sharedService.ApplyForJob(data).subscribe(result => {
+                this.applyText = "APPLIED";
+                this.disableApplyButton = true;
+            });
+        }
     }
 
     openJobApplication()
@@ -78,7 +79,7 @@ export class JobComponent implements OnInit {
         };
         this.dialogRef = this.dialog.open(JobApplicationDialog, config);
         this.dialogRef.afterClosed().subscribe(result => {
-            if (result != 'cancel') {
+            if (result != undefined && result != 'cancel') {
                 this.applyForJob(result);
                 this.dialogRef = null;
             }
