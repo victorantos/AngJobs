@@ -5,7 +5,9 @@
         <md-card-title [innerHtml]="jobDetail.jobTitle"></md-card-title>
         <md-card-subtitle>{{jobDetail.location}}</md-card-subtitle>
     </md-card-header>
-    <img md-card-image style="max-width: 640px" [src]="(officePhoto | async)?.url_m">
+     
+        <img md-card-image style="max-width: 640px; max-height:640px" [src]="(officePhoto | async)?.url_m">
+     
     <md-card-content>
         <p [innerHtml]="jobDetail.summary">
         </p>

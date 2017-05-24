@@ -19,8 +19,7 @@ import { SharedService } from "./services/shared.service";
     ], 
     entryComponents: sharedConfig.entryComponents,
     providers: [
-        SharedService,
-        { provide: 'ORIGIN_URL', useValue: location.origin }
+        SharedService 
     ]
 })
 export class AppModule {
