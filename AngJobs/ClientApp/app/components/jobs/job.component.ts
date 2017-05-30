@@ -43,7 +43,7 @@ export class JobComponent implements OnInit {
     }
 
     applyForJob(dialogForm: JobApplicationDialog) {
-        if (dialogForm && dialogForm.emailAddress) {
+        if (dialogForm && (dialogForm.emailAddress || dialogForm.uploadIds)) {
             let data = {
                 jobId: this.jobId,
                 message: dialogForm.message,

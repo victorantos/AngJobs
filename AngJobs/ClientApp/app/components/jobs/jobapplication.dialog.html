@@ -7,33 +7,11 @@
         <table class="example-full-width" cellspacing="0">
             <tr>
                 <td>
-                    <md-input-container class="example-full-width">
-                        <input mdInput #email placeholder="Your email" (keyup)="emailAddress=email.value">
-                    </md-input-container>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <md-input-container class="example-full-width">
-                        <input mdInput #nameInput placeholder="Your name" (keyup)="fullName=nameInput.value">
-                    </md-input-container>
-                </td>
-            </tr>
-        </table>
-        <p>
-            <md-input-container class="example-full-width">
-                <textarea mdInput #msg placeholder="Message"(keyup)="message=msg.value"></textarea>
-            </md-input-container>
-        </p>
-
-        <table class="example-full-width" cellspacing="0">
-            <tr>
-                <td>
                     <md-list>
                         <md-list-item>
                             <label md-mini-fab md-list-icon [md-tooltip]="'Attach CV'" style="cursor:pointer">
                                 <md-icon class="md-24">attachment</md-icon>
-                                <input #file type="file" [style.display]="'none'" ng2FileSelect [uploader]="uploader" >
+                                <input #file type="file" [style.display]="'none'" ng2FileSelect [uploader]="uploader">
                             </label>
                             <h4 md-line>Attach CV</h4>
                         </md-list-item>
@@ -53,16 +31,33 @@
                             </table>
                         </md-list-item>
                     </md-list>
-
-                   
-
                 </td>
             </tr>
         </table>
+        <table class="example-full-width" cellspacing="0">
+            <tr>
+                <td>
+                    <md-input-container class="example-full-width">
+                        <input mdInput #email placeholder="Your email" (keyup)="emailAddress=email.value">
+                    </md-input-container>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <md-input-container class="example-full-width">
+                        <input mdInput #nameInput placeholder="Your name" (keyup)="fullName=nameInput.value">
+                    </md-input-container>
+                </td>
+            </tr>
+        </table>
+        <p>
+            <md-input-container class="example-full-width">
+                <textarea mdInput #msg placeholder="Message"(keyup)="message=msg.value"></textarea>
+            </md-input-container>
+        </p>
     </form>
 </div>
 <div md-dialog-actions>
-    
     <button md-button (click)="dialogRef.close('cancel')">Cancel</button>
     <button md-raised-button color="primary" (click)="dialogRef.close(this)">Send</button>
 </div>
