@@ -14,7 +14,7 @@ namespace AngJobs.Controllers
         [HttpGet("[action]")]
         public IEnumerable<Job> GetJobs()
         {
-            var jobs = DAL.LoadJobs(90);
+            var jobs = DAL.LoadJobs(365);
             return jobs;
         }
     }
