@@ -10,7 +10,8 @@ import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule, MatCheckboxModule } from '@angular/material';
+import { MatButtonModule, MatCheckboxModule, MatGridListModule, MatCardModule, MatMenuModule, MatIconModule } from '@angular/material';
+import { MyDashComponent } from './my-dash/my-dash.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MatButtonModule, MatCheckboxModule } from '@angular/material';
     NavMenuComponent,
     HomeComponent,
     CounterComponent,
-    FetchDataComponent
+    FetchDataComponent,
+    MyDashComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -30,7 +32,7 @@ import { MatButtonModule, MatCheckboxModule } from '@angular/material';
       { path: 'fetch-data', component: FetchDataComponent },
     ]),
     BrowserAnimationsModule,
-    MatButtonModule, MatCheckboxModule
+    MatButtonModule, MatCheckboxModule, MatGridListModule, MatCardModule, MatMenuModule, MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
