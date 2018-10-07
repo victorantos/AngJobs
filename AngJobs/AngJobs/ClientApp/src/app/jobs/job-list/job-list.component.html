@@ -1,0 +1,14 @@
+
+<div class="row">
+  <div class="col-xs-12">
+    <button class="btn btn-primary">Add job</button>
+    <hr />
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+   
+    <app-job-item [job]="jobEl"  *ngFor="let jobEl of jobs"  (jobSelected)="onJobSelected(jobEl)" ></app-job-item>
+  </div>
+</div>
+

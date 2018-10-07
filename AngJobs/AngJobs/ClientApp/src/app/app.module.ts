@@ -5,6 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
@@ -13,27 +14,30 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule, MatCheckboxModule, MatGridListModule, MatCardModule, MatMenuModule, MatIconModule } from '@angular/material';
 import { MyDashComponent } from './my-dash/my-dash.component';
 import { MatListModule } from '@angular/material/list';
-import { JobDetailComponent } from './job-detail/job-detail.component';
-import { JobListComponent } from './job-list/job-list.component';
-import { JobCreateComponent } from './job-create/job-create.component';
-import { JobApplyComponent } from './job-apply/job-apply.component';
-import { JobSearchComponent } from './job-search/job-search.component';
-import { JobApplicationsComponent } from './job-applications/job-applications.component';
+import { JobsComponent } from './jobs/jobs.component';
+import { JobListComponent } from './jobs/job-list/job-list.component';
+import { JobItemComponent } from './jobs/job-list/job-item/job-item.component';
+import { JobDetailComponent } from './jobs/job-detail/job-detail.component';
+import { JobApplicationComponent } from './jobs/job-application/job-application.component';
+import { RecommendationListComponent } from './recommendation-list/recommendation-list.component';
+import { RecommendationEditComponent } from './recommendation-list/recommendation-edit/recommendation-edit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    HeaderComponent,
     NavMenuComponent,
     HomeComponent,
     CounterComponent,
     FetchDataComponent,
     MyDashComponent,
-    JobDetailComponent,
+    JobsComponent,
     JobListComponent,
-    JobCreateComponent,
-    JobApplyComponent,
-    JobSearchComponent,
-    JobApplicationsComponent
+    JobItemComponent,
+    JobDetailComponent,
+    JobApplicationComponent,
+    RecommendationListComponent,
+    RecommendationEditComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -43,12 +47,7 @@ import { JobApplicationsComponent } from './job-applications/job-applications.co
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
-      { path: 'job-detail', component: JobDetailComponent },
-      { path: 'job-list', component: JobListComponent },
-      { path: 'job-create', component: JobCreateComponent },
-      { path: 'job-apply', component: JobApplyComponent },
-      { path: 'job-applications', component: JobApplicationsComponent },
-    ]),
+    ], { useHash: false }),
     BrowserAnimationsModule,
     MatButtonModule, MatCheckboxModule, MatGridListModule, MatCardModule, MatMenuModule, MatIconModule, MatListModule
   ],

@@ -1,0 +1,9 @@
+<a href="#" class="list-group-item clearfix" (click)="onSelect()">
+  <div class="pull-left">
+    <h4 class="list-group-item-heading">{{job.title}}</h4>
+    <p class="list-group-item-text">{{job.description}}</p>
+  </div>
+  <span class="pull-right">
+    <img [src]="job.imagePath" [alt]="job.title" class="img-responsive" style="max-height: 50px" />
+  </span>
+</a>

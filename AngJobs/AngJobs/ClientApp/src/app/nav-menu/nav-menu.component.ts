@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-nav-menu',
@@ -7,7 +7,11 @@ import { Component } from '@angular/core';
 })
 export class NavMenuComponent {
   isExpanded = false;
+  @Output() featureSelected = new EventEmitter<string>();
 
+  onSelect(feature: string) {
+    this.featureSelected.emit(feature);
+  }
   collapse() {
     this.isExpanded = false;
   }
