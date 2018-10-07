@@ -1,6 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Job } from '../../job.model';
-import { EventEmitter } from 'events';
 
 @Component({
   selector: 'app-job-item',
