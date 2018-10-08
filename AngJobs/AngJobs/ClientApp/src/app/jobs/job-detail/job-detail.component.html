@@ -28,6 +28,6 @@
 
 <div class="row">
   <div class="col-xs-12">
-    <app-job-application></app-job-application>
+    <app-job-apply [job]="job" (newJobApplication)="onJobApply($event)"></app-job-apply>
   </div>
 </div>

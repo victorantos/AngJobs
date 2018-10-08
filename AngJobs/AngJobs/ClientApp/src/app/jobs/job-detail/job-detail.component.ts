@@ -1,5 +1,6 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 import { Job } from '../job.model';
+import { JobApplication } from '../job-application/job-application.model';
 
 @Component({
   selector: 'app-job-detail',
@@ -8,11 +9,18 @@ import { Job } from '../job.model';
 })
 export class JobDetailComponent implements OnInit {
   @Input() job: Job;
+  @Output() newJobApplication = new EventEmitter<JobApplication>();
+
   constructor() { }
 
   onSelected($event) {
     this.job = $event;
   }
+
+  onJobApply($event) {
+    this.newJobApplication.emit($event);
+  }
+
   ngOnInit() {
   }
 

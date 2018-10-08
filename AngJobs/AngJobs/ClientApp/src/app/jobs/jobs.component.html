@@ -2,10 +2,16 @@
   <div class="col-md-5">
     <app-job-list (jobWasSelected)="selectedJob = $event"></app-job-list>
   </div>
-  <div class="col-md-7">
-    <app-job-detail *ngIf="selectedJob; else infoText" [job]="selectedJob" ></app-job-detail>
+  <div class="col-md-5">
+    <app-job-detail *ngIf="selectedJob; else infoText" [job]="selectedJob" (newJobApplication)="addJobApplication($event)"></app-job-detail>
     <ng-template #infoText>
       <p> Please select a job</p>
     </ng-template>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-10">
+    <app-job-application-list [applications]="jobApplications"></app-job-application-list>
   </div>
 </div>

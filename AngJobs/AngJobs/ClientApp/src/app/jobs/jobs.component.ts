@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Job } from './job.model';
+import { JobApplication } from './job-application/job-application.model';
 
 @Component({
   selector: 'app-jobs',
@@ -8,9 +9,13 @@ import { Job } from './job.model';
 })
 export class JobsComponent implements OnInit {
   selectedJob: Job;
+  jobApplications: JobApplication[] = [];
 
   constructor() { }
 
+  addJobApplication($event) {
+    this.jobApplications.push($event);
+  }
   ngOnInit() {
   }
 

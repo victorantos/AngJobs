@@ -1,0 +1,33 @@
+<div class="panel panel-default">
+  <div class="panel-body">
+    <form class="form-horizontal" role="form">
+      <div class="">
+        <label for="toContactName">To:</label>
+        <input id="toContactName" class="form-control" type="text" disabled="">
+      </div>
+      <div class="">
+        <label for="email">From:</label>
+        <input class="form-control" type="text" id="email" #email placeholder="your email address" required="">
+        <div>
+          <span class="">
+            <a class="btn-link label label-info " href="javascript:void(0);">+ Add LinkedIn</a>
+          </span>
+          <span class="">
+            <a class="btn-link label label-default " href="javascript:void(0);">+ Add GitHub</a>
+          </span>
+        </div>
+      </div>
+      <section #message class="form-control" style="height:auto; min-height:100px;" id="editableProfile" contenteditable="true"></section>
+      <div class="panel-footer">
+        <div class="form-group">
+          <div class="col-sm-10">
+            <button class="btn btn-info" type="submit" (click)="onApply()">Apply</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+
