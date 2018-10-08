@@ -16,6 +16,7 @@ export class JobsComponent implements OnInit {
   addJobApplication($event) {
     this.jobApplications.push($event);
   }
+   
   ngOnInit() {
   }
 

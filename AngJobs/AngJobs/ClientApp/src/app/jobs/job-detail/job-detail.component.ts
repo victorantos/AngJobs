@@ -10,11 +10,16 @@ import { JobApplication } from '../job-application/job-application.model';
 export class JobDetailComponent implements OnInit {
   @Input() job: Job;
   @Output() newJobApplication = new EventEmitter<JobApplication>();
+  @Output() close = new EventEmitter<void>();
 
   constructor() { }
 
   onSelected($event) {
     this.job = $event;
+  }
+
+  onClose() {
+    this.close.emit();
   }
 
   onJobApply($event) {

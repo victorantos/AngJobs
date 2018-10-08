@@ -23,6 +23,7 @@ import { RecommendationListComponent } from './recommendation-list/recommendatio
 import { RecommendationEditComponent } from './recommendation-list/recommendation-edit/recommendation-edit.component';
 import { JobApplyComponent } from './jobs/job-application-list/job-apply/job-apply.component';
 import { JobApplicationListComponent } from './jobs/job-application-list/job-application-list.component';
+import { CloseDirective } from './shared/close.directive';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { JobApplicationListComponent } from './jobs/job-application-list/job-app
     RecommendationListComponent,
     RecommendationEditComponent,
     JobApplyComponent,
-    JobApplicationListComponent
+    JobApplicationListComponent,
+    CloseDirective
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

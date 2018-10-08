@@ -1,33 +1,46 @@
-<div class="row">
-  <div class="col-xs-12">
-    <img [src]="job.imagePath" alt="{{job.title}}" class="img-responsive" style="max-height:250px;" />
+<div>
+  <div class="pull-right">
+    <button appClose (close)="onClose($event)" type="button" class="close" aria-label="Close" style="font-size:40px">
+      <span aria-hidden="true">&times;</span>
+    </button>
   </div>
-</div>
-<div class="row">
-  <div class="col-xs-12">
-    <h1>  {{job.title}}</h1>
-  </div>
-</div>
 
-<div class="row">
-  <div class="col-xs-12">
-    <div class="btn-group">
-      <button type="button" class="btn btn-primary dropdown-toggle">Manage <span class="caret"></span></button>
-      <ul class="dropdown-menu">
-        <li><a href="#">Option 1</a></li>
-        <li><a href="#">Option 2</a></li>
-      </ul>
+  <div class="row">
+    <div class="col-xs-12">
+      <img [src]="job.imagePath" alt="{{job.title}}" class="img-responsive" style="max-height:250px;" />
+
+
     </div>
   </div>
-</div>
-<div class="row">
-  <div class="col-xs-12">
-    Description
-  </div>
-</div>
+  <div class="row">
+    <div class="col-xs-12">
 
-<div class="row">
-  <div class="col-xs-12">
-    <app-job-apply [job]="job" (newJobApplication)="onJobApply($event)"></app-job-apply>
+      <h1>  {{job.title}}</h1>
+
+    </div>
   </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary dropdown-toggle">Manage <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li><a href="#">Option 1</a></li>
+          <li><a href="#">Option 2</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      Description
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <app-job-apply [job]="job" (newJobApplication)="onJobApply($event)"></app-job-apply>
+    </div>
+  </div>
+
 </div>

@@ -3,7 +3,8 @@
     <app-job-list (jobWasSelected)="selectedJob = $event"></app-job-list>
   </div>
   <div class="col-md-5">
-    <app-job-detail *ngIf="selectedJob; else infoText" [job]="selectedJob" (newJobApplication)="addJobApplication($event)"></app-job-detail>
+    <app-job-detail *ngIf="selectedJob; else infoText" [job]="selectedJob" (newJobApplication)="addJobApplication($event)"
+                       (close)="selectedJob = null" ></app-job-detail>
     <ng-template #infoText>
       <p> Please select a job</p>
     </ng-template>
