@@ -1,4 +1,4 @@
-import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
+import { Component, OnInit, ElementRef, ViewChild, Output, EventEmitter } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Job } from '../job.model';
 import { EditareaComponent } from '../../shared/editarea.component';
@@ -10,7 +10,7 @@ import { EditareaComponent } from '../../shared/editarea.component';
 })
 export class JobNewComponent implements OnInit {
   @ViewChild('ed') ed: EditareaComponent;
-  
+  @Output() newJobCreated = new EventEmitter<Job>();
   constructor() { }
 
   ngOnInit() {
@@ -19,6 +19,7 @@ export class JobNewComponent implements OnInit {
   onAddJob(f: NgForm) {
     const value = f.value;
     const newJob = new Job(value.title, value.description, null, null);
-    console.log(newJob);
+
+    this.newJobCreated.emit(newJob);
   }
 }

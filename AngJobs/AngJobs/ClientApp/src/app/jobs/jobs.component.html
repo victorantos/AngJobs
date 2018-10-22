@@ -1,7 +1,7 @@
 <div class="row">
   <div class="col-xs-10">
     <hr />
-    <app-job-new *ngIf="addnewJob"></app-job-new>
+    <app-job-new *ngIf="addnewJob" (newJobCreated)="addToJobList($event);addnewJob = false;"></app-job-new>
 
     <a href="javascript:void(0)" class="btn btn-info" (click)="addnewJob = true" *ngIf="!addnewJob">Add a new job</a>
     <hr />
@@ -10,7 +10,7 @@
 
 <div class="row">
   <div class="col-md-5">
-    <app-job-list (jobWasSelected)="selectedJob = $event"></app-job-list>
+    <app-job-list [jobs]="jobs" (jobWasSelected)="selectedJob = $event"></app-job-list>
   </div>
   <div class="col-md-5">
     <app-job-detail *ngIf="selectedJob; else infoText" [job]="selectedJob" (newJobApplication)="addJobApplication($event)"

@@ -10,13 +10,19 @@ import { JobApplication } from './job-application/job-application.model';
 export class JobsComponent implements OnInit {
   selectedJob: Job;
   jobApplications: JobApplication[] = [];
+  jobs: Job[] = [];
 
   constructor() { }
 
   addJobApplication($event) {
     this.jobApplications.push($event);
   }
-   
+
+  addToJobList($event) {
+    this.jobs.push($event);
+    console.log(this.jobs);
+  }
+
   ngOnInit() {
   }
 
