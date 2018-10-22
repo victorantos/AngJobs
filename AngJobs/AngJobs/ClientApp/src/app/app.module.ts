@@ -24,6 +24,8 @@ import { RecommendationEditComponent } from './recommendation-list/recommendatio
 import { JobApplyComponent } from './jobs/job-application-list/job-apply/job-apply.component';
 import { JobApplicationListComponent } from './jobs/job-application-list/job-application-list.component';
 import { CloseDirective } from './shared/close.directive';
+import { JobNewComponent } from './jobs/job-new/job-new.component';
+import { EditareaComponent } from './shared/editarea.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +45,9 @@ import { CloseDirective } from './shared/close.directive';
     RecommendationEditComponent,
     JobApplyComponent,
     JobApplicationListComponent,
-    CloseDirective
+    CloseDirective,
+    JobNewComponent,
+    EditareaComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
