@@ -20,7 +20,6 @@ export class JobsComponent implements OnInit {
 
   addToJobList($event) {
     this.jobs.push($event);
-    console.log(this.jobs);
   }
 
   ngOnInit() {

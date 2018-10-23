@@ -11,6 +11,8 @@ import { EditareaComponent } from '../../shared/editarea.component';
 export class JobNewComponent implements OnInit {
   @ViewChild('ed') ed: EditareaComponent;
   @Output() newJobCreated = new EventEmitter<Job>();
+  @Output() trySubmitForm = new EventEmitter<boolean>();
+
   constructor() { }
 
   ngOnInit() {
@@ -20,6 +22,12 @@ export class JobNewComponent implements OnInit {
     const value = f.value;
     const newJob = new Job(value.title, value.description, null, null);
 
-    this.newJobCreated.emit(newJob);
+    if (newJob.title != '' && newJob.description != '') {
+      this.newJobCreated.emit(newJob);
+      this.trySubmitForm.emit(true);
+    }
+    else {
+      this.trySubmitForm.emit(false);
+    }
   }
 }

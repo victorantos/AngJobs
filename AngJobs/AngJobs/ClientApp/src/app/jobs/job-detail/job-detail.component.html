@@ -1,45 +1,43 @@
-<div>
-  <div class="pull-right">
-    <button appClose (close)="onClose($event)" type="button" class="close" aria-label="Close" style="font-size:40px">
-      <span aria-hidden="true">&times;</span>
-    </button>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="pull-right">
+      <button appClose (close)="onClose($event)" type="button" class="close" aria-label="Close" style="font-size:40px; margin-top:-15px">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <img [src]="job.imagePath" alt="{{job.title}}" class="img-fluid" style="max-height:250px;" />
   </div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <h1>  {{job.title}}</h1>
+  </div>
+</div>
 
-  <div class="row">
-    <div class="col-xs-12">
-      <img [src]="job.imagePath" alt="{{job.title}}" class="img-responsive" style="max-height:250px;" />
-
-
+<div class="row" style="display: none">
+  <div class="col-sm-12">
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary dropdown-toggle">Manage <span class="caret"></span></button>
+      <ul class="dropdown-menu">
+        <li><a href="#">Option 1</a></li>
+        <li><a href="#">Option 2</a></li>
+      </ul>
     </div>
   </div>
-  <div class="row">
-    <div class="col-xs-12">
-
-      <h1>  {{job.title}}</h1>
-
-    </div>
+</div>
+<div class="row">
+  <div class="col-sm-12" [innerHTML]="job.description">
   </div>
+</div>
 
-  <div class="row">
-    <div class="col-xs-12">
-      <div class="btn-group">
-        <button type="button" class="btn btn-primary dropdown-toggle">Manage <span class="caret"></span></button>
-        <ul class="dropdown-menu">
-          <li><a href="#">Option 1</a></li>
-          <li><a href="#">Option 2</a></li>
-        </ul>
-      </div>
-    </div>
+<div class="row">
+  <div class="col-sm-6">
+    <app-job-easy-apply></app-job-easy-apply>
   </div>
-  <div class="row">
-    <div class="col-xs-12" [innerHTML]="job.description">
-    </div>
-  </div>
+</div>
 
-  <div class="row">
-    <div class="col-xs-12">
-      <app-job-apply [job]="job" (newJobApplication)="onJobApply($event)"></app-job-apply>
-    </div>
+<div class="row">
+  <div class="col-sm-12">
+    <app-job-apply [job]="job" (newJobApplication)="onJobApply($event)"></app-job-apply>
   </div>
-
 </div>
