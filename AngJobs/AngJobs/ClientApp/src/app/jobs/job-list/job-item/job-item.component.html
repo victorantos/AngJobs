@@ -1,13 +1,9 @@
 <a href="#" (click)="onSelect()" class="list-group-item list-group-item-action flex-column">
-  <div class="media">
-    <img [src]="job.imagePath" [alt]="job.title" style="max-height: 60px" class="align-self-top mr-3" alt="A generic square placeholder image with rounded corners in a figure.">
-    <div class="media-body">
-      <div class="d-flex w-100 justify-content-between">
-        <h6 class="mb-1">{{job.title}}</h6>
-        <small>3 days ago</small>
-      </div>
-      <p class="mb-1">{{job.location}}</p>
-      <small>Donec id elit non mi porta.</small>
+  <a href="#" class="list-group-item list-group-item-action flex-column">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">{{job.title}}</h5>
+      <small style="white-space: nowrap">3 days ago</small>
     </div>
-  </div>
-</a>
+    <p class="mb-1">{{job.description | truncate:[250]}}</p>
+    <small>{{job.location}}</small>
+  </a>

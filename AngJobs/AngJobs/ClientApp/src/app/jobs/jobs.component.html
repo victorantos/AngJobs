@@ -9,7 +9,7 @@
 </div>
 
 <div class="row">
-  <div class="col-md-5">
+  <div class="col-md-6">
     <app-job-list [jobs]="jobs" (jobWasSelected)="selectedJob = $event"></app-job-list>
   </div>
   <div class="col-md-5" *ngIf="selectedJob">
