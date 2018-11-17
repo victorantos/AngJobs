@@ -24,6 +24,8 @@ export class JobDetailComponent implements OnInit {
 
   onJobApply($event) {
     this.newJobApplication.emit($event);
+
+    this.close.emit();
   }
 
   ngOnInit() {

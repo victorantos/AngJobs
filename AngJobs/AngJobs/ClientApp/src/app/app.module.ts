@@ -28,6 +28,8 @@ import { JobNewComponent } from './jobs/job-new/job-new.component';
 import { EditareaComponent } from './shared/editarea.component';
 import { JobEasyApplyComponent } from './jobs/job-application-list/job-easy-apply/job-easy-apply.component';
 import { TruncatePipe } from './shared/pipes/truncate';
+import { LoggingService } from './services/logging.service';
+import { JobsService } from './services/jobs.service';
 
 @NgModule({
   declarations: [
@@ -65,7 +67,7 @@ import { TruncatePipe } from './shared/pipes/truncate';
     BrowserAnimationsModule,
     MatButtonModule, MatCheckboxModule, MatGridListModule, MatCardModule, MatMenuModule, MatIconModule, MatListModule
   ],
-  providers: [],
+  providers: [LoggingService, JobsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

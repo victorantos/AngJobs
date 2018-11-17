@@ -2,6 +2,7 @@ import { Component, OnInit, ElementRef, ViewChild, Output, EventEmitter } from '
 import { NgForm } from '@angular/forms';
 import { Job } from '../job.model';
 import { EditareaComponent } from '../../shared/editarea.component';
+import { JobsService } from '../../services/jobs.service';
 
 @Component({
   selector: 'app-job-new',
@@ -13,7 +14,7 @@ export class JobNewComponent implements OnInit {
   @Output() newJobCreated = new EventEmitter<Job>();
   @Output() trySubmitForm = new EventEmitter<boolean>();
 
-  constructor() { }
+  constructor(private jobsService: JobsService) { }
 
   ngOnInit() {
   }
@@ -25,6 +26,9 @@ export class JobNewComponent implements OnInit {
     if (newJob.title != '' && newJob.description != '') {
       this.newJobCreated.emit(newJob);
       this.trySubmitForm.emit(true);
+
+      //save new job
+      this.jobsService.addJob(newJob);
     }
     else {
       this.trySubmitForm.emit(false);

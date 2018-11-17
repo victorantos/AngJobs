@@ -1,18 +1,13 @@
 <div class="row">
   <div class="col-sm-10">
-    <hr />
     <app-job-new *ngIf="addnewJob" (trySubmitForm)="addnewJob = false" (newJobCreated)="addToJobList($event)"></app-job-new>
 
-    <a href="javascript:void(0)" class="btn btn-info" (click)="addnewJob = true" *ngIf="!addnewJob">Add a new job</a>
-    <hr />
+   <!-- <a href="javascript:void(0)" class="btn btn-info" (click)="addnewJob = true" *ngIf="!addnewJob">Add a new job</a>-->
   </div>
-</div>
-
-<div class="row">
-  <div class="col-md-6">
+  <div class="col-md-12">
     <app-job-list [jobs]="jobs" (jobWasSelected)="selectedJob = $event"></app-job-list>
   </div>
-  <div class="col-md-5" *ngIf="selectedJob">
+  <div class="col-md-12" *ngIf="selectedJob">
     <app-job-detail *ngIf="selectedJob; else infoText" [job]="selectedJob" (newJobApplication)="addJobApplication($event)"
                     (close)="selectedJob = null"></app-job-detail>
     <ng-template #infoText>
