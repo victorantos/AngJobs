@@ -1,7 +1,6 @@
-import { Component, OnInit, ElementRef, ViewChild, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Job } from '../job.model';
-import { EditareaComponent } from '../../shared/editarea.component';
 import { JobsService } from '../../services/jobs.service';
 
 @Component({
@@ -10,7 +9,6 @@ import { JobsService } from '../../services/jobs.service';
   styleUrls: ['./job-new.component.css']
 })
 export class JobNewComponent implements OnInit {
-  @ViewChild('ed') ed: EditareaComponent;
   @Output() newJobCreated = new EventEmitter<Job>();
   @Output() trySubmitForm = new EventEmitter<boolean>();
 

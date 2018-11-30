@@ -26,6 +26,7 @@
     <None Remove="ClientApp\src\app\header\header.component.ts" />
     <None Remove="ClientApp\src\app\jobs\job-application\job-application.model.ts" />
     <None Remove="ClientApp\src\app\jobs\job.model.ts" />
+    <None Remove="ClientApp\src\app\jobs\resume.model.ts" />
     <None Remove="ClientApp\src\app\services\jobs.service.ts" />
     <None Remove="ClientApp\src\app\services\logging.service.ts" />
     <None Remove="ClientApp\src\app\shared\pipes\truncate.ts" />
@@ -34,6 +35,7 @@
 
   <ItemGroup>
     <TypeScriptCompile Include="ClientApp\src\app\header\header.component.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\jobs\resume.model.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\jobs\job-application\job-application.model.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\jobs\job.model.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\services\jobs.service.ts" />

@@ -30,6 +30,7 @@ import { JobEasyApplyComponent } from './jobs/job-application-list/job-easy-appl
 import { TruncatePipe } from './shared/pipes/truncate';
 import { LoggingService } from './services/logging.service';
 import { JobsService } from './services/jobs.service';
+import { ResumeNewComponent } from './jobs/resume-new/resume-new.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { JobsService } from './services/jobs.service';
     JobNewComponent,
     EditareaComponent,
     JobEasyApplyComponent,
-    TruncatePipe
+    TruncatePipe,
+    ResumeNewComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

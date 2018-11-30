@@ -1,13 +1,21 @@
 import { Job } from "../jobs/job.model";
+import { Resume } from "../jobs/resume.model";
 
 export class JobsService {
   jobs: Job[] = [];
+  resumes: Resume[] = [];
 
   public getJobs() {
     return this.jobs;
   }
   public addJob(job: Job) {
     this.jobs.push(job);
+    console.log("Jobs", this.jobs);
+  }
+
+  public addResume(resume: Resume) {
+    this.resumes.push(resume);
+    console.log("Resumes", this.resumes);
   }
 
   constructor() {
