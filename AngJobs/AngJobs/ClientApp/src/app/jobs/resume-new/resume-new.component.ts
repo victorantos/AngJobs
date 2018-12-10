@@ -19,6 +19,7 @@ export class ResumeNewComponent implements OnInit {
   onAddResume(f: NgForm) {
     const value = f.value;
     const newResume = new Resume(value.title, value.description);
+    newResume.title = this.jobService.generateResumeName();
 
     if (newResume.title != '' && newResume.description != '') {
       this.newResumeCreated.emit(newResume);

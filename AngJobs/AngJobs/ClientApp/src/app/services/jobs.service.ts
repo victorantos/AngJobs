@@ -1,21 +1,52 @@
 import { Job } from "../jobs/job.model";
 import { Resume } from "../jobs/resume.model";
+import { JobApplication } from "../jobs/job-application/job-application.model";
 
 export class JobsService {
+  
   jobs: Job[] = [];
   resumes: Resume[] = [];
+  jobApplications: JobApplication[] = [];
 
-  public getJobs() {
+  getJobs() {
     return this.jobs;
   }
-  public addJob(job: Job) {
+  getResumes(): Array<Resume> {
+    return this.resumes;
+  }
+
+
+  getJobApplications(): any {
+    return this.jobApplications;
+  }
+
+  addJob(job: Job) {
     this.jobs.push(job);
     console.log("Jobs", this.jobs);
   }
 
-  public addResume(resume: Resume) {
+  addResume(resume: Resume) {
     this.resumes.push(resume);
     console.log("Resumes", this.resumes);
+  }
+
+  addJobApplication(jobApplication: JobApplication) {
+    this.jobApplications.push(jobApplication);
+    console.log("jobApplication", this.jobApplications);
+  }
+
+  generateResumeName(): string {
+    var date = new Date(),
+      locale = "en-uk",
+      month = date.toLocaleString(locale, {
+        month: "short"
+      }),
+      year = date.getFullYear(),
+      i = this.resumes.length;
+
+    let title = 'resume-' + month + '-' + year + (i > 0 ? '-('+i+')' : '');
+   
+    return title;
   }
 
   constructor() {

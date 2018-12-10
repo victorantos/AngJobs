@@ -1,6 +1,7 @@
 import { Component, OnInit, Output, EventEmitter, Input, ViewChild } from '@angular/core';
 import { Job } from '../../job.model';
 import { JobApplication } from '../../job-application/job-application.model';
+import { emit } from 'cluster';
 
 @Component({
   selector: 'app-job-apply',
@@ -9,6 +10,7 @@ import { JobApplication } from '../../job-application/job-application.model';
 })
 export class JobApplyComponent implements OnInit {
   @Output() newJobApplication = new EventEmitter<JobApplication>();
+  @Output() cancel = new EventEmitter<void>();
   @Input() job: Job;
   @ViewChild('email') fromEmailEl;
   @ViewChild('message') messageEl;
@@ -22,6 +24,10 @@ export class JobApplyComponent implements OnInit {
         this.messageEl.nativeElement.innerText
       )
     );
+  }
+
+  onCancel() {
+    this.cancel.emit();
   }
   
   ngOnInit() {

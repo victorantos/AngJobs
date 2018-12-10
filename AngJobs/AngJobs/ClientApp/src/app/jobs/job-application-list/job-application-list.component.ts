@@ -10,7 +10,7 @@ import { JobsService } from '../../services/jobs.service';
 export class JobApplicationListComponent implements OnInit {
   @Input() applications: JobApplication[];
 
-  constructor() { }
+  constructor(private jobService: JobsService) { }
 
   ngOnInit() {
   }

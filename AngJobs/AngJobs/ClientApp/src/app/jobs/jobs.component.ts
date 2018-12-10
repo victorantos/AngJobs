@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Job } from './job.model';
 import { JobApplication } from './job-application/job-application.model';
+import { JobsService } from '../services/jobs.service';
 
 @Component({
   selector: 'app-jobs',
@@ -12,10 +13,10 @@ export class JobsComponent implements OnInit {
   jobApplications: JobApplication[] = [];
   jobs: Job[] = [];
 
-  constructor() { }
+  constructor(private jobsService: JobsService) { }
 
   addJobApplication($event) {
-    this.jobApplications.push($event);
+    this.jobsService.addJobApplication($event);
   }
 
   addToJobList($event) {

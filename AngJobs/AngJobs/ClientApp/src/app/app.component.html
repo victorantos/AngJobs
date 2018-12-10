@@ -1,9 +1,9 @@
 <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
   <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">AngJobs</a>
-  <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+  <input class="form-control form-control-dark w-100" style="display:none" type="text" placeholder="Search" aria-label="Search">
   <ul class="navbar-nav px-3">
     <li class="nav-item text-nowrap">
-      <a class="nav-link" href="#">Sign out</a>
+      <a class="nav-link" href="#" style="display:none">Sign out</a>
     </li>
   </ul>
 
@@ -29,8 +29,37 @@
               Jobs List<span class="sr-only">(current)</span>
             </a>
           </li>
-         
-
+        </ul>
+        <section *ngIf="jobApplications.length">
+          <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            <span>My applications</span>
+            <a class="d-flex align-items-center text-muted" href="#">
+              <span data-feather="plus-circle"></span>
+            </a>
+          </h6>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#" (click)="onNavigate('jobApplicationList')">
+                <span data-feather="home"></span>
+                Job application list<span class="sr-only">(current)</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <hr />
+        <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+          <span>Add a new job</span>
+          <a class="d-flex align-items-center text-muted" href="#">
+            <span data-feather="plus-circle"></span>
+          </a>
+        </h6>
+        <ul class="nav flex-column mb-2">
+          <li class="nav-item">
+            <a class="nav-link active" href="#" (click)="onNavigate('newJob')">
+              <span data-feather="file"></span>
+              Add new job position
+            </a>
+          </li>
         </ul>
 
         <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
@@ -41,58 +70,38 @@
         </h6>
         <ul class="nav flex-column mb-2">
           <li class="nav-item">
-            <a class="nav-link" href="#" (click)="onNavigate('newResume')">
+            <a class="nav-link active" href="#" (click)="onNavigate('newResume')">
               <span data-feather="file-text"></span>
-             Add a new CV
+              Add CV
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" *ngFor="let r of resumes">
             <a class="nav-link" href="#">
               <span data-feather="file-text"></span>
-              My-CV-Nov-2018
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="file-text"></span>
-              My-CV-March-2018
-            </a>
-          </li>
-
-        </ul>
-
-        <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-          <span>Add a new job</span>
-          <a class="d-flex align-items-center text-muted" href="#">
-            <span data-feather="plus-circle"></span>
-          </a>
-        </h6>
-        <ul class="nav flex-column mb-2">
-          <li class="nav-item">
-            <a class="nav-link" href="#" (click)="onNavigate('newJob')">
-              <span data-feather="file"></span>
-              Copy/Paste job specs
+              {{r.title}}
             </a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <main role="main" class="col-md-10 ml-sm-auto col-lg-10 px-4">
+    <main role="main" class="col-md-10 ml-sm-auto col-lg-10 mt-1">
       <!--<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
-    <h3 class="h3"></h3>
-    <div class="btn-toolbar mb-2 mb-md-0">
-      <div class="btn-group mr-2">
-        <button class="btn btn-sm btn-outline-secondary">Share</button>
-        <button class="btn btn-sm btn-outline-secondary">Export</button>
-      </div>
-      <button class="btn btn-sm btn-outline-secondary dropdown-toggle">
-        <span data-feather="calendar"></span>
-        This week
-      </button>
-    </div>
-  </div>-->
-      <app-resume-new *ngIf="loadedFeature === 'newResume'" ></app-resume-new>
+        <h3 class="h3"></h3>
+        <div class="btn-toolbar mb-2 mb-md-0">
+          <div class="btn-group mr-2">
+            <button class="btn btn-sm btn-outline-secondary">Share</button>
+            <button class="btn btn-sm btn-outline-secondary">Export</button>
+          </div>
+          <button class="btn btn-sm btn-outline-secondary dropdown-toggle">
+            <span data-feather="calendar"></span>
+            This week
+          </button>
+        </div>
+      </div>-->
+
+      <app-job-application-list *ngIf="loadedFeature==='jobApplicationList'" [applications]="jobApplications"></app-job-application-list>
+      <app-resume-new *ngIf="loadedFeature === 'newResume'"></app-resume-new>
       <app-jobs *ngIf="loadedFeature === 'job'"></app-jobs>
       <app-job-new *ngIf="loadedFeature === 'newJob'" (newJobCreated)="onNavigate('job')"></app-job-new>
       <app-recommendation-list *ngIf="loadedFeature === 'recommendation-list'"></app-recommendation-list>

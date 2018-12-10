@@ -18,7 +18,6 @@ import { JobsComponent } from './jobs/jobs.component';
 import { JobListComponent } from './jobs/job-list/job-list.component';
 import { JobItemComponent } from './jobs/job-list/job-item/job-item.component';
 import { JobDetailComponent } from './jobs/job-detail/job-detail.component';
-import { JobApplicationComponent } from './jobs/job-application/job-application.component';
 import { RecommendationListComponent } from './recommendation-list/recommendation-list.component';
 import { RecommendationEditComponent } from './recommendation-list/recommendation-edit/recommendation-edit.component';
 import { JobApplyComponent } from './jobs/job-application-list/job-apply/job-apply.component';
@@ -26,7 +25,6 @@ import { JobApplicationListComponent } from './jobs/job-application-list/job-app
 import { CloseDirective } from './shared/close.directive';
 import { JobNewComponent } from './jobs/job-new/job-new.component';
 import { EditareaComponent } from './shared/editarea.component';
-import { JobEasyApplyComponent } from './jobs/job-application-list/job-easy-apply/job-easy-apply.component';
 import { TruncatePipe } from './shared/pipes/truncate';
 import { LoggingService } from './services/logging.service';
 import { JobsService } from './services/jobs.service';
@@ -45,7 +43,6 @@ import { ResumeNewComponent } from './jobs/resume-new/resume-new.component';
     JobListComponent,
     JobItemComponent,
     JobDetailComponent,
-    JobApplicationComponent,
     RecommendationListComponent,
     RecommendationEditComponent,
     JobApplyComponent,
@@ -53,7 +50,6 @@ import { ResumeNewComponent } from './jobs/resume-new/resume-new.component';
     CloseDirective,
     JobNewComponent,
     EditareaComponent,
-    JobEasyApplyComponent,
     TruncatePipe,
     ResumeNewComponent
   ],
