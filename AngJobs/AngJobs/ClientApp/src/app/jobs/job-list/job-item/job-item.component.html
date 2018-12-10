@@ -1,0 +1,8 @@
+  <a href="#"  (click)="onSelect()" class="list-group-item list-group-item-action flex-column">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">{{job.title}}</h5>
+      <small style="white-space: nowrap">3 days ago</small>
+    </div>
+    <p class="mb-1">{{job.description | truncate:[250]}}</p>
+    <small>{{job.location}}</small>
+  </a>

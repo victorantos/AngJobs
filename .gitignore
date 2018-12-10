@@ -214,3 +214,5 @@ AngJobs.Android/Web.Release.config
 /AngJobs2.sln
 /.vs/slnx.sqlite
 /AngJobs/bower_components
+AngJobs/AngJobs/ClientApp/package-lock.json
+*.ide-shm

@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-sm-12">
+    <h2>
+      Add new job
+    </h2>
+    <form (ngSubmit)="onAddJob(f)" #f="ngForm">
+      <div class="form-group">
+        <label for="title">Job title</label>
+        <input name="title" ngModel type="text" class="form-control" />
+      </div>
+      <div class="form-group">
+        <label for="description">Job description</label>
+        <app-editarea name="description" #ed ngModel> </app-editarea>
+      </div>
+      <button class="btn btn-primary" type="submit">Save and Publish</button>
+      <button type="button" class="btn btn-light pull-right">Cancel</button>
+    </form>
+  </div>
+</div>
