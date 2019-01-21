@@ -29,6 +29,7 @@ import { TruncatePipe } from './shared/pipes/truncate';
 import { LoggingService } from './services/logging.service';
 import { JobsService } from './services/jobs.service';
 import { ResumeNewComponent } from './jobs/resume-new/resume-new.component';
+import { DataStorageService } from './shared/data-storage.service';
 
 @NgModule({
   declarations: [
@@ -65,7 +66,7 @@ import { ResumeNewComponent } from './jobs/resume-new/resume-new.component';
     BrowserAnimationsModule,
     MatButtonModule, MatCheckboxModule, MatGridListModule, MatCardModule, MatMenuModule, MatIconModule, MatListModule
   ],
-  providers: [LoggingService, JobsService],
+  providers: [LoggingService, JobsService, DataStorageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

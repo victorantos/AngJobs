@@ -29,6 +29,7 @@
     <None Remove="ClientApp\src\app\jobs\resume.model.ts" />
     <None Remove="ClientApp\src\app\services\jobs.service.ts" />
     <None Remove="ClientApp\src\app\services\logging.service.ts" />
+    <None Remove="ClientApp\src\app\shared\data-storage.service.ts" />
     <None Remove="ClientApp\src\app\shared\pipes\truncate.ts" />
     <None Remove="ClientApp\src\app\shared\recommendation.ts" />
   </ItemGroup>
@@ -40,6 +41,7 @@
     <TypeScriptCompile Include="ClientApp\src\app\jobs\job.model.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\services\jobs.service.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\services\logging.service.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\shared\data-storage.service.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\shared\pipes\truncate.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\shared\recommendation.ts" />
   </ItemGroup>

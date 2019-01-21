@@ -13,6 +13,8 @@ export class ResumeNewComponent implements OnInit {
   @Output() trySubmitForm = new EventEmitter<boolean>();
   constructor(private jobService: JobsService) { }
 
+  resumes:Resume[] = [];
+
   ngOnInit() {
   }
 
@@ -20,6 +22,7 @@ export class ResumeNewComponent implements OnInit {
     const value = f.value;
     const newResume = new Resume(value.title, value.description);
     newResume.title = this.jobService.generateResumeName();
+  
 
     if (newResume.title != '' && newResume.description != '') {
       this.newResumeCreated.emit(newResume);
@@ -27,6 +30,9 @@ export class ResumeNewComponent implements OnInit {
 
       //save resume
       this.jobService.addResume(newResume);
+
+      //get all resumes
+      this.resumes = this.jobService.getResumes();
     }
     else {
       this.trySubmitForm.emit(false);

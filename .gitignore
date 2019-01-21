@@ -216,3 +216,6 @@ AngJobs.Android/Web.Release.config
 /AngJobs/bower_components
 AngJobs/AngJobs/ClientApp/package-lock.json
 *.ide-shm
+
+# Visual Studio configs
+AngJobs/.vs/*

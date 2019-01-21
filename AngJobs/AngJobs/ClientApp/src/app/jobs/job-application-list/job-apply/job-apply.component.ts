@@ -1,7 +1,6 @@
 import { Component, OnInit, Output, EventEmitter, Input, ViewChild } from '@angular/core';
 import { Job } from '../../job.model';
 import { JobApplication } from '../../job-application/job-application.model';
-import { emit } from 'cluster';
 
 @Component({
   selector: 'app-job-apply',

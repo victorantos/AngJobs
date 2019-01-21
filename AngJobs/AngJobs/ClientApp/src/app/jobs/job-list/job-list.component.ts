@@ -17,6 +17,7 @@ export class JobListComponent implements OnInit {
     this.jobWasSelected.emit(job);
   }
   ngOnInit() {
+
     this.jobs = this.jobService.getJobs();
   }
 }
