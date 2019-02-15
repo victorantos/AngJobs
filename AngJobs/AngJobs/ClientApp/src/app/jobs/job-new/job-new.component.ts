@@ -2,6 +2,7 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Job } from '../job.model';
 import { JobsService } from '../../services/jobs.service';
+import { DataStorageService } from '../../shared/data-storage.service';
 
 @Component({
   selector: 'app-job-new',
@@ -12,7 +13,9 @@ export class JobNewComponent implements OnInit {
   @Output() newJobCreated = new EventEmitter<Job>();
   @Output() trySubmitForm = new EventEmitter<boolean>();
 
-  constructor(private jobsService: JobsService) { }
+  constructor(private jobsService: JobsService, private dataStorageService: DataStorageService) {
+
+  }
 
   ngOnInit() {
   }
@@ -27,6 +30,7 @@ export class JobNewComponent implements OnInit {
 
       //save new job
       this.jobsService.addJob(newJob);
+      this.dataStorageService.storeJobPost();
     }
     else {
       this.trySubmitForm.emit(false);

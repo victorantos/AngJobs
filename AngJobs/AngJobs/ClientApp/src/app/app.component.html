@@ -70,7 +70,7 @@
         </h6>
         <ul class="nav flex-column mb-2">
           <li class="nav-item">
-            <a class="nav-link active" href="#" (click)="onNavigate('newResume')">
+            <a class="nav-link active" href="#" (click)="onNavigate(['newResume', 'jobApplicationList'])">
               <span data-feather="file-text"></span>
               Add CV
             </a>
@@ -87,23 +87,24 @@
 
     <main role="main" class="col-md-10 ml-sm-auto col-lg-10 mt-1">
       <!--<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
-        <h3 class="h3"></h3>
-        <div class="btn-toolbar mb-2 mb-md-0">
-          <div class="btn-group mr-2">
-            <button class="btn btn-sm btn-outline-secondary">Share</button>
-            <button class="btn btn-sm btn-outline-secondary">Export</button>
-          </div>
-          <button class="btn btn-sm btn-outline-secondary dropdown-toggle">
-            <span data-feather="calendar"></span>
-            This week
-          </button>
-        </div>
-      </div>-->
+    <h3 class="h3"></h3>
+    <div class="btn-toolbar mb-2 mb-md-0">
+      <div class="btn-group mr-2">
+        <button class="btn btn-sm btn-outline-secondary">Share</button>
+        <button class="btn btn-sm btn-outline-secondary">Export</button>
+      </div>
+      <button class="btn btn-sm btn-outline-secondary dropdown-toggle">
+        <span data-feather="calendar"></span>
+        This week
+      </button>
+    </div>
+  </div>-->
 
-      <app-job-application-list *ngIf="loadedFeature==='jobApplicationList'" [applications]="jobApplications"></app-job-application-list>
-      <app-resume-new *ngIf="loadedFeature === 'newResume'"></app-resume-new>
+      <app-job-application-list *ngIf="loadedFeature ==='jobApplicationList' || loadedFeature.indexOf('jobApplicationList') > -1 " [applications]="jobApplications"></app-job-application-list>
+      <app-resume-new *ngIf="loadedFeature === 'newResume' || loadedFeature.indexOf('newResume') > -1 "></app-resume-new>
+      <!--<app-my-resumes *ngIf="loadedFeature === 'myResumes'"></app-my-resumes>-->
       <app-jobs *ngIf="loadedFeature === 'job'"></app-jobs>
-      <app-job-new *ngIf="loadedFeature === 'newJob'" (newJobCreated)="onNavigate('job')"></app-job-new>
+      <app-job-new *ngIf="loadedFeature === 'newJob'" (newJobCreated)="onNavigate('job');"></app-job-new>
       <app-recommendation-list *ngIf="loadedFeature === 'recommendation-list'"></app-recommendation-list>
     </main>
   </div>

@@ -2,7 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var job_model_1 = require("../jobs/job.model");
 var JobsService = /** @class */ (function () {
-    function JobsService() {
+    function JobsService(dataStorageService) {
+        this.dataStorageService = dataStorageService;
         this.jobs = [];
         this.resumes = [];
         this.jobApplications = [];
@@ -28,6 +29,7 @@ var JobsService = /** @class */ (function () {
     };
     JobsService.prototype.addJob = function (job) {
         this.jobs.push(job);
+        // save new job to DB
         console.log("Jobs", this.jobs);
     };
     JobsService.prototype.addResume = function (resume) {
@@ -37,6 +39,7 @@ var JobsService = /** @class */ (function () {
     JobsService.prototype.addJobApplication = function (jobApplication) {
         this.jobApplications.push(jobApplication);
         console.log("jobApplication", this.jobApplications);
+        this.dataStorageService.storeJobPost().subscribe();
     };
     JobsService.prototype.generateResumeName = function () {
         var date = new Date(), locale = "en-uk", month = date.toLocaleString(locale, {
