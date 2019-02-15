@@ -19,6 +19,14 @@ export class JobsService {
     this.jobs = jobs;
   }
 
+  setResumes(resumes: Resume[]) {
+    this.resumes = resumes;
+  }
+
+  setJobApplications(jobApplications: JobApplication[]) {
+    this.jobApplications = jobApplications;
+  }
+
   getResumes(): Array<Resume> {
     return this.resumes;
   }

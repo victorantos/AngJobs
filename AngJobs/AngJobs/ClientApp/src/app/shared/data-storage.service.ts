@@ -5,6 +5,8 @@ import 'rxjs/Rx';
 import { throwError } from 'rxjs';
 import { catchError, retry, map} from 'rxjs/operators';
 import { JobsService } from '../services/jobs.service';
+import { Resume } from '../jobs/resume.model';
+import { JobApplication } from '../jobs/job-application/job-application.model';
 
 @Injectable()
 export class DataStorageService{
@@ -29,6 +31,42 @@ export class DataStorageService{
       .pipe(
       catchError((e: any) => this.handleError(e)))
       .subscribe(data => console.log('saved: ', data));
+  }
+
+  storeResumes() {
+    return this.httpClient.put('https://angjobsauth.firebaseio.com/resumes.json', this.jobsService.getResumes())
+      .pipe(
+        catchError((e: any) => this.handleError(e))) 
+      .subscribe(data => console.log('saved: ', data));
+  }
+
+  storeJobApplications() {
+    return this.httpClient.put('https://angjobsauth.firebaseio.com/jobapplications.json', this.jobsService.getJobApplications())
+      .pipe(
+        catchError((e: any) => this.handleError(e)))
+      .subscribe(data => console.log('saved: ', data));
+  }
+
+  retreiveResumes() {
+    return this.httpClient.get('https://angjobsauth.firebaseio.com/resumes.json')
+      .pipe(
+        catchError((e: any) => this.handleError(e))
+    )
+      .subscribe((data: Resume[]) => {
+        console.log(data);
+        this.jobsService.setResumes(data);
+      });
+  }
+
+  retreiveJobApplications() {
+    return this.httpClient.get('https://angjobsauth.firebaseio.com/jobapplications.json')
+      .pipe(
+        catchError((e: any) => this.handleError(e))
+    )
+      .subscribe((data: JobApplication[]) => {
+        console.log(data);
+        this.jobsService.setJobApplications(data);
+      });
   }
 
   private handleError(error: HttpErrorResponse) {

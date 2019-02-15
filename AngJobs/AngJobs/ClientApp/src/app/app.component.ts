@@ -32,9 +32,11 @@ export class AppComponent implements OnInit {
   }
    
   ngOnInit() {
+    this.dataStorageService.retreiveJobPosts();
+    this.dataStorageService.retreiveResumes();
+
     this.jobApplications = this.jobsService.getJobApplications();
     this.resumes = this.jobsService.getResumes();
-
-    this.dataStorageService.retreiveJobPosts();
   }
+
 }

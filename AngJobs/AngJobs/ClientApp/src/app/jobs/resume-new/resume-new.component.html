@@ -8,20 +8,13 @@
         <app-editarea name="description" #ed ngModel> </app-editarea>
       </div>
       <button class="btn btn-primary" type="submit">Save</button>
-      <button type="button" class="btn btn-light pull-right">Cancel</button>
+      <button type="button" class="btn btn-link">Cancel</button>
+      <button type="button" class="btn btn-danger btn-link float-right">Delete</button>
     </form>
   </div>
 </div>
-
 <div class="row">
   <div class="col-sm-12">
-    <ul>
-      <li class="nav-item" *ngFor="let r of resumes">
-        <a class="nav-link" href="#">
-          <span data-feather="file-text"></span>
-          {{r.title}}
-        </a>
-      </li>
-    </ul>
+    <a href="#" class="badge badge-light" *ngFor="let r of resumes">{{r.title}}</a>
   </div>
 </div>
