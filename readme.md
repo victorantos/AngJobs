@@ -2,6 +2,8 @@ AngJobs - job board for developers
 =======
 
 Looking for an old demo? - check [AngJobs.com](http://AngJobs.com)
+
+If you like the project, you are invited to contribute. Every little helps! Thanks!
  
 Frameworks used 
 ==
