@@ -8,16 +8,20 @@ import { JobsService } from '../../services/jobs.service';
   styleUrls: ['./job-list.component.css']
 })
 export class JobListComponent implements OnInit {
-  @Input() jobs: Job[];
   @Output() jobWasSelected = new EventEmitter<Job>();
+  jobs: Job[];
 
   constructor(private jobService: JobsService) { }
 
   onJobSelected(job: Job) {
     this.jobWasSelected.emit(job);
   }
-  ngOnInit() {
 
-    this.jobs = this.jobService.getJobs().reverse().slice(0,10);
+  ngOnInit() {
+    this.jobs = this.jobService.getJobs();
+    this.jobService.jobsChanged.subscribe(
+      (jobs: Job[]) => {
+        this.jobs = jobs;
+      });
   }
 }

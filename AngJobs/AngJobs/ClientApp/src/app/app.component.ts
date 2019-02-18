@@ -17,7 +17,9 @@ export class AppComponent implements OnInit {
   jobApplications: JobApplication[];
   resumes: Resume[];
 
-  constructor(private logging: LoggingService, private jobsService: JobsService, private dataStorageService: DataStorageService) { }
+  constructor(private logging: LoggingService, private jobsService: JobsService, private dataStorageService: DataStorageService) {
+
+  }
 
   onNavigate(feature: string | string[]) {
 
@@ -39,5 +41,4 @@ export class AppComponent implements OnInit {
     this.resumes = this.jobsService.getResumes();
 
   }
-
 }

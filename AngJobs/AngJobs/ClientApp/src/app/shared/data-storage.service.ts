@@ -21,7 +21,7 @@ export class DataStorageService{
         catchError((e: any) => this.handleError(e))
       )
       .subscribe((data: Job[]) => {
-        console.log(data);
+        console.log('retreiveJobPosts:', data);
         this.jobsService.setJobPosts(data);
       });
   }

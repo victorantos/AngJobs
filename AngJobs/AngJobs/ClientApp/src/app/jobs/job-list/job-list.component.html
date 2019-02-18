@@ -1,7 +1,8 @@
+<div *ngIf="jobs == null">Loading...</div>
 <div class="row">
   <div class="col-sm-12">
     <div class="list-group list-group-flush">
-        <app-job-item [job]="jobEl" *ngFor="let jobEl of jobs" (jobSelected)="onJobSelected(jobEl)"></app-job-item>
+      <app-job-item [job]="jobEl" *ngFor="let jobEl of jobs" (jobSelected)="onJobSelected(jobEl)"></app-job-item>
     </div>
   </div>
 </div>

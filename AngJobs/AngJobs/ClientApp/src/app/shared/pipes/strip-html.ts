@@ -7,6 +7,9 @@ import { PipeTransform, Pipe } from "@angular/core";
 )
 export class StripHtmlPipe implements PipeTransform {
   transform(value: any) {
+    if (value == null)
+      return null;
+
     return this.strip(value);
   }
 
