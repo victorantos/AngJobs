@@ -26,4 +26,7 @@ export class JobsComponent implements OnInit {
   ngOnInit() {
   }
 
+  reInit() {
+    this.selectedJob = null;
+  }
 }

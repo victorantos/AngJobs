@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { LoggingService } from './services/logging.service';
 import { JobApplication } from './jobs/job-application/job-application.model';
 import { JobsService } from './services/jobs.service';
 import { Resume } from './jobs/resume.model';
 import { DataStorageService } from './shared/data-storage.service';
+import { JobsComponent } from './jobs/jobs.component';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +13,7 @@ import { DataStorageService } from './shared/data-storage.service';
 
 })
 export class AppComponent implements OnInit {
+  @ViewChild('appJobs') private appJobs: JobsComponent;
   title = 'app';
   loadedFeature: string[] = ["job"];
   jobApplications: JobApplication[];
@@ -29,6 +31,10 @@ export class AppComponent implements OnInit {
     else {
       this.loadedFeature = feature as Array<string>;
     }
+
+    if ((this.loadedFeature === 'job' || this.loadedFeature.indexOf('job') > -1)
+      && this.appJobs != undefined)
+      this.appJobs.reInit();
 
     this.logging.log('a new featured has been loaded:', feature);
   }

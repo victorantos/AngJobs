@@ -103,7 +103,7 @@
       <app-job-application-list *ngIf="loadedFeature ==='jobApplicationList' || loadedFeature.indexOf('jobApplicationList') > -1 " [applications]="jobApplications"></app-job-application-list>
       <app-resume-new *ngIf="loadedFeature === 'newResume' || loadedFeature.indexOf('newResume') > -1 "></app-resume-new>
       <!--<app-my-resumes *ngIf="loadedFeature === 'myResumes'"></app-my-resumes>-->
-      <app-jobs *ngIf="loadedFeature === 'job' || loadedFeature.indexOf('job') > -1"></app-jobs>
+      <app-jobs #appJobs *ngIf="loadedFeature === 'job' || loadedFeature.indexOf('job') > -1"></app-jobs>
       <app-job-new *ngIf="loadedFeature === 'newJob'" (newJobCreated)="onNavigate('job');"></app-job-new>
       <app-recommendation-list *ngIf="loadedFeature === 'recommendation-list'"></app-recommendation-list>
     </main>
