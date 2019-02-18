@@ -37,6 +37,7 @@ export class AppComponent implements OnInit {
 
     this.jobApplications = this.jobsService.getJobApplications();
     this.resumes = this.jobsService.getResumes();
+
   }
 
 }

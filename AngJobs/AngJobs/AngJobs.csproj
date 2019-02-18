@@ -30,6 +30,7 @@
     <None Remove="ClientApp\src\app\services\jobs.service.ts" />
     <None Remove="ClientApp\src\app\services\logging.service.ts" />
     <None Remove="ClientApp\src\app\shared\data-storage.service.ts" />
+    <None Remove="ClientApp\src\app\shared\pipes\strip-html.ts" />
     <None Remove="ClientApp\src\app\shared\pipes\truncate.ts" />
     <None Remove="ClientApp\src\app\shared\recommendation.ts" />
   </ItemGroup>
@@ -42,6 +43,7 @@
     <TypeScriptCompile Include="ClientApp\src\app\services\jobs.service.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\services\logging.service.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\shared\data-storage.service.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\shared\pipes\strip-html.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\shared\pipes\truncate.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\shared\recommendation.ts" />
   </ItemGroup>

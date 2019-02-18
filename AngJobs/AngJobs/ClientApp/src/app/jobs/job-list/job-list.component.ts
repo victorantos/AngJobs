@@ -18,6 +18,6 @@ export class JobListComponent implements OnInit {
   }
   ngOnInit() {
 
-    this.jobs = this.jobService.getJobs();
+    this.jobs = this.jobService.getJobs().reverse().slice(0,10);
   }
 }

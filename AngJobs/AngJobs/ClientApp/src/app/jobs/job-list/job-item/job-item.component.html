@@ -3,6 +3,6 @@
       <h5 class="mb-1">{{job.title}}</h5>
       <small style="white-space: nowrap">3 days ago</small>
     </div>
-    <p class="mb-1">{{job.description | truncate:[250]}}</p>
+    <p class="mb-1">{{job.description | truncate:[250] | striphtml}}</p>
     <small>{{job.location}}</small>
   </a>
