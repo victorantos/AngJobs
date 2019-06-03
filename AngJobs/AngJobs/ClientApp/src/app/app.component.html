@@ -100,12 +100,11 @@
     </div>
   </div>-->
 
-      <app-job-application-list *ngIf="loadedFeature ==='jobApplicationList' || loadedFeature.indexOf('jobApplicationList') > -1 " [applications]="jobApplications"></app-job-application-list>
-      <app-resume-new *ngIf="loadedFeature === 'newResume' || loadedFeature.indexOf('newResume') > -1 "></app-resume-new>
-      <!--<app-my-resumes *ngIf="loadedFeature === 'myResumes'"></app-my-resumes>-->
-      <app-jobs #appJobs *ngIf="loadedFeature === 'job' || loadedFeature.indexOf('job') > -1"></app-jobs>
-      <app-job-new *ngIf="loadedFeature === 'newJob'" (newJobCreated)="onNavigate('job');"></app-job-new>
-      <app-recommendation-list *ngIf="loadedFeature === 'recommendation-list'"></app-recommendation-list>
+      <app-job-application-list *ngIf="loadedFeature.indexOf('jobApplicationList') > -1 " [applications]="jobApplications"></app-job-application-list>
+      <app-resume-new *ngIf="loadedFeature.indexOf('newResume') > -1 "></app-resume-new>
+      <app-jobs #appJobs *ngIf="loadedFeature.indexOf('job') > -1"></app-jobs>
+      <app-job-new *ngIf="loadedFeature.indexOf('newJob') > -1 " (newJobCreated)="onNavigate('job');"></app-job-new>
+      <app-recommendation-list *ngIf="loadedFeature.indexOf('recommendation') > -1"></app-recommendation-list>
     </main>
   </div>
 </div>

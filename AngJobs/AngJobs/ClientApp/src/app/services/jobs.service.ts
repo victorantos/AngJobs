@@ -8,10 +8,10 @@ import { Subject } from "rxjs";
 export class JobsService {
   jobsChanged = new Subject<Job[]>();
   jobs: Job[] = [];
-  static readonly pageSize: number = 10;
+  pageSize: number = 10;
   resumes: Resume[] = [];
   jobApplications: JobApplication[] = [];
- 
+  
   getJobs() {
     console.log('JobService.getJobPosts:', this.jobs);
     return this.jobs.reverse().slice(0, this.pageSize);

@@ -32,7 +32,7 @@ export class AppComponent implements OnInit {
       this.loadedFeature = feature as Array<string>;
     }
 
-    if ((this.loadedFeature === 'job' || this.loadedFeature.indexOf('job') > -1)
+    if ((this.loadedFeature.indexOf('job') > -1)
       && this.appJobs != undefined)
       this.appJobs.reInit();
 

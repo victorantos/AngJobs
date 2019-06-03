@@ -3,7 +3,7 @@ import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 
 @Component({
   selector: 'app-editarea',
-  template: `<section #s (DOMSubtreeModified)="onContentChange($event)" style="height:250px;overflow:auto;" class="form-control" contenteditable="true"></section>`,
+  template: `<section #s (DOMSubtreeModified)="onContentChange()" style="height:250px;overflow:auto;" class="form-control" contenteditable="true"></section>`,
   providers: [
     {
       provide: NG_VALUE_ACCESSOR,
