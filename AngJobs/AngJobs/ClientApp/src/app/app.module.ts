@@ -26,6 +26,7 @@ import { CloseDirective } from './shared/close.directive';
 import { JobNewComponent } from './jobs/job-new/job-new.component';
 import { EditareaComponent } from './shared/editarea.component';
 import { TruncatePipe } from './shared/pipes/truncate';
+import { StripHtmlPipe } from './shared/pipes/strip-html';
 import { LoggingService } from './services/logging.service';
 import { JobsService } from './services/jobs.service';
 import { ResumeNewComponent } from './jobs/resume-new/resume-new.component';
@@ -52,6 +53,7 @@ import { DataStorageService } from './shared/data-storage.service';
     JobNewComponent,
     EditareaComponent,
     TruncatePipe,
+    StripHtmlPipe,
     ResumeNewComponent
   ],
   imports: [

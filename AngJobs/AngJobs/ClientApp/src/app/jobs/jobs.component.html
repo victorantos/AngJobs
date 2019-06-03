@@ -5,7 +5,7 @@
    <!-- <a href="javascript:void(0)" class="btn btn-info" (click)="addnewJob = true" *ngIf="!addnewJob">Add a new job</a>-->
   </div>
   <div class="col-md-12">
-    <app-job-list *ngIf="!selectedJob" [jobs]="jobs" (jobWasSelected)="selectedJob = $event"></app-job-list>
+    <app-job-list *ngIf="!selectedJob" (jobWasSelected)="selectedJob = $event"></app-job-list>
   </div>
   <div class="col-md-12" *ngIf="selectedJob">
     <app-job-detail *ngIf="selectedJob; else infoText" [job]="selectedJob" (newJobApplication)="addJobApplication($event)"

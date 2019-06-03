@@ -12,7 +12,7 @@ export class JobsComponent implements OnInit {
   selectedJob: Job;
   jobApplications: JobApplication[] = [];
   jobs: Job[] = [];
-
+  addnewJob: false;
   constructor(private jobsService: JobsService) { }
 
   addJobApplication($event) {
@@ -26,4 +26,7 @@ export class JobsComponent implements OnInit {
   ngOnInit() {
   }
 
+  reInit() {
+    this.selectedJob = null;
+  }
 }
