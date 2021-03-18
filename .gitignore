@@ -4,7 +4,11 @@
 # User-specific files
 *.suo
 *.user
+*.userosscache
 *.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
 
 # Build results
 [Dd]ebug/
@@ -15,17 +19,19 @@ x64/
 x86/
 build/
 bld/
-[Bb]in/
-[Oo]bj/
+bin/
+Bin/
+obj/
+Obj/
 
-# Roslyn cache directories
-*.ide/
+# Visual Studio 2015 cache/options directory
+.vs/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
-#NUNIT
+# NUNIT
 *.VisualState.xml
 TestResult.xml
 
@@ -66,6 +72,7 @@ _Chutzpah*
 ipch/
 *.aps
 *.ncb
+*.opendb
 *.opensdf
 *.sdf
 *.cachefile
@@ -74,6 +81,7 @@ ipch/
 *.psess
 *.vsp
 *.vspx
+*.sap
 
 # TFS 2012 Local Workspace
 $tf/
@@ -86,7 +94,7 @@ _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
-# JustCode is a .NET coding addin-in
+# JustCode is a .NET coding add-in
 .JustCode
 
 # TeamCity is a build add-in
@@ -98,6 +106,7 @@ _TeamCity*
 # NCrunch
 _NCrunch_*
 .*crunch*.local.xml
+nCrunchTemp_*
 
 # MightyMoose
 *.mm.*
@@ -125,7 +134,7 @@ publish/
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
-# TODO: Comment the next line if you want to checkin your web deploy settings 
+# TODO: Comment the next line if you want to checkin your web deploy settings
 # but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
 *.publishproj
@@ -136,28 +145,41 @@ publish/
 **/packages/*
 # except build/, which is used as an MSBuild target.
 !**/packages/build/
-# If using the old MSBuild-Integrated Package Restore, uncomment this:
+# Uncomment if necessary however generally it will be regenerated when needed
 #!**/packages/repositories.config
 
-# Windows Azure Build Output
+# Microsoft Azure Build Output
 csx/
 *.build.csdef
 
+# Microsoft Azure Emulator
+ecf/
+rcf/
+
+# Microsoft Azure ApplicationInsights config file
+ApplicationInsights.config
+
 # Windows Store app package directory
 AppPackages/
+BundleArtifacts/
+
+# Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+# but keep track of directories ending in .cache
+!*.[Cc]ache/
 
 # Others
-sql/
-*.Cache
 ClientBin/
-[Ss]tyle[Cc]op.*
 ~$*
 *~
 *.dbmdl
 *.dbproj.schemaview
 *.pfx
 *.publishsettings
-node_modules/
+orleans.codegen.cs
+
+/node_modules
 
 # RIA/Silverlight projects
 Generated_Code/
@@ -181,41 +203,29 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
-/bower_components/angular
 
-/bower_components/angular-ui-router/src
-/bower_components/angular-cookies/.bower.json
-/bower_components/angular-cookies/README.md
-/bower_components/angular-cookies/angular-cookies.js
-/bower_components/angular-cookies/angular-cookies.min.js.map
-/bower_components/angular-cookies/bower.json
-/bower_components/angular-cookies/index.js
-/bower_components/angular-cookies/package.json
-/bower_components/angular-resource/.bower.json
-/bower_components/angular-resource/README.md
-/bower_components/angular-resource/angular-resource.js
-/bower_components/angular-resource/angular-resource.min.js.map
-/bower_components/angular-resource/bower.json
-/bower_components/angular-resource/index.js
-/bower_components/angular-resource/package.json
+# GhostDoc plugin setting file
+*.GhostDoc.xml
 
-/bower_components/font-awesome/less
+# Node.js Tools for Visual Studio
+.ntvs_analysis.dat
 
-/bower_components/rangy
+# Visual Studio 6 build log
+*.plg
 
-/bower_components/textAngular
+# Visual Studio 6 workspace options file
+*.opt
 
-/bower_components/font-awesome
-AngJobs.Android/Web.Release.config
+# Visual Studio LightSwitch build output
+**/*.HTMLClient/GeneratedArtifacts
+**/*.DesktopClient/GeneratedArtifacts
+**/*.DesktopClient/ModelManifest.xml
+**/*.Server/GeneratedArtifacts
+**/*.Server/ModelManifest.xml
+_Pvt_Extensions
 
-/AngJobs/Web.Release.config
-*.db
-/.vs/config
-/AngJobs2.sln
-/.vs/slnx.sqlite
-/AngJobs/bower_components
-AngJobs/AngJobs/ClientApp/package-lock.json
-*.ide-shm
+# Paket dependency manager
+.paket/paket.exe
 
-# Visual Studio configs
-AngJobs/.vs/*
+# FAKE - F# Make
+.fake/
