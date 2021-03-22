@@ -98,3 +98,14 @@ body {
     border-color: transparent;
     box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
   }
+
+  .table{
+    background-color: #e0ebf1;
+  }
+
+  table .action
+{
+    width:5px;
+    text-align:center;
+    white-space: nowrap
+}
