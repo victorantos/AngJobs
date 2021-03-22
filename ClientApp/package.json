@@ -22,6 +22,7 @@
     "bootstrap": "^5.0.0-beta2",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
+    "xterm": "^4.11.0",
     "zone.js": "~0.11.3"
   },
   "devDependencies": {
