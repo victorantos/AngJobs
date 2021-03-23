@@ -20,7 +20,7 @@ export class AppComponent implements OnInit  {
     
   }
   ngOnInit() {
-    this.lastId = this.hnjobs.getLastWhoPost();
+    this.lastId = this.hnjobs.getLastWhoPostId();
     // this.whoishiring = this.hnjobs.getWhoPostUser().pipe(map(responseData => {
     //   const submittedArray = [];
     //   const key = "submitted";

@@ -35,11 +35,16 @@ export class HnjobsService {
       return submittedArray;
     }));
   }
-  getLastWhoPost(): any {
+  getLastWhoPostId(): any {
     let response = this.getWhoPostUser().pipe(map(responseData => {
       return responseData[0];
     }));
     console.log(response);
     return response;
+  }
+
+  getLastWhoPost(): Observable<WhoPostJob[]>
+  {
+    let response = this.getLastWhoPostId().pipe
   }
 }
