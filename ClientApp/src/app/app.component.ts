@@ -24,13 +24,10 @@ export class AppComponent implements OnInit  {
   } 
   ngOnInit() {
     this.lastId = this.hnjobs.getLastWhoPostStoryId();
-    console.log('lst id is', this.lastId);
-
+     
     this.lastStory = this.hnjobs.getLastWhoPostStory();
     this.lastStoryComments = this.hnjobs.getLastWhoPostComments();
-    // this.lastStoryComments.subscribe(s => {
-    //   console.log('lastStoryComments subscribe', s);
-    // });
+   
     this.logService.log("getWhoPost has been called, whoishiring has been populated");
   }
  

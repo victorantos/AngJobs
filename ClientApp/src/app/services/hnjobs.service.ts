@@ -68,14 +68,14 @@ export class HnjobsService {
     const myReqs: Observable<WhoPostComment>[]=[];
     const mainObs$ = this.getLastWhoPostStory().pipe(
       map((story: WhoPostStory) => {
-        const ids = (story as WhoPostStory).kids.splice(1, 5);
+        const ids = (story as WhoPostStory).kids.splice(1, 12);
        
         let index = 1;
         for (const key in ids) {
           if (Object.prototype.hasOwnProperty.call(ids, key)) {
             const element = ids[key];
             let obs$ = this.http.get<WhoPostComment>(this.whoishiringitemUrl.replace('{id}', element)).pipe(
-              delay(index * 1000)
+              delay(index * 400)
             );
             myReqs.push(obs$);
             index++;
