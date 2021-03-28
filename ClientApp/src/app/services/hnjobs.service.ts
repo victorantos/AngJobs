@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { combineLatest, forkJoin, merge, Observable, of, zip } from 'rxjs';
+import { delay } from 'rxjs/operators';
 import { WhoPostUser } from "../models/WhoPostUser";
 import { environment } from "../../environments/environment";
 import { WhoPostStory } from '../models/WhoPostStory';
@@ -69,12 +70,15 @@ export class HnjobsService {
       map((story: WhoPostStory) => {
         const ids = (story as WhoPostStory).kids.splice(1, 5);
        
+        let index = 1;
         for (const key in ids) {
           if (Object.prototype.hasOwnProperty.call(ids, key)) {
             const element = ids[key];
-            let obs$ = this.http.get<WhoPostComment>(this.whoishiringitemUrl.replace('{id}', element));
+            let obs$ = this.http.get<WhoPostComment>(this.whoishiringitemUrl.replace('{id}', element)).pipe(
+              delay(index * 1000)
+            );
             myReqs.push(obs$);
-           // obs$;
+            index++;
           }
         }
         console.log('myreq:', myReqs);

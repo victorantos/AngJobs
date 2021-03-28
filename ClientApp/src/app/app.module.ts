@@ -4,10 +4,12 @@ import { HttpClientModule } from "@angular/common/http";
   
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { WhoCommentSubjectPipe } from './pipes/who-comment-subject.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WhoCommentSubjectPipe
   ],
   imports: [
     BrowserModule,

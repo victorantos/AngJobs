@@ -33,14 +33,6 @@ export class AppComponent implements OnInit  {
     // });
     this.logService.log("getWhoPost has been called, whoishiring has been populated");
   }
-  getFirstLine(obs$: Observable<WhoPostComment>): any {
-    
-     
-    return obs$.pipe(map(j => {
-      
-      return j.text;
-    }));
-   
-  }
+ 
  
 }
