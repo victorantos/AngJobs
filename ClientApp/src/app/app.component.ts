@@ -1,9 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { WhoPostUser } from './models/whopostuser';
+import { WhoPostUser } from './models/WhoPostUser';
 import { HnjobsService } from "./services/hnjobs.service";
 import { LoggingService } from './services/logging.service';
-import { map } from "rxjs/operators";
+import { last, map } from "rxjs/operators";
+import { WhoPostStory } from './models/WhoPostStory';
+import { WhoPostComment } from './models/WhoPostComment';
 
 @Component({
   selector: 'app-root',
@@ -13,32 +15,32 @@ import { map } from "rxjs/operators";
 export class AppComponent implements OnInit  {
   
   title = 'ClientApp';
-  whoishiring!: Observable<string[]>;
-  lastId!: Observable<string>;
 
+  lastId!: Observable<string>;
+  lastStory!: Observable<WhoPostStory>; 
+  lastStoryComments!: Observable<Observable<WhoPostComment>[]>;
   constructor(private hnjobs: HnjobsService, private logService: LoggingService) {
     
-  }
+  } 
   ngOnInit() {
-    this.lastId = this.hnjobs.getLastWhoPostId();
-    // this.whoishiring = this.hnjobs.getWhoPostUser().pipe(map(responseData => {
-    //   const submittedArray = [];
-    //   const key = "submitted";
-     
-    //    if (Object.prototype.hasOwnProperty.call(responseData, key)) {
-    //      const items = (responseData)[key];
-    //     for (const k in items) {
-    //       if (Object.prototype.hasOwnProperty.call(items, k)) {
-    //         const element = items[k];
-    //         submittedArray.push(element);
-    //       }
-    //     }
-       
-    //    }
-    //    return submittedArray;
-    // }));
+    this.lastId = this.hnjobs.getLastWhoPostStoryId();
+    console.log('lst id is', this.lastId);
+
+    this.lastStory = this.hnjobs.getLastWhoPostStory();
+    this.lastStoryComments = this.hnjobs.getLastWhoPostComments();
+    // this.lastStoryComments.subscribe(s => {
+    //   console.log('lastStoryComments subscribe', s);
+    // });
     this.logService.log("getWhoPost has been called, whoishiring has been populated");
   }
- 
+  getFirstLine(obs$: Observable<WhoPostComment>): any {
+    
+     
+    return obs$.pipe(map(j => {
+      
+      return j.text;
+    }));
    
+  }
+ 
 }

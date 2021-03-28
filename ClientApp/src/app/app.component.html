@@ -127,9 +127,10 @@
         </div>
       </div>
      <span>{{lastId | async}}</span>
+     <span style="background-color: yellow;"></span>
       <div class="table-responsive"> 
         <nav aria-label="Page navigation example">
-          <div class="row">
+          <div class="row"> 
             <div class="col">
               <div class="form-check-inline">
                 <input class="form-check-input position-static" type="checkbox" value="" id="flexCheckDefault"
@@ -180,55 +181,24 @@
           <caption>List of jobs</caption>
 
           <tbody>
-            <tr>
-              <td class="action">
-                <div class="form-check">
-                  <input class="form-check-input position-static" type="checkbox" value="" aria-label="Select 1">
-                </div>
-              </td>
-              <td class="action">
-                <button class="btn btn-sm p-0" type="button">
-                  <i class="bi bi-star"></i>
-                </button>
-              </td>
-              <td>data</td>
-              <td>placeholder</td>
-              <td>text</td>
-            </tr>
-            <tr>
-              <td class="action">
-                <div class="form-check">
-                  <input class="form-check-input position-static" type="checkbox" value="" aria-label="Select 1">
-                </div>
-              </td>
-              <td class="action">
-              <td>irrelevant</td>
-              <td>visual</td>
-              <td>layout</td>
-            </tr>
-            <tr>
-              <td class="action">
-                <div class="form-check">
-                  <input class="form-check-input position-static" type="checkbox" value="" aria-label="Select 1">
-                </div>
-              </td>
-              <td class="action">
-              <td>rich</td>
-              <td>dashboard</td>
-              <td>tabular</td>
-            </tr>
-            <tr>
-              <td class="action">
-                <div class="form-check">
-                  <input class="form-check-input position-static" type="checkbox" value="" aria-label="Select 1">
-                </div>
-              </td>
-              <td class="action">
-              <td>placeholder</td>
-              <td>illustrative</td>
-              <td>data</td>
-            </tr>
-
+            <tr *ngFor="let item  of (lastStoryComments | async)  ">
+              
+              
+                <td class="action">
+                  <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" value="" aria-label="Select 1">
+                  </div>
+                </td> 
+                <td class="action">
+                  <button class="btn btn-sm p-0" type="button">
+                    <i class="bi bi-star"></i>
+                  </button>
+                </td>
+                <td *ngIf="(item | async) as i">{{ i.by }}</td>
+                <td >{{getFirstLine(item) | async}}</td>
+                <td></td>
+              
+            </tr> 
           </tbody>
         </table>
       </div>
