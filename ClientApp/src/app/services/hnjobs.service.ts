@@ -40,15 +40,16 @@ export class HnjobsService {
   }
   getLastWhoPostStoryId(): any {
     let response = this.getWhoPostUser().pipe(map(responseData => {
+      console.log('get last who post story id',responseData[0]);
       return responseData[0];
     }));
-    console.log(response);
+   
     return response;
   }
 
   getLastWhoPostStory(): Observable<WhoPostStory> {
     return this.getLastWhoPostStoryId().pipe(map(id => {
-      console.log("id is", id);
+      console.log("last post id is", id);
       return id;
     }),
       concatMap(id => { 
@@ -59,23 +60,21 @@ export class HnjobsService {
             return responseData;
           })
         )
-
-
       }));
   }
 
-  getLastWhoPostComments(): Observable<Observable<WhoPostComment>[]> {
+  getLastWhoPostComments(page: number = 1, pageSize:number = 10): Observable<Observable<WhoPostComment>[]> {
     const myReqs: Observable<WhoPostComment>[]=[];
     const mainObs$ = this.getLastWhoPostStory().pipe(
       map((story: WhoPostStory) => {
-        const ids = (story as WhoPostStory).kids.splice(1, 12);
+        const ids = (story as WhoPostStory).kids.splice((page-1)*pageSize+1, pageSize);
        
         let index = 1;
         for (const key in ids) {
           if (Object.prototype.hasOwnProperty.call(ids, key)) {
             const element = ids[key];
             let obs$ = this.http.get<WhoPostComment>(this.whoishiringitemUrl.replace('{id}', element)).pipe(
-              delay(index * 400)
+              delay(index * 150)
             );
             myReqs.push(obs$);
             index++;
