@@ -64,7 +64,7 @@ export class HnjobsService {
   }
 
   getLastWhoPostComments(page: number = 1, pageSize:number = 10): Observable<Observable<WhoPostComment>[]> {
-    const myReqs: Observable<WhoPostComment>[]=[];
+    const myReqs: Observable<WhoPostComment>[] = []; 
     const mainObs$ = this.getLastWhoPostStory().pipe(
       map((story: WhoPostStory) => {
         const ids = (story as WhoPostStory).kids.splice((page-1)*pageSize+1, pageSize);

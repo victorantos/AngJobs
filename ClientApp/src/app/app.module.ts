@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WhoCommentSubjectPipe } from './pipes/who-comment-subject.pipe';
 import { InboxComponent } from './inbox/inbox.component';
+import { PaginationComponent } from './inbox/pagination/pagination.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WhoCommentSubjectPipe,
-    InboxComponent
+    InboxComponent,
+    PaginationComponent
   ],
   imports: [
     BrowserModule,

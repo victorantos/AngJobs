@@ -3,7 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { InboxComponent } from './inbox/inbox.component';
 
 const routes: Routes = [
-  {path: '/inbox/:page', component: InboxComponent}
+  { path: '', redirectTo: '/inbox', pathMatch: 'full' },
+  { path: 'inbox', component: InboxComponent},
+  { path: 'inbox/:page', component: InboxComponent }
+  
 ];
 
 @NgModule({

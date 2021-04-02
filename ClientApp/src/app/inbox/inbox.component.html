@@ -1,1 +1,88 @@
-<p>inbox works!</p>
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">    
+ 
+      <h1 class="h3">Inbox</h1>
+        <div class="btn-toolbar mb-2 mb-md-0">
+          <div class="btn-group me-2">
+            <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
+          </div>
+          <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
+            <span data-feather="calendar"></span>
+            This week
+          </button>
+        </div>
+      </div>
+     <span>{{lastId | async}}</span>
+     <span style="background-color: yellow;"></span>
+      <div class="table-responsive"> 
+        <nav aria-label="Page navigation example">
+          <div class="row"> 
+            <div class="col">
+              <div class="form-check-inline">
+                <input class="form-check-input position-static" type="checkbox" value="" id="flexCheckDefault"
+                  aria-label="Select all">
+              </div>
+
+              <div class="form-check-inline dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+              <div class="form-check-inline dropdown">
+
+                <button class="btn" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <i class="bi bi-three-dots-vertical"></i>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                  <li><a class="dropdown-item" href="#">Action 2</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+                <app-pagination [page]="page"></app-pagination>
+            </div>
+          </div>
+
+        </nav>
+
+        <table class="table table-hover table-sm">
+          <caption>List of jobs</caption>
+
+          <tbody>
+            <tr *ngFor="let item  of (lastStoryComments | async)  ">
+              
+              
+                <td class="action">
+                  <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" value="" aria-label="Select 1">
+                  </div>
+                </td> 
+                <td class="action">
+                  <button class="btn btn-sm p-0" type="button">
+                    <i class="bi bi-star"></i>
+                  </button>
+                </td>
+                <td>
+                  <span *ngIf="(item | async) as i">
+                    {{ i.by }}
+                  </span>
+                </td>
+                <td>
+                  <span *ngIf="(item | async) as i">
+                    {{ i | whoCommentSubject }}
+                  </span>
+                 </td>
+                <td></td>
+              
+            </tr> 
+          </tbody>
+        </table>
+    </div>
