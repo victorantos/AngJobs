@@ -88,4 +88,8 @@ export class HnjobsService {
  
     return mainObs$;
   }
+
+  getWhoPostComment(id: string): Observable<WhoPostComment>{
+    return this.http.get<WhoPostComment>(this.whoishiringitemUrl.replace('{id}', id));
+  }
 }
