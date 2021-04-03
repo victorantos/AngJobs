@@ -3,17 +3,16 @@
       <h1 class="h3">Inbox</h1>
         <div class="btn-toolbar mb-2 mb-md-0">
           <div class="btn-group me-2">
-            <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
-            <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
+            <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Export</button> -->
           </div>
-          <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
+          <!-- <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
             <span data-feather="calendar"></span>
             This week
-          </button>
+          </button> -->
         </div>
       </div>
-     <span>{{lastId | async}}</span>
-     <span style="background-color: yellow;"></span>
+
       <div class="table-responsive"> 
         <nav aria-label="Page navigation example">
           <div class="row"> 
@@ -28,9 +27,9 @@
                   aria-expanded="false">
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="#">Action 1 <i>(to do)</i></a></li>
+                    <li><a class="dropdown-item" href="#">Action 2 <i>(to do)</i></a></li>
+                   
                 </ul>
               </div>
               <div class="form-check-inline dropdown">
@@ -40,9 +39,9 @@
                   <i class="bi bi-three-dots-vertical"></i>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                  <li><a class="dropdown-item" href="#">Action 2</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Action 1 <i>(to do)</i></a></li>
+                  <li><a class="dropdown-item" href="#">Action 2 <i>(to do)</i></a></li>
+                 
                 </ul>
               </div>
             </div>
@@ -54,7 +53,7 @@
         </nav>
 
         <table class="table table-hover table-sm">
-          <caption>List of jobs</caption>
+          <caption>source: Hacker News, <i>Ask HN: Who is hiring? (April 2021)</i></caption>
 
           <tbody>
             <tr *ngFor="let item  of (lastStoryComments | async)  ">

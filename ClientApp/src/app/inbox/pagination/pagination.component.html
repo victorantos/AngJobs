@@ -3,7 +3,7 @@
   <ng-container *ngIf="page == undefined || page <= pagerSizeMax else pagerOne">
 
     <li class="page-item disabled">
-      {{pagerSize | json}}
+     
       <a class="page-link"  tabindex="-1" aria-disabled="true">Previous</a>
     </li>
     <li class="page-item" [ngClass]="{'active': page != undefined && page == i+1}"
