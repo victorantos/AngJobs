@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { WhoCommentSubjectPipe } from './pipes/who-comment-subject.pipe';
 import { InboxComponent } from './inbox/inbox.component';
 import { PaginationComponent } from './inbox/pagination/pagination.component';
+import { JobDetailsComponent } from './inbox/job-details/job-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WhoCommentSubjectPipe,
     InboxComponent,
-    PaginationComponent
+    PaginationComponent,
+    JobDetailsComponent
   ],
   imports: [
     BrowserModule,
