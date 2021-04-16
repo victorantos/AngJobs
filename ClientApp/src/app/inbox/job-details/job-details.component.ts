@@ -29,9 +29,4 @@ export class JobDetailsComponent implements OnInit {
           this.hnjobs.getWhoPostComment(params.get('id'))
         ));
   }
-
-  back() {
-    this.location.back();
-  }
-
 }

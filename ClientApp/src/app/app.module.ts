@@ -8,6 +8,7 @@ import { WhoCommentSubjectPipe } from './pipes/who-comment-subject.pipe';
 import { InboxComponent } from './inbox/inbox.component';
 import { PaginationComponent } from './inbox/pagination/pagination.component';
 import { JobDetailsComponent } from './inbox/job-details/job-details.component';
+import { BackButtonComponent } from './shared/back-button/back-button.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { JobDetailsComponent } from './inbox/job-details/job-details.component';
     WhoCommentSubjectPipe,
     InboxComponent,
     PaginationComponent,
-    JobDetailsComponent
+    JobDetailsComponent,
+    BackButtonComponent
   ],
   imports: [
     BrowserModule,
