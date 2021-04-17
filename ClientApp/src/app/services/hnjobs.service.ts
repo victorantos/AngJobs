@@ -49,14 +49,12 @@ export class HnjobsService {
 
   getLastWhoPostStory(): Observable<WhoPostStory> {
     return this.getLastWhoPostStoryId().pipe(map(id => {
-      console.log("last post id is", id);
       return id;
     }),
       concatMap(id => { 
         return this.http.get<WhoPostStory>(this.whoishiringitemUrl.replace('{id}', id as string)).pipe(
           map(responseData => {
-            console.log('url:', this.whoishiringitemUrl.replace('{id}', id as string));
-            console.log("response data", responseData);
+      
             return responseData;
           })
         )
@@ -73,14 +71,26 @@ export class HnjobsService {
         for (const key in ids) {
           if (Object.prototype.hasOwnProperty.call(ids, key)) {
             const element = ids[key];
-            let obs$ = this.http.get<WhoPostComment>(this.whoishiringitemUrl.replace('{id}', element)).pipe(
-              delay(index * 150)
-            );
-            myReqs.push(obs$);
+            const itemKey = "hn-item-" + element;
+            const localItem = localStorage.getItem(itemKey);
+            if (localItem) {
+              let whoPostcomment = Object.assign(new WhoPostComment(), JSON.parse(localItem))
+              myReqs.push(of(whoPostcomment));
+            }
+            else {
+              let obs$ = this.http.get<WhoPostComment>(this.whoishiringitemUrl.replace('{id}', element)).pipe(
+             
+                delay(index * 75),
+                tap((value) => {
+                  localStorage.setItem(itemKey, JSON.stringify(value));
+                })
+              );
+              myReqs.push(obs$);
+            }
             index++;
           }
         }
-        console.log('myreq:', myReqs);
+       
         return myReqs;
       })
       
@@ -90,6 +100,14 @@ export class HnjobsService {
   }
 
   getWhoPostComment(id: string): Observable<WhoPostComment>{
+     
+    const itemKey = "hn-item-" + id;
+    const localItem = localStorage.getItem(itemKey);
+    if (localItem) {
+      let whoPostcomment = Object.assign(new WhoPostComment(), JSON.parse(localItem))
+      return of(whoPostcomment);
+    }
+
     return this.http.get<WhoPostComment>(this.whoishiringitemUrl.replace('{id}', id));
   }
 }
