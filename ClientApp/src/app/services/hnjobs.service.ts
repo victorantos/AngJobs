@@ -50,13 +50,10 @@ export class HnjobsService {
   }
 
   getLastWhoPostStory(): Observable<WhoPostStory> {
-    return this.getLastWhoPostStoryId().pipe(map(id => {
-      return id;
-    }),
+    return this.getLastWhoPostStoryId().pipe(
       concatMap(id => { 
         return this.http.get<WhoPostStory>(this.whoishiringitemUrl.replace('{id}', id as string)).pipe(
           map(responseData => {
-      
             return responseData;
           })
         )
@@ -81,7 +78,6 @@ export class HnjobsService {
             }
             else {
               let obs$ = this.http.get<WhoPostComment>(this.whoishiringitemUrl.replace('{id}', element)).pipe(
-             
                 delay(index * 75),
                 tap((value) => {
                   localStorage.setItem(itemKey, JSON.stringify(value));
