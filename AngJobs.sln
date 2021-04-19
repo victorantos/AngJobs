@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngJobs", "AngJobs.csproj", "{8B1204CB-784A-4B8A-B838-A3911537ED15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B1204CB-784A-4B8A-B838-A3911537ED15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B1204CB-784A-4B8A-B838-A3911537ED15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B1204CB-784A-4B8A-B838-A3911537ED15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B1204CB-784A-4B8A-B838-A3911537ED15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3B917EC-8E4E-4C37-8C5B-EEDBE70F203D}
+	EndGlobalSection
+EndGlobal
