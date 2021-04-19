@@ -1,12 +1,13 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { combineLatest, forkJoin, merge, Observable, of, zip } from 'rxjs';
-import { delay } from 'rxjs/operators';
+import { delay, filter, flatMap } from 'rxjs/operators';
 import { WhoPostUser } from "../models/WhoPostUser";
 import { environment } from "../../environments/environment";
 import { WhoPostStory } from '../models/WhoPostStory';
 import { combineAll, concatMap, concatMapTo, map, mapTo, mergeAll, mergeMap, mergeMapTo, switchMap, take, tap } from 'rxjs/operators';
 import { WhoPostComment } from '../models/WhoPostComment';
+import { Key } from 'protractor';
 
 @Injectable({
   providedIn: 'root'
@@ -14,6 +15,7 @@ import { WhoPostComment } from '../models/WhoPostComment';
 export class HnjobsService {
   private whoishiring = environment.whoishiringuserUrl;
   private whoishiringitemUrl = environment.whoishiringitemUrl;
+  private hnItemKeyStr = "hn-item-{id}";
 
   constructor(private http: HttpClient) {
 
@@ -71,7 +73,7 @@ export class HnjobsService {
         for (const key in ids) {
           if (Object.prototype.hasOwnProperty.call(ids, key)) {
             const element = ids[key];
-            const itemKey = "hn-item-" + element;
+            const itemKey = this.hnItemKeyStr.replace('{id}',element);
             const localItem = localStorage.getItem(itemKey);
             if (localItem) {
               let whoPostcomment = Object.assign(new WhoPostComment(), JSON.parse(localItem))
@@ -101,7 +103,7 @@ export class HnjobsService {
 
   getWhoPostComment(id: string): Observable<WhoPostComment>{
      
-    const itemKey = "hn-item-" + id;
+    const itemKey = this.hnItemKeyStr.replace('{id}', id);
     const localItem = localStorage.getItem(itemKey);
     if (localItem) {
       let whoPostcomment = Object.assign(new WhoPostComment(), JSON.parse(localItem))

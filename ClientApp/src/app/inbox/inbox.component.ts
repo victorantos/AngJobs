@@ -43,9 +43,5 @@ export class InboxComponent implements OnInit {
       this.page = +currentPage;
     
     this.lastStoryComments = this.hnjobs.getLastWhoPostComments(this.page);
-  
- 
-    console.log('loadInbox: ', currentPage);
   }
-
 }

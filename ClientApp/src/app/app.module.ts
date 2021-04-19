@@ -9,6 +9,7 @@ import { InboxComponent } from './inbox/inbox.component';
 import { PaginationComponent } from './inbox/pagination/pagination.component';
 import { JobDetailsComponent } from './inbox/job-details/job-details.component';
 import { BackButtonComponent } from './shared/back-button/back-button.component';
+import { SearchBoxComponent } from './search/search-box/search-box.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { BackButtonComponent } from './shared/back-button/back-button.component'
     InboxComponent,
     PaginationComponent,
     JobDetailsComponent,
-    BackButtonComponent
+    BackButtonComponent,
+    SearchBoxComponent
   ],
   imports: [
     BrowserModule,

@@ -23,10 +23,10 @@ export class AppComponent implements OnInit  {
     
   } 
   ngOnInit() {
-    this.lastId = this.hnjobs.getLastWhoPostStoryId();
+    //this.lastId = this.hnjobs.getLastWhoPostStoryId();
      
-    this.lastStory = this.hnjobs.getLastWhoPostStory();
-    this.lastStoryComments = this.hnjobs.getLastWhoPostComments();
+    //this.lastStory = this.hnjobs.getLastWhoPostStory();
+    //this.lastStoryComments = this.hnjobs.getLastWhoPostComments();
    
     this.logService.log("getWhoPost has been called, whoishiring has been populated");
   }

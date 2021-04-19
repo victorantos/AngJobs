@@ -21,12 +21,25 @@
     <!-- Don't publish the SPA source files, but do show them in the project files list -->
     <Content Remove="$(SpaRoot)**" />
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
+    <None Include="**/*" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="ClientApp\src\app\shared\" />
     <Folder Include="ClientApp\src\app\shared\back-button\" />
-    <Folder Include="Models\" />
+    <Folder Include="ClientApp\src\app\search\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="ClientApp\dist\ClientApp\favicon.ico" />
+    <None Remove="ClientApp\dist\ClientApp\main.86bac75b684a3a21e919.js" />
+    <None Remove="ClientApp\dist\ClientApp\index.html" />
+    <None Remove="ClientApp\dist\ClientApp\scripts.0874372ff690348f0a76.js" />
+    <None Remove="ClientApp\dist\ClientApp\runtime.7b63b9fd40098a2e8207.js" />
+    <None Remove="ClientApp\dist\ClientApp\bootstrap-icons.c1dcd4eed1b0c50ff856.woff2" />
+    <None Remove="ClientApp\dist\ClientApp\3rdpartylicenses.txt" />
+    <None Remove="ClientApp\dist\ClientApp\styles.17651a8be1e5ef890f34.css" />
+    <None Remove="ClientApp\dist\ClientApp\polyfills.00096ed7d93ed26ee6df.js" />
+    <None Remove="ClientApp\dist\ClientApp\bootstrap-icons.cc252f2c65517314a587.woff" />
   </ItemGroup>
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
     <!-- Ensure Node.js is installed -->
