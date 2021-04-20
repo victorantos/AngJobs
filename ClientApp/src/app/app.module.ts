@@ -10,6 +10,7 @@ import { PaginationComponent } from './inbox/pagination/pagination.component';
 import { JobDetailsComponent } from './inbox/job-details/job-details.component';
 import { BackButtonComponent } from './shared/back-button/back-button.component';
 import { SearchBoxComponent } from './search/search-box/search-box.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,12 +20,15 @@ import { SearchBoxComponent } from './search/search-box/search-box.component';
     PaginationComponent,
     JobDetailsComponent,
     BackButtonComponent,
-    SearchBoxComponent
+    SearchBoxComponent,
+   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
