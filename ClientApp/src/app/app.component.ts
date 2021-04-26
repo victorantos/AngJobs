@@ -15,10 +15,7 @@ import { WhoPostComment } from './models/WhoPostComment';
 export class AppComponent implements OnInit  {
   
   title = 'ClientApp';
-
-  lastId!: Observable<string>;
-  lastStory!: Observable<WhoPostStory>; 
-  lastStoryComments!: Observable<Observable<WhoPostComment>[]>;
+   
   constructor(private hnjobs: HnjobsService, private logService: LoggingService) {
     
   } 

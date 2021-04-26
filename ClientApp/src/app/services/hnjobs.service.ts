@@ -50,27 +50,68 @@ export class HnjobsService {
   }
 
   getLastWhoPostStory(): Observable<WhoPostStory> {
-    return this.getLastWhoPostStoryId().pipe(
+    return this.getLastWhoPostStoryId().pipe(map(id => {
+      return id;
+    }),
       concatMap(id => { 
         return this.http.get<WhoPostStory>(this.whoishiringitemUrl.replace('{id}', id as string)).pipe(
           map(responseData => {
+      
             return responseData;
           })
         )
       }));
   }
 
-  getLastWhoPostComments(page: number = 1, pageSize:number = 10): Observable<Observable<WhoPostComment>[]> {
-    const myReqs: Observable<WhoPostComment>[] = []; 
-    const mainObs$ = this.getLastWhoPostStory().pipe(
-      map((story: WhoPostStory) => {
-        const ids = (story as WhoPostStory).kids.splice((page-1)*pageSize+1, pageSize);
+  //getLastWhoPostComments(page: number = 1, pageSize:number = 10): Observable<WhoPostComment>[] {
+  //  const myReqs: Observable<WhoPostComment>[] = []; 
+
+  //  return this.getLastWhoPostStory().pipe(
+  //    map((story: WhoPostStory) => {
+  //      const ids = (story as WhoPostStory).kids.splice((page-1)*pageSize+1, pageSize);
        
+  //      let index = 1;
+  //      for (const key in ids) {
+  //        if (Object.prototype.hasOwnProperty.call(ids, key)) {
+  //          const element = ids[key];
+  //          const itemKey = this.hnItemKeyStr.replace('{id}',element);
+  //          const localItem = localStorage.getItem(itemKey);
+  //          if (localItem) {
+  //            let whoPostcomment = Object.assign(new WhoPostComment(), JSON.parse(localItem))
+  //            myReqs.push(of(whoPostcomment));
+  //          }
+  //          else {
+  //            let obs$ = this.http.get<WhoPostComment>(this.whoishiringitemUrl.replace('{id}', element)).pipe(
+             
+  //              delay(index * 75),
+  //              tap((value) => {
+  //                localStorage.setItem(itemKey, JSON.stringify(value));
+  //              })
+  //            );
+  //            myReqs.push(obs$);
+  //          }
+  //          index++;
+  //        }
+  //      }
+  //      return myReqs;
+  //    })
+  //  );
+
+  //  return myReqs;
+  //}
+
+  getWhoPostCommentsForSearch(page: number = 1, pageSize: number = 10): Observable<Observable<WhoPostComment>[]> {
+    const myReqs: Observable<WhoPostComment>[] = [];
+
+    return this.getLastWhoPostStory().pipe(
+      map((story: WhoPostStory) => {
+        const ids = (story as WhoPostStory).kids.splice((page - 1) * pageSize + 1, pageSize);
+
         let index = 1;
         for (const key in ids) {
           if (Object.prototype.hasOwnProperty.call(ids, key)) {
             const element = ids[key];
-            const itemKey = this.hnItemKeyStr.replace('{id}',element);
+            const itemKey = this.hnItemKeyStr.replace('{id}', element);
             const localItem = localStorage.getItem(itemKey);
             if (localItem) {
               let whoPostcomment = Object.assign(new WhoPostComment(), JSON.parse(localItem))
@@ -78,6 +119,7 @@ export class HnjobsService {
             }
             else {
               let obs$ = this.http.get<WhoPostComment>(this.whoishiringitemUrl.replace('{id}', element)).pipe(
+
                 delay(index * 75),
                 tap((value) => {
                   localStorage.setItem(itemKey, JSON.stringify(value));
@@ -88,13 +130,11 @@ export class HnjobsService {
             index++;
           }
         }
-       
+
         return myReqs;
       })
-      
+
     );
- 
-    return mainObs$;
   }
 
   getWhoPostComment(id: string): Observable<WhoPostComment>{

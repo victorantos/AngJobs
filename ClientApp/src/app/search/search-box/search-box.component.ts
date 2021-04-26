@@ -1,7 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 import { HnjobsService } from '../../services/hnjobs.service';
-import { Observable, combineLatest } from "rxjs";
-import { filter, switchMapTo, tap } from 'rxjs/operators'
+import { Observable, combineLatest, of } from "rxjs";
+
+
+import { filter, switchMapTo, tap, switchMap, mergeMap, map, mapTo, pluck } from 'rxjs/operators'
 import { WhoPostComment } from '../../models/WhoPostComment';
 import { FormControl } from '@angular/forms';
 
@@ -11,32 +13,23 @@ import { FormControl } from '@angular/forms';
   styleUrls: ['./search-box.component.scss']
 })
 export class SearchBoxComponent implements OnInit {
+  @Output() searchTermChanged = new EventEmitter<string>();
   keyword = new FormControl('');
   keyword$ = this.keyword.valueChanges;
+  filteredResults$: any;
 
   constructor(private hnService: HnjobsService) { }
-
-  getFilteredWhoPostComments(page: number = 1, pageSize: number = 10): Observable<Observable<WhoPostComment>[]> {
-
-    
-    return this.hnService.getLastWhoPostComments(page, pageSize);
-
-    let pageList$ = this.hnService.getLastWhoPostComments(page, pageSize);
- 
-    return null;
-  }
 
   ngOnInit(): void {
 
     this.onChanges();
+
+  }
+
+  onChanges(): void {
+    this.keyword$.subscribe(val => {
+      this.searchTermChanged.emit(val);
+    });
+  }
    
-  }
-
-  onChanges(): void{
-
-    
-    //this.keyword$.pipe(tap(v => console.log('este: ', v)));
-    this.keyword$.subscribe();
-  }
-
 }
