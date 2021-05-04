@@ -120,7 +120,7 @@ export class HnjobsService {
             else {
               let obs$ = this.http.get<WhoPostComment>(this.whoishiringitemUrl.replace('{id}', element)).pipe(
 
-                delay(index * 75),
+                delay(index * 15),
                 tap((value) => {
                   localStorage.setItem(itemKey, JSON.stringify(value));
                 })

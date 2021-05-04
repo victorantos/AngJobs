@@ -57,14 +57,14 @@ export class InboxComponent implements OnInit {
       const obsConstr = from(list).pipe(
         concatMap(i => {
           i.subscribe();
-          return i.pipe(delay(20));
+          return i.pipe(delay(10));
         })
       );
 
       obsConstr.subscribe(
         {
           next: (v) => {
-            if (v.text.indexOf(searchTerm) >= 0 || searchTerm == '')
+            if (searchTerm == '' || v.text.toLowerCase().indexOf(searchTerm.toLowerCase()) >= 0)
               self.lastStoryComments.push(v);
           }
         });
