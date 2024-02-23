@@ -7,6 +7,24 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="AngJobs.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
-        Title="AngJobs">
-        <views:MainView />
+        Title="AngJobs"
+        WindowStartupLocation="CenterScreen"
+        x:DataType="vm:MainViewModel">
+        <!-- <views:MainView /> -->
+        <Panel>
+                <ExperimentalAcrylicBorder IsHitTestVisible="False">
+                        <ExperimentalAcrylicBorder.Material>
+                                <ExperimentalAcrylicMaterial
+                                        BackgroundSource="Digger"
+                                        TintColor="Black"
+                                        TintOpacity="1"
+                                        MaterialOpacity="0.65" />
+                        </ExperimentalAcrylicBorder.Material>
+                </ExperimentalAcrylicBorder>
+
+                <Panel Margin="40">
+                        <Button Content="Find Jobs" Command="{Binding FindJobsCommand}"  
+                                HorizontalAlignment="Right" VerticalAlignment="Top" />
+                </Panel>
+        </Panel>
 </Window>
