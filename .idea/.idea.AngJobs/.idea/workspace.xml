@@ -11,22 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe004b9b-618b-4078-b46b-074511baa894" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AngJobs/Icons.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AngJobs/Models/Job.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AngJobs/ViewModels/JobViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AngJobs/ViewModels/JobsViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AngJobs/Views/JobView.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AngJobs/Views/JobView.axaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AngJobs/Views/JobsView.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AngJobs/Views/JobsView.axaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AngJobs/Views/JobsWindow.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AngJobs/Views/JobsWindow.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngJobs.iOS/AngJobs.iOS.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs.iOS/AngJobs.iOS.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngJobs/Services/HackerNews.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AngJobs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AngJobs/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AngJobs/AngJobs.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/AngJobs.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngJobs/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/App.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngJobs/ViewModels/MainViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/ViewModels/MainViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngJobs/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/Views/MainWindow.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngJobs/Views/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/Views/MainWindow.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngJobs/Models/Job.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/Models/Job.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngJobs/ViewModels/JobsViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/ViewModels/JobsViewModel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +26,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/aa75ec9f096e430389be8a0a2f7932194000/44/891f4eff/PostReader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b430e084ab33d5b318f28876dedabb8aa879f7f7b6e60df3a5da1dd196ecda2/Window.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="InvalidFacetManager">
@@ -147,7 +139,8 @@
       <workItem from="1708616299901" duration="1013000" />
       <workItem from="1708617771098" duration="179000" />
       <workItem from="1708618245605" duration="4301000" />
-      <workItem from="1708682066165" duration="3433000" />
+      <workItem from="1708682066165" duration="11096000" />
+      <workItem from="1708766819989" duration="1405000" />
     </task>
     <servers />
   </component>
@@ -156,5 +149,69 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AngJobs/Models/Job.cs</url>
+          <line>27</line>
+          <properties documentPath="$PROJECT_DIR$/AngJobs/Models/Job.cs" initialLine="25" containingFunctionPresentation="Method 'SearchAsync'">
+            <startOffsets>
+              <option value="675" />
+            </startOffsets>
+            <endOffsets>
+              <option value="687" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AngJobs/Models/Job.cs</url>
+          <line>20</line>
+          <properties documentPath="$PROJECT_DIR$/AngJobs/Models/Job.cs" initialLine="19" containingFunctionPresentation="Method 'SearchAsync'">
+            <startOffsets>
+              <option value="509" />
+            </startOffsets>
+            <endOffsets>
+              <option value="536" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AngJobs/Models/Job.cs</url>
+          <line>19</line>
+          <properties documentPath="$PROJECT_DIR$/AngJobs/Models/Job.cs" initialLine="19" containingFunctionPresentation="Method 'SearchAsync'">
+            <startOffsets>
+              <option value="478" />
+            </startOffsets>
+            <endOffsets>
+              <option value="500" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AngJobs/Models/Job.cs</url>
+          <line>17</line>
+          <properties documentPath="$PROJECT_DIR$/AngJobs/Models/Job.cs" initialLine="17" containingFunctionPresentation="Method 'SearchAsync'">
+            <startOffsets>
+              <option value="418" />
+            </startOffsets>
+            <endOffsets>
+              <option value="468" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#System.Collections.Generic.KeyValuePair`2" memberName="Value" />
+        <PinnedItemInfo parentTag="Type#System.Collections.Generic.KeyValuePair`2" memberName="Key" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

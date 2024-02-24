@@ -1,25 +1,30 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using HackerNews.Reader;
+using AngJobs.Services;
+
 
 namespace AngJobs.Models;
 
 public class Job(string title, string description)
 {
-    private static HackerNews.Reader.PostReader s_PostReader= new();
-    
+     
     public string Title { get; set; } = title;
     public string Description { get; set; } = description;
 
-    public static IEnumerable<Job> SearchAsync(string searchTerm)
+    public static async Task<IEnumerable<Job>> SearchAsync(string searchTerm)
     {
-        CancellationToken token = new CancellationToken();
-        var query =  s_PostReader.GetTopJobs(token);
+        dynamic posts = await HackerNews.GetWhoIsHiring();
 
-        foreach (var post in query)
-        {
-            yield return new Job(post.Title, post.Text);
-        }
+        var d = posts[3].hits;
+        var jobs = new List<Job>();
+        
+        // foreach (var post in posts)
+        // {
+        //   jobs.Add(new Job(post.title, post.Text));
+        // }
+
+        return jobs;
     }
 }
