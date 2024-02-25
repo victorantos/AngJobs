@@ -11,11 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe004b9b-618b-4078-b46b-074511baa894" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AngJobs/Services/HackerNews.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AngJobs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AngJobs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngJobs/AngJobs.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/AngJobs.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AngJobs/Models/Job.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/Models/Job.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AngJobs/ViewModels/JobsViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/ViewModels/JobsViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngJobs/Views/JobView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/Views/JobView.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +34,11 @@
     <ignored-facets>
       <facet id="AngJobs.Android/invalid/Android Facet - AngJobs.Android" />
     </ignored-facets>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -140,7 +144,7 @@
       <workItem from="1708617771098" duration="179000" />
       <workItem from="1708618245605" duration="4301000" />
       <workItem from="1708682066165" duration="11096000" />
-      <workItem from="1708766819989" duration="1405000" />
+      <workItem from="1708766819989" duration="8019000" />
     </task>
     <servers />
   </component>
@@ -151,62 +155,6 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/AngJobs/Models/Job.cs</url>
-          <line>27</line>
-          <properties documentPath="$PROJECT_DIR$/AngJobs/Models/Job.cs" initialLine="25" containingFunctionPresentation="Method 'SearchAsync'">
-            <startOffsets>
-              <option value="675" />
-            </startOffsets>
-            <endOffsets>
-              <option value="687" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/AngJobs/Models/Job.cs</url>
-          <line>20</line>
-          <properties documentPath="$PROJECT_DIR$/AngJobs/Models/Job.cs" initialLine="19" containingFunctionPresentation="Method 'SearchAsync'">
-            <startOffsets>
-              <option value="509" />
-            </startOffsets>
-            <endOffsets>
-              <option value="536" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/AngJobs/Models/Job.cs</url>
-          <line>19</line>
-          <properties documentPath="$PROJECT_DIR$/AngJobs/Models/Job.cs" initialLine="19" containingFunctionPresentation="Method 'SearchAsync'">
-            <startOffsets>
-              <option value="478" />
-            </startOffsets>
-            <endOffsets>
-              <option value="500" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/AngJobs/Models/Job.cs</url>
-          <line>17</line>
-          <properties documentPath="$PROJECT_DIR$/AngJobs/Models/Job.cs" initialLine="17" containingFunctionPresentation="Method 'SearchAsync'">
-            <startOffsets>
-              <option value="418" />
-            </startOffsets>
-            <endOffsets>
-              <option value="468" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#System.Collections.Generic.KeyValuePair`2" memberName="Value" />

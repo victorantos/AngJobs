@@ -28,12 +28,12 @@ public class JobsViewModel: ViewModelBase
 
         if (!string.IsNullOrWhiteSpace(s))
         {
-            var jobs = Job.SearchAsync(s);
-            // foreach (var job in jobs)
-            // {
-            //     var vm = new JobViewModel(job);
-            //     SearchResults.Add(vm);
-            // }
+            var jobs = await Job.SearchAsync(s);
+            foreach (var job in jobs)
+            {
+                var vm = new JobViewModel(job);
+                SearchResults.Add(vm);
+            }
         }
 
         IsBusy = false;
