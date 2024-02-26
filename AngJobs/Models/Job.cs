@@ -18,7 +18,7 @@ public class Job(string title, string description)
 
     public static async Task<IEnumerable<Job>> SearchAsync(string searchTerm)
     {
-        dynamic json = await HackerNews.GetWhoIsHiring();
+        dynamic json = await HackerNews.GetWhoIsHiring().ConfigureAwait(false);
 
         dynamic hits = json.hits;
         List<ExpandoObject> posts = JsonSerializer.Deserialize<List<ExpandoObject>>(hits);

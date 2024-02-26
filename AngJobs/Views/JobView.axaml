@@ -10,7 +10,7 @@
     <StackPanel Spacing="5" Width="200">
         <Border CornerRadius="10" ClipToBounds="True">
             <Panel Background="#7FFF22DD">
-                <!-- <Image Width="200" Stretch="Uniform" /> -->
+                <Image Width="200" Stretch="Uniform" />
                 <Panel Height="200">
                     <PathIcon Height="75" Width="75" Data="{StaticResource view_desktop_regular}" />
                 </Panel>

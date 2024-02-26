@@ -13,8 +13,7 @@
     <list default="true" id="fe004b9b-618b-4078-b46b-074511baa894" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AngJobs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AngJobs/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AngJobs/Models/Job.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/Models/Job.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngJobs/ViewModels/JobsViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/ViewModels/JobsViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngJobs/Views/JobView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/Views/JobView.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngJobs/ViewModels/JobViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/ViewModels/JobViewModel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +143,7 @@
       <workItem from="1708617771098" duration="179000" />
       <workItem from="1708618245605" duration="4301000" />
       <workItem from="1708682066165" duration="11096000" />
-      <workItem from="1708766819989" duration="8019000" />
+      <workItem from="1708766819989" duration="9283000" />
     </task>
     <servers />
   </component>
