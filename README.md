@@ -1,5 +1,4 @@
-# AngJobs
-Job board for developers
+Transition to Avalonia UI
 
-http://angjobs.com
-
+- Build MacOS app
+- 
