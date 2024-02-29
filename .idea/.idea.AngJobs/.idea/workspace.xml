@@ -12,8 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fe004b9b-618b-4078-b46b-074511baa894" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AngJobs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AngJobs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngJobs/Models/Job.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/Models/Job.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngJobs/ViewModels/JobViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/ViewModels/JobViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngJobs.Browser/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs.Browser/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngJobs/Views/MainView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/Views/MainView.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngJobs/Views/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/Views/MainWindow.axaml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +27,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/aa75ec9f096e430389be8a0a2f7932194000/44/891f4eff/PostReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3311c22b1e25899ec5823228b4088e3b5cdffe2b042e54533746883669d23/Interaction.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b430e084ab33d5b318f28876dedabb8aa879f7f7b6e60df3a5da1dd196ecda2/Window.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c4eef4eafc39988bdaab8c4a1d0f8111e1dbccb114415665cd8ec36241960/ReactiveWindow.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
@@ -50,32 +56,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.AngJobs.Browser.executor&quot;: &quot;Debug&quot;,
-    &quot;.NET Project.AngJobs.Desktop.executor&quot;: &quot;Debug&quot;,
-    &quot;Device#class com.jetbrains.rider.run.xamarin.ios.devices.XamarinIOSSimulatorKind#com.jetbrains.rider.run.xamarin.ios.devices.XamarinIOSDevicesProvider#Xamarin.iOS: AngJobs.iOS&quot;: &quot;iPhone 15 (iOS 17.0)&quot;,
-    &quot;DeviceKind#com.jetbrains.rider.run.xamarin.ios.devices.XamarinIOSDevicesProvider&quot;: &quot;Simulator&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Xamarin.iOS.AngJobs.iOS.executor&quot;: &quot;Debug&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;WhoIsHiring-Pivot&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.AngJobs.Browser.executor": "Debug",
+    ".NET Project.AngJobs.Desktop.executor": "Debug",
+    "Device#class com.jetbrains.rider.run.xamarin.ios.devices.XamarinIOSSimulatorKind#com.jetbrains.rider.run.xamarin.ios.devices.XamarinIOSDevicesProvider#Xamarin.iOS: AngJobs.iOS": "iPhone 15 (iOS 17.0)",
+    "DeviceKind#com.jetbrains.rider.run.xamarin.ios.devices.XamarinIOSDevicesProvider": "Simulator",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Xamarin.iOS.AngJobs.iOS.executor": "Debug",
+    "git-widget-placeholder": "84-by-default-display-the-search-window-popup",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/victora/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/victora/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache&quot;,
-      &quot;/Users/victora/.local/share/Symbols/src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/Users/victora/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache",
+      "/Users/victora/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache",
+      "/Users/victora/.local/share/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Project.AngJobs.Desktop">
     <configuration name="AngJobs.Desktop" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -143,12 +149,25 @@
       <workItem from="1708617771098" duration="179000" />
       <workItem from="1708618245605" duration="4301000" />
       <workItem from="1708682066165" duration="11096000" />
-      <workItem from="1708766819989" duration="9283000" />
+      <workItem from="1708766819989" duration="10143000" />
+      <workItem from="1708963364534" duration="242000" />
+      <workItem from="1708963736356" duration="9605000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
