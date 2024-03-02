@@ -21,7 +21,7 @@
             </ExperimentalAcrylicBorder.Material>
         </ExperimentalAcrylicBorder>
 
-        <Panel Margin="40">
+        <Panel Margin="20">
             <views:JobsView></views:JobsView>
         </Panel>
     </Panel>

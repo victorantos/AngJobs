@@ -5,7 +5,7 @@
       <map>
         <entry key="AngJobs/App.axaml" value="AngJobs.Browser/AngJobs.Browser.csproj" />
         <entry key="AngJobs/Icons.axaml" value="AngJobs.Browser/AngJobs.Browser.csproj" />
-        <entry key="AngJobs/Views/JobView.axaml" value="AngJobs.Browser/AngJobs.Browser.csproj" />
+        <entry key="AngJobs/Views/JobView.axaml" value="AngJobs.Desktop/AngJobs.Desktop.csproj" />
         <entry key="AngJobs/Views/JobsView.axaml" value="AngJobs.Browser/AngJobs.Browser.csproj" />
         <entry key="AngJobs/Views/JobsWindow.axaml" value="AngJobs.Desktop/AngJobs.Desktop.csproj" />
         <entry key="AngJobs/Views/MainView.axaml" value="AngJobs.Browser/AngJobs.Browser.csproj" />

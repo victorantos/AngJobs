@@ -3,20 +3,33 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:vm="clr-namespace:AngJobs.ViewModels"
+             xmlns:local="clr-namespace:AngJobs.Helpers"
+             xmlns:helpers="clr-namespace:Angjobs.Helpers"
              x:DataType="vm:JobViewModel"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="AngJobs.Views.JobView"
-             Width="200">
-    <StackPanel Spacing="5" Width="200">
-        <Border CornerRadius="10" ClipToBounds="True">
-            <Panel Background="#7FFF22DD">
-                <Image Width="200" Stretch="Uniform" />
-                <Panel Height="200">
-                    <PathIcon Height="75" Width="75" Data="{StaticResource view_desktop_regular}" />
-                </Panel>
-            </Panel>
-        </Border>  
-        <TextBlock HorizontalAlignment="Center" Text="{Binding Title}"/>
-         
-    </StackPanel>
+              >
+    <Border Background="WhiteSmoke" BorderThickness="1" BorderBrush="LightGray" CornerRadius="5" Padding="10" Margin="0 0 0 5">
+        <TextBlock Text="{Binding Title}" TextWrapping="Wrap" HorizontalAlignment="Center" 
+                   MaxLines="2" FontWeight="Bold" FontSize="16" 
+                   FontFamily="Segoe UI"
+                   helpers:PointerEvents.PointerEnterCommand="{Binding OnMouseEnter}" 
+                   helpers:PointerEvents.PointerLeaveCommand="{Binding OnMouseLeave}">
+                   >
+             
+        </TextBlock>
+    </Border>
+
+    <!-- <StackPanel Spacing="5" Width="200"> -->
+    <!--     <Border CornerRadius="10" ClipToBounds="True"> -->
+    <!--         <Panel Background="#7FFF22DD"> -->
+    <!--             <Image Width="200" Stretch="Uniform" /> -->
+    <!--             <Panel Height="200"> -->
+    <!--                 <PathIcon Height="75" Width="75" Data="{StaticResource view_desktop_regular}" /> -->
+    <!--             </Panel> -->
+    <!--         </Panel> -->
+    <!--     </Border>   -->
+    <!--     <TextBlock HorizontalAlignment="Center" Text="{Binding Title}"/> -->
+    <!--       -->
+    <!-- </StackPanel> -->
 </UserControl>

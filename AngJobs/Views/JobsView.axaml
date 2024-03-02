@@ -16,10 +16,13 @@
              HorizontalAlignment="Center"></Button>
      <ListBox ItemsSource="{Binding SearchResults}" 
               SelectedItem="{Binding SelectedJob}"
-              Background="Transparent" Margin="0 20">
+              Background="Transparent" Margin="0 20"
+              Foreground="#333333">
+         
+         
          <ListBox.ItemsPanel>
              <ItemsPanelTemplate>
-                 <WrapPanel></WrapPanel>
+                 <StackPanel Orientation="Vertical"/>
              </ItemsPanelTemplate>
          </ListBox.ItemsPanel>
      </ListBox>

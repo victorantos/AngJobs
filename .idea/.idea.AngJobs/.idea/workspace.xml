@@ -11,10 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe004b9b-618b-4078-b46b-074511baa894" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AngJobs/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AngJobs/.idea/avalonia.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AngJobs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AngJobs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngJobs.Browser/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs.Browser/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngJobs/Views/MainView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/Views/MainView.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngJobs/Views/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/Views/MainWindow.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngJobs/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/App.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngJobs/ViewModels/JobViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/ViewModels/JobViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngJobs/Views/JobView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/Views/JobView.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngJobs/Views/JobsView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/Views/JobsView.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngJobs/Views/JobsView.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/Views/JobsView.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngJobs/Views/JobsWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AngJobs/Views/JobsWindow.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +26,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="84-by-default-display-the-search-window-popup" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -65,7 +74,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Xamarin.iOS.AngJobs.iOS.executor": "Debug",
-    "git-widget-placeholder": "84-by-default-display-the-search-window-popup",
+    "git-widget-placeholder": "88-display-a-list-of-search-results",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -151,7 +160,7 @@
       <workItem from="1708682066165" duration="11096000" />
       <workItem from="1708766819989" duration="10143000" />
       <workItem from="1708963364534" duration="242000" />
-      <workItem from="1708963736356" duration="9605000" />
+      <workItem from="1708963736356" duration="15039000" />
     </task>
     <servers />
   </component>
