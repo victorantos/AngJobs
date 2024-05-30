@@ -7,14 +7,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <WasmExtraFilesToDeploy Include="AppBundle\**"/>
+        <WasmExtraFilesToDeploy Include="AppBundle\**" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Avalonia.Browser" Version="$(AvaloniaVersion)"/>
+        <PackageReference Include="Avalonia.Browser" Version="11.0.10" />
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\AngJobs\AngJobs.csproj"/>
+        <ProjectReference Include="..\AngJobs\AngJobs.csproj" />
     </ItemGroup>
 </Project>

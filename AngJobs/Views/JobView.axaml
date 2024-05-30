@@ -8,14 +8,12 @@
              x:DataType="vm:JobViewModel"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="AngJobs.Views.JobView"
+            
               >
-    <Border Background="WhiteSmoke" BorderThickness="1" BorderBrush="LightGray" CornerRadius="5" Padding="10" Margin="0 0 0 5">
-        <TextBlock Text="{Binding Title}" TextWrapping="Wrap" HorizontalAlignment="Center" 
+    <Border PointerEntered="InputElement_OnPointerEntered" PointerExited="InputElement_OnPointerExited"  Background="WhiteSmoke" BorderThickness="1" BorderBrush="LightGray" CornerRadius="5" Padding="10" Margin="0 0 0 5">
+        <TextBlock  Text="{Binding Title}" TextWrapping="Wrap" HorizontalAlignment="Center" 
                    MaxLines="2" FontWeight="Bold" FontSize="16" 
-                   FontFamily="Segoe UI"
-                   helpers:PointerEvents.PointerEnterCommand="{Binding OnMouseEnter}" 
-                   helpers:PointerEvents.PointerLeaveCommand="{Binding OnMouseLeave}">
-                   >
+                   FontFamily="Segoe UI">
              
         </TextBlock>
     </Border>

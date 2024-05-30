@@ -16,7 +16,7 @@
              HorizontalAlignment="Center"></Button>
      <ListBox ItemsSource="{Binding SearchResults}" 
               SelectedItem="{Binding SelectedJob}"
-              Background="Transparent" Margin="0 20"
+              Background="Transparent" Margin="0 20" SelectionMode="Multiple" 
               Foreground="#333333">
          
          
@@ -24,7 +24,7 @@
              <ItemsPanelTemplate>
                  <StackPanel Orientation="Vertical"/>
              </ItemsPanelTemplate>
-         </ListBox.ItemsPanel>
+         </ListBox.ItemsPanel> 
      </ListBox>
  </DockPanel>
 </UserControl>

@@ -30,7 +30,7 @@ public class JobViewModel : ViewModelBase
     {
         // Handle mouse enter event (e.g., change text color)
        
-            textBlock.Foreground = Brushes.DarkGray; // Change to your desired darker color
+           // textBlock.Foreground = Brushes.DarkGray; // Change to your desired darker color
     
     }
 
@@ -48,5 +48,4 @@ public class JobViewModel : ViewModelBase
         //     border.Foreground = new SolidColorBrush(Color.Parse("#FF0000")); // Change to your desired color
         // }
     }
-
 }
