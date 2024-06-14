@@ -5,20 +5,20 @@ export default navbar([
   "/portfolio",
   "/demo/",
   {
-    text: "Guide",
+    text: "HN",
     icon: "lightbulb",
-    prefix: "/guide/",
+    prefix: "/hn/",
     children: [
       {
-        text: "Bar",
+        text: "May 2024",
         icon: "lightbulb",
-        prefix: "bar/",
+        prefix: "may-2024/",
         children: ["baz", { text: "...", icon: "ellipsis", link: "#" }],
       },
       {
-        text: "Foo",
+        text: "June 2024",
         icon: "lightbulb",
-        prefix: "foo/",
+        prefix: "june-2024/",
         children: ["ray", { text: "...", icon: "ellipsis", link: "#" }],
       },
     ],

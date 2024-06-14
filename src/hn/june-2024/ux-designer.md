@@ -1,6 +1,6 @@
 ---
-title: Baz
-icon: circle-info
+title: UX Designer
+icon: minus
 ---
 
 Feature details here.

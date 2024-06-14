@@ -12,9 +12,9 @@ export default sidebar({
       children: "structure",
     },
     {
-      text: "Docs",
-      icon: "book",
-      prefix: "guide/",
+      text: "HN Jobs",
+      icon: "computer",
+      prefix: "hn/",
       children: "structure",
     },
     {

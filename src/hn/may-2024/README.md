@@ -1,11 +1,10 @@
 ---
-title: Bar feature
+title: May 2024
 icon: lightbulb
 ---
 
 ## Introduction
-
-We support bar feature, ...
+We have 20 jobs
 
 ## Details
 

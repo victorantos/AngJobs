@@ -5,6 +5,7 @@ import { CodeGroup, CodeGroupItem } from "/Users/victora/RiderProjects/AngJobs/n
 import CodeDemo from "/Users/victora/RiderProjects/AngJobs/node_modules/vuepress-plugin-md-enhance/lib/client/components/CodeDemo.js";
 import MdDemo from "/Users/victora/RiderProjects/AngJobs/node_modules/vuepress-plugin-md-enhance/lib/client/components/MdDemo.js";
 import "/Users/victora/RiderProjects/AngJobs/node_modules/vuepress-plugin-md-enhance/lib/client/styles/figure.scss";
+import "/Users/victora/RiderProjects/AngJobs/node_modules/vuepress-plugin-md-enhance/lib/client/styles/footnote.scss";
 import { useHintContainers } from "/Users/victora/RiderProjects/AngJobs/node_modules/vuepress-plugin-md-enhance/lib/client/composables/useHintContainers.js";
 import "/Users/victora/RiderProjects/AngJobs/node_modules/vuepress-plugin-md-enhance/lib/client/styles/hint/index.scss";
 import Tabs from "/Users/victora/RiderProjects/AngJobs/node_modules/vuepress-plugin-md-enhance/lib/client/components/Tabs.js";

@@ -19,7 +19,7 @@
 <div class="hint-container tip">
 <p class="hint-container-title">Assets</p>
 <ul>
-<li>You can place images besides your Markdown files nd use <strong>relative links</strong>.</li>
+<li>You can place images besides your Markdown files and use <strong>relative links</strong>.</li>
 <li>For images in <code v-pre>.vuepress/public</code> directory, please use absolute links (i.e.: starting with <code v-pre>/</code>).</li>
 </ul>
 </div>

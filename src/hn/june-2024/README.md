@@ -1,5 +1,5 @@
 ---
-title: Foo feature
+title: June 2024
 icon: lightbulb
 ---
 

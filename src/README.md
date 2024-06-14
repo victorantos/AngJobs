@@ -16,7 +16,7 @@ actions:
     type: primary
 
   - text: Docs
-    link: ./guide/
+    link: ./hn/
 
 highlights:
   - header: Easy to install
