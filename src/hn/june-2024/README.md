@@ -1,5 +1,5 @@
 ---
-title: June 2024
+title: June
 icon: lightbulb
 ---
 

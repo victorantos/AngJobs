@@ -12,7 +12,7 @@ export default sidebar({
       children: "structure",
     },
     {
-      text: "HN Jobs",
+      text: "Who's hiring? (2024)",
       icon: "computer",
       prefix: "hn/",
       children: "structure",

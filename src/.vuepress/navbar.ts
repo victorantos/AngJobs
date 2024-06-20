@@ -10,13 +10,13 @@ export default navbar([
     prefix: "/hn/",
     children: [
       {
-        text: "May 2024",
+        text: "May",
         icon: "lightbulb",
         prefix: "may-2024/",
         children: ["baz", { text: "...", icon: "ellipsis", link: "#" }],
       },
       {
-        text: "June 2024",
+        text: "June",
         icon: "lightbulb",
         prefix: "june-2024/",
         children: ["ray", { text: "...", icon: "ellipsis", link: "#" }],
