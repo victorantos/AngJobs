@@ -1,0 +1,9 @@
+---
+title: "Lanai : Palo Alto (3 days in-office)"
+icon: minus
+---
+Lanai | Head of UX &amp; Design and Principal ML Engineer | Palo Alto (3 days in-office) | <a href="https:&#x2F;&#x2F;www.withlanai.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.withlanai.com&#x2F;</a>
+
+We believe we are in the midst of a 4th industrial revolution and AI is changing everything. Like all revolutions, this one has tremendous promise and comes with quite a lot of chaos.  With a forecasted explosion of different AI applications to support enterprises, the question is: how do leaders unlock the potential of AI for their specific goals and how do people working in companies evolve together with the technology?  This is where Lanai comes in.
+
+Lanai is built for large organizations looking to “Lean into AI” in a thoughtful way. Lanai will offer a software platform that helps companies adopt AI-based models and applications in a productive, cost-effective, and secure manner. Lanai’s co-founders are Lexi Reese (former COO of Gusto and VP of Google) and Steve Herrod (former CTO of VMware). Lanai has received substantive funding from top-tier VC firms and will release its first product later this year.

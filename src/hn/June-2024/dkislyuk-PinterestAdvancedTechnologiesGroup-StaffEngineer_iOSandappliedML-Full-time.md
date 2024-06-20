@@ -1,0 +1,15 @@
+---
+title: "Pinterest Advanced Technologies Group : Staff Engineer, iOS and applied ML"
+icon: minus
+---
+Pinterest Advanced Technologies Group | Staff Engineer, iOS and applied ML | US remote or hybrid in SF&#x2F;NY | Full-time
+
+We’re looking for strong engineers to help us build consumer AI products within Pinterest’s Advanced Technologies Group (ATG), our in-house ML research division. You’d be working with a full-stack team of ML researchers and product engineers on projects that bring LLMs, diffusion models, and other core models in the generative multimodal ML and computer vision space to life inside the Pinterest product. Projects include assistants, new ways to search, restyling of boards &#x2F; pins &#x2F; rooms, and many other new applications. Your work will directly impact how millions of users experience Pinterest.
+
+Tracks:
+
+*iOS engineer*: You’ll craft beautiful and intuitive user experiences for our new AI products. Strong command of iOS and UI&#x2F;UX craftsmanship required. Bonus points if you’re an opinionated product thinker with 0-1 mentality or have experience working with ML models. Please apply here: <a href="https:&#x2F;&#x2F;www.pinterestcareers.com&#x2F;jobs&#x2F;5426324&#x2F;staff-ios-software-engineer-advanced-technologies-group&#x2F;?gh_jid=5426324" rel="nofollow">https:&#x2F;&#x2F;www.pinterestcareers.com&#x2F;jobs&#x2F;5426324&#x2F;staff-ios-soft...</a>
+
+*Applied ML*: If you think you’d be a better fit as an applied ML or research engineer with an interest in directly translating research into user-facing products, feel free to contact me directly (@dkislyuk everywhere).
+
+The ML and product engineering teams on ATG work directly together, along with design. The team consists of long-tenured employees who care deeply about both the quality of the Pinterest experience, and taking full advantage of the new capabilities emerging in the ML space over the last two years. ATG more broadly has spent the past decade+ bringing various ML technologies into the Pinterest ecosystem, and values publishing our work, building long-term infrastructure, and a collaborative and remote-friendly culture (though we do expect everyone to join company onsites a few times a year).
