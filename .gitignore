@@ -232,3 +232,4 @@ _Pvt_Extensions
 .DS_Store
 /src/.vuepress/.temp
 /src/.vuepress/.temp
+/src/.vuepress/.temp/internal
