@@ -1,5 +1,5 @@
 ---
-title: Guide
+title: Promoted
 icon: lightbulb
 ---
 
