@@ -1,6 +1,8 @@
 ---
 title: "Raidium : Paris, France"
-icon: minus
+author:
+  name: raidium
+  url: https://news.ycombinator.com/item?id=40568240
 ---
 Raidium | Paris, France |  Senior Software Engineer &#x2F; Tech Lead | Full-time | ONSITE | <a href="https:&#x2F;&#x2F;raidium.eu" rel="nofollow">https:&#x2F;&#x2F;raidium.eu</a> | Medical Tech, AI
 

@@ -1,6 +1,8 @@
 ---
 title: "Spider Strategies : REMOTE (USA)"
-icon: minus
+author:
+  name: orr94
+  url: https://news.ycombinator.com/item?id=40575721
 ---
 Spider Strategies | Senior Java&#x2F;Web Developer | REMOTE (USA) | Full-time, 4-day work week (8-hour days) | <a href="https:&#x2F;&#x2F;www.spiderstrategies.com&#x2F;overview" rel="nofollow">https:&#x2F;&#x2F;www.spiderstrategies.com&#x2F;overview</a>
 

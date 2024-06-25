@@ -1,6 +1,8 @@
 ---
 title: "PlantingSpace : Full-time"
-icon: minus
+author:
+  name: PlantingSpace
+  url: https://news.ycombinator.com/item?id=40563516
 ---
 PlantingSpace | Full-time | Remote (EU time zone) with quarterly gatherings | <a href="https:&#x2F;&#x2F;planting.space" rel="nofollow">https:&#x2F;&#x2F;planting.space</a>
 

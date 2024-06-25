@@ -1,6 +1,8 @@
 ---
 title: "antithesis.com : Vienna, VA, USA"
-icon: minus
+author:
+  name: terpimost
+  url: https://news.ycombinator.com/item?id=40563357
 ---
 antithesis.com | Vienna, VA, USA | Onsite | Full-Time
 

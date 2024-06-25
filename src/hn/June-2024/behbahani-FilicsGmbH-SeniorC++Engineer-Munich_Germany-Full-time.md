@@ -1,6 +1,8 @@
 ---
 title: "Filics GmbH : Senior C++ Engineer"
-icon: minus
+author:
+  name: behbahani
+  url: https://news.ycombinator.com/item?id=40584909
 ---
 Filics GmbH | Senior C++ Engineer | Munich, Germany | Full-time
 

@@ -1,6 +1,8 @@
 ---
 title: "Immunant : Software Engineer"
-icon: minus
+author:
+  name: dataking
+  url: https://news.ycombinator.com/item?id=40569314
 ---
 Immunant | Software Engineer | REMOTE (US only) | Full-time | $110k - $150k + retirement benefits
 

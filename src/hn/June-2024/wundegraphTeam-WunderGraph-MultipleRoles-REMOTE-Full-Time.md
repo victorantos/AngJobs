@@ -1,6 +1,8 @@
 ---
 title: "WunderGraph : Multiple Roles"
-icon: minus
+author:
+  name: wundegraphTeam
+  url: https://news.ycombinator.com/item?id=40575041
 ---
 WunderGraph | Multiple Roles | REMOTE | Full-Time
 

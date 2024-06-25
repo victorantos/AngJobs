@@ -1,6 +1,8 @@
 ---
 title: "Zetier : Hackers and Developers"
-icon: minus
+author:
+  name: GrokNet
+  url: https://news.ycombinator.com/item?id=40570185
 ---
 Zetier | Hackers and Developers | Full-time | Arlington VA | ONSITE | zetier.com
 

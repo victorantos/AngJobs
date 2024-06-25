@@ -1,6 +1,8 @@
 ---
 title: "PermitFlow (YC W22) : New York, NY"
-icon: minus
+author:
+  name: samuelklam
+  url: https://news.ycombinator.com/item?id=40592463
 ---
 PermitFlow (YC W22) | Staff, Fullstack &amp; Frontend Software Engineers | New York, NY | ONSITE | Full-time | <a href="https:&#x2F;&#x2F;permitflow.com">https:&#x2F;&#x2F;permitflow.com</a>
 

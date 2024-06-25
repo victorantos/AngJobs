@@ -1,6 +1,8 @@
 ---
 title: "feld.ai : Götzis, Austria"
-icon: minus
+author:
+  name: mnigsch
+  url: https://news.ycombinator.com/item?id=40630895
 ---
 feld.ai | Götzis, Austria | HYBRID
 

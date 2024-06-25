@@ -1,6 +1,8 @@
 ---
 title: "Puma.tech : Remote-first with PST overlap"
-icon: minus
+author:
+  name: html5cat
+  url: https://news.ycombinator.com/item?id=40566603
 ---
 Puma.tech | Remote-first with PST overlap | Engineering &amp; Growth | $75-150k base &amp; 200k+ equity | <a href="https:&#x2F;&#x2F;puma.tech" rel="nofollow">https:&#x2F;&#x2F;puma.tech</a>
 

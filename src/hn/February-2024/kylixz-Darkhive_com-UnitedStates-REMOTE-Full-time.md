@@ -1,6 +1,8 @@
 ---
-title: "Darkhive.com : United States "
-icon: minus
+title: "Darkhive.com : United States"
+author:
+  name: kylixz
+  url: https://news.ycombinator.com/item?id=39219743
 ---
 Darkhive.com | United States | REMOTE | Full-time | $150-220k + early shares, employee #10-15
 

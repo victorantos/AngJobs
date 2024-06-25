@@ -1,6 +1,8 @@
 ---
 title: "gematik GmbH : Software Engineer"
-icon: minus
+author:
+  name: madduci
+  url: https://news.ycombinator.com/item?id=40587351
 ---
 gematik GmbH | Software Engineer| Berlin, Germany &#x2F; Home Office | German required
 

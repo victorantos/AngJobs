@@ -1,6 +1,8 @@
 ---
 title: "ABN AMRO : Amsterdam, Netherlands"
-icon: minus
+author:
+  name: hectormalot
+  url: https://news.ycombinator.com/item?id=40568862
 ---
 ABN AMRO | Amsterdam, Netherlands | AI Developer | HYBRID | Full Time | Python
 

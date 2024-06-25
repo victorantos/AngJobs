@@ -1,6 +1,8 @@
 ---
 title: "Privy : Full-Time"
-icon: minus
+author:
+  name: asta-li
+  url: https://news.ycombinator.com/item?id=40568426
 ---
 Privy | Onsite NYC (Preferred) or Remote (US&#x2F;Canada) | Hybrid Product&#x2F;Eng, Frontend, Fullstack, Backend Roles | Full-Time | <a href="https:&#x2F;&#x2F;privy.io" rel="nofollow">https:&#x2F;&#x2F;privy.io</a>
 

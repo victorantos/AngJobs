@@ -1,6 +1,8 @@
 ---
 title: "Pomelo Care : San Francisco, NYC, Remote (USA only)"
-icon: minus
+author:
+  name: jrowley
+  url: https://news.ycombinator.com/item?id=40578294
 ---
 Pomelo Care | San Francisco, NYC, Remote (USA only) | Software Engineer (mid career - Staff)
 Pomelo Care is a multi-disciplinary team of clinicians, engineers and problem solvers who are passionate about improving care for moms and babies. As an early member of our engineering team, you will have the opportunity to shape the product, codebase, and culture at Pomelo for years to come.

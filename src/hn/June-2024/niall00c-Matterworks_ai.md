@@ -1,6 +1,8 @@
 ---
 title: "Matterworks.ai"
-icon: minus
+author:
+  name: niall00c
+  url: https://news.ycombinator.com/item?id=40564803
 ---
 Matterworks.ai | Software &amp; Data Engineering | Hybrid (Boston&#x2F;Somerville MA)
 At Matterworks we are building AI tools to extract insights from the ever-growing corpora of biological data and to unlock opportunities in therapeutic discovery, development, and manufacturing. We are building large-scale deep learning models of biological data to predict the phenotype and behavior of biological systems.

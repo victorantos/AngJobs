@@ -1,6 +1,8 @@
 ---
 title: "SlashID : Principal Backend Engineer"
-icon: minus
+author:
+  name: roblaszczak
+  url: https://news.ycombinator.com/item?id=40563291
 ---
 SlashID | Principal Backend Engineer | REMOTE (EU compatible time-zones) | Full Time
 

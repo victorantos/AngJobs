@@ -1,6 +1,8 @@
 ---
 title: "New York (NYC) : Onsite"
-icon: minus
+author:
+  name: dseisenberg
+  url: https://news.ycombinator.com/item?id=40563772
 ---
 Hashboard (<a href="https:&#x2F;&#x2F;hashboard.com" rel="nofollow">https:&#x2F;&#x2F;hashboard.com</a>) | New York (NYC) | Senior&#x2F;Staff Full-Stack Engineer, Lead Frontend Engineer, Product Evangelist | Onsite
 

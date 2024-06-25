@@ -1,6 +1,8 @@
 ---
 title: "Sesame Sustainability:Backend Software Engineer"
-icon: minus
+author:
+  name: sesame96
+  url: https://news.ycombinator.com/item?id=40658034
 ---
 Sesame Sustainability|Backend Software Engineer| Remote-friendly| Full-Time or Contract (to start)| <a href="https:&#x2F;&#x2F;jobs.polymer.co&#x2F;sesame-sustainability&#x2F;30699" rel="nofollow">https:&#x2F;&#x2F;jobs.polymer.co&#x2F;sesame-sustainability&#x2F;30699</a>
 

@@ -1,6 +1,8 @@
 ---
 title: "Doublepoint : Multiple roles"
-icon: minus
+author:
+  name: yakkomajuri
+  url: https://news.ycombinator.com/item?id=40566168
 ---
 Doublepoint | Helsinki &#x2F; Remote | Multiple roles | Full-time
 

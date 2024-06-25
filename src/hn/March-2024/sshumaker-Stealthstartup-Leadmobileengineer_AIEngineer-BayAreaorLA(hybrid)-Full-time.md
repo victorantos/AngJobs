@@ -1,6 +1,8 @@
 ---
-title: "Stealth startup : Lead mobile engineer, AI Engineer "
-icon: minus
+title: "Stealth startup : Lead mobile engineer, AI Engineer"
+author:
+  name: sshumaker
+  url: https://news.ycombinator.com/item?id=39566229
 ---
 Stealth startup | Lead mobile engineer, AI Engineer | Bay Area or LA (hybrid) | Full-time
 

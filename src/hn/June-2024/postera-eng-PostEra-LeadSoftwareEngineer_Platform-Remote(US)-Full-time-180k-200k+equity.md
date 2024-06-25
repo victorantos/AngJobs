@@ -1,6 +1,8 @@
 ---
 title: "PostEra : Lead Software Engineer, Platform"
-icon: minus
+author:
+  name: postera-eng
+  url: https://news.ycombinator.com/item?id=40563312
 ---
 PostEra | Lead Software Engineer, Platform | Remote (US) | Full-time | 180k-200k + equity
 

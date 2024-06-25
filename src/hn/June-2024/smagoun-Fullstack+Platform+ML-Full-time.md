@@ -1,6 +1,8 @@
 ---
 title: "Fullstack + Platform + ML : Full-time"
-icon: minus
+author:
+  name: smagoun
+  url: https://news.ycombinator.com/item?id=40564091
 ---
 Abridge (<a href="https:&#x2F;&#x2F;www.abridge.com" rel="nofollow">https:&#x2F;&#x2F;www.abridge.com</a>) | Fullstack + Platform + ML | Remote (US-only) + Hybrid (SF&#x2F;NY&#x2F;PGH) | Full-time
 

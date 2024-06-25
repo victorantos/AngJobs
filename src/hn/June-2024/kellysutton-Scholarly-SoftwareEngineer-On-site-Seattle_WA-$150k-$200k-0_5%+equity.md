@@ -1,6 +1,8 @@
 ---
 title: "Scholarly : Software Engineer"
-icon: minus
+author:
+  name: kellysutton
+  url: https://news.ycombinator.com/item?id=40684804
 ---
 Scholarly | Software Engineer | On-site - Seattle, WA | $150k - $200k | 0.5%+ equity
 

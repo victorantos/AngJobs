@@ -1,6 +1,8 @@
 ---
 title: "Elicit : San Francisco + remote"
-icon: minus
+author:
+  name: adamwiggins
+  url: https://news.ycombinator.com/item?id=40565065
 ---
 Elicit | San Francisco + remote | <a href="https:&#x2F;&#x2F;elicit.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;elicit.com&#x2F;careers</a>
 

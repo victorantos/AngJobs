@@ -1,6 +1,8 @@
 ---
 title: "Justwatch  : Berlin (min 2days in office)"
-icon: minus
+author:
+  name: cientifico
+  url: https://news.ycombinator.com/item?id=40565911
 ---
 Justwatch  | Golang eng (Junior&#x2F;Senior) and Senior ML engineer | Berlin (min 2days in office) | full time
 Hi. I am Guillermo, backend developer of StreamingGuide. We try to make justwatch.com the best streaming guide worldwide.

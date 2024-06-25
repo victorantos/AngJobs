@@ -1,6 +1,8 @@
 ---
 title: "Intuition Machines, Inc. : Multiple Positions"
-icon: minus
+author:
+  name: imi-recruitment
+  url: https://news.ycombinator.com/item?id=40584521
 ---
 Intuition Machines, Inc. | Multiple Positions | REMOTE | Full-Time
 

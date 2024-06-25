@@ -1,6 +1,8 @@
 ---
 title: "Continua AI : ML and Systems Engineers"
-icon: minus
+author:
+  name: continua
+  url: https://news.ycombinator.com/item?id=40563302
 ---
 Continua AI | ML and Systems Engineers | NYC, SF Bay Area, Seattle | <a href="http:&#x2F;&#x2F;continua.ai" rel="nofollow">http:&#x2F;&#x2F;continua.ai</a>
 

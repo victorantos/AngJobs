@@ -1,6 +1,8 @@
 ---
 title: "CrazyGames : REMOTE"
-icon: minus
+author:
+  name: mertens
+  url: https://news.ycombinator.com/item?id=40571423
 ---
 CrazyGames | <a href="https:&#x2F;&#x2F;about.crazygames.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;about.crazygames.com&#x2F;</a> | REMOTE | Full-time | Multiple roles
 

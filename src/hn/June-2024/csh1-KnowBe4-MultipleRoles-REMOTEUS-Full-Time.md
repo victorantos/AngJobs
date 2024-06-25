@@ -1,6 +1,8 @@
 ---
 title: "KnowBe4 : Multiple Roles"
-icon: minus
+author:
+  name: csh1
+  url: https://news.ycombinator.com/item?id=40575055
 ---
 KnowBe4 | Multiple Roles | REMOTE US | Full-Time
 

@@ -1,6 +1,8 @@
 ---
 title: "SmarterDx : 150-230k + equity + benefits"
-icon: minus
+author:
+  name: justin_sdx
+  url: https://news.ycombinator.com/item?id=40563354
 ---
 SmarterDx | 150-230k + equity + benefits | Remote (US only) | Multiple roles | <a href="https:&#x2F;&#x2F;smarterdx.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;smarterdx.com&#x2F;careers</a>
 

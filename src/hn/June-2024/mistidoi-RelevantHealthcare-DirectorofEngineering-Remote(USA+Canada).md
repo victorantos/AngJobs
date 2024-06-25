@@ -1,6 +1,8 @@
 ---
 title: "Relevant Healthcare : Director of Engineering"
-icon: minus
+author:
+  name: mistidoi
+  url: https://news.ycombinator.com/item?id=40564065
 ---
 Relevant Healthcare | Director of Engineering | Remote (USA + Canada)
 

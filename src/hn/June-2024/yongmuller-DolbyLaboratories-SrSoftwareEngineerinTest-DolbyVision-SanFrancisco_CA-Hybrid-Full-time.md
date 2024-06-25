@@ -1,6 +1,8 @@
 ---
 title: "Dolby Laboratories : Sr Software Engineer in Test"
-icon: minus
+author:
+  name: yongmuller
+  url: https://news.ycombinator.com/item?id=40564804
 ---
 Dolby Laboratories | Sr Software Engineer in Test | Dolby Vision | San Francisco, CA | Hybrid | Full-time
 

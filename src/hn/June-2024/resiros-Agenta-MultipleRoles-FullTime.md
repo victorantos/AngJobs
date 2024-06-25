@@ -1,6 +1,8 @@
 ---
 title: "Agenta : Multiple Roles"
-icon: minus
+author:
+  name: resiros
+  url: https://news.ycombinator.com/item?id=40564460
 ---
 Agenta | Hybrid (Berlin) or Remote (CET +&#x2F;- 5) | Multiple Roles | Full Time
 

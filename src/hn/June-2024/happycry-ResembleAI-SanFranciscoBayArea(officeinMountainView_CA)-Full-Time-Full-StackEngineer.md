@@ -1,6 +1,8 @@
 ---
 title: "Resemble AI : San Francisco Bay Area (office in Mountain View, CA)"
-icon: minus
+author:
+  name: happycry
+  url: https://news.ycombinator.com/item?id=40570582
 ---
 Resemble AI | San Francisco Bay Area (office in Mountain View, CA) | Full-Time | Full-Stack Engineer
 

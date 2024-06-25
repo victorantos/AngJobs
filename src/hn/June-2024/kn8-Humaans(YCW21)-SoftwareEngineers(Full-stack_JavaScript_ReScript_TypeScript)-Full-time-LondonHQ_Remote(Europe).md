@@ -1,6 +1,8 @@
 ---
 title: "Humaans (YC W21) : Software Engineers (Full-stack, JavaScript, ReScript, TypeScript)"
-icon: minus
+author:
+  name: kn8
+  url: https://news.ycombinator.com/item?id=40567942
 ---
 Humaans (YC W21) | Software Engineers (Full-stack, JavaScript, ReScript, TypeScript) | Full-time | London HQ, Remote (Europe) | <a href="https:&#x2F;&#x2F;humaans.io">https:&#x2F;&#x2F;humaans.io</a>
 

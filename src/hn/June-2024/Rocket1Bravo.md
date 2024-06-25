@@ -1,6 +1,8 @@
 ---
 title: "Rocket1Bravo"
-icon: minus
+author:
+  name: Rocket1Bravo
+  url: https://news.ycombinator.com/item?id=40682175
 ---
 Company: Anduril (<a href="https:&#x2F;&#x2F;www.anduril.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.anduril.com&#x2F;</a>)
 Job: Perception Engineer 

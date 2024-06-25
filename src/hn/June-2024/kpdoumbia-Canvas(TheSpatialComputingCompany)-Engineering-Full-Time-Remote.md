@@ -1,6 +1,8 @@
 ---
 title: "Canvas (The Spatial Computing Company) : Engineering"
-icon: minus
+author:
+  name: kpdoumbia
+  url: https://news.ycombinator.com/item?id=40607947
 ---
 Canvas (The Spatial Computing Company) | Engineering | Full-Time | Remote
 

@@ -1,6 +1,8 @@
 ---
 title: "Phrasing.app : CTO"
-icon: minus
+author:
+  name: barrell
+  url: https://news.ycombinator.com/item?id=40572765
 ---
 Phrasing.app | CTO | Remote (Europe) | Full-time | Amsterdam based | Clojure, Elixir, ML, Swift
 

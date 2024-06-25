@@ -1,6 +1,8 @@
 ---
 title: "Seen Finance : Full time"
-icon: minus
+author:
+  name: mousetree
+  url: https://news.ycombinator.com/item?id=40564160
 ---
 Seen Finance | <a href="https:&#x2F;&#x2F;seen.com" rel="nofollow">https:&#x2F;&#x2F;seen.com</a> | Full time | Berlin | Hybrid on-site | €80k - €110k
 

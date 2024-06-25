@@ -1,6 +1,8 @@
 ---
 title: "Connectly"
-icon: minus
+author:
+  name: lyd
+  url: https://news.ycombinator.com/item?id=40590942
 ---
 Connectly | ML&#x2F;Frontend&#x2F;Backend (SF &amp; Remote)
 

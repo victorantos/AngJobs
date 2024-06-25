@@ -1,6 +1,8 @@
 ---
 title: "Red Sky : Senior TypeScript Engineer"
-icon: minus
+author:
+  name: xpekeler
+  url: https://news.ycombinator.com/item?id=40582338
 ---
 Red Sky | Senior TypeScript Engineer | Full-time | Onsite Berlin
 

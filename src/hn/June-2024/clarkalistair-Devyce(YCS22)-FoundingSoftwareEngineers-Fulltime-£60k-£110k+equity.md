@@ -1,6 +1,8 @@
 ---
 title: "Devyce (YC S22) : Founding Software Engineers"
-icon: minus
+author:
+  name: clarkalistair
+  url: https://news.ycombinator.com/item?id=40566598
 ---
 Devyce (YC S22) | Founding Software Engineers | Remote (UK timezone) or London onsite&#x2F;hybrid if you prefer | Full time | £60k-£110k + equity
 

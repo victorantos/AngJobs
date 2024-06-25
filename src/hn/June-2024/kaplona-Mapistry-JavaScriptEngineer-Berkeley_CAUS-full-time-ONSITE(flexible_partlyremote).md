@@ -1,6 +1,8 @@
 ---
 title: "Mapistry : JavaScript Engineer"
-icon: minus
+author:
+  name: kaplona
+  url: https://news.ycombinator.com/item?id=40591132
 ---
 Mapistry | JavaScript Engineer | Berkeley, CA US | full-time | ONSITE (flexible, partly remote)
 

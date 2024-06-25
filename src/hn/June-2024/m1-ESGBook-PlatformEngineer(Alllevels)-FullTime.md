@@ -1,6 +1,8 @@
 ---
 title: "ESG Book : Platform Engineer (All levels)"
-icon: minus
+author:
+  name: m1
+  url: https://news.ycombinator.com/item?id=40567445
 ---
 ESG Book | Platform Engineer (All levels) | Full Time | London, UK &#x2F; Remote (EU) | <a href="https:&#x2F;&#x2F;www.esgbook.com" rel="nofollow">https:&#x2F;&#x2F;www.esgbook.com</a>
 

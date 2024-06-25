@@ -1,6 +1,8 @@
 ---
 title: "Evaboot : Refactoring Python Django Backend"
-icon: minus
+author:
+  name: robz75
+  url: https://news.ycombinator.com/item?id=40651140
 ---
 Evaboot | Refactoring Python Django Backend | Full-Time | REMOTE | <a href="https:&#x2F;&#x2F;evaboot.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;evaboot.com&#x2F;</a>
 

@@ -1,6 +1,8 @@
 ---
 title: "Churnkey : Senior Full-Stack Engineer"
-icon: minus
+author:
+  name: ck_hiring
+  url: https://news.ycombinator.com/item?id=40563563
 ---
 Churnkey | Senior Full-Stack Engineer | Remote (preferably in North or South American timezones, but open to Europe) | $100k to $120k&#x2F;yr | churnkey.co
 

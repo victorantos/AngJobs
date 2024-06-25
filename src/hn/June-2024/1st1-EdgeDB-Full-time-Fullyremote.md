@@ -1,6 +1,8 @@
 ---
 title: "EdgeDB : Full-time"
-icon: minus
+author:
+  name: 1st1
+  url: https://news.ycombinator.com/item?id=40566891
 ---
 EdgeDB | SREs &#x2F; Infrastructure Engineers | Full-time | Fully remote | <a href="https:&#x2F;&#x2F;www.edgedb.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.edgedb.com&#x2F;</a>
 

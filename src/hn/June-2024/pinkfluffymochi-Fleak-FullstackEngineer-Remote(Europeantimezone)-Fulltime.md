@@ -1,6 +1,8 @@
 ---
 title: "Fleak : Fullstack Engineer"
-icon: minus
+author:
+  name: pinkfluffymochi
+  url: https://news.ycombinator.com/item?id=40653841
 ---
 Fleak | Fullstack Engineer | Remote (European timezone) |Full time| <a href="https:&#x2F;&#x2F;fleak.ai&#x2F;alpha-test" rel="nofollow">https:&#x2F;&#x2F;fleak.ai&#x2F;alpha-test</a>
 Fleak Explained: A serverless AI workflow builder. Fleak offers a user-friendly visual orchestrator, allowing users to craft their Directed Acyclic Graphs (DAGs) by seamlessly connecting data sources, AI models(GPU&#x2F;CPU), and user defined functions. With a single click, the visual designs evolve into distributed, high-performance workloads and automated API endpoints. Our core engine stands out with its ability to deploy multi-model real-time workflows without data storage

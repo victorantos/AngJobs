@@ -1,6 +1,8 @@
 ---
 title: "Ideal Medtech : Senior Systems Engineer"
-icon: minus
+author:
+  name: idealmedtech
+  url: https://news.ycombinator.com/item?id=40568582
 ---
 Ideal Medtech | <a href="https:&#x2F;&#x2F;idealmedtech.com" rel="nofollow">https:&#x2F;&#x2F;idealmedtech.com</a> | Senior Systems Engineer | Senior Software Engineer | Asheville, NC | Full-time | ONSITE preferred, FULLY REMOTE with the right skill set (USA only)
 

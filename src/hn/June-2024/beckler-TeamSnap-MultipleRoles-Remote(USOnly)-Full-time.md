@@ -1,6 +1,8 @@
 ---
 title: "TeamSnap : Multiple Roles"
-icon: minus
+author:
+  name: beckler
+  url: https://news.ycombinator.com/item?id=40566772
 ---
 TeamSnap | Multiple Roles | Remote (US Only) | Full-time | <a href="https:&#x2F;&#x2F;teamsnap.com" rel="nofollow">https:&#x2F;&#x2F;teamsnap.com</a>
 

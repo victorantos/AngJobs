@@ -1,6 +1,8 @@
 ---
 title: "Neurosym labs : ONSITE, INTERNS, VISA"
-icon: minus
+author:
+  name: pinouchon
+  url: https://news.ycombinator.com/item?id=40567727
 ---
 Neurosym labs | Zurich (maybe NY&#x2F;Boston, maybe SF&#x2F;Bay area) | ONSITE, INTERNS, VISA | Full-time
 

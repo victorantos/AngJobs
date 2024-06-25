@@ -1,6 +1,8 @@
 ---
 title: "REMOTE - USA : Full-Time"
-icon: minus
+author:
+  name: Checkbook
+  url: https://news.ycombinator.com/item?id=40565855
 ---
 Checkbook (<a href="https:&#x2F;&#x2F;checkbook.io&#x2F;" rel="nofollow">https:&#x2F;&#x2F;checkbook.io&#x2F;</a>) | REMOTE - USA | Full-Time
 

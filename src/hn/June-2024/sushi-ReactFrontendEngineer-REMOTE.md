@@ -1,6 +1,8 @@
 ---
 title: "React Frontend Engineer : REMOTE"
-icon: minus
+author:
+  name: sushi
+  url: https://news.ycombinator.com/item?id=40563941
 ---
 Boxento (<a href="https:&#x2F;&#x2F;boxento.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;boxento.com&#x2F;</a>) | React Frontend Engineer | REMOTE
 

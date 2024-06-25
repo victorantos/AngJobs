@@ -1,6 +1,8 @@
 ---
 title: "Full-time : Onsite in SF (hybrid)"
-icon: minus
+author:
+  name: nikcheerla
+  url: https://news.ycombinator.com/item?id=40564200
 ---
 Nooks (<a href="https:&#x2F;&#x2F;nooks.ai" rel="nofollow">https:&#x2F;&#x2F;nooks.ai</a>) | Software Engineers (full-stack &amp; backend&#x2F;applied ML) | Full-time | Onsite in SF (hybrid)
 

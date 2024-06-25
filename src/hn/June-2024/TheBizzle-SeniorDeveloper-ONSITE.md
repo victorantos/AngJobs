@@ -1,6 +1,8 @@
 ---
 title: "Senior Developer : ONSITE"
-icon: minus
+author:
+  name: TheBizzle
+  url: https://news.ycombinator.com/item?id=40682380
 ---
 NetLogo &#x2F; Northwestern University | Senior Developer | ONSITE
 

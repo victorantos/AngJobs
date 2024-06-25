@@ -1,6 +1,8 @@
 ---
 title: "Tandem Health : Software Engineers"
-icon: minus
+author:
+  name: oliverastrand
+  url: https://news.ycombinator.com/item?id=40566261
 ---
 Tandem Health | Software Engineers | On-site in Stockholm, Sweden | Full time
 

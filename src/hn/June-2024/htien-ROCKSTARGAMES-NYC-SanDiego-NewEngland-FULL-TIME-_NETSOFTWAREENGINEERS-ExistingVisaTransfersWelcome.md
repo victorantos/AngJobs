@@ -1,6 +1,8 @@
 ---
 title: "ROCKSTAR GAMES : NYC-San Diego-New England"
-icon: minus
+author:
+  name: htien
+  url: https://news.ycombinator.com/item?id=40563812
 ---
 ROCKSTAR GAMES | NYC-San Diego-New England| FULL-TIME | .NET SOFTWARE ENGINEERS | Existing Visa Transfers Welcome
 

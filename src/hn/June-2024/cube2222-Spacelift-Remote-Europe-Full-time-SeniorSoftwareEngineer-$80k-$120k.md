@@ -1,6 +1,8 @@
 ---
 title: "Spacelift : Remote"
-icon: minus
+author:
+  name: cube2222
+  url: https://news.ycombinator.com/item?id=40563533
 ---
 Spacelift | Remote | Europe | Full-time | Senior Software Engineer | $80k-$120k
 

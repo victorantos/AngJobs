@@ -1,6 +1,8 @@
 ---
 title: "London, Boston : Full-time"
-icon: minus
+author:
+  name: matthew_mg
+  url: https://news.ycombinator.com/item?id=40564193
 ---
 Man Group (<a href="https:&#x2F;&#x2F;man.com" rel="nofollow">https:&#x2F;&#x2F;man.com</a>) | Lead&#x2F;Mid-level AI Engineer | London, Boston | hybrid&#x2F;onsite | Full-time
 

@@ -1,6 +1,8 @@
 ---
 title: "Typefully : Full Stack Engineer"
-icon: minus
+author:
+  name: frankdilo
+  url: https://news.ycombinator.com/item?id=40607459
 ---
 Typefully | Full Stack Engineer | Remote (CET Preferred) | Full-Time
 

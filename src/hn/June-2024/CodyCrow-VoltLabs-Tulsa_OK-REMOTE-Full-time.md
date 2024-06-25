@@ -1,6 +1,8 @@
 ---
 title: "Volt Labs : Tulsa, OK"
-icon: minus
+author:
+  name: CodyCrow
+  url: https://news.ycombinator.com/item?id=40579751
 ---
 Volt Labs | Tulsa, OK | Product &amp; Software Engineer | REMOTE | Full-time
 

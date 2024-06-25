@@ -1,6 +1,8 @@
 ---
 title: "Head of Finance, Head of Marketing : Remote US"
-icon: minus
+author:
+  name: kcartmell
+  url: https://news.ycombinator.com/item?id=40563299
 ---
 Snout <a href="https:&#x2F;&#x2F;www.snoutplans.com" rel="nofollow">https:&#x2F;&#x2F;www.snoutplans.com</a> | Head of Finance, Head of Marketing | Remote US | Full Time
 

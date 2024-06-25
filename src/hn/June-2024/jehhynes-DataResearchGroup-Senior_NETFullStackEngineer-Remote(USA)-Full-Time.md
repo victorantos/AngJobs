@@ -1,6 +1,8 @@
 ---
 title: "Data Research Group : Senior .NET Full Stack Engineer"
-icon: minus
+author:
+  name: jehhynes
+  url: https://news.ycombinator.com/item?id=40573451
 ---
 Data Research Group | Senior .NET Full Stack Engineer | Remote (USA) | Full-Time
 

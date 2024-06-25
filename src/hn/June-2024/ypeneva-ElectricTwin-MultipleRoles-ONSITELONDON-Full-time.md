@@ -1,6 +1,8 @@
 ---
 title: "Electric Twin : Multiple Roles"
-icon: minus
+author:
+  name: ypeneva
+  url: https://news.ycombinator.com/item?id=40575361
 ---
 Electric Twin | Multiple Roles | ONSITE LONDON | Full-time
 

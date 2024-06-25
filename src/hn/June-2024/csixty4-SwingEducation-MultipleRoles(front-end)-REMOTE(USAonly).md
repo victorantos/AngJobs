@@ -1,6 +1,8 @@
 ---
 title: "Swing Education : Multiple Roles (front-end)"
-icon: minus
+author:
+  name: csixty4
+  url: https://news.ycombinator.com/item?id=40580650
 ---
 Swing Education | Multiple Roles (front-end) | REMOTE (USA only)
 

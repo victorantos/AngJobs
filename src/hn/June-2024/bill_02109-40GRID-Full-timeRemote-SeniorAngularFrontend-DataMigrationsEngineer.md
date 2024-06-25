@@ -1,6 +1,8 @@
 ---
 title: "40GRID - Full-time Remote : Senior Angular Frontend"
-icon: minus
+author:
+  name: bill_02109
+  url: https://news.ycombinator.com/item?id=40563560
 ---
 40GRID - Full-time Remote | Senior Angular Frontend | Django &#x2F; Python Backend | Data Migrations Engineer
 

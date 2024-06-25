@@ -1,6 +1,8 @@
 ---
 title: "AE Studio : LA Office"
-icon: minus
+author:
+  name: rbesen
+  url: https://news.ycombinator.com/item?id=40566580
 ---
 AE Studio | LA Office | Multiple Roles | Full-Time | Remote | ae.studio
 

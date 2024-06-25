@@ -1,6 +1,8 @@
 ---
 title: "Tulip : Boston, MA, Munich, Germany, and Budapest, Hungary"
-icon: minus
+author:
+  name: mglidden11
+  url: https://news.ycombinator.com/item?id=40565301
 ---
 Tulip | <a href="https:&#x2F;&#x2F;tulip.co&#x2F;eng" rel="nofollow">https:&#x2F;&#x2F;tulip.co&#x2F;eng</a> | Boston, MA, Munich, Germany, and Budapest, Hungary | Full time | Onsite
 

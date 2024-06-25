@@ -1,6 +1,8 @@
 ---
 title: "Monad Labs : NYC, Hybrid 3-days On-Site"
-icon: minus
+author:
+  name: clee_tech01
+  url: https://news.ycombinator.com/item?id=40566954
 ---
 Monad Labs | NYC, Hybrid 3-days On-Site
 

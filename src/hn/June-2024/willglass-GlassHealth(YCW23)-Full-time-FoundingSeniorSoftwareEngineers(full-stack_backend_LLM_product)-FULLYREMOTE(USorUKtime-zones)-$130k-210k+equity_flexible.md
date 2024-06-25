@@ -1,6 +1,8 @@
 ---
 title: "Glass Health (YC W23) : Full-time"
-icon: minus
+author:
+  name: willglass
+  url: https://news.ycombinator.com/item?id=40572507
 ---
 Glass Health (YC W23) | Full-time | Founding Senior Software Engineers (full-stack, backend, LLM, product) | FULLY REMOTE (US or UK time-zones) | $130k-210k + equity, flexible
 

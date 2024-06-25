@@ -1,6 +1,8 @@
 ---
 title: "Konvu : Engineering"
-icon: minus
+author:
+  name: zetaben
+  url: https://news.ycombinator.com/item?id=40596658
 ---
 Konvu | Engineering | Paris, France | ONSITE | Full-time
 

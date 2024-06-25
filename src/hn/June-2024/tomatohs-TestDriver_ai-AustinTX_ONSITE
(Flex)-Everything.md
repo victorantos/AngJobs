@@ -1,7 +1,9 @@
 ---
 title: "TestDriver.ai : Austin TX, ONSITE 
  (Flex)"
-icon: minus
+author:
+  name: tomatohs
+  url: https://news.ycombinator.com/item?id=40564389
 ---
 TestDriver.ai | <a href="https:&#x2F;&#x2F;testdriver.ai" rel="nofollow">https:&#x2F;&#x2F;testdriver.ai</a> | Austin TX, ONSITE 
  (Flex) | Everything

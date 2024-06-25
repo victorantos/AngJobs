@@ -1,6 +1,8 @@
 ---
-title: "City Innovate : Sr Tech Lead "
-icon: minus
+title: "City Innovate : Sr Tech Lead"
+author:
+  name: jnathsf
+  url: https://news.ycombinator.com/item?id=39563104
 ---
 City Innovate | <a href="https:&#x2F;&#x2F;cityinnovate.com" rel="nofollow">https:&#x2F;&#x2F;cityinnovate.com</a> | Sr Tech Lead | REMOTE (USA only) | Full Time | $165-$215K
 

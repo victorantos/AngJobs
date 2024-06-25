@@ -1,6 +1,8 @@
 ---
 title: "Cybozu : Senior Platform Engineer"
-icon: minus
+author:
+  name: michalatcybozu
+  url: https://news.ycombinator.com/item?id=40567400
 ---
 Cybozu | Senior Platform Engineer | Full Time | Onsite (Multiple locations within Japan) &#x2F; Remote (Japan) | Visa Sponsorship | JPY 9,000,000 – JPY 11,000,000
 

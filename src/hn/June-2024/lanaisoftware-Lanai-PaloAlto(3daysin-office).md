@@ -1,6 +1,8 @@
 ---
 title: "Lanai : Palo Alto (3 days in-office)"
-icon: minus
+author:
+  name: lanaisoftware
+  url: https://news.ycombinator.com/item?id=40601577
 ---
 Lanai | Head of UX &amp; Design and Principal ML Engineer | Palo Alto (3 days in-office) | <a href="https:&#x2F;&#x2F;www.withlanai.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.withlanai.com&#x2F;</a>
 

@@ -1,6 +1,8 @@
 ---
 title: "EnsoData (YC F15) : Senior Mobile Engineer (React Native)"
-icon: minus
+author:
+  name: enso_hacker
+  url: https://news.ycombinator.com/item?id=40600723
 ---
 EnsoData (YC F15) | Senior Mobile Engineer (React Native) | $110k-$120k | Full-Time | Madison, WI | Remote or Hybrid
 

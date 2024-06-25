@@ -1,6 +1,8 @@
 ---
 title: "Jam.dev : Remote (+ in person in SF, Austin, NYC)"
-icon: minus
+author:
+  name: ivanhapaz
+  url: https://news.ycombinator.com/item?id=40564832
 ---
 Jam.dev | Staff Fullstack Engineer &amp; AI Product Engineer | Typescript&#x2F;React | Remote (+ in person in SF, Austin, NYC) | Full-time
 

@@ -1,6 +1,8 @@
 ---
 title: "India"
-icon: minus
+author:
+  name: siddharthb_
+  url: https://news.ycombinator.com/item?id=40570989
 ---
 TurboML (<a href="https:&#x2F;&#x2F;turboml.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;turboml.com&#x2F;</a>) | India | Enterprise Sales Manager&#x2F; Software Engineer &#x2F; ML Engineer
 

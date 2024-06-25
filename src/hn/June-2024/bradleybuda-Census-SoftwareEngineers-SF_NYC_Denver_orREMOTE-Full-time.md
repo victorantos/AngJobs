@@ -1,6 +1,8 @@
 ---
 title: "Census : Software Engineers"
-icon: minus
+author:
+  name: bradleybuda
+  url: https://news.ycombinator.com/item?id=40566151
 ---
 Census | Software Engineers | SF, NYC, Denver, or REMOTE | Full-time
 

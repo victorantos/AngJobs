@@ -1,6 +1,8 @@
 ---
 title: "Apple : Cupertino"
-icon: minus
+author:
+  name: timsneath
+  url: https://news.ycombinator.com/item?id=40566310
 ---
 Apple | Sr Product Manager, Swift &amp; SwiftUI | Cupertino | Onsite
 

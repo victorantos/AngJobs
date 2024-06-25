@@ -1,6 +1,8 @@
 ---
 title: "LocalStack : Multiple Roles"
-icon: minus
+author:
+  name: whummer
+  url: https://news.ycombinator.com/item?id=40574782
 ---
 LocalStack | Multiple Roles | REMOTE | Full-Time
 

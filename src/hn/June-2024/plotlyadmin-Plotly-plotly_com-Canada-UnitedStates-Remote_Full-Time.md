@@ -1,6 +1,8 @@
 ---
 title: "Plotly : plotly.com"
-icon: minus
+author:
+  name: plotlyadmin
+  url: https://news.ycombinator.com/item?id=40563601
 ---
 Plotly | plotly.com | Senior&#x2F;Staff Software Engineers, Full Stack, Engineering Manager, Platform | Canada | United States |Remote, Full-Time
 

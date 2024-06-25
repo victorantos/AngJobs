@@ -1,6 +1,8 @@
 ---
 title: "Runn : Product Engineers"
-icon: minus
+author:
+  name: rsavage
+  url: https://news.ycombinator.com/item?id=40563325
 ---
 Runn | <a href="https:&#x2F;&#x2F;runn.io" rel="nofollow">https:&#x2F;&#x2F;runn.io</a> | Product Engineers | Remote (Canada&#x2F;US&#x2F;Latin America) | 4-day work week | $118-169k CAD
 

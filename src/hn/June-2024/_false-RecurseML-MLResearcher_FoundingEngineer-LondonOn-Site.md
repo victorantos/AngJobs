@@ -1,6 +1,8 @@
 ---
 title: "Recurse ML : ML Researcher, Founding Engineer"
-icon: minus
+author:
+  name: _false
+  url: https://news.ycombinator.com/item?id=40567544
 ---
 Recurse ML | ML Researcher, Founding Engineer | London On-Site
 

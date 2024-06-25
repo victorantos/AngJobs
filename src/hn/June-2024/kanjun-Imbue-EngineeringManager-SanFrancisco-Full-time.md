@@ -1,6 +1,8 @@
 ---
 title: "Imbue : Engineering Manager"
-icon: minus
+author:
+  name: kanjun
+  url: https://news.ycombinator.com/item?id=40564895
 ---
 Imbue | Engineering Manager | San Francisco | Full-time
 

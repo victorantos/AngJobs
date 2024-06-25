@@ -1,6 +1,8 @@
 ---
 title: "Experienced Javascript Engineer : Delft, The Netherlands"
-icon: minus
+author:
+  name: Goedebuur
+  url: https://news.ycombinator.com/item?id=40594892
 ---
 BasisBeeld (<a href="https:&#x2F;&#x2F;basisbeeld.nl" rel="nofollow">https:&#x2F;&#x2F;basisbeeld.nl</a> in Dutch) a product developed by OGD ict-diensten| Experienced Javascript Engineer | Delft, The Netherlands | ONSITE | Day-to-day language: DUTCH
 

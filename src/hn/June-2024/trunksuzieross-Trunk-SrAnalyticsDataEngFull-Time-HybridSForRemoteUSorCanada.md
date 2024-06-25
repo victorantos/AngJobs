@@ -1,6 +1,8 @@
 ---
 title: "Trunk : Sr Analytics Data Eng Full-Time"
-icon: minus
+author:
+  name: trunksuzieross
+  url: https://news.ycombinator.com/item?id=40651279
 ---
 Trunk | <a href="https:&#x2F;&#x2F;trunk.io" rel="nofollow">https:&#x2F;&#x2F;trunk.io</a> | Sr Back End Eng &#x2F; DevRel Eng| Sr Analytics Data Eng Full-Time | Hybrid SF or Remote US or Canada
 

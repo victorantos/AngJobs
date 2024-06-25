@@ -1,6 +1,8 @@
 ---
 title: "Kale AI : Founding Software Engineer"
-icon: minus
+author:
+  name: sorig
+  url: https://news.ycombinator.com/item?id=40565200
 ---
 Kale AI | Founding Software Engineer | London, UK | Hybrid or REMOTE in UK&#x2F;EU | Full-time | Climate tech
 

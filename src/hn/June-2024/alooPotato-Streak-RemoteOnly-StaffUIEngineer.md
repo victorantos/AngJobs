@@ -1,6 +1,8 @@
 ---
 title: "Streak : Remote Only"
-icon: minus
+author:
+  name: alooPotato
+  url: https://news.ycombinator.com/item?id=40564939
 ---
 Streak | Remote Only | Staff UI Engineer | <a href="https:&#x2F;&#x2F;www.streak.com&#x2F;careers&#x2F;staff-ui-engineer" rel="nofollow">https:&#x2F;&#x2F;www.streak.com&#x2F;careers&#x2F;staff-ui-engineer</a>
 

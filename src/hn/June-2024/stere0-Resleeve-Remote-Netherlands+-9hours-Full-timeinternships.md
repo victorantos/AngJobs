@@ -1,6 +1,8 @@
 ---
 title: "Resleeve : Remote"
-icon: minus
+author:
+  name: stere0
+  url: https://news.ycombinator.com/item?id=40575815
 ---
 Resleeve | Remote | Netherlands +- 9 hours | Full-time internships
 

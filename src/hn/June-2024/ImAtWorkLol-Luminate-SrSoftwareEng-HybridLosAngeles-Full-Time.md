@@ -1,6 +1,8 @@
 ---
 title: "Luminate : Sr Software Eng"
-icon: minus
+author:
+  name: ImAtWorkLol
+  url: https://news.ycombinator.com/item?id=40652335
 ---
 Luminate | Sr Software Eng | Hybrid Los Angeles | Full-Time|   <a href="https:&#x2F;&#x2F;luminatedata.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;luminatedata.com&#x2F;</a>
 

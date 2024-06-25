@@ -1,6 +1,8 @@
 ---
 title: "Smithy : Full-time"
-icon: minus
+author:
+  name: dlicheva
+  url: https://news.ycombinator.com/item?id=40564035
 ---
 Smithy | Full-time | Senior Backend Engineer | London, UK
 

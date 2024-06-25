@@ -1,6 +1,8 @@
 ---
 title: "InductEV : Data Engineer, Full-Stack Engineer"
-icon: minus
+author:
+  name: calabroa
+  url: https://news.ycombinator.com/item?id=40577194
 ---
 InductEV | Data Engineer, Full-Stack Engineer | Philadelphia, PA | Full-time | REMOTE | www.inductev.com
 

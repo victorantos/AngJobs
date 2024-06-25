@@ -1,6 +1,8 @@
 ---
 title: "RIALTO : London Based"
-icon: minus
+author:
+  name: rasool20
+  url: https://news.ycombinator.com/item?id=40632351
 ---
 RIALTO | London Based | HYBRID
 

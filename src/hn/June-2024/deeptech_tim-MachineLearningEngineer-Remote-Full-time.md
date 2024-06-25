@@ -1,6 +1,8 @@
 ---
 title: "Machine Learning Engineer : Remote"
-icon: minus
+author:
+  name: deeptech_tim
+  url: https://news.ycombinator.com/item?id=40571863
 ---
 Machine Learning Engineer | <a href="https:&#x2F;&#x2F;deeptech.jobs" rel="nofollow">https:&#x2F;&#x2F;deeptech.jobs</a> | Remote | Full-time
 

@@ -1,6 +1,8 @@
 ---
 title: "Canopy Connect : Backend Engineer - Carrier Integrations Team"
-icon: minus
+author:
+  name: davecardwell
+  url: https://news.ycombinator.com/item?id=40563767
 ---
 Canopy Connect | Backend Engineer - Carrier Integrations Team | Full-time | REMOTE (US &amp; Canada) | $100k–$150k+ | <a href="https:&#x2F;&#x2F;www.usecanopy.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.usecanopy.com&#x2F;</a>
 

@@ -1,6 +1,8 @@
 ---
 title: "OnCare : Mid-Senior Software Engineer"
-icon: minus
+author:
+  name: kulor
+  url: https://news.ycombinator.com/item?id=40568363
 ---
 OnCare | Mid-Senior Software Engineer | Remote &#x2F; London | <a href="https:&#x2F;&#x2F;www.weareoncare.com" rel="nofollow">https:&#x2F;&#x2F;www.weareoncare.com</a>
 

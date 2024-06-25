@@ -1,6 +1,8 @@
 ---
 title: "CodeWeavers : St Paul, MN, USA"
-icon: minus
+author:
+  name: uczekalla
+  url: https://news.ycombinator.com/item?id=40573340
 ---
 CodeWeavers | St Paul, MN, USA | Full Time | REMOTE | Wine and General Open Source Developers | C-language systems programming
 

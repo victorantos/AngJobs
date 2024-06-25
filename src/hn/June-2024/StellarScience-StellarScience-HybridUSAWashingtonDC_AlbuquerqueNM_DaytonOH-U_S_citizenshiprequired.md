@@ -1,6 +1,8 @@
 ---
 title: "Stellar Science : Hybrid USA Washington DC, Albuquerque NM, Dayton OH"
-icon: minus
+author:
+  name: StellarScience
+  url: https://news.ycombinator.com/item?id=40567581
 ---
 Stellar Science | Hybrid USA Washington DC, Albuquerque NM, Dayton OH | Full time, INTERNS&#x2F;co-ops | U.S. citizenship required | <a href="https:&#x2F;&#x2F;www.stellarscience.com" rel="nofollow">https:&#x2F;&#x2F;www.stellarscience.com</a>
 

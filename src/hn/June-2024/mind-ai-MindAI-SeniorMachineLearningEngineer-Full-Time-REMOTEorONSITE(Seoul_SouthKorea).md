@@ -1,6 +1,8 @@
 ---
 title: "Mind AI : Senior Machine Learning Engineer"
-icon: minus
+author:
+  name: mind-ai
+  url: https://news.ycombinator.com/item?id=40566376
 ---
 Mind AI | Senior Machine Learning Engineer | Full-Time | REMOTE or ONSITE (Seoul, South Korea) | <a href="https:&#x2F;&#x2F;about.mind.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;about.mind.ai&#x2F;</a>
 

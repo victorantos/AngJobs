@@ -1,6 +1,8 @@
 ---
 title: "Hozana : Backend Engineer - Symfony"
-icon: minus
+author:
+  name: arnoooooo
+  url: https://news.ycombinator.com/item?id=40573362
 ---
 Hozana | Backend Engineer - Symfony | Full-time | Lyon, France or remote from France | <a href="https:&#x2F;&#x2F;www.hozana.org&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.hozana.org&#x2F;</a>
 

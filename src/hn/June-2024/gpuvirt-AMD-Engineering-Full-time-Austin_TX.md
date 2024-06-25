@@ -1,6 +1,8 @@
 ---
 title: "AMD : Engineering"
-icon: minus
+author:
+  name: gpuvirt
+  url: https://news.ycombinator.com/item?id=40612311
 ---
 AMD | Engineering | Full-time | Austin, TX | Onsite&#x2F;Hybrid
 

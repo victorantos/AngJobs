@@ -1,6 +1,8 @@
 ---
 title: "ML6 : Machine Learning Engineer, Data Engineer"
-icon: minus
+author:
+  name: konz
+  url: https://news.ycombinator.com/item?id=40564582
 ---
 ML6 | Machine Learning Engineer, Data Engineer | Python, TensorFlow, PyTorch, GCP, AWS, Azure | Full-time | Amsterdam, Berlin, Ghent (EU) On-site&#x2F;hybrid
 

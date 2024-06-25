@@ -1,6 +1,8 @@
 ---
 title: "Align (no website yet!) : Remote (US time zones)"
-icon: minus
+author:
+  name: paulclark
+  url: https://news.ycombinator.com/item?id=40577534
 ---
 Align (no website yet!) | Remote (US time zones) | Full-time
 

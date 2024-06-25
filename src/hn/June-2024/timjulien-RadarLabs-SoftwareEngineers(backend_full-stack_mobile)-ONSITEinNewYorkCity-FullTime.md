@@ -1,6 +1,8 @@
 ---
 title: "Radar Labs : Software Engineers (backend, full-stack, mobile)"
-icon: minus
+author:
+  name: timjulien
+  url: https://news.ycombinator.com/item?id=40565106
 ---
 Radar Labs | Software Engineers (backend, full-stack, mobile) | ONSITE in New York City | Full Time | <a href="https:&#x2F;&#x2F;radar.com" rel="nofollow">https:&#x2F;&#x2F;radar.com</a>
 

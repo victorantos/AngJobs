@@ -1,6 +1,8 @@
 ---
 title: "Supercede : Software Developer (Haskell)"
-icon: minus
+author:
+  name: yakshaving_jgt
+  url: https://news.ycombinator.com/item?id=40563677
 ---
 Supercede | Software Developer (Haskell) | REMOTE | Full Time
 

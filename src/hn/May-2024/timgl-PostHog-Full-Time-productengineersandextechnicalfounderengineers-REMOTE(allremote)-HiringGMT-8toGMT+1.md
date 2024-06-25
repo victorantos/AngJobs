@@ -1,6 +1,8 @@
 ---
-title: "PostHog : Full-Time "
-icon: minus
+title: "PostHog : Full-Time"
+author:
+  name: timgl
+  url: https://news.ycombinator.com/item?id=40224939
 ---
 PostHog | Full-Time | product engineers and ex technical founder engineers | REMOTE (all remote) | Hiring GMT-8 to GMT+1
 

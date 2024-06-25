@@ -1,6 +1,8 @@
 ---
 title: "Upwave (YC S12) : Head of Engineering"
-icon: minus
+author:
+  name: rogueleaderr
+  url: https://news.ycombinator.com/item?id=40570518
 ---
 Upwave (YC S12) | Head of Engineering | US Remote | Full-time
 

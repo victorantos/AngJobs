@@ -1,6 +1,8 @@
 ---
 title: "Gruntwork : REMOTE (North American Timezone)"
-icon: minus
+author:
+  name: zgoldberg
+  url: https://news.ycombinator.com/item?id=40563961
 ---
 Gruntwork | GoLang Engineer, Marketing Manager &amp; Sales Engineer | REMOTE (North American Timezone) | Full-Time | <a href="https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;Gruntwork">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;Gruntwork</a>
 

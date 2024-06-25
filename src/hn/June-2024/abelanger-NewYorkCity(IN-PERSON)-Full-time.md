@@ -1,6 +1,8 @@
 ---
 title: "New York City (IN-PERSON) : Full-time"
-icon: minus
+author:
+  name: abelanger
+  url: https://news.ycombinator.com/item?id=40569411
 ---
 Hatchet (<a href="https:&#x2F;&#x2F;hatchet.run">https:&#x2F;&#x2F;hatchet.run</a>) | New York City (IN-PERSON) | Full-time
 

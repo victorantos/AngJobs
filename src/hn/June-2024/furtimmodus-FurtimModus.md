@@ -1,6 +1,8 @@
 ---
 title: "Furtim Modus"
-icon: minus
+author:
+  name: furtimmodus
+  url: https://news.ycombinator.com/item?id=40652677
 ---
 Furtim Modus | DevOps Engineer - ONSITE&#x2F;Hybrid NYC | Java Developer - Preferred NYC But Remote Considered (Americas&#x2F;Europe) | Part-Time&#x2F;Full-Time | <a href="https:&#x2F;&#x2F;furtimmodus.com" rel="nofollow">https:&#x2F;&#x2F;furtimmodus.com</a>
 

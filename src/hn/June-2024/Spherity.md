@@ -1,6 +1,8 @@
 ---
 title: "Spherity"
-icon: minus
+author:
+  name: Spherity
+  url: https://news.ycombinator.com/item?id=40634026
 ---
 Spherity GmbH is hiring Software Engineers - (<a href="https:&#x2F;&#x2F;www.spherity.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.spherity.com&#x2F;</a>)
 

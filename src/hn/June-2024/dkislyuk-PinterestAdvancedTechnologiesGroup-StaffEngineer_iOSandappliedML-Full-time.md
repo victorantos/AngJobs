@@ -1,6 +1,8 @@
 ---
 title: "Pinterest Advanced Technologies Group : Staff Engineer, iOS and applied ML"
-icon: minus
+author:
+  name: dkislyuk
+  url: https://news.ycombinator.com/item?id=40567368
 ---
 Pinterest Advanced Technologies Group | Staff Engineer, iOS and applied ML | US remote or hybrid in SF&#x2F;NY | Full-time
 

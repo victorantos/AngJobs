@@ -1,6 +1,8 @@
 ---
 title: "Limitless (Previously Rewind) : Full-time"
-icon: minus
+author:
+  name: brettbejcek
+  url: https://news.ycombinator.com/item?id=40661205
 ---
 Limitless (Previously Rewind) | Full-time | Remote | <a href="https:&#x2F;&#x2F;limitless.ai" rel="nofollow">https:&#x2F;&#x2F;limitless.ai</a>
 

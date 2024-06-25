@@ -1,6 +1,8 @@
 ---
 title: "OneText : Bay Area, CA"
-icon: minus
+author:
+  name: bluepnume
+  url: https://news.ycombinator.com/item?id=40570664
 ---
 OneText | <a href="https:&#x2F;&#x2F;onetext.com">https:&#x2F;&#x2F;onetext.com</a> | Bay Area, CA | Lead UX Engineer | US (In person or remote) | Full time
 

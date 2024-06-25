@@ -1,6 +1,8 @@
 ---
 title: "Doowii : Full Stack Engineer"
-icon: minus
+author:
+  name: bdod6
+  url: https://news.ycombinator.com/item?id=40606674
 ---
 Doowii | Full Stack Engineer | Remote (US) | Full-Time
 

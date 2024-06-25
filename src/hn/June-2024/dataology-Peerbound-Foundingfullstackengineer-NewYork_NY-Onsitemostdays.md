@@ -1,6 +1,8 @@
 ---
 title: "Peerbound : Founding full stack engineer"
-icon: minus
+author:
+  name: dataology
+  url: https://news.ycombinator.com/item?id=40599465
 ---
 Peerbound | Founding full stack engineer | New York, NY | Onsite most days
 

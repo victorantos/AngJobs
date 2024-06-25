@@ -1,6 +1,8 @@
 ---
 title: "Snow Fox AI : Full-time"
-icon: minus
+author:
+  name: phferreira
+  url: https://news.ycombinator.com/item?id=40673089
 ---
 Snow Fox AI | Full-time | Senior Database Analyst, Senior Data Architect, Head of Data (Director Level) | Remote (GMT-3) | $70k-$120k
 

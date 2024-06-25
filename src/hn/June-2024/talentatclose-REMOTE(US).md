@@ -1,6 +1,8 @@
 ---
 title: "REMOTE (US)"
-icon: minus
+author:
+  name: talentatclose
+  url: https://news.ycombinator.com/item?id=40563701
 ---
 Close (<a href="https:&#x2F;&#x2F;close.com" rel="nofollow">https:&#x2F;&#x2F;close.com</a>) | Product &amp; Engineering Roles | REMOTE (US)
 

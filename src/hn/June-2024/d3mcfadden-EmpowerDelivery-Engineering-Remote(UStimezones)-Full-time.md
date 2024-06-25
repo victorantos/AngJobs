@@ -1,6 +1,8 @@
 ---
 title: "Empower Delivery : Engineering"
-icon: minus
+author:
+  name: d3mcfadden
+  url: https://news.ycombinator.com/item?id=40596070
 ---
 Empower Delivery | Engineering | Remote (US time zones) | Full-time
 

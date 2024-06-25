@@ -1,6 +1,8 @@
 ---
 title: "SerpApi : Junior-to-Senior Fullstack Engineer"
-icon: minus
+author:
+  name: hartator
+  url: https://news.ycombinator.com/item?id=40564513
 ---
 SerpApi | <a href="https:&#x2F;&#x2F;serpapi.com" rel="nofollow">https:&#x2F;&#x2F;serpapi.com</a> | Junior-to-Senior Fullstack Engineer | Customer Success Engineer | Talent Acquisition Specialist | Based in Austin, TX but remote-first structure | Full-time | ONSITE or FULLY REMOTE | $150K - 180K a year 1099 for US or local avg + 20% for outside the US
 

@@ -1,6 +1,8 @@
 ---
 title: "SIG : Multiple Positions"
-icon: minus
+author:
+  name: R1D2
+  url: https://news.ycombinator.com/item?id=40582102
 ---
 SIG | Multiple Positions | SYDNEY, AUSTRALIA | Visa Sponsorship for Experienced &#x2F; PhD Candidates | On Site | <a href="https:&#x2F;&#x2F;sig.com" rel="nofollow">https:&#x2F;&#x2F;sig.com</a>
 

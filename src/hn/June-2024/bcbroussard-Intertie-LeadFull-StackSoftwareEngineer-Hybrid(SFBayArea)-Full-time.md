@@ -1,6 +1,8 @@
 ---
 title: "Intertie : Lead Full-Stack Software Engineer"
-icon: minus
+author:
+  name: bcbroussard
+  url: https://news.ycombinator.com/item?id=40569761
 ---
 Intertie | Lead Full-Stack Software Engineer | Hybrid (SF Bay Area) | Full-time
 

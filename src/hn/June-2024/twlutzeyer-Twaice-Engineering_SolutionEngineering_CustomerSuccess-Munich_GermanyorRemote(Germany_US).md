@@ -1,6 +1,8 @@
 ---
 title: "Twaice : Engineering, Solution Engineering, Customer Success"
-icon: minus
+author:
+  name: twlutzeyer
+  url: https://news.ycombinator.com/item?id=40610412
 ---
 Twaice | Engineering, Solution Engineering, Customer Success | Munich, Germany or Remote (Germany, US) | Full-time <a href="https:&#x2F;&#x2F;www.twaice.com" rel="nofollow">https:&#x2F;&#x2F;www.twaice.com</a>
 

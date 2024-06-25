@@ -1,6 +1,8 @@
 ---
 title: "DeleteMe - the online privacy company : Full Time"
-icon: minus
+author:
+  name: SarahDeleteMe
+  url: https://news.ycombinator.com/item?id=40658624
 ---
 DeleteMe - the online privacy company | Full Time
 

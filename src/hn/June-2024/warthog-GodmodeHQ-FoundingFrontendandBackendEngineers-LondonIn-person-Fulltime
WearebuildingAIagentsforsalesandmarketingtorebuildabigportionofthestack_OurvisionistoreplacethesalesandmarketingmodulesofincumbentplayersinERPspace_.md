@@ -1,6 +1,8 @@
 ---
 title: "GodmodeHQ : Founding Frontend and Backend Engineers"
-icon: minus
+author:
+  name: warthog
+  url: https://news.ycombinator.com/item?id=40565327
 ---
 GodmodeHQ | Founding Frontend and Backend Engineers | London In-person | Full time
 We are building AI agents for sales and marketing to rebuild a big portion of the stack. Our vision is to replace the sales and marketing modules of incumbent players in ERP space.

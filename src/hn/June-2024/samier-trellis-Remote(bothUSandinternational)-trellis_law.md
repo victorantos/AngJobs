@@ -1,6 +1,8 @@
 ---
 title: "Remote (both US and international) : trellis.law"
-icon: minus
+author:
+  name: samier-trellis
+  url: https://news.ycombinator.com/item?id=40563960
 ---
 Trellis -- AI&#x2F;ML Engineer | Remote (both US and international) | trellis.law
 

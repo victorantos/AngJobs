@@ -1,6 +1,8 @@
 ---
 title: "Coinbase (YC S12) : Remote (North America)"
-icon: minus
+author:
+  name: nemild
+  url: https://news.ycombinator.com/item?id=40565714
 ---
 Coinbase (YC S12) | Remote (North America) | Full-time
 ==============================================

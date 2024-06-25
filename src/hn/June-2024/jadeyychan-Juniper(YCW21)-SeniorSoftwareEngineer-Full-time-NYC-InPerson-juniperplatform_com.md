@@ -1,6 +1,8 @@
 ---
 title: "Juniper (YC W21) : Senior Software Engineer"
-icon: minus
+author:
+  name: jadeyychan
+  url: https://news.ycombinator.com/item?id=40569565
 ---
 Juniper (YC W21) | Senior Software Engineer | Full-time | NYC | In Person | juniperplatform.com
 

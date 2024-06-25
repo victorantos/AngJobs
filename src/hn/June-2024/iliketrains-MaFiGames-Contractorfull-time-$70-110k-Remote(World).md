@@ -1,6 +1,8 @@
 ---
 title: "MaFi Games : Contract or full-time"
-icon: minus
+author:
+  name: iliketrains
+  url: https://news.ycombinator.com/item?id=40565368
 ---
 MaFi Games | Senior SWE&#x2F;game dev | Contract or full-time | $70-110k | Remote (World) | C#
 

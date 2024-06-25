@@ -1,6 +1,8 @@
 ---
 title: "Happy Scribe : Engineer, Designer, ML"
-icon: minus
+author:
+  name: massens
+  url: https://news.ycombinator.com/item?id=40563675
 ---
 Happy Scribe | Engineer, Designer, ML | Onsite &amp; Hybrid (Barcelona, Spain) | Full-time
 

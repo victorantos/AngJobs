@@ -1,6 +1,8 @@
 ---
 title: "AllTheTables : Founding Software Engineer"
-icon: minus
+author:
+  name: olliem36
+  url: https://news.ycombinator.com/item?id=40566231
 ---
 AllTheTables | Founding Software Engineer | London, UK | 3 days in central London office, 2 days remote | Full time
 

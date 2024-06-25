@@ -1,6 +1,8 @@
 ---
 title: "CloudTrucks : San Francisco"
-icon: minus
+author:
+  name: habajca
+  url: https://news.ycombinator.com/item?id=40564472
 ---
 CloudTrucks | Mid-level - Senior Machine Learning &amp; Software Eningeers | San Francisco | hybrid&#x2F;onsite* | Full-time
 

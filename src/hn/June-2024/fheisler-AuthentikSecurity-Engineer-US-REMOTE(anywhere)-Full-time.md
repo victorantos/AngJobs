@@ -1,6 +1,8 @@
 ---
 title: "Authentik Security : Engineer"
-icon: minus
+author:
+  name: fheisler
+  url: https://news.ycombinator.com/item?id=40563839
 ---
 Authentik Security | Engineer | US | REMOTE (anywhere) | Full-time
 

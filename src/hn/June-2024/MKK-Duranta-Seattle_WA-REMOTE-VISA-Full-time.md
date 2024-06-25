@@ -1,6 +1,8 @@
 ---
 title: "Duranta : Seattle, WA"
-icon: minus
+author:
+  name: MKK
+  url: https://news.ycombinator.com/item?id=40564858
 ---
 Duranta | <a href="https:&#x2F;&#x2F;www.getduranta.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.getduranta.com&#x2F;</a> | Seattle, WA | REMOTE | VISA | Full-time
 

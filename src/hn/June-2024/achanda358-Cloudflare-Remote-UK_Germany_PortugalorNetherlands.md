@@ -1,6 +1,8 @@
 ---
 title: "Cloudflare : Remote"
-icon: minus
+author:
+  name: achanda358
+  url: https://news.ycombinator.com/item?id=40564517
 ---
 Cloudflare | Senior&#x2F;Staff Systems engineer – database platform | Remote | UK, Germany, Portugal or Netherlands
 

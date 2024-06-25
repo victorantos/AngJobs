@@ -1,6 +1,8 @@
 ---
 title: "Puzzmatic : Senior Software Engineer"
-icon: minus
+author:
+  name: isubkhankulov
+  url: https://news.ycombinator.com/item?id=40563380
 ---
 Puzzmatic | [<a href="https:&#x2F;&#x2F;puzzmatic.com](https:&#x2F;&#x2F;puzzmatic.com)" rel="nofollow">https:&#x2F;&#x2F;puzzmatic.com](https:&#x2F;&#x2F;puzzmatic.com)</a> | Senior Software Engineer | Full-time Contract | Remote | Worldwide | $4,000&#x2F;month (40 hours&#x2F;week)
 

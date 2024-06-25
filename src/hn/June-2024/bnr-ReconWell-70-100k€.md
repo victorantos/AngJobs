@@ -1,6 +1,8 @@
 ---
 title: "ReconWell : 70-100k€"
-icon: minus
+author:
+  name: bnr
+  url: https://news.ycombinator.com/item?id=40565629
 ---
 ReconWell | (Senior&#x2F;Staff) Full Stack Software Engineer | REMOTE in Germany&#x2F;Switzerland | 70-100k€
 

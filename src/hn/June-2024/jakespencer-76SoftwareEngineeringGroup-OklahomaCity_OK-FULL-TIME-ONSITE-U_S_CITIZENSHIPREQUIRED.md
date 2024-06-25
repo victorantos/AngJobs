@@ -1,6 +1,8 @@
 ---
 title: "76 Software Engineering Group : Oklahoma City, OK"
-icon: minus
+author:
+  name: jakespencer
+  url: https://news.ycombinator.com/item?id=40566634
 ---
 76 Software Engineering Group | Oklahoma City, OK | FULL-TIME | ONSITE | U.S. CITIZENSHIP REQUIRED
 

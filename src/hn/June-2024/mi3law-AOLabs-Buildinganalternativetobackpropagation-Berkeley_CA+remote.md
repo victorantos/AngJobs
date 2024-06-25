@@ -1,6 +1,8 @@
 ---
 title: "AO Labs : Building an alternative to backpropagation"
-icon: minus
+author:
+  name: mi3law
+  url: https://news.ycombinator.com/item?id=40571087
 ---
 AO Labs | Building an alternative to backpropagation | <a href="https:&#x2F;&#x2F;www.aolabs.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.aolabs.ai&#x2F;</a> | Berkeley, CA + remote
 

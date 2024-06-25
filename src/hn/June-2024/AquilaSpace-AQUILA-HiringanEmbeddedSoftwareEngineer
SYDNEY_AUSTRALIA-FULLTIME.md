@@ -1,7 +1,9 @@
 ---
 title: "AQUILA - Hiring an Embedded Software Engineer
 SYDNEY, AUSTRALIA - FULLTIME"
-icon: minus
+author:
+  name: AquilaSpace
+  url: https://news.ycombinator.com/item?id=40592568
 ---
 AQUILA - Hiring an Embedded Software Engineer
 SYDNEY, AUSTRALIA - FULLTIME

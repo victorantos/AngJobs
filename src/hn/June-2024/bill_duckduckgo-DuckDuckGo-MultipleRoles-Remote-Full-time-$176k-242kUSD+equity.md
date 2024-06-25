@@ -1,6 +1,8 @@
 ---
 title: "DuckDuckGo : Multiple Roles"
-icon: minus
+author:
+  name: bill_duckduckgo
+  url: https://news.ycombinator.com/item?id=40564641
 ---
 DuckDuckGo | Multiple Roles | Remote | Full-time | $176k-242k USD + equity
 

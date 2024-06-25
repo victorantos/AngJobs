@@ -1,6 +1,8 @@
 ---
 title: "Digital Onboarding : Senior Full-stack Engineer, DevOps Engineer, QA Engineer, DBA"
-icon: minus
+author:
+  name: crossman
+  url: https://news.ycombinator.com/item?id=40577066
 ---
 Digital Onboarding | Senior Full-stack Engineer, DevOps Engineer, QA Engineer, DBA | REMOTE (US based) | Full time
 

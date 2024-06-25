@@ -1,6 +1,8 @@
 ---
 title: "Symbolica.ai : London, Australia"
-icon: minus
+author:
+  name: taliesinb
+  url: https://news.ycombinator.com/item?id=40564574
 ---
 Symbolica.ai | London, Australia | REMOTE, INTERNS, VISA
 

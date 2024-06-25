@@ -1,6 +1,8 @@
 ---
-title: " Multiple Roles : Full-Time "
-icon: minus
+title: "Multiple Roles : Full-Time"
+author:
+  name: tcpekin
+  url: https://news.ycombinator.com/item?id=38846500
 ---
 Carl Zeiss SMT&#x2F;SMS | Jena&#x2F;Oberkochen&#x2F;Rossdorf &amp; remote, Germany | Multiple Roles | Full-Time | Hybrid (some onsite required) | English, some German very helpful | <a href="https:&#x2F;&#x2F;www.zeiss.de&#x2F;semiconductor-manufacturing-technology&#x2F;home.html" rel="nofollow">https:&#x2F;&#x2F;www.zeiss.de&#x2F;semiconductor-manufacturing-technology&#x2F;...</a>
 

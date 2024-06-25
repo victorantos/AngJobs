@@ -1,6 +1,8 @@
 ---
 title: "University of Pennsylvania : Full-time"
-icon: minus
+author:
+  name: JBorrow
+  url: https://news.ycombinator.com/item?id=40673766
 ---
 University of Pennsylvania | Full-time | (Senior) Software Developer, Front-end | In-Person | $55-$95k (3 year term)
 

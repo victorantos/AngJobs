@@ -1,6 +1,8 @@
 ---
 title: "IVPN : Senior Infrastructure Engineer"
-icon: minus
+author:
+  name: burnaway
+  url: https://news.ycombinator.com/item?id=40639206
 ---
 IVPN | Senior Infrastructure Engineer | Remote (UTC-1 to UTC+3) | Full-time | <a href="https:&#x2F;&#x2F;www.ivpn.net" rel="nofollow">https:&#x2F;&#x2F;www.ivpn.net</a>
 

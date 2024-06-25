@@ -1,6 +1,8 @@
 ---
 title: "Orbio : Remote Sensing Data Scientist"
-icon: minus
+author:
+  name: whinvik
+  url: https://news.ycombinator.com/item?id=40643514
 ---
 Orbio | Remote Sensing Data Scientist | Remote (European Time) | Full-time | <a href="https:&#x2F;&#x2F;www.orbio.earth">https:&#x2F;&#x2F;www.orbio.earth</a>
 

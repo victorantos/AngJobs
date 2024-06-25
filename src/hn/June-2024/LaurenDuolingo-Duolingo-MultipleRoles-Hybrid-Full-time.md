@@ -1,6 +1,8 @@
 ---
 title: "Duolingo : Multiple Roles"
-icon: minus
+author:
+  name: LaurenDuolingo
+  url: https://news.ycombinator.com/item?id=40566689
 ---
 Duolingo | Multiple Roles | Hybrid | Pittsburgh&#x2F;Seattle&#x2F;NYC | Full-time | $148,800-$274,600 + equity&#x2F;benefits
 

@@ -1,6 +1,8 @@
 ---
-title: "OpenSanctions : Data engineer "
-icon: minus
+title: "OpenSanctions : Data engineer"
+author:
+  name: pudo
+  url: https://news.ycombinator.com/item?id=38844766
 ---
 OpenSanctions | Data engineer | Full-time | Remote CET +&#x2F;- 3hrs or Onsite Berlin, Germany
 

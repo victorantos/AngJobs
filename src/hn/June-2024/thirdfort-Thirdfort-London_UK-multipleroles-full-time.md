@@ -1,6 +1,8 @@
 ---
 title: "Thirdfort : London, UK"
-icon: minus
+author:
+  name: thirdfort
+  url: https://news.ycombinator.com/item?id=40587285
 ---
 Thirdfort | London, UK | multiple roles | remote (within UK) or hybrid&#x2F;onsite | full-time
 

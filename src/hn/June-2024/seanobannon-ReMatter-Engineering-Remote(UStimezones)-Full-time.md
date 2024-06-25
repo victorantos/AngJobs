@@ -1,6 +1,8 @@
 ---
 title: "ReMatter : Engineering"
-icon: minus
+author:
+  name: seanobannon
+  url: https://news.ycombinator.com/item?id=40587955
 ---
 ReMatter | Engineering | Remote (US time zones) | Full-time | <a href="https:&#x2F;&#x2F;rematter.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;rematter.com&#x2F;careers</a>
 

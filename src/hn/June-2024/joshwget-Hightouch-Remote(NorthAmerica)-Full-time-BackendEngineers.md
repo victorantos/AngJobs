@@ -1,6 +1,8 @@
 ---
 title: "Hightouch :Remote (North America)"
-icon: minus
+author:
+  name: joshwget
+  url: https://news.ycombinator.com/item?id=40564130
 ---
 Hightouch |Remote (North America)|Full-time | Backend Engineers
 

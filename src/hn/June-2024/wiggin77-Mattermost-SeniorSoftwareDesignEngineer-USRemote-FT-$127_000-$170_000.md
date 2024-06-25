@@ -1,6 +1,8 @@
 ---
 title: "Mattermost : Senior Software Design Engineer"
-icon: minus
+author:
+  name: wiggin77
+  url: https://news.ycombinator.com/item?id=40565137
 ---
 Mattermost | Senior Software Design Engineer | US Remote | FT | $127,000 - $170,000
 

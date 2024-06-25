@@ -1,6 +1,8 @@
 ---
 title: "Benikit : Co-Founding Engineer"
-icon: minus
+author:
+  name: benikit
+  url: https://news.ycombinator.com/item?id=40565727
 ---
 Benikit | Co-Founding Engineer | NYC or Remote (USA only) | Equity
 

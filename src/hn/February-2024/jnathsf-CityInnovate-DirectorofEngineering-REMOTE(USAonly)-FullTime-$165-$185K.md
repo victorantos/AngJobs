@@ -1,6 +1,8 @@
 ---
-title: "City Innovate : Director of Engineering "
-icon: minus
+title: "City Innovate : Director of Engineering"
+author:
+  name: jnathsf
+  url: https://news.ycombinator.com/item?id=39219128
 ---
 City Innovate | <a href="https:&#x2F;&#x2F;cityinnovate.com" rel="nofollow">https:&#x2F;&#x2F;cityinnovate.com</a> | Director of Engineering | REMOTE (USA only) | Full Time | $165-$185K
 

@@ -1,6 +1,8 @@
 ---
 title: "Quatt.io : Amsterdam, Netherlands"
-icon: minus
+author:
+  name: PanMan
+  url: https://news.ycombinator.com/item?id=40563323
 ---
 Quatt.io | Amsterdam, Netherlands | Full-time | Hybrid&#x2F;ONSITE | <a href="https:&#x2F;&#x2F;quatt.io" rel="nofollow">https:&#x2F;&#x2F;quatt.io</a> | climate tech
 

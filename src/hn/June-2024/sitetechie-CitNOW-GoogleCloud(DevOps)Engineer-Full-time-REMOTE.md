@@ -1,6 +1,8 @@
 ---
 title: "CitNOW : Google Cloud (DevOps) Engineer"
-icon: minus
+author:
+  name: sitetechie
+  url: https://news.ycombinator.com/item?id=40578278
 ---
 CitNOW | Google Cloud (DevOps) Engineer | Full-time | REMOTE | <a href="https:&#x2F;&#x2F;www.citnowgroup.com&#x2F;careers&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.citnowgroup.com&#x2F;careers&#x2F;</a>
 

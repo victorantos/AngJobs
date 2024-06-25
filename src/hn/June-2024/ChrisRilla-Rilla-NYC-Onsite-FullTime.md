@@ -1,6 +1,8 @@
 ---
 title: "Rilla : NYC"
-icon: minus
+author:
+  name: ChrisRilla
+  url: https://news.ycombinator.com/item?id=40567533
 ---
 Rilla | NYC | Onsite | Full Time | $165K-$230K + equity&#x2F;benefits | <a href="https:&#x2F;&#x2F;www.rilla.com" rel="nofollow">https:&#x2F;&#x2F;www.rilla.com</a>
 

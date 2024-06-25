@@ -1,6 +1,8 @@
 ---
 title: "Solution Street : Remote - US Candidates only"
-icon: minus
+author:
+  name: SolutionStreet
+  url: https://news.ycombinator.com/item?id=40577488
 ---
 Solution Street | Remote - US Candidates only|
 

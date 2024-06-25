@@ -1,6 +1,8 @@
 ---
 title: "Temporal Technologies : SWE2 - SWE3 Developer Productivity - Infrastructure"
-icon: minus
+author:
+  name: rjbriody
+  url: https://news.ycombinator.com/item?id=40565632
 ---
 Temporal Technologies | SWE2 - SWE3 Developer Productivity - Infrastructure | REMOTE US &amp; CA | FULL-TIME |
 

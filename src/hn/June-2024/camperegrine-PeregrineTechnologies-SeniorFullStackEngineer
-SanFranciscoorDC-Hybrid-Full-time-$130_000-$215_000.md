@@ -1,6 +1,8 @@
 ---
 title: "Peregrine Technologies : Senior Full Stack Engineer"
-icon: minus
+author:
+  name: camperegrine
+  url: https://news.ycombinator.com/item?id=40565537
 ---
 Peregrine Technologies | Senior Full Stack Engineer
  | San Francisco or DC - Hybrid | Full-time | $130,000 - $215,000

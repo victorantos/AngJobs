@@ -1,6 +1,8 @@
 ---
 title: "Layer : Founding FE Eng + Operations Lead"
-icon: minus
+author:
+  name: danieloneel
+  url: https://news.ycombinator.com/item?id=40565254
 ---
 Layer | Founding FE Eng + Operations Lead | San Francisco In-Person | Full-Time
 

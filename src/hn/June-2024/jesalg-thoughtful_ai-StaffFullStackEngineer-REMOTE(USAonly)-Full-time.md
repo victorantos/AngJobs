@@ -1,6 +1,8 @@
 ---
 title: "thoughtful.ai : Staff Full Stack Engineer"
-icon: minus
+author:
+  name: jesalg
+  url: https://news.ycombinator.com/item?id=40564214
 ---
 thoughtful.ai | Staff Full Stack Engineer | REMOTE (USA only) | Full-time | $190-250k + early equity, FTE #15 - 20
 

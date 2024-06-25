@@ -1,6 +1,8 @@
 ---
 title: "Yard Stick PBC : Senior Hardware Engineer"
-icon: minus
+author:
+  name: dcolen
+  url: https://news.ycombinator.com/item?id=40591931
 ---
 Yard Stick PBC | Senior Hardware Engineer | Oakland, CA, USA | full-time | ONSITE (flexible, work from home when we can!)
 

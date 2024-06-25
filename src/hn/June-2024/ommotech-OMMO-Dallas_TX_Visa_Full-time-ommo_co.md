@@ -1,6 +1,8 @@
 ---
 title: "OMMO : Dallas, TX, Visa, Full-time"
-icon: minus
+author:
+  name: ommotech
+  url: https://news.ycombinator.com/item?id=40578106
 ---
 OMMO | Dallas, TX, Visa, Full-time | ommo.co
 

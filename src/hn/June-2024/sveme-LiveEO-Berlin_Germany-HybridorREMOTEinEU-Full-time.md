@@ -1,6 +1,8 @@
 ---
 title: "LiveEO : Berlin, Germany"
-icon: minus
+author:
+  name: sveme
+  url: https://news.ycombinator.com/item?id=40565939
 ---
 LiveEO | Berlin, Germany | Hybrid or REMOTE in EU | Full-time
 

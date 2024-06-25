@@ -1,6 +1,8 @@
 ---
 title: "Brain Corporation : Many Software Engineering roles"
-icon: minus
+author:
+  name: tkinz27
+  url: https://news.ycombinator.com/item?id=40565295
 ---
 Brain Corporation | Many Software Engineering roles | Hybrid and Remote | full time | San Diego CA
 

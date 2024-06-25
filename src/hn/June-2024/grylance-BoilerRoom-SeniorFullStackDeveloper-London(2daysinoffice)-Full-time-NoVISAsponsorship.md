@@ -1,6 +1,8 @@
 ---
 title: "Boiler Room : Senior Full Stack Developer"
-icon: minus
+author:
+  name: grylance
+  url: https://news.ycombinator.com/item?id=40572573
 ---
 Boiler Room | Senior Full Stack Developer | London (2 days in office) | Full-time | <a href="https:&#x2F;&#x2F;boilerroom.tv&#x2F;" rel="nofollow">https:&#x2F;&#x2F;boilerroom.tv&#x2F;</a> | No VISA sponsorship
 

@@ -1,6 +1,8 @@
 ---
 title: "SpaceX : Onsite"
-icon: minus
+author:
+  name: SpaceXHiring
+  url: https://news.ycombinator.com/item?id=40568280
 ---
 SpaceX | Onsite | Full Time
 

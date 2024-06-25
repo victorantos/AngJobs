@@ -1,6 +1,8 @@
 ---
 title: "United Talent Agency : Sr ML Engineer, Sr Software Engineer"
-icon: minus
+author:
+  name: dbachrach
+  url: https://news.ycombinator.com/item?id=40567796
 ---
 United Talent Agency | Sr ML Engineer, Sr Software Engineer | Full-Time | Remote (US Only) | $160k to $180k
 

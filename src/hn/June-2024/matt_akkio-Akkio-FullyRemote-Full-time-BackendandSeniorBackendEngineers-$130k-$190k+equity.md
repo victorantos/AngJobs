@@ -1,6 +1,8 @@
 ---
 title: "Akkio : Fully Remote"
-icon: minus
+author:
+  name: matt_akkio
+  url: https://news.ycombinator.com/item?id=40563590
 ---
 Akkio | Fully Remote | Full-time | Backend and Senior Backend Engineers | $130k-$190k + equity
 

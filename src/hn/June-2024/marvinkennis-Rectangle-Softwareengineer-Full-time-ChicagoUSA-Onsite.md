@@ -1,6 +1,8 @@
 ---
 title: "Rectangle : Software engineer"
-icon: minus
+author:
+  name: marvinkennis
+  url: https://news.ycombinator.com/item?id=40564119
 ---
 Rectangle | Software engineer | Full-time | Chicago USA | Onsite | <a href="https:&#x2F;&#x2F;rectanglehq.com" rel="nofollow">https:&#x2F;&#x2F;rectanglehq.com</a>
 

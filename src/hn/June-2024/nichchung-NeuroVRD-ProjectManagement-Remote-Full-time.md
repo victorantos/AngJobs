@@ -1,6 +1,8 @@
 ---
 title: "NeuroVRD : Project Management"
-icon: minus
+author:
+  name: nichchung
+  url: https://news.ycombinator.com/item?id=40612344
 ---
 NeuroVRD | Project Management | Remote | Full-time
 

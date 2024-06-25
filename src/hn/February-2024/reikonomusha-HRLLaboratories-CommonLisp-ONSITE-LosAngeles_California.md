@@ -1,6 +1,8 @@
 ---
-title: "HRL Laboratories : Common Lisp "
-icon: minus
+title: "HRL Laboratories : Common Lisp"
+author:
+  name: reikonomusha
+  url: https://news.ycombinator.com/item?id=39219100
 ---
 HRL Laboratories | Senior Software Engineer; Principal Compiler Engineer | Common Lisp | ONSITE | Los Angeles, California | <a href="https:&#x2F;&#x2F;quantum.hrl.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;quantum.hrl.com&#x2F;</a>
 

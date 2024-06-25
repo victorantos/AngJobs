@@ -1,6 +1,8 @@
 ---
 title: "Langfuse : Backend Engineer, Product Engineer, Devrel"
-icon: minus
+author:
+  name: clemo_ra
+  url: https://news.ycombinator.com/item?id=40564103
 ---
 Langfuse | Backend Engineer, Product Engineer, Devrel | Berlin Germany | in-person | Full-time
 

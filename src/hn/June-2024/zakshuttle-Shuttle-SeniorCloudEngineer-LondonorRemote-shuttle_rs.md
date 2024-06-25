@@ -1,6 +1,8 @@
 ---
 title: "Shuttle : Senior Cloud Engineer"
-icon: minus
+author:
+  name: zakshuttle
+  url: https://news.ycombinator.com/item?id=40582984
 ---
 Shuttle | Senior Cloud Engineer | London or Remote | shuttle.rs
 

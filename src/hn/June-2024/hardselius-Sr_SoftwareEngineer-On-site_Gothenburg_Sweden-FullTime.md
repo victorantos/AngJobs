@@ -1,6 +1,8 @@
 ---
 title: "Sr. Software Engineer : On-site, Gothenburg, Sweden"
-icon: minus
+author:
+  name: hardselius
+  url: https://news.ycombinator.com/item?id=40571671
 ---
 NOVO Energy R&amp;D AB | <a href="https:&#x2F;&#x2F;www.novoenergy.se&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.novoenergy.se&#x2F;</a> | Sr. Software Engineer | On-site, Gothenburg, Sweden | Full Time
 

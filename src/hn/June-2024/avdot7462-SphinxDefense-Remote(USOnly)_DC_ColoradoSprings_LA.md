@@ -1,6 +1,8 @@
 ---
 title: "Sphinx Defense : Remote (US Only), DC, Colorado Springs, LA"
-icon: minus
+author:
+  name: avdot7462
+  url: https://news.ycombinator.com/item?id=40567949
 ---
 Sphinx Defense | Engineering, DevOps, &amp; Product | Remote (US Only), DC, Colorado Springs, LA | <a href="https:&#x2F;&#x2F;www.sphinxdefense.com" rel="nofollow">https:&#x2F;&#x2F;www.sphinxdefense.com</a>
 

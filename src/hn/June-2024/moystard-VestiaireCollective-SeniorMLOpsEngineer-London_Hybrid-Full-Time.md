@@ -1,6 +1,8 @@
 ---
 title: "Vestiaire Collective : Senior MLOps Engineer"
-icon: minus
+author:
+  name: moystard
+  url: https://news.ycombinator.com/item?id=40644600
 ---
 Vestiaire Collective | Senior MLOps Engineer | London, Hybrid | Full-Time | <a href="https:&#x2F;&#x2F;www.vestiairecollective.com" rel="nofollow">https:&#x2F;&#x2F;www.vestiairecollective.com</a>
 

@@ -1,6 +1,8 @@
 ---
 title: "3Play Media : On Site (Boston)"
-icon: minus
+author:
+  name: kahnyoudiggit
+  url: https://news.ycombinator.com/item?id=40564004
 ---
 3Play Media | On Site (Boston) | Full time | <a href="https:&#x2F;&#x2F;3playmedia.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;3playmedia.com&#x2F;</a>
 

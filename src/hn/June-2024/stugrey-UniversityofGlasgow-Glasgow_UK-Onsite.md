@@ -1,6 +1,8 @@
 ---
 title: "University of Glasgow : Glasgow, UK"
-icon: minus
+author:
+  name: stugrey
+  url: https://news.ycombinator.com/item?id=40571071
 ---
 University of Glasgow | Funded PhD &quot;Harnessing Large Language Models and Dimensionality Reduction to Reframe Student Feedback in UK Universities.&quot; | Glasgow, UK | Onsite
 

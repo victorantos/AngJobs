@@ -1,6 +1,8 @@
 ---
 title: "Cobalt.io : Multiple roles"
-icon: minus
+author:
+  name: cobalt-io
+  url: https://news.ycombinator.com/item?id=40574592
 ---
 Cobalt.io | Multiple roles | Germany (Remote&#x2F;Hybrid) | Full-time | <a href="https:&#x2F;&#x2F;cobalt.io" rel="nofollow">https:&#x2F;&#x2F;cobalt.io</a>
 

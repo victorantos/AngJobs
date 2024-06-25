@@ -1,6 +1,8 @@
 ---
 title: "Hop Labs : Software Engineer, Machine Learning"
-icon: minus
+author:
+  name: mflanaman
+  url: https://news.ycombinator.com/item?id=40579891
 ---
 Hop Labs | Software Engineer, Machine Learning | REMOTE (USA and Canada)
 

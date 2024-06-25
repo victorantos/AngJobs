@@ -1,6 +1,8 @@
 ---
 title: "MahiGaming : Full Stack Developer"
-icon: minus
+author:
+  name: MahiGaming
+  url: https://news.ycombinator.com/item?id=40565848
 ---
 MahiGaming | Full Stack Developer | Boca Raton, FL &#x2F; Las Vegas, NV &#x2F; Vancouver, BC &#x2F; San Diego, CA | Full Time | On-Site
 

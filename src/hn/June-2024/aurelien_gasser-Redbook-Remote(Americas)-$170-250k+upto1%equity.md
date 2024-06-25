@@ -1,6 +1,8 @@
 ---
 title: "Redbook : Remote (Americas)"
-icon: minus
+author:
+  name: aurelien_gasser
+  url: https://news.ycombinator.com/item?id=40676881
 ---
 Redbook | Senior+&#x2F;Staff Founding Engineer | Remote (Americas) | $170-250k + up to 1% equity
 

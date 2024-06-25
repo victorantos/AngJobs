@@ -1,6 +1,8 @@
 ---
 title: "Cemit : Senior Frontend Engineer"
-icon: minus
+author:
+  name: agatald987
+  url: https://news.ycombinator.com/item?id=40585344
 ---
 Cemit | Senior Frontend Engineer | Oslo, Norway, Hybrid
 

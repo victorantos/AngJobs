@@ -1,6 +1,8 @@
 ---
 title: "Bonside : Senior Full Stack Engineer"
-icon: minus
+author:
+  name: andrewk17
+  url: https://news.ycombinator.com/item?id=40563499
 ---
 Bonside | Senior Full Stack Engineer | New York City (NYC) | Onsite few days a week | <a href="https:&#x2F;&#x2F;bonside.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;bonside.com&#x2F;</a>
 

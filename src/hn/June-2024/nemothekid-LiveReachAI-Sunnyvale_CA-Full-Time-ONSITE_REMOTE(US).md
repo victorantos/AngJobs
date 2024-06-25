@@ -1,6 +1,8 @@
 ---
 title: "LiveReach AI : Sunnyvale, CA"
-icon: minus
+author:
+  name: nemothekid
+  url: https://news.ycombinator.com/item?id=40565631
 ---
 LiveReach AI | Sunnyvale, CA | Full-Time | ONSITE, REMOTE (US)
 

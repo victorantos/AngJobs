@@ -1,6 +1,8 @@
 ---
 title: "DatologyAI : Member of Technical Staff"
-icon: minus
+author:
+  name: hurrycane
+  url: https://news.ycombinator.com/item?id=40567892
 ---
 DatologyAI | Member of Technical Staff | Full-time | Onsite, Redwood City, California | <a href="https:&#x2F;&#x2F;www.datologyai.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.datologyai.com&#x2F;</a>
 

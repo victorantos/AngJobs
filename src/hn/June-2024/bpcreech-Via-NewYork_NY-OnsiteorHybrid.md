@@ -1,6 +1,8 @@
 ---
 title: "Via : New York, NY"
-icon: minus
+author:
+  name: bpcreech
+  url: https://news.ycombinator.com/item?id=40598563
 ---
 Via | New York, NY | Onsite or Hybrid
 

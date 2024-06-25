@@ -1,6 +1,8 @@
 ---
 title: "Remote : Senior Fullstack Engineer"
-icon: minus
+author:
+  name: reimertz
+  url: https://news.ycombinator.com/item?id=40568056
 ---
 HIFI Labs (<a href="https:&#x2F;&#x2F;hifilabs.co" rel="nofollow">https:&#x2F;&#x2F;hifilabs.co</a>) | Remote | Senior Fullstack Engineer
 

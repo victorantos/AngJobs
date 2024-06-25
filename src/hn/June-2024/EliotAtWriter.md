@@ -1,6 +1,8 @@
 ---
 title: "EliotAtWriter"
-icon: minus
+author:
+  name: EliotAtWriter
+  url: https://news.ycombinator.com/item?id=40682099
 ---
 Come work with Writer, the full-stack generative AI platform delivering transformative ROI for the world’s leading enterprises. More info on us and our most recent product launch here: <a href="https:&#x2F;&#x2F;writer.com&#x2F;blog&#x2F;ai-studio&#x2F;" rel="nofollow">https:&#x2F;&#x2F;writer.com&#x2F;blog&#x2F;ai-studio&#x2F;</a>
 

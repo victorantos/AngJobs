@@ -1,6 +1,8 @@
 ---
 title: "VivaCity Labs : London (2-3 days in office)"
-icon: minus
+author:
+  name: maxvivacity
+  url: https://news.ycombinator.com/item?id=40572244
 ---
 VivaCity Labs | Infrastructure Engineer (DBA &#x2F; Postgres) | London (2-3 days in office) | full time | <a href="https:&#x2F;&#x2F;vivacitylabs.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;vivacitylabs.com&#x2F;</a>
 

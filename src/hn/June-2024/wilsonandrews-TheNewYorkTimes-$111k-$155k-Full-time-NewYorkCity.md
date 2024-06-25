@@ -1,6 +1,8 @@
 ---
 title: "The New York Times : $111k-$155k"
-icon: minus
+author:
+  name: wilsonandrews
+  url: https://news.ycombinator.com/item?id=40585468
 ---
 The New York Times | Graphics&#x2F;Multimedia Editor — Applied Technology | $111k-$155k | Full-time | New York City
 

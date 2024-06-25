@@ -1,6 +1,8 @@
 ---
 title: "Polaron : Software Engineer, Senior Software Engineer"
-icon: minus
+author:
+  name: chrislomaxjones
+  url: https://news.ycombinator.com/item?id=40563350
 ---
 Polaron | Software Engineer, Senior Software Engineer | London, UK | Full-time
 

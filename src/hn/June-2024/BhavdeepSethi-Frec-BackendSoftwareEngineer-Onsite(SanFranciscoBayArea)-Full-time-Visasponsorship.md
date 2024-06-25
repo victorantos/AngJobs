@@ -1,6 +1,8 @@
 ---
 title: "Frec : Backend Software Engineer"
-icon: minus
+author:
+  name: BhavdeepSethi
+  url: https://news.ycombinator.com/item?id=40568264
 ---
 Frec | Backend Software Engineer | Onsite (San Francisco Bay Area) | Full-time | Visa sponsorship
 

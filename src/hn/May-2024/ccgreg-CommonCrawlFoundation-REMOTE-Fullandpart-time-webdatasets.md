@@ -1,6 +1,8 @@
 ---
-title: "Common Crawl Foundation : REMOTE "
-icon: minus
+title: "Common Crawl Foundation : REMOTE"
+author:
+  name: ccgreg
+  url: https://news.ycombinator.com/item?id=40225377
 ---
 Common Crawl Foundation | REMOTE | Full and part-time | <a href="https:&#x2F;&#x2F;commoncrawl.org&#x2F;" rel="nofollow">https:&#x2F;&#x2F;commoncrawl.org&#x2F;</a> | web datasets
 

@@ -1,6 +1,8 @@
 ---
-title: "Lithos Carbon : Founding Full-Stack Engineer and Data Scientist "
-icon: minus
+title: "Lithos Carbon : Founding Full-Stack Engineer and Data Scientist"
+author:
+  name: liuhenry
+  url: https://news.ycombinator.com/item?id=39565959
 ---
 Lithos Carbon | Founding Full-Stack Engineer and Data Scientist | Hybrid (SF Bay Area, Seattle) and US Remote | Full-time
 

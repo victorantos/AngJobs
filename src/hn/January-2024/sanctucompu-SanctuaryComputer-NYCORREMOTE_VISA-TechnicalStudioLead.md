@@ -1,6 +1,8 @@
 ---
-title: "Sanctuary Computer : NYC OR REMOTE, VISA "
-icon: minus
+title: "Sanctuary Computer : NYC OR REMOTE, VISA"
+author:
+  name: sanctucompu
+  url: https://news.ycombinator.com/item?id=38844096
 ---
 Sanctuary Computer | NYC OR REMOTE, VISA | Technical Studio Lead
 

@@ -1,6 +1,8 @@
 ---
 title: "Gauntlet - Financial modeling for DeFi"
-icon: minus
+author:
+  name: darango6
+  url: https://news.ycombinator.com/item?id=40576976
 ---
 Gauntlet - Financial modeling for DeFi
 

@@ -1,6 +1,8 @@
 ---
 title: "Databricks : Onsite"
-icon: minus
+author:
+  name: ssk2
+  url: https://news.ycombinator.com/item?id=40576224
 ---
 Databricks | Onsite | SF or MTV | Full-Time
 

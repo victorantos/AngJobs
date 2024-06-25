@@ -1,6 +1,8 @@
 ---
 title: "Full-time : SF or Remote"
-icon: minus
+author:
+  name: amauboussin
+  url: https://news.ycombinator.com/item?id=40567890
 ---
 Surge AI (<a href="https:&#x2F;&#x2F;surgehq.ai" rel="nofollow">https:&#x2F;&#x2F;surgehq.ai</a>) | Software Engineers (full-stack, backend &#x2F; infra) and Strategic Project Lead (<a href="https:&#x2F;&#x2F;surgeai.notion.site&#x2F;Strategic-Projects-Lead-Generative-AI-455b7fb94f0d4543a00366d3154da5ec?pvs=74" rel="nofollow">https:&#x2F;&#x2F;surgeai.notion.site&#x2F;Strategic-Projects-Lead-Generati...</a>) | Full-time | SF or Remote
 

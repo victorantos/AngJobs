@@ -1,6 +1,8 @@
 ---
 title: "RepSpark : Multiple Software Engineer Positions"
-icon: minus
+author:
+  name: repspark
+  url: https://news.ycombinator.com/item?id=40565921
 ---
 RepSpark | Multiple Software Engineer Positions | REMOTE (US) | Full-Time | <a href="https:&#x2F;&#x2F;www.repspark.com" rel="nofollow">https:&#x2F;&#x2F;www.repspark.com</a>
 

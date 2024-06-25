@@ -1,6 +1,8 @@
 ---
 title: "Sensible : Technical Product Marketing Manager"
-icon: minus
+author:
+  name: dwynings
+  url: https://news.ycombinator.com/item?id=40579249
 ---
 Sensible | Technical Product Marketing Manager | Remote | Full-time | <a href="https:&#x2F;&#x2F;www.sensible.so&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.sensible.so&#x2F;</a>
 

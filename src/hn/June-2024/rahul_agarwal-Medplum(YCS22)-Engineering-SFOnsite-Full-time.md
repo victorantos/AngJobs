@@ -1,6 +1,8 @@
 ---
 title: "Medplum (YC S22) : Engineering"
-icon: minus
+author:
+  name: rahul_agarwal
+  url: https://news.ycombinator.com/item?id=40570971
 ---
 Medplum (YC S22) | Engineering | SF Onsite | Full-time
 

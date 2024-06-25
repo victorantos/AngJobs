@@ -1,6 +1,8 @@
 ---
 title: "Vannevar Labs : REMOTE-FIRST"
-icon: minus
+author:
+  name: vannevarlabs
+  url: https://news.ycombinator.com/item?id=40565740
 ---
 Vannevar Labs | REMOTE-FIRST | FULL-TIME | Offices in DC and NYC
 

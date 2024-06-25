@@ -1,6 +1,8 @@
 ---
 title: "Topologic : Full-time"
-icon: minus
+author:
+  name: aptacekz
+  url: https://news.ycombinator.com/item?id=40564302
 ---
 Topologic | Senior&#x2F;Staff&#x2F;Principal Frontend Engineer; multiple roles | On-site; remote | Full-time | Boston, MA, US; Paris, FR; remote | topologic.io
 

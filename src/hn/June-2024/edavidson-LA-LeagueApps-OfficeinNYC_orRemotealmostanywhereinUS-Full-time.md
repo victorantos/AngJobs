@@ -1,6 +1,8 @@
 ---
 title: "LeagueApps : Office in NYC, or Remote almost anywhere in US"
-icon: minus
+author:
+  name: edavidson-LA
+  url: https://news.ycombinator.com/item?id=40565796
 ---
 LeagueApps | Office in NYC, or Remote almost anywhere in US | Full-time | <a href="https:&#x2F;&#x2F;leagueapps.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;leagueapps.com&#x2F;</a>
 

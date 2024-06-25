@@ -1,6 +1,8 @@
 ---
 title: "FlightAware : multiple roles"
-icon: minus
+author:
+  name: smkelly
+  url: https://news.ycombinator.com/item?id=40564127
 ---
 FlightAware | multiple roles | REMOTE (US timezones) | Houston &#x2F; US | <a href="https:&#x2F;&#x2F;flightaware.com&#x2F;about&#x2F;careers&#x2F;" rel="nofollow">https:&#x2F;&#x2F;flightaware.com&#x2F;about&#x2F;careers&#x2F;</a>
 

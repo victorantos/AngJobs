@@ -1,6 +1,8 @@
 ---
 title: "LiveEO : Berlin, Germany"
-icon: minus
+author:
+  name: fnands
+  url: https://news.ycombinator.com/item?id=40563836
 ---
 LiveEO | ML&#x2F;MLOps Software Engineers | Berlin, Germany | Hybrid or REMOTE in EU | Full-time
 

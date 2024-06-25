@@ -1,6 +1,8 @@
 ---
 title: "Automattic : Remote"
-icon: minus
+author:
+  name: photomatt
+  url: https://news.ycombinator.com/item?id=40564710
 ---
 Automattic | Remote | Full-time | Multiple roles | $110-$210k+ and great benefits
 

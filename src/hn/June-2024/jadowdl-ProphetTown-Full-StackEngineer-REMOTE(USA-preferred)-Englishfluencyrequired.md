@@ -1,6 +1,8 @@
 ---
 title: "Prophet Town : Full-Stack Engineer"
-icon: minus
+author:
+  name: jadowdl
+  url: https://news.ycombinator.com/item?id=40567465
 ---
 Prophet Town | Full-Stack Engineer | REMOTE (USA-preferred) | Part-time or Full-time (20-40 hours&#x2F;week) | $60-$110&#x2F;hr | English fluency required
 

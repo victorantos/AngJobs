@@ -1,6 +1,8 @@
 ---
 title: "Sourcegraph : REMOTE"
-icon: minus
+author:
+  name: dcsourcegraph
+  url: https://news.ycombinator.com/item?id=40600670
 ---
 Sourcegraph | REMOTE | Full-Time | Engineering Manager, Product Manager, Demand Generation Manager, Digital Growth Marketing Manager, Director of Enterprise Technical Advisory, Support Engineer | <a href="https:&#x2F;&#x2F;sourcegraph.com" rel="nofollow">https:&#x2F;&#x2F;sourcegraph.com</a>
 

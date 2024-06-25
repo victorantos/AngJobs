@@ -1,6 +1,8 @@
 ---
 title: "Infomaniak : Multiple Positions"
-icon: minus
+author:
+  name: ednxzu
+  url: https://news.ycombinator.com/item?id=40583244
 ---
 Infomaniak | Multiple Positions | Geneva, Switzerland | On-Site(up to 2 days remote&#x2F;week)
 

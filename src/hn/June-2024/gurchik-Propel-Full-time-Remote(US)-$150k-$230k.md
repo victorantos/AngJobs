@@ -1,6 +1,8 @@
 ---
 title: "Propel : Full-time"
-icon: minus
+author:
+  name: gurchik
+  url: https://news.ycombinator.com/item?id=40663044
 ---
 Propel | Full-time | Senior Platform&#x2F;DevOps Engineer | Remote (US) | $150k-$230k
 

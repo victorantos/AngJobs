@@ -1,6 +1,8 @@
 ---
 title: "MORE OPTIMAL : The Netherlands (Den Bosch)"
-icon: minus
+author:
+  name: ankovankreij
+  url: https://news.ycombinator.com/item?id=40572256
 ---
 MORE OPTIMAL | R&amp;D engineer | The Netherlands (Den Bosch) | HYBRID (min. 3 days in-office)
 

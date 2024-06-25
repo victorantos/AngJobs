@@ -1,6 +1,8 @@
 ---
 title: "IDEO : Hybrid"
-icon: minus
+author:
+  name: neofyte
+  url: https://news.ycombinator.com/item?id=40563892
 ---
 IDEO | Product &amp; Software | Chicago + Boston&#x2F;NYC | Hybrid | Full-time
 

@@ -1,6 +1,8 @@
 ---
 title: "Lakera : San Francisco"
-icon: minus
+author:
+  name: alancommike
+  url: https://news.ycombinator.com/item?id=40567579
 ---
 Lakera | San Francisco | Staff SW Engineer
 

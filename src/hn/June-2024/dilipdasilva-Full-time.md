@@ -1,6 +1,8 @@
 ---
 title: "Full-time"
-icon: minus
+author:
+  name: dilipdasilva
+  url: https://news.ycombinator.com/item?id=40566194
 ---
 VDX.tv (<a href="http:&#x2F;&#x2F;www.vdx.tv" rel="nofollow">http:&#x2F;&#x2F;www.vdx.tv</a>) | Remote Engineers &amp; Developers | Full-time | REMOTE Established company (20+ years) looking for mature generalists to contribute remotely. You can be anywhere in the world so long as you:
 

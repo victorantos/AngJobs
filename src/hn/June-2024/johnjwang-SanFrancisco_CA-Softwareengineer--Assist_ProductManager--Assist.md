@@ -1,6 +1,8 @@
 ---
 title: "San Francisco, CA : Software engineer -- Assist, Product Manager -- Assist"
-icon: minus
+author:
+  name: johnjwang
+  url: https://news.ycombinator.com/item?id=40567506
 ---
 Assembled (<a href="https:&#x2F;&#x2F;assembled.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;assembled.com&#x2F;</a>) | San Francisco, CA | Software engineer -- Assist, Product Manager -- Assist
 
