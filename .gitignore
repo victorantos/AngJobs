@@ -236,3 +236,7 @@ _Pvt_Extensions
 /src/.vuepress/.cache
 /src/.vuepress/.temp
 /src/.vuepress/.temp
+/src/.vuepress/.temp
+/src/.vuepress/.temp/internal
+/src/.vuepress/.temp/components
+/src/.vuepress/.cache/deps
