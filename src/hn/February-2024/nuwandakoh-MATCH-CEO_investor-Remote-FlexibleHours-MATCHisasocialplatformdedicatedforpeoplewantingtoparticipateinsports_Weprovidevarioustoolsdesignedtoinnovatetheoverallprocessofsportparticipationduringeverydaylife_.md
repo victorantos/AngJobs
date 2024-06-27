@@ -4,7 +4,9 @@ author:
   name: nuwandakoh
   url: https://news.ycombinator.com/item?id=39341235
 ---
-MATCH | CEO, investor | Remote | Flexible Hours | MATCH is a social platform dedicated for people wanting to participate in sports. We provide various tools designed to innovate the overall process of sport participation during everyday life.
+MATCH - CEO, investor 
+ 
+MATCH is a social platform dedicated for people wanting to participate in sports. We provide various tools designed to innovate the overall process of sport participation during everyday life.
 
 MATCH will be the space where you plan, log and review your favorite recreational and competitive sport performance and compete with like minded sports lovers.
 

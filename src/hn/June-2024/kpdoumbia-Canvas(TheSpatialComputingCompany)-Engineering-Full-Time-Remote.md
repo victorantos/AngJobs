@@ -4,7 +4,7 @@ author:
   name: kpdoumbia
   url: https://news.ycombinator.com/item?id=40607947
 ---
-Canvas (The Spatial Computing Company) | Engineering | Full-Time | Remote
+Canvas (The Spatial Computing Company)
 
 Apply Here &gt;&gt;&gt; <a href="https:&#x2F;&#x2F;canvas.io&#x2F;jobs" rel="nofollow">https:&#x2F;&#x2F;canvas.io&#x2F;jobs</a>
 
