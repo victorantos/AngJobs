@@ -16,4 +16,4 @@ Sudowrite - REMOTE - Full-Time - Competitive Salary + Equity - Hiring: AI Engine
 
 - We’re 100% remote and support work-life balance. We meet up in person a few times of year, last time in Portland. We encourage diverse candidates from all over the world to apply.
 
-- Details: AI - <a href="https:&#x2F;&#x2F;r.people.capital&#x2F;sudowrite-ai" rel="nofollow">https:&#x2F;&#x2F;r.people.capital&#x2F;sudowrite-ai</a> | Full-Stack - <a href="http:&#x2F;&#x2F;r.people.capital&#x2F;sudowrite-fs" rel="nofollow">http:&#x2F;&#x2F;r.people.capital&#x2F;sudowrite-fs</a>
+- Details: AI - <a href="https:&#x2F;&#x2F;r.people.capital&#x2F;sudowrite-ai" rel="nofollow">https:&#x2F;&#x2F;r.people.capital&#x2F;sudowrite-ai</a> - Full-Stack - <a href="http:&#x2F;&#x2F;r.people.capital&#x2F;sudowrite-fs" rel="nofollow">http:&#x2F;&#x2F;r.people.capital&#x2F;sudowrite-fs</a>

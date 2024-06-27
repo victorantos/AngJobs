@@ -10,7 +10,7 @@ We make an open-source web framework, an online code editor, a GUI builder, and 
 
 ---
 
-<i>1. Senior Developer:</i>
+*1. Senior Developer:*
 
 We’re looking for an experienced all-rounder to work on the core Anvil platform, with a focus on the back-end. Our stack is mostly Clojure, Javascript, Python, Postgres, and container tools – but we&#x27;re looking for someone who isn&#x27;t afraid to jump into something you haven&#x27;t used before.
 
@@ -20,7 +20,7 @@ Building dev tools is great! We&#x27;re solving problems we&#x27;ve experienced 
 
 ---
 
-<i>2. Developer Advocate:</i>
+*2. Developer Advocate:*
 
 We’re looking for a developer with great communication skills to show people how to build awesome things with Anvil, and to make Anvil better to use.
 

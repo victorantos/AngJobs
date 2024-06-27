@@ -6,7 +6,7 @@ author:
   url: https://news.ycombinator.com/item?id=39563479
 ---
 Staff iOS Engineer (and many other eng roles) 
-amo | <a href="https:&#x2F;&#x2F;amo.co&#x2F;about&#x2F;" rel="nofollow">https:&#x2F;&#x2F;amo.co&#x2F;about&#x2F;</a> | Paris (Onsite) | Relocation &amp; Visa sponsorship
+amo - <a href="https:&#x2F;&#x2F;amo.co&#x2F;about&#x2F;" rel="nofollow">https:&#x2F;&#x2F;amo.co&#x2F;about&#x2F;</a> - Paris (Onsite) - Relocation &amp; Visa sponsorship
 
 <a href="https:&#x2F;&#x2F;amo.co&#x2F;jobs&#x2F;?ashby_jid=f185606c-55b3-4d32-8145-46b547ef4ec2" rel="nofollow">https:&#x2F;&#x2F;amo.co&#x2F;jobs&#x2F;?ashby_jid=f185606c-55b3-4d32-8145-46b54...</a>
 

@@ -12,9 +12,9 @@ Washington D.C.
 
 Rockets, spaceships &amp; satellites! Updates: www.spacex.com&#x2F;updates&#x2F;
 
-<i>Eligible for all 3 SpaceX locations</i>
+*Eligible for all 3 SpaceX locations*
 
-<i>SPACEX</i>
+*SPACEX*
 
 Principal Software Eng: <a href="https:&#x2F;&#x2F;grnh.se&#x2F;f36c293c2us" rel="nofollow">https:&#x2F;&#x2F;grnh.se&#x2F;f36c293c2us</a>
 
@@ -22,9 +22,9 @@ Sr. Software Eng: <a href="https:&#x2F;&#x2F;grnh.se&#x2F;187c49132us" rel="nofo
 
 Sr. Security Analyst: <a href="https:&#x2F;&#x2F;grnh.se&#x2F;a81085582us" rel="nofollow">https:&#x2F;&#x2F;grnh.se&#x2F;a81085582us</a>
 
-<i>Eligible for Seattle &amp; LA</i>
+*Eligible for Seattle &amp; LA*
 
-<i>STARLINK</i>
+*STARLINK*
 
 Principal Security Software: <a href="https:&#x2F;&#x2F;grnh.se&#x2F;67d3c6de2us" rel="nofollow">https:&#x2F;&#x2F;grnh.se&#x2F;67d3c6de2us</a>
 

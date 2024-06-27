@@ -10,7 +10,7 @@ SPAN builds hardware products that accelerate the adoption renewable energy in t
 
 The Device Platform team is a 6-person team maintaining the Yocto-based embedded Linux platform underpinning SPAN’s hardware products.
 
-We&#x27;re hiring a <i>Rust-focused systems software engineer</i> to work on our application platform.
+We&#x27;re hiring a *Rust-focused systems software engineer* to work on our application platform.
 
 In the next year, you may:
 

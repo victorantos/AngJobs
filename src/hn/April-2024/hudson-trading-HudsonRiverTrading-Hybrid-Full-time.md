@@ -10,8 +10,8 @@ We’re a quantitative trading firm based in NYC that trades hundreds of million
 
 We’re looking for:
 
-Full Stack Developer | London | Onsite &#x2F; Hybrid | <a href="https:&#x2F;&#x2F;www.hudsonrivertrading.com&#x2F;careers&#x2F;job&#x2F;?gh_jid=5740730&amp;req_id=462&amp;gh_src=ca07bf8d1us" rel="nofollow">https:&#x2F;&#x2F;www.hudsonrivertrading.com&#x2F;careers&#x2F;job&#x2F;?gh_jid=57407...</a>
+Full Stack Developer - London - Onsite &#x2F; Hybrid - <a href="https:&#x2F;&#x2F;www.hudsonrivertrading.com&#x2F;careers&#x2F;job&#x2F;?gh_jid=5740730&amp;req_id=462&amp;gh_src=ca07bf8d1us" rel="nofollow">https:&#x2F;&#x2F;www.hudsonrivertrading.com&#x2F;careers&#x2F;job&#x2F;?gh_jid=57407...</a>
 
-Experienced FPGA Verification Engineer | Austin, London, Chicago, Boulder, NYC | Onsite &#x2F; Hybrid | <a href="https:&#x2F;&#x2F;www.hudsonrivertrading.com&#x2F;careers&#x2F;?q=fpga&amp;gh_src=ca07bf8d1us" rel="nofollow">https:&#x2F;&#x2F;www.hudsonrivertrading.com&#x2F;careers&#x2F;?q=fpga&amp;gh_src=ca...</a>
+Experienced FPGA Verification Engineer - Austin, London, Chicago, Boulder, NYC - Onsite &#x2F; Hybrid - <a href="https:&#x2F;&#x2F;www.hudsonrivertrading.com&#x2F;careers&#x2F;?q=fpga&amp;gh_src=ca07bf8d1us" rel="nofollow">https:&#x2F;&#x2F;www.hudsonrivertrading.com&#x2F;careers&#x2F;?q=fpga&amp;gh_src=ca...</a>
 
 And more! For more information about our benefits, check out Life at HRT: <a href="https:&#x2F;&#x2F;www.hudsonrivertrading.com&#x2F;life-at-hrt&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.hudsonrivertrading.com&#x2F;life-at-hrt&#x2F;</a>

@@ -6,7 +6,7 @@ author:
 ---
 SEEKING WORK - California - Remote
 
-<i>Hello, I&#x27;m Eugene - Senior PHP developer 15+ years experience</i>
+*Hello, I&#x27;m Eugene - Senior PHP developer 15+ years experience*
 
 - voznesen@gmail.com
 

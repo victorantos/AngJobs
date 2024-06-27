@@ -28,4 +28,4 @@ Good To Have Skills
 
 To know more, visit: <a href="https:&#x2F;&#x2F;merciful-justice-b9c.notion.site&#x2F;Founding-Engineer-Cambridge-Innovation-Labs-Remote-1743b624ef0b4aa0b8660654f3bdd9c8" rel="nofollow">https:&#x2F;&#x2F;merciful-justice-b9c.notion.site&#x2F;Founding-Engineer-C...</a>
 
-Please send your resume and github profile to <i>cambridgeinnovationlabs@gmail.com</i> and we’d reach out to you. For any further questions, please write to us.
+Please send your resume and github profile to *cambridgeinnovationlabs@gmail.com* and we’d reach out to you. For any further questions, please write to us.

@@ -10,7 +10,7 @@ Mechanic Advisor offers a market-leading CRM ( <a href="https:&#x2F;&#x2F;steerc
 
 We have a large, modern infrastructure but there&#x27;s a lot of growth, scaling, automating, new solutions and improvements to do.
 
-You <i>must</i> have extensive, senior-level experience with:
+You *must* have extensive, senior-level experience with:
 
 - Kubernetes (EKS preferred) - you have, as primary contributor, created and operated multiple 24&#x2F;7, production, high-traffic, non-trivial k8s-based infrastructures
 

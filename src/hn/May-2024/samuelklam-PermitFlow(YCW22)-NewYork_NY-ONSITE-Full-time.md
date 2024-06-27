@@ -14,7 +14,7 @@ Permitting is a challenging yet interesting problem; thousands of municipalities
 
 We&#x27;re looking for customer-obsessed, ambitious, and hard-working teammates who are excited about solving a real-world problem with technology at its helm.
 
-NYC Onsite Roles | apply at: <a href="https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;permitflow?departmentId=d33195eb-8978-4439-abc6-5a8a072de808">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;permitflow?departmentId=d33195eb-89...</a>
+NYC Onsite Roles - apply at: <a href="https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;permitflow?departmentId=d33195eb-8978-4439-abc6-5a8a072de808">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;permitflow?departmentId=d33195eb-89...</a>
 
 1. Staff Software Engineer - $190K-250K + equity
 

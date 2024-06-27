@@ -14,10 +14,10 @@ This is our tech stack across the company:
 Linux, Kubernetes, Docker, Terraform, Ansible, Python, Grafana, Prometheus, Observium, OPNSense, Golang, Gitlab, WANGuard
 
 We are looking for the following people: 
-<i>Cloud Engineer
-</i>System Engineer
-<i>Platform Engineer
-</i>Network Engineer*
+*Cloud Engineer
+*System Engineer
+*Platform Engineer
+*Network Engineer*
 
 Send me your questions to: veronika@gridscale.io 
 Apply directly: <a href="https:&#x2F;&#x2F;join.gridscale.io&#x2F;" rel="nofollow">https:&#x2F;&#x2F;join.gridscale.io&#x2F;</a>

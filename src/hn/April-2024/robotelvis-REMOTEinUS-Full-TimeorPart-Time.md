@@ -16,7 +16,7 @@ We&#x27;ve built a prototype that our partners and test users are pretty excited
 
 We are particularly interested in people with experience shipping social products, an ability to work anywhere in the stack, and a deep interest in finding ways to help people who see the world differently understand each other and work productively together.
 
-Stack: React (Native) | Node.JS | NoSQL | OpenAI
+Stack: React (Native) - Node.JS - NoSQL - OpenAI
 
 New Public is a non-profit that was founded by Eli Pariser (The Filter Bubble, Upworthy, MoveOn) and Talia Stroud (Prof at UT Austin) with the vision that we should focus not just on how to reduce the harms of online spaces, but how to design them so that they make good things happen. Public Service Incubator is one of our flagship projects.
 

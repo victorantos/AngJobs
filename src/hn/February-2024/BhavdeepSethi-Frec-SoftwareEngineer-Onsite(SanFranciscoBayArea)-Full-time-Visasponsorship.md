@@ -18,4 +18,4 @@ We&#x27;re hiring for:
 
 - iOS (SwiftUI, iOS ecosystem tooling) with 2+ years experience
 
-Website: <a href="https:&#x2F;&#x2F;frec.com" rel="nofollow">https:&#x2F;&#x2F;frec.com</a> | Apply: careers@frec.com with resume
+Website: <a href="https:&#x2F;&#x2F;frec.com" rel="nofollow">https:&#x2F;&#x2F;frec.com</a> - Apply: careers@frec.com with resume

@@ -21,6 +21,6 @@ This role is for a Figma &#x2F; Material UI &#x2F; React UX Designer- Front of t
 
 We&#x27;re also still looking for the right person to manage our social media, in-house video studio production, and help with our content production pipeline.
 
-Community Manager | South Florida | On-Site
+Community Manager - South Florida - On-Site
 
 <a href="https:&#x2F;&#x2F;jobs.lever.co&#x2F;skulabs&#x2F;cb732bcf-a2bc-420e-b151-d0b4f41b91be" rel="nofollow">https:&#x2F;&#x2F;jobs.lever.co&#x2F;skulabs&#x2F;cb732bcf-a2bc-420e-b151-d0b4f4...</a>

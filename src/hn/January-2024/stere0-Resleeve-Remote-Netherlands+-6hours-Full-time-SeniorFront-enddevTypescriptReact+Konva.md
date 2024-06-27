@@ -12,10 +12,10 @@ We are a collaborative remote-first company with team members spread from Kazaks
 
 Sounds exciting? We are recruiting for multiple roles:
 
-- Senior Front-end Typescript React+Konva 7+ | <a href="https:&#x2F;&#x2F;jobs.polymer.co&#x2F;resleeve&#x2F;29359" rel="nofollow">https:&#x2F;&#x2F;jobs.polymer.co&#x2F;resleeve&#x2F;29359</a>
+- Senior Front-end Typescript React+Konva 7+ - <a href="https:&#x2F;&#x2F;jobs.polymer.co&#x2F;resleeve&#x2F;29359" rel="nofollow">https:&#x2F;&#x2F;jobs.polymer.co&#x2F;resleeve&#x2F;29359</a>
 
-- Full-time intern Front-end Typescript React+Konva | <a href="https:&#x2F;&#x2F;jobs.polymer.co&#x2F;resleeve&#x2F;29360" rel="nofollow">https:&#x2F;&#x2F;jobs.polymer.co&#x2F;resleeve&#x2F;29360</a>
+- Full-time intern Front-end Typescript React+Konva - <a href="https:&#x2F;&#x2F;jobs.polymer.co&#x2F;resleeve&#x2F;29360" rel="nofollow">https:&#x2F;&#x2F;jobs.polymer.co&#x2F;resleeve&#x2F;29360</a>
 
-- Senior Backend Python 7+ | <a href="https:&#x2F;&#x2F;jobs.polymer.co&#x2F;resleeve&#x2F;29361" rel="nofollow">https:&#x2F;&#x2F;jobs.polymer.co&#x2F;resleeve&#x2F;29361</a>
+- Senior Backend Python 7+ - <a href="https:&#x2F;&#x2F;jobs.polymer.co&#x2F;resleeve&#x2F;29361" rel="nofollow">https:&#x2F;&#x2F;jobs.polymer.co&#x2F;resleeve&#x2F;29361</a>
 
 For questions, pls drop an email to jobs+hn@resleeve.ai

@@ -6,9 +6,9 @@ author:
 ---
 Fabric Health - recently landed our Series A ($60M) - multiple years of financial runway
 
-Site Reliability Engineers (Remote US) - Kubernetes &#x2F; Terraform, building secure and scalable infra and tooling | Ideally Computer Science track, not IT&#x2F;SysAd track
+Site Reliability Engineers (Remote US) - Kubernetes &#x2F; Terraform, building secure and scalable infra and tooling - Ideally Computer Science track, not IT&#x2F;SysAd track
 
-Staff Backend&#x2F;Fullstack (Hybrid NYC) strong Python or Node required | Must have at least 7 years of software engineering experience| MongoDB is a plus
+Staff Backend&#x2F;Fullstack (Hybrid NYC) strong Python or Node required - Must have at least 7 years of software engineering experience- MongoDB is a plus
 
 Rather than Patients and Providers struggling with fragmented experiences and antiquated tech&#x2F;processes, Fabric delivers a seamless approach to care delivery through a hybrid end-to-end experience (from onset across navigation, intake, triage, treatment, and workflow automation and beyond). We are already live with ~70 healthcare systems and growing a ton!
 

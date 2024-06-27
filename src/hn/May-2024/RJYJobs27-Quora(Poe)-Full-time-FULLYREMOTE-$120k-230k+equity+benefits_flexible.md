@@ -10,10 +10,10 @@ Poe is an exciting new AI tool developed by Quora, that allows consumers to inte
 <a href="https:&#x2F;&#x2F;a16z.com&#x2F;announcement&#x2F;investing-in-quora-and-poe&#x2F;" rel="nofollow">https:&#x2F;&#x2F;a16z.com&#x2F;announcement&#x2F;investing-in-quora-and-poe&#x2F;</a>
 
 You will:
-<i>Work within a small team of mobile engineers to design, build, and maintain the Poe mobile app.
-</i>Build new user-facing features and help drive the Poe product roadmap
-<i>Create tools and infrastructure to enable rapid development of the Poe mobile experience
-</i>Collaborate with the Poe product team and other engineers to enhance the overall user experience.
+*Work within a small team of mobile engineers to design, build, and maintain the Poe mobile app.
+*Build new user-facing features and help drive the Poe product roadmap
+*Create tools and infrastructure to enable rapid development of the Poe mobile experience
+*Collaborate with the Poe product team and other engineers to enhance the overall user experience.
 *Own the entire software development process from timeline estimation to coding, testing and release.
 
 Apply via Wellfound -

@@ -5,7 +5,7 @@ author:
   url: https://news.ycombinator.com/item?id=39217718
 ---
 Beautiful.ai - Fully Remote - USA&#x2F;Canada - Full-time 
-Series B | 16M Funding | AI Industry | B2B SaaS
+Series B - 16M Funding - AI Industry - B2B SaaS
 
 1. Senior Software Engineer - $150k - $250k Base Salary + Equity <a href="https:&#x2F;&#x2F;boards.greenhouse.io&#x2F;beautifulai&#x2F;jobs&#x2F;4022123007" rel="nofollow">https:&#x2F;&#x2F;boards.greenhouse.io&#x2F;beautifulai&#x2F;jobs&#x2F;4022123007</a>
 

@@ -5,10 +5,10 @@ author:
   url: https://news.ycombinator.com/item?id=40242564
 ---
 Mark43 -Full-Time- Remote- USA or Canadian Candidates (No sponsorship but can consider TN)
-Staff Engineer (Backend)|$180k - $270k|
-Sr. BE Engineer|$145k - $200k|
-Software Engineer|$125k - $160k|
-Director of Product|$200k - $270K|
+Staff Engineer (Backend)-$180k - $270k-
+Sr. BE Engineer-$145k - $200k-
+Software Engineer-$125k - $160k-
+Director of Product-$200k - $270K-
 
 Mark43 builds mission critical software for Public Safety agencies. We provide cities like Boston, Seattle and Atlanta with software that allows them to dispatch first responders and capture critical data.
 

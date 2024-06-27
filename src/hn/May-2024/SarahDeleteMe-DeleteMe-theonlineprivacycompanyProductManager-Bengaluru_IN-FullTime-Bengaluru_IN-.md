@@ -5,8 +5,8 @@ author:
   url: https://news.ycombinator.com/item?id=40356147
 ---
 DeleteMe - the online privacy company Product Manager - Bengaluru, IN - Full Time - SaaS and International PM experience needed <a href="https:&#x2F;&#x2F;jobs.lever.co&#x2F;deleteme&#x2F;ceb497ff-b4a3-420d-8987-a4596" rel="nofollow">https:&#x2F;&#x2F;jobs.lever.co&#x2F;deleteme&#x2F;ceb497ff-b4a3-420d-8987-a4596</a>...
-Product Manager, Integrations | Bengaluru, IN | Full Time | SaaS and International PM experience needed <a href="https:&#x2F;&#x2F;jobs.lever.co&#x2F;deleteme&#x2F;906ebad5-1a8b-442b-a490-b8fde" rel="nofollow">https:&#x2F;&#x2F;jobs.lever.co&#x2F;deleteme&#x2F;906ebad5-1a8b-442b-a490-b8fde</a>...
-Senior Software Engineer - Bengaluru, IN | MUST KNOW Ruby on Rails AND Node.JS | Platform Engineering Team | Full Time 
+Product Manager, Integrations - Bengaluru, IN - Full Time - SaaS and International PM experience needed <a href="https:&#x2F;&#x2F;jobs.lever.co&#x2F;deleteme&#x2F;906ebad5-1a8b-442b-a490-b8fde" rel="nofollow">https:&#x2F;&#x2F;jobs.lever.co&#x2F;deleteme&#x2F;906ebad5-1a8b-442b-a490-b8fde</a>...
+Senior Software Engineer - Bengaluru, IN - MUST KNOW Ruby on Rails AND Node.JS - Platform Engineering Team - Full Time 
 <a href="https:&#x2F;&#x2F;jobs.lever.co&#x2F;deleteme&#x2F;661d0e52-0ca4-4dc4-a06f-f7f52d2711da" rel="nofollow">https:&#x2F;&#x2F;jobs.lever.co&#x2F;deleteme&#x2F;661d0e52-0ca4-4dc4-a06f-f7f52...</a>
 
 We are a growing, profitable company focused on better, easier online privacy. DeleteMe is a service for removing private information from many data broker sites that list and sell consumers personal profile data.

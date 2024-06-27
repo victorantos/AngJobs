@@ -6,7 +6,7 @@ author:
 ---
 Global Biodiversity Information Facility (GBIF) - Software developer - Copenhagen, Denmark - ONSITE, VISA
 
-Global Biodiversity Information Facility (GBIF) | Senior data engineer | Copenhagen, Denmark | REMOTE
+Global Biodiversity Information Facility (GBIF) - Senior data engineer - Copenhagen, Denmark - REMOTE
 
 GBIF is an international organization and open-data research infrastructure, whose purpose is to make scientific biodiversity data available to all on the Internet. Multiple research papers are published every day citing this data.
 

@@ -10,7 +10,7 @@ We&#x27;re looking for several senior software engineers for the job description
 
 Location: US, UK, Canada, Australia, New Zealand and Europe
 
-Stack: We don&#x27;t expect you are a jack of all trades. Welcome to apply if you are <i>MASTER</i> in +2 stacks listed here.
+Stack: We don&#x27;t expect you are a jack of all trades. Welcome to apply if you are *MASTER* in +2 stacks listed here.
 
 Frontend: React, Angular, Vue, Ember
 

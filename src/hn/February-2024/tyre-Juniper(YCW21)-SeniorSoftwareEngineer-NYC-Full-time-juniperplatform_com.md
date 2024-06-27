@@ -18,7 +18,7 @@ At Juniper, we’ve built an end-to-end billing system. It starts with ingesting
 
 Our typical paid rate is above 95%.
 
-We are a team of 25 with <i>strong</i> product market fit—we’ve had to push out onboardings because engineering can’t build quickly enough.
+We are a team of 25 with *strong* product market fit—we’ve had to push out onboardings because engineering can’t build quickly enough.
 
 You’ll be working with an engineering leadership team from AWS and Stripe to get doctors and clinicians back to work helping kids.
 

@@ -6,7 +6,7 @@ author:
 ---
 <a href="https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=39836316">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=39836316</a>
 
-Laudspeaker | Remote| Full Time | Senior Software Eng &#x2F; Founding Eng
+Laudspeaker - Remote- Full Time - Senior Software Eng &#x2F; Founding Eng
 
 We posted on hacker news a few days ago - you can see the whole post here (<a href="https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=39836316">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=39836316</a>)
 

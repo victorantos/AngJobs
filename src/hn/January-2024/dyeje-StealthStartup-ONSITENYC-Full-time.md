@@ -10,7 +10,7 @@ This startup is building the AI platform for corporate finance. Its mission is t
 
 To apply, send your resume to jeremy@dyedsoftware.com
 
-<i>Staff &#x2F; Principal Engineer</i> - $170k - $200k + meaningful equity
+*Staff &#x2F; Principal Engineer* - $170k - $200k + meaningful equity
 
 Seeking Staff+ level engineers to help them design and lead implementation of new modules. The abstractions for these new modules will form the foundation for the product’s future as they expand beyond their current core functionality.
 
@@ -22,7 +22,7 @@ Seeking Staff+ level engineers to help them design and lead implementation of ne
 
 - You enjoy building products from 0 to 1
 
-<i>Head of Engineering</i> - $190k - $220k + meaningful equity
+*Head of Engineering* - $190k - $220k + meaningful equity
 
 Seeking an engineering leader who can become an expert in the product by contributing as an individual contributor while taking on managerial duties and eventually scaling the team during the next funding round.
 

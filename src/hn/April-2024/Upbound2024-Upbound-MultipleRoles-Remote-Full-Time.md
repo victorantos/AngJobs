@@ -10,6 +10,6 @@ Upbound (<a href="https:&#x2F;&#x2F;www.upbound.io&#x2F;" rel="nofollow">https:&
 
 We&#x27;re currently searching for:
 
-Tech Lead, API|Remote (NAMER)|<a href="https:&#x2F;&#x2F;grnh.se&#x2F;b6df8abf4us" rel="nofollow">https:&#x2F;&#x2F;grnh.se&#x2F;b6df8abf4us</a>
+Tech Lead, API-Remote (NAMER)-<a href="https:&#x2F;&#x2F;grnh.se&#x2F;b6df8abf4us" rel="nofollow">https:&#x2F;&#x2F;grnh.se&#x2F;b6df8abf4us</a>
 
 See the rest of our active jobs here - <a href="https:&#x2F;&#x2F;www.upbound.io&#x2F;careers&#x2F;working-with-us" rel="nofollow">https:&#x2F;&#x2F;www.upbound.io&#x2F;careers&#x2F;working-with-us</a>

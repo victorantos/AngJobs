@@ -24,6 +24,6 @@ Thanks!
 
 PS Other teams are also hiring for these positions:
 
-Senior Software Engineer, Data Platform | <a href="https:&#x2F;&#x2F;careers.10xgenomics.com&#x2F;careers&#x2F;job&#x2F;171818891447" rel="nofollow">https:&#x2F;&#x2F;careers.10xgenomics.com&#x2F;careers&#x2F;job&#x2F;171818891447</a>
+Senior Software Engineer, Data Platform - <a href="https:&#x2F;&#x2F;careers.10xgenomics.com&#x2F;careers&#x2F;job&#x2F;171818891447" rel="nofollow">https:&#x2F;&#x2F;careers.10xgenomics.com&#x2F;careers&#x2F;job&#x2F;171818891447</a>
 
-Senior Software Engineer, AI&#x2F;ML Platform &amp; Apps | <a href="https:&#x2F;&#x2F;careers.10xgenomics.com&#x2F;careers&#x2F;job&#x2F;171819291316" rel="nofollow">https:&#x2F;&#x2F;careers.10xgenomics.com&#x2F;careers&#x2F;job&#x2F;171819291316</a>
+Senior Software Engineer, AI&#x2F;ML Platform &amp; Apps - <a href="https:&#x2F;&#x2F;careers.10xgenomics.com&#x2F;careers&#x2F;job&#x2F;171819291316" rel="nofollow">https:&#x2F;&#x2F;careers.10xgenomics.com&#x2F;careers&#x2F;job&#x2F;171819291316</a>

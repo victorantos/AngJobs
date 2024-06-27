@@ -10,7 +10,7 @@ Yendou is the first CRM designed to help Clinical Operation teams to scale and a
 
 Right now, most products in the healthcare space suck, and we are looking for great people to help us change that! If Yendou is successful, you will be able to tell your grandkids that you worked on something that saved human lives :)
 
-# Founding Software Engineer | Salary: €80-120k + Equity: 0.5% - 1.5%
+# Founding Software Engineer - Salary: €80-120k + Equity: 0.5% - 1.5%
 
 <pre><code>  * Experience with JavaScript or TypeScript ideally also with a modern web framework such as React.js, Next.js, Vue.js or Angular
 
@@ -20,7 +20,7 @@ Right now, most products in the healthcare space suck, and we are looking for gr
 </code></pre>
 Read more: <a href="https:&#x2F;&#x2F;yendou.notion.site&#x2F;Founding-Software-Engineer-Berlin-34faf942cc654e1ba593a1175279257d" rel="nofollow">https:&#x2F;&#x2F;yendou.notion.site&#x2F;Founding-Software-Engineer-Berlin...</a>
 
-# Founding Product Designer | Salary: €75-110k + Equity: 0.5% - 1.5%
+# Founding Product Designer - Salary: €75-110k + Equity: 0.5% - 1.5%
 
 <pre><code>  * 3+ years of experience at tech or product-driven companies
 

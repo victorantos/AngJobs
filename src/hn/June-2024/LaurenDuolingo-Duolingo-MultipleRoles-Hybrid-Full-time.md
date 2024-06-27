@@ -23,6 +23,6 @@ For more details, you can view&#x2F;apply to all current openings here: <a href=
 <pre><code>            ,     ,
             )\___&#x2F;(
            {(@)v(@)}
-            {|~~~|}
+            {-~~~-}
             {&#x2F;^^^\}
              `m-m`</code></pre>

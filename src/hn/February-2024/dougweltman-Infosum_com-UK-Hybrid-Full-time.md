@@ -10,13 +10,13 @@ Infosum is a series B-funded business focused on building privacy-friendly infra
 
 We&#x27;re adding the following roles to our team:
 
-<i>Backend Engineers</i>
+*Backend Engineers*
 
 - Basingstoke-based (hybrid)
 
 - Golang, or Java cross-train to Go
 
-<i>IT Security and Compliance Officer</i>
+*IT Security and Compliance Officer*
 
 - Basingstoke-based (hybrid)
 
@@ -24,7 +24,7 @@ We&#x27;re adding the following roles to our team:
 
 - AWS experience needed
 
-<i>Outbound Business Development Representative</i>
+*Outbound Business Development Representative*
 
 - London-based (hybrid)
 

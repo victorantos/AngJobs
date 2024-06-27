@@ -6,7 +6,7 @@ author:
 ---
 Continua AI - ML Engineers - NYC, SF Bay Area, Seattle - <a href="http:&#x2F;&#x2F;continua.ai" rel="nofollow">http:&#x2F;&#x2F;continua.ai</a>
 
-Stack: Python | C# | GCloud | HuggingFace
+Stack: Python - C# - GCloud - HuggingFace
 
 Continua was founded in April 2023 by a Distinguished Engineer from Google Research to reinvent how people interact with information, with services, and with each other.
 

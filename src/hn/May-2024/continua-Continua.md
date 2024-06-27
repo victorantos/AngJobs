@@ -6,11 +6,11 @@ author:
 ---
 Continua - <a href="http:&#x2F;&#x2F;www.continua.ai" rel="nofollow">http:&#x2F;&#x2F;www.continua.ai</a>
 
-Stack: Python | GCloud | HuggingFace
+Stack: Python - GCloud - HuggingFace
 
-Locations: NYC | SEA | SFO
+Locations: NYC - SEA - SFO
 
-Roles: Systems Engineer | ML Engineer | Frontend Engineer
+Roles: Systems Engineer - ML Engineer - Frontend Engineer
 
 Continua was founded in April 2023 by a Distinguished Engineer from Google Research to give everyone in the world an agent that uses their real-time context and personal memory to deliver actionable and timely assistance.
 

@@ -20,7 +20,7 @@ Those who are excellent programmers experienced with
 
 - and solid undergraduate mathematics and advanced computer science
 
-are most qualified. We can train you on Lisp, Coalton, and quantum if the fundamentals are there. Knowledge of quantum computing is <i>not</i> necessary for most software engineering roles.
+are most qualified. We can train you on Lisp, Coalton, and quantum if the fundamentals are there. Knowledge of quantum computing is *not* necessary for most software engineering roles.
 
 Interview process: phone call, &quot;take-home&quot; exercise, on-site interview (no whiteboarding), reference checks, and offer.
 

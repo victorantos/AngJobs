@@ -8,7 +8,7 @@ SIG - Multiple Positions - SYDNEY, AUSTRALIA - Visa Sponsorship for Experienced 
 
 SIG is a global quantitative trading firm founded with an entrepreneurial mindset and a rigorous analytical approach to decision making. As one of the largest proprietary trading firms in the world we are experts in trading all listed financial products and asset classes handling millions of transactions on exchanges around the world every day.
 
-<i>SYDNEY:</i>
+*SYDNEY:*
 
 • DevOps Engineer - MS Service Fabric experience (no cloud)
 

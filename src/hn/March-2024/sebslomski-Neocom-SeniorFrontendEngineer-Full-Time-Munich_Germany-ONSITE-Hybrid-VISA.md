@@ -11,7 +11,7 @@ With our guided product advisors, we eliminate choice overload and use zero-part
 
 Join us our mission to change how people find products by making product discovery effortless!
 
-<i>Our Stack:</i>
+*Our Stack:*
 
 * React.js with react-query&#x2F; apollo
 
@@ -19,7 +19,7 @@ Join us our mission to change how people find products by making product discove
 
 * We maintain multiple separate JS projects, all following the same coding conventions.
 
-<i>About the company:</i>
+*About the company:*
 
 * Startup, post 1M ARR, received VC funding in September 2023
 
@@ -27,7 +27,7 @@ Join us our mission to change how people find products by making product discove
 
 * 50% of the R&amp;D team was hired via hn
 
-<i>What we are looking for:</i>
+*What we are looking for:*
 
 * True senior, who takes over ownership.
 

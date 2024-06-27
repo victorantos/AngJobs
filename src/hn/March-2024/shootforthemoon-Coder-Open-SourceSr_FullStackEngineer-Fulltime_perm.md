@@ -6,7 +6,7 @@ author:
 ---
 Coder - Remote first - US&#x2F;Canada - Open-Source Sr. Full Stack Engineer - Full time, perm
 
-4 - 7 years of experience in Go, Typescript, React | We love seeing active open-source GitHub and side project work | Base: $140K to $180K&#x2F;yr DOE &amp; location
+4 - 7 years of experience in Go, Typescript, React - We love seeing active open-source GitHub and side project work - Base: $140K to $180K&#x2F;yr DOE &amp; location
 
 Our mission is to keep developers in flow. Coder has created a devtool that offloads development from local workstations to your on-prem and public cloud infrastructure. Target customer is enterprise engineering orgs at some of the world’s largest and cutting edge companies. Our tech stack is typescript, react, golang, terraform, linux
 

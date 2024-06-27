@@ -8,7 +8,7 @@ GoGoGrandparent (YC S16) - FULLY REMOTE -  Full-time - US, UK, or able to work 4
 
 Build high-quality, robust engineering at the rarest of things - a Silicon Valley startup that is both wholesome AND profitable. We have 8-figure revenue, are YC-backed, and growing fast.
 
-Tech stack (<i>required): Back-end heavy (Node</i>, Typescript<i>, MySQL</i>, REST* &#x2F; GraphQL), deploy (AWS, Docker&#x2F;K8s)
+Tech stack (*required): Back-end heavy (Node*, Typescript*, MySQL*, REST* &#x2F; GraphQL), deploy (AWS, Docker&#x2F;K8s)
 
 Minimum 5 years experience (with Node). If full-stack, you must be strongest on the backend.
 

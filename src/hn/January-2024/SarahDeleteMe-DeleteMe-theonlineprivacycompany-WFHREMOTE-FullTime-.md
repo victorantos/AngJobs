@@ -27,4 +27,4 @@ We are looking for strong talent across the board as we are growing over 100% y&
 Please contact us at sarah.sulsenti@joindeleteme.com
 
 1. no recruiters (please, really, please)- no agencies 
-2. <i>Please include both a full CV and desired comp range</i>
+2. *Please include both a full CV and desired comp range*

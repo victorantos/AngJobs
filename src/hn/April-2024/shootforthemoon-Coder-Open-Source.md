@@ -6,7 +6,7 @@ author:
 ---
 Coder - Open-Source
 
-Full Stack Engineer that is frontend leaning| Remote first - US&#x2F;Canada | Full time, perm. 4-7 yrs of experience in Typescript, React | Strong backend skills preferably in Go. We love seeing active open-source GitHub and side project work | Base: $140K - $180K&#x2F;yr DOE &amp; location
+Full Stack Engineer that is frontend leaning- Remote first - US&#x2F;Canada - Full time, perm. 4-7 yrs of experience in Typescript, React - Strong backend skills preferably in Go. We love seeing active open-source GitHub and side project work - Base: $140K - $180K&#x2F;yr DOE &amp; location
 
 Our mission to keep developers in flow. Coder has created a devtool that offloads development from local workstations to your on-prem and public cloud infrastructure. Target customer is engineering orgs at some of the world’s largest and cutting edge companies. Our tech stack is typescript, react, golang, terraform, linux
 

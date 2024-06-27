@@ -9,7 +9,7 @@ Uncountable - SF, NYC, Munich (In-Person) - Full-Stack Engineering
 
 Uncountable accelerates R&amp;D for industrial scientists across leading materials, chemicals, and life sciences organizations. With our SaaS solution, our customers get better products to the market in half the time. Uncountable was founded by MIT and Stanford engineers and has been profitable since 2016. Our team has grown from 20 to 50 over the last two years.
 
-Full-Stack Engineers | $120k - $220k + Equity
+Full-Stack Engineers - $120k - $220k + Equity
 
 ---&gt; Uncountable is looking for engineers who can spearhead the development of the Uncountable Web Platform. The position is heavily product-driven and comes with challenges across the stack.
 

@@ -18,7 +18,7 @@ If you are passionate about your craft and interested in joining a electronic tr
 
 -----
 
-Furtim Modus | Sr. Java Developer |  ONSITE&#x2F;Hybrid (NYC) Preferred &amp; Remote Considered (Americas&#x2F;Europe) | Full-Time | <a href="https:&#x2F;&#x2F;furtimmodus.com" rel="nofollow">https:&#x2F;&#x2F;furtimmodus.com</a>
+Furtim Modus - Sr. Java Developer -  ONSITE&#x2F;Hybrid (NYC) Preferred &amp; Remote Considered (Americas&#x2F;Europe) - Full-Time - <a href="https:&#x2F;&#x2F;furtimmodus.com" rel="nofollow">https:&#x2F;&#x2F;furtimmodus.com</a>
 
 We are currently seeking a talented and driven Senior Java Developer with high performance trading systems experience to join our team full-time. This is an exciting opportunity to contribute your skills and expertise to a electronic trading fintech venture based out of New York and in exchange we’ll provide you with base comp $250k, full benefits, cash bonus, and equity.
 

@@ -16,6 +16,6 @@ We&#x27;re VC backed, profitable, and have plenty of ambition to maintain our fa
 
 Roles currently available:
 
-- Senior DevOps Engineer | Equity | £100k+ (based on experience) + Quarterly Bonus
+- Senior DevOps Engineer - Equity - £100k+ (based on experience) + Quarterly Bonus
 
 All roles visible here: <a href="https:&#x2F;&#x2F;www.openrent.co.uk&#x2F;jobs" rel="nofollow">https:&#x2F;&#x2F;www.openrent.co.uk&#x2F;jobs</a>

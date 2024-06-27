@@ -10,7 +10,7 @@ Tracebit lets security teams implement ‘assume breach’ with automated cloud 
 
 Off the back of a successful seed fundraise from tier 1 VCs, we are actively hiring for smart people who get things done in the following positions:
 
-<pre><code>   - Founding Engineer | £70-100k + equity | https:&#x2F;&#x2F;tracebit.com&#x2F;jobs&#x2F;founding-engineer 
+<pre><code>   - Founding Engineer - £70-100k + equity - https:&#x2F;&#x2F;tracebit.com&#x2F;jobs&#x2F;founding-engineer 
 </code></pre>
 On-site roles (5 days a week) in Central London.
 

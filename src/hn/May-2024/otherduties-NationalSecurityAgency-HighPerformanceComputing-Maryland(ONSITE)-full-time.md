@@ -8,13 +8,13 @@ National Security Agency - <a href="https:&#x2F;&#x2F;apply.intelligencecareers.
 
 We are seeking C++ developers with HPC experience. You&#x27;d collaborate with a team of Physicists, Computer Scientists, Mathematicians, and Engineers who investigate advanced computing technologies related to National Security. We rely on Linux and open source software.
 
-Research Scientist &#x2F; Computer Systems Researcher | <a href="https:&#x2F;&#x2F;apply.intelligencecareers.gov&#x2F;job-description&#x2F;1230123" rel="nofollow">https:&#x2F;&#x2F;apply.intelligencecareers.gov&#x2F;job-description&#x2F;123012...</a>
+Research Scientist &#x2F; Computer Systems Researcher - <a href="https:&#x2F;&#x2F;apply.intelligencecareers.gov&#x2F;job-description&#x2F;1230123" rel="nofollow">https:&#x2F;&#x2F;apply.intelligencecareers.gov&#x2F;job-description&#x2F;123012...</a>
 
-Design Engineer for High Performance Computing | <a href="https:&#x2F;&#x2F;apply.intelligencecareers.gov&#x2F;job-description&#x2F;1229906" rel="nofollow">https:&#x2F;&#x2F;apply.intelligencecareers.gov&#x2F;job-description&#x2F;122990...</a>
+Design Engineer for High Performance Computing - <a href="https:&#x2F;&#x2F;apply.intelligencecareers.gov&#x2F;job-description&#x2F;1229906" rel="nofollow">https:&#x2F;&#x2F;apply.intelligencecareers.gov&#x2F;job-description&#x2F;122990...</a>
 
-Computer Systems Architect | <a href="https:&#x2F;&#x2F;apply.intelligencecareers.gov&#x2F;job-description&#x2F;1229114" rel="nofollow">https:&#x2F;&#x2F;apply.intelligencecareers.gov&#x2F;job-description&#x2F;122911...</a>
+Computer Systems Architect - <a href="https:&#x2F;&#x2F;apply.intelligencecareers.gov&#x2F;job-description&#x2F;1229114" rel="nofollow">https:&#x2F;&#x2F;apply.intelligencecareers.gov&#x2F;job-description&#x2F;122911...</a>
 
-Software Engineer | <a href="https:&#x2F;&#x2F;apply.intelligencecareers.gov&#x2F;job-description&#x2F;1229399" rel="nofollow">https:&#x2F;&#x2F;apply.intelligencecareers.gov&#x2F;job-description&#x2F;122939...</a>
+Software Engineer - <a href="https:&#x2F;&#x2F;apply.intelligencecareers.gov&#x2F;job-description&#x2F;1229399" rel="nofollow">https:&#x2F;&#x2F;apply.intelligencecareers.gov&#x2F;job-description&#x2F;122939...</a>
 
 Applying for a security clearance is part of our hiring process, so applicants must be US citizens. (Dual citizens may be accepted, based on the country.)
 

@@ -12,7 +12,7 @@ TileDB Cloud is the modern database, allowing developers and scientists to captu
 
 With TileDB, all data — tables, genomics, images, videos, location, time-series — is captured as multi-dimensional arrays. To supercharge this data, TileDB Cloud implements a serverless infrastructure delivering query execution, access control, data and code sharing, and distributed computing at global scale — eliminating cluster management, minimizing TCO, and promoting scientific collaboration and reproducibility.
 
-Website: <a href="https:&#x2F;&#x2F;tiledb.com" rel="nofollow">https:&#x2F;&#x2F;tiledb.com</a> | GitHub: <a href="https:&#x2F;&#x2F;github.com&#x2F;TileDB-Inc&#x2F;TileDB">https:&#x2F;&#x2F;github.com&#x2F;TileDB-Inc&#x2F;TileDB</a> | Blog: <a href="https:&#x2F;&#x2F;tiledb.com&#x2F;blog" rel="nofollow">https:&#x2F;&#x2F;tiledb.com&#x2F;blog</a>
+Website: <a href="https:&#x2F;&#x2F;tiledb.com" rel="nofollow">https:&#x2F;&#x2F;tiledb.com</a> - GitHub: <a href="https:&#x2F;&#x2F;github.com&#x2F;TileDB-Inc&#x2F;TileDB">https:&#x2F;&#x2F;github.com&#x2F;TileDB-Inc&#x2F;TileDB</a> - Blog: <a href="https:&#x2F;&#x2F;tiledb.com&#x2F;blog" rel="nofollow">https:&#x2F;&#x2F;tiledb.com&#x2F;blog</a>
 
 We are actively hiring for several roles including:
 

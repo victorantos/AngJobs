@@ -6,10 +6,10 @@ author:
   url: https://news.ycombinator.com/item?id=39905514
 ---
 DeleteMe - the online privacy company 
-Product Manager | Bengaluru, IN | Full Time | SaaS and International PM experience needed
+Product Manager - Bengaluru, IN - Full Time - SaaS and International PM experience needed
 <a href="https:&#x2F;&#x2F;jobs.lever.co&#x2F;deleteme&#x2F;ceb497ff-b4a3-420d-8987-a4596773bc09" rel="nofollow">https:&#x2F;&#x2F;jobs.lever.co&#x2F;deleteme&#x2F;ceb497ff-b4a3-420d-8987-a4596...</a>
 
-Product Manager, Integrations | Bengaluru, IN | Full Time | SaaS and International PM experience needed
+Product Manager, Integrations - Bengaluru, IN - Full Time - SaaS and International PM experience needed
 <a href="https:&#x2F;&#x2F;jobs.lever.co&#x2F;deleteme&#x2F;906ebad5-1a8b-442b-a490-b8fde4a5e957" rel="nofollow">https:&#x2F;&#x2F;jobs.lever.co&#x2F;deleteme&#x2F;906ebad5-1a8b-442b-a490-b8fde...</a>
 
 We are a growing, profitable company focused on better, easier online privacy. DeleteMe is a service for removing private information from many data broker sites that list and sell consumers personal profile data.

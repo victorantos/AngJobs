@@ -10,6 +10,6 @@ Our mission is to empower field-service companies to grow by modernizing and aut
 
 Email: jobs [at] 40grid.com (no recruiters or agencies, thank you).
 
-Tech: Django &#x2F; Python | Angular | Data Migrations
+Tech: Django &#x2F; Python - Angular - Data Migrations
 
 Reach out with any question -- thanks!

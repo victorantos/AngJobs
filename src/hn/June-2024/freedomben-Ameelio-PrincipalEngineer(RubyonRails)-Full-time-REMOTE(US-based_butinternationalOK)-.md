@@ -14,9 +14,9 @@ We’re looking for a principal engineer with Ruby&#x2F;Rails experience to lead
 
 Apply at: <a href="https:&#x2F;&#x2F;ameelio.breezy.hr&#x2F;p&#x2F;272d7d9e67e5-principal-software-engineer-ruby-on-rails" rel="nofollow">https:&#x2F;&#x2F;ameelio.breezy.hr&#x2F;p&#x2F;272d7d9e67e5-principal-software-...</a>
 
-<i>Note: If you apply, feel free to shoot me an email at ben@ameelio.org to let me know you’ve applied from HN.  Please prefix the subject line with “[HN] Principal Engineer: “ so that it properly routes through my filters :-)</i>
+*Note: If you apply, feel free to shoot me an email at ben@ameelio.org to let me know you’ve applied from HN.  Please prefix the subject line with “[HN] Principal Engineer: “ so that it properly routes through my filters :-)*
 
-<i>Note:  The job posting on breezy.hr (where you also apply if interested) has additional information about the role.  The rest of this is a GPT 4o-written summary due to HN character limits in comments.</i>
+*Note:  The job posting on breezy.hr (where you also apply if interested) has additional information about the role.  The rest of this is a GPT 4o-written summary due to HN character limits in comments.*
 
 ------------------------------------------------------
 

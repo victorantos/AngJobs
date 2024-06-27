@@ -10,7 +10,7 @@ Reframe combines a low-code interface with AI agents to automate data workflows 
 
 Our Company is remote with team members in multiple states&#x2F;provinces. While our roots are in Berkeley, CA, we fully embrace remote work, and in-person collaboration is entirely optional.
 
-* Senior Backend Engineer | Python - Remote
+* Senior Backend Engineer - Python - Remote
 
 Experience working building AI Agents and fundamental understanding of pertinent concepts like RAG, React Agents and LLMs inner workings.
 

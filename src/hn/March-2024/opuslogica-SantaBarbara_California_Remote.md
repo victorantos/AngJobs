@@ -6,7 +6,7 @@ author:
 ---
 Santa Barbara, California. Remote
 
-Opus Logica| Remote| Contract| Full Stack Javascript Developer
+Opus Logica- Remote- Contract- Full Stack Javascript Developer
 Seeking a talented and highly motivated Javascript Developer who is proficient in front-to-back development. This position involves maintaining and growing an existing enterprise application. Requires 5+ years experience in Reactjs, Nextjs, Nestjs, Nodejs and Postgres. Vercel experience a plus. Previous team lead experience and a general understanding of Web3 technology also required.
 
 Full description of responsibilities can be found here: <a href="https:&#x2F;&#x2F;www.opuslogica.com&#x2F;senior-dev" rel="nofollow">https:&#x2F;&#x2F;www.opuslogica.com&#x2F;senior-dev</a>.

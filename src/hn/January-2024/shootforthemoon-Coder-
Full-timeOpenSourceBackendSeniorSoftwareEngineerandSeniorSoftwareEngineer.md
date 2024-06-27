@@ -6,7 +6,7 @@ author:
   url: https://news.ycombinator.com/item?id=38855762
 ---
 Coder- Remote first - US&#x2F;Canada&#x2F;EU -
-Full-time Open Source Backend Senior Software Engineer and Senior Software Engineer - Networking | Tech stack is React&#x2F;JS, Golang, Postgresql, Terraform | looking for active github | $140K to $ 210K DOE and location|
+Full-time Open Source Backend Senior Software Engineer and Senior Software Engineer - Networking - Tech stack is React&#x2F;JS, Golang, Postgresql, Terraform - looking for active github - $140K to $ 210K DOE and location-
 
 ABOUT CODER: Our mission is to keep developers in flow. Coder has created a platform that offloads development from local workstations to your on-prem and public cloud infrastructure. Target customers are engineering orgs at some of the world’s largest and cutting edge companies.
 

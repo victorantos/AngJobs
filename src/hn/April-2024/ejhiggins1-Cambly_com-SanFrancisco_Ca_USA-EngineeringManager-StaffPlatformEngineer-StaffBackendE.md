@@ -7,7 +7,7 @@ author:
 Cambly.com - San Francisco, Ca, USA - Hybrid&#x2F;Onsite - Full Time
 <a href="https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;Cambly?utm_source=wnopvxR0o8">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;Cambly?utm_source=wnopvxR0o8</a>
 About Cambly: Our mission is to bring high-quality English education to every English learner in the world at the touch of a button. Think of us as the Airbnb that matches English students with English tutors and come help us build the world’s largest English learning marketplace and school.
-We are hiring: Sr. Frontend Engineer | Engineering Manager | Staff Platform Engineer | Staff Backend Engineer | Staff Android Engineer | Sr. iOS
+We are hiring: Sr. Frontend Engineer - Engineering Manager - Staff Platform Engineer - Staff Backend Engineer - Staff Android Engineer - Sr. iOS
 
 Life @ Cambly includes:
 

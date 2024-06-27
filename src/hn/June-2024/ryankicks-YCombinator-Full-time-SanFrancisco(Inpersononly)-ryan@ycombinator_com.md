@@ -18,7 +18,7 @@ YC software runs kind of like a startup: we have a small engineering team (15 pe
 
 Many of us have also been founders, and seven former employees have gone on to start startups that were funded by YC. If you want to start a startup but don’t have a great idea yet, we welcome you to spend a couple years here to learn, and then launch your own. On the flip side, if you can see yourself writing code indefinitely, we’d love to keep you happy here at YC for a long time. Either one works for us.
 
-Building software at YC isn’t for everyone – YC’s real product is the Batch program and the Group Partners’ advice and help for the life of your startup. Our software team is often in the background, helping scale YC’s ability to help more companies, and in a way that means <i>more</i> 1-1 attention and support for each founder. What keeps me motivated is continuing to scale and improve YC through software, and getting to work with some of the most kind and talented people of my 20+ year career.
+Building software at YC isn’t for everyone – YC’s real product is the Batch program and the Group Partners’ advice and help for the life of your startup. Our software team is often in the background, helping scale YC’s ability to help more companies, and in a way that means *more* 1-1 attention and support for each founder. What keeps me motivated is continuing to scale and improve YC through software, and getting to work with some of the most kind and talented people of my 20+ year career.
 
 If you have questions, I would love to answer them here. (It would help me understand how I can make our role &amp; work more clear!) And if this resonates with you, shoot me an email with what you’d most be excited to work on (job descriptions below) – ryan@ycombinator.com
 

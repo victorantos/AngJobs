@@ -6,7 +6,7 @@ author:
 ---
 Lithos Carbon - Founding Full-Stack Engineer and Data Scientist - Hybrid (SF Bay Area, Seattle) and US Remote - Full-time
 
-Hey everyone — we&#x27;re a startup that&#x27;s scaling a form of durable carbon dioxide removal called <i>enhanced rock weathering</i>. In addition to the critical efforts around decarbonization and emissions mitigations, you might have heard of efforts to scale carbon removal to mop up the remainder. Even so, we need to create an entirely new industry capable of removing tens of billions of tons of CO2 within the next decade.
+Hey everyone — we&#x27;re a startup that&#x27;s scaling a form of durable carbon dioxide removal called *enhanced rock weathering*. In addition to the critical efforts around decarbonization and emissions mitigations, you might have heard of efforts to scale carbon removal to mop up the remainder. Even so, we need to create an entirely new industry capable of removing tens of billions of tons of CO2 within the next decade.
 
 Our bet at Lithos is that the best chance of success is by leveraging three industries already capable of this scale: agriculture, mining, and transportation. Rock weathering is a key part of the Earth&#x27;s geologic carbon cycle, and has acted as a crucial &quot;global thermostat&quot; to keep Earth habitable — but it normally takes millenia. By enhancing this process, we can speed up the reaction to have meaningful effects within human timescales.
 

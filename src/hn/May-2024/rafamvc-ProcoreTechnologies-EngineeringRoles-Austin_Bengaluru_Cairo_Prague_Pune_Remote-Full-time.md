@@ -16,13 +16,13 @@ Procore is on a mission to revolutionize construction management. Our software s
 
 Open Positions:
 
-Engineering Managers (Multiple Levels) | Austin, Bengaluru, Cairo
+Engineering Managers (Multiple Levels) - Austin, Bengaluru, Cairo
 
-Staff Engineers (Data, Mobile, Backend (Ruby), ML, Full-Stack) | Austin, Bengaluru, Pune, Remote
+Staff Engineers (Data, Mobile, Backend (Ruby), ML, Full-Stack) - Austin, Bengaluru, Pune, Remote
 
-Senior Engineers (Backend  (Ruby), QA Automation, Mobile, ML, iOS, Android) | Austin, Bengaluru, Cairo, Remote
+Senior Engineers (Backend  (Ruby), QA Automation, Mobile, ML, iOS, Android) - Austin, Bengaluru, Cairo, Remote
 
-Principal Engineers (Backend, Frontend, Data) | Bengaluru
+Principal Engineers (Backend, Frontend, Data) - Bengaluru
 
 If interested in shaping the future of construction technology, visit <a href="https:&#x2F;&#x2F;careers.procore.com&#x2F;jobs&#x2F;search" rel="nofollow">https:&#x2F;&#x2F;careers.procore.com&#x2F;jobs&#x2F;search</a> .
 

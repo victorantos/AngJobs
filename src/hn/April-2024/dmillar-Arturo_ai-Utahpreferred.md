@@ -20,4 +20,4 @@ Please read the JD on the site. If interested, please send your MLOps, SageMaker
 
 * Unfortunately we unable to sponsor H1B&#x2F;transfers at this time
 
-recruiting@arturo.ai | <a href="https:&#x2F;&#x2F;www.arturo.ai&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;www.arturo.ai&#x2F;careers</a>
+recruiting@arturo.ai - <a href="https:&#x2F;&#x2F;www.arturo.ai&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;www.arturo.ai&#x2F;careers</a>

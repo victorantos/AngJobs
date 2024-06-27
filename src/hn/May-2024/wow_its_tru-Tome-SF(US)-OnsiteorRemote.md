@@ -12,7 +12,7 @@ Join us as a Senior Full Stack Engineer to build out our core product UI, our AI
 
 Ideal candidate: has worked in a startup, or independently led projects; 5+ years of frontend development experience; Experience with complex data visualizations; and bonus points if you like writing full end-to-end tests, improving CI pipelines, or implementing pretty color gradients.
 
-<i>Tech Stack:</i>
+*Tech Stack:*
 
 - Next.js (all-in on the Vercel ecosystem), Python, Postgres, AWS
 

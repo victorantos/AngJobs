@@ -6,7 +6,7 @@ author:
 ---
 Tracebit - London, UK - Full-Time - ONSITE
 
-Founding Engineer | £70-100k + equity
+Founding Engineer - £70-100k + equity
 
 Tracebit is on a mission to reduce the global mean time to detect and contain security incidents from months to minutes. 
 The two founders are building on their experience at Tessian to vastly improve an organisation’s cloud security (and beyond). On the back of a successful seed fundraise, we are looking to hire the first 5 engineers to join our founding team.

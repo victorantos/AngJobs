@@ -8,7 +8,7 @@ author:
 
 --
 
-Monochrome | Backend Engineers | Full-Time | Motely remote but sometimes onsite (Tokyo&#x2F;Kanagawa in Japan) |
+Monochrome - Backend Engineers - Full-Time - Motely remote but sometimes onsite (Tokyo&#x2F;Kanagawa in Japan) -
 
 At Monochrome Inc., we are designing and developing next-generation smart homes. Our vision is to transform houses so we make the living experience sustainable and yet convenient. We have two product lines. 
 One is Roof-1 which is a solar panel, and unlike the conventional solar panels, the color and texture of the module is well-designed so it’s hard to distinguish the roof and module. Architectural designers in Japan love that appearance, and we have high demand since last year.

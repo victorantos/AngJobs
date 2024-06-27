@@ -16,6 +16,6 @@ We&#x27;re VC backed, profitable, and have plenty of ambition to maintain our fa
 
 Roles currently available:
 
-- Head of Finance | Equity | £70-£100k + quarterly bonus
+- Head of Finance - Equity - £70-£100k + quarterly bonus
 
 All roles visible here: <a href="https:&#x2F;&#x2F;www.openrent.co.uk&#x2F;jobs" rel="nofollow">https:&#x2F;&#x2F;www.openrent.co.uk&#x2F;jobs</a>

@@ -16,6 +16,6 @@ A great fit would be someone pragmatic, who prefers to keep things simple (perha
 
 Our engineering team is fully remote across Europe, we meet up once per quarter or so. You can work either 4 or 5 days per week, fully remote or (partially) from our Munich office. Please note that we ONLY consider candidates located within the EU.
 
-Stack: Golang | Clickhouse | Postgres | Redis | Terraform | Packer | Linux | OpenTelemetry | HAProxy
+Stack: Golang - Clickhouse - Postgres - Redis - Terraform - Packer - Linux - OpenTelemetry - HAProxy
 
 Infrastructure Engineer: <a href="https:&#x2F;&#x2F;friendlycaptcha.homerun.co&#x2F;infrastructure-engineer" rel="nofollow">https:&#x2F;&#x2F;friendlycaptcha.homerun.co&#x2F;infrastructure-engineer</a>

@@ -6,7 +6,7 @@ author:
 ---
 
 
-<pre><code>  Iterative.ai (Series A) | REMOTE, WORLDWIDE | FULL-TIME | OPEN-SOURCE
+<pre><code>  Iterative.ai (Series A) - REMOTE, WORLDWIDE - FULL-TIME - OPEN-SOURCE
   
   Developer tools for ML engineers. We need people who are passionate about building infrastructure that help ML teams manage data (large scale), make sane reproducible workflow, track models. We are building infrastructure to deal with datasets of the 5N LAION scale. Our flagship open source tool- DVC.org (12K+ stars), SaaS product - studio.iterative.ai. 
 

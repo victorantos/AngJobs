@@ -5,8 +5,8 @@ author:
   url: https://news.ycombinator.com/item?id=39910881
 ---
 Solution Street -
-Location: Northern Virginia&#x2F; Washington DC - candidates can be located anywhere in the USA. |
-Remote: Yes, (US based candidates only).|
+Location: Northern Virginia&#x2F; Washington DC - candidates can be located anywhere in the USA. -
+Remote: Yes, (US based candidates only).-
 
 Solution Street is a software development consulting company. We have a variety of open projects, here are a few roles we are currently seeking to fill:
 

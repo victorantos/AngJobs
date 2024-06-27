@@ -6,11 +6,11 @@ author:
 ---
 Thrive Global - Fully Remote, New York&#x2F;EU - Full-Time - Kotlin, GraphQL Eng, TL &amp; Designer roles
 
-Senior Software Engineer - Tech Lead, Insights | $170k-$230k - <a href="https:&#x2F;&#x2F;ats.rippling.com&#x2F;thriveglobal&#x2F;jobs&#x2F;e67a14f5-be75-479c-abba-21204fdb4386" rel="nofollow">https:&#x2F;&#x2F;ats.rippling.com&#x2F;thriveglobal&#x2F;jobs&#x2F;e67a14f5-be75-479...</a>
+Senior Software Engineer - Tech Lead, Insights - $170k-$230k - <a href="https:&#x2F;&#x2F;ats.rippling.com&#x2F;thriveglobal&#x2F;jobs&#x2F;e67a14f5-be75-479c-abba-21204fdb4386" rel="nofollow">https:&#x2F;&#x2F;ats.rippling.com&#x2F;thriveglobal&#x2F;jobs&#x2F;e67a14f5-be75-479...</a>
 
-Senior Software Engineer - Tech Lead, Chat | $170k-$230k - <a href="https:&#x2F;&#x2F;ats.rippling.com&#x2F;thriveglobal&#x2F;jobs&#x2F;80f5eedd-01f3-4a62-bd44-6a1cceb52fca" rel="nofollow">https:&#x2F;&#x2F;ats.rippling.com&#x2F;thriveglobal&#x2F;jobs&#x2F;80f5eedd-01f3-4a6...</a>
+Senior Software Engineer - Tech Lead, Chat - $170k-$230k - <a href="https:&#x2F;&#x2F;ats.rippling.com&#x2F;thriveglobal&#x2F;jobs&#x2F;80f5eedd-01f3-4a62-bd44-6a1cceb52fca" rel="nofollow">https:&#x2F;&#x2F;ats.rippling.com&#x2F;thriveglobal&#x2F;jobs&#x2F;80f5eedd-01f3-4a6...</a>
 
-Senior Software Engineer - Insights | $122k-$209k - <a href="https:&#x2F;&#x2F;ats.rippling.com&#x2F;thriveglobal&#x2F;jobs&#x2F;b84e4e0d-8503-47be-a8fc-d2f12869646d" rel="nofollow">https:&#x2F;&#x2F;ats.rippling.com&#x2F;thriveglobal&#x2F;jobs&#x2F;b84e4e0d-8503-47b...</a>
+Senior Software Engineer - Insights - $122k-$209k - <a href="https:&#x2F;&#x2F;ats.rippling.com&#x2F;thriveglobal&#x2F;jobs&#x2F;b84e4e0d-8503-47be-a8fc-d2f12869646d" rel="nofollow">https:&#x2F;&#x2F;ats.rippling.com&#x2F;thriveglobal&#x2F;jobs&#x2F;b84e4e0d-8503-47b...</a>
 
 Senior Product Designer $120k-$150k - <a href="https:&#x2F;&#x2F;ats.rippling.com&#x2F;thriveglobal&#x2F;jobs&#x2F;6c7fc935-0f2d-47fd-853f-db4a977c4a03" rel="nofollow">https:&#x2F;&#x2F;ats.rippling.com&#x2F;thriveglobal&#x2F;jobs&#x2F;6c7fc935-0f2d-47f...</a>
 

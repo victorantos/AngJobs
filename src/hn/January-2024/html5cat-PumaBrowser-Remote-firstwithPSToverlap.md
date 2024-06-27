@@ -26,6 +26,6 @@ We recently surpassed 750k downloads and are excited to grow our team. We’ve r
 
 Open Roles: Ai&#x2F;ML Engineer, iOS &amp; macOS Engineer, Browser Extension Engineer, Head of Memes &amp; Growth; Internships: Eng, Design, Growth
 
-How to Apply: visit <i><a href="http:&#x2F;&#x2F;join.puma.gg" rel="nofollow">http:&#x2F;&#x2F;join.puma.gg</a></i> or email <i>careers+hn [at] pumabrowser.com</i>
+How to Apply: visit *<a href="http:&#x2F;&#x2F;join.puma.gg" rel="nofollow">http:&#x2F;&#x2F;join.puma.gg</a>* or email *careers+hn [at] pumabrowser.com*
 
 Thank you!

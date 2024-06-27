@@ -20,4 +20,4 @@ raisa@withintro.com &#x2F; <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#
 
 Please include a Github&#x2F;StackOverflow&#x2F;Behance&#x2F;Personal Site link where I can delve into some of your projects!
 
-<i>Unfortunately Visa Sponsorship is not possible at this time</i>
+*Unfortunately Visa Sponsorship is not possible at this time*

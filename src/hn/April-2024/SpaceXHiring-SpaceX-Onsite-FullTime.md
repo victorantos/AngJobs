@@ -13,7 +13,7 @@ Hiring in:
 
 Rockets, spaceships &amp; satellites! Updates: www.spacex.com&#x2F;updates&#x2F;
 
-<i>Eligible for all 3 SpaceX locations</i>
+*Eligible for all 3 SpaceX locations*
 
 Principal Software Enginer &#x2F; Security : <a href="https:&#x2F;&#x2F;grnh.se&#x2F;949f1ceb2us" rel="nofollow">https:&#x2F;&#x2F;grnh.se&#x2F;949f1ceb2us</a>
 
@@ -21,7 +21,7 @@ Sr. Software Engineer &#x2F; Security: <a href="https:&#x2F;&#x2F;grnh.se&#x2F;0
 
 Sr. Security Analyst: <a href="https:&#x2F;&#x2F;grnh.se&#x2F;a81085582us" rel="nofollow">https:&#x2F;&#x2F;grnh.se&#x2F;a81085582us</a>
 
-<i>Eligible for Seattle &amp; LA</i>
+*Eligible for Seattle &amp; LA*
 
 Sr. Cyber Assurance Analyst: <a href="https:&#x2F;&#x2F;grnh.se&#x2F;0a71ed1f2us" rel="nofollow">https:&#x2F;&#x2F;grnh.se&#x2F;0a71ed1f2us</a>
 
@@ -29,11 +29,11 @@ Sr. Software Engineer Starlink: <a href="https:&#x2F;&#x2F;grnh.se&#x2F;8c4c80b2
 
 Software Engineer Starlink: <a href="https:&#x2F;&#x2F;grnh.se&#x2F;9f2c264d2us" rel="nofollow">https:&#x2F;&#x2F;grnh.se&#x2F;9f2c264d2us</a>
 
-<i>Eligible for LA &amp; DC</i>
+*Eligible for LA &amp; DC*
 
 Security Software Engineer Starshield (Top Secret): <a href="https:&#x2F;&#x2F;grnh.se&#x2F;d588d7712us" rel="nofollow">https:&#x2F;&#x2F;grnh.se&#x2F;d588d7712us</a>
 
-<i>Seattle Only</i>
+*Seattle Only*
 
 Sr. Network Security Engineer Starlink: <a href="https:&#x2F;&#x2F;grnh.se&#x2F;8c8d1e8d2us" rel="nofollow">https:&#x2F;&#x2F;grnh.se&#x2F;8c8d1e8d2us</a>
 

@@ -8,7 +8,7 @@ We are KREA.
 
 We’re a building an AI Creative Suite; we value taste.
 
-We are all <i>in person</i> in San Francisco, California.
+We are all *in person* in San Francisco, California.
 
 We’re hiring future Evan Wallaces and Rasmus Anderssons.
 
@@ -22,4 +22,4 @@ Then, email it to me in the subject and we can schedule a call.
 
 ---
 
-<i>The email is hidden on purpose</i>.
+*The email is hidden on purpose*.
