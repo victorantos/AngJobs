@@ -24,7 +24,7 @@ To apply, email your resume and transcripts to 76SMXG.Tinker.Careers@us.af.mil a
 
 APPLY BY JUNE 12TH!
 
-*<i>US CITIZENSHIP REQUIRED!*</i>
+*<i>US CITIZENSHIP REQUIRED!</i>*
 
 Check out our website!
 

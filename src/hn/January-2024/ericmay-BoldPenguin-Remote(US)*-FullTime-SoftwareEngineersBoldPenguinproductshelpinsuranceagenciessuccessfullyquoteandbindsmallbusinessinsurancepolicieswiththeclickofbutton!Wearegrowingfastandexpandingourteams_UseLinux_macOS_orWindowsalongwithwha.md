@@ -4,7 +4,9 @@ author:
   name: ericmay
   url: https://news.ycombinator.com/item?id=38845134
 ---
-Bold Penguin | Remote (US)* | Full Time | Software Engineers Bold Penguin products help insurance agencies successfully quote and bind small business insurance policies with the click of button! We are growing fast and expanding our teams. Use Linux, macOS, or Windows along with whatever tools you enjoy using (Slack, Zoom, your choice IDE, etc.)
+Bold Penguin | Remote (US)* | Full Time | Software Engineers 
+
+Bold Penguin products help insurance agencies successfully quote and bind small business insurance policies with the click of button! We are growing fast and expanding our teams. Use Linux, macOS, or Windows along with whatever tools you enjoy using (Slack, Zoom, your choice IDE, etc.)
 If you don’t meet all of the qualifications please don’t worry. Apply anyway!
 
 Current open roles:
