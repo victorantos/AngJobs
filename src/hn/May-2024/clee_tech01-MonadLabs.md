@@ -12,10 +12,12 @@ Founded by Jump Trading alums, Monad Labs is a 30-person tech startup using low-
 
 We are hiring for the following roles, blockchain experience not required:
 
-<i>System engineering backgrounds, especially in Rust, C++, C and&#x2F;or Golang:
+*System engineering backgrounds, especially in Rust, C++, C and&#x2F;or Golang:*
 
 1. <a href="https:&#x2F;&#x2F;boards.greenhouse.io&#x2F;monad&#x2F;jobs&#x2F;4355634005?gh_src=e35327ca5us" rel="nofollow">https:&#x2F;&#x2F;boards.greenhouse.io&#x2F;monad&#x2F;jobs&#x2F;4355634005?gh_src=e3...</a>
 
 2. <a href="https:&#x2F;&#x2F;boards.greenhouse.io&#x2F;monad&#x2F;jobs&#x2F;4373013005?gh_src=4970151a5us" rel="nofollow">https:&#x2F;&#x2F;boards.greenhouse.io&#x2F;monad&#x2F;jobs&#x2F;4373013005?gh_src=49...</a>
 
-</i>Compiler engineer: <a href="https:&#x2F;&#x2F;boards.greenhouse.io&#x2F;monad&#x2F;jobs&#x2F;4376056005?gh_src=c0f1fd895us" rel="nofollow">https:&#x2F;&#x2F;boards.greenhouse.io&#x2F;monad&#x2F;jobs&#x2F;4376056005?gh_src=c0...</a>
+Compiler engineer: 
+<a href="https:&#x2F;&#x2F;boards.greenhouse.io&#x2F;monad&#x2F;jobs&#x2F;4376056005?gh_src=c0f1fd895us" rel="nofollow">https:&#x2F;&#x2F;boards.greenhouse.io&#x2F;monad&#x2F;jobs&#x2F;4376056005?gh_src=c0...
+</a>

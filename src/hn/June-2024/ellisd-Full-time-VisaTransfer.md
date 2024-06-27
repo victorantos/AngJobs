@@ -4,7 +4,8 @@ author:
   name: ellisd
   url: https://news.ycombinator.com/item?id=40567192
 ---
-Nuna (<a href="https:&#x2F;&#x2F;www.nuna.com" rel="nofollow">https:&#x2F;&#x2F;www.nuna.com</a>) - San Francisco &amp; Remote friendly (US only)- Full-time - Visa Transfer
+Nuna (
+<a href="https:&#x2F;&#x2F;www.nuna.com" rel="nofollow">https:&#x2F;&#x2F;www.nuna.com</a>) - San Francisco &amp; Remote friendly (US only)- Full-time - Visa Transfer
 
 In the US, we spend an average of over $12,500 per person each year on healthcare -- that’s almost twice what other developed countries spend. Healthcare in the US costs a staggering $4 trillion dollars per year, almost 1&#x2F;5 of our Nation’s entire economy. Yet with all this resource, our healthcare outcomes are poorer than other countries, people still can’t afford their healthcare, and our healthcare providers are burnt out.
 
@@ -52,7 +53,8 @@ Open positions include:
 
 * IT Manager (for engineering org, NOT operations)
 
-Jobs Board: <a href="https:&#x2F;&#x2F;bit.ly&#x2F;nuna-job-board" rel="nofollow">https:&#x2F;&#x2F;bit.ly&#x2F;nuna-job-board</a>
+Jobs Board: 
+<a href="https:&#x2F;&#x2F;bit.ly&#x2F;nuna-job-board" rel="nofollow">https:&#x2F;&#x2F;bit.ly&#x2F;nuna-job-board</a>
 
 Frontend: React, Typescript, Flutter (Android and iOS)
 

@@ -4,7 +4,8 @@ author:
   name: ellisd
   url: https://news.ycombinator.com/item?id=40225210
 ---
-Nuna (<a href="https:&#x2F;&#x2F;www.nuna.com" rel="nofollow">https:&#x2F;&#x2F;www.nuna.com</a>) - San Francisco &amp; Remote friendly (US only)- Full-time - Visa Transfer
+Nuna (
+<a href="https:&#x2F;&#x2F;www.nuna.com" rel="nofollow">https:&#x2F;&#x2F;www.nuna.com</a>) - San Francisco &amp; Remote friendly (US only)- Full-time - Visa Transfer
 In the US, we spend an average of over $12,500 per person each year on healthcare -- that’s almost twice what other developed countries spend. Healthcare in the US costs a staggering $4 trillion dollars per year, almost 1&#x2F;5 of our Nation’s entire economy. Yet with all this resource, our healthcare outcomes are poorer than other countries, people still can’t afford their healthcare, and our healthcare providers are burnt out.
 
 Moreover, our healthcare is systemically unequal. People of color, lower income, and LGBTQ+ have demonstrably worse healthcare outcomes, a disparity grimly highlighted by the pandemic we’re living through now where people of color are three-times more likely to die from COVID-19.
@@ -37,7 +38,8 @@ Open positions include:
 
 * Senior Flutter Mobile Software Engineer, Rewards
 
-Jobs Board: <a href="https:&#x2F;&#x2F;bit.ly&#x2F;nuna-job-board" rel="nofollow">https:&#x2F;&#x2F;bit.ly&#x2F;nuna-job-board</a>
+Jobs Board: 
+<a href="https:&#x2F;&#x2F;bit.ly&#x2F;nuna-job-board" rel="nofollow">https:&#x2F;&#x2F;bit.ly&#x2F;nuna-job-board</a>
 
 Frontend: React, Typescript, Flutter (Android and iOS)
 
