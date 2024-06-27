@@ -6,4 +6,4 @@ category:
   - Jobs
 ---
 
-<Catalog hideHeading=true />
+<Catalog hideHeading="true" />
