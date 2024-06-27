@@ -1,8 +1,10 @@
 ---
 title: "MahiGaming : Full Stack Developer"
-icon: minus
+author:
+  name: MahiGaming
+  url: https://news.ycombinator.com/item?id=40565848
 ---
-MahiGaming | Full Stack Developer | Boca Raton, FL &#x2F; Las Vegas, NV &#x2F; Vancouver, BC &#x2F; San Diego, CA | Full Time | On-Site
+MahiGaming - Full Stack Developer - Boca Raton, FL &#x2F; Las Vegas, NV &#x2F; Vancouver, BC &#x2F; San Diego, CA - Full Time - On-Site
 
 MahiGaming is an industry-leading online casino game development company with multiple studios in North America with some of the highest distribution of games across global markets.
 

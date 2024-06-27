@@ -1,8 +1,10 @@
 ---
 title: "Typefully : Full Stack Engineer"
-icon: minus
+author:
+  name: frankdilo
+  url: https://news.ycombinator.com/item?id=40607459
 ---
-Typefully | Full Stack Engineer | Remote (CET Preferred) | Full-Time
+Typefully - Full Stack Engineer - Remote (CET Preferred) - Full-Time
 
 Typefully is an extremely polished web app for crafting, scheduling, and publishing exceptional content on social media, empowering over 150k creators and teams globally.
 

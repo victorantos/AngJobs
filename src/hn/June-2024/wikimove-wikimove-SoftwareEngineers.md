@@ -1,8 +1,10 @@
 ---
 title: "wikimove : Software Engineers"
-icon: minus
+author:
+  name: wikimove
+  url: https://news.ycombinator.com/item?id=40567514
 ---
-wikimove | Software Engineers | Contract &#x2F; Full-Time | Fully Remote (Europe CET+&#x2F;-2)
+wikimove - Software Engineers - Contract &#x2F; Full-Time - Fully Remote (Europe CET+&#x2F;-2)
 
 We are wikimove, a startup focused on changing how mobility is implemented in cities around the world. We build a MaaS (Mobility-as-a-Service) platform which enables cities to take control over urban mobility. Come work with us to help reduce climate change through technology and help make the world better today and for future generations. Our existing customers range from cities to large transportation associations within Germany. Our next step is to expand into other European countries.
 

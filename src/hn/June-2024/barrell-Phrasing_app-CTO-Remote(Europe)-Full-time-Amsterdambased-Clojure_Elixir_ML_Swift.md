@@ -1,8 +1,10 @@
 ---
 title: "Phrasing.app : CTO"
-icon: minus
+author:
+  name: barrell
+  url: https://news.ycombinator.com/item?id=40572765
 ---
-Phrasing.app | CTO | Remote (Europe) | Full-time | Amsterdam based | Clojure, Elixir, ML, Swift
+Phrasing.app - CTO - Remote (Europe) - Full-time - Amsterdam based - Clojure, Elixir, ML, Swift
 
 We&#x27;re a small scrappy team of two building a language learning app to rival the giants. We&#x27;ve just launched privately, and are getting ready for a larger public launch (once the major bugs are fixed and the ftux is documented).
 

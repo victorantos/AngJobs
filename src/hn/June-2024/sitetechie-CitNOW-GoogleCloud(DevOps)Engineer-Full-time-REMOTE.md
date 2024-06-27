@@ -1,8 +1,10 @@
 ---
 title: "CitNOW : Google Cloud (DevOps) Engineer"
-icon: minus
+author:
+  name: sitetechie
+  url: https://news.ycombinator.com/item?id=40578278
 ---
-CitNOW | Google Cloud (DevOps) Engineer | Full-time | REMOTE | <a href="https:&#x2F;&#x2F;www.citnowgroup.com&#x2F;careers&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.citnowgroup.com&#x2F;careers&#x2F;</a>
+CitNOW - Google Cloud (DevOps) Engineer - Full-time - REMOTE - <a href="https:&#x2F;&#x2F;www.citnowgroup.com&#x2F;careers&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.citnowgroup.com&#x2F;careers&#x2F;</a>
 
 At CitNOW Conversations, part of CitNOW Group, we&#x27;re developing an automotive messaging platform, connecting car brands and dealers to consumers through innovative messaging solutions (agents and bots). We are a fully remote team.
 

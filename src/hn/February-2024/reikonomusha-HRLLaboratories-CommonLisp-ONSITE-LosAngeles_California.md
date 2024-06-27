@@ -1,8 +1,10 @@
 ---
-title: "HRL Laboratories : Common Lisp "
-icon: minus
+title: "HRL Laboratories : Common Lisp"
+author:
+  name: reikonomusha
+  url: https://news.ycombinator.com/item?id=39219100
 ---
-HRL Laboratories | Senior Software Engineer; Principal Compiler Engineer | Common Lisp | ONSITE | Los Angeles, California | <a href="https:&#x2F;&#x2F;quantum.hrl.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;quantum.hrl.com&#x2F;</a>
+HRL Laboratories - Senior Software Engineer; Principal Compiler Engineer - Common Lisp - ONSITE - Los Angeles, California - <a href="https:&#x2F;&#x2F;quantum.hrl.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;quantum.hrl.com&#x2F;</a>
 
 HRL Laboratories is a private, scientific laboratory that has been in business since 1960. We are best known for having created the first working laser.
 
@@ -18,7 +20,7 @@ Those who are excellent programmers experienced with
 
 - and solid undergraduate mathematics and advanced computer science
 
-are most qualified. We can train you on Lisp, Coalton, and quantum if the fundamentals are there. Knowledge of quantum computing is <i>not</i> necessary for most software engineering roles.
+are most qualified. We can train you on Lisp, Coalton, and quantum if the fundamentals are there. Knowledge of quantum computing is *not* necessary for most software engineering roles.
 
 Interview process: phone call, &quot;take-home&quot; exercise, on-site interview (no whiteboarding), reference checks, and offer.
 

@@ -1,8 +1,10 @@
 ---
 title: "Authentik Security : Engineer"
-icon: minus
+author:
+  name: fheisler
+  url: https://news.ycombinator.com/item?id=40563839
 ---
-Authentik Security | Engineer | US | REMOTE (anywhere) | Full-time
+Authentik Security - Engineer - US - REMOTE (anywhere) - Full-time
 
 Authentik Security (<a href="https:&#x2F;&#x2F;goauthentik.io" rel="nofollow">https:&#x2F;&#x2F;goauthentik.io</a>) is the company behind authentik (<a href="https:&#x2F;&#x2F;github.com&#x2F;goauthentik&#x2F;authentik">https:&#x2F;&#x2F;github.com&#x2F;goauthentik&#x2F;authentik</a>), an open source identity provider with over 250k+ unique installations and 12M+ downloads. Help us replace Okta&#x2F;Auth0, Ping Identity, and Microsoft Entra with modern, secure identity for all!
 

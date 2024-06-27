@@ -1,8 +1,10 @@
 ---
 title: "Automattic : Remote"
-icon: minus
+author:
+  name: photomatt
+  url: https://news.ycombinator.com/item?id=40564710
 ---
-Automattic | Remote | Full-time | Multiple roles | $110-$210k+ and great benefits
+Automattic - Remote - Full-time - Multiple roles - $110-$210k+ and great benefits
 
 We&#x27;re looking for engineers to help us build, grow, and maintain products used by over a billion people each month across WordPress.com, WooCommerce, WordPress VIP, Jetpack, Tumblr, Beeper &amp; Texts.com, Day One, Pocket Casts, and many more.
 

@@ -1,8 +1,10 @@
 ---
 title: "AE Studio : LA Office"
-icon: minus
+author:
+  name: rbesen
+  url: https://news.ycombinator.com/item?id=40566580
 ---
-AE Studio | LA Office | Multiple Roles | Full-Time | Remote | ae.studio
+AE Studio - LA Office - Multiple Roles - Full-Time - Remote - ae.studio
 
 We are a development, data science and design studio that works closely with founders and executives to create custom software and machine learning solutions.
 We are hiring top notch professionals passionate about software development, data science, design or product management to work with our amazing team creating human agency increasing software!

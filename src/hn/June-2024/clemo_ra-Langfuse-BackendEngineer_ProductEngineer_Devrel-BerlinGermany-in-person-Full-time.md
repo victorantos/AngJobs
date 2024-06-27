@@ -1,8 +1,10 @@
 ---
 title: "Langfuse : Backend Engineer, Product Engineer, Devrel"
-icon: minus
+author:
+  name: clemo_ra
+  url: https://news.ycombinator.com/item?id=40564103
 ---
-Langfuse | Backend Engineer, Product Engineer, Devrel | Berlin Germany | in-person | Full-time
+Langfuse - Backend Engineer, Product Engineer, Devrel - Berlin Germany - in-person - Full-time
 
 I&#x27;m Clemens, co-founder of Langfuse (YC W23) - we&#x27;re building open source LLMOps dev tooling (Github: <a href="https:&#x2F;&#x2F;github.com&#x2F;langfuse&#x2F;langfuse&#x2F;">https:&#x2F;&#x2F;github.com&#x2F;langfuse&#x2F;langfuse&#x2F;</a>). We started with observability and have branched out into more workflows over time (evals, prompt mgmt, playground, testing...). 
 We have a bunch of traction and are looking for our third to fifth hire in scaling and building feature depth. We&#x27;re hiring in person (4-5 days&#x2F;week) in Berlin, Germany (salary ranges for each job 70k-130k, up to 0.75% equity).

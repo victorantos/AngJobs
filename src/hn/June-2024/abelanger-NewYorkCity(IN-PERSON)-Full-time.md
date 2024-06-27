@@ -1,8 +1,10 @@
 ---
 title: "New York City (IN-PERSON) : Full-time"
-icon: minus
+author:
+  name: abelanger
+  url: https://news.ycombinator.com/item?id=40569411
 ---
-Hatchet (<a href="https:&#x2F;&#x2F;hatchet.run">https:&#x2F;&#x2F;hatchet.run</a>) | New York City (IN-PERSON) | Full-time
+Hatchet (<a href="https:&#x2F;&#x2F;hatchet.run">https:&#x2F;&#x2F;hatchet.run</a>) - New York City (IN-PERSON) - Full-time
 
 We&#x27;re hiring a founding engineer to help us with development on our open-source, distributed task queue: <a href="https:&#x2F;&#x2F;github.com&#x2F;hatchet-dev&#x2F;hatchet">https:&#x2F;&#x2F;github.com&#x2F;hatchet-dev&#x2F;hatchet</a>.
 

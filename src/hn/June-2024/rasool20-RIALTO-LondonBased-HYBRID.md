@@ -1,8 +1,10 @@
 ---
 title: "RIALTO : London Based"
-icon: minus
+author:
+  name: rasool20
+  url: https://news.ycombinator.com/item?id=40632351
 ---
-RIALTO | London Based | HYBRID
+RIALTO - London Based - HYBRID
 
 RIALTO is hiring a Full Stack Founding Engineer.  <a href="https:&#x2F;&#x2F;www.rialto.app&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.rialto.app&#x2F;</a>
 

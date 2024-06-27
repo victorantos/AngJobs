@@ -1,8 +1,10 @@
 ---
 title: "The New York Times : $111k-$155k"
-icon: minus
+author:
+  name: wilsonandrews
+  url: https://news.ycombinator.com/item?id=40585468
 ---
-The New York Times | Graphics&#x2F;Multimedia Editor — Applied Technology | $111k-$155k | Full-time | New York City
+The New York Times - Graphics&#x2F;Multimedia Editor — Applied Technology - $111k-$155k - Full-time - New York City
 
 The Graphics department at The New York Times is looking for an expert in technologies like computer vision, machine learning and cloud-based data analysis to engineer new approaches for reporting and storytelling. You will work with designers, developers, cartographers, reporters and editors to unearth new stories that are not possible with traditional reporting methods and to create new tools for visual and data storytelling.
 

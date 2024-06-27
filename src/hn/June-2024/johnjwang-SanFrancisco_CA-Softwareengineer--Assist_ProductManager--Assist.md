@@ -1,8 +1,10 @@
 ---
 title: "San Francisco, CA : Software engineer -- Assist, Product Manager -- Assist"
-icon: minus
+author:
+  name: johnjwang
+  url: https://news.ycombinator.com/item?id=40567506
 ---
-Assembled (<a href="https:&#x2F;&#x2F;assembled.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;assembled.com&#x2F;</a>) | San Francisco, CA | Software engineer -- Assist, Product Manager -- Assist
+Assembled (<a href="https:&#x2F;&#x2F;assembled.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;assembled.com&#x2F;</a>) - San Francisco, CA - Software engineer -- Assist, Product Manager -- Assist
 
 Help us build an AI issue resolution engine for customer support. We work with some of the top brands in the world in customer support (Stripe, Etsy, Robinhood, DoorDash, etc.) and we&#x27;re building a new AI product to streamline support workflows.
 

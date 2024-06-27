@@ -1,8 +1,10 @@
 ---
 title: "ABN AMRO : Amsterdam, Netherlands"
-icon: minus
+author:
+  name: hectormalot
+  url: https://news.ycombinator.com/item?id=40568862
 ---
-ABN AMRO | Amsterdam, Netherlands | AI Developer | HYBRID | Full Time | Python
+ABN AMRO - Amsterdam, Netherlands - AI Developer - HYBRID - Full Time - Python
 
 We&#x27;re looking for experienced people who want to help with our GenAI program. Roles range from project management to engineering to data roles, although there is less hard data science where LLMs are involved.
 

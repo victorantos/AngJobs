@@ -1,8 +1,10 @@
 ---
-title: "Common Crawl Foundation : REMOTE "
-icon: minus
+title: "Common Crawl Foundation : REMOTE"
+author:
+  name: ccgreg
+  url: https://news.ycombinator.com/item?id=40225377
 ---
-Common Crawl Foundation | REMOTE | Full and part-time | <a href="https:&#x2F;&#x2F;commoncrawl.org&#x2F;" rel="nofollow">https:&#x2F;&#x2F;commoncrawl.org&#x2F;</a> | web datasets
+Common Crawl Foundation - REMOTE - Full and part-time - <a href="https:&#x2F;&#x2F;commoncrawl.org&#x2F;" rel="nofollow">https:&#x2F;&#x2F;commoncrawl.org&#x2F;</a> - web datasets
 
 I&#x27;m the CTO at the Common Crawl Foundation, which has a 17 year old, 8 petabyte crawl &amp; archive of the web. Our open dataset has been cited in nearly 10,000 research papers, and is the most-used dataset in the AWS Open Data program. Our organization is also very active in the open source community.
 

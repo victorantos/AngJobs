@@ -1,8 +1,10 @@
 ---
 title: "Resemble AI : San Francisco Bay Area (office in Mountain View, CA)"
-icon: minus
+author:
+  name: happycry
+  url: https://news.ycombinator.com/item?id=40570582
 ---
-Resemble AI | San Francisco Bay Area (office in Mountain View, CA) | Full-Time | Full-Stack Engineer
+Resemble AI - San Francisco Bay Area (office in Mountain View, CA) - Full-Time - Full-Stack Engineer
 
 We&#x27;re creating state of the art Generative Voice AI models. Looking for full stack developers that love to create prototypes and would directly with the founders. Recently, we open sourced a state of the art speech enhancement model: <a href="https:&#x2F;&#x2F;github.com&#x2F;resemble-ai&#x2F;resemble-enhance">https:&#x2F;&#x2F;github.com&#x2F;resemble-ai&#x2F;resemble-enhance</a>
 

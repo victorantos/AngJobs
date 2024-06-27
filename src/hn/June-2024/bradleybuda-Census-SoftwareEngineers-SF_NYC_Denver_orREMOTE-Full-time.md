@@ -1,8 +1,10 @@
 ---
 title: "Census : Software Engineers"
-icon: minus
+author:
+  name: bradleybuda
+  url: https://news.ycombinator.com/item?id=40566151
 ---
-Census | Software Engineers | SF, NYC, Denver, or REMOTE | Full-time
+Census - Software Engineers - SF, NYC, Denver, or REMOTE - Full-time
 
 Census invented Reverse ETL and we&#x27;re now bringing it to development teams everywhere via our Embedded product. We need you to help us deliver intuitive, fast, and rock-solid APIs that allow teams to integrate their data with dozens of warehouses and hundreds of SaaS applications.
 

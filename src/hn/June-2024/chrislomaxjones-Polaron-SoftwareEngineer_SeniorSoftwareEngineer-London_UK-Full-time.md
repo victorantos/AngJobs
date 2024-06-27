@@ -1,8 +1,10 @@
 ---
 title: "Polaron : Software Engineer, Senior Software Engineer"
-icon: minus
+author:
+  name: chrislomaxjones
+  url: https://news.ycombinator.com/item?id=40563350
 ---
-Polaron | Software Engineer, Senior Software Engineer | London, UK | Full-time
+Polaron - Software Engineer, Senior Software Engineer - London, UK - Full-time
 
 Polaron is an Imperial College London spinout [1] using generative AI to transform the material design process. We’re leveraging machine learning to bridge the gap between process (how materials are made) and performance (how materials behave). For example, using our image-based generative AI technology, we designed a Li-ion battery cathode with a 10% increased power density compared to the original design.
 

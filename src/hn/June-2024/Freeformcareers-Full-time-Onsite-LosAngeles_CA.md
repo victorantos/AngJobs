@@ -1,8 +1,10 @@
 ---
 title: "Full-time : Onsite"
-icon: minus
+author:
+  name: Freeformcareers
+  url: https://news.ycombinator.com/item?id=40661985
 ---
-Freeform (<a href="https:&#x2F;&#x2F;freeform.co&#x2F;" rel="nofollow">https:&#x2F;&#x2F;freeform.co&#x2F;</a>) | Software Engineers (C++ &#x2F; Rust) | Full-time | Onsite | Los Angeles, CA
+Freeform (<a href="https:&#x2F;&#x2F;freeform.co&#x2F;" rel="nofollow">https:&#x2F;&#x2F;freeform.co&#x2F;</a>) - Software Engineers (C++ &#x2F; Rust) - Full-time - Onsite - Los Angeles, CA
 
 Our team recently secured a key partnership with NVIDIA’s inception program and have been diving into advanced hardware acceleration, leveraging high-speed vision systems alongside modern GPUs and FPGAs to power up our autonomous metal 3D printing factories at a global scale.
 

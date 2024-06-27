@@ -1,8 +1,10 @@
 ---
 title: "Continua AI : ML and Systems Engineers"
-icon: minus
+author:
+  name: continua
+  url: https://news.ycombinator.com/item?id=40563302
 ---
-Continua AI | ML and Systems Engineers | NYC, SF Bay Area, Seattle | <a href="http:&#x2F;&#x2F;continua.ai" rel="nofollow">http:&#x2F;&#x2F;continua.ai</a>
+Continua AI - ML and Systems Engineers - NYC, SF Bay Area, Seattle - <a href="http:&#x2F;&#x2F;continua.ai" rel="nofollow">http:&#x2F;&#x2F;continua.ai</a>
 
 Continua was founded in April 2023 by a Distinguished Engineer from Google Research to give everyone in the world an agent that uses their real-time context and personal memory to deliver actionable and timely assistance.
 Our MVP is currently rolling out to select users, and we’re immensely excited by the feedback we’re getting - they’re finding that the Continua agent helps them in all manner of surprisingly useful ways.

@@ -1,8 +1,10 @@
 ---
 title: "Shuttle : Senior Cloud Engineer"
-icon: minus
+author:
+  name: zakshuttle
+  url: https://news.ycombinator.com/item?id=40582984
 ---
-Shuttle | Senior Cloud Engineer | London or Remote | shuttle.rs
+Shuttle - Senior Cloud Engineer - London or Remote - shuttle.rs
 
 At Shuttle, we&#x27;re on a mission to redefine the developer experience for building cloud applications. We want to empower the next generation of builders to make use of the latest and greatest cloud technologies, by crafting the simplest, fastest, and most enjoyable development experience.
 

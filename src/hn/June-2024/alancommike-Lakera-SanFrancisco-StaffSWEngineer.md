@@ -1,8 +1,10 @@
 ---
 title: "Lakera : San Francisco"
-icon: minus
+author:
+  name: alancommike
+  url: https://news.ycombinator.com/item?id=40567579
 ---
-Lakera | San Francisco | Staff SW Engineer
+Lakera - San Francisco - Staff SW Engineer
 
 I&#x27;m looking for a few Staff-level software engineers to kick-start our US engineer team. We&#x27;re building guardrails and safety for anyone and everyone deploying LLMs.
 

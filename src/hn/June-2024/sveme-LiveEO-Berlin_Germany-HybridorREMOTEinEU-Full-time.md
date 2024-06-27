@@ -1,8 +1,10 @@
 ---
 title: "LiveEO : Berlin, Germany"
-icon: minus
+author:
+  name: sveme
+  url: https://news.ycombinator.com/item?id=40565939
 ---
-LiveEO | Berlin, Germany | Hybrid or REMOTE in EU | Full-time
+LiveEO - Berlin, Germany - Hybrid or REMOTE in EU - Full-time
 
 Hiring Manager here, we&#x27;re building e2e applications using ML&#x2F;AI and satellite imagery to identify deforestation in EU supply chains - and more.
 

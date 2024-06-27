@@ -1,8 +1,10 @@
 ---
 title: "OnCare : Mid-Senior Software Engineer"
-icon: minus
+author:
+  name: kulor
+  url: https://news.ycombinator.com/item?id=40568363
 ---
-OnCare | Mid-Senior Software Engineer | Remote &#x2F; London | <a href="https:&#x2F;&#x2F;www.weareoncare.com" rel="nofollow">https:&#x2F;&#x2F;www.weareoncare.com</a>
+OnCare - Mid-Senior Software Engineer - Remote &#x2F; London - <a href="https:&#x2F;&#x2F;www.weareoncare.com" rel="nofollow">https:&#x2F;&#x2F;www.weareoncare.com</a>
 
 * We need help building &amp; evolving features to help care agencies run their operations better. Everything we do to improve operational effectiveness for care agencies leads to a better quality of life for everyone involved
 

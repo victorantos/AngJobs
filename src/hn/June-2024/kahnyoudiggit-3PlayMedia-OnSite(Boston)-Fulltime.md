@@ -1,8 +1,10 @@
 ---
 title: "3Play Media : On Site (Boston)"
-icon: minus
+author:
+  name: kahnyoudiggit
+  url: https://news.ycombinator.com/item?id=40564004
 ---
-3Play Media | On Site (Boston) | Full time | <a href="https:&#x2F;&#x2F;3playmedia.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;3playmedia.com&#x2F;</a>
+3Play Media - On Site (Boston) - Full time - <a href="https:&#x2F;&#x2F;3playmedia.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;3playmedia.com&#x2F;</a>
 
 I lead the recorded engineering team at 3Play Media, a company dedicated to improving digital media accessibility. 3Play Media is a rapidly growing, profitable technology company revolutionizing how people consume online media. Our premium live captioning, transcription, audio description, and translation solutions serve over 10,000 higher ed, enterprise, media, and government customers.
 

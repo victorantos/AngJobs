@@ -1,8 +1,10 @@
 ---
 title: "Runn : Product Engineers"
-icon: minus
+author:
+  name: rsavage
+  url: https://news.ycombinator.com/item?id=40563325
 ---
-Runn | <a href="https:&#x2F;&#x2F;runn.io" rel="nofollow">https:&#x2F;&#x2F;runn.io</a> | Product Engineers | Remote (Canada&#x2F;US&#x2F;Latin America) | 4-day work week | $118-169k CAD
+Runn - <a href="https:&#x2F;&#x2F;runn.io" rel="nofollow">https:&#x2F;&#x2F;runn.io</a> - Product Engineers - Remote (Canada&#x2F;US&#x2F;Latin America) - 4-day work week - $118-169k CAD
 
 We are a SaaS startup headquartered in New Zealand, with 16 engineers across NZ, Asia and Europe. We are now looking to build out our US-timezone team. We’re look for intermediate to staff engineers who care deeply about product. We are running full-stack typescript with React on the frontend, a well tested and comprehensive CI&#x2F;CD pipeline and follow a modified version of shape up.
 

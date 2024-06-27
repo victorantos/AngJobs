@@ -1,8 +1,10 @@
 ---
 title: "Electric Twin : Multiple Roles"
-icon: minus
+author:
+  name: ypeneva
+  url: https://news.ycombinator.com/item?id=40575361
 ---
-Electric Twin | Multiple Roles | ONSITE LONDON | Full-time
+Electric Twin - Multiple Roles - ONSITE LONDON - Full-time
 
 Electric Twin is building advanced systems to predict human behaviour leveraging LLM technology. Founded by ex-Chief advisor on Digital and Data to the Prime Minister and ex-commanding SAS Officer, we are looking to scale our team across software engineering, data science and AI &#x2F; ML engineering
 

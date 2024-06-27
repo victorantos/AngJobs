@@ -1,8 +1,10 @@
 ---
 title: "Stainless : Generalist Engineers, First AE"
-icon: minus
+author:
+  name: rattray
+  url: https://news.ycombinator.com/item?id=40570383
 ---
-Stainless | Generalist Engineers, First AE | NYC ONSITE | Full-time
+Stainless - Generalist Engineers, First AE - NYC ONSITE - Full-time
 
 (We were on hn recently: <a href="https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=40146505">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=40146505</a>)
 

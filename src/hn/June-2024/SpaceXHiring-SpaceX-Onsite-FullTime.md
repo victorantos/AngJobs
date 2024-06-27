@@ -1,8 +1,10 @@
 ---
 title: "SpaceX : Onsite"
-icon: minus
+author:
+  name: SpaceXHiring
+  url: https://news.ycombinator.com/item?id=40568280
 ---
-SpaceX | Onsite | Full Time
+SpaceX - Onsite - Full Time
 
 Los Angeles, CA
 Seattle, WA
@@ -10,9 +12,9 @@ Washington D.C.
 
 Rockets, spaceships &amp; satellites! Updates: www.spacex.com&#x2F;updates&#x2F;
 
-<i>Eligible for LA, Seattle, &amp; DC</i>
+*Eligible for LA, Seattle, &amp; DC*
 
-<i>SPACEX CORPORATE</i>
+*SPACEX CORPORATE*
 
 Principal Software Eng: <a href="https:&#x2F;&#x2F;grnh.se&#x2F;908420eb2us" rel="nofollow">https:&#x2F;&#x2F;grnh.se&#x2F;908420eb2us</a>
 
@@ -20,9 +22,9 @@ Sr. Software Eng: <a href="https:&#x2F;&#x2F;grnh.se&#x2F;905cbe992us" rel="nofo
 
 Sr. Security Analyst: <a href="https:&#x2F;&#x2F;grnh.se&#x2F;0562fb502us" rel="nofollow">https:&#x2F;&#x2F;grnh.se&#x2F;0562fb502us</a>
 
-<i>Eligible for Seattle &amp; LA</i>
+*Eligible for Seattle &amp; LA*
 
-<i>STARLINK</i>
+*STARLINK*
 
 Principal Security Software: <a href="https:&#x2F;&#x2F;grnh.se&#x2F;c66c38fb2us" rel="nofollow">https:&#x2F;&#x2F;grnh.se&#x2F;c66c38fb2us</a>
 

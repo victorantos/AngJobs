@@ -1,8 +1,10 @@
 ---
 title: "Evaboot : Refactoring Python Django Backend"
-icon: minus
+author:
+  name: robz75
+  url: https://news.ycombinator.com/item?id=40651140
 ---
-Evaboot | Refactoring Python Django Backend | Full-Time | REMOTE | <a href="https:&#x2F;&#x2F;evaboot.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;evaboot.com&#x2F;</a>
+Evaboot - Refactoring Python Django Backend - Full-Time - REMOTE - <a href="https:&#x2F;&#x2F;evaboot.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;evaboot.com&#x2F;</a>
 
 Hi, we are just 2 co-founders and we bootstrapped to 2M€ ARR in 2.5 years.
 

@@ -1,8 +1,10 @@
 ---
 title: "Furtim Modus"
-icon: minus
+author:
+  name: furtimmodus
+  url: https://news.ycombinator.com/item?id=40652677
 ---
-Furtim Modus | DevOps Engineer - ONSITE&#x2F;Hybrid NYC | Java Developer - Preferred NYC But Remote Considered (Americas&#x2F;Europe) | Part-Time&#x2F;Full-Time | <a href="https:&#x2F;&#x2F;furtimmodus.com" rel="nofollow">https:&#x2F;&#x2F;furtimmodus.com</a>
+Furtim Modus - DevOps Engineer - ONSITE&#x2F;Hybrid NYC - Java Developer - Preferred NYC But Remote Considered (Americas&#x2F;Europe) - Part-Time&#x2F;Full-Time - <a href="https:&#x2F;&#x2F;furtimmodus.com" rel="nofollow">https:&#x2F;&#x2F;furtimmodus.com</a>
 
 This is an exciting opportunity to contribute your skills and expertise to a electronic trading fintech venture based out of New York and receive equity in exchange for your contributions. Additionally, we’ll provide you the opportunity to convert full-time with base comp $150k–$250, full benefits, cash bonus, and more equity.
 

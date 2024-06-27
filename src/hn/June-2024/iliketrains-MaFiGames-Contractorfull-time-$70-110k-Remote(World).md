@@ -1,8 +1,10 @@
 ---
 title: "MaFi Games : Contract or full-time"
-icon: minus
+author:
+  name: iliketrains
+  url: https://news.ycombinator.com/item?id=40565368
 ---
-MaFi Games | Senior SWE&#x2F;game dev | Contract or full-time | $70-110k | Remote (World) | C#
+MaFi Games - Senior SWE&#x2F;game dev - Contract or full-time - $70-110k - Remote (World) - C#
 
 I’m the co-founder of MaFi Games – an indie studio behind the game Captain of Industry. We are a small but passionate team who gave up their jobs at Google&#x2F;Nvidia to pursue building the best factory simulation game possible, and we need more hands!
 

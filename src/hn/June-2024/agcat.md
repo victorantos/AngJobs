@@ -1,6 +1,8 @@
 ---
 title: "agcat"
-icon: minus
+author:
+  name: agcat
+  url: https://news.ycombinator.com/item?id=40564539
 ---
 Technical Product Marketer at Inferless.com - You will be taking care of all things content marketing, SEO and Social Media. Understand the needs of our ideal customer persona and craft relevant content. It&#x27;s 50% Content - 50% Distribution.
 

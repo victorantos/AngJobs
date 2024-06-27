@@ -1,8 +1,10 @@
 ---
 title: "Tandem Health : Software Engineers"
-icon: minus
+author:
+  name: oliverastrand
+  url: https://news.ycombinator.com/item?id=40566261
 ---
-Tandem Health | Software Engineers | On-site in Stockholm, Sweden | Full time
+Tandem Health - Software Engineers - On-site in Stockholm, Sweden - Full time
 
 The aging western population means we soon won’t be able to afford our current health care standards. Some 40% of the cost comes from administration. Much of this can be automated with LLMs + great software.
 

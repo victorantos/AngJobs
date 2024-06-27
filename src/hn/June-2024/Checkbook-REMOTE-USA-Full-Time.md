@@ -1,8 +1,10 @@
 ---
 title: "REMOTE - USA : Full-Time"
-icon: minus
+author:
+  name: Checkbook
+  url: https://news.ycombinator.com/item?id=40565855
 ---
-Checkbook (<a href="https:&#x2F;&#x2F;checkbook.io&#x2F;" rel="nofollow">https:&#x2F;&#x2F;checkbook.io&#x2F;</a>) | REMOTE - USA | Full-Time
+Checkbook (<a href="https:&#x2F;&#x2F;checkbook.io&#x2F;" rel="nofollow">https:&#x2F;&#x2F;checkbook.io&#x2F;</a>) - REMOTE - USA - Full-Time
 
 As a leading provider of both legacy and modern payment options, Checkbook is uniquely positioned to enable businesses to access the speed, flexibility and cost savings of modern payment technologies, with the familiarity and simplicity of paper checks.
 

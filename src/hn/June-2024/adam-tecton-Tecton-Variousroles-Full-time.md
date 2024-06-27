@@ -1,8 +1,10 @@
 ---
 title: "Tecton : Various roles"
-icon: minus
+author:
+  name: adam-tecton
+  url: https://news.ycombinator.com/item?id=40574574
 ---
-Tecton | <a href="https:&#x2F;&#x2F;tecton.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;tecton.ai&#x2F;</a> | Various roles | Remote (Americas), or Hybrid (San Francisco&#x2F;New York City) | Full-time
+Tecton - <a href="https:&#x2F;&#x2F;tecton.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;tecton.ai&#x2F;</a> - Various roles - Remote (Americas), or Hybrid (San Francisco&#x2F;New York City) - Full-time
 
 * About us *
 

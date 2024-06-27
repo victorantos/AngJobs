@@ -1,8 +1,10 @@
 ---
 title: "Icario Health : Sr. Software Engineer"
-icon: minus
+author:
+  name: grimre4p
+  url: https://news.ycombinator.com/item?id=40584921
 ---
-Icario Health | Sr. Software Engineer | Remote, Minnesota | Remote | 140,900 - 157,600 USD &#x2F; year | Full-Time
+Icario Health - Sr. Software Engineer - Remote, Minnesota - Remote - 140,900 - 157,600 USD &#x2F; year - Full-Time
 
 Tech stack: Cloud, JVM, Java, Kubernetes, Backend, DevOps
 

@@ -1,8 +1,10 @@
 ---
 title: "Etherdata.io : Cleveland, OH"
-icon: minus
+author:
+  name: theosm88
+  url: https://news.ycombinator.com/item?id=40701569
 ---
-Etherdata.io | Cleveland, OH | REMOTE | Full-time
+Etherdata.io - Cleveland, OH - REMOTE - Full-time
 
 Senior Software Engineer (Elixir)
 

@@ -1,8 +1,10 @@
 ---
 title: "Smithy : Full-time"
-icon: minus
+author:
+  name: dlicheva
+  url: https://news.ycombinator.com/item?id=40564035
 ---
-Smithy | Full-time | Senior Backend Engineer | London, UK
+Smithy - Full-time - Senior Backend Engineer - London, UK
 
 Smithy is a security pipeline orchestrator that makes it easy to automatically run any security tool and integrate it into a customer&#x27;s organisation. We are an early stage startup based in central London. The job is onsite 4 days a week.
 

@@ -1,8 +1,10 @@
 ---
 title: "Gruntwork : REMOTE (North American Timezone)"
-icon: minus
+author:
+  name: zgoldberg
+  url: https://news.ycombinator.com/item?id=40563961
 ---
-Gruntwork | GoLang Engineer, Marketing Manager &amp; Sales Engineer | REMOTE (North American Timezone) | Full-Time | <a href="https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;Gruntwork">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;Gruntwork</a>
+Gruntwork - GoLang Engineer, Marketing Manager &amp; Sales Engineer - REMOTE (North American Timezone) - Full-Time - <a href="https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;Gruntwork">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;Gruntwork</a>
 
 Gruntwork (gruntwork.io), the company behind Terragrunt, Terratest, Boilerplate and more is on a mission to transform the way DevOps is done. We are globally recognized both for our open source tools used by thousands of companies from startups to Fortune 500s, and our thought leadership on how DevOps should be done.
 

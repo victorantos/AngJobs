@@ -1,8 +1,10 @@
 ---
 title: "Charge Robotics : Senior Software Engineer"
-icon: minus
+author:
+  name: justicz
+  url: https://news.ycombinator.com/item?id=40569912
 ---
-Charge Robotics | Senior Software Engineer | Full-time | Onsite &#x2F; Hybrid | SF Bay Area
+Charge Robotics - Senior Software Engineer - Full-time - Onsite &#x2F; Hybrid - SF Bay Area
 
 Hi HN! We’re a YC-backed startup building robots that build large-scale solar farms. We just got back from the first commercial deployment of our system on a real-world solar construction site.
 

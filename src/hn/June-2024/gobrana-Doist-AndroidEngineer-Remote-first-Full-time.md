@@ -1,8 +1,10 @@
 ---
 title: "Doist : Android Engineer"
-icon: minus
+author:
+  name: gobrana
+  url: https://news.ycombinator.com/item?id=40567499
 ---
-Doist | Android Engineer | Remote-first | Full-time | Learn more &amp; apply (through June 14): <a href="https:&#x2F;&#x2F;doist.com&#x2F;careers&#x2F;239B4E837A-android-engineer" rel="nofollow">https:&#x2F;&#x2F;doist.com&#x2F;careers&#x2F;239B4E837A-android-engineer</a>
+Doist - Android Engineer - Remote-first - Full-time - Learn more &amp; apply (through June 14): <a href="https:&#x2F;&#x2F;doist.com&#x2F;careers&#x2F;239B4E837A-android-engineer" rel="nofollow">https:&#x2F;&#x2F;doist.com&#x2F;careers&#x2F;239B4E837A-android-engineer</a>
 
 Doist’s mission is to empower people with simple yet powerful tools.
 

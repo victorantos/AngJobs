@@ -1,8 +1,10 @@
 ---
 title: "Neurosym labs : ONSITE, INTERNS, VISA"
-icon: minus
+author:
+  name: pinouchon
+  url: https://news.ycombinator.com/item?id=40567727
 ---
-Neurosym labs | Zurich (maybe NY&#x2F;Boston, maybe SF&#x2F;Bay area) | ONSITE, INTERNS, VISA | Full-time
+Neurosym labs - Zurich (maybe NY&#x2F;Boston, maybe SF&#x2F;Bay area) - ONSITE, INTERNS, VISA - Full-time
 
 I am considering starting an AI&#x2F;ML research company in the field of neurosymbolic programming (which sits at the intersection of deep learning, program synthesis and probabilistic programming). The goal is to be 100% focused on producing research that is made publicly available, guided by intellectual curiosity and a desire to move the field forward.
 

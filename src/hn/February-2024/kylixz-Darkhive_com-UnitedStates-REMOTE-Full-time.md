@@ -1,8 +1,10 @@
 ---
-title: "Darkhive.com : United States "
-icon: minus
+title: "Darkhive.com : United States"
+author:
+  name: kylixz
+  url: https://news.ycombinator.com/item?id=39219743
 ---
-Darkhive.com | United States | REMOTE | Full-time | $150-220k + early shares, employee #10-15
+Darkhive.com - United States - REMOTE - Full-time - $150-220k + early shares, employee #10-15
 
 There are two kinds of drone companies on the market. DJI and everyone else you haven&#x27;t heard of. If you want to change that, particularly in the US, check us out. We are creating a palm-sized, autonomous  drones to help de-escalate dangerous situations.
 

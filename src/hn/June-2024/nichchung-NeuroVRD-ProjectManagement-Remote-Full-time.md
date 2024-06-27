@@ -1,8 +1,10 @@
 ---
 title: "NeuroVRD : Project Management"
-icon: minus
+author:
+  name: nichchung
+  url: https://news.ycombinator.com/item?id=40612344
 ---
-NeuroVRD | Project Management | Remote | Full-time
+NeuroVRD - Project Management - Remote - Full-time
 
 Neurovascular Research and Design (NeuroVRD) is developing an AI surgical monitoring platform (Sentinel AI-IOM) that automatically and continuously monitors the functional integrity of neurovascular structures that are at surgical risk during high-risk surgery, helping surgeons improve surgical outcomes and maintaining the patient&#x27;s quality of life. Our transformative approach to intraoperative monitoring will increase access and availability, improve reliability, and significantly reduce costs.
 

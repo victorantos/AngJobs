@@ -1,8 +1,10 @@
 ---
 title: "PermitFlow (YC W22) : New York, NY"
-icon: minus
+author:
+  name: samuelklam
+  url: https://news.ycombinator.com/item?id=40592463
 ---
-PermitFlow (YC W22) | Staff, Fullstack &amp; Frontend Software Engineers | New York, NY | ONSITE | Full-time | <a href="https:&#x2F;&#x2F;permitflow.com">https:&#x2F;&#x2F;permitflow.com</a>
+PermitFlow (YC W22) - Staff, Fullstack &amp; Frontend Software Engineers - New York, NY - ONSITE - Full-time - <a href="https:&#x2F;&#x2F;permitflow.com">https:&#x2F;&#x2F;permitflow.com</a>
 
 PermitFlow’s mission is to streamline and simplify construction permitting in the $1.6 trillion United States construction market. Our software reduces time to permit, supporting permitting end-to-end including permit research, application preparation, submission, and monitoring.
 
@@ -12,7 +14,7 @@ Permitting is a challenging yet interesting problem; thousands of municipalities
 
 We&#x27;re looking for customer-obsessed, ambitious, and hard-working teammates who are excited about solving a real-world problem with technology at its helm.
 
-NYC Onsite Roles | apply at: <a href="https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;permitflow?departmentId=d33195eb-8978-4439-abc6-5a8a072de808">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;permitflow?departmentId=d33195eb-89...</a>
+NYC Onsite Roles - apply at: <a href="https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;permitflow?departmentId=d33195eb-8978-4439-abc6-5a8a072de808">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;permitflow?departmentId=d33195eb-89...</a>
 
 1. Staff Software Engineer - $190K-250K + equity
 

@@ -1,8 +1,10 @@
 ---
 title: "Prophet Town : Full-Stack Engineer"
-icon: minus
+author:
+  name: jadowdl
+  url: https://news.ycombinator.com/item?id=40567465
 ---
-Prophet Town | Full-Stack Engineer | REMOTE (USA-preferred) | Part-time or Full-time (20-40 hours&#x2F;week) | $60-$110&#x2F;hr | English fluency required
+Prophet Town - Full-Stack Engineer - REMOTE (USA-preferred) - Part-time or Full-time (20-40 hours&#x2F;week) - $60-$110&#x2F;hr - English fluency required
 
 I’m the founder, trying to do “enlightened business.” We are a small, fully-remote, sf-bay-area-based, boutique indie tech agency, with significant flexibility on hours, projects, and location.  Our leadership staff are all ex-Fortune100; everybody codes.  One-half 9-5 engineering; one-half freelancing: freedom, without solo practice risk.  Startup&#x2F;entrepreneur mindset preferred.
 

@@ -1,8 +1,10 @@
 ---
 title: "QA Wolf : Remote (International)"
-icon: minus
+author:
+  name: BinRoo
+  url: https://news.ycombinator.com/item?id=40566925
 ---
-QA Wolf | AI lead &#x2F; Multiple Roles | Remote (International) | Full-time | <a href="https:&#x2F;&#x2F;www.qawolf.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.qawolf.com&#x2F;</a>
+QA Wolf - AI lead &#x2F; Multiple Roles - Remote (International) - Full-time - <a href="https:&#x2F;&#x2F;www.qawolf.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.qawolf.com&#x2F;</a>
 
 QA Wolf gets engineering teams to 80% automated E2E coverage fast, and keeps it there.
 

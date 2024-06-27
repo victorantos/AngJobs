@@ -1,10 +1,12 @@
 ---
 title: "DatologyAI : Member of Technical Staff"
-icon: minus
+author:
+  name: hurrycane
+  url: https://news.ycombinator.com/item?id=40567892
 ---
-DatologyAI | Member of Technical Staff | Full-time | Onsite, Redwood City, California | <a href="https:&#x2F;&#x2F;www.datologyai.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.datologyai.com&#x2F;</a>
+DatologyAI - Member of Technical Staff - Full-time - Onsite, Redwood City, California - <a href="https:&#x2F;&#x2F;www.datologyai.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.datologyai.com&#x2F;</a>
 
-At DatologyAI, we build tools to improve large-scale deep-learning models by selecting the <i>right</i> training data. We are automating data curation at petabyte scale, helping customers to train models faster, to better performance, and enabling smaller models to achieve performance competitive with much larger models. Models are what they eat, and the data models ingest determines everything about their capabilities.
+At DatologyAI, we build tools to improve large-scale deep-learning models by selecting the *right* training data. We are automating data curation at petabyte scale, helping customers to train models faster, to better performance, and enabling smaller models to achieve performance competitive with much larger models. Models are what they eat, and the data models ingest determines everything about their capabilities.
 
 Since founding less than a year ago, we have raised $57.6M, including a $46M Series A in May 2024. Our backers include AI luminaries Geoff Hinton, Yann LeCun, Jeff Dean, and Amazon and Microsoft.
 

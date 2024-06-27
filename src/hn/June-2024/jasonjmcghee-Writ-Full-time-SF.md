@@ -1,8 +1,10 @@
 ---
 title: "Writ : Full-time"
-icon: minus
+author:
+  name: jasonjmcghee
+  url: https://news.ycombinator.com/item?id=40564251
 ---
-Writ | Infrastructure &#x2F; Back-end Engineer | Full-time | SF | <a href="https:&#x2F;&#x2F;writ.so" rel="nofollow">https:&#x2F;&#x2F;writ.so</a>
+Writ - Infrastructure &#x2F; Back-end Engineer - Full-time - SF - <a href="https:&#x2F;&#x2F;writ.so" rel="nofollow">https:&#x2F;&#x2F;writ.so</a>
 
 We&#x27;re a funded seed-stage startup, building a new collaborative tool for data-driven teams.
 

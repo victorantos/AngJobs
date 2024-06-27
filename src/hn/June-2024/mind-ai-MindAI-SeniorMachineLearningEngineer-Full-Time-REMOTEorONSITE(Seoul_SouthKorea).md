@@ -1,8 +1,10 @@
 ---
 title: "Mind AI : Senior Machine Learning Engineer"
-icon: minus
+author:
+  name: mind-ai
+  url: https://news.ycombinator.com/item?id=40566376
 ---
-Mind AI | Senior Machine Learning Engineer | Full-Time | REMOTE or ONSITE (Seoul, South Korea) | <a href="https:&#x2F;&#x2F;about.mind.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;about.mind.ai&#x2F;</a>
+Mind AI - Senior Machine Learning Engineer - Full-Time - REMOTE or ONSITE (Seoul, South Korea) - <a href="https:&#x2F;&#x2F;about.mind.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;about.mind.ai&#x2F;</a>
 
 At Mind AI, we integrate Symbolic AI, Machine Learning, and Search Algorithms to develop AI solutions for challenging problems that require advanced reasoning, high-performance calculations, and effective optimization. We are now seeking a Senior Machine Learning Engineer with deep expertise in Supervised Learning, Unsupervised Learning, and Reinforcement Learning to help us enhance our Calculation Kernel.
 

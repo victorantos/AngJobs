@@ -1,8 +1,10 @@
 ---
 title: "ONSITE+HYBRID : Full-Time"
-icon: minus
+author:
+  name: nadc
+  url: https://news.ycombinator.com/item?id=40571638
 ---
-Lovable (<a href="https:&#x2F;&#x2F;lovable.dev" rel="nofollow">https:&#x2F;&#x2F;lovable.dev</a>), creators of GPT Engineer (<a href="https:&#x2F;&#x2F;gptengineer.app" rel="nofollow">https:&#x2F;&#x2F;gptengineer.app</a>) | ONSITE+HYBRID | London &#x2F; Stockholm | Full-Time | Founding Engineers
+Lovable (<a href="https:&#x2F;&#x2F;lovable.dev" rel="nofollow">https:&#x2F;&#x2F;lovable.dev</a>), creators of GPT Engineer (<a href="https:&#x2F;&#x2F;gptengineer.app" rel="nofollow">https:&#x2F;&#x2F;gptengineer.app</a>) - ONSITE+HYBRID - London &#x2F; Stockholm - Full-Time - Founding Engineers
 
 We&#x27;re a small team of serial (ex-YC) founders, CTOs, designers &amp; IOI gold medalists set on being the first to make autonomous code generation work.
 

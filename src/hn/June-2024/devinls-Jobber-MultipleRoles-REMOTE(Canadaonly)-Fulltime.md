@@ -1,8 +1,10 @@
 ---
 title: "Jobber : Multiple Roles"
-icon: minus
+author:
+  name: devinls
+  url: https://news.ycombinator.com/item?id=40567668
 ---
-Jobber | Multiple Roles | REMOTE (Canada only) | Full time | <a href="https:&#x2F;&#x2F;jobber.com" rel="nofollow">https:&#x2F;&#x2F;jobber.com</a>
+Jobber - Multiple Roles - REMOTE (Canada only) - Full time - <a href="https:&#x2F;&#x2F;jobber.com" rel="nofollow">https:&#x2F;&#x2F;jobber.com</a>
 
 Stack: Ruby on Rails, GraphQL, React+Remix, React Native
 

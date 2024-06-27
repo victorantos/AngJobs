@@ -1,8 +1,10 @@
 ---
 title: "Remote : Senior Fullstack Engineer"
-icon: minus
+author:
+  name: reimertz
+  url: https://news.ycombinator.com/item?id=40568056
 ---
-HIFI Labs (<a href="https:&#x2F;&#x2F;hifilabs.co" rel="nofollow">https:&#x2F;&#x2F;hifilabs.co</a>) | Remote | Senior Fullstack Engineer
+HIFI Labs (<a href="https:&#x2F;&#x2F;hifilabs.co" rel="nofollow">https:&#x2F;&#x2F;hifilabs.co</a>) - Remote - Senior Fullstack Engineer
 
 Join HIFI Labs and work on innovative projects with well known and iconic musicians. Past artist activations include Rüfüs Du Sol, Dua Lipa, and Mike Shinoda&#x2F;Linkin Park. We&#x27;re looking for a Senior Fullstack Engineer passionate about design, user interactions, and privacy.
 

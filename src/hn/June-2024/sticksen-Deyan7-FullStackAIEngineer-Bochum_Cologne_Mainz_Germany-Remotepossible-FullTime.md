@@ -1,8 +1,10 @@
 ---
 title: "Deyan7 : Full Stack AI Engineer"
-icon: minus
+author:
+  name: sticksen
+  url: https://news.ycombinator.com/item?id=40571417
 ---
-Deyan7 | Full Stack AI Engineer | Bochum, Cologne, Mainz, Germany | Remote possible | Full Time
+Deyan7 - Full Stack AI Engineer - Bochum, Cologne, Mainz, Germany - Remote possible - Full Time
 
 We are Deyan7. We build leading AI solutions.
 

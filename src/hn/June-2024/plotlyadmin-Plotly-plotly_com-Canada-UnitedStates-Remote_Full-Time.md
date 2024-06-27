@@ -1,8 +1,10 @@
 ---
 title: "Plotly : plotly.com"
-icon: minus
+author:
+  name: plotlyadmin
+  url: https://news.ycombinator.com/item?id=40563601
 ---
-Plotly | plotly.com | Senior&#x2F;Staff Software Engineers, Full Stack, Engineering Manager, Platform | Canada | United States |Remote, Full-Time
+Plotly - plotly.com - Senior&#x2F;Staff Software Engineers, Full Stack, Engineering Manager, Platform - Canada - United States -Remote, Full-Time
 
 As a company with roots in the open-source community, Plotly introduced web-based data visualization to Python. Today, the company offers Dash Enterprise, which provides the best software tools and platform to enable every enterprise in the world to build and scale data applications quickly and easily.
 

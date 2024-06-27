@@ -1,8 +1,10 @@
 ---
 title: "Connectly"
-icon: minus
+author:
+  name: lyd
+  url: https://news.ycombinator.com/item?id=40590942
 ---
-Connectly | ML&#x2F;Frontend&#x2F;Backend (SF &amp; Remote)
+Connectly - ML&#x2F;Frontend&#x2F;Backend (SF &amp; Remote)
 
 Connectly (<a href="https:&#x2F;&#x2F;connectly.ai" rel="nofollow">https:&#x2F;&#x2F;connectly.ai</a>) is a series B company and we are actively looking for experienced(3 yr+) engineers to build best AI-driven conversational commerce experience end-to-end.
 

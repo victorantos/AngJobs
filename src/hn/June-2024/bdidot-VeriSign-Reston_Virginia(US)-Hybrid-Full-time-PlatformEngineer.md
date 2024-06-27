@@ -1,8 +1,10 @@
 ---
 title: "VeriSign : Reston, Virginia (US)"
-icon: minus
+author:
+  name: bdidot
+  url: https://news.ycombinator.com/item?id=40566219
 ---
-VeriSign | Reston, Virginia (US) | Hybrid | Full-time | Platform Engineer
+VeriSign - Reston, Virginia (US) - Hybrid - Full-time - Platform Engineer
 
 Engineering manager here, we&#x27;re hiring for a platform engineering position.
 

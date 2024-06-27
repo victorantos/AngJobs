@@ -1,8 +1,10 @@
 ---
 title: "Hop Labs : Software Engineer, Machine Learning"
-icon: minus
+author:
+  name: mflanaman
+  url: https://news.ycombinator.com/item?id=40579891
 ---
-Hop Labs | Software Engineer, Machine Learning | REMOTE (USA and Canada)
+Hop Labs - Software Engineer, Machine Learning - REMOTE (USA and Canada)
 
 Hop Labs (<a href="https:&#x2F;&#x2F;www.hoplabs.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.hoplabs.com&#x2F;</a>) is hiring software engineers for a few projects. We are looking for someone with ML and infrastructure experience, mid-to-senior level. Our company works with clients to build production-grade machine learning systems (see <a href="https:&#x2F;&#x2F;www.hoplabs.com&#x2F;work" rel="nofollow">https:&#x2F;&#x2F;www.hoplabs.com&#x2F;work</a>).
 

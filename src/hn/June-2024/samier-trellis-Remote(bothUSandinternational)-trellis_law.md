@@ -1,8 +1,10 @@
 ---
 title: "Remote (both US and international) : trellis.law"
-icon: minus
+author:
+  name: samier-trellis
+  url: https://news.ycombinator.com/item?id=40563960
 ---
-Trellis -- AI&#x2F;ML Engineer | Remote (both US and international) | trellis.law
+Trellis -- AI&#x2F;ML Engineer - Remote (both US and international) - trellis.law
 
 We are looking for a senior&#x2F;staff engineer who has experience building search systems to join our data science and machine learning team. The kinds of things we envision this hire doing:
 

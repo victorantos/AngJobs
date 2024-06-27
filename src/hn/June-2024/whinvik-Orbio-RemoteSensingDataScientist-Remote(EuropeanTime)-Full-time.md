@@ -1,8 +1,10 @@
 ---
 title: "Orbio : Remote Sensing Data Scientist"
-icon: minus
+author:
+  name: whinvik
+  url: https://news.ycombinator.com/item?id=40643514
 ---
-Orbio | Remote Sensing Data Scientist | Remote (European Time) | Full-time | <a href="https:&#x2F;&#x2F;www.orbio.earth">https:&#x2F;&#x2F;www.orbio.earth</a>
+Orbio - Remote Sensing Data Scientist - Remote (European Time) - Full-time - <a href="https:&#x2F;&#x2F;www.orbio.earth">https:&#x2F;&#x2F;www.orbio.earth</a>
 
 Orbio uses satellite imagery to track methane emissions from the oil &amp; gas industry. We sell the data to operators that want to monitor methane and reduce emissions at scale.
 

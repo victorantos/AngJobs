@@ -1,8 +1,10 @@
 ---
 title: "Justwatch : Golang eng"
-icon: minus
+author:
+  name: JustWatchTA
+  url: https://news.ycombinator.com/item?id=40572168
 ---
-Justwatch | Golang eng | Berlin (min 2days in office) | full time
+Justwatch - Golang eng - Berlin (min 2days in office) - full time
 
 We are trying to make justwatch.com the best streaming guide worldwide.
 

@@ -1,8 +1,10 @@
 ---
 title: "Cemit : Senior Frontend Engineer"
-icon: minus
+author:
+  name: agatald987
+  url: https://news.ycombinator.com/item?id=40585344
 ---
-Cemit | Senior Frontend Engineer | Oslo, Norway, Hybrid
+Cemit - Senior Frontend Engineer - Oslo, Norway, Hybrid
 
 Cemit is a data intelligence company with ambitions to lead a digital transformation of the railway industry globally. As a scale-up supported by top-tier investors, we are a dynamic and customer-centric organization with R&amp;D at the core of our DNA.  Our platform collects data from trains or tracks and uses machine learning and analytics to provide real-time insight into the health of the trains and tracks to drastically improve maintenance efficiency and rail uptime. Together we are leading an intelligent shift that will increase the reliability, affordability, and efficiency of rail transportation, enabling a greener future.
 

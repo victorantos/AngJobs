@@ -1,0 +1,29 @@
+---
+title: "Y Combinator : Full-time"
+author:
+  name: ryankicks
+  url: https://news.ycombinator.com/item?id=40237955
+---
+Y Combinator - <a href="https:&#x2F;&#x2F;www.ycombinator.com&#x2F;careers">https:&#x2F;&#x2F;www.ycombinator.com&#x2F;careers</a> - Full-time - San Francisco (In person only) - ryan@ycombinator.com
+
+Why would you want to work at YC? Well, the short of it is that you’d get unprecedented insight into how companies are started – with access to all the talks, constantly being around founders, and working directly with YC Group Partners. Our GPs are possibly the 12 most knowledgeable people in the world about starting companies. You’d be hard pressed to work here and NOT learn something new about startups every day – which might be helpful if you’re interested in starting a company yourself.
+
+Software also touches everything YC does. When I went through YC in 2013, the core pieces of the YC batch were a dinner each week, a 1-1 with your group partner, and an end-of-batch Demo Day event to raise money. Today, YC offers so many software tools to help founders build their companies, including:
+
+Demo Day website, which has helped founders raise $3B+ over the last 3 years
+Work at a Startup, where 1000s of companies have hired from a pool of 1M+ job seekers
+Bookface, a tool for YC founders to support and help each other build their companies
+
+YC software runs kind of like a startup: we have a small engineering team (15 people) full of full-stack software developers (Rails, React, Postgres) who talk to our users, ship fast and iterate often. YC’s great for people who like to move fast and learn quickly. As a member of our team, you’d work with and learn from some pretty experienced people who were early at Facebook, Carta, Salesforce, Twilio and other top companies.
+
+Many of us have also been founders, and seven former employees have gone on to start startups that were funded by YC. If you want to start a startup but don’t have a great idea yet, we welcome you to spend a couple years here to learn, and then launch your own. On the flip side, if you can see yourself writing code indefinitely, we’d love to keep you happy here at YC for a long time. Either one works for us.
+
+Building software at YC isn’t for everyone – YC’s real product is the Batch program and the Group Partners’ advice and help for the life of your startup. Our software team is often in the background, helping scale YC’s ability to help more companies, and in a way that means *more* 1-1 attention and support for each founder. What keeps me motivated is continuing to scale and improve YC through software, and getting to work with some of the most kind and talented people of my 20+ year career.
+
+If you have questions, I would love to answer them here. (It would help me understand how I can make our role &amp; work more clear!) And if this resonates with you, shoot me an email with what you’d most be excited to work on (job descriptions below) – ryan@ycombinator.com
+
+Y Combinator, Product Engineer on Bookface - <a href="https:&#x2F;&#x2F;www.ycombinator.com&#x2F;careers?ashby_jid=00c6950f-341f-4924-a456-ea32c9d5601d">https:&#x2F;&#x2F;www.ycombinator.com&#x2F;careers?ashby_jid=00c6950f-341f-...</a>
+
+Y Combinator, Product Engineer on Work at a Startup - <a href="https:&#x2F;&#x2F;www.ycombinator.com&#x2F;careers?ashby_jid=ef00c8d1-76e7-4cc3-82fe-7cc3e4679652">https:&#x2F;&#x2F;www.ycombinator.com&#x2F;careers?ashby_jid=ef00c8d1-76e7-...</a>
+
+Y Combinator, Product Engineer on Internal Tools - <a href="https:&#x2F;&#x2F;www.ycombinator.com&#x2F;careers?ashby_jid=bbf8f36d-60bf-4168-b2b8-fac91bc4534c">https:&#x2F;&#x2F;www.ycombinator.com&#x2F;careers?ashby_jid=bbf8f36d-60bf-...</a>

@@ -1,8 +1,10 @@
 ---
 title: "Databricks : Onsite"
-icon: minus
+author:
+  name: ssk2
+  url: https://news.ycombinator.com/item?id=40576224
 ---
-Databricks | Onsite | SF or MTV | Full-Time
+Databricks - Onsite - SF or MTV - Full-Time
 
 We have an open headcount on my team at Databricks (Compute Lifecycle) for a senior or staff engineer! Typically this means 5+ years of experience. For this role, we&#x27;re also looking for experience with distributed systems (and ideally experience running Kubernetes at scale). We&#x27;re based out of San Francisco and Mountain View. Databricks has returned to office, so applicants must be able to commute to one of these two offices at least two days a week.
 

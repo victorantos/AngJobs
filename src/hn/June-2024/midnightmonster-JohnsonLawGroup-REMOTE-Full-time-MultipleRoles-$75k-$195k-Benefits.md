@@ -1,8 +1,10 @@
 ---
 title: "Johnson Law Group : REMOTE"
-icon: minus
+author:
+  name: midnightmonster
+  url: https://news.ycombinator.com/item?id=40565033
 ---
-Johnson Law Group | REMOTE | Full-time | Multiple Roles | $75k-$195k | Benefits
+Johnson Law Group - REMOTE - Full-time - Multiple Roles - $75k-$195k - Benefits
 
 We&#x27;re working with Ruby on Rails, Postgres, Tailwind CSS, Hotwire, Svelte, Heroku, and Salesforce developing new [almost] green-field apps to make the litigation process smoother for people injured by big companies. Very small team.
 

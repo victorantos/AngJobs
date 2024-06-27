@@ -1,8 +1,10 @@
 ---
 title: "Limitless (Previously Rewind) : Full-time"
-icon: minus
+author:
+  name: brettbejcek
+  url: https://news.ycombinator.com/item?id=40661205
 ---
-Limitless (Previously Rewind) | Full-time | Remote | <a href="https:&#x2F;&#x2F;limitless.ai" rel="nofollow">https:&#x2F;&#x2F;limitless.ai</a>
+Limitless (Previously Rewind) - Full-time - Remote - <a href="https:&#x2F;&#x2F;limitless.ai" rel="nofollow">https:&#x2F;&#x2F;limitless.ai</a>
 
 At Limitless, our vision is to free the human mind from its biological limits. Limitless is a web app, Mac app, Windows app, and wearable that records what you&#x27;ve seen, said, or heard and makes it useful. Our investors include Sam Altman, Alexis Ohanian, a16z, First Round, NEA, and many others. We are a well-funded, 20-person, remote-first startup.
 

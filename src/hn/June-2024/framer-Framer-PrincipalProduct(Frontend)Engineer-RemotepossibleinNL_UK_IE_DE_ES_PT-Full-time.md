@@ -1,8 +1,10 @@
 ---
 title: "Framer : Principal Product (Frontend) Engineer"
-icon: minus
+author:
+  name: framer
+  url: https://news.ycombinator.com/item?id=40595321
 ---
-Framer | Principal Product (Frontend) Engineer | Remote possible in NL,UK,IE,DE,ES,PT| Full-time
+Framer - Principal Product (Frontend) Engineer - Remote possible in NL,UK,IE,DE,ES,PT- Full-time
 
 About us: With Framer, users can easily build complex websites straight from their design canvas, giving them full creative freedom without having to touch code.
 

@@ -1,8 +1,10 @@
 ---
 title: "India"
-icon: minus
+author:
+  name: siddharthb_
+  url: https://news.ycombinator.com/item?id=40570989
 ---
-TurboML (<a href="https:&#x2F;&#x2F;turboml.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;turboml.com&#x2F;</a>) | India | Enterprise Sales Manager&#x2F; Software Engineer &#x2F; ML Engineer
+TurboML (<a href="https:&#x2F;&#x2F;turboml.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;turboml.com&#x2F;</a>) - India - Enterprise Sales Manager&#x2F; Software Engineer &#x2F; ML Engineer
 
 TurboML is an ML platform reinvented for real-time. ML is data-driven, and TurboML turbo-boosts your ML with real-time data. This means your features, models, and metrics are continuously updated with the freshest data, allowing you to perform ML experimentation and analytics on live data.
 

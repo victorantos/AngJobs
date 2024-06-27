@@ -1,8 +1,10 @@
 ---
 title: "Jito Foundation : Data Scientist"
-icon: minus
+author:
+  name: ashleynetwork
+  url: https://news.ycombinator.com/item?id=40564487
 ---
-Jito Foundation | Data Scientist | Remote | US or Western European Time Zones | www.jito.network
+Jito Foundation - Data Scientist - Remote - US or Western European Time Zones - www.jito.network
 
 The Jito Foundation is hiring a Data Scientist.
 

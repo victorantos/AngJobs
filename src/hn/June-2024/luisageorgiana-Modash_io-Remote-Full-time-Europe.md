@@ -1,8 +1,10 @@
 ---
 title: "Modash.io : Remote"
-icon: minus
+author:
+  name: luisageorgiana
+  url: https://news.ycombinator.com/item?id=40583453
 ---
-Modash.io | Remote | Full-time | Europe
+Modash.io - Remote - Full-time - Europe
 
 Hey there! Meet Modash.io
 

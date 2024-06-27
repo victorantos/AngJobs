@@ -1,8 +1,10 @@
 ---
 title: "Happy Scribe : Engineer, Designer, ML"
-icon: minus
+author:
+  name: massens
+  url: https://news.ycombinator.com/item?id=40563675
 ---
-Happy Scribe | Engineer, Designer, ML | Onsite &amp; Hybrid (Barcelona, Spain) | Full-time
+Happy Scribe - Engineer, Designer, ML - Onsite &amp; Hybrid (Barcelona, Spain) - Full-time
 
 Hi there, Happy Scribe founder here. At Happy Scribe we think audio &amp; video should be universally accessible. Today’s state of the art is agencies doing everything manually. We want to scale high-quality subtitles &amp; dubbing with a multi-player editing experience that combines sota ai with a global marketplace of proofreaders. Being product-led we have the datasets needed to get there. It’s the Tesla autopilot play in the language service industry. If we succeed we’ll live in a world where everyone can consume any content in their native language without degrading the experience.
 

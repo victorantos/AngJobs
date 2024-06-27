@@ -1,8 +1,10 @@
 ---
 title: "Devyce (YC S22) : Founding Software Engineers"
-icon: minus
+author:
+  name: clarkalistair
+  url: https://news.ycombinator.com/item?id=40566598
 ---
-Devyce (YC S22) | Founding Software Engineers | Remote (UK timezone) or London onsite&#x2F;hybrid if you prefer | Full time | £60k-£110k + equity
+Devyce (YC S22) - Founding Software Engineers - Remote (UK timezone) or London onsite&#x2F;hybrid if you prefer - Full time - £60k-£110k + equity
 
 We&#x27;re redesigning the business phone network from the ground up. Starting with mobile apps and a softphone, we&#x27;re losing the jargon (who cares what an IVR is?) and building features customers actually want.
 
