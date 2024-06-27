@@ -4,7 +4,7 @@ author:
   name: rudoug
   url: https://news.ycombinator.com/item?id=39967426
 ---
-Synthesia | Senior-level+ Fullstack Software Engineers | Remote (European timezones)
+Synthesia - Senior-level+ Fullstack Software Engineers - Remote (European timezones)
 
 We&#x27;re building a generative-AI powered, enterprise-grade video creation platform and we&#x27;ve found strong product market fit. We&#x27;re at Series C, have a long runway, and are seeing hockey stick growth.
 

@@ -4,7 +4,7 @@ author:
   name: galleypage
   url: https://news.ycombinator.com/item?id=39900481
 ---
-Jawa.gg | Remote | Part-time (Contract)
+Jawa.gg - Remote - Part-time (Contract)
 
 Jawa is the marketplace for gamers! We make it safe and easy to buy and sell gaming hardware (especially PC builds and components).
 

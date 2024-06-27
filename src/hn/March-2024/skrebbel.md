@@ -4,7 +4,7 @@ author:
   name: skrebbel
   url: https://news.ycombinator.com/item?id=39565885
 ---
-TalkJS (<a href="https:&#x2F;&#x2F;talkjs.com" rel="nofollow">https:&#x2F;&#x2F;talkjs.com</a>) | REMOTE (Europe &#x2F; Middle East &#x2F; Africa)
+TalkJS (<a href="https:&#x2F;&#x2F;talkjs.com" rel="nofollow">https:&#x2F;&#x2F;talkjs.com</a>) - REMOTE (Europe &#x2F; Middle East &#x2F; Africa)
 
 TalkJS lets developers build a perfect chat feature in just a few minutes. We power communication in online marketplaces, community sites, multiplayer apps, trading platforms and so on. We&#x27;re product driven and we care tremendously about quality.
 

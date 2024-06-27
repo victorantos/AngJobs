@@ -4,7 +4,7 @@ author:
   name: natashaspaul
   url: https://news.ycombinator.com/item?id=39901437
 ---
-Assembled (<a href="https:&#x2F;&#x2F;assembled.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;assembled.com&#x2F;</a>) | San Francisco, CA | Software engineer - Infrastructure | Hybrid
+Assembled (<a href="https:&#x2F;&#x2F;assembled.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;assembled.com&#x2F;</a>) - San Francisco, CA - Software engineer - Infrastructure - Hybrid
 
 We&#x27;re hiring an engineer to rework critical components of our infrastructure. Some examples include improving our caching mechanisms to deliver millions of real-time, user-facing metrics, and building data pipelines to support machine learning models that predict volume and generate staffing requirements.
 

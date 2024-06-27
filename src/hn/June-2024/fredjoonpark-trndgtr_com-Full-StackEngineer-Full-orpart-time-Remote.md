@@ -4,7 +4,7 @@ author:
   name: fredjoonpark
   url: https://news.ycombinator.com/item?id=40567376
 ---
-trndgtr.com | Full-Stack Engineer | Full- or part-time | Remote | <a href="https:&#x2F;&#x2F;trndgtr.com" rel="nofollow">https:&#x2F;&#x2F;trndgtr.com</a>
+trndgtr.com - Full-Stack Engineer - Full- or part-time - Remote - <a href="https:&#x2F;&#x2F;trndgtr.com" rel="nofollow">https:&#x2F;&#x2F;trndgtr.com</a>
 
 trndgtr.com is a fully AI-driven analytics platform that captures and analyzes global trends in real-time across multiple sectors, including cities, entertainment, finance, and podcasts.
 

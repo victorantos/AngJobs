@@ -4,7 +4,7 @@ author:
   name: roseway4
   url: https://news.ycombinator.com/item?id=40231457
 ---
-Zep AI (YC W24) | Developer Advocate | <a href="https:&#x2F;&#x2F;www.getzep.com">https:&#x2F;&#x2F;www.getzep.com</a> | Full-time | SF Bay &#x2F; Remote US-only
+Zep AI (YC W24) - Developer Advocate - <a href="https:&#x2F;&#x2F;www.getzep.com">https:&#x2F;&#x2F;www.getzep.com</a> - Full-time - SF Bay &#x2F; Remote US-only
 
 Apply at: <a href="https:&#x2F;&#x2F;jobs.gem.com&#x2F;zep" rel="nofollow">https:&#x2F;&#x2F;jobs.gem.com&#x2F;zep</a>
 

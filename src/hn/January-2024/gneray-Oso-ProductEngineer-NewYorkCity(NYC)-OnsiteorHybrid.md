@@ -4,7 +4,7 @@ author:
   name: gneray
   url: https://news.ycombinator.com/item?id=38846318
 ---
-Oso | Product Engineer | New York City (NYC) | Onsite or Hybrid
+Oso - Product Engineer - New York City (NYC) - Onsite or Hybrid
 
 *Old problem, new $25B+ market*
 

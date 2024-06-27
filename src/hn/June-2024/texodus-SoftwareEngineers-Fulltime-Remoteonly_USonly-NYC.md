@@ -4,7 +4,7 @@ author:
   name: texodus
   url: https://news.ycombinator.com/item?id=40563620
 ---
-<a href="https:&#x2F;&#x2F;prospective.co&#x2F;" rel="nofollow">https:&#x2F;&#x2F;prospective.co&#x2F;</a> | Software Engineers | Full time | Remote only, US only | NYC
+<a href="https:&#x2F;&#x2F;prospective.co&#x2F;" rel="nofollow">https:&#x2F;&#x2F;prospective.co&#x2F;</a> - Software Engineers - Full time - Remote only, US only - NYC
 
 Hello! We are a small team of sharp and motivated engineers working on advancing the art of data analysis and visualization for everyone from business analysts to data scientists. And we&#x27;re looking for talented and interested engineers to join us.
 

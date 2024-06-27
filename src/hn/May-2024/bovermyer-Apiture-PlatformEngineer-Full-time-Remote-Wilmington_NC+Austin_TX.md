@@ -4,7 +4,7 @@ author:
   name: bovermyer
   url: https://news.ycombinator.com/item?id=40224903
 ---
-Apiture | Platform Engineer | Full-time | Remote | Wilmington, NC + Austin, TX
+Apiture - Platform Engineer - Full-time - Remote - Wilmington, NC + Austin, TX
 
 Apiture is a fintech that runs consumer-facing banking for client banks and credit unions. Web banking, mobile banking, etc. We&#x27;ve existed since 2018, with a component added later that has existed since the late 90s.
 

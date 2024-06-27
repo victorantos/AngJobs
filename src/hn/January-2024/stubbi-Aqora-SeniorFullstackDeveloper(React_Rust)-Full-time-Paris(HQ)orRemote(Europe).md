@@ -4,7 +4,7 @@ author:
   name: stubbi
   url: https://news.ycombinator.com/item?id=38846959
 ---
-Aqora | Senior Fullstack Developer (React,Rust) | Full-time | Paris (HQ) or Remote (Europe)
+Aqora - Senior Fullstack Developer (React,Rust) - Full-time - Paris (HQ) or Remote (Europe)
 
 About Us:
 We help corporations quickly get winning results by constructing, launching and managing quantum computing challenges. Think Kaggle but for quantum computing.

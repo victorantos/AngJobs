@@ -4,7 +4,7 @@ author:
   name: stere0
   url: https://news.ycombinator.com/item?id=38910429
 ---
-Resleeve | Remote | Netherlands +- 6 hours | Full-time | Senior Front-end dev Typescript React + Konva
+Resleeve - Remote - Netherlands +- 6 hours - Full-time - Senior Front-end dev Typescript React + Konva
 
 We are on our way to transform how fashion designers develop their next fashion item and get a photoshoot from that item. Instead of going through multiple drafts, creating a dummy, and hiring a photographer and model, all can now be achieved through Resleeve Studio. We were founded one year ago and pivoted in September. We launched and have a steadily growing revenue.
 

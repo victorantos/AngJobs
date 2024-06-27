@@ -4,7 +4,7 @@ author:
   name: paulfitz
   url: https://news.ycombinator.com/item?id=39562989
 ---
-Grist Labs | Systems Engineer | Full-time | NYC OR REMOTE +&#x2F;- 3hrs | <a href="https:&#x2F;&#x2F;getgrist.com" rel="nofollow">https:&#x2F;&#x2F;getgrist.com</a>
+Grist Labs - Systems Engineer - Full-time - NYC OR REMOTE +&#x2F;- 3hrs - <a href="https:&#x2F;&#x2F;getgrist.com" rel="nofollow">https:&#x2F;&#x2F;getgrist.com</a>
 
 We&#x27;re looking for someone to make our modern spreadsheet software run everywhere. To apply, there&#x27;s a puzzle. Just do:
    docker run -it gristlabs&#x2F;grist-twist

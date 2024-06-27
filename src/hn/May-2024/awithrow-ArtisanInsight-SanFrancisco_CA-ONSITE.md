@@ -4,7 +4,7 @@ author:
   name: awithrow
   url: https://news.ycombinator.com/item?id=40231903
 ---
-Artisan Insight | Senior Electrical Engineer &amp; Senior Mechanical&#x2F;Manufacturing Engineer | San Francisco, CA| ONSITE| <a href="https:&#x2F;&#x2F;www.artisaninsight.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.artisaninsight.com&#x2F;</a>
+Artisan Insight - Senior Electrical Engineer &amp; Senior Mechanical&#x2F;Manufacturing Engineer - San Francisco, CA- ONSITE- <a href="https:&#x2F;&#x2F;www.artisaninsight.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.artisaninsight.com&#x2F;</a>
 
 Artisan Insight is commercializing a deep tech innovation to fundamentally change the electronics industry. We are a team of experienced co-founders who have worked at companies like Flex, Uber, Verkada, Heptio, and Bridgewater. We have shipped code that runs on Mars, scaled the largest web services, and changed the way people get around cities. We are backed by exceptional investors who are committed to creating the next category defining company. We are hiring the first engineers who will work directly with the co-founders to define how we work and what we build. We are a small team with an ambitious vision and exciting technical challenges.
 

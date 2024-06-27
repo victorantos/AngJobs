@@ -4,7 +4,7 @@ author:
   name: lberlin
   url: https://news.ycombinator.com/item?id=39217422
 ---
-ReciPal (<a href="https:&#x2F;&#x2F;www.recipal.com" rel="nofollow">https:&#x2F;&#x2F;www.recipal.com</a>) | Founding Rails&#x2F;Full Stack Software Engineer | REMOTE | Full-Time
+ReciPal (<a href="https:&#x2F;&#x2F;www.recipal.com" rel="nofollow">https:&#x2F;&#x2F;www.recipal.com</a>) - Founding Rails&#x2F;Full Stack Software Engineer - REMOTE - Full-Time
 
 We are hiring a full-time engineer who can hopefully be a technical stakeholder and business partner.
 

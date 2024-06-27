@@ -4,7 +4,7 @@ author:
   name: trunksuzieross
   url: https://news.ycombinator.com/item?id=39896520
 ---
-Trunk | <a href="https:&#x2F;&#x2F;trunk.io" rel="nofollow">https:&#x2F;&#x2F;trunk.io</a> | Dev Rel Engineer, Senior Product Designer, Sr Full Stack SWE &#x2F; Sr C++ SWE| Full-Time | Remote &#x2F; Hybrid, SF
+Trunk - <a href="https:&#x2F;&#x2F;trunk.io" rel="nofollow">https:&#x2F;&#x2F;trunk.io</a> - Dev Rel Engineer, Senior Product Designer, Sr Full Stack SWE &#x2F; Sr C++ SWE- Full-Time - Remote &#x2F; Hybrid, SF
 
 Trunk is an a16z funded dev tools startup, redefining software development at scale. We&#x27;ve built three products so far and have plans for more:
 

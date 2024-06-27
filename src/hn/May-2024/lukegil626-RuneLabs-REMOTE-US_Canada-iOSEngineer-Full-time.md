@@ -4,7 +4,7 @@ author:
   name: lukegil626
   url: https://news.ycombinator.com/item?id=40226814
 ---
-Rune Labs | REMOTE - US, Canada | iOS Engineer | Full-time
+Rune Labs - REMOTE - US, Canada - iOS Engineer - Full-time
 
 We&#x27;re building a platform to help people with Parkinson&#x27;s and their clinicians better manage their disease (the buzzword is &quot;Precision Neurology&quot;). We&#x27;re hiring for our Patient-facing iOS app.
 

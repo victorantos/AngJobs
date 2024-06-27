@@ -4,7 +4,7 @@ author:
   name: nikcheerla
   url: https://news.ycombinator.com/item?id=40227127
 ---
-Nooks (<a href="https:&#x2F;&#x2F;nooks.ai" rel="nofollow">https:&#x2F;&#x2F;nooks.ai</a>) | Software Engineers (full-stack &amp; backend&#x2F;applied ML) | Full-time | Onsite in SF (hybrid)
+Nooks (<a href="https:&#x2F;&#x2F;nooks.ai" rel="nofollow">https:&#x2F;&#x2F;nooks.ai</a>) - Software Engineers (full-stack &amp; backend&#x2F;applied ML) - Full-time - Onsite in SF (hybrid)
 
 Hi, I’m one of the founders of Nooks — we’re trying to re-invent how sales teams work with real-time collaboration and AI.
 

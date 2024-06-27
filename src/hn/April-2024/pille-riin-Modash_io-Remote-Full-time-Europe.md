@@ -4,7 +4,7 @@ author:
   name: pille-riin
   url: https://news.ycombinator.com/item?id=39895047
 ---
-Modash.io| Remote | Full-time | Europe
+Modash.io- Remote - Full-time - Europe
 
 Open positions: Senior Data Engineer &#x2F; Senior Product Engineer &#x2F; Senior Backend Engineer
 

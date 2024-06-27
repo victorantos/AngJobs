@@ -4,7 +4,7 @@ author:
   name: bastienbeurier
   url: https://news.ycombinator.com/item?id=39228508
 ---
-Nango | Backend Engineers | Full-time | Remote (US&#x2F;Canada East &amp; Europe) | <a href="https:&#x2F;&#x2F;nango.dev">https:&#x2F;&#x2F;nango.dev</a>
+Nango - Backend Engineers - Full-time - Remote (US&#x2F;Canada East &amp; Europe) - <a href="https:&#x2F;&#x2F;nango.dev">https:&#x2F;&#x2F;nango.dev</a>
 
 Nango is a developer platform to build product integrations 10x faster.
 

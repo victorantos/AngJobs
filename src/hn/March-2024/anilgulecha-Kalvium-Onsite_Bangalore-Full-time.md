@@ -4,7 +4,7 @@ author:
   name: anilgulecha
   url: https://news.ycombinator.com/item?id=39571708
 ---
-Kalvium | Onsite, Bangalore | Full-time | <a href="https:&#x2F;&#x2F;kalvium.com" rel="nofollow">https:&#x2F;&#x2F;kalvium.com</a>
+Kalvium - Onsite, Bangalore - Full-time - <a href="https:&#x2F;&#x2F;kalvium.com" rel="nofollow">https:&#x2F;&#x2F;kalvium.com</a>
 
 We&#x27;re building HEROS - for Higher Education Realtime Operating System. It&#x27;s the GoogleMaps of higher education. We already have the results - our students across universities are placed and industry work-integrated in their 3rd semester.
 

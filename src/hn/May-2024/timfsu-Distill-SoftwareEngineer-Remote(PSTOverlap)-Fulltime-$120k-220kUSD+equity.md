@@ -4,7 +4,7 @@ author:
   name: timfsu
   url: https://news.ycombinator.com/item?id=40233072
 ---
-Distill | Software Engineer | Remote (PST Overlap) | Full time | $120k-220k USD + equity
+Distill - Software Engineer - Remote (PST Overlap) - Full time - $120k-220k USD + equity
 
 Distill builds high quality profiles of people and companies using AI. If:
 

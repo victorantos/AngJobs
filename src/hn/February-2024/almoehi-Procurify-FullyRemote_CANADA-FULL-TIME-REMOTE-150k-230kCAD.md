@@ -4,7 +4,7 @@ author:
   name: almoehi
   url: https://news.ycombinator.com/item?id=39221013
 ---
-Procurify | Fully Remote, CANADA | FULL-TIME | REMOTE | 150k-230k CAD
+Procurify - Fully Remote, CANADA - FULL-TIME - REMOTE - 150k-230k CAD
 
 - Director Data Engineering &amp; Data Science (<a href="https:&#x2F;&#x2F;boards.greenhouse.io&#x2F;procurify&#x2F;jobs&#x2F;4352825005" rel="nofollow">https:&#x2F;&#x2F;boards.greenhouse.io&#x2F;procurify&#x2F;jobs&#x2F;4352825005</a>)
 

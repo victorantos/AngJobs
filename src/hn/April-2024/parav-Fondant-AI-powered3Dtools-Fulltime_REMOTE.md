@@ -4,7 +4,7 @@ author:
   name: parav
   url: https://news.ycombinator.com/item?id=39902846
 ---
-Fondant | AI-powered 3D tools | Frontend Engineer&#x2F;Design Engineer | Full time, REMOTE
+Fondant - AI-powered 3D tools - Frontend Engineer&#x2F;Design Engineer - Full time, REMOTE
 
 We are hiring for frontend engineer roles at Fondant. Design is the core of everything we do so if you are someone who is a frontend ninja with good taste in design, you will be a great fit.
 

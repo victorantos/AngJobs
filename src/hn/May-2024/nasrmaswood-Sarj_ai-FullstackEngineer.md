@@ -4,7 +4,7 @@ author:
   name: nasrmaswood
   url: https://news.ycombinator.com/item?id=40226016
 ---
-Sarj.ai | Remote (NYC&#x2F;Riyadh&#x2F;Global) | Full-time &#x2F; Part-time | Fullstack Engineer
+Sarj.ai - Remote (NYC&#x2F;Riyadh&#x2F;Global) - Full-time &#x2F; Part-time - Fullstack Engineer
 
 Sarj.ai is building fintech tools for Saudi Arabia &#x2F; GCC. We are building a suite of products to make credit providers, investors and fintechs as efficient as possible.
 

@@ -4,7 +4,7 @@ author:
   name: ivanfp24
   url: https://news.ycombinator.com/item?id=39708639
 ---
-Fingerprint | Senior Software Engineer, Senior Browser Researcher | Full Time | Remote |
+Fingerprint - Senior Software Engineer, Senior Browser Researcher - Full Time - Remote -
 
 Fingerprint empowers developers to stop online fraud at the source. We work on turning radical new ideas in the fraud detection space into reality. 
 Our products are developer-focused and our clients range from solo developers to publicly traded companies.

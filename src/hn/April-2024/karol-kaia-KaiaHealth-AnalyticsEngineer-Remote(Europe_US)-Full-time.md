@@ -4,7 +4,7 @@ author:
   name: karol-kaia
   url: https://news.ycombinator.com/item?id=39905179
 ---
-Kaia Health | Analytics Engineer | Remote (Europe, US) | Full-time
+Kaia Health - Analytics Engineer - Remote (Europe, US) - Full-time
 
 Kaia Health is a digital therapeutics startup that helps patients combat chronic musculoskeletal pain and improve musculoskeletal health.
 

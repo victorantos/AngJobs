@@ -4,7 +4,7 @@ author:
   name: boltzmannbrain
   url: https://news.ycombinator.com/item?id=39223000
 ---
-Pasteur Labs – <a href="https:&#x2F;&#x2F;pasteurlabs.ai" rel="nofollow">https:&#x2F;&#x2F;pasteurlabs.ai</a> | Full-time | REMOTE (worldwide) | Sr+ Engineers (in Applied Simulation, Data Engineering, Product Dev, HCI Dev, 3D Game&#x2F;Physics Engines): <a href="https:&#x2F;&#x2F;simulation.science&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;simulation.science&#x2F;careers</a>
+Pasteur Labs – <a href="https:&#x2F;&#x2F;pasteurlabs.ai" rel="nofollow">https:&#x2F;&#x2F;pasteurlabs.ai</a> - Full-time - REMOTE (worldwide) - Sr+ Engineers (in Applied Simulation, Data Engineering, Product Dev, HCI Dev, 3D Game&#x2F;Physics Engines): <a href="https:&#x2F;&#x2F;simulation.science&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;simulation.science&#x2F;careers</a>
 
 At Pasteur Labs, we develop computing technologies that enable scientific and industrial challenges to be approached in new ways: that is, a first of its kind AI-native, developer-first platform for modeling &amp; simulation (M&amp;S). Our product aim is to enable in-silico playgrounds for human-machine teams experimenting and building in industrial R&amp;D, energy security, &amp; advanced manufacturing arenas.  As a public-benefit for-profit startup, our mission is Nobel-Turing [1] technologies to advance science and society for all humankind.
 

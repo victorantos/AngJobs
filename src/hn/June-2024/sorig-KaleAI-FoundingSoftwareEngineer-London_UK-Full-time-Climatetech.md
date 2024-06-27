@@ -4,7 +4,7 @@ author:
   name: sorig
   url: https://news.ycombinator.com/item?id=40565200
 ---
-Kale AI | Founding Software Engineer | London, UK | Hybrid or REMOTE in UK&#x2F;EU | Full-time | Climate tech
+Kale AI - Founding Software Engineer - London, UK - Hybrid or REMOTE in UK&#x2F;EU - Full-time - Climate tech
 
 Kale AI is building a new kind of urban logistics OS, geared towards dynamic and diverse last-mile operations, with efficiency and sustainability at its core. Transport is on track to make up nearly half of Europe’s emissions in 2030, and has been 3x slower than the rest of the economy to decarbonise. Our mission is to empower cycle-logistics operators in cities. E-cargo bikes are 11x more energy efficient than vans and can be 2x as efficient for parcel delivery in city centres when used effectively.
 

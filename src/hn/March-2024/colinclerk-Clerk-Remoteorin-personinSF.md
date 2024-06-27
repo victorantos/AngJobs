@@ -4,7 +4,7 @@ author:
   name: colinclerk
   url: https://news.ycombinator.com/item?id=39562999
 ---
-Clerk | Frontend &amp; Backend SWE | Remote or in-person in SF
+Clerk - Frontend &amp; Backend SWE - Remote or in-person in SF
 
 Clerk is hiring frontend and backend engineers, remote or in-office in San Francisco
 

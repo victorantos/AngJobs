@@ -4,7 +4,7 @@ author:
   name: misiti3780
   url: https://news.ycombinator.com/item?id=40228211
 ---
-Senior ML Engineer | Ping Data Intelligence | ONSITE (Miami) or REMOTE | Full-Time | <a href="https:&#x2F;&#x2F;www.pingintel.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.pingintel.com&#x2F;</a>
+Senior ML Engineer - Ping Data Intelligence - ONSITE (Miami) or REMOTE - Full-Time - <a href="https:&#x2F;&#x2F;www.pingintel.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.pingintel.com&#x2F;</a>
 
 Ping Data Intelligence is a dynamic, three-year-old startup in Miami, FL, revolutionizing the property insurance sector with advanced machine learning technologies. Despite rapid growth, we retain the stability of a self-funded, profitable company.
 

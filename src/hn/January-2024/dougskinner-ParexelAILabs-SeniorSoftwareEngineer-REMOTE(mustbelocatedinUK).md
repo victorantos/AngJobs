@@ -4,7 +4,7 @@ author:
   name: dougskinner
   url: https://news.ycombinator.com/item?id=38845105
 ---
-Parexel AI Labs | Senior Software Engineer | REMOTE (must be located in UK)
+Parexel AI Labs - Senior Software Engineer - REMOTE (must be located in UK)
 
 Parexel is in the business of improving the world’s health. We do this by providing a suite of biopharmaceutical services that help clients across the globe transform scientific discoveries into new treatments.
 

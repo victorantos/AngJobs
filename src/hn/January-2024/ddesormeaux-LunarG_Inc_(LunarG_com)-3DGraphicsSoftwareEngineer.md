@@ -4,7 +4,7 @@ author:
   name: ddesormeaux
   url: https://news.ycombinator.com/item?id=38856695
 ---
-LunarG, Inc. (LunarG.com) | 3D Graphics Software Engineer | Fort Collins, CO, USA (Onsite&#x2F;Hybrid&#x2F;Remote)
+LunarG, Inc. (LunarG.com) - 3D Graphics Software Engineer - Fort Collins, CO, USA (Onsite&#x2F;Hybrid&#x2F;Remote)
 
 LunarG is an independent software consultancy offering the opportunity to work on diverse technologies. Our projects span open source and proprietary work, collaborating with clients in game development, AR&#x2F;VR, medical, and GPU markets. We take pride in supporting open standards from Khronos, providing the satisfaction of contributing to and supporting Khronos open standards.
 

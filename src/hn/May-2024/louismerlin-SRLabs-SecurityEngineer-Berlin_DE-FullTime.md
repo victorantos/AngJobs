@@ -4,7 +4,7 @@ author:
   name: louismerlin
   url: https://news.ycombinator.com/item?id=40226248
 ---
-SRLabs | Security Engineer | Berlin, DE | Full Time
+SRLabs - Security Engineer - Berlin, DE - Full Time
 
 Our security team is growing across offices, and we are looking for Security Engineers that are knowledgeable in blockchain security, application security, and vulnerabilities.
 

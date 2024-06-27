@@ -4,7 +4,7 @@ author:
   name: bmcahren
   url: https://news.ycombinator.com/item?id=39900584
 ---
-SKULabs (<a href="https:&#x2F;&#x2F;www.skulabs.com" rel="nofollow">https:&#x2F;&#x2F;www.skulabs.com</a>) | Full-Stack Developer (Node.js, React) | South Florida | ONSITE | 100k-160k | Full-time Salary
+SKULabs (<a href="https:&#x2F;&#x2F;www.skulabs.com" rel="nofollow">https:&#x2F;&#x2F;www.skulabs.com</a>) - Full-Stack Developer (Node.js, React) - South Florida - ONSITE - 100k-160k - Full-time Salary
 
 We&#x27;re looking for additional Node.js and React developers to join our team. SKULabs helps ecommerce companies scale their operations with ease. Join us as we scale out exciting new products and scale up our core product. We&#x27;re fully self-funded and profitable, no runways in sight. Health&#x2F;vision&#x2F;dental&#x2F;life insurance. On-site gym, basket ball court, pickle ball court, espresso machine, in an awesome space right off of the Saw Grass Expressway.
 

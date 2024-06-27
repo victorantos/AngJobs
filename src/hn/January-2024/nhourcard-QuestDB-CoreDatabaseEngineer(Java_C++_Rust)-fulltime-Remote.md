@@ -4,7 +4,7 @@ author:
   name: nhourcard
   url: https://news.ycombinator.com/item?id=38843156
 ---
-QuestDB | Core Database Engineer (Java, C++, Rust) | full time | Remote | <a href="https:&#x2F;&#x2F;questdb.io&#x2F;">https:&#x2F;&#x2F;questdb.io&#x2F;</a>
+QuestDB - Core Database Engineer (Java, C++, Rust) - full time - Remote - <a href="https:&#x2F;&#x2F;questdb.io&#x2F;">https:&#x2F;&#x2F;questdb.io&#x2F;</a>
 
 About QuestDB
 We are building an open source time series database focused on performance and simplicity.

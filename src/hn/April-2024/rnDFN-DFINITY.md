@@ -4,7 +4,7 @@ author:
   name: rnDFN
   url: https://news.ycombinator.com/item?id=39899587
 ---
-DFINITY | US&#x2F;Remote, Zurich | <a href="https:&#x2F;&#x2F;www.dfinity.org" rel="nofollow">https:&#x2F;&#x2F;www.dfinity.org</a>
+DFINITY - US&#x2F;Remote, Zurich - <a href="https:&#x2F;&#x2F;www.dfinity.org" rel="nofollow">https:&#x2F;&#x2F;www.dfinity.org</a>
 
 Our mission is to develop technology that supports the next generation Internet Computer network and ecosystem.  The Internet Computer is a general purpose blockchain that can replace traditional IT and host a new generation of applications and services that can run 100% on-chain without the need for traditional IT. The DFINITY Foundation was founded in 2016, has raised over $150mm from top-tier institutions including Polychain Capital and Andreessen Horowitz and has attracted over 200 of the top computer scientists, researchers, engineers and operators in the world.
 

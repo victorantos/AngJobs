@@ -4,7 +4,7 @@ author:
   name: MaddieNadler
   url: https://news.ycombinator.com/item?id=39221339
 ---
-SpaceX | Onsite positions located in LA, Sunnyvale, Seattle&#x2F;Redmond, Washington DC | Full Time
+SpaceX - Onsite positions located in LA, Sunnyvale, Seattle&#x2F;Redmond, Washington DC - Full Time
 
 SpaceX engineers support the development of reusable rockets, spaceships &amp; satellite constellations! Check out our latest updates: www.twitter.com&#x2F;SpaceX?s=20
 

@@ -4,7 +4,7 @@ author:
   name: danjwilson
   url: https://news.ycombinator.com/item?id=40564364
 ---
-Bright Network | Python Engineer | Edinburgh, UK | Hybrid | Full-time
+Bright Network - Python Engineer - Edinburgh, UK - Hybrid - Full-time
 
 At Bright Network, we use modern technology and data science to connect ambitious young people from all backgrounds
 with the best career opportunities. We currently have 1M+ members and 300+ top-tier graduate employers.

@@ -4,7 +4,7 @@ author:
   name: talentatclose
   url: https://news.ycombinator.com/item?id=39221065
 ---
-Close (<a href="https:&#x2F;&#x2F;close.com" rel="nofollow">https:&#x2F;&#x2F;close.com</a>) | Multiple Product &amp; Engineering Roles | REMOTE (US)
+Close (<a href="https:&#x2F;&#x2F;close.com" rel="nofollow">https:&#x2F;&#x2F;close.com</a>) - Multiple Product &amp; Engineering Roles - REMOTE (US)
 
 Close is a bootstrapped, profitable, completely remote, ~90 person team of thoughtful individuals who value autonomy and impact. Since 2013, we’ve been building a CRM for small businesses with a focus on better communication, without the hassle of manual data entry or complex UI.
 

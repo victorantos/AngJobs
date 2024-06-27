@@ -4,7 +4,7 @@ author:
   name: pesfandiar
   url: https://news.ycombinator.com/item?id=39219725
 ---
-Foodee | QA Automation Engineer (and various other roles)| Full Time, REMOTE (BC&#x2F;ON in Canada only)
+Foodee - QA Automation Engineer (and various other roles)- Full Time, REMOTE (BC&#x2F;ON in Canada only)
 
 We connect high-quality, locally owned and operated restaurants to offices via catering and meal plans. Office managers love how we simplify the process, independent restaurants love how we bring them new business during their off hours, and employees love ordering food a few days a week and receiving it labelled and ready to eat!
 

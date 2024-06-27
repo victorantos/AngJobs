@@ -4,7 +4,7 @@ author:
   name: berniedurfee
   url: https://news.ycombinator.com/item?id=38844097
 ---
-Renaissance Learning | eduCLIMBER | <a href="https:&#x2F;&#x2F;www.renaissance.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.renaissance.com&#x2F;</a> | Full-Time | US Remote
+Renaissance Learning - eduCLIMBER - <a href="https:&#x2F;&#x2F;www.renaissance.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.renaissance.com&#x2F;</a> - Full-Time - US Remote
 
 We have open roles on the eduCLIMBER team at Renaissance Learning. Renaissance Learning is a leader in the K-12 education space with number of products focusing on learning, practice and assessment. The eduCLIMBER product is part of our portfolio.
 

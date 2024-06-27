@@ -4,7 +4,7 @@ author:
   name: seshet_tech
   url: https://news.ycombinator.com/item?id=39220834
 ---
-Seshet Technologies | San Francisco Bay Area | Founding Engineer
+Seshet Technologies - San Francisco Bay Area - Founding Engineer
 
 Seshet Technologies is building an AI platform for accelerating reading and research and we are seeking a talented full-stack developer.
 

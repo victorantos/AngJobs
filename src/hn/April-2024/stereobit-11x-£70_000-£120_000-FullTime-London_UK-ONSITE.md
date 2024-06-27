@@ -4,7 +4,7 @@ author:
   name: stereobit
   url: https://news.ycombinator.com/item?id=39915030
 ---
-11x | Software Engineer, Fullstack &amp; AI | £70,000 - £120,000 | Full Time | London, UK | ONSITE
+11x - Software Engineer, Fullstack &amp; AI - £70,000 - £120,000 - Full Time - London, UK - ONSITE
 
 At 11x, we’re building AGI within the context of work. We&#x27;re building fully autonomous Digital Workers. Growing at an extremely rapid pace with a world class team on a mission to change the very nature of work.
 

@@ -4,7 +4,7 @@ author:
   name: interstice
   url: https://news.ycombinator.com/item?id=40234388
 ---
-1&#x2F;1 Studio | 1of1studio.com | Full Stack Shopify Developer | Remote or Hybrid | Auckland, New Zealand
+1&#x2F;1 Studio - 1of1studio.com - Full Stack Shopify Developer - Remote or Hybrid - Auckland, New Zealand
 
 Are you a web developer that takes joy in delivering high-end visual and functional execution?
 

@@ -4,7 +4,7 @@ author:
   name: cancan
   url: https://news.ycombinator.com/item?id=39231736
 ---
-Felt | Web App &#x2F; Elixir Engineer | Oakland, CA or REMOTE (US timezones) | Full Time | <a href="https:&#x2F;&#x2F;felt.com" rel="nofollow">https:&#x2F;&#x2F;felt.com</a>
+Felt - Web App &#x2F; Elixir Engineer - Oakland, CA or REMOTE (US timezones) - Full Time - <a href="https:&#x2F;&#x2F;felt.com" rel="nofollow">https:&#x2F;&#x2F;felt.com</a>
 
 Felt is the best way to make maps on the internet. It&#x27;s surprisingly hard to make a map today, and people in 15+ industries rely on them to do their jobs. Climate change and the resulting natural disasters are forcing even more people to become map-makers, and Felt is here to meet that need. It&#x27;s the first easy-to-use collaborative mapping software, founded by a team of technologists with a proven track-record. My co-founder and CEO, Sam, is a former YC founder who sold his previous company [1] and I&#x27;m an early Uber engineer.
 

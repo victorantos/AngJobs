@@ -4,7 +4,7 @@ author:
   name: fdye
   url: https://news.ycombinator.com/item?id=38844194
 ---
-8flow.ai | Backend, Front-End, &amp; Data Scientist&#x2F;ML Engineer | FT&#x2F;Contract | OnSite | Palo Alto
+8flow.ai - Backend, Front-End, &amp; Data Scientist&#x2F;ML Engineer - FT&#x2F;Contract - OnSite - Palo Alto
 
 Backend Engineer, $120-140K&#x2F;yr:
 

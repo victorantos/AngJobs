@@ -4,7 +4,7 @@ author:
   name: benikit
   url: https://news.ycombinator.com/item?id=40565727
 ---
-Benikit | Co-Founding Engineer | NYC or Remote (USA only) | Equity
+Benikit - Co-Founding Engineer - NYC or Remote (USA only) - Equity
 
 My name is Tyler, I&#x27;m the founder of Benikit.  Benikit is an early-stage startup dedicated to bringing tech into the outdated group insurance industry.  The mission is to help brokers stay ahead of the ever-changing landscape of group health insurance.
 

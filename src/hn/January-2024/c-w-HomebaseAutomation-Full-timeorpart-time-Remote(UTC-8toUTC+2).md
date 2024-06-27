@@ -4,7 +4,7 @@ author:
   name: c-w
   url: https://news.ycombinator.com/item?id=38844690
 ---
-Homebase Automation | Full-time or part-time | Remote (UTC-8 to UTC+2)
+Homebase Automation - Full-time or part-time - Remote (UTC-8 to UTC+2)
 
 - Staff frontend developer (React, Typescript, XState, PixiJS)
 

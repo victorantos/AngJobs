@@ -4,7 +4,7 @@ author:
   name: mathilde55
   url: https://news.ycombinator.com/item?id=39217871
 ---
-Smartcar | Remote within the US | Full-Time | <a href="https:&#x2F;&#x2F;smartcar.com" rel="nofollow">https:&#x2F;&#x2F;smartcar.com</a>
+Smartcar - Remote within the US - Full-Time - <a href="https:&#x2F;&#x2F;smartcar.com" rel="nofollow">https:&#x2F;&#x2F;smartcar.com</a>
 Smartcar’s vehicle API enables you to verify mileage, manage EV charging, issue digital car keys, track fleets, and much more.
 
 Here are our open roles:

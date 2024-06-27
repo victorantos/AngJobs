@@ -4,7 +4,7 @@ author:
   name: volvicdrinker
   url: https://news.ycombinator.com/item?id=39563826
 ---
-Pallon | Senior Software Engineer; Head of Engineering; Senior Machine Learning Engineer | Full-time | Remote or Hybrid | Zurich, Switzerland | pallon.com
+Pallon - Senior Software Engineer; Head of Engineering; Senior Machine Learning Engineer - Full-time - Remote or Hybrid - Zurich, Switzerland - pallon.com
 
 At Pallon we’re creating AI that automatically detects defects in sewer inspection videos and advises cities on when &amp; how to fix them. By providing more precise, objective data, we aim to fix wastewater leaks, reduce CO2 emissions, and prevent urban flooding.
 

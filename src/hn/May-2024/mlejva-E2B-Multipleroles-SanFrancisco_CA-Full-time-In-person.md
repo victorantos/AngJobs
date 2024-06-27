@@ -4,7 +4,7 @@ author:
   name: mlejva
   url: https://news.ycombinator.com/item?id=40231488
 ---
-E2B | <a href="https:&#x2F;&#x2F;e2b.dev" rel="nofollow">https:&#x2F;&#x2F;e2b.dev</a> | Multiple roles | San Francisco, CA  | Full-time | In-person
+E2B - <a href="https:&#x2F;&#x2F;e2b.dev" rel="nofollow">https:&#x2F;&#x2F;e2b.dev</a> - Multiple roles - San Francisco, CA  - Full-time - In-person
 
 E2B is building a secure open-source runtime that will power next billion of AI apps &amp; agents.
 

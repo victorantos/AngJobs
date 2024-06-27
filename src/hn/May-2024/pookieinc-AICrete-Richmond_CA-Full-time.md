@@ -4,7 +4,7 @@ author:
   name: pookieinc
   url: https://news.ycombinator.com/item?id=40225732
 ---
-AICrete | Richmond, CA | Hybrid &#x2F; Remote (North America) | Full-time | Frontend &#x2F; Backend &#x2F; Fullstack Engineer
+AICrete - Richmond, CA - Hybrid &#x2F; Remote (North America) - Full-time - Frontend &#x2F; Backend &#x2F; Fullstack Engineer
 
 At AICrete, we are committed to revolutionizing the global concrete and construction industry. Leveraging AI, machine learning, computer vision, and sophisticated automation, AICreteOS is our innovative solution designed to enhance sustainability, profitability, efficiency, and productivity in real-time. Proudly standing as the first company in the world to introduce AI to the concrete materials industry, we are at the forefront of technological advancement, setting new standards and pioneering changes that drive real impact.
 

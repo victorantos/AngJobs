@@ -4,7 +4,7 @@ author:
   name: grutts
   url: https://news.ycombinator.com/item?id=39897018
 ---
-Ember | Full-Stack Software Engineer | Edinburgh, UK | Onsite | <a href="https:&#x2F;&#x2F;ember.to&#x2F;" rel="nofollow">https:&#x2F;&#x2F;ember.to&#x2F;</a>
+Ember - Full-Stack Software Engineer - Edinburgh, UK - Onsite - <a href="https:&#x2F;&#x2F;ember.to&#x2F;" rel="nofollow">https:&#x2F;&#x2F;ember.to&#x2F;</a>
 
 Ember is building the future of public transport — convenient, affordable, connected and zero-emission. Our goal is to make it easier and more enjoyable to get from A to B with Ember than it is with your own car.
 

@@ -4,7 +4,7 @@ author:
   name: troysk
   url: https://news.ycombinator.com/item?id=40234815
 ---
-Jaunt Labs | Full-Time | Full-stack engineer | REMOTE
+Jaunt Labs - Full-Time - Full-stack engineer - REMOTE
 
 Jaunt Labs is in the process of disrupting the professional content sharing landscape, focusing on documents, presentations, and more. Currently in our alpha launch phase, our momentum is building rapidly. Plus, our founders come with a track record, having successfully built and sold a startup in a similar domain. We aspire to become the platform which democratises knowledge and discussions around it.
 

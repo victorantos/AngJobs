@@ -4,7 +4,7 @@ author:
   name: yakshaving_jgt
   url: https://news.ycombinator.com/item?id=40563677
 ---
-Supercede | Software Developer (Haskell) | REMOTE | Full Time
+Supercede - Software Developer (Haskell) - REMOTE - Full Time
 
 Supercede builds industry-leading risk placement and analytics software for the reinsurance industry. We&#x27;re all-in on functional programming, and we&#x27;re looking for more help.
 

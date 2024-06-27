@@ -4,7 +4,7 @@ author:
   name: vero_replit
   url: https://news.ycombinator.com/item?id=39221630
 ---
-Replit | SF | Full-Time Current hiring priorities include:
+Replit - SF - Full-Time Current hiring priorities include:
 
 * Dev Rel Engineer
 

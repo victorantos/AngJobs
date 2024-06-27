@@ -4,7 +4,7 @@ author:
   name: lelc
   url: https://news.ycombinator.com/item?id=39223782
 ---
-Banco Central do Brasil | Brazil | REMOTE | Full-time | BRL280k
+Banco Central do Brasil - Brazil - REMOTE - Full-time - BRL280k
 
 Embark on a journey with the Central Bank of Brazil (Bacen), the global epitome of innovation in central banking.
 

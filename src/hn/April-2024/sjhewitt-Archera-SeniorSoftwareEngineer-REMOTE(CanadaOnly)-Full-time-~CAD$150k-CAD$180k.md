@@ -4,7 +4,7 @@ author:
   name: sjhewitt
   url: https://news.ycombinator.com/item?id=39897823
 ---
-Archera | Senior Software Engineer | REMOTE (Canada Only) | Full-time | ~CAD$150k - CAD$180k
+Archera - Senior Software Engineer - REMOTE (Canada Only) - Full-time - ~CAD$150k - CAD$180k
 
 Archera is a cloud cost management platform that helps you insure and optimize your cloud resources with Reserved Instances, Forecasting, Commitment Planning, and more.
 We&#x27;re remote first, mostly on the west coast US (Seattle) and Canada (Vancouver). Currently there are 7 engineers, with plans to add a few more this year.

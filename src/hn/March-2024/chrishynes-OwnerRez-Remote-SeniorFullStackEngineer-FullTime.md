@@ -4,7 +4,7 @@ author:
   name: chrishynes
   url: https://news.ycombinator.com/item?id=39565237
 ---
-OwnerRez | Remote | Senior Full Stack Engineer | Full Time
+OwnerRez - Remote - Senior Full Stack Engineer - Full Time
 
 OwnerRez is a vacation rental software platform for property managers and owners that integrates with channels like Vrbo, Airbnb, TripAdvisor, and booking.com as well as direct websites to manage vacation rental properties, bookings, and guests -- making the entire process automated.
 

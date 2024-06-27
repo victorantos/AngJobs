@@ -4,7 +4,7 @@ author:
   name: tebbers
   url: https://news.ycombinator.com/item?id=40345022
 ---
-Carebit | Full-time | Full stack Rails &amp; React Product Engineer | FULLY REMOTE | £80k&#x2F;$100k equivalent
+Carebit - Full-time - Full stack Rails &amp; React Product Engineer - FULLY REMOTE - £80k&#x2F;$100k equivalent
 
 Carebit is a young, design-led healthcare technology company helping hundreds of private doctors across the UK run their practices more effectively and efficiently with our web platform, along with hundreds of thousands of their patients. For too long, medical software has been clunky, user-hostile and complicated, and we are changing that.
 

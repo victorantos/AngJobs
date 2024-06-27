@@ -4,7 +4,7 @@ author:
   name: chrisnordqvist
   url: https://news.ycombinator.com/item?id=39903959
 ---
-Nordic Angels | Software Engineer | Full time | Remote &amp; Hybrid On-site | Stockholm &amp; Gothenburg, Sweden (role open to Nordic countries)
+Nordic Angels - Software Engineer - Full time - Remote &amp; Hybrid On-site - Stockholm &amp; Gothenburg, Sweden (role open to Nordic countries)
 
 Nordic Angels emerged from the necessity of strengthening community, competence, and capital within the local startup ecosystems. We aim to unite angel investors and others involved in the Nordic startup scene, enhancing leverage and bandwidth across the community. Our platform facilitates powerful connections, insights, and efficiencies through events, deal flow sharing, matchmaking, and more, supporting the region’s position as a leader in innovation.
 

@@ -4,7 +4,7 @@ author:
   name: bihla
   url: https://news.ycombinator.com/item?id=39221361
 ---
-Numeric | Product engineer (4+ YOE) | ONSITE in San Francisco, CA or NYC, NY | <a href="https:&#x2F;&#x2F;www.numeric.io" rel="nofollow">https:&#x2F;&#x2F;www.numeric.io</a>
+Numeric - Product engineer (4+ YOE) - ONSITE in San Francisco, CA or NYC, NY - <a href="https:&#x2F;&#x2F;www.numeric.io" rel="nofollow">https:&#x2F;&#x2F;www.numeric.io</a>
 
 Come join us to build the modern accounting &amp; finance platform. Companies like Wealthfront, AngelList, Clearbit, and more depend on Numeric to collaborate &amp; automate their workflows, as well as to monitor, analyze, and share insights on their financial data.
 

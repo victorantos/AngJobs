@@ -4,7 +4,7 @@ author:
   name: GreyApples
   url: https://news.ycombinator.com/item?id=40226368
 ---
-Swizzl AI | Remote within SF or LA | Founding Engineer | Full-Time
+Swizzl AI - Remote within SF or LA - Founding Engineer - Full-Time
 
 We are building an AI buying concierge that sits on an ecomm or b2b site that helps customers buy confusing or complex items. In turn, companies increase their qualified leads &amp; conversion rates and lower returns. It&#x27;s ecommerce and lead generation reimagined in an AI world. We are Jobs to be Done experts (see www.laser.ventures) and we are employing our deep expertise in the field to productize what we already know works. www.swizzl.ai
 

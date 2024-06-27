@@ -4,7 +4,7 @@ author:
   name: jalser
   url: https://news.ycombinator.com/item?id=39587673
 ---
-Radiant | <a href="https:&#x2F;&#x2F;radiantnuclear.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;radiantnuclear.com&#x2F;</a> | Senior Electrical Engineer | El Segundo California | Full-time
+Radiant - <a href="https:&#x2F;&#x2F;radiantnuclear.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;radiantnuclear.com&#x2F;</a> - Senior Electrical Engineer - El Segundo California - Full-time
 
 Founded by former SpaceX employees, Radiant&#x27;s mission is to develop Kaleidos, a 1.2MW nuclear reactor the size of a cargo container. Radiant is recognized by the Nuclear Regulatory Committe as a pre-applicant and is currently working with Idaho labs to test Kaleidos in 2026. Radiant is backed by A16z and is targeting customer deliveries in 2028.
 

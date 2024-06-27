@@ -4,7 +4,7 @@ author:
   name: debuggest
   url: https://news.ycombinator.com/item?id=38849437
 ---
-Olo | Remote (US) (HQ in NYC) | Full-Time | <a href="https:&#x2F;&#x2F;www.olo.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.olo.com&#x2F;</a>
+Olo - Remote (US) (HQ in NYC) - Full-Time - <a href="https:&#x2F;&#x2F;www.olo.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.olo.com&#x2F;</a>
 
 Olo is a leading on-demand commerce platform powering the restaurant industry’s digital transformation. Our customers include many of the largest restaurant brands in the US, and we have a lot of exciting projects in the works.
 

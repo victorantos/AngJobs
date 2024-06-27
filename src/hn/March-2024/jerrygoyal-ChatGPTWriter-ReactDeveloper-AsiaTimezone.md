@@ -4,7 +4,7 @@ author:
   name: jerrygoyal
   url: https://news.ycombinator.com/item?id=39657162
 ---
-ChatGPT Writer | React Developer | Remote &#x2F; Global | Asia Timezone | <a href="https:&#x2F;&#x2F;chatgptwriter.ai&#x2F;jobs&#x2F;senior-react-dev" rel="nofollow">https:&#x2F;&#x2F;chatgptwriter.ai&#x2F;jobs&#x2F;senior-react-dev</a>
+ChatGPT Writer - React Developer - Remote &#x2F; Global - Asia Timezone - <a href="https:&#x2F;&#x2F;chatgptwriter.ai&#x2F;jobs&#x2F;senior-react-dev" rel="nofollow">https:&#x2F;&#x2F;chatgptwriter.ai&#x2F;jobs&#x2F;senior-react-dev</a>
 
 # Hiring a Senior React Developer for my AI-based SaaS tool, ChatGPT Writer.
 

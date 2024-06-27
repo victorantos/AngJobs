@@ -4,7 +4,7 @@ author:
   name: trustlesecurity
   url: https://news.ycombinator.com/item?id=39566209
 ---
-Trustle | Principal Engineer | Remote US | www.trustle.com
+Trustle - Principal Engineer - Remote US - www.trustle.com
 
 Trustle is on a mission to make managing the world’s cloud permissions easy and transparent.  We keep teams using cloud services productively while compliant and risk-aligned.
 From cloud computing providers like AWS, GCP and Azure to hosted apps like GitHub and PagerDuty, Trustle understands the management of user permissions for a rapidly growing portfolio of cloud hosted software solutions and identifies things that require attention to any teams that manage access in an organization.

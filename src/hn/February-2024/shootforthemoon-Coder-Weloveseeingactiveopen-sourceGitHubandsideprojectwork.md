@@ -4,7 +4,7 @@ author:
   name: shootforthemoon
   url: https://news.ycombinator.com/item?id=39222200
 ---
-Coder | Remote first - US&#x2F;Canada | Open-Source Full Stack Software Engineer: Full time, perm. Min 3 Years of exp - Go, Typescript, React | We love seeing active open-source GitHub and side project work | Base: $120K to $162K&#x2F; yr DOE and location
+Coder - Remote first - US&#x2F;Canada - Open-Source Full Stack Software Engineer: Full time, perm. Min 3 Years of exp - Go, Typescript, React - We love seeing active open-source GitHub and side project work - Base: $120K to $162K&#x2F; yr DOE and location
 
 Coder | Remote first - US&#x2F;Canada | Sr. Product Marketing Manager: Full time, perm | 4+ Years of exp - Hubspot, Salesforce, GitHub, Figma, Notion, Mediafly &amp; Slack | Must have a technical background &amp; startup experience | Base: $120K to $162K&#x2F;yr DOE and location.
 

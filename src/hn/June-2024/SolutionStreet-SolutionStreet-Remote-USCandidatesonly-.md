@@ -4,7 +4,7 @@ author:
   name: SolutionStreet
   url: https://news.ycombinator.com/item?id=40577488
 ---
-Solution Street | Remote - US Candidates only|
+Solution Street - Remote - US Candidates only-
 
 We are a software consulting company based in Northern Virginia. Our company was founded and is run by software engineers and our employees have opportunities to work on different technologies across multiple industries.
 

@@ -4,7 +4,7 @@ author:
   name: CaliforniaKarl
   url: https://news.ycombinator.com/item?id=39222942
 ---
-Stanford Research Computing | Stanford, CA (next to Palo Alto) | Full-time | Four positions | HYBRID&#x2F;ONSITE
+Stanford Research Computing - Stanford, CA (next to Palo Alto) - Full-time - Four positions - HYBRID&#x2F;ONSITE
 
 Stanford Research Computing (<a href="https:&#x2F;&#x2F;srcc.stanford.edu" rel="nofollow">https:&#x2F;&#x2F;srcc.stanford.edu</a>) is a collaboration between University IT and the Vice Provost and Dean of Research. We operate HPC environments for researchers, we do one-time consultations on projects (from software and pipelines, to data management, to physical building design and fit-out), and we provide contract support for individual Labs, Departments, and Schools.
 

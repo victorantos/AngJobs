@@ -4,7 +4,7 @@ author:
   name: mynameisjody
   url: https://news.ycombinator.com/item?id=39898982
 ---
-Child Mind Institute | New York City or Remote | Full Time | Multiple Roles
+Child Mind Institute - New York City or Remote - Full Time - Multiple Roles
 
 The Science and Engineering team at the Child Mind Institute is dedicated to transforming the lives of children with mental health and learning disorders through the power of scientific discovery.
 

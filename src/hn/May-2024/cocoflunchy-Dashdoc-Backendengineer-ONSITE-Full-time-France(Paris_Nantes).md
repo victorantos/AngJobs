@@ -4,7 +4,7 @@ author:
   name: cocoflunchy
   url: https://news.ycombinator.com/item?id=40278658
 ---
-Dashdoc | Backend engineer | ONSITE | Full-time | France (Paris, Nantes)
+Dashdoc - Backend engineer - ONSITE - Full-time - France (Paris, Nantes)
 
 We&#x27;re building a next generation software platform for the freight trucking industry which is in great need of innovation!
 

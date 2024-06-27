@@ -4,7 +4,7 @@ author:
   name: moritzge
   url: https://news.ycombinator.com/item?id=39942716
 ---
-Flink Robotics | Zurich, Switzerland | Onsite &amp; Hybrid | <a href="https:&#x2F;&#x2F;www.flink.so&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.flink.so&#x2F;</a> | Software Intelligence for Robots
+Flink Robotics - Zurich, Switzerland - Onsite &amp; Hybrid - <a href="https:&#x2F;&#x2F;www.flink.so&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.flink.so&#x2F;</a> - Software Intelligence for Robots
 
 Flink Robotics is an early-stage ETH SpinOff dedicated to enabling flexible robotic automation for anyone, anywhere. Join our highly talented and motivated team to build the next generation of software intelligence that transforms any robot into a plug-n-play automation solution for material handling.
 

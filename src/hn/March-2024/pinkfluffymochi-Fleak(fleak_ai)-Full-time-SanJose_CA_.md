@@ -4,7 +4,7 @@ author:
   name: pinkfluffymochi
   url: https://news.ycombinator.com/item?id=39699241
 ---
-Fleak (fleak.ai)|Founding Engineer(Java&#x2F;compilers&#x2F;distributed systems)|Full-time|Remote&#x2F;Onsite|San Jose, CA.
+Fleak (fleak.ai)-Founding Engineer(Java&#x2F;compilers&#x2F;distributed systems)-Full-time-Remote&#x2F;Onsite-San Jose, CA.
 
 Fleak Explained: A compound AI system for real time data streams. Fleak offers a user-friendly visual orchestrator, allowing users to craft their Directed Acyclic Graphs (DAGs) by seamlessly connecting data sources, AI models(GPU&#x2F;CPU), and user defined functions. With a single click, the visual designs evolve into distributed, high-performance workloads and automated API endpoints. Our core engine stands out with its ability to deploy multi-model real-time data pipelines without a centralized data store over 100 times faster than patching python libraries onto Spark&#x2F;Flink frameworks.
 

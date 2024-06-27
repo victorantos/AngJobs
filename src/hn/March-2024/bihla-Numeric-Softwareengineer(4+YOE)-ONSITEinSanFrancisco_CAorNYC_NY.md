@@ -4,7 +4,7 @@ author:
   name: bihla
   url: https://news.ycombinator.com/item?id=39570322
 ---
-Numeric | Software engineer (4+ YOE) | ONSITE in San Francisco, CA or NYC, NY | <a href="https:&#x2F;&#x2F;www.numeric.io" rel="nofollow">https:&#x2F;&#x2F;www.numeric.io</a>
+Numeric - Software engineer (4+ YOE) - ONSITE in San Francisco, CA or NYC, NY - <a href="https:&#x2F;&#x2F;www.numeric.io" rel="nofollow">https:&#x2F;&#x2F;www.numeric.io</a>
 
 We&#x27;re tackling fundamental issues that underlie the finance and accounting departments. Companies like Wealthfront, AngelList, Clearbit, and more depend on Numeric to collaborate &amp; automate their workflows, as well as to monitor, analyze, and share insights on their financial data.
 

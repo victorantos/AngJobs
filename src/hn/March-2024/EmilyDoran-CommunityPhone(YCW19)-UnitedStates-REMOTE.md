@@ -4,7 +4,7 @@ author:
   name: EmilyDoran
   url: https://news.ycombinator.com/item?id=39564440
 ---
-Community Phone (YC W19) | Fullstack, PM &amp; Design roles | United States | REMOTE | Full-time Typescript&#x2F;React + Python
+Community Phone (YC W19) - Fullstack, PM &amp; Design roles - United States - REMOTE - Full-time Typescript&#x2F;React + Python
 
 At Community Phone, our mission is to transform telecom by delivering reliable, flexible, and customer-centric phone services. As the LTE phone carrier of choice for tens of thousands of small businesses and consumers, we&#x27;ve leveraged our technical expertise to provide the best of both worlds: the flexibility of VoIP with the reliability of cellular networks. Our approach allows customers to experience seamless and effortless communication, whether they&#x27;re focused on growing their business or connecting with loved ones. Join us in our mission to make every phone call an exceptional experience!
 

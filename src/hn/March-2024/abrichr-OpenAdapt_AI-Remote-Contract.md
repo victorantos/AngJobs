@@ -4,7 +4,7 @@ author:
   name: abrichr
   url: https://news.ycombinator.com/item?id=39641894
 ---
-OpenAdapt.AI | Remote | Contract
+OpenAdapt.AI - Remote - Contract
 
 At OpenAdapt.AI, we&#x27;re at the forefront of open source AI-First Process Automation, leveraging Large Multimodal Models (LMMs) to revolutionize how we interact with traditional desktop and web Graphical User Interfaces (GUIs). Our mission is to automate repetitive GUI workflows, significantly reducing the amount of manual effort required. We are an open-source project committed to innovation and efficiency.
 

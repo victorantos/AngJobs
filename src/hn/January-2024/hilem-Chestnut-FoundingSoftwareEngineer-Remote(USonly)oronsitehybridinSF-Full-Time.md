@@ -4,7 +4,7 @@ author:
   name: hilem
   url: https://news.ycombinator.com/item?id=38845811
 ---
-Chestnut | Founding Software Engineer | Remote (US only) or onsite hybrid in SF | Full-Time | <a href="https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;Chestnut">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;Chestnut</a>
+Chestnut - Founding Software Engineer - Remote (US only) or onsite hybrid in SF - Full-Time - <a href="https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;Chestnut">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;Chestnut</a>
 
 Chestnut is a well funded (a16z) close-knit seed stage insurtech - building next-gen enterprise infrastructure for the insurance industry. If you are a passionate full stack Golang Developer with a track record of building high-quality applications and want to be part of a vibrant team that embraces innovation, we&#x27;d love to hear from you!
 

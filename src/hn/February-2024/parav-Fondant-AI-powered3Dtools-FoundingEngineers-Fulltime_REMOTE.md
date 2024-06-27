@@ -4,7 +4,7 @@ author:
   name: parav
   url: https://news.ycombinator.com/item?id=39219450
 ---
-Fondant | AI-powered 3D tools | Founding Engineers | Full time, REMOTE
+Fondant - AI-powered 3D tools - Founding Engineers - Full time, REMOTE
 
 Fondant is on a mission to make 3D more accessible. We are building a platform that harnesses the latest advancements in generative AI&#x2F;ML to create 3D assets instantly with a few words (or images). Traditional 3D tools are often intimidating (think Blender) and can take hours of YouTube tutorials to learn. We are leveraging the lessons learnt from building traditional tooling over the last decade + SOTA work on 3D reconstruction, NeRFs, gaussian splatting and image generation.
 

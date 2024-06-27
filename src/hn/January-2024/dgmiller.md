@@ -4,7 +4,7 @@ author:
   name: dgmiller
   url: https://news.ycombinator.com/item?id=38843670
 ---
-Intuitive Surgical &#x2F;&#x2F; Sr. Software Engineer &#x2F;&#x2F; Hybrid: Sunnyvale, CA &#x2F;&#x2F; Full-time | <a href="https:&#x2F;&#x2F;www.intuitive.com" rel="nofollow">https:&#x2F;&#x2F;www.intuitive.com</a>
+Intuitive Surgical &#x2F;&#x2F; Sr. Software Engineer &#x2F;&#x2F; Hybrid: Sunnyvale, CA &#x2F;&#x2F; Full-time - <a href="https:&#x2F;&#x2F;www.intuitive.com" rel="nofollow">https:&#x2F;&#x2F;www.intuitive.com</a>
 
 At Intuitive we design, develop, and manufacture robotic products designed to improve clinical outcomes of patients through minimally invasive surgery, most notably the da Vinci Surgical System.
 

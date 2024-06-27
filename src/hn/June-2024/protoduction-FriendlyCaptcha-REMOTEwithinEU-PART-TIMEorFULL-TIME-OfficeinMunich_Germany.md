@@ -4,7 +4,7 @@ author:
   name: protoduction
   url: https://news.ycombinator.com/item?id=40563627
 ---
-Friendly Captcha | DevOps Engineer &amp; Integrations Engineer | REMOTE within EU | PART-TIME or FULL-TIME | Office in Munich, Germany | <a href="https:&#x2F;&#x2F;friendlycaptcha.com" rel="nofollow">https:&#x2F;&#x2F;friendlycaptcha.com</a>
+Friendly Captcha - DevOps Engineer &amp; Integrations Engineer - REMOTE within EU - PART-TIME or FULL-TIME - Office in Munich, Germany - <a href="https:&#x2F;&#x2F;friendlycaptcha.com" rel="nofollow">https:&#x2F;&#x2F;friendlycaptcha.com</a>
 
 At Friendly Captcha we do one thing and we do it well: we protect websites from malicious actors and bots.
 

@@ -4,7 +4,7 @@ author:
   name: sonic_molson
   url: https://news.ycombinator.com/item?id=39898916
 ---
-Off2Class | <a href="https:&#x2F;&#x2F;www.off2class.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.off2class.com&#x2F;</a> | Toronto | Remote in Canada | Full-time 
+Off2Class - <a href="https:&#x2F;&#x2F;www.off2class.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.off2class.com&#x2F;</a> - Toronto - Remote in Canada - Full-time 
 Off2Class is a SaaS tool for English as a Second Language (ESL) teachers and schools. Some of the largest online ESL schools on the web are powered by us, as well as many bricks-and-mortar programs. We are bootstrapped, founder-led and profitable. 
 Off2Class is looking for a Software Developer who&#x27;s excited to code the future of language learning. You&#x27;ll be working directly with our CTO and part of a small team.
 

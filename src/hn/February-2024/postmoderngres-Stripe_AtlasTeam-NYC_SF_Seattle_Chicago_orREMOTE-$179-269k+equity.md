@@ -4,7 +4,7 @@ author:
   name: postmoderngres
   url: https://news.ycombinator.com/item?id=39223774
 ---
-Stripe, Atlas Team | NYC, SF, Seattle, Chicago, or REMOTE | $179-269k + equity | stripe.com&#x2F;atlas
+Stripe, Atlas Team - NYC, SF, Seattle, Chicago, or REMOTE - $179-269k + equity - stripe.com&#x2F;atlas
 
 With Atlas, founders can start a company in a few clicks, from anywhere in the world. We believe that startups are one of the most effective ways to solve the world’s problems, and we want to give founders a running start. Atlas helps founders incorporate and set up their company, get discounts for the internet’s best tools, and automate operations while feeling ambitious, smart, and assured. Our goal is to create more startups that get to product-market fit, fast.
 

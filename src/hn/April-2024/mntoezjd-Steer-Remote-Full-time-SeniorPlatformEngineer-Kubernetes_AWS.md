@@ -4,7 +4,7 @@ author:
   name: mntoezjd
   url: https://news.ycombinator.com/item?id=39904436
 ---
-Steer | Remote | Europe&#x2F;Americas (UTC-6 - UTC+2) | Full-time | Senior Platform Engineer - Kubernetes, AWS
+Steer - Remote - Europe&#x2F;Americas (UTC-6 - UTC+2) - Full-time - Senior Platform Engineer - Kubernetes, AWS
 
 Steer offers a market-leading CRM ( <a href="https:&#x2F;&#x2F;steercrm.com" rel="nofollow">https:&#x2F;&#x2F;steercrm.com</a> ) suite for automotive repair shops, complete with text messaging, email automation, direct mail integration, reputation management, appointment reminders, declined&#x2F;recommended services, and many other features.
 

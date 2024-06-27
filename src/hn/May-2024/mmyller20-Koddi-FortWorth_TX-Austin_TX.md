@@ -4,7 +4,7 @@ author:
   name: mmyller20
   url: https://news.ycombinator.com/item?id=40241540
 ---
-Koddi | Currently seeking FT employees in the following locations: Ann Arbor, MI | Fort Worth, TX | Austin, TX | New York, NY  Open roles: Senior Software Engineers (Go, Java, C, C++, PhP); Integration Engineer; Integration Engineering Manager; Sr. Data Scientist (adtech experience preferred).
+Koddi - Currently seeking FT employees in the following locations: Ann Arbor, MI - Fort Worth, TX - Austin, TX - New York, NY  Open roles: Senior Software Engineers (Go, Java, C, C++, PhP); Integration Engineer; Integration Engineering Manager; Sr. Data Scientist (adtech experience preferred).
 We are also looking for entry level Software Engineers for the Koddi Cohort Program which is an intensive 8-week training program that includes all aspects of Engineering at Koddi. In addition to technical training during this program, and on an ongoing basis, we will also provide instructor-led and self-paced leadership development opportunities. This program requires you to be onsite 5 days per week in our Fort Worth office.
 
 Must be US Citizen or Green Card holder and physically located in the US. Passionate about development in leading technologies? Looking to become a major player on a diverse team? Want to make a big impact on an engineer-driven roadmap in your next career adventure? Koddi Engineers drive innovation by embracing challenges and deploying emerging technologies to solve complex problems in software development.

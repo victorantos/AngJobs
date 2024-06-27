@@ -4,7 +4,7 @@ author:
   name: dtorramilans
   url: https://news.ycombinator.com/item?id=40245660
 ---
-Aldara (YC S22) | Engineer | Onsite (Barcelona, Spain) | Full-time | Significant equity
+Aldara (YC S22) - Engineer - Onsite (Barcelona, Spain) - Full-time - Significant equity
 
 Hi, I&#x27;m Dani, Aldara cofounder. At Aldara we build software to manage HOAs and handle everything they need in their day-to-day. We make neighbor communities happy by handling their finances, incidents, and communications swiftly and effectively. We invest heavily in product and growth to become the building OS for the European real estate market.
 

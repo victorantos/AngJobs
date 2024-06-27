@@ -4,7 +4,7 @@ author:
   name: johnmoberg
   url: https://news.ycombinator.com/item?id=39895557
 ---
-Tandem Health | Software Engineers | On-site in Stockholm, Sweden | Full time
+Tandem Health - Software Engineers - On-site in Stockholm, Sweden - Full time
 
 We’re using generative AI to automate medical documentation so that clinicians can spend more time with patients. Founded 8 months ago, we’re already live with dozens of clinics all over Sweden, growing rapidly (onboarded &gt;10 new clinics during the last month), and are now gearing up for expansion to new markets.
 

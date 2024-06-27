@@ -4,7 +4,7 @@ author:
   name: atticoos
   url: https://news.ycombinator.com/item?id=39563238
 ---
-Rally Space | Product Engineer | Remote (4hr overlap with Boston) | Full Time | <a href="https:&#x2F;&#x2F;rally.space" rel="nofollow">https:&#x2F;&#x2F;rally.space</a>
+Rally Space - Product Engineer - Remote (4hr overlap with Boston) - Full Time - <a href="https:&#x2F;&#x2F;rally.space" rel="nofollow">https:&#x2F;&#x2F;rally.space</a>
 
 Rally is a brand-new company, building storytelling tools for teams. Our product is show and tell for product updates — short-form video stories — now in early access.
 

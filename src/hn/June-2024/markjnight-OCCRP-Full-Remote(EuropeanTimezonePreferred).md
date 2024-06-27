@@ -4,7 +4,7 @@ author:
   name: markjnight
   url: https://news.ycombinator.com/item?id=40599173
 ---
-OCCRP | Full-Remote (European Timezone Preferred)
+OCCRP - Full-Remote (European Timezone Preferred)
 
 About Us:
 

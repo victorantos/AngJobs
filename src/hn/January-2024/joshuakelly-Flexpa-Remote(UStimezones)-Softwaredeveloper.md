@@ -4,7 +4,7 @@ author:
   name: joshuakelly
   url: https://news.ycombinator.com/item?id=38847664
 ---
-Flexpa | Remote (US timezones) | Software developer | <a href="https:&#x2F;&#x2F;www.flexpa.com" rel="nofollow">https:&#x2F;&#x2F;www.flexpa.com</a>
+Flexpa - Remote (US timezones) - Software developer - <a href="https:&#x2F;&#x2F;www.flexpa.com" rel="nofollow">https:&#x2F;&#x2F;www.flexpa.com</a>
 
 Flexpa connects applications to health insurance data. We are looking to grow the team with a software developer who is excited to work on our mission of refactoring healthcare.
 

@@ -4,7 +4,7 @@ author:
   name: gbuckingham89
   url: https://news.ycombinator.com/item?id=39564843
 ---
-Yammayap | Senior Laravel (PHP) Developer | Full Time | ONSITE Bournemouth, UK | £50k - 60k
+Yammayap - Senior Laravel (PHP) Developer - Full Time - ONSITE Bournemouth, UK - £50k - 60k
 
 From our office in Bournemouth (Dorset, UK), we specialise in building bespoke business workflow software that enables growing, successful companies get to the next level. In line with our continued growth, we are seeking an experienced Laravel developer to join our development team.
 

@@ -4,7 +4,7 @@ author:
   name: brian_sb
   url: https://news.ycombinator.com/item?id=39904210
 ---
-Silobreaker | Software Engineer | Hybrid - Onsite in Stockholm, SE | Full-time | <a href="https:&#x2F;&#x2F;www.silobreaker.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.silobreaker.com&#x2F;</a>
+Silobreaker - Software Engineer - Hybrid - Onsite in Stockholm, SE - Full-time - <a href="https:&#x2F;&#x2F;www.silobreaker.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.silobreaker.com&#x2F;</a>
 
 Our mission is to advance the landscape of intelligence by breaking down information silos and harnessing the true power of data at speed. We are dedicated to being the leading force in transforming raw [unstructured] information into timely and actionable insights, providing a unified and collaborative platform that serves as the single source of truth for threat intelligence professionals.
 

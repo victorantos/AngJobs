@@ -4,7 +4,7 @@ author:
   name: otherduties
   url: https://news.ycombinator.com/item?id=40226491
 ---
-National Security Agency | <a href="https:&#x2F;&#x2F;apply.intelligencecareers.gov&#x2F;job-listings?agency=NSA" rel="nofollow">https:&#x2F;&#x2F;apply.intelligencecareers.gov&#x2F;job-listings?agency=NS...</a> | High Performance Computing | Maryland (ONSITE) | full-time
+National Security Agency - <a href="https:&#x2F;&#x2F;apply.intelligencecareers.gov&#x2F;job-listings?agency=NSA" rel="nofollow">https:&#x2F;&#x2F;apply.intelligencecareers.gov&#x2F;job-listings?agency=NS...</a> - High Performance Computing - Maryland (ONSITE) - full-time
 
 We are seeking C++ developers with HPC experience. You&#x27;d collaborate with a team of Physicists, Computer Scientists, Mathematicians, and Engineers who investigate advanced computing technologies related to National Security. We rely on Linux and open source software.
 

@@ -4,7 +4,7 @@ author:
   name: fwinokur
   url: https://news.ycombinator.com/item?id=40311056
 ---
-mprs | UI &#x2F; UX Designer | Contract | Onsite (New York) or Remote | US Time Zones
+mprs - UI &#x2F; UX Designer - Contract - Onsite (New York) or Remote - US Time Zones
 
 mprs is looking for a UI &#x2F; UX designer to redesign our music royalty administration portal. We’re looking for an opinionated, independent worker with broad experience in product and design to overhaul our product from the design system up.
 

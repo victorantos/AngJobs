@@ -4,7 +4,7 @@ author:
   name: tom-hd
   url: https://news.ycombinator.com/item?id=39988635
 ---
-Sillion | Senior Full-Stack Engineer | London | HYBRID&#x2F;ONSITE | VISA | full-time
+Sillion - Senior Full-Stack Engineer - London - HYBRID&#x2F;ONSITE - VISA - full-time
 
 We&#x27;re establishing an Engineering team at Sillion, a consultancy focused on the climate-change transition. I&#x27;m the new Head of Engineering, and we&#x27;re looking for a Senior Full-Stack Engineer to advance our climate analytics and BI tools. If you have deep experience with Python, ETL pipelines, cloud platforms and Typescript, let&#x27;s talk. You&#x27;ll join a newly minted team, building a new product for a sustainable future.
 

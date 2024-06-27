@@ -4,7 +4,7 @@ author:
   name: oliversplash
   url: https://news.ycombinator.com/item?id=38851525
 ---
-Senior QA Engineer | Splash.tech | remote (EU-timezone) | full-time
+Senior QA Engineer - Splash.tech - remote (EU-timezone) - full-time
 
 We build games that sports fans love to play. Based in the UK, we&#x27;re a top B2B provider in the gaming sector, powering fan engagement in over 50 countries with notable names in sports and entertainment. Founded four years ago, our company has seen a 100%+ revenue growth annually for three consecutive years. The 15-strong team at Splash works fully remote and values independent and self-motivated members.
 

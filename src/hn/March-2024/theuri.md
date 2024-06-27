@@ -4,7 +4,7 @@ author:
   name: theuri
   url: https://news.ycombinator.com/item?id=39568697
 ---
-Grupago, Inc. - Head of Credit &amp; Credit Operations | Data scientist &#x2F; Machine Learning Engineer (Credit Analysis)
+Grupago, Inc. - Head of Credit &amp; Credit Operations - Data scientist &#x2F; Machine Learning Engineer (Credit Analysis)
 
 See our jobs page here: <a href="https:&#x2F;&#x2F;apply.workable.com&#x2F;grupago&#x2F;" rel="nofollow">https:&#x2F;&#x2F;apply.workable.com&#x2F;grupago&#x2F;</a>
 

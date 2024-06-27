@@ -4,7 +4,7 @@ author:
   name: dazbradbury
   url: https://news.ycombinator.com/item?id=38844870
 ---
-OpenRent | London, UK | Full-Time | ONSITE+PART REMOTE | <a href="https:&#x2F;&#x2F;www.openrent.co.uk" rel="nofollow">https:&#x2F;&#x2F;www.openrent.co.uk</a>
+OpenRent - London, UK - Full-Time - ONSITE+PART REMOTE - <a href="https:&#x2F;&#x2F;www.openrent.co.uk" rel="nofollow">https:&#x2F;&#x2F;www.openrent.co.uk</a>
 
 What sucked the last time you rented a house or flat? Come and fix it.
 

@@ -4,7 +4,7 @@ author:
   name: dmillar
   url: https://news.ycombinator.com/item?id=39897798
 ---
-Arturo.ai | MLOps&#x2F;Data Engineer | Remote&#x2F;Hybrid | Utah preferred
+Arturo.ai - MLOps&#x2F;Data Engineer - Remote&#x2F;Hybrid - Utah preferred
 
 - Python, solid ML lifecycle experience, computer vision preference
 

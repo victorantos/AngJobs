@@ -4,7 +4,7 @@ author:
   name: lebovic
   url: https://news.ycombinator.com/item?id=39898332
 ---
-FlowDeploy | Product Engineer, Bioinformatics Engineer| Full-time | REMOTE or ONSITE | <a href="https:&#x2F;&#x2F;flowdeploy.com">https:&#x2F;&#x2F;flowdeploy.com</a>
+FlowDeploy - Product Engineer, Bioinformatics Engineer- Full-time - REMOTE or ONSITE - <a href="https:&#x2F;&#x2F;flowdeploy.com">https:&#x2F;&#x2F;flowdeploy.com</a>
 
 FlowDeploy builds dev tools for bioinformatics, and we&#x27;re looking for a product-minded software engineer and a bioinformatics engineer. I think a former or future founder would do well in this role.
 

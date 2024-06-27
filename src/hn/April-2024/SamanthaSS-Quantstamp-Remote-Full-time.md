@@ -4,7 +4,7 @@ author:
   name: SamanthaSS
   url: https://news.ycombinator.com/item?id=39934067
 ---
-Quantstamp |<a href="https:&#x2F;&#x2F;quantstamp.com" rel="nofollow">https:&#x2F;&#x2F;quantstamp.com</a>  | Remote | Full-time
+Quantstamp -<a href="https:&#x2F;&#x2F;quantstamp.com" rel="nofollow">https:&#x2F;&#x2F;quantstamp.com</a>  - Remote - Full-time
 
 Quantstamp’s mission is to secure the decentralized internet, and has protected over $200B in digital asset risk from hackers. More than 500 startups, foundations and enterprises work with Quantstamp to keep their innovative products safe.
 

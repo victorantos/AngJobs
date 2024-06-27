@@ -4,7 +4,7 @@ author:
   name: kshitijgrover
   url: https://news.ycombinator.com/item?id=39217771
 ---
-Orb | Software Engineers | San Francisco, CA (in-person, on-site) | Full Time
+Orb - Software Engineers - San Francisco, CA (in-person, on-site) - Full Time
 
 Orb is building billing infrastructure for modern companies. As companies grow and evolve, the ability to change their pricing and packaging is often limited by the sheer complexity of the engineering effort involved to make those changes. I experienced these challenges first hand and my desire to solve this problem is what led me to start Orb. Orb powers billing for the fastest growing developer companies, including Vercel, Replit, Materialize, Neon, and many more.
 

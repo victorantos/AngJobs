@@ -4,7 +4,7 @@ author:
   name: mikael-tawkify
   url: https://news.ycombinator.com/item?id=40361392
 ---
-Tawkify | Senior Software Engineer | Full-Time | REMOTE (US-only) | $150k–$190k + Equity
+Tawkify - Senior Software Engineer - Full-Time - REMOTE (US-only) - $150k–$190k + Equity
 
 About us: Tawkify is a personalized matchmaking service that blends technology and human expertise to foster genuine relationships beyond traditional dating apps.
 

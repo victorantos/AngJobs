@@ -4,7 +4,7 @@ author:
   name: StellarScience
   url: https://news.ycombinator.com/item?id=38852867
 ---
-Stellar Science | Hybrid USA Washington DC, Albuquerque NM | Full time, INTERNS&#x2F;co-ops | U.S. citizenship required | <a href="https:&#x2F;&#x2F;www.stellarscience.com" rel="nofollow">https:&#x2F;&#x2F;www.stellarscience.com</a>
+Stellar Science - Hybrid USA Washington DC, Albuquerque NM - Full time, INTERNS&#x2F;co-ops - U.S. citizenship required - <a href="https:&#x2F;&#x2F;www.stellarscience.com" rel="nofollow">https:&#x2F;&#x2F;www.stellarscience.com</a>
 
 Company: We&#x27;re a small scientific software development company that develops custom scientific and engineering analysis applications in domains including: computer vision and image processing, space situational awareness (monitoring the locations, health and status of on-orbit satellites), metamaterials design, image simulation, high power microwave systems, modeling and simulation, machine learning, physics informed neural networks (PINN), human body thermoregulation, laser systems modeling, high performance computing (HPC), computer aided design (CAD), and more. All exciting applications and no CRUD. We emphasize high quality code and lightweight processes that free software engineers to be productive.
 

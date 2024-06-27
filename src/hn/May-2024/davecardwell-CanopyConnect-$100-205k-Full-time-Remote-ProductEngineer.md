@@ -4,7 +4,7 @@ author:
   name: davecardwell
   url: https://news.ycombinator.com/item?id=40238196
 ---
-Canopy Connect | $100-205k | Full-time | Remote | US &amp; Canada only | Product Engineer
+Canopy Connect - $100-205k - Full-time - Remote - US &amp; Canada only - Product Engineer
 
 Canopy Connect is single-click insurance data sharing (like &quot;Plaid for insurance&quot;).
 

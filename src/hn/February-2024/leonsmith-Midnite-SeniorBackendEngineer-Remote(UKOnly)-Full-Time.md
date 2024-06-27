@@ -4,7 +4,7 @@ author:
   name: leonsmith
   url: https://news.ycombinator.com/item?id=39220451
 ---
-Midnite | Senior Backend Engineer | Remote (UK Only) | Full - Time
+Midnite - Senior Backend Engineer - Remote (UK Only) - Full - Time
 
 Midnite is a next-generation betting platform that is built for today’s fandom. We are a collective of engineers and designers who all share a passion for sports and gaming. We exist to bring fans closer to the games they love through the rush of winning money.
 

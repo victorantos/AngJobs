@@ -4,7 +4,7 @@ author:
   name: bentoth
   url: https://news.ycombinator.com/item?id=38848455
 ---
-Molin AI (<a href="https:&#x2F;&#x2F;molin.ai" rel="nofollow">https:&#x2F;&#x2F;molin.ai</a>) | Full-time | Remote | UK &amp; Europe | Salary + equity
+Molin AI (<a href="https:&#x2F;&#x2F;molin.ai" rel="nofollow">https:&#x2F;&#x2F;molin.ai</a>) - Full-time - Remote - UK &amp; Europe - Salary + equity
 
 Startup = growth -&gt; we are growing 7%+ every week.
 

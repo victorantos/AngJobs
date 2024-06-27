@@ -4,7 +4,7 @@ author:
   name: andurs
   url: https://news.ycombinator.com/item?id=39228109
 ---
-Juni | Senior Backend Engineer | Stockholm&#x2F;Gothenburg&#x2F;Amsterdam | Full-time
+Juni - Senior Backend Engineer - Stockholm&#x2F;Gothenburg&#x2F;Amsterdam - Full-time
 
 At Juni, we help e-commerce companies improve their profitability with business accounts and cards, fast and flexible financing, and powerful integrations.
 

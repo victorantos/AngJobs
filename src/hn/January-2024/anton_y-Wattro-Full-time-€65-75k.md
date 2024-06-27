@@ -4,7 +4,7 @@ author:
   name: anton_y
   url: https://news.ycombinator.com/item?id=38855990
 ---
-Wattro | Django&#x2F;Python Web Developer | Full-time | On-Site&#x2F;Hybrid Heidelberg, Germany | €65-75k | <a href="https:&#x2F;&#x2F;www.wattro.de" rel="nofollow">https:&#x2F;&#x2F;www.wattro.de</a>
+Wattro - Django&#x2F;Python Web Developer - Full-time - On-Site&#x2F;Hybrid Heidelberg, Germany - €65-75k - <a href="https:&#x2F;&#x2F;www.wattro.de" rel="nofollow">https:&#x2F;&#x2F;www.wattro.de</a>
 
 Join us as we pioneer the fastest and easiest system for managing equipment. We use the latest technologies to give small and medium-sized companies back control of their inventory.
 

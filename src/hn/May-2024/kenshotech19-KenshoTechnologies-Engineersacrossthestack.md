@@ -4,7 +4,7 @@ author:
   name: kenshotech19
   url: https://news.ycombinator.com/item?id=40229018
 ---
-Kensho Technologies | Engineers across the stack | Full-time&#x2F;Hybrid| (Cambridge&#x2F;Boston)&#x2F;NYC
+Kensho Technologies - Engineers across the stack - Full-time&#x2F;Hybrid- (Cambridge&#x2F;Boston)&#x2F;NYC
 
 At Kensho, we leverage S&amp;P Global’s world-class data to research, develop, and implement leading AI and machine learning capabilities that drive fact-based, objective decision making. From deep learning speech recognition and transcription to advanced visualizations, entity recognition, state-of-the-art search, and an AI-driven research platform, the Kensho team brings actionable insight and order to complex data. Our products power S&amp;P Global and deliver innovative solutions and capabilities to their clients.
 

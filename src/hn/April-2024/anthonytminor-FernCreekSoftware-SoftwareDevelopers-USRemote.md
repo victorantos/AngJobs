@@ -4,7 +4,7 @@ author:
   name: anthonytminor
   url: https://news.ycombinator.com/item?id=39906949
 ---
-Fern Creek Software | Software Developers | US Remote
+Fern Creek Software - Software Developers - US Remote
 
 Fern Creek Software is hiring experienced software engineers to join our fully remote team.
 

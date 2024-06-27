@@ -4,7 +4,7 @@ author:
   name: SpaceXHiring
   url: https://news.ycombinator.com/item?id=40229298
 ---
-SpaceX | Onsite | Full Time
+SpaceX - Onsite - Full Time
 
 Los Angeles &#x2F; Hawthorne, CA
 Seattle &#x2F; Redmond, WA

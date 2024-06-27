@@ -4,7 +4,7 @@ author:
   name: trev9065
   url: https://news.ycombinator.com/item?id=38849754
 ---
-ShareWillow | ONSITE (NYC) | Full Time
+ShareWillow - ONSITE (NYC) - Full Time
 
 ShareWillow is building a platform for companies to easily create a distribute profits to their employees. Aligning the business and employees incentives is the best way to deliver results for your customers and we want to help companies reward their employees.
 

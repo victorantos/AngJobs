@@ -4,7 +4,7 @@ author:
   name: jtbetz22
   url: https://news.ycombinator.com/item?id=39218843
 ---
-Continua AI | ML and Systems Engineers | NYC, SF Bay Area, Seattle | <a href="http:&#x2F;&#x2F;continua.ai" rel="nofollow">http:&#x2F;&#x2F;continua.ai</a>
+Continua AI - ML and Systems Engineers - NYC, SF Bay Area, Seattle - <a href="http:&#x2F;&#x2F;continua.ai" rel="nofollow">http:&#x2F;&#x2F;continua.ai</a>
 
 Stack: Python | C# | GCloud | HuggingFace
 

@@ -4,7 +4,7 @@ author:
   name: tkinz27
   url: https://news.ycombinator.com/item?id=40565295
 ---
-Brain Corporation | Many Software Engineering roles | Hybrid and Remote | full time | San Diego CA
+Brain Corporation - Many Software Engineering roles - Hybrid and Remote - full time - San Diego CA
 
 Brain Corporation is looking for software engineers to help us build our autonomous mobile robot (AMR) platform. We have open roles within our Cloud and Robot platform teams as we start to ship our next generation AMRs.
 

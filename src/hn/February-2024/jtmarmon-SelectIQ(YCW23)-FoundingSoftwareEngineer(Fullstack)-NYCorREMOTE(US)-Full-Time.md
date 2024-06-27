@@ -4,7 +4,7 @@ author:
   name: jtmarmon
   url: https://news.ycombinator.com/item?id=39219054
 ---
-SelectIQ (YC W23) | Founding Software Engineer (Fullstack) | NYC or REMOTE (US) | Full-Time | <a href="https:&#x2F;&#x2F;selectiq.ai&#x2F;">https:&#x2F;&#x2F;selectiq.ai&#x2F;</a>
+SelectIQ (YC W23) - Founding Software Engineer (Fullstack) - NYC or REMOTE (US) - Full-Time - <a href="https:&#x2F;&#x2F;selectiq.ai&#x2F;">https:&#x2F;&#x2F;selectiq.ai&#x2F;</a>
 
 SelectIQ works with clinical trial sites and their referring physicians to automate the patient referral process, massively speeding up enrollment.
 

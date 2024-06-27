@@ -4,7 +4,7 @@ author:
   name: grimre4p
   url: https://news.ycombinator.com/item?id=38876682
 ---
-Freddie Mac | Senior Software Engineer (Hybrid) | McLean, Virginia, USA | Hybrid | 122,000 - 182,000 USD &#x2F; year | Full-Time
+Freddie Mac - Senior Software Engineer (Hybrid) - McLean, Virginia, USA - Hybrid - 122,000 - 182,000 USD &#x2F; year - Full-Time
 
 Tech used: AWS, Atlassian, Cucumber, Docker, Git, Groovy, Java, Jenkins
 

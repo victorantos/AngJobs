@@ -4,7 +4,7 @@ author:
   name: ryankicks
   url: https://news.ycombinator.com/item?id=40571129
 ---
-Y Combinator | <a href="https:&#x2F;&#x2F;www.ycombinator.com&#x2F;careers">https:&#x2F;&#x2F;www.ycombinator.com&#x2F;careers</a> | Full-time | San Francisco (In person only) | ryan@ycombinator.com
+Y Combinator - <a href="https:&#x2F;&#x2F;www.ycombinator.com&#x2F;careers">https:&#x2F;&#x2F;www.ycombinator.com&#x2F;careers</a> - Full-time - San Francisco (In person only) - ryan@ycombinator.com
 
 Why would you want to work at YC? Well, the short of it is that you’d get unprecedented insight into how companies are started – with access to all the talks, constantly being around founders, and working directly with YC Group Partners. Our GPs are possibly the 12 most knowledgeable people in the world about starting companies. You’d be hard pressed to work here and NOT learn something new about startups every day – which might be helpful if you’re interested in starting a company yourself.
 

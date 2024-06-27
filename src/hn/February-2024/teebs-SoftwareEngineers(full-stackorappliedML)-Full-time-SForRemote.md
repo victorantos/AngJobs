@@ -4,7 +4,7 @@ author:
   name: teebs
   url: https://news.ycombinator.com/item?id=39224192
 ---
-Surge AI (<a href="https:&#x2F;&#x2F;surgehq.ai" rel="nofollow">https:&#x2F;&#x2F;surgehq.ai</a>) | Software Engineers (full-stack or applied ML) | Full-time | SF or Remote
+Surge AI (<a href="https:&#x2F;&#x2F;surgehq.ai" rel="nofollow">https:&#x2F;&#x2F;surgehq.ai</a>) - Software Engineers (full-stack or applied ML) - Full-time - SF or Remote
 
 Our mission at Surge is to build the human infrastructure powering the next wave of AI and LLMs. We’re building a data platform that powers AI teams at OpenAI, Anthropic, Meta, Google, and more. Reinforcement Learning with Human Feedback is the critical technique behind the new generation of AI assistants, and that human feedback comes from us. Our product has been a game-changer for the top AI teams in the world. Here are some examples of our past work:
 

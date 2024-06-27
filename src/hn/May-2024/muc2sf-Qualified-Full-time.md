@@ -4,7 +4,7 @@ author:
   name: muc2sf
   url: https://news.ycombinator.com/item?id=40359413
 ---
-Qualified | Full-time | Fully Remote (US&#x2F;Canada&#x2F;LATAM) or Hybrid (San Francisco) | <a href="https:&#x2F;&#x2F;www.qualified.com" rel="nofollow">https:&#x2F;&#x2F;www.qualified.com</a>
+Qualified - Full-time - Fully Remote (US&#x2F;Canada&#x2F;LATAM) or Hybrid (San Francisco) - <a href="https:&#x2F;&#x2F;www.qualified.com" rel="nofollow">https:&#x2F;&#x2F;www.qualified.com</a>
 
 At Qualified, we are building PipelineAI, an enterprise-grade SaaS platform powered by AI, with the goal of revolutionizing pipeline generation for our customers. We have a small and highly talented engineering team that moves fast, and every engineer has an unprecedented level of impact and ownership - if this sounds exciting to you, let’s chat. We&#x27;re seeking engineers who take pride in creating exceptional software and thrive on making a significant impact from start to finish.
 

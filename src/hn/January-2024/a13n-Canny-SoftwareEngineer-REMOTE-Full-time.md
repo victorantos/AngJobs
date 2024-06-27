@@ -4,7 +4,7 @@ author:
   name: a13n
   url: https://news.ycombinator.com/item?id=38846121
 ---
-Canny | Software Engineer | REMOTE | Full-time | <a href="https:&#x2F;&#x2F;canny.io" rel="nofollow">https:&#x2F;&#x2F;canny.io</a>
+Canny - Software Engineer - REMOTE - Full-time - <a href="https:&#x2F;&#x2F;canny.io" rel="nofollow">https:&#x2F;&#x2F;canny.io</a>
 
 Canny helps software companies keep track of feature requests to build better products.
 

@@ -4,7 +4,7 @@ author:
   name: bdod6
   url: https://news.ycombinator.com/item?id=40606674
 ---
-Doowii | Full Stack Engineer | Remote (US) | Full-Time
+Doowii - Full Stack Engineer - Remote (US) - Full-Time
 
 Doowii is on a mission to empower educators with AI-driven data analytics solutions that enhance educational outcomes. We’re a rapidly growing EdTech startup that recently closed a $4.1M fundraising round backed by GSV Ventures, Better VC, Avesta Fund, and more (press release: <a href="http:&#x2F;&#x2F;bit.ly&#x2F;3Rfodmt" rel="nofollow">http:&#x2F;&#x2F;bit.ly&#x2F;3Rfodmt</a>)
 

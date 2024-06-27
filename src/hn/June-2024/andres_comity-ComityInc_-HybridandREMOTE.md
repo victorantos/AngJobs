@@ -4,7 +4,7 @@ author:
   name: andres_comity
   url: https://news.ycombinator.com/item?id=40572877
 ---
-Comity Inc. | Hybrid and REMOTE | We are looking for various Full-time roles:
+Comity Inc. - Hybrid and REMOTE - We are looking for various Full-time roles:
 
 - Strategic Finance (New York, Bay Area, Chicago)
 

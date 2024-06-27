@@ -4,7 +4,7 @@ author:
   name: Orases
   url: https://news.ycombinator.com/item?id=39222291
 ---
-Orases (<a href="https:&#x2F;&#x2F;orases.com" rel="nofollow">https:&#x2F;&#x2F;orases.com</a>) | Frederick, MD or 100% Remote (US) | Full Time | PHP, NodeJS, VueJS
+Orases (<a href="https:&#x2F;&#x2F;orases.com" rel="nofollow">https:&#x2F;&#x2F;orases.com</a>) - Frederick, MD or 100% Remote (US) - Full Time - PHP, NodeJS, VueJS
 
 At Orases, we create impactful software that helps our clients succeed and change the world. We&#x27;re looking for an experienced full-stack developer to join our talented team.
 

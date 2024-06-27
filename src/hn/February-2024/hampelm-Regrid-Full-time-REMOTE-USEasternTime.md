@@ -4,7 +4,7 @@ author:
   name: hampelm
   url: https://news.ycombinator.com/item?id=39219656
 ---
-Regrid | Full-time | REMOTE | US Eastern Time
+Regrid - Full-time - REMOTE - US Eastern Time
 
 <a href="https:&#x2F;&#x2F;jobs.gusto.com&#x2F;boards&#x2F;regrid-map-your-future-c265c805-0902-4628-bd27-d013fdcfb5bc" rel="nofollow">https:&#x2F;&#x2F;jobs.gusto.com&#x2F;boards&#x2F;regrid-map-your-future-c265c80...</a>
 

@@ -4,7 +4,7 @@ author:
   name: pudo
   url: https://news.ycombinator.com/item?id=38844766
 ---
-OpenSanctions | Data engineer | Full-time | Remote CET +&#x2F;- 3hrs or Onsite Berlin, Germany
+OpenSanctions - Data engineer - Full-time - Remote CET +&#x2F;- 3hrs or Onsite Berlin, Germany
 
 OpenSanctions helps to keep people and companies accountable for their political and economic actions. We build a database that tracks sanctioned companies, politicians, fraudsters and criminals. Originally built to support anti-corruption journalists, OpenSanctions has also become a powerful tool used for sanctions screening, legal compliance and in-depth investigative analysis.
 

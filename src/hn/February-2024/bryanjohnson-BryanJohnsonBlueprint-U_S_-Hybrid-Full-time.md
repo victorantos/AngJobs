@@ -4,7 +4,7 @@ author:
   name: bryanjohnson
   url: https://news.ycombinator.com/item?id=39278473
 ---
-Bryan Johnson Blueprint | U.S. | Hybrid | Full-time | CTO&#x2F;VPE
+Bryan Johnson Blueprint - U.S. - Hybrid - Full-time - CTO&#x2F;VPE
 
 + Join us in pushing the next evolution of humanity from H. sapiens to H. evolutis.
 

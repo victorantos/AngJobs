@@ -4,7 +4,7 @@ author:
   name: bcbroussard
   url: https://news.ycombinator.com/item?id=40226868
 ---
-Intertie | Lead Full-Stack Software Engineer | Hybrid (SF Bay Area) | Full-time
+Intertie - Lead Full-Stack Software Engineer - Hybrid (SF Bay Area) - Full-time
 
 We&#x27;re a clean tech startup working with solar&#x2F;storage systems, backed by top tier VCs including True Ventures. We&#x27;ve developed an AI driven energy management system along with our own UL certified battery based energy storage systems for commercial properties. We also have ancillary products (EV charging, sales tools, etc) to make building and operating clean energy systems easier. We&#x27;re running a number of live sites, have a good pipeline, and just finished raising our Series A.
 

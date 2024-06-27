@@ -4,7 +4,7 @@ author:
   name: crusoehiring
   url: https://news.ycombinator.com/item?id=40588364
 ---
-Crusoe | Onsite&#x2F;Hybrid – San Francisco | Climate Tech, Cloud Compute, Distributed Systems, Crypto | <a href="https:&#x2F;&#x2F;crusoe.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;crusoe.ai&#x2F;</a>
+Crusoe - Onsite&#x2F;Hybrid – San Francisco - Climate Tech, Cloud Compute, Distributed Systems, Crypto - <a href="https:&#x2F;&#x2F;crusoe.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;crusoe.ai&#x2F;</a>
 
 Crusoe is on a mission to align the future of computing with the future of the climate.
 

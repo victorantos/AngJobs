@@ -4,7 +4,7 @@ author:
   name: Taig
   url: https://news.ycombinator.com/item?id=40227153
 ---
-HelloBonnie | Germany (Remote) | Founding Frontend Developer
+HelloBonnie - Germany (Remote) - Founding Frontend Developer
 
 At HelloBonnie, we believe that employee happiness is the driving force behind each company&#x27;s success. Every employee is unique and requires individual appreciation to boost their engagement. That&#x27;s why we are building HelloBonnie: The employee happiness platform for New Work, where personalized benefits and employee engagement converge.
 

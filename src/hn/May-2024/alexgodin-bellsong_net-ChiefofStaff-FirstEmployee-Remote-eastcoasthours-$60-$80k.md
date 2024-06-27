@@ -4,7 +4,7 @@ author:
   name: alexgodin
   url: https://news.ycombinator.com/item?id=40224251
 ---
-bellsong.net | Chief of Staff - First Employee | Remote - east coast hours | $60-$80k | 45 days vacation&#x2F;year
+bellsong.net - Chief of Staff - First Employee - Remote - east coast hours - $60-$80k - 45 days vacation&#x2F;year
 
 Bellsong is an early stage business exploring opportunities related to therapy. This is an opportunity to join early, work alongside an experienced founder (that’s me!) and grow with the organization.
 

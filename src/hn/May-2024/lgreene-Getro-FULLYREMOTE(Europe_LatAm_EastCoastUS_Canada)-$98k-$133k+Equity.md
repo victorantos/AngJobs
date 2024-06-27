@@ -4,7 +4,7 @@ author:
   name: lgreene
   url: https://news.ycombinator.com/item?id=40316910
 ---
-Getro | Senior Backend&#x2F;Full Stack Engineer | FULLY REMOTE (Europe, Lat Am, East Coast US, Canada) | $98k-$133k + Equity
+Getro - Senior Backend&#x2F;Full Stack Engineer - FULLY REMOTE (Europe, Lat Am, East Coast US, Canada) - $98k-$133k + Equity
 
 Join Getro, creators of an industry-leading job board and hiring platform trusted by over 800 professional networks, including 500+ of the world&#x27;s largest VCs. As Techstars alumni and a cash flow positive startup, we&#x27;re venturing into AI-driven lead-gen products to redefine professional networking.
 

@@ -4,7 +4,7 @@ author:
   name: html5cat
   url: https://news.ycombinator.com/item?id=38848615
 ---
-Puma Browser | Remote-first with PST overlap | Engineering &amp; Growth | $75-120k base &amp; 200k+ equity | <a href="http:&#x2F;&#x2F;join.puma.gg" rel="nofollow">http:&#x2F;&#x2F;join.puma.gg</a>
+Puma Browser - Remote-first with PST overlap - Engineering &amp; Growth - $75-120k base &amp; 200k+ equity - <a href="http:&#x2F;&#x2F;join.puma.gg" rel="nofollow">http:&#x2F;&#x2F;join.puma.gg</a>
 
 Hi all, I’m Yuriy, founder of Puma Browser. I&#x27;ve previously worked in developer relations at Cloudant (YC S08), Meteor (YC S11), Parse (YC S11), and explored Ai&#x2F;ML (computer vision for self-driving cars) before diving deep into crypto.
 

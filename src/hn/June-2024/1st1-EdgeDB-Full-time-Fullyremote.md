@@ -4,7 +4,7 @@ author:
   name: 1st1
   url: https://news.ycombinator.com/item?id=40566891
 ---
-EdgeDB | SREs &#x2F; Infrastructure Engineers | Full-time | Fully remote | <a href="https:&#x2F;&#x2F;www.edgedb.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.edgedb.com&#x2F;</a>
+EdgeDB - SREs &#x2F; Infrastructure Engineers - Full-time - Fully remote - <a href="https:&#x2F;&#x2F;www.edgedb.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.edgedb.com&#x2F;</a>
 
 EdgeDB is an open-source database built on top of Postgres. It’s designed to give developers a better end-to-end user experience than traditional SQL databases. We provide a more expressive schema modeling &amp; query language (EdgeQL), and &quot;batteries included&quot; features such as built-in schema migrations and a graphical schema browser, data explorer, and access control&#x2F;auth.
 

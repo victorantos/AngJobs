@@ -4,7 +4,7 @@ author:
   name: shootforthemoon
   url: https://news.ycombinator.com/item?id=39908307
 ---
-Coder | Open-Source
+Coder - Open-Source
 
 Full Stack Engineer that is frontend leaning| Remote first - US&#x2F;Canada | Full time, perm. 4-7 yrs of experience in Typescript, React | Strong backend skills preferably in Go. We love seeing active open-source GitHub and side project work | Base: $140K - $180K&#x2F;yr DOE &amp; location
 

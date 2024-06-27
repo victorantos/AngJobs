@@ -4,7 +4,7 @@ author:
   name: CaliforniaKarl
   url: https://news.ycombinator.com/item?id=40571489
 ---
-Stanford University IT | Redwood City, CA | Full-time | Three positions | HYBRID
+Stanford University IT - Redwood City, CA - Full-time - Three positions - HYBRID
 
 Stanford University IT (<a href="https:&#x2F;&#x2F;uit.stanford.edu" rel="nofollow">https:&#x2F;&#x2F;uit.stanford.edu</a>) provides a large number of IT-related services, from desktop support, to networking, to analog &amp; VoIP telephone, Kerberos, LDAP, AD, RADIUS, O365 &amp; Google &amp; Zoom, email, cloud, and more!
 

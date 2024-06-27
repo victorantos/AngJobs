@@ -4,7 +4,7 @@ author:
   name: upandup_eng
   url: https://news.ycombinator.com/item?id=40227355
 ---
-Up&amp;Up | Software Engineer | New York City, ONSITE | Full Time | $80k - $120k
+Up&amp;Up - Software Engineer - New York City, ONSITE - Full Time - $80k - $120k
 
 Up&amp;Up is a Series B real estate tech startup backed by Founders Fund and Khosla Ventures. Our program helps tenants build wealth while they rent with us, by allowing them to share in their home’s rental profits and price appreciation. You can read more about us at <a href="https:&#x2F;&#x2F;upandup.co" rel="nofollow">https:&#x2F;&#x2F;upandup.co</a>.
 

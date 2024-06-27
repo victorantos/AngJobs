@@ -4,7 +4,7 @@ author:
   name: etienn
   url: https://news.ycombinator.com/item?id=39221105
 ---
-Jitter (<a href="https:&#x2F;&#x2F;jitter.video">https:&#x2F;&#x2F;jitter.video</a>) | Senior Full-Stack Engineer | REMOTE (EU timezone) and ONSITE (Paris)
+Jitter (<a href="https:&#x2F;&#x2F;jitter.video">https:&#x2F;&#x2F;jitter.video</a>) - Senior Full-Stack Engineer - REMOTE (EU timezone) and ONSITE (Paris)
 
 Jitter is a fast, simple, and collaborative motion design tool on the web. We help designers create high-quality animations for communication materials, videos, apps, and websites easily, while collaborating with all the stakeholders involved in the creative process: teammates, clients, marketers, engineers…
 

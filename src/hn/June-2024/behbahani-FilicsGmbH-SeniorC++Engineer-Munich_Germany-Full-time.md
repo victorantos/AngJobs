@@ -4,7 +4,7 @@ author:
   name: behbahani
   url: https://news.ycombinator.com/item?id=40584909
 ---
-Filics GmbH | Senior C++ Engineer | Munich, Germany | Full-time
+Filics GmbH - Senior C++ Engineer - Munich, Germany - Full-time
 
 We&#x27;re building a team of C++ engineers at Filics to develop software that makes our robots smarter and our autonomy team&#x27;s job easier. You&#x27;ll play a crucial role in turning their advanced algorithms into reality. By writing robust, efficient C++ code that empowers our autonomous robots, making them smarter and more capable. While the Autonomy Team focuses on algorithm development, you&#x27;ll ensure these innovations work flawlessly in the real world by developing the underlying software infrastructure and libraries. It&#x27;s not just about setting up the infrastructure and platform code; it&#x27;s about pioneering solutions that redefine autonomy in robotics. Get a glimpse of our vision here: <a href="https:&#x2F;&#x2F;bit.ly&#x2F;FilicsVision" rel="nofollow">https:&#x2F;&#x2F;bit.ly&#x2F;FilicsVision</a>
 

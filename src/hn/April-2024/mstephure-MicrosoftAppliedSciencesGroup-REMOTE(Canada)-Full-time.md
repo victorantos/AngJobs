@@ -4,7 +4,7 @@ author:
   name: mstephure
   url: https://news.ycombinator.com/item?id=39908075
 ---
-Microsoft Applied Sciences Group | Senior &#x2F; Principal Software Dev | REMOTE (Canada) | Full-time
+Microsoft Applied Sciences Group - Senior &#x2F; Principal Software Dev - REMOTE (Canada) - Full-time
 
 I’m hiring for our Windows incubation team. We think of, research, and implement next-gen products, technologies, and user experiences. We often develop internal prototypes, but also explore some end user products (Microsoft Journal, <a href="https:&#x2F;&#x2F;aka.ms&#x2F;journal" rel="nofollow">https:&#x2F;&#x2F;aka.ms&#x2F;journal</a>) and are actively working within Windows as well.
 

@@ -4,7 +4,7 @@ author:
   name: betterplace
   url: https://news.ycombinator.com/item?id=39302017
 ---
-betterplace.org | Frontend Engineer |  Berlin | ONSITE | full-time | no visa sponsorship
+betterplace.org - Frontend Engineer -  Berlin - ONSITE - full-time - no visa sponsorship
 
 As Germany’s leading donation platform, we bring 45,000 NGOs together with the people who help them turn their projects into reality, through their donations.
 

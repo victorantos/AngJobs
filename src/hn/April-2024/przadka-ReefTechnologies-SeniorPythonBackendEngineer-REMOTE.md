@@ -4,7 +4,7 @@ author:
   name: przadka
   url: https://news.ycombinator.com/item?id=39904515
 ---
-Reef Technologies | Senior Python Backend Engineer | REMOTE | Full-time Salary: 45-70 USD per hour, or 7560-11760 USD a month (assuming 40 hours per week). Hourly rates typically adjusted annually.
+Reef Technologies - Senior Python Backend Engineer - REMOTE - Full-time Salary: 45-70 USD per hour, or 7560-11760 USD a month (assuming 40 hours per week). Hourly rates typically adjusted annually.
 
 We’re all about the backend! As a fully remote Python software house, we comprise a small, agile team of senior engineers, each with at least five years of experience. We&#x27;re known for delivering stable solutions and always accounting for edge cases, minimizing the need for urgent fixes.
 

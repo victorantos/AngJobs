@@ -4,7 +4,7 @@ author:
   name: frant1c
   url: https://news.ycombinator.com/item?id=39220479
 ---
-Secta Labs | Founding Frontend Engineer | Remote (US only) | Full Time | <a href="https:&#x2F;&#x2F;secta.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;secta.ai&#x2F;</a>
+Secta Labs - Founding Frontend Engineer - Remote (US only) - Full Time - <a href="https:&#x2F;&#x2F;secta.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;secta.ai&#x2F;</a>
 
 Our first product offers authentic, high-quality AI-generated photos, akin to a fancy studio portrait, for those without the budget or time.
 

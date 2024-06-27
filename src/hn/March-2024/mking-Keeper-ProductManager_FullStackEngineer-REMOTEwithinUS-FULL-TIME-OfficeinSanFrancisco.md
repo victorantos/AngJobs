@@ -4,7 +4,7 @@ author:
   name: mking
   url: https://news.ycombinator.com/item?id=39568964
 ---
-Keeper | Product Manager, Full Stack Engineer | REMOTE within US | FULL-TIME | Office in San Francisco | <a href="https:&#x2F;&#x2F;www.keepertax.com&#x2F;">https:&#x2F;&#x2F;www.keepertax.com&#x2F;</a>
+Keeper - Product Manager, Full Stack Engineer - REMOTE within US - FULL-TIME - Office in San Francisco - <a href="https:&#x2F;&#x2F;www.keepertax.com&#x2F;">https:&#x2F;&#x2F;www.keepertax.com&#x2F;</a>
 
 More than 60M US workers (50% of Gen Z) have a freelance business or side hustle. Tax law is complicated, and many freelancers are overwhelmed and can’t afford a personal bookkeeper.
 

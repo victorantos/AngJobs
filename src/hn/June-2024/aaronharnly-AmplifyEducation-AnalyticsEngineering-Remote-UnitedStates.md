@@ -4,7 +4,7 @@ author:
   name: aaronharnly
   url: https://news.ycombinator.com/item?id=40564975
 ---
-Amplify Education | Analytics Engineering | Remote - United States | <a href="https:&#x2F;&#x2F;amplify.com" rel="nofollow">https:&#x2F;&#x2F;amplify.com</a>
+Amplify Education - Analytics Engineering - Remote - United States - <a href="https:&#x2F;&#x2F;amplify.com" rel="nofollow">https:&#x2F;&#x2F;amplify.com</a>
 
 Amplify is leading the way in next-generation curriculum and assessment. Our core and supplemental programs in ELA, math, and science engage all students in rigorous learning and inspire them to think deeply, creatively, and for themselves.
 

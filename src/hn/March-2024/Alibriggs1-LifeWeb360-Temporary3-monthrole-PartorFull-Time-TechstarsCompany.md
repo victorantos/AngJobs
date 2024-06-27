@@ -4,7 +4,7 @@ author:
   name: Alibriggs1
   url: https://news.ycombinator.com/item?id=39616409
 ---
-LifeWeb 360 | Product &#x2F; Generalist Role | Remote (US &amp; European Timezones) | Temporary 3-month role | Part or Full-Time | <a href="https:&#x2F;&#x2F;www.lifeweb360.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.lifeweb360.com&#x2F;</a> | Techstars Company
+LifeWeb 360 - Product &#x2F; Generalist Role - Remote (US &amp; European Timezones) - Temporary 3-month role - Part or Full-Time - <a href="https:&#x2F;&#x2F;www.lifeweb360.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.lifeweb360.com&#x2F;</a> - Techstars Company
 
 LifeWeb is creating the place where anyone around the world can find out someone they care about has died, learn about them from others, and celebrate them authentically by sharing memories—photos, videos, funny stories, inspiring tributes. Think social media, except not toxic. Death is a rare moment when we step back and reflect on how we want to live, and at LifeWeb we are tapping into this energy to help people make meaning in their own lives.
 

@@ -4,7 +4,7 @@ author:
   name: kdolsonUNC
   url: https://news.ycombinator.com/item?id=39895919
 ---
-Fairwater Labs | CTO&#x2F;Co-Founder for XR &#x2F; LLM Dual-Use Startup | Remote | Full-Time | (US authorized only)
+Fairwater Labs - CTO&#x2F;Co-Founder for XR &#x2F; LLM Dual-Use Startup - Remote - Full-Time - (US authorized only)
 
 We are a startup working on a training and simulation XR &#x2F; LLM tool. Incubated by a venture studio. Our product will leverage LLM &amp; possibly XR to enhance training for specific scenarios.
 

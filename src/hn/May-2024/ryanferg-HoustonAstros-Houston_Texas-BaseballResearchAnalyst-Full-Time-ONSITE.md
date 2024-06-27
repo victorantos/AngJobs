@@ -4,7 +4,7 @@ author:
   name: ryanferg
   url: https://news.ycombinator.com/item?id=40224852
 ---
-Houston Astros|Houston,Texas| Baseball Research Analyst|Full-Time|ONSITE
+Houston Astros-Houston,Texas- Baseball Research Analyst-Full-Time-ONSITE
 
 The Astros are looking for a new analyst to join our R&amp;D team. We deal with every aspect of the game, from supporting coaches developing minor league players to determining where a left fielder should stand given a certain batter&#x2F;pitcher matchup. We have mountains of data, and we have an organization that is willing to listen to the analysts and try things out. If you&#x27;re interested in feeding terabytes of data into powerful machines and leveraging your considerable cleverness, education, and domain knowledge to make a 3&quot; ball go faster- we want to hear from you.
 

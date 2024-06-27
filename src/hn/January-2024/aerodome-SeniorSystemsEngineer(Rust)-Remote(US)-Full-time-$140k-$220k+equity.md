@@ -4,7 +4,7 @@ author:
   name: aerodome
   url: https://news.ycombinator.com/item?id=38845609
 ---
-Aerodome (<a href="https:&#x2F;&#x2F;www.aerodome.com" rel="nofollow">https:&#x2F;&#x2F;www.aerodome.com</a>) | Senior Systems Engineer (Rust) | Remote (US) | Full-time | $140k - $220k + equity
+Aerodome (<a href="https:&#x2F;&#x2F;www.aerodome.com" rel="nofollow">https:&#x2F;&#x2F;www.aerodome.com</a>) - Senior Systems Engineer (Rust) - Remote (US) - Full-time - $140k - $220k + equity
 
 Aerodome is revolutionizing public safety air support with cutting-edge drone technology. Our AI-driven operating system offers unparalleled, 24&#x2F;7 drone-as-first-response capabilities to public safety agencies worldwide.
 

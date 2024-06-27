@@ -4,7 +4,7 @@ author:
   name: d_brill
   url: https://news.ycombinator.com/item?id=40230441
 ---
-REMOTE (US, preferably ET time zone) | Full Time | Data Scientist (&gt;2 yrs exp)
+REMOTE (US, preferably ET time zone) - Full Time - Data Scientist (&gt;2 yrs exp)
 
 Tetricus was founded in 2022 to leverage breakthroughs in neuroscience &amp; machine learning to revolutionize the patient journey from diagnosis to treatment and recovery.
 

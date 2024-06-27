@@ -4,7 +4,7 @@ author:
   name: jeadie
   url: https://news.ycombinator.com/item?id=39899935
 ---
-Spice AI | Senior Software Engineer | GMT+10 (e.g. Australia) through GMT-7 (e.g. Seatle&#x2F;SF&#x2F;LA) | Remote | Full Time
+Spice AI - Senior Software Engineer - GMT+10 (e.g. Australia) through GMT-7 (e.g. Seatle&#x2F;SF&#x2F;LA) - Remote - Full Time
 
 Spice AI provides building blocks for data and AI-driven applications by composing real-time and historical time-series data, high-performance SQL query, machine learning training and inferencing, in a single, interconnected AI backend-as-a-service.
 

@@ -4,7 +4,7 @@ author:
   name: spark_CM
   url: https://news.ycombinator.com/item?id=40293826
 ---
-ChartMogul | Remote (only able to hire within EU) | Full-time
+ChartMogul - Remote (only able to hire within EU) - Full-time
 
 Coming up on our 10th year, we&#x27;re building the leading Subscription Analytics Platform for growing SaaS businesses. We&#x27;re a remote-first company with 66 team members across 23 different countries. Profitable and self-sustaining since our seed funding.
 

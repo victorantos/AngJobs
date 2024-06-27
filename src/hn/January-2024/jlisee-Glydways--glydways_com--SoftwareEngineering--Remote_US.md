@@ -4,7 +4,7 @@ author:
   name: jlisee
   url: https://news.ycombinator.com/item?id=38850227
 ---
-Glydways || glydways.com || Software Engineering || Remote, US
+Glydways -- glydways.com -- Software Engineering -- Remote, US
 
 Glydways is redefining public transit by offering a unique solution: a network of standardized autonomous vehicles operating on a closed roadway, ensuring high capacity, exceptional user experience, minimal cost, and the lowest carbon footprint.
 

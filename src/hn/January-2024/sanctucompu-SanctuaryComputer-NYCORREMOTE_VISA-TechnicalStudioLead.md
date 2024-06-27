@@ -4,7 +4,7 @@ author:
   name: sanctucompu
   url: https://news.ycombinator.com/item?id=38844096
 ---
-Sanctuary Computer | NYC OR REMOTE, VISA | Technical Studio Lead
+Sanctuary Computer - NYC OR REMOTE, VISA - Technical Studio Lead
 
 As a Studio Lead at Sanctuary Computer (<a href="https:&#x2F;&#x2F;www.sanctuary.computer" rel="nofollow">https:&#x2F;&#x2F;www.sanctuary.computer</a>), you’ll partner with two other Studio Leads to support our project teams, define the strategy of the studio, and lead internal projects to help us achieve our vision. You’ll help cultivate a culture of intellectual curiosity and continuous improvement that empowers us to push the boundary of our technical projects year-over-year.
 

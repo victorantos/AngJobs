@@ -4,7 +4,7 @@ author:
   name: shulu
   url: https://news.ycombinator.com/item?id=38849956
 ---
-Loop | loop.com | Product&#x2F;Design&#x2F;Engineering | On-site at San Francisco, Chicago | H1B OK
+Loop - loop.com - Product&#x2F;Design&#x2F;Engineering - On-site at San Francisco, Chicago - H1B OK
 
 Loop unlocks profits trapped in the supply chain. We want to make the billing and payment process as smooth as consumers paying for online goods while unlocking hundreds of billions of working capital for businesses. Loop can help trillions of dollars move more efficiently and improve millions of people’s livelihoods.
 

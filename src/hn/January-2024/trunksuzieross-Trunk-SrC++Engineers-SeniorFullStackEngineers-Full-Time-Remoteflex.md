@@ -4,7 +4,7 @@ author:
   name: trunksuzieross
   url: https://news.ycombinator.com/item?id=38883353
 ---
-Trunk | <a href="https:&#x2F;&#x2F;trunk.io" rel="nofollow">https:&#x2F;&#x2F;trunk.io</a> |Sr C++ Engineers| Senior Full Stack Engineers | Full-Time | Remote flex
+Trunk - <a href="https:&#x2F;&#x2F;trunk.io" rel="nofollow">https:&#x2F;&#x2F;trunk.io</a> -Sr C++ Engineers- Senior Full Stack Engineers - Full-Time - Remote flex
 
 Trunk is an a16z funded dev tools startup, redefining software development at scale. We&#x27;ve built three products so far and have plans for more:
 

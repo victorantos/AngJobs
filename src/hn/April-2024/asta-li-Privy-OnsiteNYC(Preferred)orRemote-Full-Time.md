@@ -4,7 +4,7 @@ author:
   name: asta-li
   url: https://news.ycombinator.com/item?id=39899239
 ---
-Privy | Onsite NYC (Preferred) or Remote | Hybrid Product&#x2F;Eng, Frontend&#x2F;Fullstack, Backend Roles | Full-Time | <a href="https:&#x2F;&#x2F;privy.io" rel="nofollow">https:&#x2F;&#x2F;privy.io</a>
+Privy - Onsite NYC (Preferred) or Remote - Hybrid Product&#x2F;Eng, Frontend&#x2F;Fullstack, Backend Roles - Full-Time - <a href="https:&#x2F;&#x2F;privy.io" rel="nofollow">https:&#x2F;&#x2F;privy.io</a>
 
 Hi, I&#x27;m Asta, CTO at the digital identity startup Privy. We build an authentication and cryptographic key management SDK that hundreds of companies integrate in order to onboard users (4M+ in the last 8 months alone) onto products built with blockchain infra and distributed systems.
 

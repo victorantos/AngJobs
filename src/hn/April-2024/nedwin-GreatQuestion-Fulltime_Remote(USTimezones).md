@@ -4,7 +4,7 @@ author:
   name: nedwin
   url: https://news.ycombinator.com/item?id=39896999
 ---
-Great Question | Rails &#x2F; React Software Engineers | Full time, Remote (US Timezones)
+Great Question - Rails &#x2F; React Software Engineers - Full time, Remote (US Timezones)
 
 Great Question is a unified customer research platform used and loved by teams at companies like Figma, Canva &amp; Brex. Our platform makes it easy for anyone to recruit research participants, schedule customer interviews, and share what you learn with your team all in one place.
 

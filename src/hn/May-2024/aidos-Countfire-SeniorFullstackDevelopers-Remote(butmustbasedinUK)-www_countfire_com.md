@@ -4,7 +4,7 @@ author:
   name: aidos
   url: https://news.ycombinator.com/item?id=40225280
 ---
-Countfire | Senior Fullstack Developers | Remote (but must based in UK) | www.countfire.com
+Countfire - Senior Fullstack Developers - Remote (but must based in UK) - www.countfire.com
 
 Countfire makes software for the construction industry. Our software is well loved because we try to design solutions that are a magnitude more efficient than existing tools.
 

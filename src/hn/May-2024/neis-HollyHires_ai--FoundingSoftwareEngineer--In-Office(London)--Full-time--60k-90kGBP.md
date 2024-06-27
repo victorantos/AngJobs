@@ -4,7 +4,7 @@ author:
   name: neis
   url: https://news.ycombinator.com/item?id=40225623
 ---
-HollyHires.ai || Founding Software Engineer || In-Office (London) || Full-time || 60k - 90k GBP
+HollyHires.ai -- Founding Software Engineer -- In-Office (London) -- Full-time -- 60k - 90k GBP
 
 Full job description available here: <a href="http:&#x2F;&#x2F;founding-engineer.hollyhires.ai&#x2F;" rel="nofollow">http:&#x2F;&#x2F;founding-engineer.hollyhires.ai&#x2F;</a>.
 

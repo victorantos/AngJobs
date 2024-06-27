@@ -4,7 +4,7 @@ author:
   name: notable
   url: https://news.ycombinator.com/item?id=38847487
 ---
-Notable | San Mateo, CA (HQ) | Hybrid | Full-time | www.notablehealth.com
+Notable - San Mateo, CA (HQ) - Hybrid - Full-time - www.notablehealth.com
 
 We use intelligent automation to eliminate the massive administrative burden that threatens the future of healthcare.
 

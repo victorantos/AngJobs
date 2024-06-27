@@ -4,7 +4,7 @@ author:
   name: ruuda
   url: https://news.ycombinator.com/item?id=40225614
 ---
-Chorus One | <a href="https:&#x2F;&#x2F;chorus.one&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;chorus.one&#x2F;careers</a> | Platforms Engineer | REMOTE (Switzerland ± 6 hours)
+Chorus One - <a href="https:&#x2F;&#x2F;chorus.one&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;chorus.one&#x2F;careers</a> - Platforms Engineer - REMOTE (Switzerland ± 6 hours)
 
 Chorus One operates validators on many proof-of-stake blockchains (the ones where security is based on a Byzantine fault-tolerant consensus algorithm rather than wasting energy). We are hiring for several roles, but the one I will highlight is what we call the Platforms Engineer. Some companies call this Site Reliability Engineering or Devops.
 

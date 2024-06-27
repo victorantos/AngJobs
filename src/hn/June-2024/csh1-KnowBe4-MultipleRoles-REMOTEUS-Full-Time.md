@@ -4,7 +4,7 @@ author:
   name: csh1
   url: https://news.ycombinator.com/item?id=40575055
 ---
-KnowBe4 | Multiple Roles | REMOTE US | Full-Time
+KnowBe4 - Multiple Roles - REMOTE US - Full-Time
 
 KnowBe4 is a security awareness training and simulated phishing platform used by more than 65,000 organizations around the globe.
 

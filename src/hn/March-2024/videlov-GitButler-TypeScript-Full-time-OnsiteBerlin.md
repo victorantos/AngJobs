@@ -4,7 +4,7 @@ author:
   name: videlov
   url: https://news.ycombinator.com/item?id=39563374
 ---
-GitButler | Senior &lt;Rust | TypeScript | Ruby&gt; Engineer | Full-time | Onsite Berlin
+GitButler - Senior &lt;Rust - TypeScript - Ruby&gt; Engineer - Full-time - Onsite Berlin
 
 We are a small team of 9 people who love Git, building new functionality on top of the Git format (branching, code review &amp; more). Our own @schacon has published the Pro Git book as well as co-founded GitHub.
 

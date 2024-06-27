@@ -4,7 +4,7 @@ author:
   name: siddharthb_
   url: https://news.ycombinator.com/item?id=39224896
 ---
-TurboML (<a href="https:&#x2F;&#x2F;turboml.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;turboml.com&#x2F;</a>) | India | Remote | Full-time&#x2F;Intern | Business Development Manager &#x2F; Technical Content Architect
+TurboML (<a href="https:&#x2F;&#x2F;turboml.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;turboml.com&#x2F;</a>) - India - Remote - Full-time&#x2F;Intern - Business Development Manager &#x2F; Technical Content Architect
 
 TurboML is a real-time machine learning platform designed for fast-paced ML use cases where the freshness of data and low latency are essential.
 

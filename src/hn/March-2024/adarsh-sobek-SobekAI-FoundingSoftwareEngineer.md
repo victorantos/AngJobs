@@ -4,7 +4,7 @@ author:
   name: adarsh-sobek
   url: https://news.ycombinator.com/item?id=39567601
 ---
-Sobek AI | Founding Software Engineer | Remote USA, Preferably PNW&#x2F;Seattle
+Sobek AI - Founding Software Engineer - Remote USA, Preferably PNW&#x2F;Seattle
 
 <a href="https:&#x2F;&#x2F;sobek.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;sobek.ai&#x2F;</a>
 

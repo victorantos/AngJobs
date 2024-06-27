@@ -4,7 +4,7 @@ author:
   name: jamesjyu
   url: https://news.ycombinator.com/item?id=38844796
 ---
-Sudowrite | REMOTE | Full-Time | Competitive Salary + Equity | Hiring: AI Engineer
+Sudowrite - REMOTE - Full-Time - Competitive Salary + Equity - Hiring: AI Engineer
 
 - We believe the future of writing is AI &amp; human collaboration. Sudowrite is the best AI for creative writers.
 

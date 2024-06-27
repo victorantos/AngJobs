@@ -4,7 +4,7 @@ author:
   name: fabhed
   url: https://news.ycombinator.com/item?id=39702103
 ---
-gptengineer.app &#x2F; Lovable | ONSITE+HYBRID | Stockholm &#x2F; London | Full-Time | Founding Engineers, Founding Designer
+gptengineer.app &#x2F; Lovable - ONSITE+HYBRID - Stockholm &#x2F; London - Full-Time - Founding Engineers, Founding Designer
 
 Lovable is made up of a team of pragmatic previous (YC) founders and CTOs, set on being the first to make autonomous code generation work.
 

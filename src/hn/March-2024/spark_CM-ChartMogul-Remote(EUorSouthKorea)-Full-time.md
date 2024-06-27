@@ -4,7 +4,7 @@ author:
   name: spark_CM
   url: https://news.ycombinator.com/item?id=39637442
 ---
-ChartMogul | Remote (EU or South Korea) | Full-time
+ChartMogul - Remote (EU or South Korea) - Full-time
 
 At ChartMogul, we&#x27;re building the leading Subscription Analytics Platform for growing SaaS businesses. We&#x27;re a remote-first company with 67 team members across 23 different countries. Profitable and self-sustaining since our seed funding.
 

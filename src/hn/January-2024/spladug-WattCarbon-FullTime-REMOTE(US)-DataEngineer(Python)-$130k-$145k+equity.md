@@ -4,7 +4,7 @@ author:
   name: spladug
   url: https://news.ycombinator.com/item?id=38846422
 ---
-WattCarbon | Full Time | REMOTE (US) | Data Engineer (Python) | $130k-$145k + equity
+WattCarbon - Full Time - REMOTE (US) - Data Engineer (Python) - $130k-$145k + equity
 
 WattCarbon has launched the first clean energy market aimed at rapidly scaling distributed energy technology, including rooftop solar &amp; storage, electrification, and demand response. Our buildings are responsible for 40% of US and global emissions. By scaling distributed clean energy, we can eliminate these emissions today. We partner with climate-driven companies &amp; organizations, directing funding towards these technologies to lower costs, accelerate deployment, and promote energy equity across the US.
 

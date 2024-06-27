@@ -4,7 +4,7 @@ author:
   name: pille-riin
   url: https://news.ycombinator.com/item?id=38949600
 ---
-Modash.io | Senior Data Engineer | Remote | Full-time | Europe
+Modash.io - Senior Data Engineer - Remote - Full-time - Europe
 
 Hey there! 
 Meet Modash.io. We’re a fun and dynamic startup shaking up the influencer marketing industry. Our goal? To help brands and creators create awesome connections with their target audiences using data-driven influencer marketing magic. With our super cool tech and savvy data analysis, we’re giving our clients the insights and tools they need to knock their marketing campaigns out of the park!

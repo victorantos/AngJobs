@@ -4,7 +4,7 @@ author:
   name: luisageorgiana
   url: https://news.ycombinator.com/item?id=40230039
 ---
-Modash.io | Senior Product Engineer | Remote (European Timezone) | Full-time
+Modash.io - Senior Product Engineer - Remote (European Timezone) - Full-time
 
 Hey there! Meet Modash
 

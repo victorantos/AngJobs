@@ -4,7 +4,7 @@ author:
   name: iam27
   url: https://news.ycombinator.com/item?id=38843305
 ---
-Paratus Ltd | REMOTE, occasional days ONSITE in London (UK) a plus | Full-time
+Paratus Ltd - REMOTE, occasional days ONSITE in London (UK) a plus - Full-time
 
 Paratus is a young company with a first-of-a-kind insurance product to protect businesses from price risk. Since our launch three years ago, we&#x27;ve demonstrated the viability of our model with a product protecting the shipping industry from changes in fuel price, and are now undergoing a large expansion into other sectors - particularly renewables and decarbonisation. Our new product for wind and solar farms protects them from falls in the price of electricity, and so makes investing in renewable power safer.
 

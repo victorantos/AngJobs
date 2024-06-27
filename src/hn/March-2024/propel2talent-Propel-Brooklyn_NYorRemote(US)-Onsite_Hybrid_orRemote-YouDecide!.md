@@ -4,7 +4,7 @@ author:
   name: propel2talent
   url: https://news.ycombinator.com/item?id=39567839
 ---
-Propel | Brooklyn, NY or Remote (US) | Onsite, Hybrid, or Remote - You Decide! | <a href="https:&#x2F;&#x2F;www.joinpropel.com" rel="nofollow">https:&#x2F;&#x2F;www.joinpropel.com</a>
+Propel - Brooklyn, NY or Remote (US) - Onsite, Hybrid, or Remote - You Decide! - <a href="https:&#x2F;&#x2F;www.joinpropel.com" rel="nofollow">https:&#x2F;&#x2F;www.joinpropel.com</a>
 
 Propel builds modern, respectful, and effective technology that helps low-income Americans improve their financial health. Over 5 million people use our app, Providers, to check their benefits balances, stay up to date on critical government programs, save money, and earn income. In addition, we’re expanding further into the financial services space by building a new debit card, specifically designed to help low-income Americans.
 

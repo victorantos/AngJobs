@@ -4,7 +4,7 @@ author:
   name: j_kauf
   url: https://news.ycombinator.com/item?id=39981073
 ---
-Sitewire | Full Stack Rails Engineer | Full-Time | REMOTE (US-only) | <a href="https:&#x2F;&#x2F;sitewire.co" rel="nofollow">https:&#x2F;&#x2F;sitewire.co</a>
+Sitewire - Full Stack Rails Engineer - Full-Time - REMOTE (US-only) - <a href="https:&#x2F;&#x2F;sitewire.co" rel="nofollow">https:&#x2F;&#x2F;sitewire.co</a>
 
 Learn more or apply at <a href="https:&#x2F;&#x2F;wellfound.com&#x2F;l&#x2F;2zf9K9" rel="nofollow">https:&#x2F;&#x2F;wellfound.com&#x2F;l&#x2F;2zf9K9</a> - I personally review every application, so just mention you found us on HN.
 

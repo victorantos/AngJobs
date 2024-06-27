@@ -4,7 +4,7 @@ author:
   name: Peetie2
   url: https://news.ycombinator.com/item?id=38953686
 ---
-beSpokeAI | Technical Co-Founder | Full-time | On-site | San Francisco
+beSpokeAI - Technical Co-Founder - Full-time - On-site - San Francisco
 
 beSpoke is a social media platform for AI-assisted spoken word creations. It&#x27;s like Instagram or TikTok for podcasts. We combine AI tools, human direction, and a new social network to create and distribute types of spoken word content that have never existed before including ones voiced by celebrities.
 

@@ -4,7 +4,7 @@ author:
   name: akranjc
   url: https://news.ycombinator.com/item?id=38857265
 ---
-Replo | Designer, Senior Fullstack Engineers, Chief of Staff | San Francisco&#x2F;Remote | fulltime | <a href="https:&#x2F;&#x2F;www.replo.app&#x2F;">https:&#x2F;&#x2F;www.replo.app&#x2F;</a>
+Replo - Designer, Senior Fullstack Engineers, Chief of Staff - San Francisco&#x2F;Remote - fulltime - <a href="https:&#x2F;&#x2F;www.replo.app&#x2F;">https:&#x2F;&#x2F;www.replo.app&#x2F;</a>
 
 Replo (YC S21) 
 Replo helps companies build websites with less code. Today, hundreds of e-commerce companies (e.g. Hexclad, Studs) use Replo to build everything from their latest products to giveaways. Our goal is to create a single platform for businesses to design, develop, and market content on the internet.

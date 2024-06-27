@@ -4,7 +4,7 @@ author:
   name: bdod6
   url: https://news.ycombinator.com/item?id=39912613
 ---
-Doowii | Remote, US | Full-Time | Senior Backend Software Engineer
+Doowii - Remote, US - Full-Time - Senior Backend Software Engineer
 
 At Doowii (doowii.io), we&#x27;re on a mission to change education with data. We need a Senior Backend Software Engineer who&#x27;s eager to tackle backend challenges, from data engineering to ETL processes, and help us empower educators with actionable insights. If you&#x27;re into building scalable data pipelines and making a real impact, let&#x27;s talk.
 

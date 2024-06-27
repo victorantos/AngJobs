@@ -4,7 +4,7 @@ author:
   name: recruiterripple
   url: https://news.ycombinator.com/item?id=40250674
 ---
-Ripple| Senior Software Engineer, C++ | Toronto&#x2F; London, UK | ONSITE (10 days in a month)| Full-time
+Ripple- Senior Software Engineer, C++ - Toronto&#x2F; London, UK - ONSITE (10 days in a month)- Full-time
 
 On the RippleX team at Ripple, we champion the builders of tomorrow by providing the infrastructure, tools, services, programs and support for creation on one of the world’s fastest, most sustainable and consistently reliable public blockchain - XRPL. By supporting an open community of developers, they can advance the solutions and innovation needed to allow businesses, consumers, institutions and governments to fuel the engine of a new digital economy.
 

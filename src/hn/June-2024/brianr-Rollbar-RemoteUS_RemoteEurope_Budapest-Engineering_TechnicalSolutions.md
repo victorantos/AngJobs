@@ -4,7 +4,7 @@ author:
   name: brianr
   url: https://news.ycombinator.com/item?id=40563548
 ---
-Rollbar | <a href="https:&#x2F;&#x2F;rollbar.com" rel="nofollow">https:&#x2F;&#x2F;rollbar.com</a> | Remote US, Remote Europe, Budapest | Engineering, Technical Solutions
+Rollbar - <a href="https:&#x2F;&#x2F;rollbar.com" rel="nofollow">https:&#x2F;&#x2F;rollbar.com</a> - Remote US, Remote Europe, Budapest - Engineering, Technical Solutions
 
 About Rollbar:
 

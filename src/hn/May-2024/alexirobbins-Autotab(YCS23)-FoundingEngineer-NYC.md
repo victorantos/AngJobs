@@ -4,7 +4,7 @@ author:
   name: alexirobbins
   url: https://news.ycombinator.com/item?id=40228804
 ---
-Autotab (YC S23) | <a href="https:&#x2F;&#x2F;autotab.com">https:&#x2F;&#x2F;autotab.com</a> | Founding Engineer | NYC
+Autotab (YC S23) - <a href="https:&#x2F;&#x2F;autotab.com">https:&#x2F;&#x2F;autotab.com</a> - Founding Engineer - NYC
 
 If AGI is going to 100x GDP, it will need to be able to use a computer.
 

@@ -4,7 +4,7 @@ author:
   name: hnwizard
   url: https://news.ycombinator.com/item?id=39221631
 ---
-Full time | CTO  | Dubai or Singapore
+Full time - CTO  - Dubai or Singapore
 
 Chief Technology Officer Location: Singapore or Dubai
 We’re looking for an energetic CTO who’s not afraid to roll up their sleeves

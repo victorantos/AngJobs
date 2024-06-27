@@ -4,7 +4,7 @@ author:
   name: quadrature_ai
   url: https://news.ycombinator.com/item?id=40565525
 ---
-Quadrature | London or New York | Full-time | ONSITE | <a href="https:&#x2F;&#x2F;quadrature.ai" rel="nofollow">https:&#x2F;&#x2F;quadrature.ai</a>
+Quadrature - London or New York - Full-time - ONSITE - <a href="https:&#x2F;&#x2F;quadrature.ai" rel="nofollow">https:&#x2F;&#x2F;quadrature.ai</a>
 We are seeking experienced, hands-on, software developers to join our team here at Quadrature.
 
 If you have an interest in the financial markets and wish to work in a team developing our next generation systems we want to hear from you.

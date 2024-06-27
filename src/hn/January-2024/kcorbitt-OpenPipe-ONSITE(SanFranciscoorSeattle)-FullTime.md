@@ -4,7 +4,7 @@ author:
   name: kcorbitt
   url: https://news.ycombinator.com/item?id=38849683
 ---
-OpenPipe | ONSITE (San Francisco or Seattle) | Full Time
+OpenPipe - ONSITE (San Francisco or Seattle) - Full Time
 
 Hi HN! I&#x27;m Kyle, the founder of OpenPipe, which you might recognize from some of our recent HN threads:
 

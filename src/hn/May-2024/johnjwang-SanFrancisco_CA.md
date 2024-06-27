@@ -4,7 +4,7 @@ author:
   name: johnjwang
   url: https://news.ycombinator.com/item?id=40225876
 ---
-Assembled (<a href="https:&#x2F;&#x2F;assembled.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;assembled.com&#x2F;</a>) | San Francisco, CA | Software engineer -- AI &amp; New Products, Product Manager -- AI &amp; New Products
+Assembled (<a href="https:&#x2F;&#x2F;assembled.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;assembled.com&#x2F;</a>) - San Francisco, CA - Software engineer -- AI &amp; New Products, Product Manager -- AI &amp; New Products
 
 We&#x27;re hiring a frontend focused engineer and a product manager to join our New Products Team. We work with some of the top brands in the world in customer support (Stripe, Etsy, Robinhood, DoorDash, etc.) and we&#x27;re launching a new AI product to streamline support workflows.
 

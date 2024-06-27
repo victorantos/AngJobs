@@ -4,7 +4,7 @@ author:
   name: notthetup
   url: https://news.ycombinator.com/item?id=40231926
 ---
-Subnero | Singapore | Full-time | Systems Software Engineer | embedded &#x2F; Linux + C, Julia, Rust
+Subnero - Singapore - Full-time - Systems Software Engineer - embedded &#x2F; Linux + C, Julia, Rust
 
 Subnero (<a href="https:&#x2F;&#x2F;subnero.com" rel="nofollow">https:&#x2F;&#x2F;subnero.com</a>) is a Singapore-based company creating in-water wireless networks. We create innovative products (hardware and software) at the cutting edge of underwater communications and networking. Our products are used in environmental monitoring, offshore oil and gas, and defense industries.
 

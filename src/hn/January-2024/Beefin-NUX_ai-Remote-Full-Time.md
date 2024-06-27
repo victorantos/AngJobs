@@ -4,7 +4,7 @@ author:
   name: Beefin
   url: https://news.ycombinator.com/item?id=38847944
 ---
-NUX.ai | Remote | Full-Time | Devops&#x2F;MLOps, Backend Engineer (FastAPI), Frontend Engineer (React)
+NUX.ai - Remote - Full-Time - Devops&#x2F;MLOps, Backend Engineer (FastAPI), Frontend Engineer (React)
 
 Convert your AI workbooks into a reliable backend with one line of code. NUX contains everything you need to prototype, experiment and productionize AI applications.
 

@@ -4,7 +4,7 @@ author:
   name: r4vik
   url: https://news.ycombinator.com/item?id=39564913
 ---
-Novata | Senior Developer Experience Engineer | Full-time | London, UK (Hybrid)
+Novata - Senior Developer Experience Engineer - Full-time - London, UK (Hybrid)
 
 Novata is pioneering the way in ESG (Environmental, Social, and Governance) data management and analytics, empowering private market firms to enhance transparency with stakeholders. Our platform simplifies the collection and analysis of critical ESG metrics.
 

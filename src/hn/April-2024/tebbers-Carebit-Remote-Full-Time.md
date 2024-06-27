@@ -4,7 +4,7 @@ author:
   name: tebbers
   url: https://news.ycombinator.com/item?id=39904369
 ---
-Carebit | <a href="https:&#x2F;&#x2F;www.carebit.co" rel="nofollow">https:&#x2F;&#x2F;www.carebit.co</a> | Mid-Senior React Product Engineer (+- Ruby&#x2F;Rails) | Remote | Full-Time
+Carebit - <a href="https:&#x2F;&#x2F;www.carebit.co" rel="nofollow">https:&#x2F;&#x2F;www.carebit.co</a> - Mid-Senior React Product Engineer (+- Ruby&#x2F;Rails) - Remote - Full-Time
 
 Carebit is a design-led healthcare technology company helping hundreds of private doctors across the UK run their practices more effectively and efficiently with our web platform, along with hundreds of thousands of their patients.
 

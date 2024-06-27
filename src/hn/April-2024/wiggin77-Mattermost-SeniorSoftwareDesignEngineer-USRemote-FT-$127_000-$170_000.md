@@ -4,7 +4,7 @@ author:
   name: wiggin77
   url: https://news.ycombinator.com/item?id=39901089
 ---
-Mattermost | Senior Software Design Engineer | US Remote | FT | $127,000 - $170,000
+Mattermost - Senior Software Design Engineer - US Remote - FT - $127,000 - $170,000
 
 Mattermost provides secure, workflow-centric collaboration for technical and operational teams that need to meet nation-state-level security and trust requirements. We serve technology, public sector, national defense, and financial services industries with customers ranging from tech giants to the world’s largest banks, to the U.S. Department of Defense and governmental agencies around the world.
 

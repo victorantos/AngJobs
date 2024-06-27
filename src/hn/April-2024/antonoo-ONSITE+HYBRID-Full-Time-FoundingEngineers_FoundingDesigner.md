@@ -4,7 +4,7 @@ author:
   name: antonoo
   url: https://news.ycombinator.com/item?id=39903047
 ---
-gptengineer.app &#x2F; Lovable | ONSITE+HYBRID | Stockholm &#x2F; London | Full-Time | Founding Engineers, Founding Designer
+gptengineer.app &#x2F; Lovable - ONSITE+HYBRID - Stockholm &#x2F; London - Full-Time - Founding Engineers, Founding Designer
 
 Lovable consists of a team of pragmatic previous founders, CTOs, IOI gold medalists, set on being the first to make autonomous code generation work.
 

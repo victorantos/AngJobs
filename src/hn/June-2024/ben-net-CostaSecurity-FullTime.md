@@ -4,7 +4,7 @@ author:
   name: ben-net
   url: https://news.ycombinator.com/item?id=40566762
 ---
-Costa Security | Lead &#x2F; Senior Engineer | Chicago &#x2F; Bay Area Preference (Open to Remote) | Full Time
+Costa Security - Lead &#x2F; Senior Engineer - Chicago &#x2F; Bay Area Preference (Open to Remote) - Full Time
 
 Hi everyone. We are Costa, and we are building the next generation of network security.
 

@@ -4,7 +4,7 @@ author:
   name: arcadia_hero
   url: https://news.ycombinator.com/item?id=40226938
 ---
-Arcadia | Senior + Staff Software Engineers, Staff SRE | US REMOTE | Full-time | $150-220k | <a href="https:&#x2F;&#x2F;www.arcadia.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;www.arcadia.com&#x2F;careers</a>
+Arcadia - Senior + Staff Software Engineers, Staff SRE - US REMOTE - Full-time - $150-220k - <a href="https:&#x2F;&#x2F;www.arcadia.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;www.arcadia.com&#x2F;careers</a>
 
 Arcadia is the technology company empowering energy innovators and consumers to fight the climate crisis. Our software and APIs are revolutionizing an industry held back by outdated systems and institutions by creating unprecedented access to the data and clean energy needed to make a decarbonized energy grid possible.
 

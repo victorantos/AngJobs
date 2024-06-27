@@ -4,7 +4,7 @@ author:
   name: projomni
   url: https://news.ycombinator.com/item?id=39695626
 ---
-Stealth | Full-Stack AI Engineer | REMOTE or SF | Full-Time
+Stealth - Full-Stack AI Engineer - REMOTE or SF - Full-Time
 
 Hey all - we&#x27;re a stealth startup founded by a serial entrepreneur with a successful exit. Just raised a seed round from top Silicon Valley VCs. We&#x27;re on a mission to fix the healthcare staffing shortage with AI.
 

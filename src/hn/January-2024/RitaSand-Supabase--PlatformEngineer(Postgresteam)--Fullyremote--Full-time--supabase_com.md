@@ -4,7 +4,7 @@ author:
   name: RitaSand
   url: https://news.ycombinator.com/item?id=38848085
 ---
-Supabase || Platform Engineer (Postgres team) || Fully remote || Full-time || supabase.com
+Supabase -- Platform Engineer (Postgres team) -- Fully remote -- Full-time -- supabase.com
 
 Supabase is an open-source Firebase alternative, built by developers for developers. Supabase adds auth, realtime, storage, restful APIs and edge functions to Postgres. We are a YC&#x27;20 alum with 60K+ stars on GitHub.
 

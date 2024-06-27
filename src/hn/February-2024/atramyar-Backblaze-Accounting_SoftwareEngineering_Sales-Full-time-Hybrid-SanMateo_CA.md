@@ -4,7 +4,7 @@ author:
   name: atramyar
   url: https://news.ycombinator.com/item?id=39310026
 ---
-Backblaze | Accounting, Software Engineering, Sales | Full-time | Hybrid | San Mateo, CA
+Backblaze - Accounting, Software Engineering, Sales - Full-time - Hybrid - San Mateo, CA
 
 The Backblaze Storage Cloud provides a foundational platform around the world for a broad community of developers, IT generalists, entrepreneurs, and individuals who seek the easy, affordable, trusted solutions we provide.
 

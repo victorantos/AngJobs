@@ -4,7 +4,7 @@ author:
   name: zerojames
   url: https://news.ycombinator.com/item?id=39564488
 ---
-Roboflow | Open Source Software Engineer &#x2F; ML Lead &#x2F; ML Engineer | Full-time (Remote, SF, NYC) | <a href="https:&#x2F;&#x2F;roboflow.com&#x2F;careers?ref=whoishiring0324">https:&#x2F;&#x2F;roboflow.com&#x2F;careers?ref=whoishiring0324</a>
+Roboflow - Open Source Software Engineer &#x2F; ML Lead &#x2F; ML Engineer - Full-time (Remote, SF, NYC) - <a href="https:&#x2F;&#x2F;roboflow.com&#x2F;careers?ref=whoishiring0324">https:&#x2F;&#x2F;roboflow.com&#x2F;careers?ref=whoishiring0324</a>
 Roboflow is the fastest way to use computer vision in production. We help developers give their software the sense of sight. Our end-to-end platform[1] provides tooling for image collection, annotation, dataset exploration and curation, training, and deployment.
 
 Over 250k engineers (including engineers from 2&#x2F;3 Fortune 100 companies) build with Roboflow. We now host the largest collection of open source computer vision datasets and pre-trained models[2]. We are pushing forward the CV ecosystem with open source projects like Autodistill[3] and Supervision[4]. And we&#x27;ve built one of the most comprehensive resources for software engineers to learn to use computer vision with our popular blog[5] and YouTube channel[6].

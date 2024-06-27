@@ -4,7 +4,7 @@ author:
   name: avdempsey
   url: https://news.ycombinator.com/item?id=40225454
 ---
-Internet Archive | <a href="https:&#x2F;&#x2F;archive.org" rel="nofollow">https:&#x2F;&#x2F;archive.org</a> | Full-Time | Remote PT-ET Hours | Non-Profit
+Internet Archive - <a href="https:&#x2F;&#x2F;archive.org" rel="nofollow">https:&#x2F;&#x2F;archive.org</a> - Full-Time - Remote PT-ET Hours - Non-Profit
 
 Help build web crawlers, preservation, and public access services for over one thousand partner libraries and other cultural heritage institutions.
 

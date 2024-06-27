@@ -4,7 +4,7 @@ author:
   name: preciz
   url: https://news.ycombinator.com/item?id=39219013
 ---
-Octoscreen | Backend engineer | Remote (EU) | Full-time | <a href="https:&#x2F;&#x2F;www.octoscreen.de" rel="nofollow">https:&#x2F;&#x2F;www.octoscreen.de</a>
+Octoscreen - Backend engineer - Remote (EU) - Full-time - <a href="https:&#x2F;&#x2F;www.octoscreen.de" rel="nofollow">https:&#x2F;&#x2F;www.octoscreen.de</a>
 
 Octoscreen is helping clients to monitor locations and important information.
 We ingest a lot of data from various sources and display the most important information for our clients.

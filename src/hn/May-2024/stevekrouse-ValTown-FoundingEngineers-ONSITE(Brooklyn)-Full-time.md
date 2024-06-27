@@ -4,7 +4,7 @@ author:
   name: stevekrouse
   url: https://news.ycombinator.com/item?id=40226717
 ---
-Val Town | Founding Engineers | ONSITE (Brooklyn) | Full-time | $150k &amp; 0.5-2% equity
+Val Town - Founding Engineers - ONSITE (Brooklyn) - Full-time - $150k &amp; 0.5-2% equity
 
 We believe everybody should be able to code. Our product is as if Github Gists could run or AWS Lambda were fun. On Val Town, you can write, collaborate, and deploy code. Users make websites, HTTP endoints, crons, and email handlers. Our userbase is small but passionate, and growing quickly.
 

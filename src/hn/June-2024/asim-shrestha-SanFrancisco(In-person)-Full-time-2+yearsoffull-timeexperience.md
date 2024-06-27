@@ -4,7 +4,7 @@ author:
   name: asim-shrestha
   url: https://news.ycombinator.com/item?id=40569580
 ---
-Reworkd (<a href="https:&#x2F;&#x2F;reworkd.ai&#x2F;">https:&#x2F;&#x2F;reworkd.ai&#x2F;</a>) | San Francisco (In-person) | Full-time | 2+ years of full-time experience
+Reworkd (<a href="https:&#x2F;&#x2F;reworkd.ai&#x2F;">https:&#x2F;&#x2F;reworkd.ai&#x2F;</a>) - San Francisco (In-person) - Full-time - 2+ years of full-time experience
 
 We&#x27;re hiring a founding backend engineer to help us build infrastructure to run web agents at scale.
 

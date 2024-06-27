@@ -4,7 +4,7 @@ author:
   name: sebastianlinden
   url: https://news.ycombinator.com/item?id=38851927
 ---
-Scope (scopeapp.io) | Senior Software Developer | Full-time | Python | Remote
+Scope (scopeapp.io) - Senior Software Developer - Full-time - Python - Remote
 
 We&#x27;re hiring 1-2 Senior Software Developers:
 

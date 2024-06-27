@@ -4,7 +4,7 @@ author:
   name: mleva
   url: https://news.ycombinator.com/item?id=40563825
 ---
-VIAM -- ONSITE NYC (Hybrid)| Senior Mobile Engineer (Flutter) | Full-Time | Base + Options
+VIAM -- ONSITE NYC (Hybrid)- Senior Mobile Engineer (Flutter) - Full-Time - Base + Options
 
 Viam is a comprehensive open-source platform that simplifies the building, monitoring, and data management of smart machines and robotics.
 

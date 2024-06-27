@@ -4,7 +4,7 @@ author:
   name: twlutzeyer
   url: https://news.ycombinator.com/item?id=38864674
 ---
-Twaice | Engineering, Sales, Customer Success | Munich, Germany or Remote (Germany) | Full-time
+Twaice - Engineering, Sales, Customer Success - Munich, Germany or Remote (Germany) - Full-time
 <a href="https:&#x2F;&#x2F;www.twaice.com" rel="nofollow">https:&#x2F;&#x2F;www.twaice.com</a>
 
 At Twaice we’re building technology to drive the global transformation to a cleaner &amp; greener battery-powered world. Batteries are both the key and the achilles heel of this transition. Our mission is to enable efficient development and longer lifetime of stationary energy storage systems and electric vehicles. For this we’re building a platform to deliver predictive battery analytics at scale across multiple industries.

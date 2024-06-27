@@ -4,7 +4,7 @@ author:
   name: seanobannon
   url: https://news.ycombinator.com/item?id=39907301
 ---
-ReMatter | Engineering | Remote (US time zones) | Full-time | <a href="https:&#x2F;&#x2F;rematter.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;rematter.com&#x2F;careers</a>
+ReMatter - Engineering - Remote (US time zones) - Full-time - <a href="https:&#x2F;&#x2F;rematter.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;rematter.com&#x2F;careers</a>
 
 We&#x27;re the leading software platform for Metal Recyclers. We help recyclers keep track of purchases, sales, inventory, and more so they can make better business decisions. The $100B+ Metal Recycling industry has a tremendous amount of untapped value that we&#x27;re unlocking with better data.
 

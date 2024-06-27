@@ -4,7 +4,7 @@ author:
   name: tristansokol
   url: https://news.ycombinator.com/item?id=39564625
 ---
-Small boutique consulting | junior+ Developer | US Remote (some est meetings) | part-time&#x2F;flexible&#x2F;1099 | $$&#x2F;hr
+Small boutique consulting - junior+ Developer - US Remote (some est meetings) - part-time&#x2F;flexible&#x2F;1099 - $$&#x2F;hr
 
 Hi! I work with a small group of developers doing custom software development and  consulting for small&#x2F;medium businesses. We have enough work where it would be nice to have someone else in our team so we can maybe think about more clients. This is a great opportunity for SAHMs, new parents, etc. who want to get back into the workforce in a very flexible way and don&#x27;t _need_ a full time job, or people who are looking for some supplemental nights and weekend work or maybe transitioning into software development from a different career.
 

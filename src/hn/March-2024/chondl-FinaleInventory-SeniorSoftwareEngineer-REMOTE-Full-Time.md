@@ -4,7 +4,7 @@ author:
   name: chondl
   url: https://news.ycombinator.com/item?id=39570380
 ---
-Finale Inventory | Senior Software Engineer | REMOTE | Full-Time
+Finale Inventory - Senior Software Engineer - REMOTE - Full-Time
 
 Finale Inventory is a SaaS application that helps ecommerce sellers manage their operations efficiently. We integrate with over 25 other systems (Amazon, eBay, Shopify, QuickBooks, etc.) to give our customers a complete picture of their business.
 

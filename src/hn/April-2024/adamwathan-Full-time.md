@@ -4,7 +4,7 @@ author:
   name: adamwathan
   url: https://news.ycombinator.com/item?id=39899166
 ---
-Tailwind Labs (<a href="https:&#x2F;&#x2F;tailwindcss.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;tailwindcss.com&#x2F;</a>) | Remote (Americas&#x2F;Europe) | Full-time
+Tailwind Labs (<a href="https:&#x2F;&#x2F;tailwindcss.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;tailwindcss.com&#x2F;</a>) - Remote (Americas&#x2F;Europe) - Full-time
 
 We’re hiring a Design Engineer and Staff Software Engineer to work on Tailwind CSS, Headless UI, and related projects full-time.
 

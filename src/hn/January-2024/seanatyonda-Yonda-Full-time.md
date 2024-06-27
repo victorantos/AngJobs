@@ -4,7 +4,7 @@ author:
   name: seanatyonda
   url: https://news.ycombinator.com/item?id=38851072
 ---
-Yonda | Software Engineer (Python&#x2F;Javascript) | Full-time | Remote CET =&#x2F;- 3 hours or onsite in London
+Yonda - Software Engineer (Python&#x2F;Javascript) - Full-time - Remote CET =&#x2F;- 3 hours or onsite in London
 
 Yonda is on a mission to make Sales Tax compliance easy for ecommerce and tech businesses. We like our customers to focus on their core business while we handle their tax in an automated fashion. We recently closed our second funding round and are looking to scale up our engineering team.
 

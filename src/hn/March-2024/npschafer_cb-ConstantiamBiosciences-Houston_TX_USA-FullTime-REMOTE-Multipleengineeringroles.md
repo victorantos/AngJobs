@@ -4,7 +4,7 @@ author:
   name: npschafer_cb
   url: https://news.ycombinator.com/item?id=39590905
 ---
-Constantiam Biosciences | Houston, TX, USA | Full Time | REMOTE | Multiple engineering roles
+Constantiam Biosciences - Houston, TX, USA - Full Time - REMOTE - Multiple engineering roles
 
 <a href="https:&#x2F;&#x2F;jobs.gusto.com&#x2F;boards&#x2F;constantiam-biosciences-5ef6c4aa-0b07-45a6-a40c-92928295a0a1" rel="nofollow">https:&#x2F;&#x2F;jobs.gusto.com&#x2F;boards&#x2F;constantiam-biosciences-5ef6c4...</a>
 

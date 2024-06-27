@@ -4,7 +4,7 @@ author:
   name: ImAtWorkLol
   url: https://news.ycombinator.com/item?id=40652335
 ---
-Luminate | Sr Software Eng | Hybrid Los Angeles | Full-Time|   <a href="https:&#x2F;&#x2F;luminatedata.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;luminatedata.com&#x2F;</a>
+Luminate - Sr Software Eng - Hybrid Los Angeles - Full-Time-   <a href="https:&#x2F;&#x2F;luminatedata.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;luminatedata.com&#x2F;</a>
 
 Luminate is entertainment’s preeminent data and insights company, unleashing access to the most essential, objective, and trustworthy information across music, film and television.
 

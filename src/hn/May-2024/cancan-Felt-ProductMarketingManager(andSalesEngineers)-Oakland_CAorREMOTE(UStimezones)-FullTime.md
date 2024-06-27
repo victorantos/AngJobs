@@ -4,7 +4,7 @@ author:
   name: cancan
   url: https://news.ycombinator.com/item?id=40225413
 ---
-Felt | Product Marketing Manager (and Sales Engineers) | Oakland, CA or REMOTE (US timezones) | Full Time | <a href="https:&#x2F;&#x2F;felt.com" rel="nofollow">https:&#x2F;&#x2F;felt.com</a>
+Felt - Product Marketing Manager (and Sales Engineers) - Oakland, CA or REMOTE (US timezones) - Full Time - <a href="https:&#x2F;&#x2F;felt.com" rel="nofollow">https:&#x2F;&#x2F;felt.com</a>
 
 Felt is the best way to make maps and work with geospatial data on the internet. It&#x27;s surprisingly hard to make a map today, and people in 15+ industries rely on them to do their jobs. We are taking on an industry that&#x27;s been stagnant for more than 30 years, but is essential to the workings of practically every company.
 

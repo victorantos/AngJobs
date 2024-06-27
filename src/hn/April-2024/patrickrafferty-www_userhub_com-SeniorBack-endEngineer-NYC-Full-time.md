@@ -4,7 +4,7 @@ author:
   name: patrickrafferty
   url: https://news.ycombinator.com/item?id=39992750
 ---
-www.userhub.com | Senior Back-end Engineer | NYC | Hybrid&#x2F;Onsite | Full-time
+www.userhub.com - Senior Back-end Engineer - NYC - Hybrid&#x2F;Onsite - Full-time
 
 We are reimagining User Management &amp; Subscription Management as a User-Based Billing Platform to put modern monetization within reach of every software business.
 

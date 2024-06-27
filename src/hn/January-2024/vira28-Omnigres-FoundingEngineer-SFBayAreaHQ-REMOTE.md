@@ -4,7 +4,7 @@ author:
   name: vira28
   url: https://news.ycombinator.com/item?id=38846510
 ---
-Omnigres | Founding Engineer | SF Bay Area HQ | REMOTE
+Omnigres - Founding Engineer - SF Bay Area HQ - REMOTE
 
 At Omnigres, our north star is to enable developers to laser-focus on business needs instead of fighting technological challenges.
 We&#x27;re fighting the complexity and inefficiencies of contemporary stacks by removing them instead of hiding them.

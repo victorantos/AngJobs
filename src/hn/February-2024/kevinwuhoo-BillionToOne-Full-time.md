@@ -4,7 +4,7 @@ author:
   name: kevinwuhoo
   url: https://news.ycombinator.com/item?id=39223878
 ---
-BillionToOne | Menlo Park, CA; hybrid or remote (US only) | Full-time
+BillionToOne - Menlo Park, CA; hybrid or remote (US only) - Full-time
 
 BillionToOne (YC S17) is ranked at the top 5% of Y Combinator companies with $300M+ in funding from top VC firms. We have developed a DNA molecular counter that increases cfDNA diagnostic resolution by over 1,000x. Our first product, UNITY, is the first and only non-invasive prenatal test that can directly screen an unborn baby and assess its risk for: common and severe recessive gene disorders; chromosomal abnormalities; fetal sex; and fetal antigens from a single tube of blood from the pregnant mother. This greatly improves the quality of care and is on its path to becoming the next standard-of-care.
 

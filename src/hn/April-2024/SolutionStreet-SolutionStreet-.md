@@ -4,7 +4,7 @@ author:
   name: SolutionStreet
   url: https://news.ycombinator.com/item?id=39910881
 ---
-Solution Street |
+Solution Street -
 Location: Northern Virginia&#x2F; Washington DC - candidates can be located anywhere in the USA. |
 Remote: Yes, (US based candidates only).|
 

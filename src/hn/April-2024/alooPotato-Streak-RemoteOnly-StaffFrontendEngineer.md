@@ -4,7 +4,7 @@ author:
   name: alooPotato
   url: https://news.ycombinator.com/item?id=39898607
 ---
-Streak | Remote Only | Staff Frontend Engineer
+Streak - Remote Only - Staff Frontend Engineer
 
 Streak (www.streak.com) is a CRM built on Gmail. We’re a *remote-first* team of 35 people across North America. We’re growing and very <i>profitable</i>, and we have customers that love our product. We’re currently in the goldilocks zone of having product market fit with real revenue but also a really flat hierarchy where you can ship fast.
 

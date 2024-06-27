@@ -4,7 +4,7 @@ author:
   name: rogueleaderr
   url: https://news.ycombinator.com/item?id=40229279
 ---
-Upwave (YC S12) | VP of Engineering | US Remote | Full-time
+Upwave (YC S12) - VP of Engineering - US Remote - Full-time
 
 Upwave is a YC&#x2F;venture-funded startup that helps large enterprises plan, measure, and optimize brand advertising campaigns. We offer a comprehensive set of tools that help our Fortune 500 clients understand and improve how they’re perceived in the marketplace, how aware consumers are of the value they provide, and how much consumers trust them to provide the value they promise. We enable marketers to optimize hundreds of millions in ad spend through automated insights on audience reach, brand lift and campaign performance.
 

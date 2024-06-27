@@ -4,7 +4,7 @@ author:
   name: sudeepg95
   url: https://news.ycombinator.com/item?id=38908428
 ---
-Equal Experts | Multiple Roles | Bengaluru&#x2F;Pune, India - Hybrid&#x2F;Remote | Full-time | <a href="https:&#x2F;&#x2F;equalexperts.com" rel="nofollow">https:&#x2F;&#x2F;equalexperts.com</a>
+Equal Experts - Multiple Roles - Bengaluru&#x2F;Pune, India - Hybrid&#x2F;Remote - Full-time - <a href="https:&#x2F;&#x2F;equalexperts.com" rel="nofollow">https:&#x2F;&#x2F;equalexperts.com</a>
 
 Equal Experts is an innovative consultancy specializing in the delivery of custom software solutions for blue-chip enterprises and public sector clients across a range of industry sectors. We work on important projects for our clients, deliver market-leading propositions across the digital, online, and mobile channels, and are recognized for our leadership in applying agile and lean delivery methods to assure delivery. We have offices in Australia, Germany, India, South Africa, the UK and the USA.
 

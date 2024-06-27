@@ -4,7 +4,7 @@ author:
   name: lmeyerov
   url: https://news.ycombinator.com/item?id=39566806
 ---
-Graphistry &#x2F; Louie.AI  | Senior security SE + community | USA REMOTE | graphistry.com&#x2F;careers
+Graphistry &#x2F; Louie.AI  - Senior security SE + community - USA REMOTE - graphistry.com&#x2F;careers
 
 Graphistry is a Gartner-awarded visual graph AI startup used by cyber&#x2F;fraud&#x2F;BI&#x2F;supplychain&#x2F;misinfo&#x2F;... analysts to see, correlate, &amp; automate.
 

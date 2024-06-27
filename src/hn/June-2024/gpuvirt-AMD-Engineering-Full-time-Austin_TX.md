@@ -4,7 +4,7 @@ author:
   name: gpuvirt
   url: https://news.ycombinator.com/item?id=40612311
 ---
-AMD | Engineering | Full-time | Austin, TX | Onsite&#x2F;Hybrid
+AMD - Engineering - Full-time - Austin, TX - Onsite&#x2F;Hybrid
 
 The GPU virtualization team works on enabling SRIOV virtualization for AMD Instinct Accelerators for HPC and AI&#x2F;Machine Learning, such as MI300X, and AMD Radeon Pro GPUs for Cloud Gaming + VDI. We also collaborate with Cloud Service Providers like AWS and Microsoft Azure to provide platform software enabling our AMD solution.
 

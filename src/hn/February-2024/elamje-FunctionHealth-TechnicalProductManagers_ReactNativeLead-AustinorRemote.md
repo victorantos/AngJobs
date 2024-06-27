@@ -4,7 +4,7 @@ author:
   name: elamje
   url: https://news.ycombinator.com/item?id=39223255
 ---
-Function Health | Technical Product Managers, React Native Lead | Austin or Remote | <a href="https:&#x2F;&#x2F;functionhealth.com" rel="nofollow">https:&#x2F;&#x2F;functionhealth.com</a>
+Function Health - Technical Product Managers, React Native Lead - Austin or Remote - <a href="https:&#x2F;&#x2F;functionhealth.com" rel="nofollow">https:&#x2F;&#x2F;functionhealth.com</a>
 
 We are the fastest growing health membership in the US right now.
 

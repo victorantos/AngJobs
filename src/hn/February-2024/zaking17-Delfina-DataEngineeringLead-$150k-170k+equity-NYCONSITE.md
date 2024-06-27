@@ -4,7 +4,7 @@ author:
   name: zaking17
   url: https://news.ycombinator.com/item?id=39282381
 ---
-Delfina | Data Engineering Lead | $150k-170k + equity | NYC ONSITE
+Delfina - Data Engineering Lead - $150k-170k + equity - NYC ONSITE
 
 We’re looking for an experienced data engineer to help us build the apps and systems that run Delfina Care, our intelligent pregnancy care platform. Delfina is a fast moving startup, and we have an incredible team of engineers building an integrated, ML-driven platform to make every pregnancy safer.
 

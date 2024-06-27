@@ -4,7 +4,7 @@ author:
   name: MikeGenHealth
   url: https://news.ycombinator.com/item?id=40584416
 ---
-GenHealth.ai | Remote, US only | Fullstack LLM Engineer| full-time | <a href="https:&#x2F;&#x2F;GenHealth.ai" rel="nofollow">https:&#x2F;&#x2F;GenHealth.ai</a>
+GenHealth.ai - Remote, US only - Fullstack LLM Engineer- full-time - <a href="https:&#x2F;&#x2F;GenHealth.ai" rel="nofollow">https:&#x2F;&#x2F;GenHealth.ai</a>
 
 See position <a href="https:&#x2F;&#x2F;genhealth.ai&#x2F;jobs&#x2F;full-stack-llm" rel="nofollow">https:&#x2F;&#x2F;genhealth.ai&#x2F;jobs&#x2F;full-stack-llm</a>
 

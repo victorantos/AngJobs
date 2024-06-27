@@ -4,7 +4,7 @@ author:
   name: SpaceXHiring
   url: https://news.ycombinator.com/item?id=39899761
 ---
-SpaceX | Onsite | Full Time
+SpaceX - Onsite - Full Time
 
 Hiring in:
 1. Los Angeles &#x2F; Hawthorne, CA

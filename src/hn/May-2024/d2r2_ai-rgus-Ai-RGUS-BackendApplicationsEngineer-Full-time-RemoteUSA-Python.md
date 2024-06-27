@@ -4,7 +4,7 @@ author:
   name: d2r2_ai-rgus
   url: https://news.ycombinator.com/item?id=40241325
 ---
-Ai-RGUS | Backend Applications Engineer | Full-time | Remote USA | Python
+Ai-RGUS - Backend Applications Engineer - Full-time - Remote USA - Python
 
 Ai-RGUS is artificial intelligence 100%-software solution that makes security camera system maintenance easy. Initially developed to manage Duke University’s 2000+ camera system and now deployed in all 50 US states, Canada, and abroad, it automatically alerts of any problems, including cameras down&#x2F;unclear views, and cybersecurity vulnerabilities and automatically alerts the security team otherwise. We have an online user interface and API, making our software user-friendly and hassle-free.
 

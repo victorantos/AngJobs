@@ -4,7 +4,7 @@ author:
   name: kbuck
   url: https://news.ycombinator.com/item?id=39225462
 ---
-Roblox | Senior Software Engineer | ONSITE (San Mateo, CA, USA) | Full time
+Roblox - Senior Software Engineer - ONSITE (San Mateo, CA, USA) - Full time
 
 We are hiring systems engineers experienced in C++ to work on the game engine that powers our platform, supporting extensive user-generated content from 2M+ developers. We have three roles we&#x27;re actively hiring for:
 

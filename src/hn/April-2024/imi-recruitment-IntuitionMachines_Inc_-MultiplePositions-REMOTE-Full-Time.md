@@ -4,7 +4,7 @@ author:
   name: imi-recruitment
   url: https://news.ycombinator.com/item?id=39915481
 ---
-Intuition Machines, Inc. | Multiple Positions | REMOTE | Full-Time
+Intuition Machines, Inc. - Multiple Positions - REMOTE - Full-Time
 
 Intuition Machines uses AI&#x2F;ML to build enterprise security products. We apply our research to systems that serve hundreds of millions of people, with a team distributed around the world. You are probably familiar with our best-known product, the hCaptcha security suite. Our approach is simple: low overhead, small teams, and rapid iteration.
 

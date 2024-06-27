@@ -4,7 +4,7 @@ author:
   name: jordaneast
   url: https://news.ycombinator.com/item?id=38847270
 ---
-Building Swell | Customer Success Manager | Remote | Full-time
+Building Swell - Customer Success Manager - Remote - Full-time
 
 Fast-track your career by joining our growing team, where you will have the autonomy to drive the company to new heights and leave an impact on an industry at the cusp of incredible change.
 

@@ -4,7 +4,7 @@ author:
   name: esafak
   url: https://news.ycombinator.com/item?id=39898454
 ---
-Archipelago AI (<a href="https:&#x2F;&#x2F;archipelago-ai.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;archipelago-ai.com&#x2F;</a>) | Back- and front-end engineers | Contract-to-hire but no agencies for now | Part-time possible | Remote
+Archipelago AI (<a href="https:&#x2F;&#x2F;archipelago-ai.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;archipelago-ai.com&#x2F;</a>) - Back- and front-end engineers - Contract-to-hire but no agencies for now - Part-time possible - Remote
 
 We are dedicated to improving distributed work through better communication tools. More productive, and more conducive to forming the social ties that we associate with face-to-face interaction.
 

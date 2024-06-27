@@ -4,7 +4,7 @@ author:
   name: miduil
   url: https://news.ycombinator.com/item?id=40563369
 ---
-<a href="https:&#x2F;&#x2F;contextflow.com" rel="nofollow">https:&#x2F;&#x2F;contextflow.com</a> | Remote, Europe (or Hybrid Vienna if personally preferred)
+<a href="https:&#x2F;&#x2F;contextflow.com" rel="nofollow">https:&#x2F;&#x2F;contextflow.com</a> - Remote, Europe (or Hybrid Vienna if personally preferred)
 
 contextflow ADVANCE Chest CT provides radiologists comprehensive computer-aided detection support for suspected lung cancer, ILD and COPD cases. It&#x27;s main features are designed to help save time and improve reporting quality: nodule detection and quantification, nodule tracking over time, quantitative lung tissue analysis for key image findings, and qualitative analysis of 19 image patterns plus reference cases and differential diagnosis information.
 

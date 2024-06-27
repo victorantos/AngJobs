@@ -4,7 +4,7 @@ author:
   name: yokto
   url: https://news.ycombinator.com/item?id=40565501
 ---
-Journee | Berlin, Germany, Europe | REMOTE, VISA | Full-time | <a href="https:&#x2F;&#x2F;journee.live" rel="nofollow">https:&#x2F;&#x2F;journee.live</a>
+Journee - Berlin, Germany, Europe - REMOTE, VISA - Full-time - <a href="https:&#x2F;&#x2F;journee.live" rel="nofollow">https:&#x2F;&#x2F;journee.live</a>
 
 ==========
 

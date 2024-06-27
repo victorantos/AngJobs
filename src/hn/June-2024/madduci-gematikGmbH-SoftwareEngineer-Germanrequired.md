@@ -4,7 +4,7 @@ author:
   name: madduci
   url: https://news.ycombinator.com/item?id=40587351
 ---
-gematik GmbH | Software Engineer| Berlin, Germany &#x2F; Home Office | German required
+gematik GmbH - Software Engineer- Berlin, Germany &#x2F; Home Office - German required
 
 We are looking for new colleagues to further develop the German Central Information System for Diseases (DEMIS).
 

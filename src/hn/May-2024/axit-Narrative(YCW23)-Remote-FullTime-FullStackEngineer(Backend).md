@@ -4,7 +4,7 @@ author:
   name: axit
   url: https://news.ycombinator.com/item?id=40225998
 ---
-Narrative (YC W23) | Remote | Full Time | Full Stack Engineer (Backend)
+Narrative (YC W23) - Remote - Full Time - Full Stack Engineer (Backend)
 
 Narrative is making AI powered data tools for logistics (and other industries soon!). We standardize and find errors in shipping invoice data for large companies.
 

@@ -4,7 +4,7 @@ author:
   name: benzguo
   url: https://news.ycombinator.com/item?id=38859928
 ---
-꩜Substrate | Founding Engineer | NYC – Hybrid&#x2F;Onsite
+꩜Substrate - Founding Engineer - NYC – Hybrid&#x2F;Onsite
 
 We&#x27;re building a never-before-seen way to declare, run, and scale an ensemble of ML models. You&#x27;ll get to build a deep understanding of this fast-evolving space, design greenfield developer interfaces and infrastructure, and co-create the culture of what could become a generational company.
 

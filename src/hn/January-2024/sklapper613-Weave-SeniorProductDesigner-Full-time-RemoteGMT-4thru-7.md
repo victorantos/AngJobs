@@ -4,7 +4,7 @@ author:
   name: sklapper613
   url: https://news.ycombinator.com/item?id=38863301
 ---
-Weave | Senior Product Designer | Full-time | Remote GMT -4 thru -7
+Weave - Senior Product Designer - Full-time - Remote GMT -4 thru -7
 
 Do you live and breathe intuitive design? Are you passionate about transforming complex workflows into effortless experiences? We want to hear from you!
 

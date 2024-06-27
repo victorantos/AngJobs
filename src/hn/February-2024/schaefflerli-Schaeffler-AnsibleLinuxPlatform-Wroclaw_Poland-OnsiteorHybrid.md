@@ -4,7 +4,7 @@ author:
   name: schaefflerli
   url: https://news.ycombinator.com/item?id=39225707
 ---
-Schaeffler | Ansible Linux Platform | Wroclaw, Poland | Onsite or Hybrid
+Schaeffler - Ansible Linux Platform - Wroclaw, Poland - Onsite or Hybrid
 
 Schaeffler is a partner to all of the major automobile manufacturers, as well as key players in the aerospace and industrial sectors. We have ~80.000 employees worldwide.
 

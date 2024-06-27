@@ -4,7 +4,7 @@ author:
   name: echelon
   url: https://news.ycombinator.com/item?id=39569093
 ---
-Storyteller.ai <a href="https:&#x2F;&#x2F;storyteller.ai" rel="nofollow">https:&#x2F;&#x2F;storyteller.ai</a> | Multiple Roles | {Atlanta, GA; Toronto, ON; SF; Remote}, | Contract, Contract-to-hire
+Storyteller.ai <a href="https:&#x2F;&#x2F;storyteller.ai" rel="nofollow">https:&#x2F;&#x2F;storyteller.ai</a> - Multiple Roles - {Atlanta, GA; Toronto, ON; SF; Remote}, - Contract, Contract-to-hire
 
 We’re building the one-person Hollywood film studio.
 

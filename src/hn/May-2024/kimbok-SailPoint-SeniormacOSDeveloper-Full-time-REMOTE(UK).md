@@ -4,7 +4,7 @@ author:
   name: kimbok
   url: https://news.ycombinator.com/item?id=40306452
 ---
-SailPoint | Senior macOS Developer | Full-time | REMOTE (UK) | <a href="https:&#x2F;&#x2F;www.sailpoint.com" rel="nofollow">https:&#x2F;&#x2F;www.sailpoint.com</a>
+SailPoint - Senior macOS Developer - Full-time - REMOTE (UK) - <a href="https:&#x2F;&#x2F;www.sailpoint.com" rel="nofollow">https:&#x2F;&#x2F;www.sailpoint.com</a>
 
 We&#x27;re looking for a macOS developer with:
 

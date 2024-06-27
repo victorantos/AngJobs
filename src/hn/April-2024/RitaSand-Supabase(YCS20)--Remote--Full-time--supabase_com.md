@@ -4,7 +4,7 @@ author:
   name: RitaSand
   url: https://news.ycombinator.com/item?id=39896229
 ---
-Supabase (YC S20) ||  Remote || Full-time || supabase.com
+Supabase (YC S20) --  Remote -- Full-time -- supabase.com
 
 Supabase is an open-source Firebase alternative with over 60,000 stars on GitHub. In other words, it is a Backend platform offering a Postgres database, vector extensions, auth, real-time functionality, storage, restful APIs, and edge functions.
 

@@ -4,7 +4,7 @@ author:
   name: ardabulut
   url: https://news.ycombinator.com/item?id=39247346
 ---
-HockeyStack | San Francisco | ONSITE | Full-time | $160-200k + equity, employee #12
+HockeyStack - San Francisco - ONSITE - Full-time - $160-200k + equity, employee #12
 
 ---
 

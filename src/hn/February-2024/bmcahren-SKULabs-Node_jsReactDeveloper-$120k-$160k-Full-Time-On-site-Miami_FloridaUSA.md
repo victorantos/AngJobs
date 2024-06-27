@@ -4,7 +4,7 @@ author:
   name: bmcahren
   url: https://news.ycombinator.com/item?id=39219043
 ---
-SKULabs | Node.js React Developer | $120k-$160k | Full-Time | On-site | Miami, Florida USA
+SKULabs - Node.js React Developer - $120k-$160k - Full-Time - On-site - Miami, Florida USA
 
 SKULabs helps ecommerce companies scale their operations. Since 2014, our founder has commanded SKULabs offer the best customer service and no annual contract inventory, warehouse, and order management solutions. Designed in-house for an in-house need and scaled to support publicly traded companies and startups alike, SKULabs products are a boon to any Shopify or Amazon seller.
 

@@ -4,7 +4,7 @@ author:
   name: kyasui
   url: https://news.ycombinator.com/item?id=39218939
 ---
-Vanilla | Fully Remote (US Based) | Full-Time Positions Domain: Financial and Legal Tech Vanilla is a financial and legal technology company that is changing the way that people interact with their end-of-life planning. We are a series B company and are growing fast.
+Vanilla - Fully Remote (US Based) - Full-Time Positions Domain: Financial and Legal Tech Vanilla is a financial and legal technology company that is changing the way that people interact with their end-of-life planning. We are a series B company and are growing fast.
 Full Stack Engineer (Mid to Senior Level)
 
 - ReactJS&#x2F;Typescript &#x2F; Familiarity and interest in modern React ecosystem - GraphQL &#x2F; Apollo

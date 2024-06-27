@@ -4,7 +4,7 @@ author:
   name: ihnorton
   url: https://news.ycombinator.com/item?id=40227445
 ---
-TileDB, Inc. | Full-Time | REMOTE | USA, Greece&#x2F;EU | <a href="https:&#x2F;&#x2F;tiledb.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;tiledb.com&#x2F;</a>
+TileDB, Inc. - Full-Time - REMOTE - USA, Greece&#x2F;EU - <a href="https:&#x2F;&#x2F;tiledb.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;tiledb.com&#x2F;</a>
 
 TileDB has recently announced a $34 million Series B fund-raise and is actively hiring for engineers across a range of roles (SRE, backend&#x2F;distributed systems, database internals, and more). You will have the opportunity to work on innovative technology that creates impact for challenging problems in genomics, geospatial, machine learning, distributed systems, and many other areas.
 

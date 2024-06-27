@@ -4,7 +4,7 @@ author:
   name: david_p
   url: https://news.ycombinator.com/item?id=39223180
 ---
-<a href="https:&#x2F;&#x2F;linkurious.com" rel="nofollow">https:&#x2F;&#x2F;linkurious.com</a> | USA (East coast) | REMOTE | Full-time | $150k-180k
+<a href="https:&#x2F;&#x2F;linkurious.com" rel="nofollow">https:&#x2F;&#x2F;linkurious.com</a> - USA (East coast) - REMOTE - Full-time - $150k-180k
 
 We are a graph visualization company specializing in data investigations. Most of our customers are fighting financial crime.
 

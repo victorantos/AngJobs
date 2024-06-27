@@ -4,7 +4,7 @@ author:
   name: forallsecure
   url: https://news.ycombinator.com/item?id=39319270
 ---
-ForAllSecure | US Remote | Full-time | <a href="https:&#x2F;&#x2F;www.mayhem.security&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.mayhem.security&#x2F;</a>
+ForAllSecure - US Remote - Full-time - <a href="https:&#x2F;&#x2F;www.mayhem.security&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.mayhem.security&#x2F;</a>
 
 We are looking for Mayhem Makers to join our team at ForAllSecure!
 

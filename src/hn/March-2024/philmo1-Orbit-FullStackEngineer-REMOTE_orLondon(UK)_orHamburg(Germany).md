@@ -4,7 +4,7 @@ author:
   name: philmo1
   url: https://news.ycombinator.com/item?id=39563945
 ---
-Orbit | Full Stack Engineer | REMOTE, or London (UK), or Hamburg (Germany)
+Orbit - Full Stack Engineer - REMOTE, or London (UK), or Hamburg (Germany)
 
 Orbit is the operating system for logistics &amp; delivery – modular, cloud-native, made for pros. We strive to make the world of logistics a better place by providing the world’s leading logistics operating system and helping companies to achieve more with less: Do more. With Orbit.
 

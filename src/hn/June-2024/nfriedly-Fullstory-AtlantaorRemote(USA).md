@@ -4,7 +4,7 @@ author:
   name: nfriedly
   url: https://news.ycombinator.com/item?id=40564318
 ---
-Fullstory | Atlanta or Remote (USA) | <a href="https:&#x2F;&#x2F;www.fullstory.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.fullstory.com&#x2F;</a>
+Fullstory - Atlanta or Remote (USA) - <a href="https:&#x2F;&#x2F;www.fullstory.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.fullstory.com&#x2F;</a>
 
 Fullstory provides session replay and analytics for websites and mobile apps. We have several engineering roles open:
 

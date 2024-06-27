@@ -4,7 +4,7 @@ author:
   name: jsnchn
   url: https://news.ycombinator.com/item?id=38848867
 ---
-Trestle | Senior Software Engineer - Full Stack | Full-time | HYBRID NYC | $160k - $180k + equity
+Trestle - Senior Software Engineer - Full Stack - Full-time - HYBRID NYC - $160k - $180k + equity
 
 At Trestle we are on a mission to transform the construction industry. We&#x27;re seeking a highly skilled Senior Software Engineer with a strong background in SaaS product development, preferably with experience in or adjacent to the United States construction and building industry.
 

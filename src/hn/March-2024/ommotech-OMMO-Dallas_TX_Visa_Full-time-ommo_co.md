@@ -4,7 +4,7 @@ author:
   name: ommotech
   url: https://news.ycombinator.com/item?id=39595812
 ---
-OMMO | Dallas, TX, Visa, Full-time | ommo.co
+OMMO - Dallas, TX, Visa, Full-time - ommo.co
 
 Ommo is the pioneer of permanent magnet-based 3D tracking systems - building the foundation of human-computer interaction and digital transformation. Primary use case is surgical navigation then expanding to robotics, metaverse, and XR.
 

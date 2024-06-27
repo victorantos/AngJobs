@@ -4,7 +4,7 @@ author:
   name: lmeyerov
   url: https://news.ycombinator.com/item?id=38845537
 ---
-Graphistry | Viz engineer | Security engineer | Contract | REMOTE - GLOBAL | <a href="https:&#x2F;&#x2F;www.graphistry.com" rel="nofollow">https:&#x2F;&#x2F;www.graphistry.com</a> + <a href="https:&#x2F;&#x2F;www.louie.ai" rel="nofollow">https:&#x2F;&#x2F;www.louie.ai</a>
+Graphistry - Viz engineer - Security engineer - Contract - REMOTE - GLOBAL - <a href="https:&#x2F;&#x2F;www.graphistry.com" rel="nofollow">https:&#x2F;&#x2F;www.graphistry.com</a> + <a href="https:&#x2F;&#x2F;www.louie.ai" rel="nofollow">https:&#x2F;&#x2F;www.louie.ai</a>
 
 Graphistry is a Gartner-awarded startup used by fraud&#x2F;cyber&#x2F;BI&#x2F;supplychain&#x2F;misinfo&#x2F;... analysts to see and correlate using our visual graph AI platform. With louie.ai (generative AI), they can now talk with their many databases in natural language while having L.O.U.I.E. generate the queries, GPU visualizations, &amp; analyses for them.
 

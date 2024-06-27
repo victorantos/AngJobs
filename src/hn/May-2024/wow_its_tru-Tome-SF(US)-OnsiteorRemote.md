@@ -4,7 +4,7 @@ author:
   name: wow_its_tru
   url: https://news.ycombinator.com/item?id=40226599
 ---
-Tome | SF (US) | Onsite or Remote | <a href="https:&#x2F;&#x2F;tome.com" rel="nofollow">https:&#x2F;&#x2F;tome.com</a>
+Tome - SF (US) - Onsite or Remote - <a href="https:&#x2F;&#x2F;tome.com" rel="nofollow">https:&#x2F;&#x2F;tome.com</a>
 
 Tome revolutionizes contract understanding using LLMs fine-tuned on contract domain knowledge. For users, we decode complex contracts into simple reports, so everyone can understand their rights and make informed decisions. We are a team of 8, with a 4.5 person engineering team, backed by top VC firms, and we&#x27;re poised to transform the $400B legal industry.
 

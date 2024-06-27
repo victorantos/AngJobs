@@ -4,7 +4,7 @@ author:
   name: ltruitt
   url: https://news.ycombinator.com/item?id=39316167
 ---
-Bridgesplit (bridgesplit.com) | New York, New York | ONSITE | Full-time
+Bridgesplit (bridgesplit.com) - New York, New York - ONSITE - Full-time
 
 Bridgesplit is a blockchain-enabled asset-based finance platform for alternative assets across cryptocurrency, luxury assets, illiquid financial products, and other high-value physical or financial assets.
 

@@ -4,7 +4,7 @@ author:
   name: HiThisIsX
   url: https://news.ycombinator.com/item?id=39928639
 ---
-Stealth Startup | Technical Co-Founder | Bay Area or LA based preferred; remote possible | Full-time
+Stealth Startup - Technical Co-Founder - Bay Area or LA based preferred; remote possible - Full-time
 
 Looking for a technical co-founder interested in re-inventing the payment processing space from a B2C outlook.
 

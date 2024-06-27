@@ -4,7 +4,7 @@ author:
   name: arnoooooo
   url: https://news.ycombinator.com/item?id=38851932
 ---
-Hozana | Full Stack Dev &#x2F; Symfony Dev &#x2F; Lead Front Dev | Lyon, France | ONSITE or REMOTE | FRENCH speakers with EU VISA
+Hozana - Full Stack Dev &#x2F; Symfony Dev &#x2F; Lead Front Dev - Lyon, France - ONSITE or REMOTE - FRENCH speakers with EU VISA
 
 We are a non-profit with a mission to unite the world in prayer through technology. We currently edit two prayer apps (Hozana and Rosario), with already more that a million users.
 

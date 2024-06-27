@@ -4,7 +4,7 @@ author:
   name: vikram_thalo
   url: https://news.ycombinator.com/item?id=39227544
 ---
-Thalo Labs (<a href="https:&#x2F;&#x2F;www.thalolabs.com" rel="nofollow">https:&#x2F;&#x2F;www.thalolabs.com</a>) | Brooklyn &#x2F; New York City | ONSITE | Full-Time
+Thalo Labs (<a href="https:&#x2F;&#x2F;www.thalolabs.com" rel="nofollow">https:&#x2F;&#x2F;www.thalolabs.com</a>) - Brooklyn &#x2F; New York City - ONSITE - Full-Time
 
 Thalo Labs is an NYC-based company on a mission to transform the built environment into a powerful tool for fighting climate change. We&#x27;re looking for experienced full stack software engineers to help build our decarbonization products.
 

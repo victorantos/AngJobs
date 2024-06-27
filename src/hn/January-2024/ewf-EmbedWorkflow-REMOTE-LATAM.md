@@ -4,7 +4,7 @@ author:
   name: ewf
   url: https://news.ycombinator.com/item?id=38885865
 ---
-Embed Workflow | Full Time &#x2F; Contract | REMOTE | LATAM | <a href="https:&#x2F;&#x2F;embedworkflow.com" rel="nofollow">https:&#x2F;&#x2F;embedworkflow.com</a>
+Embed Workflow - Full Time &#x2F; Contract - REMOTE - LATAM - <a href="https:&#x2F;&#x2F;embedworkflow.com" rel="nofollow">https:&#x2F;&#x2F;embedworkflow.com</a>
 
 Embed Workflow is an API-first company bringing a native workflow builder to our customer&#x27;s end-users. We are a lean self-funded team looking for strong ICs to round out our early engineering team.
 

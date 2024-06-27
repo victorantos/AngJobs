@@ -4,7 +4,7 @@ author:
   name: ednxzu
   url: https://news.ycombinator.com/item?id=40583244
 ---
-Infomaniak | Multiple Positions | Geneva, Switzerland | On-Site(up to 2 days remote&#x2F;week)
+Infomaniak - Multiple Positions - Geneva, Switzerland - On-Site(up to 2 days remote&#x2F;week)
 
 Infomaniak is a leading Swiss web hosting and cloud services provider, committed to open source development, environmental sustainability, and robust privacy protection.
 

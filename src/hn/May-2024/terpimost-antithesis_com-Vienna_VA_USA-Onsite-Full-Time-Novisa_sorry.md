@@ -4,7 +4,7 @@ author:
   name: terpimost
   url: https://news.ycombinator.com/item?id=40231073
 ---
-antithesis.com | Vienna, VA, USA | Onsite | Full-Time | No visa, sorry
+antithesis.com - Vienna, VA, USA - Onsite - Full-Time - No visa, sorry
 
 Antithesis is a completely new approach to testing and debugging. Our platform continuously searches your software for problems, within a simulated environment where every problem can be perfectly reproduced, enabling efficient debugging of the most complex issues.
 

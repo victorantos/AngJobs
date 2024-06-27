@@ -4,7 +4,7 @@ author:
   name: chrisp1118
   url: https://news.ycombinator.com/item?id=38845751
 ---
-Navix | Senior Software Engineer (Backend or Full Stack) | Remote (U.S.-based), Full-Time
+Navix - Senior Software Engineer (Backend or Full Stack) - Remote (U.S.-based), Full-Time
 
 Navix is an early stage logistics startup using ML and automation to streamline freight invoice processing. We accelerate our customers&#x27; cash conversion cycle by working across the full spectrum of shippers, carriers, and intermediaries.
 

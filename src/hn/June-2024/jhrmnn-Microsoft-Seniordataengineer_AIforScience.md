@@ -4,7 +4,7 @@ author:
   name: jhrmnn
   url: https://news.ycombinator.com/item?id=40582643
 ---
-Microsoft | Senior data engineer, AI for Science | On-site: Berlin, Germany
+Microsoft - Senior data engineer, AI for Science - On-site: Berlin, Germany
 
 Interested in driving the engineering side of a large-scale data operation in computational chemistry that unlocks AI for science?
 

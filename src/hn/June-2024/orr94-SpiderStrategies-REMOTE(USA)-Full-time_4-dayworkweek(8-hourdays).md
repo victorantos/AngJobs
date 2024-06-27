@@ -4,7 +4,7 @@ author:
   name: orr94
   url: https://news.ycombinator.com/item?id=40575721
 ---
-Spider Strategies | Senior Java&#x2F;Web Developer | REMOTE (USA) | Full-time, 4-day work week (8-hour days) | <a href="https:&#x2F;&#x2F;www.spiderstrategies.com&#x2F;overview" rel="nofollow">https:&#x2F;&#x2F;www.spiderstrategies.com&#x2F;overview</a>
+Spider Strategies - Senior Java&#x2F;Web Developer - REMOTE (USA) - Full-time, 4-day work week (8-hour days) - <a href="https:&#x2F;&#x2F;www.spiderstrategies.com&#x2F;overview" rel="nofollow">https:&#x2F;&#x2F;www.spiderstrategies.com&#x2F;overview</a>
 
 Spider Strategies is seeking passionate full stack engineers to join our rapidly growing team. We’re the creators of Spider Impact, the leading Balanced Scorecard software in the market. As we expand into the broader business intelligence market and AI, we&#x27;re looking for talented individuals to help take our company to the next level.
 

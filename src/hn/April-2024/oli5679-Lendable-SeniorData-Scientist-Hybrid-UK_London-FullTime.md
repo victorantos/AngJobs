@@ -4,7 +4,7 @@ author:
   name: oli5679
   url: https://news.ycombinator.com/item?id=39895906
 ---
-Lendable | Senior Data-Scientist |Hybrid | UK, London | Full Time
+Lendable - Senior Data-Scientist -Hybrid - UK, London - Full Time
 
 Lendable have built the big three consumer finance products from scratch: loans, credit cards and car finance. Help us improve out best-in-class credit analytics that powers credit-decisioning.
 

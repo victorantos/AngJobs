@@ -4,7 +4,7 @@ author:
   name: ben-ray
   url: https://news.ycombinator.com/item?id=40230565
 ---
-hacker&#x2F;engineer | ONSITE Redwood City, CA | full-time | <a href="https:&#x2F;&#x2F;www.retro.bio&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.retro.bio&#x2F;</a>
+hacker&#x2F;engineer - ONSITE Redwood City, CA - full-time - <a href="https:&#x2F;&#x2F;www.retro.bio&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.retro.bio&#x2F;</a>
 
 we are building modern, software engineering heavy, approach to lab automation to accelerate wetlab R&amp;D to develop drugs across 5 of Retro&#x27;s scientific programs
 

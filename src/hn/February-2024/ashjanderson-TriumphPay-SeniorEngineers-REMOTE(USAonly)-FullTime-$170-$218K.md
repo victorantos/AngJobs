@@ -4,7 +4,7 @@ author:
   name: ashjanderson
   url: https://news.ycombinator.com/item?id=39219748
 ---
-TriumphPay | <a href="https:&#x2F;&#x2F;triumphpay.com" rel="nofollow">https:&#x2F;&#x2F;triumphpay.com</a> | Senior Engineers | REMOTE (USA only) | Full Time | $170-$218K
+TriumphPay - <a href="https:&#x2F;&#x2F;triumphpay.com" rel="nofollow">https:&#x2F;&#x2F;triumphpay.com</a> - Senior Engineers - REMOTE (USA only) - Full Time - $170-$218K
 
 At TriumphPay, we are building the transportation payments network for the future. With our payments and audit products, we touch over $50 billion in unique brokered freight transactions across the United States. Our customers use our products to solve real world problems and operate in our software all day every day. This is both exciting and also an incredible responsibility.
 

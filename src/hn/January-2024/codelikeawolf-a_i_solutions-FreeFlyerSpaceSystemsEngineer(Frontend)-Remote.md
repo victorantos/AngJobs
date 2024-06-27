@@ -4,7 +4,7 @@ author:
   name: codelikeawolf
   url: https://news.ycombinator.com/item?id=38846683
 ---
-a.i. solutions | FreeFlyer Space Systems Engineer (Frontend) | Remote
+a.i. solutions - FreeFlyer Space Systems Engineer (Frontend) - Remote
 
 a.i. solutions is looking to increase the size of our FreeFlyer support team by bringing on a well-spoken engineer passionate about space. Unlike most support teams, the selected engineer will not just be answering questions from our NASA, US Air Force, and commercial customers, they will be on the front lines of helping with every exciting and challenging aerospace design problem involving the FreeFlyer flight dynamics software inside the company.
 

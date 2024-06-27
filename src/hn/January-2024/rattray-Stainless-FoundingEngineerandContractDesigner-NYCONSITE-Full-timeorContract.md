@@ -4,7 +4,7 @@ author:
   name: rattray
   url: https://news.ycombinator.com/item?id=38850620
 ---
-Stainless | Founding Engineer and Contract Designer | NYC ONSITE | Full-time or Contract
+Stainless - Founding Engineer and Contract Designer - NYC ONSITE - Full-time or Contract
 
 Stainless is building the platform for high-quality, easy-to-use APIs.
 

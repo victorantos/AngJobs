@@ -4,7 +4,7 @@ author:
   name: efijob
   url: https://news.ycombinator.com/item?id=39903963
 ---
-Your Headway | Senior frontend developer | Remote (GMT +&#x2F;- 2 hours) | Full-time | <a href="https:&#x2F;&#x2F;www.yourheadway.no&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.yourheadway.no&#x2F;</a>
+Your Headway - Senior frontend developer - Remote (GMT +&#x2F;- 2 hours) - Full-time - <a href="https:&#x2F;&#x2F;www.yourheadway.no&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.yourheadway.no&#x2F;</a>
 
 Senior Front-end Vue.JS Developer needed!
 

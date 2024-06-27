@@ -4,7 +4,7 @@ author:
   name: sebbul
   url: https://news.ycombinator.com/item?id=38850458
 ---
-Infrastructure Engineer (Kubernetes&#x2F;GCP) - Remote | Adeptmind
+Infrastructure Engineer (Kubernetes&#x2F;GCP) - Remote - Adeptmind
 
 Our company delivers AI products for e-commerce. We are expanding our Infrastructure team, looking for Kubernetes and GCP experts. Fully remote, global presence, Montreal-based hiring manager.
 

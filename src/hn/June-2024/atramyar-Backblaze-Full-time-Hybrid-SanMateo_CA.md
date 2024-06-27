@@ -4,7 +4,7 @@ author:
   name: atramyar
   url: https://news.ycombinator.com/item?id=40588544
 ---
-Backblaze | Finance, Cloud Operations, Engineering, Marketing, Revenue Strategy &amp; Operations, Data Analytics, Supply Chain, Technical Operations | Full-time | Hybrid | San Mateo, CA
+Backblaze - Finance, Cloud Operations, Engineering, Marketing, Revenue Strategy &amp; Operations, Data Analytics, Supply Chain, Technical Operations - Full-time - Hybrid - San Mateo, CA
 
 Backblaze is a public company that makes it astonishingly easy to store, use, and protect data. When our founding team got together, they committed to helping people save their data. Today, the Backblaze Storage Cloud provides a foundational platform around the world for a broad community of developers, IT generalists, entrepreneurs, and individuals who seek the easy, affordable, trusted solutions we provide.
 

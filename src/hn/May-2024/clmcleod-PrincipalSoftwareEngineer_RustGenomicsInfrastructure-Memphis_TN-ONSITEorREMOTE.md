@@ -4,7 +4,7 @@ author:
   name: clmcleod
   url: https://news.ycombinator.com/item?id=40231859
 ---
-St. Jude Children&#x27;s Research Hospital | Principal Software Engineer, Rust Genomics Infrastructure | Memphis, TN | ONSITE or REMOTE | <a href="https:&#x2F;&#x2F;www.stjude.cloud&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.stjude.cloud&#x2F;</a>
+St. Jude Children&#x27;s Research Hospital - Principal Software Engineer, Rust Genomics Infrastructure - Memphis, TN - ONSITE or REMOTE - <a href="https:&#x2F;&#x2F;www.stjude.cloud&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.stjude.cloud&#x2F;</a>
 
 The St. Jude Cloud (<a href="https:&#x2F;&#x2F;stjude.cloud" rel="nofollow">https:&#x2F;&#x2F;stjude.cloud</a>) project is hiring Rust software engineers to rebuild the genomics ecosystem in Rust. We work on the forefront of computational genomics by applying advanced computational techniques to analyzing genomics data then sharing that data with the world. Come work with the individuals that wrote the Rust-based bioinformatics library, noodles (<a href="https:&#x2F;&#x2F;github.com&#x2F;zaeleus&#x2F;noodles">https:&#x2F;&#x2F;github.com&#x2F;zaeleus&#x2F;noodles</a>), as well as many other projects (<a href="https:&#x2F;&#x2F;github.com&#x2F;stjude-rust-labs">https:&#x2F;&#x2F;github.com&#x2F;stjude-rust-labs</a>).
 

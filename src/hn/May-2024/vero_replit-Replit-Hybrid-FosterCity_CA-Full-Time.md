@@ -4,7 +4,7 @@ author:
   name: vero_replit
   url: https://news.ycombinator.com/item?id=40227565
 ---
-Replit | Hybrid - Foster City, CA | Full-Time
+Replit - Hybrid - Foster City, CA - Full-Time
 
 Current hiring priorities include:
 

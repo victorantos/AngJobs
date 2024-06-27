@@ -4,7 +4,7 @@ author:
   name: mjhea0
   url: https://news.ycombinator.com/item?id=40226439
 ---
-Monitaur | <a href="https:&#x2F;&#x2F;www.monitaur.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.monitaur.ai&#x2F;</a> | Full-Time | Remote
+Monitaur - <a href="https:&#x2F;&#x2F;www.monitaur.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.monitaur.ai&#x2F;</a> - Full-Time - Remote
 
 Monitaur is the premier model governance software that helps highly regulated enterprises build better AI and models that businesses, regulators, and consumers can trust.
 

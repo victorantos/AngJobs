@@ -4,7 +4,7 @@ author:
   name: opuslogica
   url: https://news.ycombinator.com/item?id=39225367
 ---
-Opus Logica| Remote| Contract| Reactjs + Tailwind CSS Dev
+Opus Logica- Remote- Contract- Reactjs + Tailwind CSS Dev
 
 Seeking a talented and highly motivated Javascript Developer who is proficient in Reactjs and Tailwind CSS.Candidate will be responsible for working under the direction of our senior engineer to apply a new user interface from provided designs for an existing application.
 

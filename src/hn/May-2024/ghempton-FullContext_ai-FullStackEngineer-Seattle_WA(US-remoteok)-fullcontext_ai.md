@@ -4,7 +4,7 @@ author:
   name: ghempton
   url: https://news.ycombinator.com/item?id=40230669
 ---
-FullContext.ai | FullStack Engineer | Seattle, WA (US-remote ok) | fullcontext.ai
+FullContext.ai - FullStack Engineer - Seattle, WA (US-remote ok) - fullcontext.ai
 
 FullContext.ai is an early stage startup that is building the first AI-Powered Buyer Copilot. This represents a transformative approach to buyer enablement that helps people understand complex software purchases without having to talk to salespeople. For companies, this helps scale out their sales and marketing efforts and to gain unique insights about potential customers and the market. From an engineering perspective, this means leveraging LLMs in conjunction with a unique set of content to create the closest thing to a live demo of a product without a human on the other side!
 

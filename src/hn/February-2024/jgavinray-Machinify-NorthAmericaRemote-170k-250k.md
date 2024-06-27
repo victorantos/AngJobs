@@ -4,7 +4,7 @@ author:
   name: jgavinray
   url: https://news.ycombinator.com/item?id=39222532
 ---
-Machinify | Data Science &amp; Software engineering roles | North America Remote | Scala&#x2F;Java | 170k - 250k
+Machinify - Data Science &amp; Software engineering roles - North America Remote - Scala&#x2F;Java - 170k - 250k
 
 Our mission:
 We develop software that helps people get the right medical care, at the right time, at the right price.

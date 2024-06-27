@@ -4,7 +4,7 @@ author:
   name: corbalt
   url: https://news.ycombinator.com/item?id=40312772
 ---
-Corbalt | Software Engineer | Remote | Full Time or Contract | $100k-200k + profit-sharing
+Corbalt - Software Engineer - Remote - Full Time or Contract - $100k-200k + profit-sharing
 
 Corbalt is a small group of technologists working to build better software infrastructure for government. We were part of the tech team that came in to help fix healthcare.gov and were inspired by how much everyone cared and worked hard to fix the site (from tech team members, to government contractors, and government employees), and how much progress we all made in a short time.
 

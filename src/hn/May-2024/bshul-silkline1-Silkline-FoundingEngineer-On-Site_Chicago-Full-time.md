@@ -4,7 +4,7 @@ author:
   name: bshul-silkline1
   url: https://news.ycombinator.com/item?id=40230701
 ---
-Silkline | Founding Engineer | On-Site, Chicago | Full-time | <a href="https:&#x2F;&#x2F;silkline.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;silkline.ai&#x2F;</a>
+Silkline - Founding Engineer - On-Site, Chicago - Full-time - <a href="https:&#x2F;&#x2F;silkline.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;silkline.ai&#x2F;</a>
 
 Procurement is broken - Silkine is building the platform to fix it. Executing, tracking, and managing large purchases today is a Sisyphean task. A never-ending spiral of spreadsheets, manual PDF munging, and supplier wrangling. We know that we can do better. Come help our team (ex-Palantir&#x2F;Pave, ex-Deloitte&#x2F;Lockheed Martin) build a more transparent and reliable global supply chain.
 

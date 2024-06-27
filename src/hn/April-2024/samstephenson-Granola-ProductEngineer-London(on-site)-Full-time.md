@@ -4,7 +4,7 @@ author:
   name: samstephenson
   url: https://news.ycombinator.com/item?id=39903409
 ---
-Granola | Product Engineer | London (on-site) | Full-time | <a href="https:&#x2F;&#x2F;jobs.granola.so" rel="nofollow">https:&#x2F;&#x2F;jobs.granola.so</a>
+Granola - Product Engineer - London (on-site) - Full-time - <a href="https:&#x2F;&#x2F;jobs.granola.so" rel="nofollow">https:&#x2F;&#x2F;jobs.granola.so</a>
 
 Want to build a beautiful, useful product with all the latest AI tooling?
 

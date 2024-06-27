@@ -4,7 +4,7 @@ author:
   name: scrollaway
   url: https://news.ycombinator.com/item?id=38854724
 ---
-Ingram Technologies | Remote
+Ingram Technologies - Remote
 
 Ingram (<a href="https:&#x2F;&#x2F;ingram.tech&#x2F;" rel="nofollow">https:&#x2F;&#x2F;ingram.tech&#x2F;</a>) is an AI lab based in Europe. We have a hybrid team with cells in Paris &amp; Brussels, and individuals scattered across 3 continents.
 

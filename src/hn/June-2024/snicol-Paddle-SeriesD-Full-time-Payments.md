@@ -4,7 +4,7 @@ author:
   name: snicol
   url: https://news.ycombinator.com/item?id=40564152
 ---
-Paddle | Series D | London&#x2F;UK | Full-time | Remote&#x2F;Hybrid | <a href="https:&#x2F;&#x2F;www.paddle.com" rel="nofollow">https:&#x2F;&#x2F;www.paddle.com</a> | Payments
+Paddle - Series D - London&#x2F;UK - Full-time - Remote&#x2F;Hybrid - <a href="https:&#x2F;&#x2F;www.paddle.com" rel="nofollow">https:&#x2F;&#x2F;www.paddle.com</a> - Payments
 
 Paddle helps digital product companies worldwide to operate and grow, automatically with our all-in-one payments infrastructure.
 

@@ -5,7 +5,7 @@ author:
   name: tomatohs
   url: https://news.ycombinator.com/item?id=40564389
 ---
-TestDriver.ai | <a href="https:&#x2F;&#x2F;testdriver.ai" rel="nofollow">https:&#x2F;&#x2F;testdriver.ai</a> | Austin TX, ONSITE 
+TestDriver.ai - <a href="https:&#x2F;&#x2F;testdriver.ai" rel="nofollow">https:&#x2F;&#x2F;testdriver.ai</a> - Austin TX, ONSITE 
  (Flex) | Everything
 
 We are a small team building an AI QA Agent for GitHub - on a mission to eliminate repetitive work from developers. Our v2 agent (released this week) is the best desktop automation agent on the market today.

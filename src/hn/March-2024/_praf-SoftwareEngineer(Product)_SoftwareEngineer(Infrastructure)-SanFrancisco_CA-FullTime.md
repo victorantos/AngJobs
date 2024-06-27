@@ -4,7 +4,7 @@ author:
   name: _praf
   url: https://news.ycombinator.com/item?id=39566372
 ---
-Column (<a href="https:&#x2F;&#x2F;column.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;column.com&#x2F;</a>) | Software Engineer (Product), Software Engineer (Infrastructure) | San Francisco, CA | Full Time
+Column (<a href="https:&#x2F;&#x2F;column.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;column.com&#x2F;</a>) - Software Engineer (Product), Software Engineer (Infrastructure) - San Francisco, CA - Full Time
 
 Column is the first nationally chartered bank built from the ground up for developers. We provide an API first, modern banking experience for our customers, replacing the bloated middleware and legacy software that currently powers most financial companies.
 

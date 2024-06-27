@@ -4,7 +4,7 @@ author:
   name: ardaria
   url: https://news.ycombinator.com/item?id=38851648
 ---
-Senior Engineer | Ardaria | REMOTE ONLY | Full-time | Submit google form
+Senior Engineer - Ardaria - REMOTE ONLY - Full-time - Submit google form
 
 Ardaria is a game development studio. We are innovators. We craft a collaborative game.
 

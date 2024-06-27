@@ -4,7 +4,7 @@ author:
   name: ml_intrinsic
   url: https://news.ycombinator.com/item?id=40227615
 ---
-Intrinsic | ONSITE - San Francisco | Full Time | Backend Engineer
+Intrinsic - ONSITE - San Francisco - Full Time - Backend Engineer
 
 Intrinsic is building AI-powered safety tools for Trust &amp; Safety teams to protect users across the internet.
 

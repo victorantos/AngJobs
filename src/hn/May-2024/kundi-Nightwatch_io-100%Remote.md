@@ -4,7 +4,7 @@ author:
   name: kundi
   url: https://news.ycombinator.com/item?id=40226454
 ---
-Nightwatch.io | 100% Remote | Full-time &amp; Part-time Cultivating bootstrapped, non-corporate environment
+Nightwatch.io - 100% Remote - Full-time &amp; Part-time Cultivating bootstrapped, non-corporate environment
 
 We are the company famous for &quot;requesting&quot; a desktop screenshot when applying for a job, which earned us a lot of attention and criticism, even though the input field for the unimaginable sinful experiment was never a required one.
 

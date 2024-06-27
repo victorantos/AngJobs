@@ -4,7 +4,7 @@ author:
   name: zedwill
   url: https://news.ycombinator.com/item?id=40248757
 ---
-Mediasmart | <a href="https:&#x2F;&#x2F;mediasmart.io" rel="nofollow">https:&#x2F;&#x2F;mediasmart.io</a> | Full-Time | Remote Spain
+Mediasmart - <a href="https:&#x2F;&#x2F;mediasmart.io" rel="nofollow">https:&#x2F;&#x2F;mediasmart.io</a> - Full-Time - Remote Spain
 
 We are looking for senior backend engineers or senior fullstack enginers
 (NodeJS+React)

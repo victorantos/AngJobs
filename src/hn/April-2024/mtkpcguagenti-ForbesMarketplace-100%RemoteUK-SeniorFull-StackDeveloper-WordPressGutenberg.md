@@ -4,7 +4,7 @@ author:
   name: mtkpcguagenti
   url: https://news.ycombinator.com/item?id=39929215
 ---
-Forbes Marketplace | 100% Remote UK | Senior Full-Stack Developer | WordPress Gutenberg
+Forbes Marketplace - 100% Remote UK - Senior Full-Stack Developer - WordPress Gutenberg
 
 I&#x27;m the Director of Engineering at Forbes Marketplace, looking for a Senior Full-Stack Developer with strong experience in WordPress core and Gutenberg native blocks (React), team leadership, and agile methodologies.
 

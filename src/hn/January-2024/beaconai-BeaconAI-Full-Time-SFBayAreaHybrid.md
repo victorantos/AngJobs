@@ -4,7 +4,7 @@ author:
   name: beaconai
   url: https://news.ycombinator.com/item?id=38843685
 ---
-Beacon AI | <a href="https:&#x2F;&#x2F;beaconai.co" rel="nofollow">https:&#x2F;&#x2F;beaconai.co</a> | Full-Time | SF Bay Area Hybrid
+Beacon AI - <a href="https:&#x2F;&#x2F;beaconai.co" rel="nofollow">https:&#x2F;&#x2F;beaconai.co</a> - Full-Time - SF Bay Area Hybrid
 
 Do you want to join a company building R2-D2 for pilots? Beacon AI does this through a vertically integrated aviation platform. Our team has relevant industry expertise in aviation and autonomy, and we are building features that improve flight safety and efficiency by augmenting pilots.
 

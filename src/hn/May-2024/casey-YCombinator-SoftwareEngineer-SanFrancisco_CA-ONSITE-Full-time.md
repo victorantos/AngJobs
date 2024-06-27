@@ -4,7 +4,7 @@ author:
   name: casey
   url: https://news.ycombinator.com/item?id=40232133
 ---
-Y Combinator | Software Engineer | San Francisco, CA | ONSITE | Full-time
+Y Combinator - Software Engineer - San Francisco, CA - ONSITE - Full-time
 
 You&#x27;re reading HN, why not come build software at Y Combinator itself! We are a small independent team of experienced engineers who try to make being funded by YC a great experience for founders. If the idea of designing software to help startups and the YC group partners sounds interesting to you, please reach out!
 

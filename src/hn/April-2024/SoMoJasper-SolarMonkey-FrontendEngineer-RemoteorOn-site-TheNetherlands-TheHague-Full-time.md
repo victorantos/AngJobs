@@ -4,7 +4,7 @@ author:
   name: SoMoJasper
   url: https://news.ycombinator.com/item?id=39903170
 ---
-Solar Monkey | Frontend Engineer | Remote or On-site | The Netherlands - The Hague | Full-time | <a href="https:&#x2F;&#x2F;jobs.solarmonkey.nl&#x2F;o&#x2F;frontend-engineer-editors?utm_campaign=2024-04-Frontend&amp;utm_source=HackerNews&amp;utm_medium=blogpost" rel="nofollow">https:&#x2F;&#x2F;jobs.solarmonkey.nl&#x2F;o&#x2F;frontend-engineer-editors?utm_...</a>
+Solar Monkey - Frontend Engineer - Remote or On-site - The Netherlands - The Hague - Full-time - <a href="https:&#x2F;&#x2F;jobs.solarmonkey.nl&#x2F;o&#x2F;frontend-engineer-editors?utm_campaign=2024-04-Frontend&amp;utm_source=HackerNews&amp;utm_medium=blogpost" rel="nofollow">https:&#x2F;&#x2F;jobs.solarmonkey.nl&#x2F;o&#x2F;frontend-engineer-editors?utm_...</a>
 
 At Solar Monkey (<a href="https:&#x2F;&#x2F;solarmonkey.io&#x2F;" rel="nofollow">https:&#x2F;&#x2F;solarmonkey.io&#x2F;</a>), our goal is to enable solar to be the world’s leading power supply, and we accomplish that with software that makes solar power systems more affordable, secure and reliable. We do so in a very open and warm environment, where everybody can have his or her say on company values, structure, and policies.
 

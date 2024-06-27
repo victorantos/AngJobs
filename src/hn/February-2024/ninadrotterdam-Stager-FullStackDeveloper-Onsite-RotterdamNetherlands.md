@@ -4,7 +4,7 @@ author:
   name: ninadrotterdam
   url: https://news.ycombinator.com/item?id=39229635
 ---
-Stager | Full Stack Developer | Onsite | Rotterdam Netherlands
+Stager - Full Stack Developer - Onsite - Rotterdam Netherlands
 
 Stager is a scale-up on a mission; based in the center of Rotterdam and ready to conquer the world. We are building a complete ecosystem for event organizers to plan, market and sell their events.
 

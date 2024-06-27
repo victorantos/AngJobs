@@ -4,7 +4,7 @@ author:
   name: psawaya
   url: https://news.ycombinator.com/item?id=38843029
 ---
-Elsewhere | Founding Software Engineer | San Francisco | Full-time | ONSITE
+Elsewhere - Founding Software Engineer - San Francisco - Full-time - ONSITE
 
 Ever wanted to build indie video games at a startup? Let&#x27;s talk.
 

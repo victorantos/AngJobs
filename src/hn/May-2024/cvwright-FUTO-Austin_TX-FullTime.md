@@ -4,7 +4,7 @@ author:
   name: cvwright
   url: https://news.ycombinator.com/item?id=40227100
 ---
-FUTO | Austin, TX | On-site &#x2F; Hybrid &#x2F; Remote | Full Time | iOS &#x2F; SwiftUI &#x2F; Javascript
+FUTO - Austin, TX - On-site &#x2F; Hybrid &#x2F; Remote - Full Time - iOS &#x2F; SwiftUI &#x2F; Javascript
 
 FUTO is an organization dedicated to developing, both through in-house engineering and investment, technologies that frustrate centralization and industry consolidation. Through a combination of in-house engineering projects, targeted investments, generous grants, and multi-media public education efforts, we will free technology from the control of the few and recreate the spirit of freedom, innovation, and self-reliance that underpinned the American tech industry only a few decades ago.
 

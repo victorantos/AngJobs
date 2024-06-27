@@ -4,7 +4,7 @@ author:
   name: wakahiu
   url: https://news.ycombinator.com/item?id=39266625
 ---
-Reframe AI | REMOTE | Berkeley, CA, USA (HQ) | Full-Time | reframe.is
+Reframe AI - REMOTE - Berkeley, CA, USA (HQ) - Full-Time - reframe.is
 
 Reframe combines a low-code interface with AI agents to automate data workflows end-to-end, accelerate queries, eliminate bottlenecks, enrich data, run analytics, generate insights, and optimize data management.
 

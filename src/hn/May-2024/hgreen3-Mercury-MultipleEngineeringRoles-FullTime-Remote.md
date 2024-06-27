@@ -4,7 +4,7 @@ author:
   name: hgreen3
   url: https://news.ycombinator.com/item?id=40235764
 ---
-Mercury | Multiple Engineering Roles | Full Time | Remote
+Mercury - Multiple Engineering Roles - Full Time - Remote
 
 Mercury is a fintech company focused on reimagining the banking* experience for startups. We have multiple roles available within engineering with more coming soon - both IC and Manager positions. A couple of current openings highlighted below, but all can be found and applied to at <a href="https:&#x2F;&#x2F;mercury.com&#x2F;jobs" rel="nofollow">https:&#x2F;&#x2F;mercury.com&#x2F;jobs</a>.
 

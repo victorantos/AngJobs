@@ -4,7 +4,7 @@ author:
   name: hgibs
   url: https://news.ycombinator.com/item?id=39563595
 ---
-GA-CCRi | Remote (USA) or onsite (VA, DC, UT) | mid+ engineering roles | full-time
+GA-CCRi - Remote (USA) or onsite (VA, DC, UT) - mid+ engineering roles - full-time
 
 General Atomics - CCRi is solving fun and challenging problems in the geospatial domain. I&#x27;ve been a backend engineer at a few different places, and this is by far the best engineering culture I&#x27;ve found.
 

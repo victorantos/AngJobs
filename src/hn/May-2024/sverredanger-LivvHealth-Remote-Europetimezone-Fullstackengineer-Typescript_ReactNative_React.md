@@ -4,7 +4,7 @@ author:
   name: sverredanger
   url: https://news.ycombinator.com/item?id=40232471
 ---
-Livv Health | Remote | Europe timezone | Full stack engineer | Typescript, React Native, React
+Livv Health - Remote - Europe timezone - Full stack engineer - Typescript, React Native, React
 
 We&#x27;re building a global AI-driven health record. The premise is straightforward: the future of healthcare depends on continuous, data-informed care, with patient-owned health records at its core. It&#x27;s a significant shift, aiming to empower individuals over their health data.
 

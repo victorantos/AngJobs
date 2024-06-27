@@ -4,7 +4,7 @@ author:
   name: html5cat
   url: https://news.ycombinator.com/item?id=39900687
 ---
-Puma.tech | Remote-first with PST overlap | Engineering &amp; Growth | $75-120k base &amp; 200k+ equity | <a href="https:&#x2F;&#x2F;puma.tech" rel="nofollow">https:&#x2F;&#x2F;puma.tech</a>
+Puma.tech - Remote-first with PST overlap - Engineering &amp; Growth - $75-120k base &amp; 200k+ equity - <a href="https:&#x2F;&#x2F;puma.tech" rel="nofollow">https:&#x2F;&#x2F;puma.tech</a>
 
 Hi all, I’m Yuriy, founder of Puma.tech. Previously worked in developer relations at Cloudant (YC S08), Meteor (YC S11), Parse (YC S11), and explored Ai&#x2F;ML (computer vision for self-driving cars) before diving deep into crypto.
 

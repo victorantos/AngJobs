@@ -4,7 +4,7 @@ author:
   name: mikeshi42
   url: https://news.ycombinator.com/item?id=39233316
 ---
-HyperDX (YC S22) | Founding Backend Engineer | Hybrid SF&#x2F;San Mateo | $115k - 180k
+HyperDX (YC S22) - Founding Backend Engineer - Hybrid SF&#x2F;San Mateo - $115k - 180k
 
 We&#x27;re building an open source, dev friendly observability tool (think Datadog, but something developers actually love to use and companies can actually afford).
 

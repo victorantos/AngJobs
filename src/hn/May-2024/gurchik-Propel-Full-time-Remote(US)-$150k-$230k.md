@@ -4,7 +4,7 @@ author:
   name: gurchik
   url: https://news.ycombinator.com/item?id=40324786
 ---
-Propel | Full-time | Senior Platform&#x2F;DevOps Engineer | Remote (US) | $150k-$230k
+Propel - Full-time - Senior Platform&#x2F;DevOps Engineer - Remote (US) - $150k-$230k
 
 Propel is on a mission to empower low-income Americans by simplifying access to government benefits with modern technology. All of our users deserve first-class experiences in their daily interactions with the social safety net and financial services. We&#x27;re a passionate team of 100 Propellers - all working to help our users get through the month, every month. We’re looking for a self-motivated Platform Engineer to join our Infrastructure Team within the engineering org at Propel.
 

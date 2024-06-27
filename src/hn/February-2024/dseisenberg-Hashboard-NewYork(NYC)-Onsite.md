@@ -4,7 +4,7 @@ author:
   name: dseisenberg
   url: https://news.ycombinator.com/item?id=39220781
 ---
-Hashboard | New York (NYC) | Senior&#x2F;Staff Engineer, Lead Frontend Engineer | Onsite
+Hashboard - New York (NYC) - Senior&#x2F;Staff Engineer, Lead Frontend Engineer - Onsite
 
 Hashboard is building the most intuitive way for teams to visualize data and make it interactive.
 

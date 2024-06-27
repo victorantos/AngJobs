@@ -4,7 +4,7 @@ author:
   name: lyd
   url: https://news.ycombinator.com/item?id=39266180
 ---
-Connectly | ML Backend (SF Bay Area) | Frontend (SF Bay Area&#x2F;LATAM&#x2F;Remote)
+Connectly - ML Backend (SF Bay Area) - Frontend (SF Bay Area&#x2F;LATAM&#x2F;Remote)
 
 Connectly (<a href="https:&#x2F;&#x2F;connectly.ai" rel="nofollow">https:&#x2F;&#x2F;connectly.ai</a>) is a series A company and we are actively looking for experienced(2 yr+) engineers to build the best conversational commerce experience end-to-end.
 

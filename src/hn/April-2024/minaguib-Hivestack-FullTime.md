@@ -4,7 +4,7 @@ author:
   name: minaguib
   url: https://news.ycombinator.com/item?id=39898257
 ---
-Hivestack | Data Discipline Lead (Senior&#x2F;Staff-Level Position) | Montreal, QC (Hybrid Office&#x2F;Remote) | Full Time
+Hivestack - Data Discipline Lead (Senior&#x2F;Staff-Level Position) - Montreal, QC (Hybrid Office&#x2F;Remote) - Full Time
 
 Industry: Adtech, specializing in Digital Out Of Home
 

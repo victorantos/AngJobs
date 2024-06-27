@@ -4,7 +4,7 @@ author:
   name: danieloneel
   url: https://news.ycombinator.com/item?id=39565278
 ---
-Layer | San Francisco Bay Area | Full-Time In-Office | Founding engineer
+Layer - San Francisco Bay Area - Full-Time In-Office - Founding engineer
 
 We’re building SMB accounting software API-first so that it can be integrated directly into software platforms where business owners already work. Our customers are vertical software platforms in the vein of Toast, MindBody or Housecall Pro that help small business owners start, run and scale their business with workflows and financial products. We help them serve their customers who are stuck exporting all their data out of these systems into CSVs and importing it back into other accounting software.
 

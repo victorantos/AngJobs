@@ -4,7 +4,7 @@ author:
   name: tmountain
   url: https://news.ycombinator.com/item?id=39219000
 ---
-Neurotone.ai || Founding Engineer || Fully Remote || Full-time || neurotone.com
+Neurotone.ai -- Founding Engineer -- Fully Remote -- Full-time -- neurotone.com
 
 Neurotone is developing an AI powered auditory training system to assist people with hearing disabilities get the most out of their hearing aids. We are utilizing the clinically proven LACE methodology to facilitate the best outcome for every patient, and we are partnered with a number of thought leaders in the audiology community to ensure we are delivering the most effective solution on the market.
 

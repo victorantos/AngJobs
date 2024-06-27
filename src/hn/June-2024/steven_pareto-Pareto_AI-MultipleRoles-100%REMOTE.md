@@ -4,7 +4,7 @@ author:
   name: steven_pareto
   url: https://news.ycombinator.com/item?id=40563690
 ---
-Pareto.AI | Multiple Roles | 100% REMOTE | <a href="https:&#x2F;&#x2F;pareto.ai" rel="nofollow">https:&#x2F;&#x2F;pareto.ai</a>
+Pareto.AI - Multiple Roles - 100% REMOTE - <a href="https:&#x2F;&#x2F;pareto.ai" rel="nofollow">https:&#x2F;&#x2F;pareto.ai</a>
 
 Pareto.AI is in the premium data labeling space, focused on ethical, high-quality labeling. We are currently working with some the largest names in the AI space and growing rapidly.
 

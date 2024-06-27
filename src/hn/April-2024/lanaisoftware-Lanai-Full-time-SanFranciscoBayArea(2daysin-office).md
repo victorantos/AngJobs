@@ -4,7 +4,7 @@ author:
   name: lanaisoftware
   url: https://news.ycombinator.com/item?id=39935673
 ---
-Lanai | Software Engineers (Backend, Full-stack, Data&#x2F;Machine Learning) of all levels | Full-time | San Francisco Bay Area (2 days in-office) | <a href="https:&#x2F;&#x2F;www.getlanai.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.getlanai.com&#x2F;</a>
+Lanai - Software Engineers (Backend, Full-stack, Data&#x2F;Machine Learning) of all levels - Full-time - San Francisco Bay Area (2 days in-office) - <a href="https:&#x2F;&#x2F;www.getlanai.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.getlanai.com&#x2F;</a>
 
 AI has the potential to change how we do our work forever - but with anything new comes unforeseen challenges. Our goal at Lanai (“Lean into AI”) is to ensure that every company is protected against AI risks as they take advantage of new technology to reach their full potential. Lanai surfaces usage of Generative AI by employees, identifies the best apps and models for each use case, and protects against sensitive data loss. As AI grows, so will we - we’re just getting started.
 

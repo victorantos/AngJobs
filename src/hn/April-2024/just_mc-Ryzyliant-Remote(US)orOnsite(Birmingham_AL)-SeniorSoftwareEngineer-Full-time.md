@@ -4,7 +4,7 @@ author:
   name: just_mc
   url: https://news.ycombinator.com/item?id=39895143
 ---
-Ryzyliant | Remote (US) or Onsite (Birmingham, AL) | Senior Software Engineer | Full-time | <a href="https:&#x2F;&#x2F;ryzyliant.com" rel="nofollow">https:&#x2F;&#x2F;ryzyliant.com</a>
+Ryzyliant - Remote (US) or Onsite (Birmingham, AL) - Senior Software Engineer - Full-time - <a href="https:&#x2F;&#x2F;ryzyliant.com" rel="nofollow">https:&#x2F;&#x2F;ryzyliant.com</a>
 
 Our mission is to save lives by streamlining the 911 emergency response workflow.
 

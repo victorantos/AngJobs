@@ -4,7 +4,7 @@ author:
   name: buro9
   url: https://news.ycombinator.com/item?id=38845646
 ---
-Grafana Labs | Backend &#x2F; Systems Engineers | Security Director | Eng Director | REMOTE only
+Grafana Labs - Backend &#x2F; Systems Engineers - Security Director - Eng Director - REMOTE only
 
 Grafana, we make Grafana (visualisation), Loki (for logs), Mimir (for metrics), Tempo (for traces), Pyroscope (for profiles), OnCall, Application Observability and a lot more. Most of our work is open source as AGPL or Apache2. Most work is Go, JavaScript, but there&#x27;s also eBPF, C, Python, and Java in some areas.
 

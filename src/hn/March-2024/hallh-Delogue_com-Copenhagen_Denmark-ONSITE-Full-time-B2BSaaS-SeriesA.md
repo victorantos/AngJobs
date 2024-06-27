@@ -4,7 +4,7 @@ author:
   name: hallh
   url: https://news.ycombinator.com/item?id=39563921
 ---
-Delogue.com | Solution Architect &amp; Cloud Engineer &#x2F; DevOps | Copenhagen, Denmark | ONSITE | Full-time | B2B SaaS | Series A
+Delogue.com - Solution Architect &amp; Cloud Engineer &#x2F; DevOps - Copenhagen, Denmark - ONSITE - Full-time - B2B SaaS - Series A
 
 At Delogue, we are on a mission to make fashion and lifestyle product developers&#x27; lives easier and make them work smarter and more sustainably. Since 2011, we have developed a collaboration platform for brands and their suppliers so that they can manage their product life cycle more efficiently and with full transparency.
 

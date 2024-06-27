@@ -4,7 +4,7 @@ author:
   name: goodoldneon
   url: https://news.ycombinator.com/item?id=39564401
 ---
-Inngest | 3 Engineer roles | Fully-remote
+Inngest - 3 Engineer roles - Fully-remote
 
 Inngest is the reliability layer for modern applications. Inngest combines durable execution, events, and queues into a zero-infra platform with built-in observability. We&#x27;re multi-cloud (host your code wherever you want!) and multi-language. Our product takes advanced-but-complicated reliability patterns and makes them simple to configure for any developer.
 

@@ -4,7 +4,7 @@ author:
   name: aspowers
   url: https://news.ycombinator.com/item?id=40233194
 ---
-Fractional AI | Founding Engineer | San Francisco | Onsite | Full-time
+Fractional AI - Founding Engineer - San Francisco - Onsite - Full-time
 
 Who: We&#x27;re Fractional AI -- the dev shop for difficult enterprise applications of genAI.
 

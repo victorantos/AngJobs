@@ -4,7 +4,7 @@ author:
   name: burnaway
   url: https://news.ycombinator.com/item?id=38843072
 ---
-IVPN | Full-stack Web Developer | Remote (UTC-1 to UTC+3) | Full-time | <a href="https:&#x2F;&#x2F;www.ivpn.net" rel="nofollow">https:&#x2F;&#x2F;www.ivpn.net</a>
+IVPN - Full-stack Web Developer - Remote (UTC-1 to UTC+3) - Full-time - <a href="https:&#x2F;&#x2F;www.ivpn.net" rel="nofollow">https:&#x2F;&#x2F;www.ivpn.net</a>
 
 IVPN is a privacy-focused VPN service in operation since 2010. We have high ethical standards, regular security audits and a stellar reputation among security and privacy analysts.
 

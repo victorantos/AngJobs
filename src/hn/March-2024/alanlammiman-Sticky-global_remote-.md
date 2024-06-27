@@ -4,7 +4,7 @@ author:
   name: alanlammiman
   url: https://news.ycombinator.com/item?id=39567937
 ---
-Sticky | Social Media&#x2F;Marketing&#x2F;Community Lead | global, remote |
+Sticky - Social Media&#x2F;Marketing&#x2F;Community Lead - global, remote -
 
 <a href="https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;zombie-games-more&#x2F;id1497044357" rel="nofollow">https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;zombie-games-more&#x2F;id1497044357</a>
 

@@ -4,7 +4,7 @@ author:
   name: drice
   url: https://news.ycombinator.com/item?id=39563002
 ---
-Virta Health (<a href="https:&#x2F;&#x2F;virtahealth.com" rel="nofollow">https:&#x2F;&#x2F;virtahealth.com</a>) | SF&#x2F;Denver&#x2F;REMOTE (USA Only) | Full-Time
+Virta Health (<a href="https:&#x2F;&#x2F;virtahealth.com" rel="nofollow">https:&#x2F;&#x2F;virtahealth.com</a>) - SF&#x2F;Denver&#x2F;REMOTE (USA Only) - Full-Time
 
 Virta Health is on a mission to transform diabetes care and reverse the type 2 diabetes epidemic. Current treatment approaches aren’t working—over half of US adults have either type 2 diabetes or prediabetes. Virta is changing this by helping people reverse type 2 diabetes through innovations in technology, personalized nutrition, and virtual care delivery reinvented from the ground up. We have raised over $350 million from top-tier investors, and partner with the largest health plans, employers, and government organizations to help their employees and members restore their health and live diabetes-free. Join us on our mission to reverse diabetes in 100M people.
 

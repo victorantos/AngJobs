@@ -4,7 +4,7 @@ author:
   name: tpae
   url: https://news.ycombinator.com/item?id=40565535
 ---
-NiftyKit | Senior Unity Developer | Remote | Full-time
+NiftyKit - Senior Unity Developer - Remote - Full-time
 
 We&#x27;re a web3 NFT platform looking to hire a senior unity developer to work on exciting projects related to NFTs and gaming. Our team is based in Los Angeles, but we&#x27;re a remote-first company.
 

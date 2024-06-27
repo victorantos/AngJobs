@@ -4,7 +4,7 @@ author:
   name: dseisenberg
   url: https://news.ycombinator.com/item?id=40226397
 ---
-Hashboard (<a href="https:&#x2F;&#x2F;hashboard.com" rel="nofollow">https:&#x2F;&#x2F;hashboard.com</a>) | New York (NYC) | Senior&#x2F;Staff Full-Stack Engineer, Lead Frontend Engineer, Product Evangelist | Onsite
+Hashboard (<a href="https:&#x2F;&#x2F;hashboard.com" rel="nofollow">https:&#x2F;&#x2F;hashboard.com</a>) - New York (NYC) - Senior&#x2F;Staff Full-Stack Engineer, Lead Frontend Engineer, Product Evangelist - Onsite
 
 Hashboard is a business intelligence and analytics platform that bridges self-service data exploration with modern development workflows.
 

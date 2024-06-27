@@ -4,7 +4,7 @@ author:
   name: mmyller20
   url: https://news.ycombinator.com/item?id=38845012
 ---
-Koddi | Currently seeking FT employees in the following locations: Ann Arbor, MI | Fort Worth, TX | Austin, TX | New York, NY or remote in the US Open roles: Senior Software Engineers (Go, Java, C, C++); Integration Engineer; Product Manager (adtech experience preferred); Jr Data Scientist. Must be US Citizen or Green Card holder and physically located in the US.
+Koddi - Currently seeking FT employees in the following locations: Ann Arbor, MI - Fort Worth, TX - Austin, TX - New York, NY or remote in the US Open roles: Senior Software Engineers (Go, Java, C, C++); Integration Engineer; Product Manager (adtech experience preferred); Jr Data Scientist. Must be US Citizen or Green Card holder and physically located in the US.
 
 Passionate about development in leading technologies? Looking to become a major player on a diverse team? Want to make a big impact on an engineer-driven roadmap in your next career adventure? Koddi Engineers drive innovation by embracing challenges and deploying emerging technologies to solve complex problems in software development.
 

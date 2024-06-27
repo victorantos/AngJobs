@@ -4,7 +4,7 @@ author:
   name: beckler
   url: https://news.ycombinator.com/item?id=40566772
 ---
-TeamSnap | Multiple Roles | Remote (US Only) | Full-time | <a href="https:&#x2F;&#x2F;teamsnap.com" rel="nofollow">https:&#x2F;&#x2F;teamsnap.com</a>
+TeamSnap - Multiple Roles - Remote (US Only) - Full-time - <a href="https:&#x2F;&#x2F;teamsnap.com" rel="nofollow">https:&#x2F;&#x2F;teamsnap.com</a>
 
 TeamSnap is hiring for multiple positions to join our remote-first team. We work every day to simplify the lives of players, coaches, parents, and sports organizations by taking the headache out of organizing sports.
 

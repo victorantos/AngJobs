@@ -4,7 +4,7 @@ author:
   name: lmeyerov
   url: https://news.ycombinator.com/item?id=39899721
 ---
-Graphistry &#x2F; Louie.AI  | MULTIPLE: Senior Security Research; Marketing Video Production; Senior Security Sales Engineer | US+REMOTE | FULL-TIME + CONTRACT | <a href="https:&#x2F;&#x2F;www.graphistry.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;www.graphistry.com&#x2F;careers</a>
+Graphistry &#x2F; Louie.AI  - MULTIPLE: Senior Security Research; Marketing Video Production; Senior Security Sales Engineer - US+REMOTE - FULL-TIME + CONTRACT - <a href="https:&#x2F;&#x2F;www.graphistry.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;www.graphistry.com&#x2F;careers</a>
 
 Graphistry is a Gartner-awarded visual graph AI startup used by enterprise, tech, &amp; government teams around the world for data-intensive investigations into digital attacks, fraud, supply chains, misinformation, and more. Originally spinning out of UC Berkeley, we are known for large-scale visualizations that connect GPUs in the cloud to GPUs in the browsers, and helped start the popular data science technologies of what is now Apache Arrow and Nvidia RAPIDS. The last few years have marked year-over-year revenue multiples &amp; team growth entirely on customer revenue growth, no VC needed. We&#x27;re still small and launching Louie.AI, so it&#x27;s an exciting &amp; impactful time!
 

@@ -4,7 +4,7 @@ author:
   name: doh
   url: https://news.ycombinator.com/item?id=39962968
 ---
-Modus [himodus.com] | REMOTE (US Only) | Full-time | Staff&#x2F;principal positions only | $300k + 5% stock
+Modus [himodus.com] - REMOTE (US Only) - Full-time - Staff&#x2F;principal positions only - $300k + 5% stock
 
 Modus is a continuous workforce management platform that makes headcount planning and reconciliation easy. The platform analyzes thousands of bits of data across the organization to help leaders optimize their workforce and increase forecast accuracy. With the help of AI, Modus synthesizes insights from HRIS, ATS, expense and finance systems so leaders can visualize and execute workforce plans, grow efficiently and compliantly, and unlock high performing teams in one unified workflow.
 

@@ -4,7 +4,7 @@ author:
   name: sumukh1
   url: https://news.ycombinator.com/item?id=38849457
 ---
-AngelList | ONSITE (San Francisco) | Full Time | Product Engineering (Full Stack, Rails, React)
+AngelList - ONSITE (San Francisco) - Full Time - Product Engineering (Full Stack, Rails, React)
 
 AngelList is hiring full stack software engineers who want to make technical _and_ business decisions. This role will work on software products used by companies to raise capital and manage their investors  (<a href="https:&#x2F;&#x2F;www.angellist.com&#x2F;startups&#x2F;equity" rel="nofollow">https:&#x2F;&#x2F;www.angellist.com&#x2F;startups&#x2F;equity</a>)
 

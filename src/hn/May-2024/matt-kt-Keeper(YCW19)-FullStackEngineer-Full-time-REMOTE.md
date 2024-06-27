@@ -4,7 +4,7 @@ author:
   name: matt-kt
   url: https://news.ycombinator.com/item?id=40231705
 ---
-Keeper (YC W19) | Full Stack Engineer | <a href="https:&#x2F;&#x2F;www.keepertax.com&#x2F;">https:&#x2F;&#x2F;www.keepertax.com&#x2F;</a> | Full-time | REMOTE
+Keeper (YC W19) - Full Stack Engineer - <a href="https:&#x2F;&#x2F;www.keepertax.com&#x2F;">https:&#x2F;&#x2F;www.keepertax.com&#x2F;</a> - Full-time - REMOTE
 
 I&#x27;m Matt, CTO at Keeper. I&#x27;m hiring mission-driven product engineers who want to help freelancers with their taxes.
 

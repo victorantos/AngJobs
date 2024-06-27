@@ -4,7 +4,7 @@ author:
   name: ncphillips
   url: https://news.ycombinator.com/item?id=39608151
 ---
-Staff Engineering (Three.js) | Stemble Learning Inc. | Remote | Full-time
+Staff Engineering (Three.js) - Stemble Learning Inc. - Remote - Full-time
 
 <a href="https:&#x2F;&#x2F;www.stemble.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;www.stemble.com&#x2F;careers</a>
 

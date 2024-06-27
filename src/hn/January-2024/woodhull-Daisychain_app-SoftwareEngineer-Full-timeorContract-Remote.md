@@ -4,7 +4,7 @@ author:
   name: woodhull
   url: https://news.ycombinator.com/item?id=38845096
 ---
-Daisychain.app | Software Engineer | Full-time or Contract | Remote
+Daisychain.app - Software Engineer - Full-time or Contract - Remote
 
 Daisychain is building a modern platform for effective organizing. Our customers include progressive political campaigns, grassroots organizations, and ambitious non-profits.
 

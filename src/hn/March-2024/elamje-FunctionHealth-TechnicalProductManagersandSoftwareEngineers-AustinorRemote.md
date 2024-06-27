@@ -4,7 +4,7 @@ author:
   name: elamje
   url: https://news.ycombinator.com/item?id=39574631
 ---
-Function Health | Technical Product Managers and Software Engineers | Austin or Remote | <a href="https:&#x2F;&#x2F;functionhealth.com" rel="nofollow">https:&#x2F;&#x2F;functionhealth.com</a>
+Function Health - Technical Product Managers and Software Engineers - Austin or Remote - <a href="https:&#x2F;&#x2F;functionhealth.com" rel="nofollow">https:&#x2F;&#x2F;functionhealth.com</a>
 
 We are the fastest growing health membership in the US right now.
 We&#x27;re on a wild ride of insane growth from basically $0 to tens of millions in revenue over the last year. Beyond revenue, we went from a few hundred subscribing members to tens of thousands. All of that and we&#x27;re still in Beta.

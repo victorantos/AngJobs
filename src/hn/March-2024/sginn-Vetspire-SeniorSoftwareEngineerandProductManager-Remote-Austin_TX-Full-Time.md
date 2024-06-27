@@ -4,7 +4,7 @@ author:
   name: sginn
   url: https://news.ycombinator.com/item?id=39565619
 ---
-Vetspire | Senior Software Engineer and Product Manager | Remote | Austin, TX | Full-Time | <a href="https:&#x2F;&#x2F;vetspire.com" rel="nofollow">https:&#x2F;&#x2F;vetspire.com</a>
+Vetspire - Senior Software Engineer and Product Manager - Remote - Austin, TX - Full-Time - <a href="https:&#x2F;&#x2F;vetspire.com" rel="nofollow">https:&#x2F;&#x2F;vetspire.com</a>
 
 Vetspire is an electronic health records and practice management platform for veterinarians. We’re a startup that builds the technology suite that powers veterinary hospitals, impacting every aspect of patient care from AI assistance in the exam room to managing client communications and clinical analytics.
 

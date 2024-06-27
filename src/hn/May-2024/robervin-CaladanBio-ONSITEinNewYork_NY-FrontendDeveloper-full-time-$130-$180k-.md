@@ -4,7 +4,7 @@ author:
   name: robervin
   url: https://news.ycombinator.com/item?id=40230610
 ---
-Caladan Bio | ONSITE in New York, NY | Frontend Developer | full-time | <a href="https:&#x2F;&#x2F;caladan.bio" rel="nofollow">https:&#x2F;&#x2F;caladan.bio</a> | $130-$180k |
+Caladan Bio - ONSITE in New York, NY - Frontend Developer - full-time - <a href="https:&#x2F;&#x2F;caladan.bio" rel="nofollow">https:&#x2F;&#x2F;caladan.bio</a> - $130-$180k -
 
 I&#x27;m Rob, cofounder &amp; cto at Caladan. We&#x27;re building 250ml modular bioreactors for synthetic biology scale-up. I&#x27;m looking for a frontend engineer to help build the application used to run the actual reactors. Heavy timeseries and analytic interfaces, experiment design, and visualization of bioengineering systems. Building with React &amp; TypeScript on the frontend, Django on the backend with a lot of other embedded systems in the mix.
 

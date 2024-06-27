@@ -4,7 +4,7 @@ author:
   name: stugrey
   url: https://news.ycombinator.com/item?id=40571071
 ---
-University of Glasgow | Funded PhD &quot;Harnessing Large Language Models and Dimensionality Reduction to Reframe Student Feedback in UK Universities.&quot; | Glasgow, UK | Onsite
+University of Glasgow - Funded PhD &quot;Harnessing Large Language Models and Dimensionality Reduction to Reframe Student Feedback in UK Universities.&quot; - Glasgow, UK - Onsite
 
 Join our fully funded PhD program: &quot;Harnessing Large Language Models and Dimensionality Reduction to Reframe Student Feedback in UK Universities.&quot;
 

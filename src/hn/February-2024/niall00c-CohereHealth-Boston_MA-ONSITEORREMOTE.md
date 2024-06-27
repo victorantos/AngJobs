@@ -4,7 +4,7 @@ author:
   name: niall00c
   url: https://news.ycombinator.com/item?id=39221388
 ---
-Cohere Health| Boston, MA | ONSITE OR REMOTE
+Cohere Health- Boston, MA - ONSITE OR REMOTE
 
 Cohere Health is simplifying healthcare for patients, their doctors, and all those who are important in a patient’s healthcare experience, both in and out of the doctors office. We build software that is expressly designed to ensure the appropriate plan of care is understood and expeditiously approved, so that patients and doctors can focus on health, rather than payment or administrative hassles.
 

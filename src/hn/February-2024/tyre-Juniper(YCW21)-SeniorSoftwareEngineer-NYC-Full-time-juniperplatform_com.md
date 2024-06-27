@@ -4,7 +4,7 @@ author:
   name: tyre
   url: https://news.ycombinator.com/item?id=39222807
 ---
-Juniper (YC W21) | Senior Software Engineer | NYC | Full-time | juniperplatform.com
+Juniper (YC W21) - Senior Software Engineer - NYC - Full-time - juniperplatform.com
 
 Juniper operates at the messy financial infrastructure layer for US Healthcare. We’ve built an end-to-end insurance billing system for recurring care, starting with Autism clinics.
 

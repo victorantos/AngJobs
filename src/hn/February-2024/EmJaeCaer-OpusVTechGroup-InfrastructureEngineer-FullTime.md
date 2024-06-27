@@ -4,7 +4,7 @@ author:
   name: EmJaeCaer
   url: https://news.ycombinator.com/item?id=39225841
 ---
-OpusV Tech Group | Infrastructure Engineer | 50&#x2F;50 Onsite&#x2F;WfH Melbourne, Australia | Full Time
+OpusV Tech Group - Infrastructure Engineer - 50&#x2F;50 Onsite&#x2F;WfH Melbourne, Australia - Full Time
 
 OpusV works extensively in high availability infrastructure with a critical infrastructure (utility, manufacturing, finance) focus.  Involving design, commission and operation, our team builds and protects critical infrastructure assets for a wide range of clients.
 

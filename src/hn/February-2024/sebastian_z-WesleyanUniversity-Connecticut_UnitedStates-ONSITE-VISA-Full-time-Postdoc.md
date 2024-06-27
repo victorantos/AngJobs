@@ -4,7 +4,7 @@ author:
   name: sebastian_z
   url: https://news.ycombinator.com/item?id=39223158
 ---
-Wesleyan University | Connecticut, United States | ONSITE | VISA | Full-time | Postdoc
+Wesleyan University - Connecticut, United States - ONSITE - VISA - Full-time - Postdoc
 
 The Department of Mathematics and Computer Science at Wesleyan University invites applications for two postdoctoral positions in Computer Science beginning in Academic Year 2024-2025.  Each position will have an initial appointment of one year, which is renewable for two additional years, subject to satisfactory performance. A Ph.D. in computer science or related field in hand at the time of appointment is required to be hired as a postdoc; appointment as an instructor is possible for a successful A.B.D. candidate. Candidates must also have strong research and teaching records. While the successful applicant will be able to pursue their own research agenda, any overlap with current faculty research is a plus. Areas currently represented include algorithms and complexity, information security and privacy, logic, programming languages, networking, and robotics. The teaching load is three courses per year, likely consisting of an introductory-level course and more advanced courses in the applicant&#x27;s specialty.
 

@@ -4,7 +4,7 @@ author:
   name: stere0
   url: https://news.ycombinator.com/item?id=39904354
 ---
-Resleeve | Intern Python Backend Engineer | REMOTE | Full-time internship | GMT +- 5h
+Resleeve - Intern Python Backend Engineer - REMOTE - Full-time internship - GMT +- 5h
 
 Resleeve is a startup that seeks to transform how fashion designers develop their next fashion item and get a photoshoot from it. Instead of going through multiple drafts, creating a dummy, and hiring a photographer and model, all can now be achieved through Resleeve Studio. We were founded 18 months ago and pivoted last September.
 

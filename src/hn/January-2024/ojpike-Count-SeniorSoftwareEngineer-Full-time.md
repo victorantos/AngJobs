@@ -4,7 +4,7 @@ author:
   name: ojpike
   url: https://news.ycombinator.com/item?id=38848490
 ---
-Count | Senior Software Engineer | REMOTE within UK&#x2F;Europe | Full-time | <a href="https:&#x2F;&#x2F;count.co" rel="nofollow">https:&#x2F;&#x2F;count.co</a>
+Count - Senior Software Engineer - REMOTE within UK&#x2F;Europe - Full-time - <a href="https:&#x2F;&#x2F;count.co" rel="nofollow">https:&#x2F;&#x2F;count.co</a>
 
 Count is like Jupyter, Tableau and Miro combined in one tool. Data teams at some of the world&#x27;s leading scale-ups use it for everything from iterating data models to performing deep dive analyses and telling impactful stories backed by data.
 

@@ -4,7 +4,7 @@ author:
   name: konz
   url: https://news.ycombinator.com/item?id=39574076
 ---
-ML6 | Machine Learning Engineer, Data Engineer | Python, TensorFlow, PyTorch, GCP, AWS, Azure | Full-time | Amsterdam, Berlin, Ghent (EU) On-site&#x2F;hybrid
+ML6 - Machine Learning Engineer, Data Engineer - Python, TensorFlow, PyTorch, GCP, AWS, Azure - Full-time - Amsterdam, Berlin, Ghent (EU) On-site&#x2F;hybrid
 
 We are a Machine Learning consulting company that builds end-to-end Machine Learning solutions. By applying the latest AI research, we keep our clients at the forefront of innovation.
 

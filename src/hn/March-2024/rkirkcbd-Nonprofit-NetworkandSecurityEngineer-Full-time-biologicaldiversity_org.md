@@ -4,7 +4,7 @@ author:
   name: rkirkcbd
   url: https://news.ycombinator.com/item?id=39630224
 ---
-Nonprofit | Network and Security Engineer | Hybrid&#x2F;Onsite in Tucson, Oakland or Portland | Full-time | biologicaldiversity.org
+Nonprofit - Network and Security Engineer - Hybrid&#x2F;Onsite in Tucson, Oakland or Portland - Full-time - biologicaldiversity.org
 
 Nonprofit in Tucson looking to hire and experienced Network and Security Engineer.
 

@@ -4,7 +4,7 @@ author:
   name: ycapplicants20
   url: https://news.ycombinator.com/item?id=38845153
 ---
-Stealth Startup | Founding Engineer | Full-time | NYC or Remote
+Stealth Startup - Founding Engineer - Full-time - NYC or Remote
 
 The construction industry, with its complex projects, workforce and operations, stands as one of the last frontiers of digital revolution. For decades, construction firms have grappled with the challenges of job costing, payments, accounting and regulatory hurdles, often using disjointed systems and manual processes. These inefficiencies not only affect the bottom line but also impede the industry&#x27;s evolution.
 

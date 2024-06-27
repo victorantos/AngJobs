@@ -4,7 +4,7 @@ author:
   name: narodnik
   url: https://news.ycombinator.com/item?id=39903644
 ---
-DarkFi L1 for Anonymous Smart Contracts | Devs | REMOTE, VISA (for swiss) | dark.fi
+DarkFi L1 for Anonymous Smart Contracts - Devs - REMOTE, VISA (for swiss) - dark.fi
 
 We are looking for ideological devs who want to work with p2p and ZK to create scalable distributed infra.
 For more info check out our website and docs.

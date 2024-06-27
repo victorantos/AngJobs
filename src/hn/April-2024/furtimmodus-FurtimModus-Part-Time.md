@@ -4,7 +4,7 @@ author:
   name: furtimmodus
   url: https://news.ycombinator.com/item?id=39902423
 ---
-Furtim Modus | Multiple: Java Developer; Data Engineer; DevOps | ONSITE&#x2F;Hybrid Preferred (NYC) &amp; Remote Considered (Americas&#x2F;Europe) | Part-Time | <a href="https:&#x2F;&#x2F;furtimmodus.com" rel="nofollow">https:&#x2F;&#x2F;furtimmodus.com</a>
+Furtim Modus - Multiple: Java Developer; Data Engineer; DevOps - ONSITE&#x2F;Hybrid Preferred (NYC) &amp; Remote Considered (Americas&#x2F;Europe) - Part-Time - <a href="https:&#x2F;&#x2F;furtimmodus.com" rel="nofollow">https:&#x2F;&#x2F;furtimmodus.com</a>
 
 This is an exciting opportunity to contribute your skills and expertise to a electronic trading fintech venture based out of New York and receive equity in exchange for your contributions. Additionally, we’ll provide you the opportunity to convert full-time with base comp $150k–$250, full benefits, cash bonus, and more equity.
 

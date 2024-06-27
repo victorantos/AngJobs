@@ -4,7 +4,7 @@ author:
   name: dataology
   url: https://news.ycombinator.com/item?id=40599465
 ---
-Peerbound | Founding full stack engineer | New York, NY | Onsite most days
+Peerbound - Founding full stack engineer - New York, NY - Onsite most days
 
 We&#x27;re looking for a frontend-leaning full stack engineer to be part of a 3-person engineering team here at Peerbound (peerbound.com). If you join us, you&#x27;ll take on ownership of our frontend and play a huge role in shaping the technical direction and team. Our stack currently includes TypeScript, React, Python, and Azure.
 

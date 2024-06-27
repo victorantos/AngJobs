@@ -6,7 +6,7 @@ author:
   name: trunksuzieross
   url: https://news.ycombinator.com/item?id=40249579
 ---
-Trunk | <a href="https:&#x2F;&#x2F;trunk.io" rel="nofollow">https:&#x2F;&#x2F;trunk.io</a> | Sr Analytics Data Engineer ~ Sr Product Designer ~ 
+Trunk - <a href="https:&#x2F;&#x2F;trunk.io" rel="nofollow">https:&#x2F;&#x2F;trunk.io</a> - Sr Analytics Data Engineer ~ Sr Product Designer ~ 
 Full Stack SWE II ~ 
 Full-Time | Remote &#x2F; Hybrid, SF
 

@@ -4,7 +4,7 @@ author:
   name: klevans19
   url: https://news.ycombinator.com/item?id=40280416
 ---
-Pachama | Remote (North America) | Full-Time | Staff Data Engineer
+Pachama - Remote (North America) - Full-Time - Staff Data Engineer
 
 Our mission at Pachama is to fight climate change by restoring nature. Pachama is a technology company on a mission to restore nature to solve climate change. Harnessing the latest advancements in satellite imagery, remote sensing, and artificial intelligence, Pachama evaluates the carbon stored in our forests and monitors forest growth over time.
 

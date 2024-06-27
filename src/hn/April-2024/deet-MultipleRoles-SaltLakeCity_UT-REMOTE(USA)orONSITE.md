@@ -4,7 +4,7 @@ author:
   name: deet
   url: https://news.ycombinator.com/item?id=39901412
 ---
-Avy (<a href="https:&#x2F;&#x2F;www.avy.ai" rel="nofollow">https:&#x2F;&#x2F;www.avy.ai</a>) | Multiple Roles | Salt Lake City, UT | REMOTE (USA) or ONSITE
+Avy (<a href="https:&#x2F;&#x2F;www.avy.ai" rel="nofollow">https:&#x2F;&#x2F;www.avy.ai</a>) - Multiple Roles - Salt Lake City, UT - REMOTE (USA) or ONSITE
 
 We are an early-stage, well-funded, stealth startup making humans and computers work together more efficiently. Experienced team from Apple AIML, Bose, Amazon, and other great companies.
 

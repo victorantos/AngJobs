@@ -4,7 +4,7 @@ author:
   name: nathanjclark
   url: https://news.ycombinator.com/item?id=39227770
 ---
-Shuttle (YC S20) | Head of Engineering, Head of Product | London or Remote | Full Time
+Shuttle (YC S20) - Head of Engineering, Head of Product - London or Remote - Full Time
 
 At Shuttle, we&#x27;re on a mission to redefine the developer experience for building cloud applications. We want to empower the next generation of builders to make use of the latest and greatest cloud technologies, by crafting the simplest, fastest, and most enjoyable development experience.
 

@@ -4,7 +4,7 @@ author:
   name: momentmaker
   url: https://news.ycombinator.com/item?id=40225190
 ---
-Chainlink Labs | Multiple Roles | Remote | Full-time | <a href="https:&#x2F;&#x2F;chainlinklabs.com" rel="nofollow">https:&#x2F;&#x2F;chainlinklabs.com</a>
+Chainlink Labs - Multiple Roles - Remote - Full-time - <a href="https:&#x2F;&#x2F;chainlinklabs.com" rel="nofollow">https:&#x2F;&#x2F;chainlinklabs.com</a>
 
 All roles with Chainlink Labs are globally remote based. We encourage you to apply regardless of your location.
 

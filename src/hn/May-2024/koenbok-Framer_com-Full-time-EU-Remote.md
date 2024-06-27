@@ -4,7 +4,7 @@ author:
   name: koenbok
   url: https://news.ycombinator.com/item?id=40225501
 ---
-Framer.com | Senior Product &#x2F; Backend Engineer | Full-time | EU | Remote
+Framer.com - Senior Product &#x2F; Backend Engineer - Full-time - EU - Remote
 
 We&#x27;re building the best professional web design platform and are solving lots of interesting engineering problems:
 

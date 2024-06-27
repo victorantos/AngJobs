@@ -4,7 +4,7 @@ author:
   name: espinchi
   url: https://news.ycombinator.com/item?id=39221002
 ---
-Aleph | Remote - US or LATAM | getaleph.com&#x2F;careers
+Aleph - Remote - US or LATAM - getaleph.com&#x2F;careers
 
 Open positions: Head of Product Marketing, Software Engineer
 

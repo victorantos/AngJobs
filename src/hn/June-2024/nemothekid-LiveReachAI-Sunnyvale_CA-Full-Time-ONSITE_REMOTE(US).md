@@ -4,7 +4,7 @@ author:
   name: nemothekid
   url: https://news.ycombinator.com/item?id=40565631
 ---
-LiveReach AI | Sunnyvale, CA | Full-Time | ONSITE, REMOTE (US)
+LiveReach AI - Sunnyvale, CA - Full-Time - ONSITE, REMOTE (US)
 
 LiveReach AI is an enterprise and SMB security surveillance startup that provides an advanced NVR (network video recorder) that upgrades existing camera infrastructure with cloud access &amp; backup, ai search capabilities, and incident management.
 

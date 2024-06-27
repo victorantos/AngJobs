@@ -4,7 +4,7 @@ author:
   name: astranis
   url: https://news.ycombinator.com/item?id=40225455
 ---
-Astranis (YC W16) | San Francisco, CA | Full-Time | Interns | On-site | US Citizen or Green Card
+Astranis (YC W16) - San Francisco, CA - Full-Time - Interns - On-site - US Citizen or Green Card
 
 Astranis is on a mission to bridge the digital divide by connecting the four billion people worldwide who currently lack internet access. We&#x27;re doing this by building the next generation of smaller, more cost-effective spacecraft to bring the world online.
 

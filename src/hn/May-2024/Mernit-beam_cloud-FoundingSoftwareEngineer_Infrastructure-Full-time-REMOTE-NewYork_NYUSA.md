@@ -4,7 +4,7 @@ author:
   name: Mernit
   url: https://news.ycombinator.com/item?id=40224705
 ---
-beam.cloud | Founding Software Engineer, Infrastructure | Full-time | REMOTE | New York, NY USA
+beam.cloud - Founding Software Engineer, Infrastructure - Full-time - REMOTE - New York, NY USA
 
 Beam is building a cloud runtime for running remote containers on GPUs. We’re used by thousands of developers for powering their generative AI apps, including companies like Coca-Cola, and we’re backed by great investors like YC and Tiger.
 

@@ -4,7 +4,7 @@ author:
   name: cktaylor-scribd
   url: https://news.ycombinator.com/item?id=40229256
 ---
-Scribd | Remote | US or Canada | Full-time | Senior Manager, Quality Engineering
+Scribd - Remote - US or Canada - Full-time - Senior Manager, Quality Engineering
 
 We are looking for an experienced engineering leader to lead QE at Scribd. The Quality Engineering team is part of our larger Developer Platform group. Together we focus on building &amp; supporting a world-class development experience for developers through every stage of the software development lifecycle - from ideation to production.
 

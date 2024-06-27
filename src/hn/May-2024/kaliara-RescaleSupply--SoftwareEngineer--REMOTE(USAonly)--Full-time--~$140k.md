@@ -4,7 +4,7 @@ author:
   name: kaliara
   url: https://news.ycombinator.com/item?id=40225484
 ---
-Rescale Supply || Software Engineer || REMOTE (USA only) || Full-time || ~$140k
+Rescale Supply -- Software Engineer -- REMOTE (USA only) -- Full-time -- ~$140k
 
 The world of CPG and food manufacturing is both fascinating and complex. Today, when a new food brand starts to take off (think “startup” but for something like a hot sauce), they spend 12-18 months establishing a partnership with a manufacturer to produce their product at scale. The pain point is so high, they typically pay consultants $60k to solve the problem. Our cofounder (former Dir of Ops @ Trader Joes) did this as a consultant and now we are turning her expertise into software. We are building a mix of a marketplace + Turbotax style functionality to bring automation and scalability to the industry. With great traction and paying customers, we just closed a $2M seed round.
 

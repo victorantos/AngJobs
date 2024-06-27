@@ -4,7 +4,7 @@ author:
   name: mindy_hiring
   url: https://news.ycombinator.com/item?id=38847576
 ---
-Mindy | LLM SW Engineer, Product Engineer | SF | Onsite | Full-time
+Mindy - LLM SW Engineer, Product Engineer - SF - Onsite - Full-time
 
 New Startup in the AI Space Looking for LLM Experts!
 

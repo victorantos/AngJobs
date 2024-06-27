@@ -4,7 +4,7 @@ author:
   name: dvrp
   url: https://news.ycombinator.com/item?id=40230477
 ---
-krea ai | in-person only in san francisco, ca | full-time | <a href="https:&#x2F;&#x2F;krea.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;krea.ai&#x2F;</a>
+krea ai - in-person only in san francisco, ca - full-time - <a href="https:&#x2F;&#x2F;krea.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;krea.ai&#x2F;</a>
 
 i&#x27;m diego, cofounder and cto at krea.
 

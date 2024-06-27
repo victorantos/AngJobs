@@ -4,7 +4,7 @@ author:
   name: ajthazell
   url: https://news.ycombinator.com/item?id=39226896
 ---
-oxa.tech | UK, USA &amp; Canada | REMOTE &#x2F; REMOTE-FIRST depending on role
+oxa.tech - UK, USA &amp; Canada - REMOTE &#x2F; REMOTE-FIRST depending on role
 
 Oxa&#x27;s self-driving software platform is transforming the way people and goods are transported — safely, securely and efficiently.
 

@@ -4,7 +4,7 @@ author:
   name: rattray
   url: https://news.ycombinator.com/item?id=39899648
 ---
-Stainless | Generalist Engineers, First AE | NYC ONSITE | Full-time
+Stainless - Generalist Engineers, First AE - NYC ONSITE - Full-time
 
 Stainless is building the platform for high-quality, easy-to-use APIs. Our first product is SDKs as a service. When you `npm install openai` or `pip install openai`, for example, you’re downloading code that we generated. (I built the codegen system at Stripe for their SDKs, and am now building a better version for everyone.)
 

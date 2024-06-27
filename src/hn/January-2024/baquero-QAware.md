@@ -4,7 +4,7 @@ author:
   name: baquero
   url: https://news.ycombinator.com/item?id=38848038
 ---
-QAware | REMOTE&#x2F;HYBRID (Offices in Mainz and Munich, Germany) | <a href="https:&#x2F;&#x2F;www.qaware.de" rel="nofollow">https:&#x2F;&#x2F;www.qaware.de</a>
+QAware - REMOTE&#x2F;HYBRID (Offices in Mainz and Munich, Germany) - <a href="https:&#x2F;&#x2F;www.qaware.de" rel="nofollow">https:&#x2F;&#x2F;www.qaware.de</a>
 
 Vacancies:
 <a href="https:&#x2F;&#x2F;www.qaware.de&#x2F;karriere&#x2F;offene-stellen&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.qaware.de&#x2F;karriere&#x2F;offene-stellen&#x2F;</a>

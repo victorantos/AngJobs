@@ -4,7 +4,7 @@ author:
   name: seth_
   url: https://news.ycombinator.com/item?id=39895628
 ---
-Riffusion - Generative AI for Music | Research Scientist, Research Engineer | San Francisco | Full-time
+Riffusion - Generative AI for Music - Research Scientist, Research Engineer - San Francisco - Full-time
 
 Riffusion is a small team training foundation models for music generation and building products that create more musicians in the world. We strive to create and deploy models that are expressive, fast, controllable, and inspiring at scale.
 

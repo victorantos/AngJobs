@@ -4,7 +4,7 @@ author:
   name: dk234
   url: https://news.ycombinator.com/item?id=38879485
 ---
-BeneKinetic | Founding iOS Engineer | Washington DC Area or Remote (+&#x2F;- 5 hours EST) | $150 - $175k | Equity
+BeneKinetic - Founding iOS Engineer - Washington DC Area or Remote (+&#x2F;- 5 hours EST) - $150 - $175k - Equity
 
 BeneKinetic is a cutting-edge technology company dedicated to enhancing the lives of individuals with musculoskeletal and neurological conditions through its innovative mobile application. We are seeking a highly skilled and motivated Senior Lead iOS App Developer to join our fully remote team. Our Founder (Stanford - BS, STS) has 20 years of experience in technology and finance. He is a serial entrepreneur with one exit under his belt in 2014. He built BlackRock’s digital strategy in Asia across eight markets and led product management and business development for telecommunication and ASP startups. Among the team we have 4 successful businesses previously founded with 1 acquired and 3 in profitable operation, 60M+ in grants awarded, 4 PhDs, 2 DPTs, 2 world renowned scientific experts, 1 JD, and a multitude of successful products and services launched.
 

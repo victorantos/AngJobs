@@ -4,7 +4,7 @@ author:
   name: cyanoacry
   url: https://news.ycombinator.com/item?id=39899005
 ---
-Esperto Medical | <a href="https:&#x2F;&#x2F;esperto.health" rel="nofollow">https:&#x2F;&#x2F;esperto.health</a> | Los Angeles Area | Hybrid In-office | Senior FPGA&#x2F;Firmware Engineer
+Esperto Medical - <a href="https:&#x2F;&#x2F;esperto.health" rel="nofollow">https:&#x2F;&#x2F;esperto.health</a> - Los Angeles Area - Hybrid In-office - Senior FPGA&#x2F;Firmware Engineer
 
 We&#x27;re building a medical device that allows us to measure BP continuously, in real time. (We&#x27;re a Caltech spin-out and found some new physics that we want to get to market.)
 

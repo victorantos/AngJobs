@@ -4,7 +4,7 @@ author:
   name: sanctucompu
   url: https://news.ycombinator.com/item?id=39217482
 ---
-Sanctuary Computer | Senior Fullstack Developer | Hybrid (Remote and&#x2F;or NYC) | Full-time
+Sanctuary Computer - Senior Fullstack Developer - Hybrid (Remote and&#x2F;or NYC) - Full-time
 
 At Sanctuary Computer(<a href="https:&#x2F;&#x2F;www.sanctuary.computer&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.sanctuary.computer&#x2F;</a>) — we’re building a different type of technology shop. Based in NYC’s Chinatown (and remote), the way we approach building things is more like a restaurant than a traditional agency, with an emphasis in providing our clients with an outspoken sense of comfort and hospitality.
 

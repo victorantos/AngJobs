@@ -4,7 +4,7 @@ author:
   name: stere0
   url: https://news.ycombinator.com/item?id=40575815
 ---
-Resleeve | Remote | Netherlands +- 9 hours | Full-time internships
+Resleeve - Remote - Netherlands +- 9 hours - Full-time internships
 
 Resleeve is a startup that seeks to transform how fashion designers develop their next fashion item and get a photoshoot from that item. Instead of going through multiple drafts, creating a dummy, hiring a photographer and model, all can now be achieved through Resleeve Studio. We were founded 2 years ago and pivoted in September.
 

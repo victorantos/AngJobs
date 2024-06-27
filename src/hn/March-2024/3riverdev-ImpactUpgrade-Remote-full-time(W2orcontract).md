@@ -4,7 +4,7 @@ author:
   name: 3riverdev
   url: https://news.ycombinator.com/item?id=39600176
 ---
-Impact Upgrade | Remote | full-time (W2 or contract)
+Impact Upgrade - Remote - full-time (W2 or contract)
 
 Must have a fair amount of overlap with US timezones.
 

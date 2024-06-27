@@ -4,7 +4,7 @@ author:
   name: jeztek
   url: https://news.ycombinator.com/item?id=38848527
 ---
-Voltage Park (voltagepark.com) | US REMOTE | Full-Time | SRE, Backend Engineer
+Voltage Park (voltagepark.com) - US REMOTE - Full-Time - SRE, Backend Engineer
 
 Voltage Park is building a machine learning infrastructure company from the ground up. We purchased 24,000 H100 GPU&#x27;s and are currently deploying them across the US. We&#x27;re looking for friendly, highly motivated, execution focused folks to join our small but growing team!
 

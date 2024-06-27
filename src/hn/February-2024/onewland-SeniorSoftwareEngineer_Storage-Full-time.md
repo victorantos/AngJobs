@@ -4,7 +4,7 @@ author:
   name: onewland
   url: https://news.ycombinator.com/item?id=39221816
 ---
-Sentry.io (<a href="http:&#x2F;&#x2F;sentry.io" rel="nofollow">http:&#x2F;&#x2F;sentry.io</a>) | Senior Software Engineer, Storage | ONSITE (San Francisco or Seattle, 3:2) | Full-time
+Sentry.io (<a href="http:&#x2F;&#x2F;sentry.io" rel="nofollow">http:&#x2F;&#x2F;sentry.io</a>) - Senior Software Engineer, Storage - ONSITE (San Francisco or Seattle, 3:2) - Full-time
 
 Sentry.io builds a suite of application monitoring tools that developers love. The Search and Storage team builds out high-volume ingestion (hundreds of thousands of records per second) for our near-real-time event and metric storage built on top of the columnar data store ClickHouse. We’re looking for a seasoned engineer who has dealt with high-volume, production-traffic serving systems who’s searching for a new challenge.
 

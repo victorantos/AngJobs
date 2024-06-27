@@ -4,7 +4,7 @@ author:
   name: fnands
   url: https://news.ycombinator.com/item?id=40563836
 ---
-LiveEO | ML&#x2F;MLOps Software Engineers | Berlin, Germany | Hybrid or REMOTE in EU | Full-time
+LiveEO - ML&#x2F;MLOps Software Engineers - Berlin, Germany - Hybrid or REMOTE in EU - Full-time
 
 The Treeline team at LiveEO (vegetation monitoring for line infrastructure like power lines an railway lines) is hiring two engineers.
 

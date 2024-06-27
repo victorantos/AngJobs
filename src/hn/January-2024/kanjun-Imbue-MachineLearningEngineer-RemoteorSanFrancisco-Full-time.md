@@ -4,7 +4,7 @@ author:
   name: kanjun
   url: https://news.ycombinator.com/item?id=38875472
 ---
-Imbue | Machine Learning Engineer | Remote or San Francisco | Full-time
+Imbue - Machine Learning Engineer - Remote or San Francisco - Full-time
 
 Imbue builds AI systems that reason and code, enabling AI agents to accomplish larger goals and safely work in the real world. We train our own foundation models optimized for reasoning and prototype agents on top of these models. By using these agents extensively, we gain insights into improving both the capabilities of the underlying models and the interaction design for agents.
 

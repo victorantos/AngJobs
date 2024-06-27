@@ -4,7 +4,7 @@ author:
   name: reikonomusha
   url: https://news.ycombinator.com/item?id=39219100
 ---
-HRL Laboratories | Senior Software Engineer; Principal Compiler Engineer | Common Lisp | ONSITE | Los Angeles, California | <a href="https:&#x2F;&#x2F;quantum.hrl.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;quantum.hrl.com&#x2F;</a>
+HRL Laboratories - Senior Software Engineer; Principal Compiler Engineer - Common Lisp - ONSITE - Los Angeles, California - <a href="https:&#x2F;&#x2F;quantum.hrl.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;quantum.hrl.com&#x2F;</a>
 
 HRL Laboratories is a private, scientific laboratory that has been in business since 1960. We are best known for having created the first working laser.
 

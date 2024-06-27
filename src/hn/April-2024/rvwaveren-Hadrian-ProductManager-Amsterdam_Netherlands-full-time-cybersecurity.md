@@ -4,7 +4,7 @@ author:
   name: rvwaveren
   url: https://news.ycombinator.com/item?id=39903687
 ---
-Hadrian | Product Manager | Amsterdam, Netherlands | full-time | hybrid &#x2F; on site | <a href="https:&#x2F;&#x2F;hadrian.io" rel="nofollow">https:&#x2F;&#x2F;hadrian.io</a> | cyber security
+Hadrian - Product Manager - Amsterdam, Netherlands - full-time - hybrid &#x2F; on site - <a href="https:&#x2F;&#x2F;hadrian.io" rel="nofollow">https:&#x2F;&#x2F;hadrian.io</a> - cyber security
 
 We&#x27;re a quickly growing company in the offensive cyber security space. We develop a Saas platform that continuously and autonomously maps the attack surface of our customers and scans it for vulnerabilities, thereby securing companies from malicious cyber criminals.
 

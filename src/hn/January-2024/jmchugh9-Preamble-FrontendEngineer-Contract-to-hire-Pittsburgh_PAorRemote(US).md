@@ -4,7 +4,7 @@ author:
   name: jmchugh9
   url: https://news.ycombinator.com/item?id=39007618
 ---
-Preamble | Frontend Engineer | Contract-to-hire | Pittsburgh, PA or Remote (US)
+Preamble - Frontend Engineer - Contract-to-hire - Pittsburgh, PA or Remote (US)
 
 • We&#x27;re hiring an experienced Frontend Engineer ASAP.
 

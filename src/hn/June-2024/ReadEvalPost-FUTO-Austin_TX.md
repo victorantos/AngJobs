@@ -4,7 +4,7 @@ author:
   name: ReadEvalPost
   url: https://news.ycombinator.com/item?id=40563939
 ---
-FUTO | Austin, TX | On-site &#x2F; Hybrid &#x2F; Remote | Full Time &#x2F; Hourly
+FUTO - Austin, TX - On-site &#x2F; Hybrid &#x2F; Remote - Full Time &#x2F; Hourly
 
 FUTO is an organization dedicated to developing, both through in-house engineering and investment, technologies that frustrate centralization and industry consolidation. Through a combination of in-house engineering projects, targeted investments, generous grants, and multi-media public education efforts, we will free technology from the control of the few and recreate the spirit of freedom, innovation, and self-reliance that underpinned the American tech industry only a few decades ago. Our principles are here: <a href="https:&#x2F;&#x2F;futo.org&#x2F;what-is-futo" rel="nofollow">https:&#x2F;&#x2F;futo.org&#x2F;what-is-futo</a>
 

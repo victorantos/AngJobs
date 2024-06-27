@@ -4,7 +4,7 @@ author:
   name: jakemoshenko
   url: https://news.ycombinator.com/item?id=40228922
 ---
-AuthZed (W21) | SRE, Customer Success Engineer, Technical Writer | Remote (US, EU) | Full-time
+AuthZed (W21) - SRE, Customer Success Engineer, Technical Writer - Remote (US, EU) - Full-time
 
 AuthZed is changing the way top tier companies add rich permissions experiences to their applications. Modeled after Google&#x27;s Zanzibar, AuthZed offers a low-latency, high-scale permissions system, that scales to millions of QPS with milliseconds of latency.
 

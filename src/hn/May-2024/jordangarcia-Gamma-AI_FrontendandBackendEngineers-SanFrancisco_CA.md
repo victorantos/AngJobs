@@ -4,7 +4,7 @@ author:
   name: jordangarcia
   url: https://news.ycombinator.com/item?id=40227022
 ---
-Gamma | AI, Frontend and Backend Engineers | San Francisco, CA | Hybrid (3days &#x2F; week)
+Gamma - AI, Frontend and Backend Engineers - San Francisco, CA - Hybrid (3days &#x2F; week)
 
 <a href="https:&#x2F;&#x2F;careers.gamma.app&#x2F;" rel="nofollow">https:&#x2F;&#x2F;careers.gamma.app&#x2F;</a>
 

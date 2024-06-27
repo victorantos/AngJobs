@@ -4,7 +4,7 @@ author:
   name: garysahota93
   url: https://news.ycombinator.com/item?id=39222073
 ---
-Tether Data | Front End Engineer | Remote | Full-time
+Tether Data - Front End Engineer - Remote - Full-time
 
 Tether Data (tetherdata.io) is a no-code data movement &#x2F; ETL platform built for operations leaders in Go-To-Market orgs (Sales, Marketing, Customer Success, etc).
 

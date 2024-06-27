@@ -4,7 +4,7 @@ author:
   name: SarahDeleteMe
   url: https://news.ycombinator.com/item?id=40658624
 ---
-DeleteMe - the online privacy company | Full Time
+DeleteMe - the online privacy company - Full Time
 
 Lead Product Manager - US | REMOTE|Security Experience| <a href="https:&#x2F;&#x2F;jobs.lever.co&#x2F;deleteme&#x2F;5a4ff8ad-0bc9-4210-a1cb-76a299e8fbe7" rel="nofollow">https:&#x2F;&#x2F;jobs.lever.co&#x2F;deleteme&#x2F;5a4ff8ad-0bc9-4210-a1cb-76a29...</a>
 

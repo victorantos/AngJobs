@@ -4,7 +4,7 @@ author:
   name: kdrag0n
   url: https://news.ycombinator.com/item?id=39238134
 ---
-OrbStack | Founding Engineer | US&#x2F;Europe REMOTE | Full-time | <a href="https:&#x2F;&#x2F;orbstack.dev" rel="nofollow">https:&#x2F;&#x2F;orbstack.dev</a>
+OrbStack - Founding Engineer - US&#x2F;Europe REMOTE - Full-time - <a href="https:&#x2F;&#x2F;orbstack.dev" rel="nofollow">https:&#x2F;&#x2F;orbstack.dev</a>
 
 OrbStack is making Docker containers &amp; development environments delightful. Our app replaces Docker Desktop and makes containers faster, lighter, and easier to work with. It&#x27;s the tool of choice for PlanetScale, Replicate, and other hot companies.
 

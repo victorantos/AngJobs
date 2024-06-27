@@ -4,7 +4,7 @@ author:
   name: stuhlmueller
   url: https://news.ycombinator.com/item?id=39899130
 ---
-Elicit | Senior Software Engineer | Oakland or Remote | <a href="https:&#x2F;&#x2F;elicit.com" rel="nofollow">https:&#x2F;&#x2F;elicit.com</a>
+Elicit - Senior Software Engineer - Oakland or Remote - <a href="https:&#x2F;&#x2F;elicit.com" rel="nofollow">https:&#x2F;&#x2F;elicit.com</a>
 
 Elicit is the leading AI research assistant. We automate high-quality reasoning so that humanity makes more breakthroughs in every domain: from climate change to the gut microbiome to longevity and economic policy.
 

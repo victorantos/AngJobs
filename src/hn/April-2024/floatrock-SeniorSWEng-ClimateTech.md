@@ -4,7 +4,7 @@ author:
   name: floatrock
   url: https://news.ycombinator.com/item?id=39906012
 ---
-Arcadia &#x2F; Genability | <a href="https:&#x2F;&#x2F;www.arcadia.com" rel="nofollow">https:&#x2F;&#x2F;www.arcadia.com</a> | REMOTE T-04:00 -- T-07:00 | Senior SW Eng | Climate Tech
+Arcadia &#x2F; Genability - <a href="https:&#x2F;&#x2F;www.arcadia.com" rel="nofollow">https:&#x2F;&#x2F;www.arcadia.com</a> - REMOTE T-04:00 -- T-07:00 - Senior SW Eng - Climate Tech
 
 Arcadia is the technology company empowering energy innovators and consumers to fight the climate crisis. Our software and APIs digitalize an industry held back by outdated systems and institutions by enabling modern access to the data and clean energy needed to make a decarbonized energy grid possible.
 

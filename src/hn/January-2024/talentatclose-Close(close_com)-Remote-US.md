@@ -4,7 +4,7 @@ author:
   name: talentatclose
   url: https://news.ycombinator.com/item?id=38856079
 ---
-Close (close.com) | Senior&#x2F;Staff Backend + Senior&#x2F;Staff Frontend Engineers + Senior PM | Remote - US
+Close (close.com) - Senior&#x2F;Staff Backend + Senior&#x2F;Staff Frontend Engineers + Senior PM - Remote - US
 
 Close is a bootstrapped, profitable, completely remote, ~90 person team of thoughtful individuals who value autonomy and impact. Since 2013, we’ve been building a CRM for small businesses with a focus on better communication, without the hassle of manual data entry or complex UI.
 

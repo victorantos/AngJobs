@@ -4,7 +4,7 @@ author:
   name: ghostwriternr
   url: https://news.ycombinator.com/item?id=40234711
 ---
-CodeStory (YC S23) | Founding Engineer | London, United Kingdom | Onsite | <a href="https:&#x2F;&#x2F;aide.dev" rel="nofollow">https:&#x2F;&#x2F;aide.dev</a>
+CodeStory (YC S23) - Founding Engineer - London, United Kingdom - Onsite - <a href="https:&#x2F;&#x2F;aide.dev" rel="nofollow">https:&#x2F;&#x2F;aide.dev</a>
 
 We&#x27;re building Aide, an AI-native, privacy-first IDE. With the advent of AI, we believe there is an opportunity and necessity to re-imagine the IDE to be a place where developers and AI are both first-class citizens, and AI can pair-program as well as complete tasks independently.
 

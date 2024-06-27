@@ -4,7 +4,7 @@ author:
   name: dkislyuk
   url: https://news.ycombinator.com/item?id=40567368
 ---
-Pinterest Advanced Technologies Group | Staff Engineer, iOS and applied ML | US remote or hybrid in SF&#x2F;NY | Full-time
+Pinterest Advanced Technologies Group - Staff Engineer, iOS and applied ML - US remote or hybrid in SF&#x2F;NY - Full-time
 
 We’re looking for strong engineers to help us build consumer AI products within Pinterest’s Advanced Technologies Group (ATG), our in-house ML research division. You’d be working with a full-stack team of ML researchers and product engineers on projects that bring LLMs, diffusion models, and other core models in the generative multimodal ML and computer vision space to life inside the Pinterest product. Projects include assistants, new ways to search, restyling of boards &#x2F; pins &#x2F; rooms, and many other new applications. Your work will directly impact how millions of users experience Pinterest.
 

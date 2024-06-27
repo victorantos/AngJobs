@@ -4,7 +4,7 @@ author:
   name: RoboCuz
   url: https://news.ycombinator.com/item?id=40226445
 ---
-Vivint | Home Automation - IoT, making cool stuff | Boston, MA | onsite
+Vivint - Home Automation - IoT, making cool stuff - Boston, MA - onsite
 
 At our Boston Innovation Center, we&#x27;re delivering an integrated platform, award-winning products and the industry&#x27;s first artificial intelligence for the smart home. Check out our openings and join the #SmartHomeRevolution
 

@@ -4,7 +4,7 @@ author:
   name: paulclark
   url: https://news.ycombinator.com/item?id=40577534
 ---
-Align (no website yet!) | Remote (US time zones) | Full-time
+Align (no website yet!) - Remote (US time zones) - Full-time
 
 We are a team of serial entrepreneurs (consumer and edtech) and human flourishing science leaders, building a new product with - and for - GenZ to unlock their full potential. We envision a world in which people can flourish faster.
 

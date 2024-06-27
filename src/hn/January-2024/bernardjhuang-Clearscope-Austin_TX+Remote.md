@@ -4,7 +4,7 @@ author:
   name: bernardjhuang
   url: https://news.ycombinator.com/item?id=38873431
 ---
-Clearscope | Austin, TX + Remote | Senior Software Engineer (Ruby&#x2F;Rails)
+Clearscope - Austin, TX + Remote - Senior Software Engineer (Ruby&#x2F;Rails)
 
 Clearscope is a best-in-class digital marketing SaaS that leverages machine learning to arm content marketers with the data, recommendations, and visibility they need to produce quality content that reaches their audience. We&#x27;re bootstrapped and profitable with 1,000+ paying customers like Adobe, Deloitte, Nvidia, Expedia, HubSpot, Shopify, Intuit, and Condé Nast driving multi-million ARR with 6 team members.
 

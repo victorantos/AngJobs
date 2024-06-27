@@ -4,7 +4,7 @@ author:
   name: thisjustinm
   url: https://news.ycombinator.com/item?id=38844823
 ---
-EnergyHub | Senior DevOps Security Engineer (DevSecOps) | Remote (US Only) | Full-time | $145-160k
+EnergyHub - Senior DevOps Security Engineer (DevSecOps) - Remote (US Only) - Full-time - $145-160k
 
 Want to work on helping to decarbonize the electric grid and transportation in the US? (the two biggest sectors for impact)
 

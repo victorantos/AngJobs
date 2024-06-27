@@ -4,7 +4,7 @@ author:
   name: EligibleDecoy
   url: https://news.ycombinator.com/item?id=39563627
 ---
-GA-CCRi | onsite (hybrid or full): VA, DC, UT | mid+ engineering roles | full-time
+GA-CCRi - onsite (hybrid or full): VA, DC, UT - mid+ engineering roles - full-time
 
 We usually hire remote (USA) but we&#x27;ve paused on that - feel free to drop a resume if you are willing to wait (weeks to months).
 

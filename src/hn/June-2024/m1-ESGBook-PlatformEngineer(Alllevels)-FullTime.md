@@ -4,7 +4,7 @@ author:
   name: m1
   url: https://news.ycombinator.com/item?id=40567445
 ---
-ESG Book | Platform Engineer (All levels) | Full Time | London, UK &#x2F; Remote (EU) | <a href="https:&#x2F;&#x2F;www.esgbook.com" rel="nofollow">https:&#x2F;&#x2F;www.esgbook.com</a>
+ESG Book - Platform Engineer (All levels) - Full Time - London, UK &#x2F; Remote (EU) - <a href="https:&#x2F;&#x2F;www.esgbook.com" rel="nofollow">https:&#x2F;&#x2F;www.esgbook.com</a>
 
 Founded in 2018, ESG Book is a global leader in sustainability data and technology. We are a fast-paced, exciting young company that combines cutting-edge technology and proprietary research. We pride ourselves on our entrepreneurial spirit, and dynamic work environment.
 

@@ -4,7 +4,7 @@ author:
   name: minaguib
   url: https://news.ycombinator.com/item?id=40564165
 ---
-Hivestack by Perion | Montreal, QC (Hybrid Office&#x2F;Remote) | Full Time
+Hivestack by Perion - Montreal, QC (Hybrid Office&#x2F;Remote) - Full Time
 
 Industry: AdTech, specializing in Digital Out Of Home
 

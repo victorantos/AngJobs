@@ -4,7 +4,7 @@ author:
   name: sidraval
   url: https://news.ycombinator.com/item?id=40229779
 ---
-August Health | Software Engineers (backend, frontend) | Remote, USA | Full Time | <a href="https:&#x2F;&#x2F;www.augusthealth.com" rel="nofollow">https:&#x2F;&#x2F;www.augusthealth.com</a>
+August Health - Software Engineers (backend, frontend) - Remote, USA - Full Time - <a href="https:&#x2F;&#x2F;www.augusthealth.com" rel="nofollow">https:&#x2F;&#x2F;www.augusthealth.com</a>
 
 We&#x27;re a growth-stage (Series A in 2022) company that builds technology to enhance the quality of care for vulnerable older adults. Our product is guiding the transition from complex, paper-based practices in the long-term care industry to a digital platform solution that unlocks the power of personalized care, predictive analytics, and value-based contracting.
 

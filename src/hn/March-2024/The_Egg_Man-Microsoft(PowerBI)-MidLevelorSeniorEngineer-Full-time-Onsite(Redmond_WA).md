@@ -4,7 +4,7 @@ author:
   name: The_Egg_Man
   url: https://news.ycombinator.com/item?id=39563193
 ---
-Microsoft (Power BI) | Mid Level or Senior Engineer | Full-time | Onsite (Redmond, WA)
+Microsoft (Power BI) - Mid Level or Senior Engineer - Full-time - Onsite (Redmond, WA)
 
 We are the Power BI client engineering infrastructure team at Microsoft. Our team is responsible for building the infrastructure and tooling that powers the Power BI client applications. We are a small, fast-paced team that works on a wide variety of projects, from building the and maintaining the core infrastructure for our 300 person mono repo to investing in new technologies and frameworks to improve our development experience. We work on everything from TypeScript to Nx to Webpack to DevOps.
 

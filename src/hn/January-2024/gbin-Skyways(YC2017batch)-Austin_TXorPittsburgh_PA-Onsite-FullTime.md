@@ -4,7 +4,7 @@ author:
   name: gbin
   url: https://news.ycombinator.com/item?id=38847626
 ---
-Skyways (YC 2017 batch) | Austin, TX or Pittsburgh, PA | Onsite | Full Time | <a href="https:&#x2F;&#x2F;skyways.com" rel="nofollow">https:&#x2F;&#x2F;skyways.com</a>
+Skyways (YC 2017 batch) - Austin, TX or Pittsburgh, PA - Onsite - Full Time - <a href="https:&#x2F;&#x2F;skyways.com" rel="nofollow">https:&#x2F;&#x2F;skyways.com</a>
 
 At Skyways we believe fully autonomous unmanned aerial vehicles represent a unique opportunity to move things today but also people tomorrow in new, more efficient ways. With our very pragmatic approach to the problem we now signed national and international customers, institutional and soon commercial ones this year. We do release early, release often and we fly our own aircraft almost every day.
 

@@ -4,7 +4,7 @@ author:
   name: matt_akkio
   url: https://news.ycombinator.com/item?id=39974535
 ---
-Akkio | Fully Remote | Full-time | Backend and Senior Backend Engineers | $130k-$200k + equity
+Akkio - Fully Remote - Full-time - Backend and Senior Backend Engineers - $130k-$200k + equity
 
 Use Akkio to build and deploy AutoML pipelines, using Generative AI for your data exploration and cleansing.
 

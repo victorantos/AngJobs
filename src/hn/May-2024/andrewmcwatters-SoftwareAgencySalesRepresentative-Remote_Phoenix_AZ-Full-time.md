@@ -4,7 +4,7 @@ author:
   name: andrewmcwatters
   url: https://news.ycombinator.com/item?id=40225405
 ---
-Andrew McWatters &amp; Co. | Software Agency Sales Representative | Remote, Phoenix, AZ | Full-time
+Andrew McWatters &amp; Co. - Software Agency Sales Representative - Remote, Phoenix, AZ - Full-time
 
 We are a small software firm located in the Phoenix metro. You will be part of a highly skilled, kind team of engineers and sales staff who serve Fortune 500s, start-ups, large non-profits, and small businesses in custom software projects.
 

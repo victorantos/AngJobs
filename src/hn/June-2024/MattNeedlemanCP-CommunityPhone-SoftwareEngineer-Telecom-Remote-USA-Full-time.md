@@ -4,7 +4,7 @@ author:
   name: MattNeedlemanCP
   url: https://news.ycombinator.com/item?id=40565877
 ---
-Community Phone | Software Engineer - Telecom | Remote - USA | Full-time
+Community Phone - Software Engineer - Telecom - Remote - USA - Full-time
 
 Community Phone is looking for a Software Engineer experienced in the Telecom industry who will diagnose and resolve technical problems, ensure smooth technology operations, and enable Community Phone to deliver an excellent phone experience to our users.
 

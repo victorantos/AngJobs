@@ -4,7 +4,7 @@ author:
   name: reinvanim
   url: https://news.ycombinator.com/item?id=40225627
 ---
-Brightbook | education.brightbook.io | Full-time | Bruges, Belgium | Software Engineer | onsite&#x2F;remote
+Brightbook - education.brightbook.io - Full-time - Bruges, Belgium - Software Engineer - onsite&#x2F;remote
 
 * Who are we? *
 

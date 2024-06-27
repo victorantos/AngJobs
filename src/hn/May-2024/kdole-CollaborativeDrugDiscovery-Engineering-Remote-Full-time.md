@@ -4,7 +4,7 @@ author:
   name: kdole
   url: https://news.ycombinator.com/item?id=40230432
 ---
-Collaborative Drug Discovery | Engineering | Remote | Full-time
+Collaborative Drug Discovery - Engineering - Remote - Full-time
 
 We provide a hosted scientific data management system that helps researchers organize, collaborate, and make discoveries faster. Our customers include pharmas, biotechs, and academic labs. We are profitable, loved by our customers[1], and growing.
 

@@ -4,7 +4,7 @@ author:
   name: ddp26
   url: https://news.ycombinator.com/item?id=39901030
 ---
-FutureSearch (<a href="https:&#x2F;&#x2F;futuresearch.ai" rel="nofollow">https:&#x2F;&#x2F;futuresearch.ai</a>) | Full Remote | Full-Stack Eng &#x2F; Research Eng &#x2F; Research Scientist
+FutureSearch (<a href="https:&#x2F;&#x2F;futuresearch.ai" rel="nofollow">https:&#x2F;&#x2F;futuresearch.ai</a>) - Full Remote - Full-Stack Eng &#x2F; Research Eng &#x2F; Research Scientist
 
 FutureSearch gives unbiased, deeply-researched answers to hard questions about the world, and always gives a concrete answer.
 

@@ -4,7 +4,7 @@ author:
   name: joshspruce
   url: https://news.ycombinator.com/item?id=40226104
 ---
-Spruce | <a href="https:&#x2F;&#x2F;spruce.eco" rel="nofollow">https:&#x2F;&#x2F;spruce.eco</a> | Full Stack Developer | London&#x2F;Bristol based | Hybrid (UK only) | Full Time
+Spruce - <a href="https:&#x2F;&#x2F;spruce.eco" rel="nofollow">https:&#x2F;&#x2F;spruce.eco</a> - Full Stack Developer - London&#x2F;Bristol based - Hybrid (UK only) - Full Time
 
 We’re on the hunt for a phenomenal Full Stack Developer who’s pumped to help drive the transition away from fossil fuel heating in homes.
 

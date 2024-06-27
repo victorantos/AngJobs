@@ -4,7 +4,7 @@ author:
   name: adam-tecton
   url: https://news.ycombinator.com/item?id=40574574
 ---
-Tecton | <a href="https:&#x2F;&#x2F;tecton.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;tecton.ai&#x2F;</a> | Various roles | Remote (Americas), or Hybrid (San Francisco&#x2F;New York City) | Full-time
+Tecton - <a href="https:&#x2F;&#x2F;tecton.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;tecton.ai&#x2F;</a> - Various roles - Remote (Americas), or Hybrid (San Francisco&#x2F;New York City) - Full-time
 
 * About us *
 
@@ -28,4 +28,4 @@ Some of the challenges our Software Engineering team is tackling now include:
 
 - Taking on production challenges for embeddings to power predictive and generative AI: <a href="https:&#x2F;&#x2F;www.tecton.ai&#x2F;blog&#x2F;productionizing-embeddings-challenges-and-a-path-forward&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.tecton.ai&#x2F;blog&#x2F;productionizing-embeddings-challe...</a>
 
-* Find our open roles at: <a href="https:&#x2F;&#x2F;www.tecton.ai&#x2F;careers&#x2F;openings&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.tecton.ai&#x2F;careers&#x2F;openings&#x2F;</a> *
+Find our open roles at: <a href="https:&#x2F;&#x2F;www.tecton.ai&#x2F;careers&#x2F;openings&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.tecton.ai&#x2F;careers&#x2F;openings&#x2F;</a>

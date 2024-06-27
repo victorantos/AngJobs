@@ -4,7 +4,7 @@ author:
   name: joshstrange
   url: https://news.ycombinator.com/item?id=40225047
 ---
-Touchpoint | Senior Typescript&#x2F;PHP | Full-time | Remote USA
+Touchpoint - Senior Typescript&#x2F;PHP - Full-time - Remote USA
 
 Touchpoint is transforming the restaurant industry for brands, staff, and guests. WIth a single platform approach (in contrast to the never-ending integration hamster-wheel of the incumbents) Touchpoint delivers value at every interaction. Included natively in our platform are an in-store POS, mobile ordering app, gift card and payment processing, the most successful loyalty system in the industry, direct marketing, data analytics, and business intelligence.
 

@@ -4,7 +4,7 @@ author:
   name: montenegrohugo
   url: https://news.ycombinator.com/item?id=39903506
 ---
-Peanut Protocol | Senior Backend&#x2F;Full Stack Engineer | FULLY REMOTE (Europe) | <a href="https:&#x2F;&#x2F;peanut.to" rel="nofollow">https:&#x2F;&#x2F;peanut.to</a>
+Peanut Protocol - Senior Backend&#x2F;Full Stack Engineer - FULLY REMOTE (Europe) - <a href="https:&#x2F;&#x2F;peanut.to" rel="nofollow">https:&#x2F;&#x2F;peanut.to</a>
 
 We&#x27;re a pretty early stage startup in crypto. We make payments easier. We love an aligned team, good vibes, and shipping well. High equity &amp; token comp if you want it (we&#x27;d love that).
 

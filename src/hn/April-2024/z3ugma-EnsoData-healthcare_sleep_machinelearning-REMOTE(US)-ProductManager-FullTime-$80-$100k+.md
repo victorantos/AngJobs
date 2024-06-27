@@ -4,7 +4,7 @@ author:
   name: z3ugma
   url: https://news.ycombinator.com/item?id=39901549
 ---
-EnsoData | healthcare, sleep, machine learning | REMOTE (US) | Product Manager | Full Time | $80-$100k+ | <a href="https:&#x2F;&#x2F;apply.workable.com&#x2F;ensodata&#x2F;" rel="nofollow">https:&#x2F;&#x2F;apply.workable.com&#x2F;ensodata&#x2F;</a>
+EnsoData - healthcare, sleep, machine learning - REMOTE (US) - Product Manager - Full Time - $80-$100k+ - <a href="https:&#x2F;&#x2F;apply.workable.com&#x2F;ensodata&#x2F;" rel="nofollow">https:&#x2F;&#x2F;apply.workable.com&#x2F;ensodata&#x2F;</a>
 * Sleep is vital to recharging mentally, restoring our bodies physically, and fighting off disease. Sleep is so core to our health that it&#x27;s the activity we all spend most of our life doing.
 
 * Yet sleep disorders are some of the most underdiagnosed health conditions on the planet, with an estimated 80% of obstructive sleep apnea patients undiagnosed and untreated

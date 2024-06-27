@@ -4,7 +4,7 @@ author:
   name: sergc
   url: https://news.ycombinator.com/item?id=38846848
 ---
-ID.me | Remote - Anywhere Continental US | Full-Time | SDE III, SDE IV, SDE V, SDM-III | No Visa Sponsorship
+ID.me - Remote - Anywhere Continental US - Full-Time - SDE III, SDE IV, SDE V, SDM-III - No Visa Sponsorship
 
 ID.me simplifies how people securely prove and share their identity online. The company empowers people to control their data through a portable and trusted login, which means they don’t need to create a new password when visiting sites that have the ID.me button.
 

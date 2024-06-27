@@ -4,7 +4,7 @@ author:
   name: whummer
   url: https://news.ycombinator.com/item?id=39964175
 ---
-LocalStack | Multiple Roles | REMOTE | Full-Time
+LocalStack - Multiple Roles - REMOTE - Full-Time
 
 LocalStack (52k+ Github stars, 220M+ Docker pulls, growing global customer base) is on a mission to build the world&#x27;s leading dev platform for local cloud development, team collaboration, and CI analytics. We are looking for top-notch engineers, GTM leaders, and cloud&#x2F;DevOps enthusiasts to get on board and join us in this exciting journey!
 

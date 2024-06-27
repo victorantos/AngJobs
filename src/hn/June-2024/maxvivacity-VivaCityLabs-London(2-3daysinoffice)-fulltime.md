@@ -4,7 +4,7 @@ author:
   name: maxvivacity
   url: https://news.ycombinator.com/item?id=40572244
 ---
-VivaCity Labs | Infrastructure Engineer (DBA &#x2F; Postgres) | London (2-3 days in office) | full time | <a href="https:&#x2F;&#x2F;vivacitylabs.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;vivacitylabs.com&#x2F;</a>
+VivaCity Labs - Infrastructure Engineer (DBA &#x2F; Postgres) - London (2-3 days in office) - full time - <a href="https:&#x2F;&#x2F;vivacitylabs.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;vivacitylabs.com&#x2F;</a>
 
 At VivaCity, we make cities smarter, safer, and more sustainable. We have over 5,000 AI sensors around the world, gathering real-time anonymous data on transport modes, traffic flow, and travel patterns. This is used to gather actionable insights to support strategic decisions to improve the global transport network.
 

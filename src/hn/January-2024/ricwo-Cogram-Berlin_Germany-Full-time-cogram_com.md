@@ -4,7 +4,7 @@ author:
   name: ricwo
   url: https://news.ycombinator.com/item?id=38869074
 ---
-Cogram | Berlin, Germany | Full-time | Remote (CET +&#x2F;- 3 hours) or Onsite | cogram.com | B2B SaaS &#x2F; AI
+Cogram - Berlin, Germany - Full-time - Remote (CET +&#x2F;- 3 hours) or Onsite - cogram.com - B2B SaaS &#x2F; AI
 
 We&#x27;re building a productivity platform that automates work by deeply integrating AI language models with team communications. We went through YC (W22), are well-funded, and have a growing customer base focused on the enterprise market. We’re a small, technical, remote-first team.
 

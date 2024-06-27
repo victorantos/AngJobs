@@ -4,7 +4,7 @@ author:
   name: h0h0h0h0111
   url: https://news.ycombinator.com/item?id=39367980
 ---
-Randamu | Solidity Engineer | 100% Remote | $200k
+Randamu - Solidity Engineer - 100% Remote - $200k
 
 Randamu is a well-funded startup building novel network infrastructure using threshold cryptography.
 We steward the drand open source project¹, a randomness beacon that serves hundreds of millions of requests per month.

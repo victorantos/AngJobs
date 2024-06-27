@@ -4,7 +4,7 @@ author:
   name: tydunn
   url: https://news.ycombinator.com/item?id=39224610
 ---
-Continue (YC S23) | Founding Engineer | ONSITE | Full-time | San Francisco | $130-$170K + 1-2% Equity
+Continue (YC S23) - Founding Engineer - ONSITE - Full-time - San Francisco - $130-$170K + 1-2% Equity
 
 At Continue, we are on a mission to make building software feel like making music. We are creating the open-source autopilot for VS Code and JetBrains——the easiest way to code with any LLM (<a href="https:&#x2F;&#x2F;github.com&#x2F;continuedev&#x2F;continue">https:&#x2F;&#x2F;github.com&#x2F;continuedev&#x2F;continue</a>).
 

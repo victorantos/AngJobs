@@ -4,7 +4,7 @@ author:
   name: SarahDeleteMe
   url: https://news.ycombinator.com/item?id=39221621
 ---
-DeleteMe - the online privacy company | WFH REMOTE| Full Time|
+DeleteMe - the online privacy company - WFH REMOTE- Full Time-
 HIRING SOFTWARE ENGINEERS <a href="https:&#x2F;&#x2F;www.abine.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.abine.com&#x2F;</a> and <a href="https:&#x2F;&#x2F;joindeleteme.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;joindeleteme.com&#x2F;</a>
 
 We are a growing profitable company focused on better, easier, online privacy. DeleteMe is a service for removing private information from many data broker sites that list and sell consumers personal profile data.

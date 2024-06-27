@@ -4,7 +4,7 @@ author:
   name: meganzimmerman
   url: https://news.ycombinator.com/item?id=38846501
 ---
-Near Earth Autonomy| Senior DevOps Engineer | Contract w&#x2F; Contract to Hire Potential | Remote w&#x2F; Travel Required | Pittsburgh, PA
+Near Earth Autonomy- Senior DevOps Engineer - Contract w&#x2F; Contract to Hire Potential - Remote w&#x2F; Travel Required - Pittsburgh, PA
 
 <a href="https:&#x2F;&#x2F;www.nearearth.aero&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.nearearth.aero&#x2F;</a>
 

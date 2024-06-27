@@ -4,7 +4,7 @@ author:
   name: esafak
   url: https://news.ycombinator.com/item?id=39567515
 ---
-Archipelago AI (<a href="https:&#x2F;&#x2F;archipelago-ai.com" rel="nofollow">https:&#x2F;&#x2F;archipelago-ai.com</a>) | Infrastructure (SRE&#x2F;Platform) and Backend Engineer | Part&#x2F;Full-time | Remote
+Archipelago AI (<a href="https:&#x2F;&#x2F;archipelago-ai.com" rel="nofollow">https:&#x2F;&#x2F;archipelago-ai.com</a>) - Infrastructure (SRE&#x2F;Platform) and Backend Engineer - Part&#x2F;Full-time - Remote
 
 Our company is dedicated to improving distributed work through better communication tools. More productive, and more conducive to forming the social ties that we associate with face-to-face interaction.
 

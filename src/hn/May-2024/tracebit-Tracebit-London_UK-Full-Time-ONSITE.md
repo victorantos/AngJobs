@@ -4,7 +4,7 @@ author:
   name: tracebit
   url: https://news.ycombinator.com/item?id=40226120
 ---
-Tracebit | London, UK | Full-Time | ONSITE
+Tracebit - London, UK - Full-Time - ONSITE
 
 Founding Engineer | £70-100k + equity
 

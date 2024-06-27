@@ -4,7 +4,7 @@ author:
   name: EthanSutin
   url: https://news.ycombinator.com/item?id=40565745
 ---
-Bee | Product Engineers, AI Engineers | San Francisco&#x2F;Hybrid Remote
+Bee - Product Engineers, AI Engineers - San Francisco&#x2F;Hybrid Remote
 
 Bee is a personal AI companion that enhances your daily life by understanding your needs and assisting with tasks.
 

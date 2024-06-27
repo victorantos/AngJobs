@@ -4,7 +4,7 @@ author:
   name: benjiweber
   url: https://news.ycombinator.com/item?id=39566023
 ---
-Mindgard | London | Onsite | Full-time
+Mindgard - London - Onsite - Full-time
 
 Mindgard is a London-based startup specializing in AI security.
 

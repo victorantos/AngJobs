@@ -4,7 +4,7 @@ author:
   name: mglidden11
   url: https://news.ycombinator.com/item?id=39899988
 ---
-Tulip | <a href="https:&#x2F;&#x2F;tulip.co&#x2F;eng" rel="nofollow">https:&#x2F;&#x2F;tulip.co&#x2F;eng</a> | Boston, MA, Munich, Germany, and Budapest, Hungary | Full time | Onsite
+Tulip - <a href="https:&#x2F;&#x2F;tulip.co&#x2F;eng" rel="nofollow">https:&#x2F;&#x2F;tulip.co&#x2F;eng</a> - Boston, MA, Munich, Germany, and Budapest, Hungary - Full time - Onsite
 
 Tulip is transforming manufacturing. Our customers use Tulip to create apps without code and to connect their apps to machines, sensors and smart tools. Each process is different, and every shop floor is filled with exciting challenges, technological and otherwise. Tulip’s no-code app editor lets customers build custom apps to their specific use case. You’ll contribute to software used to make gigantic CNC mills, high-end pharmaceuticals, jewelry, PCBs, and more.
 

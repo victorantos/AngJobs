@@ -4,7 +4,7 @@ author:
   name: zynker
   url: https://news.ycombinator.com/item?id=39221702
 ---
-RUST | REMOTE, WORLDWIDE | FULL-TIME
+RUST - REMOTE, WORLDWIDE - FULL-TIME
 
 Zynk is building a totally new, all-platform file transfer application that is going to do things right - and will be a breath of fresh air in this crazy world of colossal cloud-powered inefficiency (HN Launch pending).
 

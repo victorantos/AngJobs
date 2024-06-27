@@ -4,7 +4,7 @@ author:
   name: amd-ken
   url: https://news.ycombinator.com/item?id=40653974
 ---
-AMD | Linux Software Build Engineer | Toronto, Canada | REMOTE | Full Time
+AMD - Linux Software Build Engineer - Toronto, Canada - REMOTE - Full Time
 
 <a href="https:&#x2F;&#x2F;careers.amd.com&#x2F;careers-home&#x2F;jobs&#x2F;49002?lang=en-us" rel="nofollow">https:&#x2F;&#x2F;careers.amd.com&#x2F;careers-home&#x2F;jobs&#x2F;49002?lang=en-us</a>
 

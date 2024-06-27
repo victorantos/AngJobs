@@ -4,7 +4,7 @@ author:
   name: jaybaxter
   url: https://news.ycombinator.com/item?id=40568116
 ---
-X | Machine Learning Engineer - Community Notes | SF, SJ, Seattle, LA, NYC | All Levels
+X - Machine Learning Engineer - Community Notes - SF, SJ, Seattle, LA, NYC - All Levels
 
 The role: build scalable production machine learning systems and infrastructure, and improve our open source algorithm: <a href="https:&#x2F;&#x2F;github.com&#x2F;twitter&#x2F;communitynotes">https:&#x2F;&#x2F;github.com&#x2F;twitter&#x2F;communitynotes</a>
 

@@ -4,7 +4,7 @@ author:
   name: brianr
   url: https://news.ycombinator.com/item?id=39563375
 ---
-Rollbar | <a href="https:&#x2F;&#x2F;rollbar.com" rel="nofollow">https:&#x2F;&#x2F;rollbar.com</a> | Budapest, remote Europe | Senior Software Engineer, Full-stack
+Rollbar - <a href="https:&#x2F;&#x2F;rollbar.com" rel="nofollow">https:&#x2F;&#x2F;rollbar.com</a> - Budapest, remote Europe - Senior Software Engineer, Full-stack
 
 About Rollbar:
 

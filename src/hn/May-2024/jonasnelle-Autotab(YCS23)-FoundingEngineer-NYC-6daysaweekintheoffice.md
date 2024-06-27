@@ -4,7 +4,7 @@ author:
   name: jonasnelle
   url: https://news.ycombinator.com/item?id=40225546
 ---
-Autotab (YC S23) | Founding Engineer | NYC | 6 days a week in the office
+Autotab (YC S23) - Founding Engineer - NYC - 6 days a week in the office
 
 If AGI is going to 100x GDP, it will need to be able to use a computer.
 

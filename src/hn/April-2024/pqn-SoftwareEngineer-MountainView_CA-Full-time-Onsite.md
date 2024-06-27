@@ -4,7 +4,7 @@ author:
   name: pqn
   url: https://news.ycombinator.com/item?id=39901529
 ---
-Codeium (<a href="https:&#x2F;&#x2F;codeium.com" rel="nofollow">https:&#x2F;&#x2F;codeium.com</a>) | Software Engineer | Mountain View, CA | Full-time | Onsite
+Codeium (<a href="https:&#x2F;&#x2F;codeium.com" rel="nofollow">https:&#x2F;&#x2F;codeium.com</a>) - Software Engineer - Mountain View, CA - Full-time - Onsite
 
 We&#x27;re working on AI tools for developers (autocomplete, chat, and more unannounced things). We train our own LLMs from scratch and have over 1M downloads across our surfaces. We have many paying enterprise customers and have raised a total of $93M from Kleiner Perkins, Greenoaks, and Founders Fund.
 

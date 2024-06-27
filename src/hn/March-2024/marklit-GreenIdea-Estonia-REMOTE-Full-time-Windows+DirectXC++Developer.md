@@ -4,7 +4,7 @@ author:
   name: marklit
   url: https://news.ycombinator.com/item?id=39569884
 ---
-Green Idea | Estonia | REMOTE | Full-time | Windows + DirectX C++ Developer
+Green Idea - Estonia - REMOTE - Full-time - Windows + DirectX C++ Developer
 
 I&#x27;m looking for a C++ developer to build Geospatial &#x2F; GIS visualisation and editing tools for Windows. These will work in both 2D and 3D. These will act more like desktop applications like AutoCAD and 3D Studio Max rather than full-screen video game applications.
 

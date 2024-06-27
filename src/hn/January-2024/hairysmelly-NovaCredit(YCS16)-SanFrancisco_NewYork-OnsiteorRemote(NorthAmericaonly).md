@@ -4,7 +4,7 @@ author:
   name: hairysmelly
   url: https://news.ycombinator.com/item?id=38860364
 ---
-Nova Credit (YC S16) | San Francisco, New York | Onsite or Remote (North America only) | <a href="https:&#x2F;&#x2F;www.novacredit.com" rel="nofollow">https:&#x2F;&#x2F;www.novacredit.com</a>
+Nova Credit (YC S16) - San Francisco, New York - Onsite or Remote (North America only) - <a href="https:&#x2F;&#x2F;www.novacredit.com" rel="nofollow">https:&#x2F;&#x2F;www.novacredit.com</a>
 
 At Nova Credit, our mission is to power a more fair and inclusive financial system for the world. If you have no credit, it can take years to build that up, even if your financial situation shows that you have the ability to take on risks. In the US, that accounts for almost 20% of the adult population, including 11%, which are completely “credit invisible.” This directly affects this population’s ability to qualify for student loans, apartment leases, car financing, and anything else requiring a credit score.
 

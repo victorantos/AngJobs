@@ -4,7 +4,7 @@ author:
   name: niyaven
   url: https://news.ycombinator.com/item?id=39903828
 ---
-Djamo | Software Engineer | Remote (EU &#x2F; Africa timezone), or Hybrid | Full-time | <a href="https:&#x2F;&#x2F;careers.djamo.com&#x2F;">https:&#x2F;&#x2F;careers.djamo.com&#x2F;</a>
+Djamo - Software Engineer - Remote (EU &#x2F; Africa timezone), or Hybrid - Full-time - <a href="https:&#x2F;&#x2F;careers.djamo.com&#x2F;">https:&#x2F;&#x2F;careers.djamo.com&#x2F;</a>
 
 I&#x27;m VP of engineering at Djamo and we&#x27;re looking for talented people at Djamo. We are building the neobank for 210 millions people in Subsaharan Africa.
 

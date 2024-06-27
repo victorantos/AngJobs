@@ -4,7 +4,7 @@ author:
   name: rwparris2
   url: https://news.ycombinator.com/item?id=39896513
 ---
-Rygen | Senior Software Engineer | Greenville, SC | Onsite | rygen.com
+Rygen - Senior Software Engineer - Greenville, SC - Onsite - rygen.com
 
 Rygen designs and builds technology solutions to empower the logistics industry. Shippers, carriers, vendors, and 3PLs that join Rygen are able to eliminate painful tasks like shipment tracking, contract management, invoice payments, and other tedious tasks, allowing them to focus on the core parts of their business.
 

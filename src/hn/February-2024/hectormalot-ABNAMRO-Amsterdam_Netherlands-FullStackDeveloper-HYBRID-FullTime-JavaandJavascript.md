@@ -4,7 +4,7 @@ author:
   name: hectormalot
   url: https://news.ycombinator.com/item?id=39294380
 ---
-ABN AMRO | Amsterdam, Netherlands | Full Stack Developer | HYBRID | Full Time | Java and Javascript
+ABN AMRO - Amsterdam, Netherlands - Full Stack Developer - HYBRID - Full Time - Java and Javascript
 
 We&#x27;re looking for full stack developers with experience in Javascript (VueJS) and Java (Spring Boot). The Innovation Engineering department works on new products and supports new technology roll-out across the bank. GenAI roll-out is also one of our responsibilities (for which we require Python).
 

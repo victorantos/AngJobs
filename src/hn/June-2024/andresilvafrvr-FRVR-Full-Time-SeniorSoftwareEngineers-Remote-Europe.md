@@ -4,7 +4,7 @@ author:
   name: andresilvafrvr
   url: https://news.ycombinator.com/item?id=40563867
 ---
-FRVR | Full-Time | Senior Software Engineers | Remote-Europe
+FRVR - Full-Time - Senior Software Engineers - Remote-Europe
 
 FRVR is an instant gaming distribution platform and we fundamentally believe that everyone deserves easy access to fun entertainment. We are redefining game distribution as the world leader in building successful game channels beyond the app stores. Our mission is to democratize game distribution by delivering great games for everyone, everywhere.
 

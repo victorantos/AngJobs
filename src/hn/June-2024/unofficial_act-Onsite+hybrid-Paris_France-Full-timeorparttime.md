@@ -4,7 +4,7 @@ author:
   name: unofficial_act
   url: https://news.ycombinator.com/item?id=40572031
 ---
-Cour des comptes (<a href="https:&#x2F;&#x2F;www.ccomptes.fr&#x2F;fr" rel="nofollow">https:&#x2F;&#x2F;www.ccomptes.fr&#x2F;fr</a>) | Onsite + hybrid | Paris, France | Full-time or part time
+Cour des comptes (<a href="https:&#x2F;&#x2F;www.ccomptes.fr&#x2F;fr" rel="nofollow">https:&#x2F;&#x2F;www.ccomptes.fr&#x2F;fr</a>) - Onsite + hybrid - Paris, France - Full-time or part time
 
 The Cour des Comptes is the supreme body for auditing the use of public funds in France. It is independent from the Government and Parliament. It has financial jurisdiction and is in charge of auditing, issuing rulings and certifying the State and Social Security accounts, as well as contributing to the evaluation of public policies.
 

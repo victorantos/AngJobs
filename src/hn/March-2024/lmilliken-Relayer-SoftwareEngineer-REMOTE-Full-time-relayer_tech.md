@@ -4,7 +4,7 @@ author:
   name: lmilliken
   url: https://news.ycombinator.com/item?id=39563429
 ---
-Relayer | Software Engineer | REMOTE | Full-time | relayer.tech
+Relayer - Software Engineer - REMOTE - Full-time - relayer.tech
 
 At Relayer we’re working to build ad infrastructure for publishers. You’ll be directly responsible for building our products alongside our CTO and be a key player in our success. We’re an early stage company working alongside exciting partners to improve how users are connected to rewarding experiences. The technical challenges span many areas including large scale data processing, statistical methods, and live auction dynamics. We work remotely, but do expect you to have your working hours significantly overlap with the Pacific Time Zone (at least 5 hours).
 

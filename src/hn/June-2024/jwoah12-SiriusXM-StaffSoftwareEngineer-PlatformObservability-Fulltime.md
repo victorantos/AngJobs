@@ -4,7 +4,7 @@ author:
   name: jwoah12
   url: https://news.ycombinator.com/item?id=40569157
 ---
-SiriusXM | Staff Software Engineer - Platform Observability | Full time | Hybrid: Onsite 2 days&#x2F;week at any US office (NYC, Oakland, Atlanta, etc.)
+SiriusXM - Staff Software Engineer - Platform Observability - Full time - Hybrid: Onsite 2 days&#x2F;week at any US office (NYC, Oakland, Atlanta, etc.)
 
 We’re looking for a Staff SWE to help design and build out the observability and incident management platform for the production software underpinning SiriusXM and Pandora. This role is part of the wider Platform Engineering org, a product-minded organization with thousands of internal customers.
 

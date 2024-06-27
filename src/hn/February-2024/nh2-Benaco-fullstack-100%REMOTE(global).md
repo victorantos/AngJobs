@@ -4,7 +4,7 @@ author:
   name: nh2
   url: https://news.ycombinator.com/item?id=39219307
 ---
-Benaco | full stack | 100% REMOTE (global) | <a href="https:&#x2F;&#x2F;benaco.com" rel="nofollow">https:&#x2F;&#x2F;benaco.com</a>
+Benaco - full stack - 100% REMOTE (global) - <a href="https:&#x2F;&#x2F;benaco.com" rel="nofollow">https:&#x2F;&#x2F;benaco.com</a>
 
 Founder-owned, bootstrapped Computer Vision startup.
 

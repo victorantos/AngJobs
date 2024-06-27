@@ -4,7 +4,7 @@ author:
   name: olivtassinari
   url: https://news.ycombinator.com/item?id=38843377
 ---
-MUI | Remote UTC-6 to +5 | Multiple roles | Full time | <a href="https:&#x2F;&#x2F;mui.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;mui.com&#x2F;</a>
+MUI - Remote UTC-6 to +5 - Multiple roles - Full time - <a href="https:&#x2F;&#x2F;mui.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;mui.com&#x2F;</a>
 
 I&#x27;m a co-founder and the CEO of MUI. Our objective in the short term is to become the UI toolkit for React, unifying the fragmented ecosystem of dependencies into a single set of simple, beautiful, consistent, and accessible React components. In the longer term, our goal is to make building great web UIs quicker, simpler, and accessible to more people through a low-code platform for developers.
 

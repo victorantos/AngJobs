@@ -4,7 +4,7 @@ author:
   name: grylance
   url: https://news.ycombinator.com/item?id=39904069
 ---
-Boiler Room | Lead Full Stack Developer | London, UK | full-time | hybrid &#x2F; on-site | <a href="https:&#x2F;&#x2F;boilerroom.tv&#x2F;" rel="nofollow">https:&#x2F;&#x2F;boilerroom.tv&#x2F;</a> | No VISA sponsorship
+Boiler Room - Lead Full Stack Developer - London, UK - full-time - hybrid &#x2F; on-site - <a href="https:&#x2F;&#x2F;boilerroom.tv&#x2F;" rel="nofollow">https:&#x2F;&#x2F;boilerroom.tv&#x2F;</a> - No VISA sponsorship
 
 Boiler Room is an underground music platform. We’re looking for an experienced lead to join us &amp; manage a small team of developers within our product team.
 

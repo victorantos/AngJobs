@@ -4,7 +4,7 @@ author:
   name: irreverentmike
   url: https://news.ycombinator.com/item?id=38856714
 ---
-Craftwork | Rails Full-Stack Engineer | Charlotte, NC, USA &#x2F; North America Remote | Full-time | <a href="https:&#x2F;&#x2F;craftwork.com">https:&#x2F;&#x2F;craftwork.com</a>
+Craftwork - Rails Full-Stack Engineer - Charlotte, NC, USA &#x2F; North America Remote - Full-time - <a href="https:&#x2F;&#x2F;craftwork.com">https:&#x2F;&#x2F;craftwork.com</a>
 
 Craftwork (YC S23) is a full-service home painting company that uses software to dramatically improve the homeowner and operators experience. We’re starting with the $20B+ home painting industry as a low-risk, high margin entry point before expanding to support the broader $500B+ home services market.
 

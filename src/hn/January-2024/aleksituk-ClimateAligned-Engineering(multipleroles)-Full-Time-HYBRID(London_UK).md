@@ -4,7 +4,7 @@ author:
   name: aleksituk
   url: https://news.ycombinator.com/item?id=38852118
 ---
-ClimateAligned | Engineering (multiple roles) | Full-Time | HYBRID (London, UK) | <a href="http:&#x2F;&#x2F;climatealigned.co" rel="nofollow">http:&#x2F;&#x2F;climatealigned.co</a>
+ClimateAligned - Engineering (multiple roles) - Full-Time - HYBRID (London, UK) - <a href="http:&#x2F;&#x2F;climatealigned.co" rel="nofollow">http:&#x2F;&#x2F;climatealigned.co</a>
 
 <a href="https:&#x2F;&#x2F;tinyurl.com&#x2F;ClimateAlignedCareers" rel="nofollow">https:&#x2F;&#x2F;tinyurl.com&#x2F;ClimateAlignedCareers</a>
 

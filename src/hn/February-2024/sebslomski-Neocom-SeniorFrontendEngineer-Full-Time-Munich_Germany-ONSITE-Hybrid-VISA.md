@@ -4,7 +4,7 @@ author:
   name: sebslomski
   url: https://news.ycombinator.com/item?id=39226426
 ---
-Neocom | Senior Frontend Engineer | Full-Time | Munich, Germany | ONSITE | Hybrid | VISA
+Neocom - Senior Frontend Engineer - Full-Time - Munich, Germany - ONSITE - Hybrid - VISA
 
 At Neocom, we empower every company to understand their prospects and turn them into delighted customers.
 With our guided product advisors, we eliminate choice overload and use zero-party data to deliver profound customer insights to our clients.

@@ -4,7 +4,7 @@ author:
   name: zerojames
   url: https://news.ycombinator.com/item?id=39217326
 ---
-Roboflow | Open Source Software Engineer, Web Designer &#x2F; Developer, and more. | Full-time (Remote, SF, NYC) | <a href="https:&#x2F;&#x2F;roboflow.com&#x2F;careers?ref=whoishiring0224">https:&#x2F;&#x2F;roboflow.com&#x2F;careers?ref=whoishiring0224</a>
+Roboflow - Open Source Software Engineer, Web Designer &#x2F; Developer, and more. - Full-time (Remote, SF, NYC) - <a href="https:&#x2F;&#x2F;roboflow.com&#x2F;careers?ref=whoishiring0224">https:&#x2F;&#x2F;roboflow.com&#x2F;careers?ref=whoishiring0224</a>
 
 Roboflow is the fastest way to use computer vision in production. We help developers give their software the sense of sight. Our end-to-end platform[1] provides tooling for image collection, annotation, dataset exploration and curation, training, and deployment.
 

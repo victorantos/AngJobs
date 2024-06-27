@@ -4,7 +4,7 @@ author:
   name: samier-trellis
   url: https://news.ycombinator.com/item?id=39563519
 ---
-Trellis -- AI&#x2F;ML Engineer | Remote | trellis.law
+Trellis -- AI&#x2F;ML Engineer - Remote - trellis.law
 
 We are looking for a senior&#x2F;staff ML person to join our data science and machine learning team. The kinds of things we envision this hire doing:
 

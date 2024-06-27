@@ -4,7 +4,7 @@ author:
   name: cientifico
   url: https://news.ycombinator.com/item?id=40227146
 ---
-Justwatch | Golang eng | Berlin (min 2days in office) | full time
+Justwatch - Golang eng - Berlin (min 2days in office) - full time
 
 Hi. I am Guillermo, backend developer of StreamingGuide. We try to make justwatch.com the best streaming guide worldwide.
 

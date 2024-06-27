@@ -4,7 +4,7 @@ author:
   name: subblue
   url: https://news.ycombinator.com/item?id=39565172
 ---
-KPV LAB Edinburgh | Front-end Engineers | Full-time | Edinburgh, UK | Hybrid 3 days onsite
+KPV LAB Edinburgh - Front-end Engineers - Full-time - Edinburgh, UK - Hybrid 3 days onsite
 
 At KPV LAB we are creating new visually stunning and meaningful ways to explore and present information.
 

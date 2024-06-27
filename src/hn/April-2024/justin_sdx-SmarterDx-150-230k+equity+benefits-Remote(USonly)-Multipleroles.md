@@ -4,7 +4,7 @@ author:
   name: justin_sdx
   url: https://news.ycombinator.com/item?id=39895325
 ---
-SmarterDx | 150-230k + equity + benefits | Remote (US only) | Multiple roles | <a href="https:&#x2F;&#x2F;smarterdx.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;smarterdx.com&#x2F;careers</a>
+SmarterDx - 150-230k + equity + benefits - Remote (US only) - Multiple roles - <a href="https:&#x2F;&#x2F;smarterdx.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;smarterdx.com&#x2F;careers</a>
 
 We are an early stage health tech company using AI to improve hospital revenue cycle (making healthcare costs lower and allowing doctors to focus on patient care). The team is small but high functioning (MD + data scientist combos, former ASF board member, Google and Amazon engineers, Stanford LLM researchers, etc.) and initially scaled the company to $1MM+ in contracted revenue without raising capital.
 

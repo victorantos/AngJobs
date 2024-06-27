@@ -4,7 +4,7 @@ author:
   name: Redeker_15_Beep
   url: https://news.ycombinator.com/item?id=39217352
 ---
-Temporal Technologies | Multiple positions in United States - WORK FROM HOME | FULL-TIME |
+Temporal Technologies - Multiple positions in United States - WORK FROM HOME - FULL-TIME -
 
 Temporal offers an entirely new way to build scalable and reliable applications. Temporal enables developers to focus on writing important business logic, and not on managing state or worrying about the underlying infrastructure. Sequoia Capital led our last round of funding and our team has experience from start-ups and larger companies like Microsoft, Google, Amazon, Uber, and more.
 

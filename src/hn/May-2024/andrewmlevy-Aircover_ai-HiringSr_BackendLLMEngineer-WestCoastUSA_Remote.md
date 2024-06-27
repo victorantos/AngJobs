@@ -4,7 +4,7 @@ author:
   name: andrewmlevy
   url: https://news.ycombinator.com/item?id=40228577
 ---
-Aircover.ai | Hiring Sr. Backend LLM Engineer | West Coast USA, Remote
+Aircover.ai - Hiring Sr. Backend LLM Engineer - West Coast USA, Remote
 
 - We&#x27;re building the future of human-to-human conversation
 

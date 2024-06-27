@@ -4,7 +4,7 @@ author:
   name: phillytom
   url: https://news.ycombinator.com/item?id=40226665
 ---
-SpotHero | ONSITE (Hybrid-schedule) in Chicago or Toronto | Full Time
+SpotHero - ONSITE (Hybrid-schedule) in Chicago or Toronto - Full Time
 
 SpotHero is the leading marketplace for parking reservations. We help drivers easily reserve parking for commuting, events, or any reason they are out and about.
 

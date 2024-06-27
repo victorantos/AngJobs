@@ -4,7 +4,7 @@ author:
   name: DanFau
   url: https://news.ycombinator.com/item?id=40228770
 ---
-Smappen | Toulouse, France | Remote | Full-Time | Full-Stack Engineer
+Smappen - Toulouse, France - Remote - Full-Time - Full-Stack Engineer
 
 I&#x27;m Dan, the founder of Smappen, a bootstrap location intelligence company. We assist hundreds of businesses in finding optimal locations for their operations.
 

@@ -4,7 +4,7 @@ author:
   name: lukaslezevicius
   url: https://news.ycombinator.com/item?id=39904611
 ---
-Octocom | Vilnius, Lithuania | Remote | Full-time | Full Stack Developer | Competitive Salary (Eastern&#x2F;Central Europe) + Substantial Equity
+Octocom - Vilnius, Lithuania - Remote - Full-time - Full Stack Developer - Competitive Salary (Eastern&#x2F;Central Europe) + Substantial Equity
 
 We’re an early stage startup that aims to fully automate customer support in the e-commerce sector. Our LLM-powered support agents are already resolving 80%+ of inquiries for many businesses from diverse backgrounds. Shoppers can enjoy receiving instant support, in their native language, in any channel, 24&#x2F;7, for any query imaginable.
 

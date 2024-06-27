@@ -4,7 +4,7 @@ author:
   name: continua
   url: https://news.ycombinator.com/item?id=40224459
 ---
-Continua | <a href="http:&#x2F;&#x2F;www.continua.ai" rel="nofollow">http:&#x2F;&#x2F;www.continua.ai</a>
+Continua - <a href="http:&#x2F;&#x2F;www.continua.ai" rel="nofollow">http:&#x2F;&#x2F;www.continua.ai</a>
 
 Stack: Python | GCloud | HuggingFace
 

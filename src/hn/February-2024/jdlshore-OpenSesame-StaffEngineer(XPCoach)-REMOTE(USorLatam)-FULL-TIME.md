@@ -4,7 +4,7 @@ author:
   name: jdlshore
   url: https://news.ycombinator.com/item?id=39223734
 ---
-OpenSesame | Staff Engineer (XP Coach) | REMOTE (US or Latam) | FULL-TIME | <a href="https:&#x2F;&#x2F;www.opensesame.com" rel="nofollow">https:&#x2F;&#x2F;www.opensesame.com</a>
+OpenSesame - Staff Engineer (XP Coach) - REMOTE (US or Latam) - FULL-TIME - <a href="https:&#x2F;&#x2F;www.opensesame.com" rel="nofollow">https:&#x2F;&#x2F;www.opensesame.com</a>
 
 We&#x27;re an eLearning marketplace and late-stage startup. We have about 65 engineers that are going all in on Extreme Programming (XP) and Fluid Scaling Technology (FaST). We need multiple Staff Engineers with experience in XP practices—such as test-driven development, continuous deployment, and evolutionary design—who will help improve the skills of engineers across the organization.
 

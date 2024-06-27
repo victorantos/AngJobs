@@ -4,7 +4,7 @@ author:
   name: clee_tech01
   url: https://news.ycombinator.com/item?id=39564714
 ---
-Monad Labs | Engineers | Full-Time | NYC (Preferred), or REMOTE (US&#x2F;Canada&#x2F;Europe) | <a href="https:&#x2F;&#x2F;www.monadlabs.xyz&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.monadlabs.xyz&#x2F;</a>
+Monad Labs - Engineers - Full-Time - NYC (Preferred), or REMOTE (US&#x2F;Canada&#x2F;Europe) - <a href="https:&#x2F;&#x2F;www.monadlabs.xyz&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.monadlabs.xyz&#x2F;</a>
 
 Founded by Jump Trading and MIT CS alums in 2022, Monad is building from scratch an open-source, L1 blockchain that delivers 10,000 tps - 1000x the throughput of Ethereum - while maintaining backward-compatibility for Ethereum smart contracts.
 

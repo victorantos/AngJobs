@@ -4,7 +4,7 @@ author:
   name: jakobgreenfeld
   url: https://news.ycombinator.com/item?id=38851502
 ---
-Sales.co | Account Executive | Full-time | fully remote
+Sales.co - Account Executive - Full-time - fully remote
 
 We&#x27;re a tech-enabled, data-driven lead generation agency that helps startups and SaaS companies through fully managed cold email campaigns + strategy. We are serious about automating all the boring stuff so our team can focus on tasks that require expertise and creativity. Cold email is lindy but at the same time the landscape is changing rapidly. We&#x27;re investing heavily into making sure we&#x27;re always ahead of the curve.
 

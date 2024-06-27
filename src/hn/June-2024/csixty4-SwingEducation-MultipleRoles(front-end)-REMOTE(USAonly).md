@@ -4,7 +4,7 @@ author:
   name: csixty4
   url: https://news.ycombinator.com/item?id=40580650
 ---
-Swing Education | Multiple Roles (front-end) | REMOTE (USA only)
+Swing Education - Multiple Roles (front-end) - REMOTE (USA only)
 
 We’re looking for software engineers to join our growing engineering team. You’ll partner with product management and design to architect, implement, test, iterate and maintain features that will bring unprecedented technology to the school and substitute teacher marketplace. You’ll play a key role in helping us modernize and reimagine our codebase, infrastructure, processes, and products. This role will meaningfully impact Swing Education’s mission to ensure that learning never stops in K-12 classrooms.
 

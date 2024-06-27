@@ -4,7 +4,7 @@ author:
   name: salar
   url: https://news.ycombinator.com/item?id=39221681
 ---
-MONUMENTAL | <a href="https:&#x2F;&#x2F;www.monumental.co&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.monumental.co&#x2F;</a> | Amsterdam, The Netherlands | Full Time | On-Site
+MONUMENTAL - <a href="https:&#x2F;&#x2F;www.monumental.co&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.monumental.co&#x2F;</a> - Amsterdam, The Netherlands - Full Time - On-Site
 
 We&#x27;re building autonomous on-site construction robots at Monumental, starting with bricklaying.
 

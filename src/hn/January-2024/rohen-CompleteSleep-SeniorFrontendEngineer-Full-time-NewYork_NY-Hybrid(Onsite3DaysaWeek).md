@@ -4,7 +4,7 @@ author:
   name: rohen
   url: https://news.ycombinator.com/item?id=38847574
 ---
-Complete Sleep | Senior Frontend Engineer | Full-time | New York, NY | Hybrid (Onsite 3 Days a Week) | $150-170k DOE + equity&#x2F;benefits | <a href="https:&#x2F;&#x2F;www.mycompletesleep.com" rel="nofollow">https:&#x2F;&#x2F;www.mycompletesleep.com</a>
+Complete Sleep - Senior Frontend Engineer - Full-time - New York, NY - Hybrid (Onsite 3 Days a Week) - $150-170k DOE + equity&#x2F;benefits - <a href="https:&#x2F;&#x2F;www.mycompletesleep.com" rel="nofollow">https:&#x2F;&#x2F;www.mycompletesleep.com</a>
 
 Complete Sleep is a VC-backed, seed-stage company that is changing the way sleep apnea is tested, diagnosed, and treated so that patients can quickly get the help they need. About 1 in 4 adults has sleep apnea, and 80% of those people haven&#x27;t even been diagnosed.
 

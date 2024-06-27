@@ -4,7 +4,7 @@ author:
   name: mparrott
   url: https://news.ycombinator.com/item?id=39915520
 ---
-Man Group Tech | Quant Python Engineer | London, UK | Onsite | Full Time As a Quant Developer here at Man Group you will be working hand-in-hand with our Quant Researchers. Your challenges will be varied, and will involve implementing new trading strategies, building new research frameworks and quant libraries, prototyping new data feeds, development of new portfolio construction techniques or building risk analysis tools.
+Man Group Tech - Quant Python Engineer - London, UK - Onsite - Full Time As a Quant Developer here at Man Group you will be working hand-in-hand with our Quant Researchers. Your challenges will be varied, and will involve implementing new trading strategies, building new research frameworks and quant libraries, prototyping new data feeds, development of new portfolio construction techniques or building risk analysis tools.
 Our systems are almost all running on Linux and most of our code is in Python, with the full scientific stack: numpy, scipy, pandas, scikit-learn to name a few of the libraries we use extensively. We implement the systems that require the highest data throughput in Java. For storage, we rely heavily on MongoDB and Oracle.
 
 We use Airflow for workflow management, Kafka for data pipelines, Bitbucket for source control, Jenkins for continuous integration, Grafana + Prometheus for metrics collection, ELK for log shipping and monitoring, Docker + Kubernetes for containerisation, OpenStack for our private cloud, Ansible for architecture automation, and Slack for internal communication. But our technology list is never static: we constantly evaluate new tools and libraries.

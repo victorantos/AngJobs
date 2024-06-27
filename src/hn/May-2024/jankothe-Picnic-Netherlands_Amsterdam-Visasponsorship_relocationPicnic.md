@@ -4,7 +4,7 @@ author:
   name: jankothe
   url: https://news.ycombinator.com/item?id=40283693
 ---
-Picnic | Netherlands, Amsterdam | Visa sponsorship, relocation Picnic
+Picnic - Netherlands, Amsterdam - Visa sponsorship, relocation Picnic
 
 Tech&#x27;s answer to groceries. Picnic, modern milkman delivering with a smile!
 At Picnic, we’ve been revolutionizing the way people buy their groceries since 2015 – and we’ve come a long way since then. We provide our rapidly-growing customer base with an affordable and sustainable service through cutting-edge technology, efficient planning, and a fleet of electric vehicles.

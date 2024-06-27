@@ -4,7 +4,7 @@ author:
   name: crossman
   url: https://news.ycombinator.com/item?id=39221796
 ---
-Digital Onboarding | Senior Full-stack Engineer, DevOps Engineer, DBA | REMOTE (US based) | Full time
+Digital Onboarding - Senior Full-stack Engineer, DevOps Engineer, DBA - REMOTE (US based) - Full time
 
 Digital Onboarding is a marketing automation platform that helps banks and credit unions modernize their onboarding process and develop mutually beneficial, profitable relationships with their customers and members.
 

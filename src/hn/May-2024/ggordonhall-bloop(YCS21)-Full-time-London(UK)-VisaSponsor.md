@@ -4,7 +4,7 @@ author:
   name: ggordonhall
   url: https://news.ycombinator.com/item?id=40225379
 ---
-bloop (YC S21) | AI&#x2F;ML Engineer, Compiler Engineer | Full-time | London (UK) | Visa Sponsor
+bloop (YC S21) - AI&#x2F;ML Engineer, Compiler Engineer - Full-time - London (UK) - Visa Sponsor
 
 At bloop (<a href="https:&#x2F;&#x2F;www.bloop.ai">https:&#x2F;&#x2F;www.bloop.ai</a>) we modernise legacy code, translating old languages to new(er) ones. Existing translators produce code that is unreadable, and the alternative of rewriting an old system from scratch in a new language is unfeasibly expensive for many projects. We&#x27;re developing a new approach that uses LLMs to automatically generate readable, maintainable code.
 

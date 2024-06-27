@@ -4,7 +4,7 @@ author:
   name: ryan-artera-ai
   url: https://news.ycombinator.com/item?id=39235000
 ---
-ArteraAI | Machine Learning Engineer &amp; Manager Roles | Remote (US only) | Full-time | <a href="https:&#x2F;&#x2F;artera.ai" rel="nofollow">https:&#x2F;&#x2F;artera.ai</a>
+ArteraAI - Machine Learning Engineer &amp; Manager Roles - Remote (US only) - Full-time - <a href="https:&#x2F;&#x2F;artera.ai" rel="nofollow">https:&#x2F;&#x2F;artera.ai</a>
 
 Do you work in AI and want to help cancer patients make better and more personalized healthcare choices? Join us at ArteraAI!
 

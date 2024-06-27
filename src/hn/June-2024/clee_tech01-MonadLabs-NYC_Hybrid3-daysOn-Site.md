@@ -4,7 +4,7 @@ author:
   name: clee_tech01
   url: https://news.ycombinator.com/item?id=40566954
 ---
-Monad Labs | NYC, Hybrid 3-days On-Site
+Monad Labs - NYC, Hybrid 3-days On-Site
 
 Monad Labs just raised $225M in series A funding to scale our team in bringing the Monad blockchain to production this year.
 

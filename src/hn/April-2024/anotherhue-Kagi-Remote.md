@@ -4,7 +4,7 @@ author:
   name: anotherhue
   url: https://news.ycombinator.com/item?id=39895414
 ---
-Kagi | Full &amp; Part Time | Remote | <a href="http:&#x2F;&#x2F;kagi.com" rel="nofollow">http:&#x2F;&#x2F;kagi.com</a>
+Kagi - Full &amp; Part Time - Remote - <a href="http:&#x2F;&#x2F;kagi.com" rel="nofollow">http:&#x2F;&#x2F;kagi.com</a>
 
 Kagi is building a user-centric search engine, free from ads and tracking.
 

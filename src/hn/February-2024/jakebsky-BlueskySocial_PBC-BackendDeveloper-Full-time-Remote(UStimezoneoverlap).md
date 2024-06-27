@@ -4,7 +4,7 @@ author:
   name: jakebsky
   url: https://news.ycombinator.com/item?id=39219205
 ---
-Bluesky Social, PBC | Backend Developer | Full-time | Remote (US timezone overlap)
+Bluesky Social, PBC - Backend Developer - Full-time - Remote (US timezone overlap)
 
 + Scale our existing services to millions of users
 

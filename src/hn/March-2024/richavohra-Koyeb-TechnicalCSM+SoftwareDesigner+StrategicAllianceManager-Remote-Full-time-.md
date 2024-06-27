@@ -4,7 +4,7 @@ author:
   name: richavohra
   url: https://news.ycombinator.com/item?id=39563246
 ---
-Koyeb |Technical CSM + Software Designer + Strategic Alliance Manager| Remote | Full-time |
+Koyeb -Technical CSM + Software Designer + Strategic Alliance Manager- Remote - Full-time -
 
 At Koyeb, we make developers’ lives easier with the fastest way to deploy applications globally. The Koyeb Serverless Platform is completely managed: we take code, build it into containers, and run it inside of MicroVMs distributed across multiple continents.
 We are a team of 16 product-minded people who have built a community of over 50,000 developers worldwide. We are a fully-remote distributed team and we hire all-around Europe.

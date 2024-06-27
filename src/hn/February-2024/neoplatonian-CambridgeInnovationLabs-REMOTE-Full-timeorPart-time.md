@@ -4,7 +4,7 @@ author:
   name: neoplatonian
   url: https://news.ycombinator.com/item?id=39222955
 ---
-Cambridge Innovation Labs | REMOTE | Full-time or Part-time | Employee #1-2
+Cambridge Innovation Labs - REMOTE - Full-time or Part-time - Employee #1-2
 
 We have two open spots in the founding team for a B2C edtech startup founded by Oxford and IIT Delhi grads going after a $200B market.
 

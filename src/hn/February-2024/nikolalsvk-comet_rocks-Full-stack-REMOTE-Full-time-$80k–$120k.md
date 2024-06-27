@@ -4,7 +4,7 @@ author:
   name: nikolalsvk
   url: https://news.ycombinator.com/item?id=39227004
 ---
-comet.rocks | Full-stack | REMOTE | Full-time | $80k – $120k
+comet.rocks - Full-stack - REMOTE - Full-time - $80k – $120k
 
 Comet Rocks is helping brands launch contextual mini-stores tailored to different channels. We use AI to automatically generate these immersive, customizable storefronts that sync with the core shop system.
 

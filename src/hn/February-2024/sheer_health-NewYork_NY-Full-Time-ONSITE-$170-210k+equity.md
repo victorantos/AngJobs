@@ -4,7 +4,7 @@ author:
   name: sheer_health
   url: https://news.ycombinator.com/item?id=39218924
 ---
-Sheer Health (<a href="https:&#x2F;&#x2F;www.sheerhealth.com" rel="nofollow">https:&#x2F;&#x2F;www.sheerhealth.com</a>) | New York, NY | Senior Site Reliability&#x2F;Platform Engineer | Full-Time | ONSITE | $170-210k + equity
+Sheer Health (<a href="https:&#x2F;&#x2F;www.sheerhealth.com" rel="nofollow">https:&#x2F;&#x2F;www.sheerhealth.com</a>) - New York, NY - Senior Site Reliability&#x2F;Platform Engineer - Full-Time - ONSITE - $170-210k + equity
 
 If you or a loved one has ever suffered from confusing&#x2F;egregious medical bills or insurance communications, this is your chance to give the power back to others in a similar situation.
 

@@ -4,7 +4,7 @@ author:
   name: kellysutton
   url: https://news.ycombinator.com/item?id=40684804
 ---
-Scholarly | Software Engineer | On-site - Seattle, WA | $150k - $200k | 0.5%+ equity
+Scholarly - Software Engineer - On-site - Seattle, WA - $150k - $200k - 0.5%+ equity
 
 Scholarly is building next-generation software for higher education with a focus on faculty. Higher ed is currently undergoing a generational shift in software and technology adoption, and our vision is to build the future system of record for the industry. We are building a software platform that enables our customers to make data-driven decisions and to automate essential processes like performance reviews, which will ultimately enable them to better serve both students and faculty. We are a team of experienced, motivated, and collaborative founders, and we are backed by leading investors in the industry.
 

@@ -4,7 +4,7 @@ author:
   name: ariabov
   url: https://news.ycombinator.com/item?id=39218314
 ---
-ISO | Full Stack&#x2F;Back-end Software Engineer | Fully Remote (US Only) | <a href="https:&#x2F;&#x2F;iso.io" rel="nofollow">https:&#x2F;&#x2F;iso.io</a>
+ISO - Full Stack&#x2F;Back-end Software Engineer - Fully Remote (US Only) - <a href="https:&#x2F;&#x2F;iso.io" rel="nofollow">https:&#x2F;&#x2F;iso.io</a>
 
 We are a Series A, fully distributed company on a mission to build the first Transportation Performance Intelligence platform that provides shippers (e.g. Coke), brokers (e.g. Uber Freight), and carriers (e.g. Alex Trucking - there are 500,000+ in the US alone) with the ability to measure the total costs of transportation service, together. The global supply chain accounts for roughly 10% of Global GDP, and is also one of the largest contributors to significant global challenges like air pollution and food waste. By changing how organizations work together across the supply chain, we will play a critical role in tackling these challenges head on. We are a team of inclusive, mission-driven doers with experience building world-class product, engineering, operations, and sales &amp; marketing teams. We hope you’ll join our growth story!
 

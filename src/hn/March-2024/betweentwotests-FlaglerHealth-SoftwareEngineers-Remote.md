@@ -4,7 +4,7 @@ author:
   name: betweentwotests
   url: https://news.ycombinator.com/item?id=39565642
 ---
-Flagler Health | Software Engineers | Remote
+Flagler Health - Software Engineers - Remote
 
 We’re a seed stage AI&#x2F;ML start-up revolutionizing the healthcare tech space by helping physicians provide better care for their patients in MSK pain management. We dive deep into clinic data to provide meaningful insights for our clients (clinics). We’re currently scaling out our core product and need someone to handle the infrasture and backened of our live production system.
 

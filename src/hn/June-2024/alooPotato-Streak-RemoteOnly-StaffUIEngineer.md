@@ -4,7 +4,7 @@ author:
   name: alooPotato
   url: https://news.ycombinator.com/item?id=40564939
 ---
-Streak | Remote Only | Staff UI Engineer | <a href="https:&#x2F;&#x2F;www.streak.com&#x2F;careers&#x2F;staff-ui-engineer" rel="nofollow">https:&#x2F;&#x2F;www.streak.com&#x2F;careers&#x2F;staff-ui-engineer</a>
+Streak - Remote Only - Staff UI Engineer - <a href="https:&#x2F;&#x2F;www.streak.com&#x2F;careers&#x2F;staff-ui-engineer" rel="nofollow">https:&#x2F;&#x2F;www.streak.com&#x2F;careers&#x2F;staff-ui-engineer</a>
 
 Streak (www.streak.com) is a CRM built on Gmail. We’re a remote-first team of 35 people across North America. We’re growing and very profitable, and we have customers that love our product. We’re currently in the goldilocks zone of having product market fit with real revenue but also a really flat hierarchy where you can ship fast.
 

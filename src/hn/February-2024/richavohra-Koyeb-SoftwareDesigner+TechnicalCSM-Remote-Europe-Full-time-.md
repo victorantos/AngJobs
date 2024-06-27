@@ -4,7 +4,7 @@ author:
   name: richavohra
   url: https://news.ycombinator.com/item?id=39217797
 ---
-Koyeb | Software Designer + Technical CSM  | Remote - Europe | Full-time |
+Koyeb - Software Designer + Technical CSM  - Remote - Europe - Full-time -
 
 At Koyeb, we make developers’ lives easier with the fastest way to deploy applications globally. The Koyeb Serverless Platform is completely managed: we take code, build it into containers, and run it inside of MicroVMs distributed across multiple continents.
 

@@ -4,7 +4,7 @@ author:
   name: crly
   url: https://news.ycombinator.com/item?id=39595252
 ---
-Disney Streaming | Lead&#x2F;Senior Software Engineer | Onsite in NY, Seattle, SF or Remote | Full-time
+Disney Streaming - Lead&#x2F;Senior Software Engineer - Onsite in NY, Seattle, SF or Remote - Full-time
 
 Help us build the applications and services used by millions. We’re looking for folks to build amazing user experiences and performant, scalable APIs for Disney+, Hulu, Star+ and ESPN+.
 

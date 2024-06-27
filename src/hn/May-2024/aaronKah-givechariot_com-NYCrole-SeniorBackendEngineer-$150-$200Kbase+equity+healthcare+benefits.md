@@ -4,7 +4,7 @@ author:
   name: aaronKah
   url: https://news.ycombinator.com/item?id=40227643
 ---
-givechariot.com | NYC role | Senior Backend Engineer | $150-$200K base + equity + healthcare + benefits
+givechariot.com - NYC role - Senior Backend Engineer - $150-$200K base + equity + healthcare + benefits
 
 Chariot is building fintech tools for nonprofits - think Visa for $500B nonprofit space.
 

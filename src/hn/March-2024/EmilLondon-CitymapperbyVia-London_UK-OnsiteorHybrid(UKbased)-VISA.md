@@ -4,7 +4,7 @@ author:
   name: EmilLondon
   url: https://news.ycombinator.com/item?id=39563555
 ---
-Citymapper by Via | London, UK | Onsite or Hybrid (UK based) | VISA
+Citymapper by Via - London, UK - Onsite or Hybrid (UK based) - VISA
 
 Citymapper is the ultimate and most loved mobility app. Now part of Via, along with Remix we are building out end-to-end digital infrastructure for transit systems.
 

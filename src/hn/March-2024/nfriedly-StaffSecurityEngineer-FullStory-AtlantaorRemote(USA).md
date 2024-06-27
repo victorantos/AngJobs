@@ -4,7 +4,7 @@ author:
   name: nfriedly
   url: https://news.ycombinator.com/item?id=39609618
 ---
-Staff Security Engineer | FullStory | Atlanta or Remote (USA) | <a href="https:&#x2F;&#x2F;www.fullstory.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.fullstory.com&#x2F;</a>
+Staff Security Engineer - FullStory - Atlanta or Remote (USA) - <a href="https:&#x2F;&#x2F;www.fullstory.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.fullstory.com&#x2F;</a>
 
 <a href="https:&#x2F;&#x2F;www.fullstory.com&#x2F;careers&#x2F;jobs&#x2F;8cf67d8a-053d-4de1-aca2-b3b41158c7af&#x2F;?ashby_jid=8cf67d8a-053d-4de1-aca2-b3b41158c7af&amp;utm_source=092d6dbxgV" rel="nofollow">https:&#x2F;&#x2F;www.fullstory.com&#x2F;careers&#x2F;jobs&#x2F;8cf67d8a-053d-4de1-ac...</a>
 

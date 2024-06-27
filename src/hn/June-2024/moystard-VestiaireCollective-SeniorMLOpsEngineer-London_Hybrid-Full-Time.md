@@ -4,7 +4,7 @@ author:
   name: moystard
   url: https://news.ycombinator.com/item?id=40644600
 ---
-Vestiaire Collective | Senior MLOps Engineer | London, Hybrid | Full-Time | <a href="https:&#x2F;&#x2F;www.vestiairecollective.com" rel="nofollow">https:&#x2F;&#x2F;www.vestiairecollective.com</a>
+Vestiaire Collective - Senior MLOps Engineer - London, Hybrid - Full-Time - <a href="https:&#x2F;&#x2F;www.vestiairecollective.com" rel="nofollow">https:&#x2F;&#x2F;www.vestiairecollective.com</a>
 
 Hello from Vestiaire Collective, the leading global marketplace for second-hand luxury fashion. As a B-Corp, we are working to build a more sustainable future for the fashion industry.
 

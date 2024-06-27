@@ -4,7 +4,7 @@ author:
   name: srbtg
   url: https://news.ycombinator.com/item?id=38861221
 ---
-Square Robot | Robotics Software Engineering | Full-Time | Hybrid&#x2F;On-site | Marlborough, MA | <a href="https:&#x2F;&#x2F;www.squarerobots.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.squarerobots.com&#x2F;</a>
+Square Robot - Robotics Software Engineering - Full-Time - Hybrid&#x2F;On-site - Marlborough, MA - <a href="https:&#x2F;&#x2F;www.squarerobots.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.squarerobots.com&#x2F;</a>
 
 At Square Robot, we&#x27;re revolutionizing infrastructure inspection through the application of robotics.  Our aboveground storage tank inspection robots keep people out of hazardous environments, prevent needless carbon emissions, and allow customers to keep their assets running with no downtime.
 

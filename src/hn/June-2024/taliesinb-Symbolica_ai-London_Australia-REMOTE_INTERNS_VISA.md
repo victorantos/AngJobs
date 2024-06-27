@@ -4,7 +4,7 @@ author:
   name: taliesinb
   url: https://news.ycombinator.com/item?id=40564574
 ---
-Symbolica.ai | London, Australia | REMOTE, INTERNS, VISA
+Symbolica.ai - London, Australia - REMOTE, INTERNS, VISA
 
 We&#x27;re trying to apply the insights of category theory, dependent type theory, and functional programming to deep learning. How do we best equip neural nets with strong inductive biases from these fields to help them reason in a structured way? Our upcoming ICML paper gives some flavor <a href="https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2402.15332" rel="nofollow">https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2402.15332</a> ; you can also watch <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=rie-9AEhYdY&amp;t=387s" rel="nofollow">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=rie-9AEhYdY&amp;t=387s</a> ; but there is a lot more to say.
 

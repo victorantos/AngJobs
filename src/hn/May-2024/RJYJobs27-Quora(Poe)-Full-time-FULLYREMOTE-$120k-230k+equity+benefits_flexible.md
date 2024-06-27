@@ -4,7 +4,7 @@ author:
   name: RJYJobs27
   url: https://news.ycombinator.com/item?id=40347076
 ---
-Quora (Poe) | Full-time | Mid&#x2F;Senior iOS &amp; Android Engineers | FULLY REMOTE| $120k-230k + equity + benefits, flexible
+Quora (Poe) - Full-time - Mid&#x2F;Senior iOS &amp; Android Engineers - FULLY REMOTE- $120k-230k + equity + benefits, flexible
 
 Poe is an exciting new AI tool developed by Quora, that allows consumers to interact with a variety of AI products. For more about info about our latest funding read more on Poe, here: 
 <a href="https:&#x2F;&#x2F;a16z.com&#x2F;announcement&#x2F;investing-in-quora-and-poe&#x2F;" rel="nofollow">https:&#x2F;&#x2F;a16z.com&#x2F;announcement&#x2F;investing-in-quora-and-poe&#x2F;</a>

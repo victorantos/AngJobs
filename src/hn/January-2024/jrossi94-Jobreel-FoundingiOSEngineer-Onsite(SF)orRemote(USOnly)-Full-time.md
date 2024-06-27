@@ -4,7 +4,7 @@ author:
   name: jrossi94
   url: https://news.ycombinator.com/item?id=38868505
 ---
-Jobreel | Founding iOS Engineer | Onsite (SF) or Remote (US Only) | Full-time
+Jobreel - Founding iOS Engineer - Onsite (SF) or Remote (US Only) - Full-time
 
 Founding engineer for pre-seed startup focused on hiring in the service industry. This is an opportunity to make a difference by helping people from all walks of life find meaningful work in an industry that is all about taking care of others.
 

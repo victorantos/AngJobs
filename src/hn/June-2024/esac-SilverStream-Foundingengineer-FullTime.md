@@ -4,7 +4,7 @@ author:
   name: esac
   url: https://news.ycombinator.com/item?id=40570755
 ---
-SilverStream | Bay Area &#x2F; Remote | Founding engineer | Full Time
+SilverStream - Bay Area &#x2F; Remote - Founding engineer - Full Time
 
 Heroku for AI agents
 

@@ -4,7 +4,7 @@ author:
   name: nerdz
   url: https://news.ycombinator.com/item?id=40564108
 ---
-RepairWise (<a href="https:&#x2F;&#x2F;repairwise.pro" rel="nofollow">https:&#x2F;&#x2F;repairwise.pro</a>) | SF Bay Area, CA | Full-time
+RepairWise (<a href="https:&#x2F;&#x2F;repairwise.pro" rel="nofollow">https:&#x2F;&#x2F;repairwise.pro</a>) - SF Bay Area, CA - Full-time
 
 We’re a software-enabled startup on a mission to support the influx of thousands of off-warranty electric vehicles that need to be diagnosed and repaired, while delivering a trustworthy auto repair experience for EV owners.
 

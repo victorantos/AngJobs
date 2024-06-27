@@ -4,7 +4,7 @@ author:
   name: creatlv
   url: https://news.ycombinator.com/item?id=39563298
 ---
-Napper | Full-stack &#x2F; Frontend Engineer | Stockholm | ONSITE | Full-time | 60K-90K EUR
+Napper - Full-stack &#x2F; Frontend Engineer - Stockholm - ONSITE - Full-time - 60K-90K EUR
 
 We are a small, highly ambitious and fun (arguably) team developing an app that improves child sleep for families around the world. We have top-tier international investors, are already profitable and growing quickly with 75.000 daily active users and almost 1 million downloads.
 

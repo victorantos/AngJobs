@@ -4,7 +4,7 @@ author:
   name: crimsoneer
   url: https://news.ycombinator.com/item?id=38853368
 ---
-The Incubator for AI (<a href="https:&#x2F;&#x2F;ai.gov.uk&#x2F;" rel="nofollow">https:&#x2F;&#x2F;ai.gov.uk&#x2F;</a>) | AI Engineers (various roles) | UK | Full-time
+The Incubator for AI (<a href="https:&#x2F;&#x2F;ai.gov.uk&#x2F;" rel="nofollow">https:&#x2F;&#x2F;ai.gov.uk&#x2F;</a>) - AI Engineers (various roles) - UK - Full-time
 
 i.AI is a new team set up by the UK government, with the mission to help departments harness the potential of AI to improve lives and the delivery of public services.
 

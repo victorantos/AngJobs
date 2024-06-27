@@ -4,7 +4,7 @@ author:
   name: axit
   url: https://news.ycombinator.com/item?id=39907309
 ---
-Narrative (YC W23) | San Francisco, CA &#x2F; Remote | Full Time | Full Stack Developer
+Narrative (YC W23) - San Francisco, CA &#x2F; Remote - Full Time - Full Stack Developer
 
 Narrative is making AI powered data tools for logistics. We standardize and find errors in shipping invoice data for large companies.
 

@@ -4,7 +4,7 @@ author:
   name: ch4s3
   url: https://news.ycombinator.com/item?id=40227037
 ---
-Pepsico eCommerce | NYC Hybrid or US remote | Senior Elixir Developer | $100k - $182.5k Base
+Pepsico eCommerce - NYC Hybrid or US remote - Senior Elixir Developer - $100k - $182.5k Base
 
 <a href="https:&#x2F;&#x2F;uscareers-pepsico.icims.com&#x2F;jobs&#x2F;301421&#x2F;ecomm-full-stack-engineer&#x2F;job?mode=view&amp;mo[…]rue&amp;needsRedirect=false&amp;jan1offset=-300&amp;jun1offset=-240" rel="nofollow">https:&#x2F;&#x2F;uscareers-pepsico.icims.com&#x2F;jobs&#x2F;301421&#x2F;ecomm-full-s...</a>
 

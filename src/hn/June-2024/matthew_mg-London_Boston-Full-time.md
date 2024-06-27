@@ -4,7 +4,7 @@ author:
   name: matthew_mg
   url: https://news.ycombinator.com/item?id=40564193
 ---
-Man Group (<a href="https:&#x2F;&#x2F;man.com" rel="nofollow">https:&#x2F;&#x2F;man.com</a>) | Lead&#x2F;Mid-level AI Engineer | London, Boston | hybrid&#x2F;onsite | Full-time
+Man Group (<a href="https:&#x2F;&#x2F;man.com" rel="nofollow">https:&#x2F;&#x2F;man.com</a>) - Lead&#x2F;Mid-level AI Engineer - London, Boston - hybrid&#x2F;onsite - Full-time
 
 Hi. We’re building and deploying GenAI powered solutions across our asset management business and are looking for a AI engineers to help us scale up.
 

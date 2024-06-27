@@ -4,7 +4,7 @@ author:
   name: rakirk
   url: https://news.ycombinator.com/item?id=39955582
 ---
-Center for Biological Diversity | Tucson, AZ, US | Full-time | Hybrid&#x2F;ONSITE | <a href="https:&#x2F;&#x2F;biologicaldiversity.org" rel="nofollow">https:&#x2F;&#x2F;biologicaldiversity.org</a> | non-profit
+Center for Biological Diversity - Tucson, AZ, US - Full-time - Hybrid&#x2F;ONSITE - <a href="https:&#x2F;&#x2F;biologicaldiversity.org" rel="nofollow">https:&#x2F;&#x2F;biologicaldiversity.org</a> - non-profit
 
 We are hiring for a Network and Security Engineer.
 

@@ -4,7 +4,7 @@ author:
   name: richard_pepper
   url: https://news.ycombinator.com/item?id=39898652
 ---
-Spice (YC S19) | Full Time | Onsite | San Francisco | US Authorized Only | <a href="https:&#x2F;&#x2F;spicedata.com&#x2F;">https:&#x2F;&#x2F;spicedata.com&#x2F;</a>
+Spice (YC S19) - Full Time - Onsite - San Francisco - US Authorized Only - <a href="https:&#x2F;&#x2F;spicedata.com&#x2F;">https:&#x2F;&#x2F;spicedata.com&#x2F;</a>
 
 - The world&#x27;s largest companies are buying more external data
 

@@ -4,7 +4,7 @@ author:
   name: edwintorok
   url: https://news.ycombinator.com/item?id=38868613
 ---
-XenServer | (Senior) Software Engineer - Xenserver toolstack | ONSITE (Cambridge, UK)
+XenServer - (Senior) Software Engineer - Xenserver toolstack - ONSITE (Cambridge, UK)
 
 <a href="https:&#x2F;&#x2F;www.xenserver.com&#x2F;story" rel="nofollow">https:&#x2F;&#x2F;www.xenserver.com&#x2F;story</a>
 

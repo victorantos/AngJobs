@@ -4,7 +4,7 @@ author:
   name: skibz
   url: https://news.ycombinator.com/item?id=38851983
 ---
-IO Digital | REMOTE (European timezones) | full-time
+IO Digital - REMOTE (European timezones) - full-time
 
 We&#x27;re a consultancy based in Cape Town, South Africa [0] that works with businesses across a number of sectors to develop technology solutions that contribute to their growth and success. We also develop and operate our own B2B products and services to keep us busy around the clock!
 

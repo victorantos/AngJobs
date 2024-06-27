@@ -4,7 +4,7 @@ author:
   name: andres_comity
   url: https://news.ycombinator.com/item?id=39619592
 ---
-Comity Inc. | Hybrid or REMOTE | We are looking for various Full-time roles:
+Comity Inc. - Hybrid or REMOTE - We are looking for various Full-time roles:
 
 - Machine Learning Engineer (New York)
 

@@ -4,7 +4,7 @@ author:
   name: cruppelt
   url: https://news.ycombinator.com/item?id=40227766
 ---
-Basis AI | Full-Time | Full-Stack, Backend and Frontend Engineers | NYC
+Basis AI - Full-Time - Full-Stack, Backend and Frontend Engineers - NYC
 
 What is Basis
 

@@ -4,7 +4,7 @@ author:
   name: sheepybloke
   url: https://news.ycombinator.com/item?id=39220979
 ---
-Loft Orbital Solutions | Various Positions | San Francisco, CA; Golden, CO; Toulouse, FR | ONSITE
+Loft Orbital Solutions - Various Positions - San Francisco, CA; Golden, CO; Toulouse, FR - ONSITE
 
 Loft Orbital builds &quot;shareable&quot; satellites, providing a fast &amp; simple path to orbit for organizations that require access to space. Powered by our hardware &amp; software products, we operate satellites, fly customer payloads onboard, and handle entire missions from end to end - significantly reducing the lead-time and risk of a traditional space mission.
 

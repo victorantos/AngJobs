@@ -4,7 +4,7 @@ author:
   name: trunksuzieross
   url: https://news.ycombinator.com/item?id=40651279
 ---
-Trunk | <a href="https:&#x2F;&#x2F;trunk.io" rel="nofollow">https:&#x2F;&#x2F;trunk.io</a> | Sr Back End Eng &#x2F; DevRel Eng| Sr Analytics Data Eng Full-Time | Hybrid SF or Remote US or Canada
+Trunk - <a href="https:&#x2F;&#x2F;trunk.io" rel="nofollow">https:&#x2F;&#x2F;trunk.io</a> - Sr Back End Eng &#x2F; DevRel Eng- Sr Analytics Data Eng Full-Time - Hybrid SF or Remote US or Canada
 
 Trunk is an a16z funded dev tools startup, redefining software development at scale. We aim to solve problems that developers hate by bringing the tools usually built in-house at the best engineering orgs to every development team. We&#x27;ve built three products so far and have plans for more:
 

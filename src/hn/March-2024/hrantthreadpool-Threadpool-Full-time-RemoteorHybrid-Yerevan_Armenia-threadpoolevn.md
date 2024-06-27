@@ -4,7 +4,7 @@ author:
   name: hrantthreadpool
   url: https://news.ycombinator.com/item?id=39563898
 ---
-Threadpool | Mid&#x2F;Sr Backend Engineer | Mid&#x2F;Sr Frontend Engineer | Full-time | Remote or Hybrid | Yerevan, Armenia | threadpoolevn
+Threadpool - Mid&#x2F;Sr Backend Engineer - Mid&#x2F;Sr Frontend Engineer - Full-time - Remote or Hybrid - Yerevan, Armenia - threadpoolevn
 
 Backend: 3+ yrs of exp. Python, SQL, strong english skills. A lot of data eng work. Will be required to speak to teams in the US.
 

@@ -4,7 +4,7 @@ author:
   name: dvrp
   url: https://news.ycombinator.com/item?id=39901052
 ---
-KREA (<a href="https:&#x2F;&#x2F;krea.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;krea.ai&#x2F;</a>) | Onsite (San Francisco, CA) | FT
+KREA (<a href="https:&#x2F;&#x2F;krea.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;krea.ai&#x2F;</a>) - Onsite (San Francisco, CA) - FT
 
 -
 

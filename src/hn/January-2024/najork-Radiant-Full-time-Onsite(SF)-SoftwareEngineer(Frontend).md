@@ -4,7 +4,7 @@ author:
   name: najork
   url: https://news.ycombinator.com/item?id=38860500
 ---
-Radiant | Full-time | Onsite (SF) | Software Engineer (Frontend)
+Radiant - Full-time - Onsite (SF) - Software Engineer (Frontend)
 
 Radiant is on a mission to accelerate AI adoption in the enterprise.
 

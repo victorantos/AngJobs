@@ -4,7 +4,7 @@ author:
   name: esafak
   url: https://news.ycombinator.com/item?id=39224859
 ---
-Archipelago AI (<a href="https:&#x2F;&#x2F;www.archipelago-ai.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.archipelago-ai.com&#x2F;</a>) | Infra Engineer (SRE&#x2F;DevOps&#x2F;Platform) | US, Remote | US work authorization required (no agencies)
+Archipelago AI (<a href="https:&#x2F;&#x2F;www.archipelago-ai.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.archipelago-ai.com&#x2F;</a>) - Infra Engineer (SRE&#x2F;DevOps&#x2F;Platform) - US, Remote - US work authorization required (no agencies)
 
 Our company is dedicated to improving distributed work through better communication tools. More productive, and more conducive to forming the social ties that we associate with face-to-face interaction.
 

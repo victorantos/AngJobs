@@ -4,7 +4,7 @@ author:
   name: dougweltman
   url: https://news.ycombinator.com/item?id=40225017
 ---
-InfoSum | London, UK | Full-time | Hybrid
+InfoSum - London, UK - Full-time - Hybrid
 
 InfoSum is building data collaboration tools for the modern enterprise. This is a privacy-friendly way to power identity on the internet, otherwise known as Data Clean Rooms. Currently we&#x27;re working in adtech.
 

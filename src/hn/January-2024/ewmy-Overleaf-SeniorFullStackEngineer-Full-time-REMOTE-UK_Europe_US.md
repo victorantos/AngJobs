@@ -4,7 +4,7 @@ author:
   name: ewmy
   url: https://news.ycombinator.com/item?id=38844529
 ---
-Overleaf | Senior Full Stack Engineer | Full-time | REMOTE | UK, Europe, US
+Overleaf - Senior Full Stack Engineer - Full-time - REMOTE - UK, Europe, US
 
 Overleaf (www.overleaf.com) builds modern collaborative authoring tools for scientists — like Google Docs for Science. We have over 14 million registered users from around the world. Our primary product is an online, real-time collaborative editor for papers, theses, technical reports and other documents written in the LaTeX markup language. It’s used by around 500,000 people each day and hosts over 100 million projects.
 

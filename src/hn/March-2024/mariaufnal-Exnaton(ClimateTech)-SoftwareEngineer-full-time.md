@@ -4,7 +4,7 @@ author:
   name: mariaufnal
   url: https://news.ycombinator.com/item?id=39600945
 ---
-Exnaton (Climate Tech) | Software Engineer | Remote (EU&#x2F;EFTA countries) | full-time
+Exnaton (Climate Tech) - Software Engineer - Remote (EU&#x2F;EFTA countries) - full-time
 
 Exnaton is a startup, spun out of ETH Zurich, which offers software for renewable energy to utility companies. Our software enables energy providers to set up energy communities and smart energy tariffs in their distribution areas. Users of our software can track their energy consumption and buy renewable energy from their neighbors, which makes investing in the energy transition simple and fun!
 

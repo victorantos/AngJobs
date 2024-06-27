@@ -4,7 +4,7 @@ author:
   name: Jarred
   url: https://news.ycombinator.com/item?id=39224489
 ---
-Bun (YC S19) | <a href="https:&#x2F;&#x2F;bun.sh" rel="nofollow">https:&#x2F;&#x2F;bun.sh</a> | San Francisco | ONSITE | Full-time
+Bun (YC S19) - <a href="https:&#x2F;&#x2F;bun.sh" rel="nofollow">https:&#x2F;&#x2F;bun.sh</a> - San Francisco - ONSITE - Full-time
 
 Bun is an incredibly fast JavaScript runtime, package manager, test runner, and bundler. Our 2024 goal is to replace Node.js as the default server-side JavaScript runtime. We launched Bun 1.0 back in September: <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=BsnCpESUEqM" rel="nofollow">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=BsnCpESUEqM</a>, and it&#x27;s been a really exciting 6-ish months seeing developers use Bun at companies like X (Twitter), Midjourney and Brex.
 

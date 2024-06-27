@@ -4,7 +4,7 @@ author:
   name: robert3005
   url: https://news.ycombinator.com/item?id=40234248
 ---
-Fulcrum | Software Engineer | London or New York | ONSITE | Full-Time
+Fulcrum - Software Engineer - London or New York - ONSITE - Full-Time
 
 Fulcrum is building next generation storage platform for diverse data of the future. We believe users will need to process non tabular and tabular data together and we need to develop new methods to support them.
 

@@ -4,7 +4,7 @@ author:
   name: SamDuvall
   url: https://news.ycombinator.com/item?id=40225560
 ---
-Blissbook | Full Stack Product Engineer | Remote (USA) | Full-time
+Blissbook - Full Stack Product Engineer - Remote (USA) - Full-time
 
 Our mission is to enable creativity and allow people to express themselves, particularly in situations where it’s difficult to do so.
 

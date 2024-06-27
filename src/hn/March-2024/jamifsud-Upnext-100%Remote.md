@@ -4,7 +4,7 @@ author:
   name: jamifsud
   url: https://news.ycombinator.com/item?id=39564688
 ---
-Upnext | 100% Remote | Full Time &#x2F; Contract | Software Eng &#x2F; Design &#x2F; ML
+Upnext - 100% Remote - Full Time &#x2F; Contract - Software Eng &#x2F; Design &#x2F; ML
 
 At Upnext, we are passionate about solving information overload. Every day we get bombarded with content from social networks, news sites, blogs, messages, etc. It’s hard to keep up and it’s even harder to find the content that really matters to you. It takes time and energy to sift through the noise and find what really matters.  Our latest app helps you stay up to date on the topics and news that you care about by aggregating updates into a single place. Using our own AI models we’re building in deep personalization from the beginning so our users will always have the most important updates about topics they care about. We have open roles for:
 

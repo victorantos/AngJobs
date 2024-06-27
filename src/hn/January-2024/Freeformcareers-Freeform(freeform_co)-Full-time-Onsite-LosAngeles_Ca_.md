@@ -4,7 +4,7 @@ author:
   name: Freeformcareers
   url: https://news.ycombinator.com/item?id=38858790
 ---
-Freeform (freeform.co) | Software Engineers (C++ &#x2F; RUST &#x2F; Data Pipeline) | Full-time | Onsite | Los Angeles, Ca.
+Freeform (freeform.co) - Software Engineers (C++ &#x2F; RUST &#x2F; Data Pipeline) - Full-time - Onsite - Los Angeles, Ca.
 
 Freeform is deploying software-defined, autonomous metal 3D printing factories around the world, bringing the scalability of software to physical production. Our proprietary technology stack leverages advanced sensing, real-time controls, and data-driven learning to produce digitally verified, flawless parts at unprecedented speed and cost. Our mission is to make the transformative power of 3D printing available to all industries at scale and unlock the future of innovation.
 

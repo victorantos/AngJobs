@@ -4,7 +4,7 @@ author:
   name: SarahDeleteMe
   url: https://news.ycombinator.com/item?id=38866970
 ---
-DeleteMe - the online privacy company | WFH REMOTE| Full Time|
+DeleteMe - the online privacy company - WFH REMOTE- Full Time-
 
 HIRING SOFTWARE ENGINEERS
 <a href="https:&#x2F;&#x2F;www.abine.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.abine.com&#x2F;</a> and <a href="https:&#x2F;&#x2F;joindeleteme.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;joindeleteme.com&#x2F;</a>

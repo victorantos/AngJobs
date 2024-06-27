@@ -4,7 +4,7 @@ author:
   name: 03199618
   url: https://news.ycombinator.com/item?id=39227786
 ---
-Matterhorn Studio | 2 Open Roles: Machine Learning Scientist, Django Engineer| Remote&#x2F;London&#x2F;Oxford | Full-Time | <a href="http:&#x2F;&#x2F;matterhorn.studio" rel="nofollow">http:&#x2F;&#x2F;matterhorn.studio</a>
+Matterhorn Studio - 2 Open Roles: Machine Learning Scientist, Django Engineer- Remote&#x2F;London&#x2F;Oxford - Full-Time - <a href="http:&#x2F;&#x2F;matterhorn.studio" rel="nofollow">http:&#x2F;&#x2F;matterhorn.studio</a>
 
 At Matterhorn Studio we support materials companies in their first step towards integrating Machine Learning in their R&amp;D process.
 

@@ -4,7 +4,7 @@ author:
   name: jinpan
   url: https://news.ycombinator.com/item?id=39568665
 ---
-Wilkie Way Research | Infrastructure Engineer | Remote (US Only) + Peninsula
+Wilkie Way Research - Infrastructure Engineer - Remote (US Only) + Peninsula
 
 We&#x27;re a small (&lt;5 person) quantitative prop trading shop looking for a midcareer engineer to take ownership of core infrastructure.  We place a premium on work life balance and offer profit sharing.
 

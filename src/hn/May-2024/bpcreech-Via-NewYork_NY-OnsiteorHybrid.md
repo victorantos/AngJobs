@@ -4,7 +4,7 @@ author:
   name: bpcreech
   url: https://news.ycombinator.com/item?id=40302132
 ---
-Via | New York, NY | Onsite or Hybrid
+Via - New York, NY - Onsite or Hybrid
 
 At Via (ridewithvia.com), we are improving mobility in cities all over the world. Our software and people coordinate everything from on-demand microtransit to paratransit to shuttles to school buses, in &gt;700 cities and &gt;40 countries with &gt;130m rides served so far. We pride ourselves on being a true partner to the public sector in helping make transit better for everyone, especially those in low income and minority communities.
 

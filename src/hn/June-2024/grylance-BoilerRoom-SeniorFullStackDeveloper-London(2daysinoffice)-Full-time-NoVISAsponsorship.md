@@ -4,7 +4,7 @@ author:
   name: grylance
   url: https://news.ycombinator.com/item?id=40572573
 ---
-Boiler Room | Senior Full Stack Developer | London (2 days in office) | Full-time | <a href="https:&#x2F;&#x2F;boilerroom.tv&#x2F;" rel="nofollow">https:&#x2F;&#x2F;boilerroom.tv&#x2F;</a> | No VISA sponsorship
+Boiler Room - Senior Full Stack Developer - London (2 days in office) - Full-time - <a href="https:&#x2F;&#x2F;boilerroom.tv&#x2F;" rel="nofollow">https:&#x2F;&#x2F;boilerroom.tv&#x2F;</a> - No VISA sponsorship
 
 Boiler Room is an underground music platform. We’re looking for an experienced engineer to join us &amp; lead our small team. You will have autonomy to build the next phase of our tech in the way you see fit.
 

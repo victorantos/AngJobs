@@ -4,7 +4,7 @@ author:
   name: konradrvl
   url: https://news.ycombinator.com/item?id=39221982
 ---
-Rival | Unity Engineer (AR&#x2F;VR) | Full-time | Competitive Salary + Equity | Onsite | UK - Central London
+Rival - Unity Engineer (AR&#x2F;VR) - Full-time - Competitive Salary + Equity - Onsite - UK - Central London
 
 Rival is the VR native content sharing platform - From immersive stereoscopic videos to mixed reality, we are the platform where creators upload and users experience immersive content native to their AR &#x2F; VR headsets like the Quest 3, Apple Vision Pro or PC VR devices. Having raised funding from top tier European VC funds we are growing fast.
 

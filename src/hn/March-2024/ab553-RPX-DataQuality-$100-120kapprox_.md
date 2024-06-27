@@ -4,7 +4,7 @@ author:
   name: ab553
   url: https://news.ycombinator.com/item?id=39564272
 ---
-RPX | Data Quality | Remote (US)&#x2F;Onsite (San Francisco, CA) | $100-120k approx.
+RPX - Data Quality - Remote (US)&#x2F;Onsite (San Francisco, CA) - $100-120k approx.
 
 RPX is the leading provider of solutions to help companies manage their risks and costs arising at any stage of their intellectual property program. I&#x27;m on the tech side at RPX, please send your CV to [removed] and I&#x27;ll get it into the hiring manager&#x27;s hands. Cheers.
 

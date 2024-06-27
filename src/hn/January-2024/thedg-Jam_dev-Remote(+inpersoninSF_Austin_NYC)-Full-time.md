@@ -4,7 +4,7 @@ author:
   name: thedg
   url: https://news.ycombinator.com/item?id=38861742
 ---
-Jam.dev | Staff Fullstack Engineer &amp; AI Product Engineer | Typescript&#x2F;React | Remote (+ in person in SF, Austin, NYC) | Full-time
+Jam.dev - Staff Fullstack Engineer &amp; AI Product Engineer - Typescript&#x2F;React - Remote (+ in person in SF, Austin, NYC) - Full-time
 
 Dev tools company with 65,000+ users in less than 2 years. $10M in funding from Vercel CEO, GitHub CTO, Cloudflare CEO, etc.
 

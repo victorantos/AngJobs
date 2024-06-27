@@ -4,7 +4,7 @@ author:
   name: thruflo
   url: https://news.ycombinator.com/item?id=39902546
 ---
-ElectricSQL | Remote - EU | Full-time | <a href="https:&#x2F;&#x2F;electric-sql.com" rel="nofollow">https:&#x2F;&#x2F;electric-sql.com</a>
+ElectricSQL - Remote - EU - Full-time - <a href="https:&#x2F;&#x2F;electric-sql.com" rel="nofollow">https:&#x2F;&#x2F;electric-sql.com</a>
 
 ElectricSQL is an open source platform for building local-first software. We’re a small technical team hiring for a:
 

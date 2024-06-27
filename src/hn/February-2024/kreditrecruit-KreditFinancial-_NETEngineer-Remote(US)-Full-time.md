@@ -4,7 +4,7 @@ author:
   name: kreditrecruit
   url: https://news.ycombinator.com/item?id=39355048
 ---
-Kredit Financial | .NET Engineer | Remote (US) | Full-time
+Kredit Financial - .NET Engineer - Remote (US) - Full-time
 
 Kredit (trykredit.com) is on a mission to resolve debt better. We provide tools for regular people to help them get the out of financial hardship, as well as provide tools for businesses to manage their processes. We are small (6 person dev team) and growing. Our stack: .NET Core, C#, PostgreSQL, Mediatr, CQRS, Events, Angular, GCP, Kubernetes, Terraform and much more.
 

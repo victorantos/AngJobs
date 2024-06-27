@@ -4,7 +4,7 @@ author:
   name: mark-probst
   url: https://news.ycombinator.com/item?id=39918866
 ---
-Glide | Principal Front-end Engineer | Remote | Full-time
+Glide - Principal Front-end Engineer - Remote - Full-time
 
 Glide is creating a simpler, faster way for anyone to build custom software for their business, without any technical or design skills. Tens of thousands of non-technical people use Glide to build apps to power their businesses, organizations, personal projects, and more. As customers create apps to visualize, interact with, take action on, and analyze their growing data sets, we must keep this big picture in mind as we improve various levels of our engineering stack.
 

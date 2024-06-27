@@ -4,7 +4,7 @@ author:
   name: ThomPete
   url: https://news.ycombinator.com/item?id=39563340
 ---
-Faktory | Full Time | Remote&#x2F;On-site (New York, US) | 
+Faktory - Full Time - Remote&#x2F;On-site (New York, US) - 
  <a href="https:&#x2F;&#x2F;www.faktory.com" rel="nofollow">https:&#x2F;&#x2F;www.faktory.com</a>
 
 Faktory is building the worlds biggest, smartest and most reliable AI workforce.

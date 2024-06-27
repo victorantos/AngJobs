@@ -4,7 +4,7 @@ author:
   name: pille-riin
   url: https://news.ycombinator.com/item?id=40235113
 ---
-Modash.io | Senior Product Engineer | Remote | Full-time | Europe
+Modash.io - Senior Product Engineer - Remote - Full-time - Europe
 
 Hey there!
 

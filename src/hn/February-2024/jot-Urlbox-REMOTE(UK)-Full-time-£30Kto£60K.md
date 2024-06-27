@@ -4,7 +4,7 @@ author:
   name: jot
   url: https://news.ycombinator.com/item?id=39217451
 ---
-Urlbox | TypeScript &#x2F; Next.js &#x2F; DevOps (k8s) | REMOTE (UK) | Full-time |  £30K to £60K | <a href="https:&#x2F;&#x2F;urlbox.com" rel="nofollow">https:&#x2F;&#x2F;urlbox.com</a>
+Urlbox - TypeScript &#x2F; Next.js &#x2F; DevOps (k8s) - REMOTE (UK) - Full-time -  £30K to £60K - <a href="https:&#x2F;&#x2F;urlbox.com" rel="nofollow">https:&#x2F;&#x2F;urlbox.com</a>
 
 Urlbox helps web developers render the web with precision. We&#x27;ve been focused on generating screenshots, images and PDFs from HTML or URLs for over a decade. Our customers include over 500 design or compliance led organisations. They depend on us to get the intricacies of browser rendering right so they can focus on their core products and services.
 

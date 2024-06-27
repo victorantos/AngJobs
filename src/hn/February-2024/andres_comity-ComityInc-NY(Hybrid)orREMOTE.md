@@ -4,7 +4,7 @@ author:
   name: andres_comity
   url: https://news.ycombinator.com/item?id=39279106
 ---
-Comity Inc| NY (Hybrid) or REMOTE | We are looking for various Full-time roles:
+Comity Inc- NY (Hybrid) or REMOTE - We are looking for various Full-time roles:
 
 - Founding Machine Learning Engineer 
 - Backend Software Engineer (Platforms) 

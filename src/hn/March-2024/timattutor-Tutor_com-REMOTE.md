@@ -4,7 +4,7 @@ author:
   name: timattutor
   url: https://news.ycombinator.com/item?id=39563092
 ---
-Tutor.com | Senior&#x2F;Lead Software Engineer | REMOTE
+Tutor.com - Senior&#x2F;Lead Software Engineer - REMOTE
 
 I&#x27;m looking for someone to help bring our strategic vision to life (and to help iterate on it in the process). Seeking 5+ years full-stack experience including experience designing and implementing complex systems. C# backends and mixed frontends. It’s a great place to work and our software helps facilitate positive life-changing outcomes. Email: timothy.higgins@review.com
 

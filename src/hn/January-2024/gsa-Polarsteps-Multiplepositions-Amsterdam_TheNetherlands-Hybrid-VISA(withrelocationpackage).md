@@ -4,7 +4,7 @@ author:
   name: gsa
   url: https://news.ycombinator.com/item?id=38853696
 ---
-Polarsteps | Multiple positions | Amsterdam, The Netherlands | Full-time (or 4 days&#x2F;week) | Hybrid | VISA (with relocation package) | <a href="https:&#x2F;&#x2F;careers.polarsteps.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;careers.polarsteps.com&#x2F;</a>
+Polarsteps - Multiple positions - Amsterdam, The Netherlands - Full-time (or 4 days&#x2F;week) - Hybrid - VISA (with relocation package) - <a href="https:&#x2F;&#x2F;careers.polarsteps.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;careers.polarsteps.com&#x2F;</a>
 
 We&#x27;re an Amsterdam-based team of 50 (and counting) with 20+ nationalities amongst us – a varied, skilled bunch of &quot;Citizens of The World&quot; with hundreds of thousands of kilometers under our travel belts. We also have something important in common (other than our very well-worn passports): We want to change the way people travel.
 

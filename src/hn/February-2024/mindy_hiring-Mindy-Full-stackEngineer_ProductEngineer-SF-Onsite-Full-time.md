@@ -4,7 +4,7 @@ author:
   name: mindy_hiring
   url: https://news.ycombinator.com/item?id=39223104
 ---
-Mindy | Full-stack Engineer, Product Engineer | SF | Onsite | Full-time
+Mindy - Full-stack Engineer, Product Engineer - SF - Onsite - Full-time
 
 New Startup in the AI Space Looking for Full-stack&#x2F;product-focused software engineers!
 

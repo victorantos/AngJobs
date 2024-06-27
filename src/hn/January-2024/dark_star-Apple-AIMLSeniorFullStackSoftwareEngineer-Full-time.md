@@ -4,7 +4,7 @@ author:
   name: dark_star
   url: https://news.ycombinator.com/item?id=38851062
 ---
-Apple | AIML Senior Full Stack Software Engineer | Full-time | Seattle ONSITE hybrid (3 days&#x2F;week in office)
+Apple - AIML Senior Full Stack Software Engineer - Full-time - Seattle ONSITE hybrid (3 days&#x2F;week in office)
 
 <a href="https:&#x2F;&#x2F;jobs.apple.com&#x2F;en-us&#x2F;details&#x2F;200519929&#x2F;aiml-sr-full-stack-software-engineer-annotation-operations?team=MLAI" rel="nofollow">https:&#x2F;&#x2F;jobs.apple.com&#x2F;en-us&#x2F;details&#x2F;200519929&#x2F;aiml-sr-full-...</a>
 

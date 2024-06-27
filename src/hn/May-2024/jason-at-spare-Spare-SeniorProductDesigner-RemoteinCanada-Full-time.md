@@ -4,7 +4,7 @@ author:
   name: jason-at-spare
   url: https://news.ycombinator.com/item?id=40225374
 ---
-Spare | Senior Product Designer | Remote in Canada | Full-time | <a href="http:&#x2F;&#x2F;sparelabs.com" rel="nofollow">http:&#x2F;&#x2F;sparelabs.com</a>
+Spare - Senior Product Designer - Remote in Canada - Full-time - <a href="http:&#x2F;&#x2F;sparelabs.com" rel="nofollow">http:&#x2F;&#x2F;sparelabs.com</a>
 
 Spare makes tools for transit agencies to run on-demand and accessible transit services.
 

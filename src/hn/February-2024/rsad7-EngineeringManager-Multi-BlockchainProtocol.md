@@ -4,7 +4,7 @@ author:
   name: rsad7
   url: https://news.ycombinator.com/item?id=39368373
 ---
-Engineering Manager | Multi-Blockchain Protocol | 100% Remote (UK &amp; EU)
+Engineering Manager - Multi-Blockchain Protocol - 100% Remote (UK &amp; EU)
 
 I am working with a market leading financial trading firm who are building a brand new multi-blockchain protocol and are looking for an Engineering Manager to help do so.
 

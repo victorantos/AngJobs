@@ -4,7 +4,7 @@ author:
   name: davweb
   url: https://news.ycombinator.com/item?id=38852387
 ---
-Viator | Software Engineer all levels and Managers | Full time | Remote &amp; Hybrid On-site | Portugal, UK
+Viator - Software Engineer all levels and Managers - Full time - Remote &amp; Hybrid On-site - Portugal, UK
 
 Viator connects suppliers to travelers, creating the world&#x27;s largest platform for travel experiences.
 

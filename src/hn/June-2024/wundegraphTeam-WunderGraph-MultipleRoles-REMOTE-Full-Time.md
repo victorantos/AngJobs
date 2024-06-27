@@ -4,7 +4,7 @@ author:
   name: wundegraphTeam
   url: https://news.ycombinator.com/item?id=40575041
 ---
-WunderGraph | Multiple Roles | REMOTE | Full-Time
+WunderGraph - Multiple Roles - REMOTE - Full-Time
 
 WunderGraph (growing global customer base, 10K weekly downloads and growing)
 

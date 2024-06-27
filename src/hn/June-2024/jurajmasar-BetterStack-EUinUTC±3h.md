@@ -4,7 +4,7 @@ author:
   name: jurajmasar
   url: https://news.ycombinator.com/item?id=40567469
 ---
-Better Stack | <a href="https:&#x2F;&#x2F;betterstack.com" rel="nofollow">https:&#x2F;&#x2F;betterstack.com</a> | &#x2F;^(Full-?stack|Frontend) Engineer$&#x2F;i | EU in UTC ± 3h
+Better Stack - <a href="https:&#x2F;&#x2F;betterstack.com" rel="nofollow">https:&#x2F;&#x2F;betterstack.com</a> - &#x2F;^(Full-?stack-Frontend) Engineer$&#x2F;i - EU in UTC ± 3h
 
 We are software builders at :heart:
 

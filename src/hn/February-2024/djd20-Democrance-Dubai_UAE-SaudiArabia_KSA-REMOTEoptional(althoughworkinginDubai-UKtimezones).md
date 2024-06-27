@@ -4,7 +4,7 @@ author:
   name: djd20
   url: https://news.ycombinator.com/item?id=39258086
 ---
-Democrance | <a href="https:&#x2F;&#x2F;democrance.com" rel="nofollow">https:&#x2F;&#x2F;democrance.com</a> | MULTIPLE ROLES: Python&#x2F;Django&#x2F;Pyramid hacker, Terraform DevOps Expert, QA Automation Engineer, UX&#x2F;UI Product designer | Dubai, UAE | Saudi Arabia , KSA | REMOTE optional (although working in Dubai-UK timezones)
+Democrance - <a href="https:&#x2F;&#x2F;democrance.com" rel="nofollow">https:&#x2F;&#x2F;democrance.com</a> - MULTIPLE ROLES: Python&#x2F;Django&#x2F;Pyramid hacker, Terraform DevOps Expert, QA Automation Engineer, UX&#x2F;UI Product designer - Dubai, UAE - Saudi Arabia , KSA - REMOTE optional (although working in Dubai-UK timezones)
 
 We’re a mature microinsurance SaaS startup, building software to help bridge the gap between insurance companies and those who are not insured or under-insured. High traffic, mobile first + SMS and USSD platform that requires some interesting compliance and security requirements with deployments in countries with variable quality infrastructure.
 

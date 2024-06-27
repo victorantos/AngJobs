@@ -4,7 +4,7 @@ author:
   name: kindly-ai
   url: https://news.ycombinator.com/item?id=39563458
 ---
-Kindly.ai | Backend Developer | ONSITE | Oslo, Norway | Full-time
+Kindly.ai - Backend Developer - ONSITE - Oslo, Norway - Full-time
 
 Keywords: Python, Django, NodeJS, Postgresql, Elasticsearch, MongoDB, Elixir&#x2F;Phoenix, GCP, Kubernetes, Terraform, DevOps, AI, NLP, LLMs
 

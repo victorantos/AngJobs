@@ -4,7 +4,7 @@ author:
   name: bgrgndzz
   url: https://news.ycombinator.com/item?id=40584978
 ---
-HockeyStack | Backend Engineer | San Francisco, ONSITE, VISA
+HockeyStack - Backend Engineer - San Francisco, ONSITE, VISA
 
 HockeyStack is creating a single source of truth and reporting for marketing, sales, and all customer data.
 

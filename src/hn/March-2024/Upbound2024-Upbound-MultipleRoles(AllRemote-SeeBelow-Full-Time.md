@@ -4,7 +4,7 @@ author:
   name: Upbound2024
   url: https://news.ycombinator.com/item?id=39671176
 ---
-Upbound|Multiple Roles (All Remote - See Below|Full-Time
+Upbound-Multiple Roles (All Remote - See Below-Full-Time
 
 Upbound (<a href="https:&#x2F;&#x2F;www.upbound.io&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.upbound.io&#x2F;</a>) is the Series B startup behind open source Crossplane (<a href="https:&#x2F;&#x2F;www.crossplane.io&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.crossplane.io&#x2F;</a>). Upbound&#x27;s Crossplane-powered Universal Cloud Platform provides real-time visibility into all your infrastructure environments.
 

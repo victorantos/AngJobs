@@ -4,7 +4,7 @@ author:
   name: aurelien_gasser
   url: https://news.ycombinator.com/item?id=40676881
 ---
-Redbook | Senior+&#x2F;Staff Founding Engineer | Remote (Americas) | $170-250k + up to 1% equity
+Redbook - Senior+&#x2F;Staff Founding Engineer - Remote (Americas) - $170-250k + up to 1% equity
 
 Redbook is the new software of reference for cattle feedyards. We&#x27;re digitizing the $90B cattle industry, the largest vertical in agriculture. We have built the only cloud-based product in the industry that connects field operations and financials. The market is resonating with our solution with a backlog of go-lives and almost 50 customers using the product. We plan to completely change how farmers manage their businesses and money.
 

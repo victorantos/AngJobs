@@ -4,7 +4,7 @@ author:
   name: quadrature_ai
   url: https://news.ycombinator.com/item?id=39221300
 ---
-Quadrature | London or New York | Full-time | ONSITE | <a href="https:&#x2F;&#x2F;quadrature.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;quadrature.ai&#x2F;</a>
+Quadrature - London or New York - Full-time - ONSITE - <a href="https:&#x2F;&#x2F;quadrature.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;quadrature.ai&#x2F;</a>
 
 Quadrature is a systematic trading company, in the business of building fully automated trading systems across the global financial markets since its founding in 2010.
 We&#x27;re a very tech and research focused org, and are quite different from a lot of other players in the market (more like a tech-driven research institute than a traditional trading firm -- see <a href="https:&#x2F;&#x2F;quadrature.ai" rel="nofollow">https:&#x2F;&#x2F;quadrature.ai</a> for the details).

@@ -4,7 +4,7 @@ author:
   name: arun057
   url: https://news.ycombinator.com/item?id=40248894
 ---
-Arya For Work | <a href="https:&#x2F;&#x2F;aryaworks.com" rel="nofollow">https:&#x2F;&#x2F;aryaworks.com</a> | Full-Time | Hybrid - NYC Area.
+Arya For Work - <a href="https:&#x2F;&#x2F;aryaworks.com" rel="nofollow">https:&#x2F;&#x2F;aryaworks.com</a> - Full-Time - Hybrid - NYC Area.
 
 We are looking for a staff &#x2F; full stack engineer  (NodeJs + Typescript + React)
 

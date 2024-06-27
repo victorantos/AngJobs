@@ -4,7 +4,7 @@ author:
   name: danielmorozoff
   url: https://news.ycombinator.com/item?id=39279966
 ---
-Vidrovr Inc | US | Remote | Full-Time
+Vidrovr Inc - US - Remote - Full-Time
 
 Vidrovr makes video useful. We use machine learning to turn disorganized heaps of media and tangles of live feeds into beautifully structured metadata to drive actions and business decisions for our users. We enable previously impossible applications, at previously impossible scales.
 

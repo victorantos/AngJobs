@@ -4,7 +4,7 @@ author:
   name: salsakran
   url: https://news.ycombinator.com/item?id=38848070
 ---
-Metabase | <a href="https:&#x2F;&#x2F;metabase.com" rel="nofollow">https:&#x2F;&#x2F;metabase.com</a> | REMOTE | Full-time | Backend, Frontend, Full Stack, and DevOps engineers
+Metabase - <a href="https:&#x2F;&#x2F;metabase.com" rel="nofollow">https:&#x2F;&#x2F;metabase.com</a> - REMOTE - Full-time - Backend, Frontend, Full Stack, and DevOps engineers
 
 Metabase is open source analytics software that lets anyone in your company rummage around in the databases you have. It connects to a number of databases &#x2F; data warehouses (BigQuery, Redshift, Snowflake, Postgres, MySQL, etc).
 

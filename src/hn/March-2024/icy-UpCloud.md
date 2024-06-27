@@ -4,7 +4,7 @@ author:
   name: icy
   url: https://news.ycombinator.com/item?id=39588339
 ---
-UpCloud | <a href="https:&#x2F;&#x2F;upcloud.com" rel="nofollow">https:&#x2F;&#x2F;upcloud.com</a> | Helsinki, Finland or UTC+&#x2F;-2
+UpCloud - <a href="https:&#x2F;&#x2F;upcloud.com" rel="nofollow">https:&#x2F;&#x2F;upcloud.com</a> - Helsinki, Finland or UTC+&#x2F;-2
 
 UpCloud is a leading European cloud service provider with a global cloud platform spanning four continents. We&#x27;re hiring for our Managed Kubernetes (<a href="https:&#x2F;&#x2F;upcloud.com&#x2F;products&#x2F;managed-kubernetes" rel="nofollow">https:&#x2F;&#x2F;upcloud.com&#x2F;products&#x2F;managed-kubernetes</a>) platform:
 

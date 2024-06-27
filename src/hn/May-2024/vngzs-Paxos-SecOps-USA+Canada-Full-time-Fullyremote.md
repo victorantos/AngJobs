@@ -4,7 +4,7 @@ author:
   name: vngzs
   url: https://news.ycombinator.com/item?id=40226694
 ---
-Paxos | SecOps | USA+Canada | Full-time | Fully remote | <a href="https:&#x2F;&#x2F;www.paxos.com" rel="nofollow">https:&#x2F;&#x2F;www.paxos.com</a>
+Paxos - SecOps - USA+Canada - Full-time - Fully remote - <a href="https:&#x2F;&#x2F;www.paxos.com" rel="nofollow">https:&#x2F;&#x2F;www.paxos.com</a>
 
 Paxos is building a fully-regulated, foundational blockchain infrastructure platform to enable the instant movement of any asset, at any time, in a trustworthy manner. Our customers include some of the world’s leading financial institutions, like PayPal, Venmo, Mastercard, and Interactive Brokers.
 

@@ -4,7 +4,7 @@ author:
   name: repspark
   url: https://news.ycombinator.com/item?id=40565921
 ---
-RepSpark | Multiple Software Engineer Positions | REMOTE (US) | Full-Time | <a href="https:&#x2F;&#x2F;www.repspark.com" rel="nofollow">https:&#x2F;&#x2F;www.repspark.com</a>
+RepSpark - Multiple Software Engineer Positions - REMOTE (US) - Full-Time - <a href="https:&#x2F;&#x2F;www.repspark.com" rel="nofollow">https:&#x2F;&#x2F;www.repspark.com</a>
 
 RepSpark is the top SaaS B2B wholesale ecommerce platform for brands in apparel, footwear, and accessories. For example, we&#x27;re how golf courses across North America and Europe purchase brands like Peter Millar, Greg Norman, Kjus, etc.
 

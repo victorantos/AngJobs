@@ -4,7 +4,7 @@ author:
   name: dyeje
   url: https://news.ycombinator.com/item?id=39568700
 ---
-Stealth Startup | ONSITE NYC | Full-time
+Stealth Startup - ONSITE NYC - Full-time
 
 This startup is building the AI platform for corporate finance. Its mission is to automate key finance and accounting workflows. Corporate finance is one of the top 10 most common professions in the U.S. and plagued with error prone manual work. They believe that LLMs are going to transform professional services as we know it and corporate finance will be among the first professions to feel it. Raised a seed round earlier this year and are currently live with multiple large firms. Progressing rapidly and plan to raise a Series A in 2024. All positions are 5 days in office in NYC.
 

@@ -4,7 +4,7 @@ author:
   name: localstack
   url: https://news.ycombinator.com/item?id=39594365
 ---
-LocalStack | Multiple Roles | REMOTE | Full-Time
+LocalStack - Multiple Roles - REMOTE - Full-Time
 
 LocalStack (51k+ Github stars, 210M+ Docker pulls, growing global customer base) is on a mission to build the world&#x27;s leading dev platform for local cloud development, team collaboration, and CI analytics.
 

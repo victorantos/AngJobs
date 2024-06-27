@@ -4,7 +4,7 @@ author:
   name: cassaroul
   url: https://news.ycombinator.com/item?id=39224235
 ---
-Stytch | SF (US) | Onsite or Remote | <a href="https:&#x2F;&#x2F;stytch.com" rel="nofollow">https:&#x2F;&#x2F;stytch.com</a>
+Stytch - SF (US) - Onsite or Remote - <a href="https:&#x2F;&#x2F;stytch.com" rel="nofollow">https:&#x2F;&#x2F;stytch.com</a>
 
 Stytch is the most powerful identity platform built for developers. Our APIs make it simple to seamlessly onboard, authenticate, and engage users – while simultaneously improving security.
 

@@ -4,7 +4,7 @@ author:
   name: samidalouche
   url: https://news.ycombinator.com/item?id=39564320
 ---
-Narrative I&#x2F;O | Senior Backend Engineer | New York, NY | Full-time | REMOTE | $120k to $200k USD | <a href="https:&#x2F;&#x2F;narrative.io&#x2F;" rel="nofollow">https:&#x2F;&#x2F;narrative.io&#x2F;</a>
+Narrative I&#x2F;O - Senior Backend Engineer - New York, NY - Full-time - REMOTE - $120k to $200k USD - <a href="https:&#x2F;&#x2F;narrative.io&#x2F;" rel="nofollow">https:&#x2F;&#x2F;narrative.io&#x2F;</a>
 
 Since being founded in 2016, Narrative has been building a data collaboration platform designed for simplicity and ease-of-use which is trusted by Fortune 500 companies and startups alike.
 

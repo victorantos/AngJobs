@@ -4,7 +4,7 @@ author:
   name: ThomPete
   url: https://news.ycombinator.com/item?id=40228308
 ---
-Faktory | Full Time | Remote&#x2F;On-site (New York, US) | <a href="https:&#x2F;&#x2F;www.faktory.com" rel="nofollow">https:&#x2F;&#x2F;www.faktory.com</a> Faktory is building the worlds biggest, smartest and most reliable AI workforce.
+Faktory - Full Time - Remote&#x2F;On-site (New York, US) - <a href="https:&#x2F;&#x2F;www.faktory.com" rel="nofollow">https:&#x2F;&#x2F;www.faktory.com</a> Faktory is building the worlds biggest, smartest and most reliable AI workforce.
 Your objective is to help make sure our ai agents become ever smarter, more reliable an and that new ones can be created via our Agent Studio platform.
 
 Our aspirations are high, so your obsession with everything AI and agents will will have to bee too :)

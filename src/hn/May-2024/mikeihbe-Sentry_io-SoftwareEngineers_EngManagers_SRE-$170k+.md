@@ -4,7 +4,7 @@ author:
   name: mikeihbe
   url: https://news.ycombinator.com/item?id=40226619
 ---
-Sentry.io | Software Engineers, Eng Managers, SRE | $170k+ | <a href="https:&#x2F;&#x2F;sentry.io&#x2F;careers&#x2F;" rel="nofollow">https:&#x2F;&#x2F;sentry.io&#x2F;careers&#x2F;</a>
+Sentry.io - Software Engineers, Eng Managers, SRE - $170k+ - <a href="https:&#x2F;&#x2F;sentry.io&#x2F;careers&#x2F;" rel="nofollow">https:&#x2F;&#x2F;sentry.io&#x2F;careers&#x2F;</a>
 
 Sentry.io is a developer observability tool used and beloved by millions of developers worldwide.
 

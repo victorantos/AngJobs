@@ -4,7 +4,7 @@ author:
   name: rdua
   url: https://news.ycombinator.com/item?id=39281902
 ---
-Meta (formerly Facebook) | Senior Software Engineer | ONSITE (London) or REMOTE (UK) | Full-time | VISA
+Meta (formerly Facebook) - Senior Software Engineer - ONSITE (London) or REMOTE (UK) - Full-time - VISA
 
 Facebook&#x27;s security team is the central engine driving data and systems security at the company, supporting Facebook and all of its family of apps.
 

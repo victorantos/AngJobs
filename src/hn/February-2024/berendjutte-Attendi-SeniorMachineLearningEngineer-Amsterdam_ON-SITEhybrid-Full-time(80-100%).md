@@ -4,7 +4,7 @@ author:
   name: berendjutte
   url: https://news.ycombinator.com/item?id=39221206
 ---
-Attendi | Senior Machine Learning Engineer | Amsterdam, ON-SITE hybrid | Full-time (80-100%)
+Attendi - Senior Machine Learning Engineer - Amsterdam, ON-SITE hybrid - Full-time (80-100%)
 
 Healthcare professionals have to spend too much time on administrative tasks, when they should be spending that time delivering great care. Attendi allows healthcare professionals to report with their voice. This saves them precious time and removes the screen between client and caregiver, allowing more personal and effective care to be given. We provide an extraordinary work environment: getting paid well to work with smart people on things that directly have a positive impact on society.
 

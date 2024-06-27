@@ -4,7 +4,7 @@ author:
   name: jason-cliniko
   url: https://news.ycombinator.com/item?id=40355138
 ---
-Cliniko | Operations Engineer | Remote | Full-time | 30 hour work week
+Cliniko - Operations Engineer - Remote - Full-time - 30 hour work week
 
 We are looking for an amazing Operations Engineer to join the team at Cliniko (<a href="https:&#x2F;&#x2F;www.cliniko.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.cliniko.com&#x2F;</a>) in any timezone. We&#x27;re keen to find a talented Operations Engineer who works well autonomously and is passionate about what they do. They should be experienced in infrastructure automation, specifically in cloud environments, but there&#x27;s no requirement for how much experience with any specific technologies. We want someone that is looking to do their best work, in a company that will support them to do so.
 

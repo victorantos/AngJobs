@@ -4,7 +4,7 @@ author:
   name: martinsen
   url: https://news.ycombinator.com/item?id=38866220
 ---
-Phare Health | Software Engineer | ONSITE - LONDON | Full-time
+Phare Health - Software Engineer - ONSITE - LONDON - Full-time
 
 We build AI tools for the &#x27;back-office&#x27; of healthcare, supporting hospitals to be more efficient and financially resilient. We are an early-stage venture-backed company, with a team split between London and NYC.
 

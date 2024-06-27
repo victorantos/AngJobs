@@ -4,7 +4,7 @@ author:
   name: dohldrums
   url: https://news.ycombinator.com/item?id=39569296
 ---
-The Water Institute | Frontend developer | REMOTE (US), Based in Baton Rouge, LA | Full-time | <a href="https:&#x2F;&#x2F;thewaterinstitute.org&#x2F;" rel="nofollow">https:&#x2F;&#x2F;thewaterinstitute.org&#x2F;</a> |
+The Water Institute - Frontend developer - REMOTE (US), Based in Baton Rouge, LA - Full-time - <a href="https:&#x2F;&#x2F;thewaterinstitute.org&#x2F;" rel="nofollow">https:&#x2F;&#x2F;thewaterinstitute.org&#x2F;</a> -
 
 The Water Institute is an independent, non-profit, applied research institution advancing science and developing integrated methods to solve complex environmental and societal challenges. We believe in and strive for more resilient and equitable communities, sustainable environments, and thriving economies.
 

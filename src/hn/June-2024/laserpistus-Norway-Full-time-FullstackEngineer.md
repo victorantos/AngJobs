@@ -4,7 +4,7 @@ author:
   name: laserpistus
   url: https://news.ycombinator.com/item?id=40571508
 ---
-Scrimba (<a href="https:&#x2F;&#x2F;scrimba.com">https:&#x2F;&#x2F;scrimba.com</a>) | Norway | Full-time | HYBRID&#x2F;REMOTE | Fullstack Engineer
+Scrimba (<a href="https:&#x2F;&#x2F;scrimba.com">https:&#x2F;&#x2F;scrimba.com</a>) - Norway - Full-time - HYBRID&#x2F;REMOTE - Fullstack Engineer
 
 At Scrimba, we’re redefining code communication by blending a video player with a code editor, creating what we call “scrims”. With over 70k monthly active students our platform changes the way people learn how to code.
 

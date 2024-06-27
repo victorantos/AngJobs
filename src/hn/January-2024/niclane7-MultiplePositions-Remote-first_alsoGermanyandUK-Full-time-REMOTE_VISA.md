@@ -4,7 +4,7 @@ author:
   name: niclane7
   url: https://news.ycombinator.com/item?id=38867479
 ---
-Flower - <a href="https:&#x2F;&#x2F;flower.dev&#x2F;">https:&#x2F;&#x2F;flower.dev&#x2F;</a>    | Multiple Positions     | Remote-first, also Germany and UK     | Full-time     | REMOTE, VISA
+Flower - <a href="https:&#x2F;&#x2F;flower.dev&#x2F;">https:&#x2F;&#x2F;flower.dev&#x2F;</a>    - Multiple Positions     - Remote-first, also Germany and UK     - Full-time     - REMOTE, VISA
 
 Flower is an open-source framework, ecosystem and community for training and using AI on distributed data with federated learning, and related decentralized technologies. Companies like Banking Circle, Nokia, Samsung, Capgemini, Porsche, and Brave use Flower to easily improve their AI models on sensitive data that is distributed across organizational silos or user devices. Almost all AI today is based on centralized public data — a small fraction of the data we have; we believe that training on orders of magnitude more data will unlock the next leaps in AI.
 

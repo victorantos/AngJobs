@@ -4,7 +4,7 @@ author:
   name: Peroni
   url: https://news.ycombinator.com/item?id=40576147
 ---
-Automata | Principal Engineer | Hybrid (UK) | Full-time | £110k-£140k + bonus + equity
+Automata - Principal Engineer - Hybrid (UK) - Full-time - £110k-£140k + bonus + equity
 
 Born from a world-leading research lab, Automata is transforming the way labs work with open, integrated automation. We work with labs across the world to understand their specific workflows and needs and develop personalised solutions that range from diagnostic, and drug discovery to synthetic biology.
 

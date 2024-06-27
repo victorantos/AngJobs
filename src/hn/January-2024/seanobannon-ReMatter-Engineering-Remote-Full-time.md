@@ -4,7 +4,7 @@ author:
   name: seanobannon
   url: https://news.ycombinator.com/item?id=38854620
 ---
-ReMatter | Engineering | Remote | Full-time | <a href="https:&#x2F;&#x2F;rematter.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;rematter.com&#x2F;careers</a>
+ReMatter - Engineering - Remote - Full-time - <a href="https:&#x2F;&#x2F;rematter.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;rematter.com&#x2F;careers</a>
 
 Our mission is to enhance the sustainability, resilience, and robustness of the global metal supply chain while minimizing its carbon footprint. ReMatter is a scrap metal recycling software company founded by Forbes 30 Under 30 Stanford grads, building modern solutions for the $100B+ scrap metal industry.
 

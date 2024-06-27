@@ -4,7 +4,7 @@ author:
   name: vehiclesoftware
   url: https://news.ycombinator.com/item?id=39223890
 ---
-Tesla | Various Roles | Palo Alto | ONSITE | <a href="https:&#x2F;&#x2F;www.tesla.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;www.tesla.com&#x2F;careers</a> Tesla is hiring for software positions across a variety of disciplines. If you&#x27;re interested in helping us transition to sustainable energy production&#x2F;storage&#x2F;consumption, we&#x27;d love to hear from you! Please apply online at <a href="https:&#x2F;&#x2F;www.tesla.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;www.tesla.com&#x2F;careers</a> and send us a email highlighting some exceptional things you&#x27;ve done in the past so we can pull your resume from the stack. You can reach us at vehiclesoftwarerecruiting at tesla. Make sure to reference the url for the job(s) you&#x27;ve applied to!
+Tesla - Various Roles - Palo Alto - ONSITE - <a href="https:&#x2F;&#x2F;www.tesla.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;www.tesla.com&#x2F;careers</a> Tesla is hiring for software positions across a variety of disciplines. If you&#x27;re interested in helping us transition to sustainable energy production&#x2F;storage&#x2F;consumption, we&#x27;d love to hear from you! Please apply online at <a href="https:&#x2F;&#x2F;www.tesla.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;www.tesla.com&#x2F;careers</a> and send us a email highlighting some exceptional things you&#x27;ve done in the past so we can pull your resume from the stack. You can reach us at vehiclesoftwarerecruiting at tesla. Make sure to reference the url for the job(s) you&#x27;ve applied to!
 
 Full-time
 

@@ -4,7 +4,7 @@ author:
   name: cmpglc
   url: https://news.ycombinator.com/item?id=39217926
 ---
-The Trade Desk | Data Scientist | London, UK | Hybrid, on-site | Full-time
+The Trade Desk - Data Scientist - London, UK - Hybrid, on-site - Full-time
 
 TTD empowers advertisers with a cutting-edge, data-driven platform for digital advertising and media buying.
 

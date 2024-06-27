@@ -4,7 +4,7 @@ author:
   name: alj
   url: https://news.ycombinator.com/item?id=39896073
 ---
-Matic Robots | Mountain View, CA | Full-time | Onsite |
+Matic Robots - Mountain View, CA - Full-time - Onsite -
 
 <a href="https:&#x2F;&#x2F;maticrobots.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;maticrobots.com&#x2F;</a>
 

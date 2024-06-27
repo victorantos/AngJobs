@@ -4,7 +4,7 @@ author:
   name: KianHooshmand
   url: https://news.ycombinator.com/item?id=38851665
 ---
-Vocode || Engineering (multiple roles) || SF&#x2F;Remote || Full-time&#x2F;Contract || <a href="https:&#x2F;&#x2F;vocode.dev">https:&#x2F;&#x2F;vocode.dev</a>
+Vocode -- Engineering (multiple roles) -- SF&#x2F;Remote -- Full-time&#x2F;Contract -- <a href="https:&#x2F;&#x2F;vocode.dev">https:&#x2F;&#x2F;vocode.dev</a>
 
 We (Vocode) empower developers to connect the world with magical conversational AI experiences. Our hosted APIs and open source repo are used by thousands of engineers to create transformative experiences for customers around the world.
 

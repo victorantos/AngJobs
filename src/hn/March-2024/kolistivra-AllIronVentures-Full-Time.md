@@ -4,7 +4,7 @@ author:
   name: kolistivra
   url: https://news.ycombinator.com/item?id=39571381
 ---
-All Iron Ventures | Tech Lead&#x2F;Senior Full-Stack Engineer | REMOTE (Europe &#x2F; Middle East &#x2F; Africa) with 2 days each month in Spain | Full-Time
+All Iron Ventures - Tech Lead&#x2F;Senior Full-Stack Engineer - REMOTE (Europe &#x2F; Middle East &#x2F; Africa) with 2 days each month in Spain - Full-Time
 
 All Iron is a European early stage venture capital firm based in Bilbao. With ~€300M under management, we invest in Seed and Series A startups across Europe. So far, we have invested in 50+ companies including success stories like JobandTalent, Seedtag, TuLotero or Preply amongst others and our graduation rates place us in the industry’s top quartile.
 

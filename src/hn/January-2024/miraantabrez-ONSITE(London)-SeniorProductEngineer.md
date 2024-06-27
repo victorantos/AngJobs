@@ -4,7 +4,7 @@ author:
   name: miraantabrez
   url: https://news.ycombinator.com/item?id=38846462
 ---
-Hypertune (<a href="https:&#x2F;&#x2F;www.hypertune.com" rel="nofollow">https:&#x2F;&#x2F;www.hypertune.com</a>) | ONSITE (London) | Senior Product Engineer
+Hypertune (<a href="https:&#x2F;&#x2F;www.hypertune.com" rel="nofollow">https:&#x2F;&#x2F;www.hypertune.com</a>) - ONSITE (London) - Senior Product Engineer
 
 We&#x27;re building the most flexible and developer-friendly platform for feature flags, A&#x2F;B testing and &quot;application configuration&quot;. See <a href="https:&#x2F;&#x2F;docs.hypertune.com" rel="nofollow">https:&#x2F;&#x2F;docs.hypertune.com</a> for more details.
 

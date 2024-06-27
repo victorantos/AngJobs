@@ -4,7 +4,7 @@ author:
   name: maith1
   url: https://news.ycombinator.com/item?id=38879021
 ---
-Vital || Fullstack Engineer || Fully remote || Full-time || tryvital.io
+Vital -- Fullstack Engineer -- Fully remote -- Full-time -- tryvital.io
 
 Vital is API for remote healthcare. We enable companies to get health data from medical devices and order lab tests. We&#x27;re building the future of healthcare infrastructure, we have over 1.2 million devices now connected on our platform and have helped 10,000s of patients get tested using our infrastructure.
 

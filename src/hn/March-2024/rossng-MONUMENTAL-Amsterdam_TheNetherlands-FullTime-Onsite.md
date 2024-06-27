@@ -4,7 +4,7 @@ author:
   name: rossng
   url: https://news.ycombinator.com/item?id=39565261
 ---
-MONUMENTAL | <a href="https:&#x2F;&#x2F;www.monumental.co&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.monumental.co&#x2F;</a> | Amsterdam, The Netherlands | Full Time | Onsite
+MONUMENTAL - <a href="https:&#x2F;&#x2F;www.monumental.co&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.monumental.co&#x2F;</a> - Amsterdam, The Netherlands - Full Time - Onsite
 
 We&#x27;re building autonomous on-site construction robots at Monumental, starting with bricklaying.
 

@@ -4,7 +4,7 @@ author:
   name: hbagdi
   url: https://news.ycombinator.com/item?id=40225918
 ---
-Kong | Bengaluru, India | Onsite&#x2F;Hybrid | Full-time
+Kong - Bengaluru, India - Onsite&#x2F;Hybrid - Full-time
 
 We recently opened an office in Church Street in Bengaluru and are expanding rapidly. We are looking for Software, SRE&#x2F;DevOps, and Frontend engineers. A few exciting roles:
 

@@ -4,7 +4,7 @@ author:
   name: tracebit
   url: https://news.ycombinator.com/item?id=40563510
 ---
-Tracebit | <a href="https:&#x2F;&#x2F;tracebit.com" rel="nofollow">https:&#x2F;&#x2F;tracebit.com</a> | Multiple roles | London, UK | Full-Time | On-site (5 days)
+Tracebit - <a href="https:&#x2F;&#x2F;tracebit.com" rel="nofollow">https:&#x2F;&#x2F;tracebit.com</a> - Multiple roles - London, UK - Full-Time - On-site (5 days)
 
 Tracebit lets security teams implement ‘assume breach’ with automated cloud based honeypots or canaries.
 

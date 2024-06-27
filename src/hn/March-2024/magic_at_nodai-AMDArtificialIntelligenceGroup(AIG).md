@@ -4,7 +4,7 @@ author:
   name: magic_at_nodai
   url: https://news.ycombinator.com/item?id=39568272
 ---
-AMD Artificial Intelligence Group (AIG) | Remote &#x2F; Global
+AMD Artificial Intelligence Group (AIG) - Remote &#x2F; Global
 
 AMD Artificial Intelligence Group (AIG) leads AMD AI strategy and drives AI roadmap across client, edge, and cloud. We build AI capabilities, including silicon, software, models, use cases, to create a vibrant AMD AI ecosystem together with everyone.
 

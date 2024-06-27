@@ -4,7 +4,7 @@ author:
   name: andriym
   url: https://news.ycombinator.com/item?id=40229342
 ---
-Nomic | Onsite NYC | Fulltime
+Nomic - Onsite NYC - Fulltime
 
 <a href="https:&#x2F;&#x2F;nomic.ai&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;nomic.ai&#x2F;careers</a>
 

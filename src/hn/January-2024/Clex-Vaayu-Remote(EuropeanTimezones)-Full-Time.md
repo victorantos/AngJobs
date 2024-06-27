@@ -4,7 +4,7 @@ author:
   name: Clex
   url: https://news.ycombinator.com/item?id=38845349
 ---
-Vaayu | Remote (European Timezones) | Full-Time | <a href="https:&#x2F;&#x2F;www.vaayu.tech&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.vaayu.tech&#x2F;</a>
+Vaayu - Remote (European Timezones) - Full-Time - <a href="https:&#x2F;&#x2F;www.vaayu.tech&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.vaayu.tech&#x2F;</a>
 
 At Vaayu, we are on a mission to fight climate change. E-commerce has a big climate impact so we are focusing our efforts on helping retailers measure and reduce their carbon emissions. Calculating carbon manually can take months and is very expensive. Our goal is to make carbon analytics easily accessible to every online retailer.
 

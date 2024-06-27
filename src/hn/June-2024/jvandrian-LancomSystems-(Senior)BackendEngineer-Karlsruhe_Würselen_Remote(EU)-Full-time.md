@@ -4,7 +4,7 @@ author:
   name: jvandrian
   url: https://news.ycombinator.com/item?id=40582121
 ---
-Lancom Systems | (Senior) Backend Engineer | Karlsruhe,Würselen,Remote(EU) | Full-time | <a href="https:&#x2F;&#x2F;www.lancom-systems.com" rel="nofollow">https:&#x2F;&#x2F;www.lancom-systems.com</a>
+Lancom Systems - (Senior) Backend Engineer - Karlsruhe,Würselen,Remote(EU) - Full-time - <a href="https:&#x2F;&#x2F;www.lancom-systems.com" rel="nofollow">https:&#x2F;&#x2F;www.lancom-systems.com</a>
 
 Lancom Systems is the leading European manufacturer for network equipment.
 

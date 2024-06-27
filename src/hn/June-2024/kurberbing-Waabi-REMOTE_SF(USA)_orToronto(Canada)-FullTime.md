@@ -4,7 +4,7 @@ author:
   name: kurberbing
   url: https://news.ycombinator.com/item?id=40568163
 ---
-Waabi | REMOTE, SF (USA), or Toronto (Canada) | Full Time | Senior&#x2F;Staff Software Fullstack Engineer
+Waabi - REMOTE, SF (USA), or Toronto (Canada) - Full Time - Senior&#x2F;Staff Software Fullstack Engineer
 
 Timezones: PST &amp; EST
 

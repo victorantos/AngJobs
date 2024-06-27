@@ -4,7 +4,7 @@ author:
   name: dougweltman
   url: https://news.ycombinator.com/item?id=39287201
 ---
-Infosum.com | UK | Hybrid | Full-time
+Infosum.com - UK - Hybrid - Full-time
 
 Infosum is a series B-funded business focused on building privacy-friendly infrastructure for data collaboration -- when two or more organisations want to make their data useful for one another without sharing any of the underlying data.
 

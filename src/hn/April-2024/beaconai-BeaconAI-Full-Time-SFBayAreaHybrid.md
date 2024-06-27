@@ -4,7 +4,7 @@ author:
   name: beaconai
   url: https://news.ycombinator.com/item?id=39911067
 ---
-Beacon AI | <a href="https:&#x2F;&#x2F;beaconai.co" rel="nofollow">https:&#x2F;&#x2F;beaconai.co</a> | Full-Time | SF Bay Area Hybrid
+Beacon AI - <a href="https:&#x2F;&#x2F;beaconai.co" rel="nofollow">https:&#x2F;&#x2F;beaconai.co</a> - Full-Time - SF Bay Area Hybrid
 
 Beacon AI is applying AI to aviation to augment pilots to help them fly safer and more efficiently. Our pilot assistant, Murdock, is an AI Copilot designed to work alongside professional, commercial and defense, pilots. Our team has unique directly relevant  industry expertise in aviation, AI, and autonomy. Join a growing engineering team supported by a world-class advisor team, talented developers, and amazing investors, including Sam Altman, Zach Perret, JetBlue Ventures, and Countdown Capital. Learn (a little bit) more at <a href="https:&#x2F;&#x2F;www.beaconai.co" rel="nofollow">https:&#x2F;&#x2F;www.beaconai.co</a>
 

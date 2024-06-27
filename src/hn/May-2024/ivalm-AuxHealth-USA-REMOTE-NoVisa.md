@@ -4,7 +4,7 @@ author:
   name: ivalm
   url: https://news.ycombinator.com/item?id=40224619
 ---
-AuxHealth | <a href="https:&#x2F;&#x2F;auxhealth.io" rel="nofollow">https:&#x2F;&#x2F;auxhealth.io</a> and <a href="https:&#x2F;&#x2F;mdme.ai" rel="nofollow">https:&#x2F;&#x2F;mdme.ai</a> | USA | REMOTE | No Visa
+AuxHealth - <a href="https:&#x2F;&#x2F;auxhealth.io" rel="nofollow">https:&#x2F;&#x2F;auxhealth.io</a> and <a href="https:&#x2F;&#x2F;mdme.ai" rel="nofollow">https:&#x2F;&#x2F;mdme.ai</a> - USA - REMOTE - No Visa
 
 We want every patient to have a doctor best friend: who tells them what their symptoms mean and where to go, who listens in on their critical appointments and explains the meaning of notes, and who gathers support from the community.
 

@@ -4,7 +4,7 @@ author:
   name: bnr
   url: https://news.ycombinator.com/item?id=40565629
 ---
-ReconWell | (Senior&#x2F;Staff) Full Stack Software Engineer | REMOTE in Germany&#x2F;Switzerland | 70-100k€
+ReconWell - (Senior&#x2F;Staff) Full Stack Software Engineer - REMOTE in Germany&#x2F;Switzerland - 70-100k€
 
 At ReconWell, we’re a dynamic, small company dedicated to app development for psychiatric hospitals. Partnering with a prestigious university psychiatry in Switzerland, our work is at the forefront of mental health research and application.
 

@@ -4,7 +4,7 @@ author:
   name: tga
   url: https://news.ycombinator.com/item?id=40233974
 ---
-PartsCloud | Full-Time | Full-stack engineer | REMOTE (Europe) | <a href="https:&#x2F;&#x2F;partscloud.com" rel="nofollow">https:&#x2F;&#x2F;partscloud.com</a>
+PartsCloud - Full-Time - Full-stack engineer - REMOTE (Europe) - <a href="https:&#x2F;&#x2F;partscloud.com" rel="nofollow">https:&#x2F;&#x2F;partscloud.com</a>
 
 PartsCloud connects industrial machine manufacturers with a global network of specialized logistics service providers and enables spare parts to be sent to customers worldwide within hours. This is a game changer for industrial SMEs that got stuck in the last century with their after-sales business.
 

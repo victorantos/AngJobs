@@ -4,7 +4,7 @@ author:
   name: wushu_pbrooks
   url: https://news.ycombinator.com/item?id=39228517
 ---
-Wushu Studios | IT Manager | Full-time | On-Site (Liverpool, UK)
+Wushu Studios - IT Manager - Full-time - On-Site (Liverpool, UK)
 
 Wushu studios is an independent development studio working on a variety of cutting-edge games spanning multiple genres.
 

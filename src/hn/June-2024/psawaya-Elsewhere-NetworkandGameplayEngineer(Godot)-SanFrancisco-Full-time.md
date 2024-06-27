@@ -4,7 +4,7 @@ author:
   name: psawaya
   url: https://news.ycombinator.com/item?id=40563855
 ---
-Elsewhere | Network and Gameplay Engineer (Godot) | San Francisco | Full-time | ONSITE
+Elsewhere - Network and Gameplay Engineer (Godot) - San Francisco - Full-time - ONSITE
 Ever wanted to build indie video games at a startup? Let&#x27;s talk.
 
 Elsewhere is a San Francisco-based company building a new kind of multiplayer social video game, inspired by indie roguelike games like Hades, Dead Cells, and Risk of Rain 2. We&#x27;re backed by top Silicon Valley investors, and graduated from the first cohort of a16z&#x27;s SPEEDRUN program, which is kind of like YC for games.

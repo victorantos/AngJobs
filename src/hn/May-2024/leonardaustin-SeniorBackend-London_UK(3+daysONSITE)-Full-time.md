@@ -4,7 +4,7 @@ author:
   name: leonardaustin
   url: https://news.ycombinator.com/item?id=40227697
 ---
-<a href="https:&#x2F;&#x2F;Clusterfudge.com" rel="nofollow">https:&#x2F;&#x2F;Clusterfudge.com</a> | Senior Backend | London, UK (3+ days ONSITE) | Full-time
+<a href="https:&#x2F;&#x2F;Clusterfudge.com" rel="nofollow">https:&#x2F;&#x2F;Clusterfudge.com</a> - Senior Backend - London, UK (3+ days ONSITE) - Full-time
 
 ======================================================
 

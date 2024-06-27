@@ -4,7 +4,7 @@ author:
   name: jbae3
   url: https://news.ycombinator.com/item?id=38848958
 ---
-Contextual AI | Onsite&#x2F;Flexible Hours | Mountain View, CA | Full-time | Product Engineer &amp; AI Solutions Engineer
+Contextual AI - Onsite&#x2F;Flexible Hours - Mountain View, CA - Full-time - Product Engineer &amp; AI Solutions Engineer
 
 At Contextual AI, we are building the next generation of LLMs, from first principles, specifically for enterprise use cases.
 We have a few roles we’re hiring for including:

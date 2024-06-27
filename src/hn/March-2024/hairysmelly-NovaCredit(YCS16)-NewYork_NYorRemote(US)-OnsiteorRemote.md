@@ -4,7 +4,7 @@ author:
   name: hairysmelly
   url: https://news.ycombinator.com/item?id=39609435
 ---
-Nova Credit (YC S16) | New York, NY or Remote (US) | Onsite or Remote | <a href="https:&#x2F;&#x2F;www.novacredit.com" rel="nofollow">https:&#x2F;&#x2F;www.novacredit.com</a>
+Nova Credit (YC S16) - New York, NY or Remote (US) - Onsite or Remote - <a href="https:&#x2F;&#x2F;www.novacredit.com" rel="nofollow">https:&#x2F;&#x2F;www.novacredit.com</a>
 
 Despite having built substantial credit in their home countries, millions of immigrants have difficulty accessing credit cards, loans, mortgages, and leases without domestic credit. Nova Credit enables newcomers and other global citizens to share their credit history from their home country with financial service providers, unlocking new consumers for lenders and new futures for those who have traditionally been excluded from the financial system. We are 80+ people and have raised over $75M in Series B funding from Kleiner Perkins, Index, General Catalyst, Sound Ventures, YC, and more.
 

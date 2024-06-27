@@ -4,7 +4,7 @@ author:
   name: meredydd
   url: https://news.ycombinator.com/item?id=39223344
 ---
-Anvil (<a href="https:&#x2F;&#x2F;anvil.works" rel="nofollow">https:&#x2F;&#x2F;anvil.works</a>) | Senior Developer | Cambridge, UK | ONSITE, VISA | Full-time&#x2F;part-time&#x2F;flexible
+Anvil (<a href="https:&#x2F;&#x2F;anvil.works" rel="nofollow">https:&#x2F;&#x2F;anvil.works</a>) - Senior Developer - Cambridge, UK - ONSITE, VISA - Full-time&#x2F;part-time&#x2F;flexible
 
 We make an open-source web framework, an online code editor, a GUI builder, and a PaaS hosting platform. Together, you can build and host a full-stack web application - and all you need is a little Python. (Yes, even the client-side code - we compile Python to JS and provide a GUI framework!)
 

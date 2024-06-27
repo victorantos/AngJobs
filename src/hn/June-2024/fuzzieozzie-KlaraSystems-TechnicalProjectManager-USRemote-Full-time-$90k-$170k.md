@@ -4,7 +4,7 @@ author:
   name: fuzzieozzie
   url: https://news.ycombinator.com/item?id=40565426
 ---
-Klara Systems |  Technical Project Manager |  US Remote |  Full-time | $90k - $170k
+Klara Systems -  Technical Project Manager -  US Remote -  Full-time - $90k - $170k
 
 We are a bootstrapped, high growth company looking for a Technical Project Manager to help us scale more efficiently.
 

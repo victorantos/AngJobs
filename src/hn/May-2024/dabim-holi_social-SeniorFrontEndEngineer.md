@@ -4,7 +4,7 @@ author:
   name: dabim
   url: https://news.ycombinator.com/item?id=40243956
 ---
-holi.social | Remote (CET +&#x2F;-2 hours) | Senior Front End Engineer | Part-time&#x2F;Full-time
+holi.social - Remote (CET +&#x2F;-2 hours) - Senior Front End Engineer - Part-time&#x2F;Full-time
 
 Hi, Daniel here, Head of Engineering @ <a href="https:&#x2F;&#x2F;holi.social" rel="nofollow">https:&#x2F;&#x2F;holi.social</a>. holi is the digital space where people and organisations come together to act for common good. We&#x27;re dedicated to fostering a new digital ecosystem that empowers people to engage in impactful social projects while providing a digital home for social initiatives.
 

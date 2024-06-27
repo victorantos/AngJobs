@@ -4,7 +4,7 @@ author:
   name: mjherrma
   url: https://news.ycombinator.com/item?id=39223364
 ---
-Lumen5 | Senior Frontend Engineer | Vancouver, CAN or Remote | <a href="https:&#x2F;&#x2F;lumen5.com" rel="nofollow">https:&#x2F;&#x2F;lumen5.com</a>
+Lumen5 - Senior Frontend Engineer - Vancouver, CAN or Remote - <a href="https:&#x2F;&#x2F;lumen5.com" rel="nofollow">https:&#x2F;&#x2F;lumen5.com</a>
 
 Recognized as one of Canada’s fastest-growing companies, Lumen5 is an online video creation platform powered by machine learning and designed for businesses, brands, and creatives.
 

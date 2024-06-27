@@ -4,7 +4,7 @@ author:
   name: dsr_
   url: https://news.ycombinator.com/item?id=40224774
 ---
-Smartleaf | Boston, MA, USA | Full-time | most REMOTE but all USA, some HYBRID
+Smartleaf - Boston, MA, USA - Full-time - most REMOTE but all USA, some HYBRID
 
 <a href="https:&#x2F;&#x2F;smartleaf.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;smartleaf.com&#x2F;careers</a>
 

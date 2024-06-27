@@ -4,7 +4,7 @@ author:
   name: gamorgana
   url: https://news.ycombinator.com/item?id=38858255
 ---
-New Harbor | New York City - Hybrid&#x2F;Onsite | Full Time |  Founding Full-stack Engineer
+New Harbor - New York City - Hybrid&#x2F;Onsite - Full Time -  Founding Full-stack Engineer
 
 We’re an early stage cybersecurity-as-a-service startup. Our product protects users from the most common attacks in a way that respects their productivity. Think what Gusto does for payroll, QuickBooks for accounting, and ZipRecruiter for hiring.
 

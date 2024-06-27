@@ -4,7 +4,7 @@ author:
   name: jbergstroem
   url: https://news.ycombinator.com/item?id=38879071
 ---
-Topsort | Software engineer | Full-time | Remote
+Topsort - Software engineer - Full-time - Remote
 
 Topsort (topsort.com) is a leading retail media solution, enabling marketplaces and retailers to build out their own ad business with a strong emphasis on privacy - no third party cookies required.
 

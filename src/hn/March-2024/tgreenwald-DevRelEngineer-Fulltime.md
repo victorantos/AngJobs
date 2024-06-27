@@ -4,7 +4,7 @@ author:
   name: tgreenwald
   url: https://news.ycombinator.com/item?id=39572743
 ---
-Otterize (<a href="https:&#x2F;&#x2F;otterize.com" rel="nofollow">https:&#x2F;&#x2F;otterize.com</a>) | DevRel Engineer | REMOTE (US&#x2F;Canada&#x2F;Europe) | Full time
+Otterize (<a href="https:&#x2F;&#x2F;otterize.com" rel="nofollow">https:&#x2F;&#x2F;otterize.com</a>) - DevRel Engineer - REMOTE (US&#x2F;Canada&#x2F;Europe) - Full time
 
 We’re on a mission to simplify and streamline Workload Identity and Access Management for Kubernetes workloads, making it as easy as pushing code to Git.
 

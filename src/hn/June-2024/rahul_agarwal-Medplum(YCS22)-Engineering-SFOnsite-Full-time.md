@@ -4,7 +4,7 @@ author:
   name: rahul_agarwal
   url: https://news.ycombinator.com/item?id=40570971
 ---
-Medplum (YC S22) | Engineering | SF Onsite | Full-time
+Medplum (YC S22) - Engineering - SF Onsite - Full-time
 
 We&#x27;re an healthcare infra company that is untangling the gordian knot that is the U.S. healthcare system. We make an open-source platform that healthcare startups and hospitals alike can build on top of. We take care of the infrastructure, compliance, auth, interop, and data quality, so providers can focus on building amazing patient experiences.
 

@@ -4,7 +4,7 @@ author:
   name: peter-barker
   url: https://news.ycombinator.com/item?id=39563904
 ---
-10x Genomics | Senior Software Engineer, Fullstack | Remote (US)&#x2F;Onsite (Pleasanton, CA) | Full-time | <a href="https:&#x2F;&#x2F;10xgenomics.com" rel="nofollow">https:&#x2F;&#x2F;10xgenomics.com</a> | $TXG | 159k-239k + bonus + equity
+10x Genomics - Senior Software Engineer, Fullstack - Remote (US)&#x2F;Onsite (Pleasanton, CA) - Full-time - <a href="https:&#x2F;&#x2F;10xgenomics.com" rel="nofollow">https:&#x2F;&#x2F;10xgenomics.com</a> - $TXG - 159k-239k + bonus + equity
 
 Hi, my name is Peter, and I lead the Web team at 10x Genomics. If you want to work on a modern tech stack, on the cutting-edge of biology, while doing unambiguous good in the world, check us out.
 

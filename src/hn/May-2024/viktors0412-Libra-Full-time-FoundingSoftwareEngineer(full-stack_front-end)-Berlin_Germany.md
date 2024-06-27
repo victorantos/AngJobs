@@ -4,7 +4,7 @@ author:
   name: viktors0412
   url: https://news.ycombinator.com/item?id=40321547
 ---
-Libra | Full-time | Founding Software Engineer (full-stack, front-end) | Berlin, Germany | Onsite&#x2F;hybrid
+Libra - Full-time - Founding Software Engineer (full-stack, front-end) - Berlin, Germany - Onsite&#x2F;hybrid
 
 We build AI software to automate legal processes. Over 50% of all legal claims go unforced because of the high cost and difficulty of accessing legal services. We will change that by developing the next-generation of automated, AI-powered legal services.
 

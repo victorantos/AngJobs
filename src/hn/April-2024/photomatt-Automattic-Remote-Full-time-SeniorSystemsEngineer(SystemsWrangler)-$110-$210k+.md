@@ -4,7 +4,7 @@ author:
   name: photomatt
   url: https://news.ycombinator.com/item?id=39901496
 ---
-Automattic | Remote | Full-time | Senior Systems Engineer (Systems Wrangler) | $110-$210k+
+Automattic - Remote - Full-time - Senior Systems Engineer (Systems Wrangler) - $110-$210k+
 
 We&#x27;re looking for the world&#x27;s best systems engineers to help build and maintain the infrastructure that supports over a billion people each month across our entire line of products and services such as WordPress.com, WooCommerce, WordPress VIP, Jetpack, Tumblr, Texts.com, Day One, Pocket Casts and many more.
 

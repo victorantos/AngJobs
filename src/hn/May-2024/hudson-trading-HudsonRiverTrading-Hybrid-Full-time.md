@@ -4,7 +4,7 @@ author:
   name: hudson-trading
   url: https://news.ycombinator.com/item?id=40239280
 ---
-Hudson River Trading | Hybrid | Full-time
+Hudson River Trading - Hybrid - Full-time
 
 We’re a quantitative trading firm based in NYC that trades hundreds of millions of shares each day on over 200 markets worldwide. We use math and technology in everything we do; our talented developers, engineers, and programmers build complex models and systems that allow us to make automated trading decisions on global markets.
 

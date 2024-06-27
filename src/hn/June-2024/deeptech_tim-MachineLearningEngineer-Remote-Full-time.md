@@ -4,7 +4,7 @@ author:
   name: deeptech_tim
   url: https://news.ycombinator.com/item?id=40571863
 ---
-Machine Learning Engineer | <a href="https:&#x2F;&#x2F;deeptech.jobs" rel="nofollow">https:&#x2F;&#x2F;deeptech.jobs</a> | Remote | Full-time
+Machine Learning Engineer - <a href="https:&#x2F;&#x2F;deeptech.jobs" rel="nofollow">https:&#x2F;&#x2F;deeptech.jobs</a> - Remote - Full-time
 
 Deeptech Jobs is on a mission to revolutionize the recruitment process within the deep technology sectors. We&#x27;re building a platform that not only connects top-tier talent with groundbreaking companies but also fosters a thriving community around innovation in tech. We’re looking for a Machine Learning Engineer who is passionate about using their skills to make impactful tools accessible to technology professionals and companies alike.
 

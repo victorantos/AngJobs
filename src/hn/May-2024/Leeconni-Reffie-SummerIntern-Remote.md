@@ -4,7 +4,7 @@ author:
   name: Leeconni
   url: https://news.ycombinator.com/item?id=40239663
 ---
-Reffie | <a href="https:&#x2F;&#x2F;www.reffie.me&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.reffie.me&#x2F;</a> | Summer Intern | Remote
+Reffie - <a href="https:&#x2F;&#x2F;www.reffie.me&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.reffie.me&#x2F;</a> - Summer Intern - Remote
 
 Reffie is an early-stage startup building the next-generation workflow and data analytics platform for residential real estate owners, operators, and property managers. We are venture-backed with support from firms like Haystack, Trust, a16z and others.
 

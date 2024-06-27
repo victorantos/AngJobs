@@ -4,7 +4,7 @@ author:
   name: parmenid
   url: https://news.ycombinator.com/item?id=38845930
 ---
-eCellula | Remote (European Timezones) | Full-Time | <a href="https:&#x2F;&#x2F;ecellula.com" rel="nofollow">https:&#x2F;&#x2F;ecellula.com</a>
+eCellula - Remote (European Timezones) - Full-Time - <a href="https:&#x2F;&#x2F;ecellula.com" rel="nofollow">https:&#x2F;&#x2F;ecellula.com</a>
 
 eCellula is an early-stage, remote-first Life Science services company working with biotech, pharma and related customers worldwide.
 

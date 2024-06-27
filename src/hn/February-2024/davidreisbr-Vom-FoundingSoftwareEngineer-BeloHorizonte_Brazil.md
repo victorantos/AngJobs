@@ -4,7 +4,7 @@ author:
   name: davidreisbr
   url: https://news.ycombinator.com/item?id=39231183
 ---
-Vom | Founding Software Engineer | ONSITE (Hybrid with 2-3 times&#x2F;week in person) | Belo Horizonte, Brazil | <a href="https:&#x2F;&#x2F;vomdecision.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;vomdecision.com&#x2F;</a>
+Vom - Founding Software Engineer - ONSITE (Hybrid with 2-3 times&#x2F;week in person) - Belo Horizonte, Brazil - <a href="https:&#x2F;&#x2F;vomdecision.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;vomdecision.com&#x2F;</a>
 
 We are a recently founded start-up building a next-gen decision engine. I&#x27;m the CTO and have come from Google where I was a Sr Staff Eng.
 

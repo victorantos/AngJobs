@@ -4,7 +4,7 @@ author:
   name: muhammadusman
   url: https://news.ycombinator.com/item?id=39900508
 ---
-Numeral (<a href="https:&#x2F;&#x2F;numeralhq.com">https:&#x2F;&#x2F;numeralhq.com</a>) | Infrastructure Software Engineer | Remote (full time) | $150K - $200K
+Numeral (<a href="https:&#x2F;&#x2F;numeralhq.com">https:&#x2F;&#x2F;numeralhq.com</a>) - Infrastructure Software Engineer - Remote (full time) - $150K - $200K
 
 Numeral handles all aspects of sales tax from registration to remittance for e-commerce stores. We offer white-glove service so stores can get back to working on growing their business.
 

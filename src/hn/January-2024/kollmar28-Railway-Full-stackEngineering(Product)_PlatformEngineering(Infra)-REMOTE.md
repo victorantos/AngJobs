@@ -4,7 +4,7 @@ author:
   name: kollmar28
   url: https://news.ycombinator.com/item?id=38847308
 ---
-Railway | Full-stack Engineering (Product), Platform Engineering (Infra) | REMOTE | <a href="https:&#x2F;&#x2F;railway.app&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;railway.app&#x2F;careers</a>
+Railway - Full-stack Engineering (Product), Platform Engineering (Infra) - REMOTE - <a href="https:&#x2F;&#x2F;railway.app&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;railway.app&#x2F;careers</a>
 
 Tired of trying to beat kube into shape? Does writing YAML to ship code fill you with utter dread? Dream of a future where deploying software is simple, and you don&#x27;t need an army of infrastructure engineers to build that perfect janky bash script™ to make life easy?
 

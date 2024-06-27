@@ -4,7 +4,7 @@ author:
   name: glauringson
   url: https://news.ycombinator.com/item?id=40231784
 ---
-OddsJam | Remote | Growth Product Manager &amp; Product Designer
+OddsJam - Remote - Growth Product Manager &amp; Product Designer
 
 I&#x27;m Garrett, Head of Product at OddsJam, a leading sports betting startup dedicated to enhancing profitability for our users.
 

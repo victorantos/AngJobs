@@ -4,7 +4,7 @@ author:
   name: gtmtg
   url: https://news.ycombinator.com/item?id=38967305
 ---
-Actively | Software Engineers (LLM&#x2F;backend&#x2F;data infra, very product-y) &amp; Solutions Engineers (great data&#x2F;SQL chops, great at understanding customer problems, and strong engineer in general to automate work using LLMs&#x2F;internal tools) | Full-time | NYC | Onsite
+Actively - Software Engineers (LLM&#x2F;backend&#x2F;data infra, very product-y) &amp; Solutions Engineers (great data&#x2F;SQL chops, great at understanding customer problems, and strong engineer in general to automate work using LLMs&#x2F;internal tools) - Full-time - NYC - Onsite
 
 I&#x27;m one of the founders of Actively. We&#x27;re building best-in-class machine learning and LLM-powered scoring for outbound sales teams. Our first product lives in Salesforce, ingests data from a variety of sources (firmographics, intent signals, marketing interactions, and prior engagement, including unstructured call transcripts, email chains, and notes), and combines LLMs with structured models to tell sales reps who they should reach out to each day (and why) to be laser-focused.
 

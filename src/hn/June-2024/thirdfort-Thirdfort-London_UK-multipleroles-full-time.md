@@ -4,7 +4,7 @@ author:
   name: thirdfort
   url: https://news.ycombinator.com/item?id=40587285
 ---
-Thirdfort | London, UK | multiple roles | remote (within UK) or hybrid&#x2F;onsite | full-time
+Thirdfort - London, UK - multiple roles - remote (within UK) or hybrid&#x2F;onsite - full-time
 
 Hi everyone from the Thirdfort team! We’re a Series A startup on a mission to protect society from fraud and money laundering using a Cloud based SaaS platform. With fraud and money laundering skyrocketing, regulated professionals are struggling to keep pace with their compliance obligations. Thirdfort turns compliance into a competitive advantage, offering beautifully secure onboarding for regulated businesses operating across legal and property. We’ve already protected over 1.5 million people through life’s big transactions, with a core aim to protect many more.
 

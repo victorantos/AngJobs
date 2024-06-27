@@ -4,7 +4,7 @@ author:
   name: superic
   url: https://news.ycombinator.com/item?id=39937695
 ---
-BACtrack | Senior Python Engineer | Full-time | San Francisco | <a href="https:&#x2F;&#x2F;www.BACtrack.com" rel="nofollow">https:&#x2F;&#x2F;www.BACtrack.com</a>
+BACtrack - Senior Python Engineer - Full-time - San Francisco - <a href="https:&#x2F;&#x2F;www.BACtrack.com" rel="nofollow">https:&#x2F;&#x2F;www.BACtrack.com</a>
 
 We make breathalyzers from the ground up. Everything from the hardware and firmware to the software. If you were to go to your local drugstore or BestBuy&#x2F;Target&#x2F;etc to buy a breathalyzer, you&#x27;re buying one of ours. We are hiring for our software engineering team to build our next generation stack.
 

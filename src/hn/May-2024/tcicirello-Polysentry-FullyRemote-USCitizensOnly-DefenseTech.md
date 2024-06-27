@@ -4,7 +4,7 @@ author:
   name: tcicirello
   url: https://news.ycombinator.com/item?id=40241213
 ---
-Polysentry | Senior&#x2F;Lead Fullstack Engineer; Fullstack Engineer | Fully Remote | US Citizens Only | Defense Tech
+Polysentry - Senior&#x2F;Lead Fullstack Engineer; Fullstack Engineer - Fully Remote - US Citizens Only - Defense Tech
 
 Polysentry is a technology company that provides industry leading data discovery, classification and analysis solutions. Founded in San Francisco, CA in 2018, Polysentry has been building and deploying mission-ready AI-based platforms that meet rapidly evolving security needs. The company’s software solutions are built for corporate and government organizations.
 

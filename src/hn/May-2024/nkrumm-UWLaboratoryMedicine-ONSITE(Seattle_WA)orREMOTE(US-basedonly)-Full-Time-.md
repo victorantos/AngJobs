@@ -4,7 +4,7 @@ author:
   name: nkrumm
   url: https://news.ycombinator.com/item?id=40225796
 ---
-UW Laboratory Medicine | ONSITE (Seattle, WA) or REMOTE (US-based only) | Full-Time |
+UW Laboratory Medicine - ONSITE (Seattle, WA) or REMOTE (US-based only) - Full-Time -
 
 Our department maintains all clinical testing and laboratory operations at the UW Medical Center, from sample collection to analysis and final reporting. We employ over 1200 people and handle 30 million tests each year. In parallel, we research, develop and operationalize novel diagnostics in genomics, mass spectrometry, flow cytometry and automated imaging.
 

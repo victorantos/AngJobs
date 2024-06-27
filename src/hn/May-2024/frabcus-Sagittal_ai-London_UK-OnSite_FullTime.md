@@ -4,7 +4,7 @@ author:
   name: frabcus
   url: https://news.ycombinator.com/item?id=40225033
 ---
-Sagittal.ai | London, UK | On Site, Full Time | <a href="https:&#x2F;&#x2F;sagittal.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;sagittal.ai&#x2F;</a>
+Sagittal.ai - London, UK - On Site, Full Time - <a href="https:&#x2F;&#x2F;sagittal.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;sagittal.ai&#x2F;</a>
 
 We&#x27;re looking for an experienced Senior Software Engineer with interest and familiarity in Large Language Models, architectures and prompting techniques.
 

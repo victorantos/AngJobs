@@ -4,7 +4,7 @@ author:
   name: seanwd
   url: https://news.ycombinator.com/item?id=39226217
 ---
-Coremix | REMOTE | FREELANCE | Senior Software Engineer
+Coremix - REMOTE - FREELANCE - Senior Software Engineer
 
 We&#x27;re looking for several senior software engineers for the job description below.
 

@@ -4,7 +4,7 @@ author:
   name: neofyte
   url: https://news.ycombinator.com/item?id=40563892
 ---
-IDEO | Product &amp; Software | Chicago + Boston&#x2F;NYC | Hybrid | Full-time
+IDEO - Product &amp; Software - Chicago + Boston&#x2F;NYC - Hybrid - Full-time
 
 We are hiring for two software and product related roles out of our Chicago and Cambridge offices. The ideal candidate comes from a strong technical background shipping product, with a personal practice as a hacker&#x2F;creative-technologist tinkering with code, and can show up as a product leader looking to help lead and grow consulting projects related to digital product build, launch, and pilot.
 

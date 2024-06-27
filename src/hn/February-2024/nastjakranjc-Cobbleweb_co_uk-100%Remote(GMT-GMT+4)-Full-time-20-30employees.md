@@ -4,7 +4,7 @@ author:
   name: nastjakranjc
   url: https://news.ycombinator.com/item?id=39355626
 ---
-Cobbleweb.co.uk | Tech Lead (Nodejs&#x2F;React environment) | 100% Remote (GMT-GMT+4) | Full-time | 20-30 employees
+Cobbleweb.co.uk - Tech Lead (Nodejs&#x2F;React environment) - 100% Remote (GMT-GMT+4) - Full-time - 20-30 employees
 
 We are a bootstrapped and profitable business doubling in size. We have been designing and building high-growth marketplaces for more than 12 years. Our projects are technically complex with focus on user experience.
 

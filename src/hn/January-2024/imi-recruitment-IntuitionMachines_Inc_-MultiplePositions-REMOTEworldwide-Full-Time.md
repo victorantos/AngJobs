@@ -4,7 +4,7 @@ author:
   name: imi-recruitment
   url: https://news.ycombinator.com/item?id=38865738
 ---
-Intuition Machines, Inc. | Multiple Positions | REMOTE worldwide | Full-Time
+Intuition Machines, Inc. - Multiple Positions - REMOTE worldwide - Full-Time
 
 Intuition Machines utilizes AI&#x2F;ML to develop enterprise security products that serve hundreds of millions of users. Our engineering team is distributed worldwide, working on both backend architecture and data. We maintain simplicity - lightweight specifications, small teams, and rapid iteration. No unnecessary bureaucracy, just delivering exceptional products.
 

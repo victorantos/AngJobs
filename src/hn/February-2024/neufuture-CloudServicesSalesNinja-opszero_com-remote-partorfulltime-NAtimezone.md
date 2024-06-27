@@ -4,7 +4,7 @@ author:
   name: neufuture
   url: https://news.ycombinator.com/item?id=39236517
 ---
-Cloud Services Sales Ninja | opszero.com | remote | part or full time  | NA timezone
+Cloud Services Sales Ninja - opszero.com - remote - part or full time  - NA timezone
 
 opsZero is a K8 cloud infrastructure service provider. As Janitors of the Cloud™, we’re down here restarting nodes while the rest of the world is drinking mimosas. It’s not sexy, but we do it because we are passionate about supporting our customers who are building innovative products that bring a positive impact to the world.
 

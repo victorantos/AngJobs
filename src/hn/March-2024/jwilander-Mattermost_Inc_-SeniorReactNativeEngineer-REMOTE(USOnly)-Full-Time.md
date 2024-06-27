@@ -4,7 +4,7 @@ author:
   name: jwilander
   url: https://news.ycombinator.com/item?id=39680176
 ---
-Mattermost, Inc. | Senior React Native Engineer | REMOTE (US Only) | Full-Time
+Mattermost, Inc. - Senior React Native Engineer - REMOTE (US Only) - Full-Time
 
 At Mattermost we build an open core, chat and collaboration platform focused on making users with mission critical work more productive while also allowing our customers to self-deploy and have full control over their own data.
 

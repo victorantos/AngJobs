@@ -4,7 +4,7 @@ author:
   name: _davem
   url: https://news.ycombinator.com/item?id=39227230
 ---
-Thrive Global | Fully Remote, New York&#x2F;EU | Full-Time | Kotlin, GraphQL Eng, TL &amp; Designer roles
+Thrive Global - Fully Remote, New York&#x2F;EU - Full-Time - Kotlin, GraphQL Eng, TL &amp; Designer roles
 
 Senior Software Engineer - Tech Lead, Insights | $170k-$230k - <a href="https:&#x2F;&#x2F;ats.rippling.com&#x2F;thriveglobal&#x2F;jobs&#x2F;e67a14f5-be75-479c-abba-21204fdb4386" rel="nofollow">https:&#x2F;&#x2F;ats.rippling.com&#x2F;thriveglobal&#x2F;jobs&#x2F;e67a14f5-be75-479...</a>
 

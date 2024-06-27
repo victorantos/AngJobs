@@ -4,7 +4,7 @@ author:
   name: jerrygoyal
   url: https://news.ycombinator.com/item?id=40232481
 ---
-ChatGPT Writer | React Developer | Remote &#x2F; India | India Timezone | <a href="https:&#x2F;&#x2F;chatgptwriter.ai&#x2F;jobs&#x2F;react-dev" rel="nofollow">https:&#x2F;&#x2F;chatgptwriter.ai&#x2F;jobs&#x2F;react-dev</a>
+ChatGPT Writer - React Developer - Remote &#x2F; India - India Timezone - <a href="https:&#x2F;&#x2F;chatgptwriter.ai&#x2F;jobs&#x2F;react-dev" rel="nofollow">https:&#x2F;&#x2F;chatgptwriter.ai&#x2F;jobs&#x2F;react-dev</a>
 
 # Hiring a React Developer for my AI-based SaaS tool, ChatGPT Writer.
 

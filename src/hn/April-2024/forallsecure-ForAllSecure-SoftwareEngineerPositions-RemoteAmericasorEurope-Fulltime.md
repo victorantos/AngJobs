@@ -4,7 +4,7 @@ author:
   name: forallsecure
   url: https://news.ycombinator.com/item?id=39983534
 ---
-ForAllSecure | Software Engineer Positions | Remote Americas or Europe | Full time | mayhem.security&#x2F;careers
+ForAllSecure - Software Engineer Positions - Remote Americas or Europe - Full time - mayhem.security&#x2F;careers
 
 We are an application security company looking for 2 Software Engineers to join our team:
 

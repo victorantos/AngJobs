@@ -4,7 +4,7 @@ author:
   name: bfirsh
   url: https://news.ycombinator.com/item?id=40564957
 ---
-Replicate (YC W20) | San Francisco, CA + Remote | <a href="https:&#x2F;&#x2F;replicate.com&#x2F;">https:&#x2F;&#x2F;replicate.com&#x2F;</a>
+Replicate (YC W20) - San Francisco, CA + Remote - <a href="https:&#x2F;&#x2F;replicate.com&#x2F;">https:&#x2F;&#x2F;replicate.com&#x2F;</a>
 
 Replicate makes it easy to run AI in the cloud. You can run a big library of open source models with a few lines of code, or deploy your own models at scale.
 

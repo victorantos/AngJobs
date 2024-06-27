@@ -4,7 +4,7 @@ author:
   name: cientifico
   url: https://news.ycombinator.com/item?id=39566781
 ---
-Justwatch| Go React ML SRE engineers | Berlin | Full-time | justwatch.com
+Justwatch- Go React ML SRE engineers - Berlin - Full-time - justwatch.com
 
 If you saw an ad for a movie we probably did it.
 Justwatch is the biggest and most up to date streaming guide.

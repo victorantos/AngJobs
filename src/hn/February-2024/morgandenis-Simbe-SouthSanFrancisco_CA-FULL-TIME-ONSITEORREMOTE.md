@@ -4,7 +4,7 @@ author:
   name: morgandenis
   url: https://news.ycombinator.com/item?id=39229876
 ---
-Simbe | South San Francisco, CA | FULL-TIME | ONSITE OR REMOTE
+Simbe - South San Francisco, CA - FULL-TIME - ONSITE OR REMOTE
 
 Simbe Robotics is building Tally, an autonomous mobile robot for the world&#x27;s retail industry. Tally helps in-store teams by collecting and analyzing on-shelf product data and providing actionable insights.
 

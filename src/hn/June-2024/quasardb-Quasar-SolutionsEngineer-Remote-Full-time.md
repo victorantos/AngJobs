@@ -4,7 +4,7 @@ author:
   name: quasardb
   url: https://news.ycombinator.com/item?id=40565068
 ---
-Quasar | Solutions Engineer | Remote | Full-time | <a href="https:&#x2F;&#x2F;www.quasar.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.quasar.ai&#x2F;</a>
+Quasar - Solutions Engineer - Remote - Full-time - <a href="https:&#x2F;&#x2F;www.quasar.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.quasar.ai&#x2F;</a>
 
 Quasar is a timeseries platform that helps our customers make smarter decisions.
 

@@ -4,7 +4,7 @@ author:
   name: shootforthemoon
   url: https://news.ycombinator.com/item?id=39566905
 ---
-Coder | Remote first - US&#x2F;Canada | Open-Source Sr. Full Stack Engineer | Full time, perm
+Coder - Remote first - US&#x2F;Canada - Open-Source Sr. Full Stack Engineer - Full time, perm
 
 4 - 7 years of experience in Go, Typescript, React | We love seeing active open-source GitHub and side project work | Base: $140K to $180K&#x2F;yr DOE &amp; location
 

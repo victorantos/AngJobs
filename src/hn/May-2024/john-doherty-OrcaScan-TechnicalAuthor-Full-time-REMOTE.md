@@ -4,7 +4,7 @@ author:
   name: john-doherty
   url: https://news.ycombinator.com/item?id=40255683
 ---
-Orca Scan | Technical Author | Full-time | REMOTE | <a href="https:&#x2F;&#x2F;orcascan.com" rel="nofollow">https:&#x2F;&#x2F;orcascan.com</a>
+Orca Scan - Technical Author - Full-time - REMOTE - <a href="https:&#x2F;&#x2F;orcascan.com" rel="nofollow">https:&#x2F;&#x2F;orcascan.com</a>
 
 Orca Scan lets companies build enterprise barcode systems without code.
 

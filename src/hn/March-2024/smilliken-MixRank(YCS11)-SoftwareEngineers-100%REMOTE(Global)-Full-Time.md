@@ -4,7 +4,7 @@ author:
   name: smilliken
   url: https://news.ycombinator.com/item?id=39563630
 ---
-MixRank (YC S11) | Software Engineers | 100% REMOTE (Global) | Full-Time
+MixRank (YC S11) - Software Engineers - 100% REMOTE (Global) - Full-Time
 
 MixRank processes petabytes of data every month from web crawling. We have hundreds of customers using our data products including Google, Amazon, Facebook, Intel, and Adobe, across industries Sales, Marketing, Finance, and Security.
 

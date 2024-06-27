@@ -4,7 +4,7 @@ author:
   name: tomreeseNNI
   url: https://news.ycombinator.com/item?id=40649143
 ---
-Network Ninja | Vue.js Developer | Full-Time | Remote | <a href="https:&#x2F;&#x2F;networkninja.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;networkninja.com&#x2F;</a>
+Network Ninja - Vue.js Developer - Full-Time - Remote - <a href="https:&#x2F;&#x2F;networkninja.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;networkninja.com&#x2F;</a>
 
 Small company, big projects. Network Ninja supports 1.2 million users and 500+ enterprise clients across three tailored products.
 

@@ -4,7 +4,7 @@ author:
   name: tmostak
   url: https://news.ycombinator.com/item?id=39221331
 ---
-HEAVY.AI | SQL Analyst&#x2F;Wrangler | Part-time or Full-time | Remote
+HEAVY.AI - SQL Analyst&#x2F;Wrangler - Part-time or Full-time - Remote
 
 HEAVY.AI builds a GPU-accelerated analytics platform that allows users to interactively query and visualize billions of records of data in milliseconds.
 

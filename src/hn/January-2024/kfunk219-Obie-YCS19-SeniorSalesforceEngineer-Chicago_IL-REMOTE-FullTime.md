@@ -4,7 +4,7 @@ author:
   name: kfunk219
   url: https://news.ycombinator.com/item?id=38919130
 ---
-Obie | YC S19 | Senior Salesforce Engineer | Chicago, IL | REMOTE | Full Time
+Obie - YC S19 - Senior Salesforce Engineer - Chicago, IL - REMOTE - Full Time
 
 Obie is looking for passionate, talented senior salesforce engineer to join us. The Salesforce Developer is a highly technical position, and will be responsible for leading the design and development of custom solutions that include application processing platforms for programs. The role is primarily back-end Salesforce development, however, the individual in this role must be able to perform front-end development duties as needed (minimum of 3 years of front-end developing experience).
 

@@ -4,7 +4,7 @@ author:
   name: roblaszczak
   url: https://news.ycombinator.com/item?id=40563291
 ---
-SlashID | Principal Backend Engineer | REMOTE (EU compatible time-zones) | Full Time
+SlashID - Principal Backend Engineer - REMOTE (EU compatible time-zones) - Full Time
 
 We’re an early stage startup building an identity platform. Our goal? Bring authentication for users, machines and APIs under the same (secure) umbrella (aka one identity platform to rule them all).
 We’re looking for people who can design, build, and maintain distributed systems at scale. You’re also driven, product-oriented and enjoy getting your hands dirty; extra points for experience in security.

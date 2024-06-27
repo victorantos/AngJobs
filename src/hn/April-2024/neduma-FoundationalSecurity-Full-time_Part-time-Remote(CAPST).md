@@ -4,7 +4,7 @@ author:
   name: neduma
   url: https://news.ycombinator.com/item?id=39900670
 ---
-Foundational Security | Full-time, Part-time | Remote (CA PST)
+Foundational Security - Full-time, Part-time - Remote (CA PST)
 
 Foundational Security is stealth mode research and consulting corporation helping clients achieve rapid regulatory compliance and cybersecurity resilience. Foundational Security is seeking software engineers with consulting experience to join our growing Security Engineering team.
 

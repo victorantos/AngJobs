@@ -4,7 +4,7 @@ author:
   name: 3laws_hiring
   url: https://news.ycombinator.com/item?id=39565341
 ---
-3Laws Robotics | Robotics Engineer, Embedded SW Engineer | LA or SF Bay Area | Remote&#x2F;Hybrid | Full-time
+3Laws Robotics - Robotics Engineer, Embedded SW Engineer - LA or SF Bay Area - Remote&#x2F;Hybrid - Full-time
 
 New Startup in the Robotics Space Looking for Robotics and Embedded Software Engineers!
 

@@ -4,7 +4,7 @@ author:
   name: cube2222
   url: https://news.ycombinator.com/item?id=40224597
 ---
-Spacelift | Remote | Europe | Full-time | Senior Software Engineer | $80k-$120k
+Spacelift - Remote - Europe - Full-time - Senior Software Engineer - $80k-$120k
 
 We&#x27;re a VC-funded startup building an automation platform for Infrastructure-as-Code, adding a Policy-as-Code layer above it, in order to make IaC usable in bigger companies, where you have to take care of state consistency, selective permissions, a usable git flow, etc.
 

@@ -4,7 +4,7 @@ author:
   name: jroes
   url: https://news.ycombinator.com/item?id=39217619
 ---
-Snowflake (Streamlit) | Bellevue&#x2F;San Mateo | Open Source | Full-time | <a href="https:&#x2F;&#x2F;www.streamlit.io" rel="nofollow">https:&#x2F;&#x2F;www.streamlit.io</a>
+Snowflake (Streamlit) - Bellevue&#x2F;San Mateo - Open Source - Full-time - <a href="https:&#x2F;&#x2F;www.streamlit.io" rel="nofollow">https:&#x2F;&#x2F;www.streamlit.io</a>
 
 We&#x27;re hiring in many engineering roles on the Streamlit team, and many neighboring teams at Snowflake. At highest priority, I&#x27;m looking for an Engineering Manager to lead our Streamlit Open Source team. Streamlit is a popular open-source project that&#x27;s changing the way people visualize data and build interactive apps. We&#x27;re seeking someone who loves UI&#x2F;UX + Data, a background in managing full-stack teams, and a drive to innovate in the open-source space.
 

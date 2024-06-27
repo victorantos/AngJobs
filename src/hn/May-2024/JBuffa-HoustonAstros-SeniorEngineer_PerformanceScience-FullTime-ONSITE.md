@@ -4,7 +4,7 @@ author:
   name: JBuffa
   url: https://news.ycombinator.com/item?id=40235391
 ---
-Houston Astros | Senior Engineer, Performance Science | Full Time | ONSITE
+Houston Astros - Senior Engineer, Performance Science - Full Time - ONSITE
 
 The Houston Astros are looking for someone to take 3D time series pose estimation data and derive meaningful insights to help player performance and evaluation.  Ideal candidates would have strong backgrounds in Python, Physics&#x2F;Geometry&#x2F;Algebra.
 

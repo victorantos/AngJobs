@@ -4,7 +4,7 @@ author:
   name: xata-aimee
   url: https://news.ycombinator.com/item?id=39563423
 ---
-Xata (<a href="https:&#x2F;&#x2F;xata.io" rel="nofollow">https:&#x2F;&#x2F;xata.io</a>) | Fully Remote: based in Europe or East Coast USA | Asynchronous | Full-time
+Xata (<a href="https:&#x2F;&#x2F;xata.io" rel="nofollow">https:&#x2F;&#x2F;xata.io</a>) - Fully Remote: based in Europe or East Coast USA - Asynchronous - Full-time
 
 Xata is building a modern cloud database on top of PostgreSQL. We offer features like: automatic scaling, branches, zero-downtime migrations, a built-in search engine, analytics, and more.
 

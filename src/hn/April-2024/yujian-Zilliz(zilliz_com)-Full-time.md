@@ -4,7 +4,7 @@ author:
   name: yujian
   url: https://news.ycombinator.com/item?id=39902156
 ---
-Zilliz (zilliz.com) | Hybrid&#x2F;ONSITE (SF, NYC) | Full-time
+Zilliz (zilliz.com) - Hybrid&#x2F;ONSITE (SF, NYC) - Full-time
 
 I am part of the hiring team for DevRel
 

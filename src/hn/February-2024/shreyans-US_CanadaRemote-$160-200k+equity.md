@@ -4,7 +4,7 @@ author:
   name: shreyans
   url: https://news.ycombinator.com/item?id=39236172
 ---
-Maven (<a href="https:&#x2F;&#x2F;maven.com" rel="nofollow">https:&#x2F;&#x2F;maven.com</a>) | Senior&#x2F;Staff Software Engineer (full-stack) | US, Canada Remote | $160-200k + equity
+Maven (<a href="https:&#x2F;&#x2F;maven.com" rel="nofollow">https:&#x2F;&#x2F;maven.com</a>) - Senior&#x2F;Staff Software Engineer (full-stack) - US, Canada Remote - $160-200k + equity
 
 Maven is the best way to teach and learn critical career skills after college, with the largest marketplace of expert-led tech and business cohort-based courses.
 

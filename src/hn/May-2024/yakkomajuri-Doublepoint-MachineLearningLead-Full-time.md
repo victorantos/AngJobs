@@ -4,7 +4,7 @@ author:
   name: yakkomajuri
   url: https://news.ycombinator.com/item?id=40235577
 ---
-Doublepoint | Helsinki &#x2F; Remote | Machine Learning Lead | Full-time
+Doublepoint - Helsinki &#x2F; Remote - Machine Learning Lead - Full-time
 
 We&#x27;re creating cutting edge gesture detection algorithms for smartwatches and have recently started looking for an experienced ML Engineer to lead our ML team.
 

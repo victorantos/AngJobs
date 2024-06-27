@@ -4,7 +4,7 @@ author:
   name: yakkomajuri
   url: https://news.ycombinator.com/item?id=39898990
 ---
-Doublepoint | Helsinki &#x2F; Remote | Multiple roles | Full-time
+Doublepoint - Helsinki &#x2F; Remote - Multiple roles - Full-time
 
 We&#x27;re creating cutting edge gesture detection algorithms for smartwatches.
 

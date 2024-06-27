@@ -4,7 +4,7 @@ author:
   name: bizzleDawg
   url: https://news.ycombinator.com/item?id=40563329
 ---
-Neuronostics | Senior Engineer | Python | Bristol, UK (Hybrid) | up-to £85K
+Neuronostics - Senior Engineer - Python - Bristol, UK (Hybrid) - up-to £85K
 
 <a href="https:&#x2F;&#x2F;neuronostics.com" rel="nofollow">https:&#x2F;&#x2F;neuronostics.com</a> is revolutionising neurological disease diagnosis and prognosis through innovative algorithms and software.
 

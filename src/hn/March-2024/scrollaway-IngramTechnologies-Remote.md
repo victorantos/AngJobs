@@ -4,7 +4,7 @@ author:
   name: scrollaway
   url: https://news.ycombinator.com/item?id=39567065
 ---
-Ingram Technologies | Remote
+Ingram Technologies - Remote
 
 Ingram (<a href="https:&#x2F;&#x2F;ingram.tech&#x2F;" rel="nofollow">https:&#x2F;&#x2F;ingram.tech&#x2F;</a>) is an AI R&amp;D lab based in Brussels, Belgium. We have a hybrid, remote-first team with cells in Paris &amp; Brussels, and individuals scattered across 4 continents.
 

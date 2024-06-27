@@ -4,7 +4,7 @@ author:
   name: adamvig
   url: https://news.ycombinator.com/item?id=40224279
 ---
-Owner.com | Remote | Full-time
+Owner.com - Remote - Full-time
 
 Owner.com’s mission is to help local business owners survive by leveling the playing field – by giving them an all-in-one solution to take back control of their business and truly own their online presence. The Owner platform powers everything from their SEO-optimized website to their online ordering system, while providing powerful email marketing and loyalty programs, reputation management, recruiting solutions, and more.
 

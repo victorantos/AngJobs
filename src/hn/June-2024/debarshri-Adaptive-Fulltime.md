@@ -4,7 +4,7 @@ author:
   name: debarshri
   url: https://news.ycombinator.com/item?id=40564116
 ---
-Adaptive | On Site (Atlanta&#x2F;Mumbai&#x2F;Utrecht) | Full time | <a href="https:&#x2F;&#x2F;adaptivezero.com" rel="nofollow">https:&#x2F;&#x2F;adaptivezero.com</a>
+Adaptive - On Site (Atlanta&#x2F;Mumbai&#x2F;Utrecht) - Full time - <a href="https:&#x2F;&#x2F;adaptivezero.com" rel="nofollow">https:&#x2F;&#x2F;adaptivezero.com</a>
 
 Adaptive is a fast growing seed-stage data security startup focussed on access and protection. We work with various fintech, healthcare and security companies.
 

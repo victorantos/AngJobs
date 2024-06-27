@@ -4,7 +4,7 @@ author:
   name: edavidson-LA
   url: https://news.ycombinator.com/item?id=40231075
 ---
-LeagueApps | Office in NYC, or Remote almost anywhere in US | Full-time | <a href="https:&#x2F;&#x2F;leagueapps.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;leagueapps.com&#x2F;</a>
+LeagueApps - Office in NYC, or Remote almost anywhere in US - Full-time - <a href="https:&#x2F;&#x2F;leagueapps.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;leagueapps.com&#x2F;</a>
 
 LeagueApps is a youth sports management SaaS. We help youth sports organizers run their business, providing the tools they need to manage registration, scheduling, payments, and more. We believe that every kid should have the opportunity to play, and we provide 1% of our revenue to youth sports accessibility.
 

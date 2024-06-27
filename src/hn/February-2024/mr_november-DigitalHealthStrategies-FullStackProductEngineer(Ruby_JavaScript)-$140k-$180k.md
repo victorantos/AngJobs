@@ -4,7 +4,7 @@ author:
   name: mr_november
   url: https://news.ycombinator.com/item?id=39226136
 ---
-Digital Health Strategies | Full Stack Product Engineer (Ruby, JavaScript) | REMOTE (USA or Canada); Washington, DC; NYC; Vancouver, BC | <a href="https:&#x2F;&#x2F;digitalhealthstrategies.com" rel="nofollow">https:&#x2F;&#x2F;digitalhealthstrategies.com</a> | $140k - $180k
+Digital Health Strategies - Full Stack Product Engineer (Ruby, JavaScript) - REMOTE (USA or Canada); Washington, DC; NYC; Vancouver, BC - <a href="https:&#x2F;&#x2F;digitalhealthstrategies.com" rel="nofollow">https:&#x2F;&#x2F;digitalhealthstrategies.com</a> - $140k - $180k
 
 We are a series A health tech and data company working with large health systems to grow patient volumes, connect patients with the care they need, and, in the case of our non-profit clients, raise money from grateful patients.
 

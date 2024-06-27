@@ -4,7 +4,7 @@ author:
   name: sverredanger
   url: https://news.ycombinator.com/item?id=39227753
 ---
-Livv Health | Machine Learning Engineer | REMOTE (~CET timezone) | Full-time
+Livv Health - Machine Learning Engineer - REMOTE (~CET timezone) - Full-time
 
 We&#x27;re building a global AI-driven health record. The premise is straightforward: the future of healthcare depends on continuous, data-informed care, with patient-owned health records at its core. It&#x27;s a significant shift, aiming to empower individuals over their health data.
 

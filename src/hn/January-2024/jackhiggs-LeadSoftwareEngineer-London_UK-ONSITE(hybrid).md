@@ -4,7 +4,7 @@ author:
   name: jackhiggs
   url: https://news.ycombinator.com/item?id=38844101
 ---
-JP Morgan Chase &amp; Co | Lead Software Engineer | London, UK | ONSITE (hybrid)
+JP Morgan Chase &amp; Co - Lead Software Engineer - London, UK - ONSITE (hybrid)
 
 I&#x27;m hiring for an experienced functional Scala developer to help us with intellectually challenging projects in the areas of metadata and model driven engineering. We build bespoke code generators, numerous codecs, data model authoring and storage platforms amongst other things. We&#x27;re re-engineering our platforms from on-prem cloud to AWS next year.
 

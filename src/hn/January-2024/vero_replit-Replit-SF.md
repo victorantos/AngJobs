@@ -4,7 +4,7 @@ author:
   name: vero_replit
   url: https://news.ycombinator.com/item?id=38858971
 ---
-Replit | SF | Full-Time
+Replit - SF - Full-Time
 Current hiring priorities include:
 
 * AI Engineer

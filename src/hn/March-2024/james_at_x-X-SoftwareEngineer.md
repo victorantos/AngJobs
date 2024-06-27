@@ -4,7 +4,7 @@ author:
   name: james_at_x
   url: https://news.ycombinator.com/item?id=39569548
 ---
-X | Software Engineer
+X - Software Engineer
 
 We are hiring software engineers to help integrate xAI’s technology into X - prompt engineering, deploying models at scale, vector database deployment etc. This is an outrageous opportunity to interweave cutting edge AI from one of the strongest teams in the world into a consumer, planet scale app.
 

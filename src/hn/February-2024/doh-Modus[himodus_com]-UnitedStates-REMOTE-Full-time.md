@@ -4,7 +4,7 @@ author:
   name: doh
   url: https://news.ycombinator.com/item?id=39221146
 ---
-Modus [himodus.com] | United States | REMOTE | Full-time | $150-220k + very early shares, employee #1-5
+Modus [himodus.com] - United States - REMOTE - Full-time - $150-220k + very early shares, employee #1-5
 
 Modus is a continuous workforce compliance and planning platform that enables various employees throughout the organization to stay compliant with labor laws, visualize and execute workforce plans, and make data-driven decisions to ensure fairness and equity. You can think of us as Vanta for HR. Our mission is integrity. We&#x27;ve all been through the pains of levels, benchmarks, compensation inequities. Why can&#x27;t HR tech be intuitive, easy to use, and encompass workflows for everyone in the org?
 

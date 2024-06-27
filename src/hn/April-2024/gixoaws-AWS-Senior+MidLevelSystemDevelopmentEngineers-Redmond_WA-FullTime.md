@@ -4,7 +4,7 @@ author:
   name: gixoaws
   url: https://news.ycombinator.com/item?id=39898755
 ---
-AWS | Senior + Mid Level System Development Engineers | <a href="https:&#x2F;&#x2F;aws.amazon.com&#x2F;emr&#x2F;" rel="nofollow">https:&#x2F;&#x2F;aws.amazon.com&#x2F;emr&#x2F;</a> | Redmond, WA | Full Time
+AWS - Senior + Mid Level System Development Engineers - <a href="https:&#x2F;&#x2F;aws.amazon.com&#x2F;emr&#x2F;" rel="nofollow">https:&#x2F;&#x2F;aws.amazon.com&#x2F;emr&#x2F;</a> - Redmond, WA - Full Time
 
 Amazon Elastic MapReduce (EMR) is the industry-leading cloud big data platform for petabyte-scale data processing, interactive analytics, and machine learning using open-source frameworks such as Apache Spark, Apache Hive, Presto and HBase. Amazon Athena is a serverless query service that simplifies analyzing data directly in Amazon S3 using standard SQL.
 

@@ -4,7 +4,7 @@ author:
   name: lfranchi
   url: https://news.ycombinator.com/item?id=39900983
 ---
-Pilot (<a href="https:&#x2F;&#x2F;pilot.com" rel="nofollow">https:&#x2F;&#x2F;pilot.com</a>) | San Francisco (Onsite, Hybrid) | Full time
+Pilot (<a href="https:&#x2F;&#x2F;pilot.com" rel="nofollow">https:&#x2F;&#x2F;pilot.com</a>) - San Francisco (Onsite, Hybrid) - Full time
 
 Pilot runs your business’s financial back office so you don’t have to: our aim is to provide our customers with the same superpowers as large companies with full finance teams — superpowers that include having a deep understanding of financial health of the business, the machinery to constantly improve it, and the predictive abilities to thoughtfully plan for the future. We do this at a fraction of the cost a large company would pay for this, by delivering these capabilities through powerful software.
 

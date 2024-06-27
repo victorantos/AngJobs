@@ -4,7 +4,7 @@ author:
   name: victorantos
   url: https://news.ycombinator.com/item?id=39571500
 ---
-AngJobs | AvaloniaUI Full-Stack Engineer | REMOTE | Flexibile times
+AngJobs - AvaloniaUI Full-Stack Engineer - REMOTE - Flexibile times
 
 <a href="https:&#x2F;&#x2F;github.com&#x2F;victorantos&#x2F;AngJobs">https:&#x2F;&#x2F;github.com&#x2F;victorantos&#x2F;AngJobs</a>
 

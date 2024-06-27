@@ -4,7 +4,7 @@ author:
   name: metashapes
   url: https://news.ycombinator.com/item?id=40226706
 ---
-Taxdoo | Staff Software Engineer &amp; Staff Cloud Platform Engineer | Hamburg, Germany (or remote EU) | Full Time
+Taxdoo - Staff Software Engineer &amp; Staff Cloud Platform Engineer - Hamburg, Germany (or remote EU) - Full Time
 
 We at Taxdoo build the gold standard of automated VAT and accounting for online merchants. Taxes you say? I know, sounds boring, but think again! How about this:
 

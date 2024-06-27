@@ -4,7 +4,7 @@ author:
   name: buro9
   url: https://news.ycombinator.com/item?id=39219059
 ---
-Grafana Labs | Engineers, SREs, Managers | REMOTE | Full-time | <a href="https:&#x2F;&#x2F;grafana.com&#x2F;about&#x2F;careers&#x2F;open-positions&#x2F;" rel="nofollow">https:&#x2F;&#x2F;grafana.com&#x2F;about&#x2F;careers&#x2F;open-positions&#x2F;</a>
+Grafana Labs - Engineers, SREs, Managers - REMOTE - Full-time - <a href="https:&#x2F;&#x2F;grafana.com&#x2F;about&#x2F;careers&#x2F;open-positions&#x2F;" rel="nofollow">https:&#x2F;&#x2F;grafana.com&#x2F;about&#x2F;careers&#x2F;open-positions&#x2F;</a>
 
 We make that dashboard thing you&#x27;ve all seen... we also make and operate massively scalable distributed databases for various telemetry, do lots of OSS things (+1K Github repos!), and having become the leader at observability in general we&#x27;re now focusing on things like application observability, correlating data &#x2F; exemplars, and creating new and easier ways to explore observability data... also, those huge massively distributed databases :)
 

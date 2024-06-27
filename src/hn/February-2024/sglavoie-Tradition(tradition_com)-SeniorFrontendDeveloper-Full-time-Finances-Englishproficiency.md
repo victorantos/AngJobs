@@ -4,7 +4,7 @@ author:
   name: sglavoie
   url: https://news.ycombinator.com/item?id=39222719
 ---
-Tradition (tradition.com) | Senior Frontend Developer | Full-time | REMOTE*: _must_ be located in Mexico City &#x2F; Bogotá (Colombia) | Finances | English proficiency
+Tradition (tradition.com) - Senior Frontend Developer - Full-time - REMOTE*: _must_ be located in Mexico City &#x2F; Bogotá (Colombia) - Finances - English proficiency
 
 We&#x27;re on the lookout for a Frontend Software Developer who&#x27;s passionate about crafting efficient and visually appealing software solutions. Dive into cutting-edge projects with us and push the boundaries of front-end technologies!
 

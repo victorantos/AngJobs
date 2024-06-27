@@ -4,7 +4,7 @@ author:
   name: jbhatab
   url: https://news.ycombinator.com/item?id=40358618
 ---
-Distru | REMOTE WORLDWIDE | Senior Fullstack Product Engineer | <a href="https:&#x2F;&#x2F;distru.com" rel="nofollow">https:&#x2F;&#x2F;distru.com</a> | 4.9 Glassdoor stars
+Distru - REMOTE WORLDWIDE - Senior Fullstack Product Engineer - <a href="https:&#x2F;&#x2F;distru.com" rel="nofollow">https:&#x2F;&#x2F;distru.com</a> - 4.9 Glassdoor stars
 
 I&#x27;m the CEO at Distru, we’re a PROFITABLE SaaS ERP for the Cannabis industry hiring product-minded engineers!
 

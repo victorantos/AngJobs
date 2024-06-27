@@ -4,7 +4,7 @@ author:
   name: bill_02109
   url: https://news.ycombinator.com/item?id=39898650
 ---
-40GRID - Full-time Remote | Senior Angular Frontend
+40GRID - Full-time Remote - Senior Angular Frontend
 
 Our mission is to empower field-service companies to grow by modernizing and automating their business operations. Every company we work with has unrealized potentials — our task is to build the platform that empowers growth and helps them unlock opportunities.
 

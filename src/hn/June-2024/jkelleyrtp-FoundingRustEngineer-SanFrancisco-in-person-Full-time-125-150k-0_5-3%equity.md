@@ -4,7 +4,7 @@ author:
   name: jkelleyrtp
   url: https://news.ycombinator.com/item?id=40567852
 ---
-Dioxus Labs (<a href="http:&#x2F;&#x2F;dioxuslabs.com">http:&#x2F;&#x2F;dioxuslabs.com</a>) | Founding Rust Engineer | San Francisco | in-person | Full-time | 125-150k | 0.5-3% equity
+Dioxus Labs (<a href="http:&#x2F;&#x2F;dioxuslabs.com">http:&#x2F;&#x2F;dioxuslabs.com</a>) - Founding Rust Engineer - San Francisco - in-person - Full-time - 125-150k - 0.5-3% equity
 
 I&#x27;m Jonathan, the creator of Dioxus (YC S23). Dioxus is a popular crossplatform GUI library for Rust that, imo, is the easiest way to ship apps that are beautiful, fast, and robust.
 

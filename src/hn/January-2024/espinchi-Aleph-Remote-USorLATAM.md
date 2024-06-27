@@ -4,7 +4,7 @@ author:
   name: espinchi
   url: https://news.ycombinator.com/item?id=38847503
 ---
-Aleph | Remote - US or LATAM | getaleph.com&#x2F;careers
+Aleph - Remote - US or LATAM - getaleph.com&#x2F;careers
 
 Open positions: Software Engineer, Product Designer, Head of People, Founding Growth Marketer
 

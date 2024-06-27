@@ -4,7 +4,7 @@ author:
   name: resiros
   url: https://news.ycombinator.com/item?id=40564460
 ---
-Agenta | Hybrid (Berlin) or Remote (CET +&#x2F;- 5) | Multiple Roles | Full Time
+Agenta - Hybrid (Berlin) or Remote (CET +&#x2F;- 5) - Multiple Roles - Full Time
 
 Agenta is an open-source LLM developer platform that provides all the necessary tools for rapidly building reliable LLM applications. Features include prompt management, evaluation, human feedback, and observability. Find out more about us at <a href="https:&#x2F;&#x2F;github.com&#x2F;agenta-ai&#x2F;agenta">https:&#x2F;&#x2F;github.com&#x2F;agenta-ai&#x2F;agenta</a>
 

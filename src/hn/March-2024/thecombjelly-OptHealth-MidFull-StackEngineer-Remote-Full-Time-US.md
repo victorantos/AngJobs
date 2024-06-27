@@ -4,7 +4,7 @@ author:
   name: thecombjelly
   url: https://news.ycombinator.com/item?id=39564527
 ---
-Opt Health | Mid Full-Stack Engineer | Remote | Full-Time | US
+Opt Health - Mid Full-Stack Engineer - Remote - Full-Time - US
 
 We are a small startup focused on creating optimized health outcomes by connecting patients to doctors and supported by regular lab testing. I&#x27;m hiring to build out our core engineering team, which I lead.
 

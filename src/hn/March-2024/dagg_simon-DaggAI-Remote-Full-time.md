@@ -4,7 +4,7 @@ author:
   name: dagg_simon
   url: https://news.ycombinator.com/item?id=39600912
 ---
-Dagg AI | Remote | Full-time
+Dagg AI - Remote - Full-time
 
 Must live in the Nordic Countries, preferably Sweden.
 

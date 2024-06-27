@@ -4,7 +4,7 @@ author:
   name: nerder92
   url: https://news.ycombinator.com/item?id=39971452
 ---
-MAAT | Founding Engineer | Remote (EU + UK) | Full-time | Salary + Equity
+MAAT - Founding Engineer - Remote (EU + UK) - Full-time - Salary + Equity
 
 We are on a mission to enhance gym management and connect the sports community.  We are looking for a Senior Engineer eager to grow into a CTO role.
 

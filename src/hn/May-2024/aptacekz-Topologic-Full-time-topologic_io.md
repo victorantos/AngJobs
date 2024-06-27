@@ -4,7 +4,7 @@ author:
   name: aptacekz
   url: https://news.ycombinator.com/item?id=40237989
 ---
-Topologic | Senior&#x2F;Staff&#x2F;Principal Frontend Engineer; multiple roles | On-site; remote | Full-time |  Boston, MA, US; Paris, FR; remote | topologic.io
+Topologic - Senior&#x2F;Staff&#x2F;Principal Frontend Engineer; multiple roles - On-site; remote - Full-time -  Boston, MA, US; Paris, FR; remote - topologic.io
 
 Over one third of apparel produced is never sold: Topologic’s mission is to eliminate this disastrous overproduction and waste by producing exactly to demand. To do this, we’re reinventing apparel manufacturing, from CAD&#x2F;CAM software to novel intelligent machines. We are attacking a massive $2T industry, are already generating B2B revenue, and are backed with $10m from leading VCs and CAD insiders. We remain in relative stealth.
 

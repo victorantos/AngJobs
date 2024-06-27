@@ -4,7 +4,7 @@ author:
   name: gmjosack
   url: https://news.ycombinator.com/item?id=39565543
 ---
-puzzmo.com | NYC | Full-time hybrid | Junior Frontend Engineer
+puzzmo.com - NYC - Full-time hybrid - Junior Frontend Engineer
 
 Come build web-based games with Zach Gage (Knotwords, Good Sudoku) and Orta Therox (TypeScript, Artsy) and a small team of designers and engineers. We’re pushing what’s possible with web tech for games: help making existing games even more native-feeling, and help us ship a steady stream of brand new games to our new daily games site.
 

@@ -4,7 +4,7 @@ author:
   name: dylan-brinc
   url: https://news.ycombinator.com/item?id=39218708
 ---
-BRINC Drones | <a href="https:&#x2F;&#x2F;brincdrones.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;brincdrones.com&#x2F;</a> | Onsite in Seattle | Full-time | $150k-$225k + equity
+BRINC Drones - <a href="https:&#x2F;&#x2F;brincdrones.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;brincdrones.com&#x2F;</a> - Onsite in Seattle - Full-time - $150k-$225k + equity
 
 BRINC Drones helps first responders with products that quickly and effectively respond to emergencies. Our technology lets first responders get eyes and ears on what&#x27;s happening in indoor structures when it&#x27;s too dangerous for people to enter - whether it be a fire, medical emergency, violence, or search and rescue. In March 2023, we released the Lemur 2, our latest and most advanced drone, and we started shipping it to customers the same year.
 

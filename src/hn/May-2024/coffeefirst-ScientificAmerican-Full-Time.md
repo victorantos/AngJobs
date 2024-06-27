@@ -4,7 +4,7 @@ author:
   name: coffeefirst
   url: https://news.ycombinator.com/item?id=40239186
 ---
-Scientific American | <a href="https:&#x2F;&#x2F;www.scientificamerican.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.scientificamerican.com&#x2F;</a> | Full-Time | NYC or DC, &quot;flexible hybrid&quot;
+Scientific American - <a href="https:&#x2F;&#x2F;www.scientificamerican.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.scientificamerican.com&#x2F;</a> - Full-Time - NYC or DC, &quot;flexible hybrid&quot;
 
 <i>Scientific American</i>, yes, the legendary science magazine, is looking for its next Director of DevOps. We’re in the midst of a huge renovation job—we spent the last year replacing the entire failing legacy tech stack and building out the team. Next up: transforming the business into a modern digital media company with a big focus on audience growth and engagement. This person will also work closely with the data team on a variety of greenfield efforts that at least I think are pretty cool.
 

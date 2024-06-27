@@ -4,7 +4,7 @@ author:
   name: trev9065
   url: https://news.ycombinator.com/item?id=39566157
 ---
-ShareWillow | sharewillow.com | NYC - ONSITE (Union Square) | Full-Time | No Visa
+ShareWillow - sharewillow.com - NYC - ONSITE (Union Square) - Full-Time - No Visa
 
 We are building the platform for small businesses to launch and manage their profit sharing programs for their employees. We believe that profit sharing is the best way for many businesses to retain and attract employees.
 

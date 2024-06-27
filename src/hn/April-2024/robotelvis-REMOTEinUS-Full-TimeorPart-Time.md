@@ -4,7 +4,7 @@ author:
   name: robotelvis
   url: https://news.ycombinator.com/item?id=39899331
 ---
-New Public (<a href="https:&#x2F;&#x2F;newpublic.org" rel="nofollow">https:&#x2F;&#x2F;newpublic.org</a>) | REMOTE in US | Full-Time or Part-Time
+New Public (<a href="https:&#x2F;&#x2F;newpublic.org" rel="nofollow">https:&#x2F;&#x2F;newpublic.org</a>) - REMOTE in US - Full-Time or Part-Time
 
 We are hiring a software engineer to work on Public Service Incubator.
 

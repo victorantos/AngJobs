@@ -4,7 +4,7 @@ author:
   name: limpanz
   url: https://news.ycombinator.com/item?id=39902768
 ---
-Jämtkraft |  data-engineer Azure |
+Jämtkraft -  data-engineer Azure -
 
 Jämtkraft is a swedish energy company active in all electricity markets in Sweden. Jämtkraft is a diverse business with business areas in district heating, electricity grid and power trading.
 

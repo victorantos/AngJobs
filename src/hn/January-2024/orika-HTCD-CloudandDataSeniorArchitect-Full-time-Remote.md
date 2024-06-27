@@ -4,7 +4,7 @@ author:
   name: orika
   url: https://news.ycombinator.com/item?id=38876513
 ---
-HTCD | Cloud and Data Senior Architect | Full-time | Remote
+HTCD - Cloud and Data Senior Architect - Full-time - Remote
 
 HTCD is a startup building a SaaS product, specializing in AI-driven cloud security and FinOps. We offer proactive threat detection, cost management, and compliance adherence, with a focus on data sovereignty and efficient cloud utilization.
 

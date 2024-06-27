@@ -4,7 +4,7 @@ author:
   name: davefol
   url: https://news.ycombinator.com/item?id=39221459
 ---
-Trio Labs | <a href="https:&#x2F;&#x2F;www.triolabs.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.triolabs.com&#x2F;</a> | Morrisville, NC USA | Full Time | ONSITE | Full Stack Developer
+Trio Labs - <a href="https:&#x2F;&#x2F;www.triolabs.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.triolabs.com&#x2F;</a> - Morrisville, NC USA - Full Time - ONSITE - Full Stack Developer
 
 We are a high-growth, product-focused manufacturer, bringing high-value medical devices to market using a proprietary Additive Manufacturing technology called Resin Infused Powder Lithography (RIPL).
 

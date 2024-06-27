@@ -4,7 +4,7 @@ author:
   name: 0xferruccio
   url: https://news.ycombinator.com/item?id=38855593
 ---
-June | Remote (CET preferred) | Full time | €80-130k - 0.50% - 1.50% equity | <a href="https:&#x2F;&#x2F;www.ycombinator.com&#x2F;companies&#x2F;june&#x2F;jobs">https:&#x2F;&#x2F;www.ycombinator.com&#x2F;companies&#x2F;june&#x2F;jobs</a>
+June - Remote (CET preferred) - Full time - €80-130k - 0.50% - 1.50% equity - <a href="https:&#x2F;&#x2F;www.ycombinator.com&#x2F;companies&#x2F;june&#x2F;jobs">https:&#x2F;&#x2F;www.ycombinator.com&#x2F;companies&#x2F;june&#x2F;jobs</a>
 
 We&#x27;re a small team of 6 from Intercom, CircleCI and Grofers.
 

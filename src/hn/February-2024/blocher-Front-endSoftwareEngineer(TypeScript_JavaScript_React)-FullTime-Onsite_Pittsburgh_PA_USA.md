@@ -4,7 +4,7 @@ author:
   name: blocher
   url: https://news.ycombinator.com/item?id=39275843
 ---
-Front-end Software Engineer (TypeScript, JavaScript, React) | Full Time | Onsite, Pittsburgh, PA, USA
+Front-end Software Engineer (TypeScript, JavaScript, React) - Full Time - Onsite, Pittsburgh, PA, USA
 
 <a href="https:&#x2F;&#x2F;internal-careers.mlaglobal.com&#x2F;us&#x2F;en&#x2F;job&#x2F;327&#x2F;Front-end-Software-Engineer" rel="nofollow">https:&#x2F;&#x2F;internal-careers.mlaglobal.com&#x2F;us&#x2F;en&#x2F;job&#x2F;327&#x2F;Front-e...</a>
 

@@ -4,7 +4,7 @@ author:
   name: PB_Vision
   url: https://news.ycombinator.com/item?id=40569193
 ---
-PB Vision | Senior Python Engineer | REMOTE | Full-time | <a href="https:&#x2F;&#x2F;pb.vision&#x2F;" rel="nofollow">https:&#x2F;&#x2F;pb.vision&#x2F;</a>
+PB Vision - Senior Python Engineer - REMOTE - Full-time - <a href="https:&#x2F;&#x2F;pb.vision&#x2F;" rel="nofollow">https:&#x2F;&#x2F;pb.vision&#x2F;</a>
 
 At PB Vision, we are revolutionizing how pickleball players hone their skills. Our innovative computer vision digests gameplay footage into high-fidelity, granular data which captures the nuances of each moment of the game. This data empowers players to improve in unprecedented ways.
 

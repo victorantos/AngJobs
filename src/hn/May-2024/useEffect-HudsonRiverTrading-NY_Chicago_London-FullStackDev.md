@@ -4,7 +4,7 @@ author:
   name: useEffect
   url: https://news.ycombinator.com/item?id=40229208
 ---
-Hudson River Trading | NY, Chicago, London | Full Stack Dev
+Hudson River Trading - NY, Chicago, London - Full Stack Dev
 
 At HRT we are mathematicians, computer scientists, statisticians, physicists and engineers. We research and develop automated trading algorithms using advanced mathematical techniques.
 

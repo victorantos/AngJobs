@@ -4,7 +4,7 @@ author:
   name: poetaster
   url: https://news.ycombinator.com/item?id=38847634
 ---
-Veritably.ai | 100% Remote, anywhere | Founding engineers sought
+Veritably.ai - 100% Remote, anywhere - Founding engineers sought
 
 Veritably is, as yet, a bunch of prototyping looking to become a company. The grand scheme is to become a general document validation&#x2F;verification automation pipeline. Think, ISO standards compliance.
 

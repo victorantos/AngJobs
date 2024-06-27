@@ -4,7 +4,7 @@ author:
   name: rafamvc
   url: https://news.ycombinator.com/item?id=40229770
 ---
-Procore Technologies | Engineering Roles | Austin, Bengaluru, Cairo, Prague, Pune, Remote | Full-time
+Procore Technologies - Engineering Roles - Austin, Bengaluru, Cairo, Prague, Pune, Remote - Full-time
 
 We are really looking for folks with strong Ruby&#x2F;Rails experience. We have one of the largest rails codebase in the world.
 

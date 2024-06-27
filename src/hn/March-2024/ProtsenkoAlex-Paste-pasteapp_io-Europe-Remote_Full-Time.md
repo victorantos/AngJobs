@@ -4,7 +4,7 @@ author:
   name: ProtsenkoAlex
   url: https://news.ycombinator.com/item?id=39566216
 ---
-Paste | pasteapp.io | Senior iOS&#x2F;macOS Engineer | Europe | Remote, Full-Time
+Paste - pasteapp.io - Senior iOS&#x2F;macOS Engineer - Europe - Remote, Full-Time
 
 We’re a small, distributed team passionate about creating products that are simple, efficient, and beautiful. We’re the creators of Paste, a productivity app for Mac and iOS devices that enhances the system clipboard. Paste allows users to store, search, and organize everything they copy—including code snippets, design assets, email templates, and more—across all devices.
 

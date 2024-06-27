@@ -4,7 +4,7 @@ author:
   name: amalaret
   url: https://news.ycombinator.com/item?id=39222649
 ---
-Koltin | Principal Engineer | Remote | Full -time| <a href="https:&#x2F;&#x2F;koltin.mx" rel="nofollow">https:&#x2F;&#x2F;koltin.mx</a>
+Koltin - Principal Engineer - Remote - Full -time- <a href="https:&#x2F;&#x2F;koltin.mx" rel="nofollow">https:&#x2F;&#x2F;koltin.mx</a>
 
 At Koltin, a profitable company that grew 8.5x last year, we&#x27;re dedicated to transforming elderly care through tailored health memberships. Our mission is to redefine care for our loved ones, ensuring they lead healthy, independent lives. Koltin, the first in Mexico to provide insurance coverage for up to 85 years old, prioritizes healthy aging through innovative remote support services.
 

@@ -4,7 +4,7 @@ author:
   name: parf02
   url: https://news.ycombinator.com/item?id=39223175
 ---
-TandemAI | Senior Front-End Engineer | HYBRID in New York City | <a href="https:&#x2F;&#x2F;tandemai.com" rel="nofollow">https:&#x2F;&#x2F;tandemai.com</a>
+TandemAI - Senior Front-End Engineer - HYBRID in New York City - <a href="https:&#x2F;&#x2F;tandemai.com" rel="nofollow">https:&#x2F;&#x2F;tandemai.com</a>
 
 TandemAI is focused on lowering the barrier to entry to the most advanced tools in drug discovery. We designed our fully integrated pre-clinical drug discovery platform to empower researchers to discover therapeutic candidates faster and more efficiently.
 

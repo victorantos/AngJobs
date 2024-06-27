@@ -4,7 +4,7 @@ author:
   name: infinitetape
   url: https://news.ycombinator.com/item?id=38843692
 ---
-Continua AI | ML Engineers | NYC, SF Bay Area, Seattle | <a href="http:&#x2F;&#x2F;continua.ai" rel="nofollow">http:&#x2F;&#x2F;continua.ai</a>
+Continua AI - ML Engineers - NYC, SF Bay Area, Seattle - <a href="http:&#x2F;&#x2F;continua.ai" rel="nofollow">http:&#x2F;&#x2F;continua.ai</a>
 
 Stack: Python | C# | GCloud | HuggingFace
 

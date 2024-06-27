@@ -4,7 +4,7 @@ author:
   name: auros
   url: https://news.ycombinator.com/item?id=40229932
 ---
-Auros Global | Multiple roles | Remote | Full Time | <a href="https:&#x2F;&#x2F;auros.global" rel="nofollow">https:&#x2F;&#x2F;auros.global</a>
+Auros Global - Multiple roles - Remote - Full Time - <a href="https:&#x2F;&#x2F;auros.global" rel="nofollow">https:&#x2F;&#x2F;auros.global</a>
 
 Auros is a leading cryptocurrency market making and high-frequency trading firm operating across all major venues and instruments. A 24&#x2F;7&#x2F;365 business, it possesses a world-class team of trading and engineering talent across 15 geographies globally, combining remote work and physical offices in Hong Kong and New York.
 

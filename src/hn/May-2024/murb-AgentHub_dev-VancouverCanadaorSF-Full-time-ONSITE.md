@@ -4,7 +4,7 @@ author:
   name: murb
   url: https://news.ycombinator.com/item?id=40228436
 ---
-AgentHub.dev | Vancouver Canada or SF | Full-time | ONSITE | Founding Frontend&#x2F;UX Engineer
+AgentHub.dev - Vancouver Canada or SF - Full-time - ONSITE - Founding Frontend&#x2F;UX Engineer
 
 AgentHub&#x27;s a platform for automating complex tasks with AI via a drag and drop interface.
 

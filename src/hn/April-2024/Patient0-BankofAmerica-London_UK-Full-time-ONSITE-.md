@@ -4,7 +4,7 @@ author:
   name: Patient0
   url: https://news.ycombinator.com/item?id=39914778
 ---
-Bank of America | London, UK | Full-time | ONSITE |
+Bank of America - London, UK - Full-time - ONSITE -
 
 We are seeking a highly skilled and innovative strategist &#x2F; technologist to join our dynamic cross asset strategy team. As a key member of the team you will be responsible for developing and implementing advanced trading strategies and responding to end-user requests. Our team writes programs in Python that run on the Bank’s strategic platform, Quartz, to answer questions that relate to the entire global markets trading business. We work outside of the traditional IT organisation, based on the trading floor in London.
 

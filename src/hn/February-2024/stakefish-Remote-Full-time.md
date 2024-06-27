@@ -4,7 +4,7 @@ author:
   name: stakefish
   url: https://news.ycombinator.com/item?id=39318678
 ---
-f2pool &amp; stakefish | Remote | Full-time | <a href="https:&#x2F;&#x2F;stake.fish&#x2F;en&#x2F;" rel="nofollow">https:&#x2F;&#x2F;stake.fish&#x2F;en&#x2F;</a>
+f2pool &amp; stakefish - Remote - Full-time - <a href="https:&#x2F;&#x2F;stake.fish&#x2F;en&#x2F;" rel="nofollow">https:&#x2F;&#x2F;stake.fish&#x2F;en&#x2F;</a>
 
 We are building the infrastructure backbone of the blockchain ecosystem and paving the way to a decentralized future. f2pool supports PoW blockchains while stakefish support PoS networks.
 

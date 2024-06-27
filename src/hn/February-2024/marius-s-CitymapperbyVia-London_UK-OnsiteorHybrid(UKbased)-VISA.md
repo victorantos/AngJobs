@@ -4,7 +4,7 @@ author:
   name: marius-s
   url: https://news.ycombinator.com/item?id=39221336
 ---
-Citymapper by Via | London, UK | Onsite or Hybrid (UK based) | VISA
+Citymapper by Via - London, UK - Onsite or Hybrid (UK based) - VISA
 
 We have built a best in class B2C app for public transportation since 2010 which works in over 400 cities around the world. In March 2023 we joined Via to continue our mission to making cities usable. <a href="https:&#x2F;&#x2F;citymapper.com&#x2F;news&#x2F;2582&#x2F;citymapper-joins-via" rel="nofollow">https:&#x2F;&#x2F;citymapper.com&#x2F;news&#x2F;2582&#x2F;citymapper-joins-via</a>
 

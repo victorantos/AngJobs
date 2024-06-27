@@ -4,7 +4,7 @@ author:
   name: materializelabs
   url: https://news.ycombinator.com/item?id=40224690
 ---
-Materialize Labs (<a href="https:&#x2F;&#x2F;materializelabs.com" rel="nofollow">https:&#x2F;&#x2F;materializelabs.com</a>) | Product Manager | Remote | Full-time | $100-130k USD
+Materialize Labs (<a href="https:&#x2F;&#x2F;materializelabs.com" rel="nofollow">https:&#x2F;&#x2F;materializelabs.com</a>) - Product Manager - Remote - Full-time - $100-130k USD
 
 At Materialize, we craft bespoke digital products, from UI&#x2F;UX design to technical development. We&#x27;re on the hunt for a Product Manager to oversee product development for our variety of clients, spanning web, mobile, and AI application development.
 

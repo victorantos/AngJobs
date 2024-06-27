@@ -4,7 +4,7 @@ author:
   name: frinxor
   url: https://news.ycombinator.com/item?id=39220182
 ---
-Cribl Inc | Remote, US, CANADA | FULL-TIME | REMOTE
+Cribl Inc - Remote, US, CANADA - FULL-TIME - REMOTE
 
 Cribl makes open observability a reality, giving customers the freedom and flexibility to make choices instead of compromises. Our suite of products puts the customer back in control of their telemetry data, giving them the power to choose what is best for their organization, the control to find and get the data where they want, and the flexibility to put it in any format needed.
 

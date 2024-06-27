@@ -4,7 +4,7 @@ author:
   name: myalloy1
   url: https://news.ycombinator.com/item?id=39565743
 ---
-Myalloy | Remote | Senior Frontend Engineer (Contractor or Full-time for US)
+Myalloy - Remote - Senior Frontend Engineer (Contractor or Full-time for US)
 
 Alloy is on a mission to revolutionize menopause healthcare for women over 40. Recognizing the lack of effective solutions for the 47 million women entering menopause annually, Alloy provides evidence-based, holistic solutions and expertise to help women feel fantastic during this phase of life. Founded by Anne Fulenwider and Monica Molenaar, whose personal experience with surgical menopause led her to seek better solutions, Alloy is dedicated to offering credible information, safe treatments, and a supportive community for women navigating menopause. Join us in empowering women to reclaim their health and vitality.
 

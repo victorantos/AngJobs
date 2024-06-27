@@ -4,7 +4,7 @@ author:
   name: blc56
   url: https://news.ycombinator.com/item?id=40229091
 ---
-NexHealth | REMOTE ok, SF preferred | Full Stack Software Engineer | <a href="https:&#x2F;&#x2F;nexhealth.com" rel="nofollow">https:&#x2F;&#x2F;nexhealth.com</a>
+NexHealth - REMOTE ok, SF preferred - Full Stack Software Engineer - <a href="https:&#x2F;&#x2F;nexhealth.com" rel="nofollow">https:&#x2F;&#x2F;nexhealth.com</a>
 
 We’re on a mission to accelerate innovation in healthcare. We’re doing this by connecting patients, doctors, and developers. We’re the first to fully automate the integration with health record systems, paving the way for a new generation of disruptive healthtech companies.
 

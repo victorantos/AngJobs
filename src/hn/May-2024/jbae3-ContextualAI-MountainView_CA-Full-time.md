@@ -4,7 +4,7 @@ author:
   name: jbae3
   url: https://news.ycombinator.com/item?id=40230303
 ---
-Contextual AI | Mountain View, CA | Onsite&#x2F;Hybrid | Full-time
+Contextual AI - Mountain View, CA - Onsite&#x2F;Hybrid - Full-time
 
 We&#x27;re hiring for multiple roles including:
 

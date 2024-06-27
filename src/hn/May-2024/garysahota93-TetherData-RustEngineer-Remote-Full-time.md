@@ -4,7 +4,7 @@ author:
   name: garysahota93
   url: https://news.ycombinator.com/item?id=40228668
 ---
-Tether Data | Rust Engineer | Remote | Full-time
+Tether Data - Rust Engineer - Remote - Full-time
 
 Tether Data (<a href="https:&#x2F;&#x2F;www.tetherdata.io&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.tetherdata.io&#x2F;</a>) is a no-code data movement &#x2F; ETL platform built for operations leaders in Go-To-Market orgs (Sales, Marketing, Customer Success, etc).
 

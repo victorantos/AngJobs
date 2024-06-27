@@ -4,7 +4,7 @@ author:
   name: powertoolstech
   url: https://news.ycombinator.com/item?id=38843009
 ---
-Powertools Technologies | Junior&#x2F;Senior Engineer | Lisbon, Portugal | Full-time | ONSITE
+Powertools Technologies - Junior&#x2F;Senior Engineer - Lisbon, Portugal - Full-time - ONSITE
 
 &gt; Looking for a senior engineer for work on software related to Electronic Design Automation. Candidate should have some experience with EDA software (Cadence Virtuoso, Siemens Calibre, Synopsys Design Compiler, etc), ideally including plugin development. Experienced Software Developers are more than welcome to apply.
 

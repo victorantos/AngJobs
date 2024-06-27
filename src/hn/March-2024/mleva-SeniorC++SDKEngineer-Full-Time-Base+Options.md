@@ -4,7 +4,7 @@ author:
   name: mleva
   url: https://news.ycombinator.com/item?id=39622115
 ---
-VIAM -- NYC (Hybrid&#x2F;Flexible)| Senior C++ SDK Engineer | Full-Time | Base + Options
+VIAM -- NYC (Hybrid&#x2F;Flexible)- Senior C++ SDK Engineer - Full-Time - Base + Options
 
 Viam is a comprehensive open-source platform that simplifies the building, monitoring, and data management of smart machines.
 

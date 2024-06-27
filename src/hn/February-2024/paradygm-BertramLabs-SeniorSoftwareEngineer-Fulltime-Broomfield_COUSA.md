@@ -4,7 +4,7 @@ author:
   name: paradygm
   url: https://news.ycombinator.com/item?id=39218265
 ---
-Bertram Labs | Senior Software Engineer | Full time | Hybrid&#x2F;onsite | Broomfield, CO USA
+Bertram Labs - Senior Software Engineer - Full time - Hybrid&#x2F;onsite - Broomfield, CO USA
 
 Bertram Labs is a dedicated team of software engineers and marketing professionals that work on projects for our portfolio companies. Our portfolio includes companies in Business Services, Consumer, and Industrials verticals. We enable technology and drive growth through digital marketing, e-commerce, big data and analytics, application development and internal and external platform optimization.
 

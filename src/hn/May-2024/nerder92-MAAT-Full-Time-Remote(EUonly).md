@@ -4,7 +4,7 @@ author:
   name: nerder92
   url: https://news.ycombinator.com/item?id=40235534
 ---
-MAAT | Full-Time | Product Design&#x2F;UX Research | Remote (EU only)
+MAAT - Full-Time - Product Design&#x2F;UX Research - Remote (EU only)
 
 We are building the biggest and more connected space for sports communities online starting from the BJJ community. We list more then 25k members as of today and we are growing very fast!
 

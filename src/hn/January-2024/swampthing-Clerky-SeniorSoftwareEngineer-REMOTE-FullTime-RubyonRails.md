@@ -4,7 +4,7 @@ author:
   name: swampthing
   url: https://news.ycombinator.com/item?id=38922132
 ---
-Clerky | Senior Software Engineer | REMOTE | Full Time | Ruby on Rails
+Clerky - Senior Software Engineer - REMOTE - Full Time - Ruby on Rails
 
 Clerky is the most popular way for high-growth technology startups to form, and we&#x27;re also used by tons of top-tier startups for hiring and fundraising. We&#x27;re launching powerful enterprise-grade software to helping attorneys and companies collaborate. We&#x27;ve invested a lot in architecture, maintainability, and testing, giving us a significant advantage as we build out functionality that founders and attorneys can currently only dream of.
 

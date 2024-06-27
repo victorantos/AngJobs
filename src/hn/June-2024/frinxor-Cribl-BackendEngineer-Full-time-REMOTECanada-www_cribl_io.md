@@ -4,7 +4,7 @@ author:
   name: frinxor
   url: https://news.ycombinator.com/item?id=40567019
 ---
-Cribl | Backend Engineer | Full-time | REMOTE Canada | www.cribl.io
+Cribl - Backend Engineer - Full-time - REMOTE Canada - www.cribl.io
 
 Senior, Principal Backend Engineers
 

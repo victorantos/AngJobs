@@ -4,7 +4,7 @@ author:
   name: fscherer
   url: https://news.ycombinator.com/item?id=38852166
 ---
-Cleary.ai | Berlin, Germany (on-site) | Full-time | Founding Engineer
+Cleary.ai - Berlin, Germany (on-site) - Full-time - Founding Engineer
 
 We’re hiring our 2nd &amp; 3rd founding engineer. We are looking for Fullstack JS &amp; Backend&#x2F;ML Python Engineers (on-site in Berlin) and offer real equity far above market standards.
 

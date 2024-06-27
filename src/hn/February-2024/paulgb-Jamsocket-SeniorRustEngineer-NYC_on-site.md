@@ -4,7 +4,7 @@ author:
   name: paulgb
   url: https://news.ycombinator.com/item?id=39221249
 ---
-Jamsocket | Senior Rust Engineer | NYC, on-site
+Jamsocket - Senior Rust Engineer - NYC, on-site
 
 Jamsocket is a platform for deploying WebSocket applications at scale. Think of it as AWS Lambda, but for WebSockets. We start ephemeral processes on demand, and keep them alive for as long as there is a connection to them.
 

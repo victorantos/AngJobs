@@ -4,7 +4,7 @@ author:
   name: terpimost
   url: https://news.ycombinator.com/item?id=40563357
 ---
-antithesis.com | Vienna, VA, USA | Onsite | Full-Time
+antithesis.com - Vienna, VA, USA - Onsite - Full-Time
 
 Multiple jobs available at <a href="https:&#x2F;&#x2F;antithesis.com&#x2F;company&#x2F;careers&#x2F;" rel="nofollow">https:&#x2F;&#x2F;antithesis.com&#x2F;company&#x2F;careers&#x2F;</a> (Software, Consulting, ML), but this is a hot one:
 

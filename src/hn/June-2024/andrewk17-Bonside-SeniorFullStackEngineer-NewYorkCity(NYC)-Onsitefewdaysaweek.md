@@ -4,7 +4,7 @@ author:
   name: andrewk17
   url: https://news.ycombinator.com/item?id=40563499
 ---
-Bonside | Senior Full Stack Engineer | New York City (NYC) | Onsite few days a week | <a href="https:&#x2F;&#x2F;bonside.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;bonside.com&#x2F;</a>
+Bonside - Senior Full Stack Engineer - New York City (NYC) - Onsite few days a week - <a href="https:&#x2F;&#x2F;bonside.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;bonside.com&#x2F;</a>
 
 Bonside is an NYC-based fintech startup providing financing to brick-and-mortar businesses (<a href="https:&#x2F;&#x2F;techcrunch.com&#x2F;2023&#x2F;06&#x2F;07&#x2F;bonside-growth-capital-brick-and-mortar-fintech" rel="nofollow">https:&#x2F;&#x2F;techcrunch.com&#x2F;2023&#x2F;06&#x2F;07&#x2F;bonside-growth-capital-bri...</a>). We are looking to hire an experienced full-stack engineer to join as a founding member. Bonside has already deployed over 5 million dollars to brick-and-mortars in less than a year and is on track to more than double that in the coming months.
 

@@ -4,7 +4,7 @@ author:
   name: gobrana
   url: https://news.ycombinator.com/item?id=38886203
 ---
-Doist | Backend Engineer | Remote-first | Full-time | Learn more &amp; apply (through January 22): <a href="https:&#x2F;&#x2F;doist.com&#x2F;careers&#x2F;24A7864499-backend-engineer" rel="nofollow">https:&#x2F;&#x2F;doist.com&#x2F;careers&#x2F;24A7864499-backend-engineer</a>
+Doist - Backend Engineer - Remote-first - Full-time - Learn more &amp; apply (through January 22): <a href="https:&#x2F;&#x2F;doist.com&#x2F;careers&#x2F;24A7864499-backend-engineer" rel="nofollow">https:&#x2F;&#x2F;doist.com&#x2F;careers&#x2F;24A7864499-backend-engineer</a>
 
 Doist’s mission is to empower people with simple yet powerful tools.
 

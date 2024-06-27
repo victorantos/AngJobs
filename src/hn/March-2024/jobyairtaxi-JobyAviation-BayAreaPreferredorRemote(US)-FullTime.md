@@ -4,7 +4,7 @@ author:
   name: jobyairtaxi
   url: https://news.ycombinator.com/item?id=39585244
 ---
-Joby Aviation | Bay Area Preferred or Remote (US) | Full Time | <a href="https:&#x2F;&#x2F;joby.aero" rel="nofollow">https:&#x2F;&#x2F;joby.aero</a>
+Joby Aviation - Bay Area Preferred or Remote (US) - Full Time - <a href="https:&#x2F;&#x2F;joby.aero" rel="nofollow">https:&#x2F;&#x2F;joby.aero</a>
 
 Located in Northern California, the team at Joby Aviation is driven by our goal of creating an affordable, all-electric air transportation system. Imagine a piloted air taxi that takes off vertically, then quietly carries you and your fellow passengers over the congested city streets below, enabling you to spend more time with the people and places that matter most. Since 2009, our team has worked steadily to make this dream a reality. We’ve designed and tested many generations of prototype aircraft capable of serving in a network of electric air taxis. We’re looking for talented, committed individuals to join our team as we push onwards toward certifying the Joby aircraft with the Federal Aviation Administration, scaling our manufacturing, and preparing to launch commercial service in 2025.
 

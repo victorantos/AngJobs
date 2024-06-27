@@ -4,7 +4,7 @@ author:
   name: wsxiaoys
   url: https://news.ycombinator.com/item?id=40251322
 ---
-TabbyML | <a href="https:&#x2F;&#x2F;tabbyml.com" rel="nofollow">https:&#x2F;&#x2F;tabbyml.com</a> | Software Engineer (Rust) &#x2F; Product Engineer – Full-Time | Remote
+TabbyML - <a href="https:&#x2F;&#x2F;tabbyml.com" rel="nofollow">https:&#x2F;&#x2F;tabbyml.com</a> - Software Engineer (Rust) &#x2F; Product Engineer – Full-Time - Remote
 
 Tabby strives to become the AI Intelligence Stack for the entire development lifecycle. We are a fully distributed, all-remote team.
 

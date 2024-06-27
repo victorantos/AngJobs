@@ -4,7 +4,7 @@ author:
   name: lpnoel1
   url: https://news.ycombinator.com/item?id=39375047
 ---
-Dialogue.co | Senior Software Engineer; Staff Software Engineer | ONSITE | Montreal
+Dialogue.co - Senior Software Engineer; Staff Software Engineer - ONSITE - Montreal
 
 We’re in the business of caring. As Canada&#x27;s leading virtual care provider, we’re committed to helping millions of individuals improve their health and well-being.
 

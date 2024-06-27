@@ -4,7 +4,7 @@ author:
   name: cx0der
   url: https://news.ycombinator.com/item?id=40572076
 ---
-Aurora Energy Research | Lead&#x2F;Senior Software Engineer | Oxford UK, Gurugram India | Full-time | Hybrid Onsite | <a href="https:&#x2F;&#x2F;auroraer.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;auroraer.com&#x2F;</a>
+Aurora Energy Research - Lead&#x2F;Senior Software Engineer - Oxford UK, Gurugram India - Full-time - Hybrid Onsite - <a href="https:&#x2F;&#x2F;auroraer.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;auroraer.com&#x2F;</a>
 
 We have openings for Software Engineers in Oxford and Gurugram. Our tech Stack is mainly Python, Typescript, MySQL. Details of the openings and links to apply are:
 

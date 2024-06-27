@@ -4,7 +4,7 @@ author:
   name: coneill91
   url: https://news.ycombinator.com/item?id=40235075
 ---
-Tenable Network Security | Full-Time | Senior Research Engineer | Hybrid | Dublin, Ireland
+Tenable Network Security - Full-Time - Senior Research Engineer - Hybrid - Dublin, Ireland
 
 Tenable is the Exposure Management company. 44,000 organizations around the globe rely on Tenable to understand and reduce cyber risk. Our global employees support 65 percent of the Fortune 500, 45 percent of the Global 2000, and large government agencies. Come be part of our journey!
 

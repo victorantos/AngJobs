@@ -4,7 +4,7 @@ author:
   name: espinchi
   url: https://news.ycombinator.com/item?id=40226577
 ---
-Aleph | REMOTE PT - ET Hours | Software Engineer, Eng Manager, AE | <a href="https:&#x2F;&#x2F;www.getaleph.com">https:&#x2F;&#x2F;www.getaleph.com</a>
+Aleph - REMOTE PT - ET Hours - Software Engineer, Eng Manager, AE - <a href="https:&#x2F;&#x2F;www.getaleph.com">https:&#x2F;&#x2F;www.getaleph.com</a>
 
 Aleph is redefining the world of Financial Planning &amp; Analysis (FP&amp;A). We operate in a well-defined software category with a multi-billion TAM yet a lack of a clear winner. We’re here to change that, and our early results speak for themselves.
 

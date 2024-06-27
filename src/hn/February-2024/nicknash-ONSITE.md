@@ -4,7 +4,7 @@ author:
   name: nicknash
   url: https://news.ycombinator.com/item?id=39224182
 ---
-Asymptota.com (Sofia&#x2F;Dubai) | ONSITE
+Asymptota.com (Sofia&#x2F;Dubai) - ONSITE
 
 We are a next generation quant trading firm. We aim to be at the leading edge of automation and believe we have an excellent opportunity to challenge more established, larger, less automated incumbents.
 

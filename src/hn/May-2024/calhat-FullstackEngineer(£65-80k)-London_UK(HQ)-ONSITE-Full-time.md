@@ -4,7 +4,7 @@ author:
   name: calhat
   url: https://news.ycombinator.com/item?id=40226839
 ---
-Spill (<a href="https:&#x2F;&#x2F;www.spill.chat&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.spill.chat&#x2F;</a>) | Fullstack Engineer (£65-80k) | London, UK (HQ) | ONSITE | Full-time
+Spill (<a href="https:&#x2F;&#x2F;www.spill.chat&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.spill.chat&#x2F;</a>) - Fullstack Engineer (£65-80k) - London, UK (HQ) - ONSITE - Full-time
 
 Our aim is to make counselling and therapy free at the point of use for as many people as possible. We do this by selling a mental health support product to businesses.
 

@@ -4,7 +4,7 @@ author:
   name: coffeefirst
   url: https://news.ycombinator.com/item?id=38944586
 ---
-Scientific American | Senior Python Engineer | NYC or Washington, DC, flexible hybrid
+Scientific American - Senior Python Engineer - NYC or Washington, DC, flexible hybrid
 
 Scientific American—yes, the storied science magazine—is in the midst of a massive renovation job. We recently launched our new article page—it&#x27;s slick and twice as fast—and have all sorts of interesting plans in the works for 2024.
 

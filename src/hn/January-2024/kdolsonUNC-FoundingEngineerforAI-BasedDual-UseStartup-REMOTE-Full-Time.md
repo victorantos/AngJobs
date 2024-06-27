@@ -4,7 +4,7 @@ author:
   name: kdolsonUNC
   url: https://news.ycombinator.com/item?id=38844951
 ---
-Founding Engineer for AI-Based Dual-Use Startup | REMOTE | Full-Time
+Founding Engineer for AI-Based Dual-Use Startup - REMOTE - Full-Time
 
 About Us:
 

@@ -4,7 +4,7 @@ author:
   name: behrlich
   url: https://news.ycombinator.com/item?id=39567852
 ---
-Wasabi Technologies | [Principal|Senior] Software Engineer | Full-time | Remote
+Wasabi Technologies - [Principal-Senior] Software Engineer - Full-time - Remote
 
 Wasabi offers cloud storage with an S3 compatible API.
 

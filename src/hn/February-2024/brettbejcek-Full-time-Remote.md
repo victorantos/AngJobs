@@ -4,7 +4,7 @@ author:
   name: brettbejcek
   url: https://news.ycombinator.com/item?id=39346261
 ---
-Rewind (<a href="https:&#x2F;&#x2F;rewind.ai" rel="nofollow">https:&#x2F;&#x2F;rewind.ai</a>) | Full-time | Remote | <a href="https:&#x2F;&#x2F;rewind.ai" rel="nofollow">https:&#x2F;&#x2F;rewind.ai</a>
+Rewind (<a href="https:&#x2F;&#x2F;rewind.ai" rel="nofollow">https:&#x2F;&#x2F;rewind.ai</a>) - Full-time - Remote - <a href="https:&#x2F;&#x2F;rewind.ai" rel="nofollow">https:&#x2F;&#x2F;rewind.ai</a>
 
 Rewind is personalized AI powered by everything you’ve seen, said, or heard. Our investors include Sam Altman, Alexis Ohanian, a16z, First Round, NEA, and many others. We are a well-funded, 21-person, remote-first startup.
 

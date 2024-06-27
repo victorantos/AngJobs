@@ -4,7 +4,7 @@ author:
   name: mousetree
   url: https://news.ycombinator.com/item?id=40234171
 ---
-Seen Finance | <a href="https:&#x2F;&#x2F;seen.com" rel="nofollow">https:&#x2F;&#x2F;seen.com</a> | Multiple Roles | Full time | Berlin | Hybrid on-site
+Seen Finance - <a href="https:&#x2F;&#x2F;seen.com" rel="nofollow">https:&#x2F;&#x2F;seen.com</a> - Multiple Roles - Full time - Berlin - Hybrid on-site
 
 At Seen, we believe that everyone deserves a fair opportunity to (re)build their credit. We understand how tough it can be to qualify for a credit card when your credit score isn&#x27;t where you want it to be.
 

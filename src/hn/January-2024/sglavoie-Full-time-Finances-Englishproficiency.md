@@ -4,7 +4,7 @@ author:
   name: sglavoie
   url: https://news.ycombinator.com/item?id=38860856
 ---
-StreamingEdge (<a href="https:&#x2F;&#x2F;streamingedge.com" rel="nofollow">https:&#x2F;&#x2F;streamingedge.com</a>) | Software Engineer (Java &#x2F; JavaScript &#x2F; Python &#x2F; React &#x2F; Full stack) | Full-time | Hybrid [almost all REMOTE: must be located in Mexico City &#x2F; Bogotá (Colombia)] | Finances | English proficiency
+StreamingEdge (<a href="https:&#x2F;&#x2F;streamingedge.com" rel="nofollow">https:&#x2F;&#x2F;streamingedge.com</a>) - Software Engineer (Java &#x2F; JavaScript &#x2F; Python &#x2F; React &#x2F; Full stack) - Full-time - Hybrid [almost all REMOTE: must be located in Mexico City &#x2F; Bogotá (Colombia)] - Finances - English proficiency
 
 • Who: StreamingEdge, an innovative tech company passionate about breaking industry barriers with unique solutions and advanced technologies.
 

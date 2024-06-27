@@ -4,7 +4,7 @@ author:
   name: jholtom
   url: https://news.ycombinator.com/item?id=39895883
 ---
-DASH Tech Integrated Circuits | Embedded Systems Engineer | REMOTE (US only) | Full-Time
+DASH Tech Integrated Circuits - Embedded Systems Engineer - REMOTE (US only) - Full-Time
 
 DASH Tech IC is seeking an Embedded Systems Engineer to join our team delivering the next generation of efficient, flexible embedded processing for RF systems. 
 In this role, you are expected to participate in the definition of architecture and implementation of designs in both prototype and commercial products as well as demonstrate good development practices and seamless collaboration. Our teams deliver all embedded software from ASIC boot ROM and successive bootloaders, low-level device drivers, to high-level, complex hardware&#x2F;software DSP systems.

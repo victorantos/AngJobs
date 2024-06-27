@@ -4,7 +4,7 @@ author:
   name: danyx23
   url: https://news.ycombinator.com/item?id=38852363
 ---
-Our World In Data (YC W19) | Senior Full Stack Engineer | Full-Time | Remote
+Our World In Data (YC W19) - Senior Full Stack Engineer - Full-Time - Remote
 
 At Our World In Data (<a href="https:&#x2F;&#x2F;ourworldindata.org">https:&#x2F;&#x2F;ourworldindata.org</a>), our mission is to make the world&#x27;s biggest problems understandable, so that we can take effective action on them. We publish research and data on crucial topics like poverty, disease, hunger, inequality, war and climate change.
 

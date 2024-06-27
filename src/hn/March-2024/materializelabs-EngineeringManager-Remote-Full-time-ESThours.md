@@ -4,7 +4,7 @@ author:
   name: materializelabs
   url: https://news.ycombinator.com/item?id=39567553
 ---
-Materialize Labs (<a href="https:&#x2F;&#x2F;materializelabs.com" rel="nofollow">https:&#x2F;&#x2F;materializelabs.com</a>) | Engineering Manager | Remote | Full-time | EST hours
+Materialize Labs (<a href="https:&#x2F;&#x2F;materializelabs.com" rel="nofollow">https:&#x2F;&#x2F;materializelabs.com</a>) - Engineering Manager - Remote - Full-time - EST hours
 
 At Materialize, we craft bespoke digital products, from UI&#x2F;UX design to technical development. We&#x27;re on the hunt for an Engineering Manager to oversee our engineering team and manage our cutting-edge web, mobile, and AI application development.
 

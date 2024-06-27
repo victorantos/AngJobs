@@ -4,7 +4,7 @@ author:
   name: koliber
   url: https://news.ycombinator.com/item?id=39563693
 ---
-Offsite.com | Remote | Full-time | Fully remote US-based company
+Offsite.com - Remote - Full-time - Fully remote US-based company
 
 Looking for a mid-level to senior fullstack TypeScript engineer. Experience Building Marketplaces Required.
 

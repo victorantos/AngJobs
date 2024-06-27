@@ -4,7 +4,7 @@ author:
   name: avb
   url: https://news.ycombinator.com/item?id=39569185
 ---
-Summit ESP | <a href="https:&#x2F;&#x2F;www.summitesp.com" rel="nofollow">https:&#x2F;&#x2F;www.summitesp.com</a> | Multiple Developer Roles | REMOTE (US), Based in Tulsa, OK
+Summit ESP - <a href="https:&#x2F;&#x2F;www.summitesp.com" rel="nofollow">https:&#x2F;&#x2F;www.summitesp.com</a> - Multiple Developer Roles - REMOTE (US), Based in Tulsa, OK
 
 We are hiring for multiple roles at a Senior level and below. These are contract-to-hire positions. Our team is based in Tulsa, OK, however we are a 100% remote team across the US.
 

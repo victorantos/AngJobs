@@ -4,7 +4,7 @@ author:
   name: deleoner
   url: https://news.ycombinator.com/item?id=39921319
 ---
-Autobooks (<a href="https:&#x2F;&#x2F;www.autobooks.co&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.autobooks.co&#x2F;</a>) | Sr. Software Engineer (Front-End Focused) | Full-Time
+Autobooks (<a href="https:&#x2F;&#x2F;www.autobooks.co&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.autobooks.co&#x2F;</a>) - Sr. Software Engineer (Front-End Focused) - Full-Time
 
 Autobooks helps grow deposits, differentiate digital banking channels, &amp; better serve small business cash flow needs.
 

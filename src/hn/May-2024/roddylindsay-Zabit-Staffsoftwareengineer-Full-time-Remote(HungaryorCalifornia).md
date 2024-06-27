@@ -4,7 +4,7 @@ author:
   name: roddylindsay
   url: https://news.ycombinator.com/item?id=40229174
 ---
-Zabit | Staff software engineer | Full-time | Remote (Hungary or California)
+Zabit - Staff software engineer - Full-time - Remote (Hungary or California)
 
 Zabit is a small startup building messaging applications that pair human workers with AI to enable affordable and accessible behavioral health outcomes, such as habit formation and cessation.
 

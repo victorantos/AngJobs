@@ -4,7 +4,7 @@ author:
   name: lukegil626
   url: https://news.ycombinator.com/item?id=38879846
 ---
-Rune Labs | Senior iOS Test Engineer | $155,000 - $172,000 | Full-time | REMOTE - USA or Canada
+Rune Labs - Senior iOS Test Engineer - $155,000 - $172,000 - Full-time - REMOTE - USA or Canada
 
 We&#x27;re hiring a Senior iOS Test Engineer to work on StrivePD, a healthcare app that helps people with Parkinson&#x27;s manage their disease, and pharma companies develop therapies (the buzzword is &quot;Precision Neurology&quot;).
 

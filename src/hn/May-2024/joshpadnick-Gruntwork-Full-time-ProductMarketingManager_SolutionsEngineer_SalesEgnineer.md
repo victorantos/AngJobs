@@ -4,7 +4,7 @@ author:
   name: joshpadnick
   url: https://news.ycombinator.com/item?id=40228829
 ---
-Gruntwork | Remote (US&#x2F;Canada&#x2F;Mexico&#x2F;South America) | Full-time | Product Marketing Manager, Solutions Engineer, Sales Egnineer
+Gruntwork - Remote (US&#x2F;Canada&#x2F;Mexico&#x2F;South America) - Full-time - Product Marketing Manager, Solutions Engineer, Sales Egnineer
 
 We&#x27;re on a mission to transform the way DevOps is done. The status quo for creating and managing infrastructure is still a terrible experience for most organizations, and we&#x27;d like to change that by creating a next-generation DevOps platform.
 

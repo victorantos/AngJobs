@@ -4,7 +4,7 @@ author:
   name: peterOCIM
   url: https://news.ycombinator.com/item?id=39220999
 ---
-OC Investment Management | Software Developer | On-site |  Miami, FL | $120-180k
+OC Investment Management - Software Developer - On-site -  Miami, FL - $120-180k
 
 We are a growing hedge fund based in Miami, FL looking to hire an experienced software developer. Our ideal candidate will have:
 

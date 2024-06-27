@@ -4,7 +4,7 @@ author:
   name: etl_hre
   url: https://news.ycombinator.com/item?id=40226072
 ---
-Honda R&amp;D Europe (UK) | Research Software Engineer | UK | Full Time - Hybrid
+Honda R&amp;D Europe (UK) - Research Software Engineer - UK - Full Time - Hybrid
 
 At Emerging Technology Lab (ETL) that is a part of Honda R&amp;D Europe (UK), we have nurtured a culture of collaborative innovation rooted in creativity, kindness, mutual trust, and respect. Our primary mission revolves around applied research in multi-domain software technology.
 

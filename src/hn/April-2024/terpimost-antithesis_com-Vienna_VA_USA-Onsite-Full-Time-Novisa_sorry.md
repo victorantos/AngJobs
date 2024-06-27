@@ -4,7 +4,7 @@ author:
   name: terpimost
   url: https://news.ycombinator.com/item?id=39956806
 ---
-antithesis.com | Vienna, VA, USA | Onsite | Full-Time | No visa, sorry
+antithesis.com - Vienna, VA, USA - Onsite - Full-Time - No visa, sorry
 
 Antithesis platform continuously searches software for problems, enabling efficient debugging of the most complex issues. We recently came out of stealth (<a href="https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=39356920">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=39356920</a>) and are looking for:
 

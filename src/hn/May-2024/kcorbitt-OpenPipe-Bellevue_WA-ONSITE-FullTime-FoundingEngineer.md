@@ -4,7 +4,7 @@ author:
   name: kcorbitt
   url: https://news.ycombinator.com/item?id=40227159
 ---
-OpenPipe | Bellevue, WA | ONSITE | Full Time | Founding Engineer
+OpenPipe - Bellevue, WA - ONSITE - Full Time - Founding Engineer
 
 Hey HN! I&#x27;m the founder of OpenPipe, the easiest way to deploy fine-tuned models to production.
 

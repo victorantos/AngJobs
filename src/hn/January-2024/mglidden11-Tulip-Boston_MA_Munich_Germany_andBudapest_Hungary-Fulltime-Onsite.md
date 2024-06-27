@@ -4,7 +4,7 @@ author:
   name: mglidden11
   url: https://news.ycombinator.com/item?id=38846362
 ---
-Tulip | <a href="https:&#x2F;&#x2F;tulip.co&#x2F;eng" rel="nofollow">https:&#x2F;&#x2F;tulip.co&#x2F;eng</a> | Boston, MA, Munich, Germany, and Budapest, Hungary | Full time | Onsite
+Tulip - <a href="https:&#x2F;&#x2F;tulip.co&#x2F;eng" rel="nofollow">https:&#x2F;&#x2F;tulip.co&#x2F;eng</a> - Boston, MA, Munich, Germany, and Budapest, Hungary - Full time - Onsite
 
 Do you want to help transform manufacturing? We are building the best team in the industry to bring consumer-grade user experiences to a space dominated by ancient enterprise technology. Our platform enables our customers to create apps without code and to connect their apps to machines, sensors and smart tools. These augmented production lines would otherwise rely on paper to share information.
 

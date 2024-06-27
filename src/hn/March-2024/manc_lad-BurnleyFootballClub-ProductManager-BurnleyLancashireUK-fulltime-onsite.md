@@ -4,7 +4,7 @@ author:
   name: manc_lad
   url: https://news.ycombinator.com/item?id=39566581
 ---
-Burnley Football Club | Product Manager | Burnley Lancashire UK | full time | on site
+Burnley Football Club - Product Manager - Burnley Lancashire UK - full time - on site
 
 Do you want to help build the football club of the future? With big ambitions to reinvent how a football club is run, I&#x27;m looking to hire a Product Manager in a new technology department to work in every area of the football club. HR, medical, retail, stadium hardware and more. It&#x27;s a full stack technology job. Initially building partnerships and then custom tech it&#x27;s exposure from the ground up in a startup like environment.
 

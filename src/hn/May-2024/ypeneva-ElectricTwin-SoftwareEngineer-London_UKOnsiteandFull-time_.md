@@ -4,7 +4,7 @@ author:
   name: ypeneva
   url: https://news.ycombinator.com/item?id=40233014
 ---
-Electric Twin | Software Engineer | London, UK Onsite and Full-time.
+Electric Twin - Software Engineer - London, UK Onsite and Full-time.
 
 We&#x27;re building a sandbox for predicting human behaviour so that companies and governments can test their products and policies in real-time.
 

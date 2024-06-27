@@ -4,7 +4,7 @@ author:
   name: dataking
   url: https://news.ycombinator.com/item?id=40569314
 ---
-Immunant | Software Engineer | REMOTE (US only) | Full-time | $110k - $150k + retirement benefits
+Immunant - Software Engineer - REMOTE (US only) - Full-time - $110k - $150k + retirement benefits
 
 If you&#x27;re interested in low-level, resource-constrained and&#x2F;or privileged execution environments, consider joining our small team. At Immunant, we spend much time staring at weird build errors, ISA or ABI documentation, or digging through obscure build systems or C code written 20 years ago. In any case, we strive to make the systems we&#x27;re working on more secure, more efficient, and have more Rust in them (whenever we get a chance).
 

@@ -4,7 +4,7 @@ author:
   name: jauco
   url: https://news.ycombinator.com/item?id=39898890
 ---
-Taylor.solar | remote, but with monthly on-site days | eindhoven, netherlands | full time
+Taylor.solar - remote, but with monthly on-site days - eindhoven, netherlands - full time
 
 At taylor, we make solar systems deliver more power and their performance insightful. We develop high performance electrical circuits that do mppt tracking within the panel itself. We made our first sales at the end of 2022 and have already delivered 45,000 panels. We&#x27;re currently expanding from just the Netherlands to Belgium and France.
 

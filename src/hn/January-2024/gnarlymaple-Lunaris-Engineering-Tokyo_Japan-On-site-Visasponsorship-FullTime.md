@@ -4,7 +4,7 @@ author:
   name: gnarlymaple
   url: https://news.ycombinator.com/item?id=38906711
 ---
-Lunaris | Engineering | Tokyo, Japan | On-site | Visa sponsorship | Full Time | <a href="https:&#x2F;&#x2F;teamlunaris.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;teamlunaris.com&#x2F;</a>
+Lunaris - Engineering - Tokyo, Japan - On-site - Visa sponsorship - Full Time - <a href="https:&#x2F;&#x2F;teamlunaris.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;teamlunaris.com&#x2F;</a>
 
 Lunaris started out as an otaku-centric online shop called Solaris Japan founded in 2008, and is still going strong to this day. As such, many of us here have a huge passion for anime, gaming, or Japanese pop culture in general. It’s not unusual to see an anime figure sitting on someone’s desk, the latest League of Legends tournament streaming on our lounge television, or hear someone discussing their past adventures on Final Fantasy XI.
 

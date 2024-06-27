@@ -4,7 +4,7 @@ author:
   name: AustinWentz
   url: https://news.ycombinator.com/item?id=40228228
 ---
-Property Meld | Senior Software Engineer | Full-time | Remote (US &amp; Canada) or Rapid City, SD
+Property Meld - Senior Software Engineer - Full-time - Remote (US &amp; Canada) or Rapid City, SD
 
 Looking for something more meaningful? How about the opportunity to have a direct impact on the property maintenance experience for hundreds of thousands of residents?
 

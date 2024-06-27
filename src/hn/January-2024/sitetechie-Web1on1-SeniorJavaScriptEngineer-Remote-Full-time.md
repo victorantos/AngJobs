@@ -4,7 +4,7 @@ author:
   name: sitetechie
   url: https://news.ycombinator.com/item?id=38862136
 ---
-Web1on1 | Senior JavaScript Engineer | Remote | Full-time | <a href="https:&#x2F;&#x2F;web1on1.chat" rel="nofollow">https:&#x2F;&#x2F;web1on1.chat</a>
+Web1on1 - Senior JavaScript Engineer - Remote - Full-time - <a href="https:&#x2F;&#x2F;web1on1.chat" rel="nofollow">https:&#x2F;&#x2F;web1on1.chat</a>
 
 Fully remote but tight-knit team operating a messaging platform for the Automotive industry in Europe. Car brands and dealers employ our &#x27;hybrid workforce&#x27; of agents and chatbots to connect to consumers in novel ways.
 

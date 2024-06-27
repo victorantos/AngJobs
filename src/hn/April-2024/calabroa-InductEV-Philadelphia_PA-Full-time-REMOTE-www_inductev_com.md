@@ -4,7 +4,7 @@ author:
   name: calabroa
   url: https://news.ycombinator.com/item?id=39906283
 ---
-InductEV | Philadelphia, PA | Full-time | REMOTE | www.inductev.com
+InductEV - Philadelphia, PA - Full-time - REMOTE - www.inductev.com
 
 InductEV (formerly Momentum Dynamics) is revolutionizing how electric vehicles charge their batteries with high-power wireless charging and distributed energy management.  We&#x27;re actively growing the InductAI team and looking for software developers passionate about crafting sustainable future solutions.
 

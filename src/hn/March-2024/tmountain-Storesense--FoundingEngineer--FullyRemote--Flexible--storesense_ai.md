@@ -4,7 +4,7 @@ author:
   name: tmountain
   url: https://news.ycombinator.com/item?id=39563741
 ---
-Storesense || Founding Engineer || Fully Remote || Flexible || storesense.ai
+Storesense -- Founding Engineer -- Fully Remote -- Flexible -- storesense.ai
 
 Storesense is developing an AI-powered computer vision system that enhances security, efficiency, and insights for businesses and municipalities through advanced zone detection, triggers, and analytics.
 

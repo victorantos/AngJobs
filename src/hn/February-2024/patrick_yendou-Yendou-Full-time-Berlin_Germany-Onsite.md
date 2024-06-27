@@ -4,7 +4,7 @@ author:
   name: patrick_yendou
   url: https://news.ycombinator.com/item?id=39219269
 ---
-Yendou | Full-time | Berlin, Germany | Onsite | <a href="https:&#x2F;&#x2F;yendou.io" rel="nofollow">https:&#x2F;&#x2F;yendou.io</a>
+Yendou - Full-time - Berlin, Germany - Onsite - <a href="https:&#x2F;&#x2F;yendou.io" rel="nofollow">https:&#x2F;&#x2F;yendou.io</a>
 
 Yendou is the first CRM designed to help Clinical Operation teams to scale and accelerate the allocation of Clinical Trials to clinics. This year we will ship an AI Co-Pilot for Clinical Operation teams
 

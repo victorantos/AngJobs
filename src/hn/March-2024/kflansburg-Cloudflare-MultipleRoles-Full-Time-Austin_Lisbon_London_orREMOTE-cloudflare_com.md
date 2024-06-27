@@ -4,7 +4,7 @@ author:
   name: kflansburg
   url: https://news.ycombinator.com/item?id=39564540
 ---
-Cloudflare | Multiple Roles | Full-Time | Austin, Lisbon, London, or REMOTE | cloudflare.com
+Cloudflare - Multiple Roles - Full-Time - Austin, Lisbon, London, or REMOTE - cloudflare.com
 
 Cloudflare Workers is hiring for multiple roles to help build the leading serverless platform, powered by Cloudflare’s edge network. Our platform is growing rapidly, with industry leading cold-start times and advanced features like Hyperdrive and Workers for Platforms. Cloudflare builds a large portion of our software with open source, such as workerd (runtime), Wrangler, workers-rs, Pingora, and Foundations.
 

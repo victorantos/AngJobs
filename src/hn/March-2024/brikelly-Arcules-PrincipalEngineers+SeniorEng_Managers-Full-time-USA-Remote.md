@@ -4,7 +4,7 @@ author:
   name: brikelly
   url: https://news.ycombinator.com/item?id=39565825
 ---
-Arcules | Principal Engineers + Senior Eng. Managers | Full-time | USA | Remote | <a href="https:&#x2F;&#x2F;arcules.com" rel="nofollow">https:&#x2F;&#x2F;arcules.com</a>
+Arcules - Principal Engineers + Senior Eng. Managers - Full-time - USA - Remote - <a href="https:&#x2F;&#x2F;arcules.com" rel="nofollow">https:&#x2F;&#x2F;arcules.com</a>
 
 Arcules builds cloud and hardware solutions for commercial video cameras and IoT devices. Our eng team of 70+ is growing, and we need the nerdiest of nerds to join us! (Oh and yeah, we need our Eng Managers to be just as nerdy ;)
 

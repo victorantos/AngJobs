@@ -4,7 +4,7 @@ author:
   name: dvbeek
   url: https://news.ycombinator.com/item?id=39903997
 ---
-Hartwig Medical Foundation | Software Developer ACTIN team | Amsterdam, NL | Hybrid On-site
+Hartwig Medical Foundation - Software Developer ACTIN team - Amsterdam, NL - Hybrid On-site
 
 We&#x27;re a foundation that has been developing a diagnostic whole genome sequencing test for tumors, to speed-up the uptake of personalized cancer treatments for patients in the Netherlands. While the developed diagnostic test results in a complete and high quality list of applicable biomarkers per patient, we see that it is still difficult for the patients to get a personalized (experimental) treatment due to the very large number of options and frequently changing treatment options in a still very manual hospital set-up.
 

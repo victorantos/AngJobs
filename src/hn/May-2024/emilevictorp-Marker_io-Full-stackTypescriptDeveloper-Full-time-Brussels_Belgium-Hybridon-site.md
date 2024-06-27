@@ -4,7 +4,7 @@ author:
   name: emilevictorp
   url: https://news.ycombinator.com/item?id=40235696
 ---
-Marker.io | Full-stack Typescript Developer | Full-time | Brussels, Belgium | Hybrid on-site | <a href="https:&#x2F;&#x2F;marker.io&#x2F;jobs" rel="nofollow">https:&#x2F;&#x2F;marker.io&#x2F;jobs</a>
+Marker.io - Full-stack Typescript Developer - Full-time - Brussels, Belgium - Hybrid on-site - <a href="https:&#x2F;&#x2F;marker.io&#x2F;jobs" rel="nofollow">https:&#x2F;&#x2F;marker.io&#x2F;jobs</a>
 
 Marker.io is a rapidly growing startup with a small but dedicated team of 9 people. We proudly serve over 5,000 companies around the world. Our headquarters are in Brussels, Belgium, our team operates mostly remotely.
 

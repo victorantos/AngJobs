@@ -4,7 +4,7 @@ author:
   name: wyc
   url: https://news.ycombinator.com/item?id=38845987
 ---
-SpruceID (YC W21) | Full REMOTE | Multiple Roles | Full-Time | spruceid.com
+SpruceID (YC W21) - Full REMOTE - Multiple Roles - Full-Time - spruceid.com
 
 Spruce lets users control their data across the web. We are creating the world’s best open source software for user-centric digital identity. Instead of users logging into platforms, we think platforms should request to access data vaults controlled by users.
 

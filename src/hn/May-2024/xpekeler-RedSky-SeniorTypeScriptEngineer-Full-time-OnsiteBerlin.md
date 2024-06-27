@@ -4,7 +4,7 @@ author:
   name: xpekeler
   url: https://news.ycombinator.com/item?id=40275260
 ---
-Red Sky | Senior TypeScript Engineer | Full-time | Onsite Berlin
+Red Sky - Senior TypeScript Engineer - Full-time - Onsite Berlin
 
 We: Support agrifood exporters with embedded trade finance. Office in Prenzlauer Berg. Mission-driven.
 
