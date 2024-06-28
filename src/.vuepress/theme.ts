@@ -12,7 +12,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "logo.png",
 
   repo: "victorantos/angjobs",
 
