@@ -24,7 +24,7 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "Default footer",
+  footer: "Latest job listings from Hacker News in a simple, user-friendly interface.",
 
   displayFooter: true,
 
