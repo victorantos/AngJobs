@@ -13,8 +13,7 @@ export default sidebar({
         'May-2024/',
         'April-2024/',
         'March-2024/',
-        'February-2024/',
-        'January-2024/',
+        'February-2024/'
       ],
     },
   ],

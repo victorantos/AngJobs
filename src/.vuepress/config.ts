@@ -12,4 +12,12 @@ export default defineUserConfig({
 
   // Enable it with pwa
   // shouldPrefetch: false,
+  head: [
+    // Other head elements...
+    ['script', {
+      'data-goatcounter': 'https://angjobs.goatcounter.com/count',
+      async: true,
+      src: '//gc.zgo.at/count.js'
+    }]
+  ]
 });
