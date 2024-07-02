@@ -1,0 +1,25 @@
+---
+title: "Valere : Discovery lead"
+author:
+  name: manuelacalderon
+  url: https://news.ycombinator.com/item?id=40852511
+---
+Valere - Discovery lead - Hybrid (COL) - Full-time -
+
+What you&#x27;ll be doing:
+Working with clients and stakeholders to define product goals, success measures, and understanding the end user
+Providing AI and ML subject matter expertise in use case and application for clients
+Detailing user requirements and documenting user flows
+Capturing and prioritizing features, versioning plans, and formal user stories
+Designing low-fidelity mockups and creating user experience wireframes (Figma)
+Interviewing clients and audiences to define goals and identify goals to improve the online presence
+Shaping technical architectural and back end data model considerations
+Identifying and prioritizing business and user needs with the highest impact
+Articulating product vision and strategy that align with expected business outcomes
+Integrating discovery activities into discovery documentation, user stories, versioning plan, product roadmap, and business planning
+Conducting competitive analysis, market research, and platform audits
+Creating alignment and commitment by sharing useful knowledge and communicating with the broader team
+Embodying Product culture and discovery values to guide your clients towards better product decisions and higher impact
+
+Learn more about Valere and Valere Digital here:
+<a href="https:&#x2F;&#x2F;valere.io&#x2F;" rel="nofollow">https:&#x2F;&#x2F;valere.io&#x2F;</a>

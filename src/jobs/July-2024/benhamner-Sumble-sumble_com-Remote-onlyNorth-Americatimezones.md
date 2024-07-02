@@ -4,7 +4,7 @@ author:
   name: benhamner
   url: https://news.ycombinator.com/item?id=40847174
 ---
-Sumble - sumble.com - Data&#x2F;Engineering + first GTM - Remote-only North-America timezones
+Sumble - sumble.com - Data&#x2F;Backend&#x2F;Full-stack Engineering + first GTM - Remote-only North-America timezones
 
 Sumble&#x27;s applying language models (both small and large) to build high-quality datasets. Near-term our focus is company-related data that we integrate with customer&#x27;s Salesforce data to make go-to-market operations more efficient. Long-term we want to become the first place you go to find high-quality data that lives outside your organization.
 

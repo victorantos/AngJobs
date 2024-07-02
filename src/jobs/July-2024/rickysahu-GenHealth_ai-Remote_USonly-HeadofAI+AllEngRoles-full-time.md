@@ -1,0 +1,10 @@
+---
+title: "GenHealth.ai : Remote, US only"
+author:
+  name: rickysahu
+  url: https://news.ycombinator.com/item?id=40852664
+---
+GenHealth.ai - Remote, US only - Head of AI + All Eng Roles- full-time - <a href="https:&#x2F;&#x2F;GenHealth.ai" rel="nofollow">https:&#x2F;&#x2F;GenHealth.ai</a>
+See positions <a href="https:&#x2F;&#x2F;genhealth.ai&#x2F;jobs" rel="nofollow">https:&#x2F;&#x2F;genhealth.ai&#x2F;jobs</a> 12 month old startup with $13m seed funding started by a veteran team building generative AI foundation models and apps on top of healthcare data! If you know healthcare data, workflows like prior auth, or transformers please apply. We run $Ms of GPUs so this is fun!
+
+AI eng, API eng, Data Science. Email work@genhealth.ai with your resume.
