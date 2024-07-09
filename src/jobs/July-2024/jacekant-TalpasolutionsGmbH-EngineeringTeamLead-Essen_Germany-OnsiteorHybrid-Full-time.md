@@ -1,0 +1,11 @@
+---
+title: "Talpasolutions GmbH : Engineering Team Lead"
+author:
+  name: jacekant
+  url: https://news.ycombinator.com/item?id=40905606
+---
+Talpasolutions GmbH - Engineering Team Lead - Essen, Germany - Onsite or Hybrid - Full-time
+
+The Full-Stack Development Team Lead will work closely with various teams to build sophisticated web applications, understanding customer needs and ensuring TALPA products add value. They will oversee the full development cycle, from strategic planning to roll-out, while crafting quality code and mentoring the team. Staying updated with the latest trends will ensure a sustainable web architecture and technology stack. The candidate needs proven experience in building scalable full-stack systems and leading a development team. Familiarity with our tech stack (Typescript with Vue.js, Node.js plus GraphQL, Docker&#x2F;Kubernetes and Git) is required, along with an agile mindset and focus on long-term quality goals.
+
+More information can be found here: <a href="https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;talpasolutions.com">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;talpasolutions.com</a>
