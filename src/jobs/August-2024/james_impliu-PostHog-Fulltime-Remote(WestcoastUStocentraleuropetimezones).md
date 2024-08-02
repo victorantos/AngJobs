@@ -1,0 +1,17 @@
+---
+title: "PostHog : Full time"
+author:
+  name: james_impliu
+  url: https://news.ycombinator.com/item?id=41133606
+---
+PostHog - Full time - Remote (West coast US to central europe timezones) - <a href="https:&#x2F;&#x2F;posthog.com&#x2F;careers">https:&#x2F;&#x2F;posthog.com&#x2F;careers</a>
+
+We&#x27;re an all remote company of just 50 with 8 products and significantly &gt;$10M ARR. All inbound, no sales team. 70k companies have installed our software, 1,600 new companies install each week. Shipping tools to help developers build successful products.
+
+We quadrupled our revenue, only added 3 people net last year, and now expanding as a result. We work in small teams, who fully own each product. Our engineers decide _what_ they will work on, not just _how_ to ship things.
+
+See how our entire company works in a ton of detail at posthog.com&#x2F;handbook, *including how much we pay*!
+
+Hiring product engineers, a technical support engineer, a UX engineer, a distributed systems engineer, a site reliability engineer, and a community manager.
+
+Please apply through our careers page on our website, or enter my email inbox lottery (james at you can guess it), but i would recommend the former!
