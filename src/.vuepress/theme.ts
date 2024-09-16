@@ -4,7 +4,7 @@ import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   hostname: "https://angjobs.com",
-
+  name: "hope theme",
   author: {
     name: "victorantos",
     url: "https://victorantos.com",

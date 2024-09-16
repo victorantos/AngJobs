@@ -1,5 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
+import  vuepressPluginHello from  "../../vuepress-plugin-hello/index.js";
 
 export default defineUserConfig({
   base: "/",
@@ -19,5 +20,13 @@ export default defineUserConfig({
       async: true,
       src: '//gc.zgo.at/count.js'
     }]
+  ],
+  plugins: [
+    [
+      vuepressPluginHello({
+        greeting: 'Hello VuePress!',
+        themeColor: '#42b983'
+      }) // relative path to your plugin
+    ]
   ]
 });
