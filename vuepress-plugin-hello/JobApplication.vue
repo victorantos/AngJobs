@@ -105,10 +105,7 @@
     // Send POST request to the API
     fetch('https://victorantos-api.azurewebsites.net/jobapplicationsfromangjobs', {
         method: 'POST',
-        headers: {
-        'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
+        body:  formData,
     })
         .then(response => {
         if (!response.ok) {
