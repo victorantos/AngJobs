@@ -21,3 +21,5 @@ To align you to our approach: we seek out engineers who want to involve with thi
 Our main realization is: we can&#x27;t rely on people to drive a significant change, rather it has to be a system which builds and uplifts skills in students. That&#x27;s what we&#x27;ve built and launched in above universities (<a href="https:&#x2F;&#x2F;kalvium.com&#x2F;heros&#x2F;" rel="nofollow">https:&#x2F;&#x2F;kalvium.com&#x2F;heros&#x2F;</a>). We have a 12 year roadmap! it&#x27;s a blue ocean, and we want to build and lead Edtech V2.0.
 
 Note on team&#x2F;compensation: We plan on being a small core team that geeks out on learning and platform-izing it! Our pay is commensurate in the 60-70th percentile of the market, and we add-on meaningful equity. We plan for a 4 year path of growth for every individual in our team. If this sounds like a meaningful challenge and place to build your career, please reach out to me via anil@kalvium.com with your resume.
+ 
+<JobApplication />

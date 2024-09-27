@@ -93,12 +93,41 @@
   
         this.isSubmitting = true;
   
-        // Simulate form submission to a server
-        setTimeout(() => {
-          this.formSubmitted = true;
-          this.isSubmitting = false;
-          this.resetForm();
-        }, 1500); // Simulate network delay
+        // Submission to a server
+        // Gather form data
+  const formData = {
+    name: this.name,    // Replace with actual form fields
+    email: this.email,  // Replace with actual form fields
+    resume: this.resume,
+    text: this.message
+  };
+
+    // Send POST request to the API
+    fetch('https://victorantos-api.azurewebsites.net/jobapplicationsfromangjobs', {
+        method: 'POST',
+        headers: {
+        'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+    })
+        .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json(); // Assuming the API responds with JSON
+        })
+        .then(data => {
+        // Handle successful form submission
+        this.formSubmitted = true;
+        this.isSubmitting = false;
+        this.resetForm();
+        console.log('Form successfully submitted:', data);
+        })
+        .catch(error => {
+        // Handle errors in form submission
+        this.isSubmitting = false;
+        console.error('There was an error submitting the form:', error);
+        });
       },
       validateForm() {
         return (
@@ -153,11 +182,12 @@
   .form-group input,
   .form-group textarea {
     width: 100%;
-    padding: 12px;
+    padding: 12px 15px; /* Even padding on left and right */
     border: 1px solid #ddd;
     border-radius: 6px;
     font-size: 16px;
     background-color: #f9f9f9;
+    box-sizing: border-box; /* Ensures padding is inside the input box */
     transition: border 0.3s;
   }
   .form-group input:focus,
@@ -190,4 +220,10 @@
     margin-top: 20px;
     font-weight: 600;
   }
-  </style>
+ 
+@media (max-width: 600px) {
+  .form-container {
+    padding: 20px; /* Reduce padding on smaller screens */
+  }
+}
+</style>
