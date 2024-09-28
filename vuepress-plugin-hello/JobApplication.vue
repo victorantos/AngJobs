@@ -95,35 +95,34 @@
   
         // Submission to a server
         // Gather form data
-  const formData = {
-    name: this.name,    // Replace with actual form fields
-    email: this.email,  // Replace with actual form fields
-    resume: this.resume,
-    text: this.message
-  };
-
-    // Send POST request to the API
-    fetch('https://victorantos-api.azurewebsites.net/jobapplicationsfromangjobs', {
-        method: 'POST',
-        body:  formData,
-    })
+        const formData = new FormData();
+        formData.append("name", this.form.fullName);
+        formData.append("email", this.form.email);
+        formData.append("resume", this.form.resume);
+        formData.append("text", this.form.message);
+   
+        // Send POST request to the API
+        fetch('https://victorantos-api.azurewebsites.net/jobapplicationsfromangjobs', {
+            method: 'POST',
+            body: formData,
+        })
         .then(response => {
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
-        return response.json(); // Assuming the API responds with JSON
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json(); // Assuming the API responds with JSON
         })
         .then(data => {
-        // Handle successful form submission
-        this.formSubmitted = true;
-        this.isSubmitting = false;
-        this.resetForm();
-        console.log('Form successfully submitted:', data);
+            // Handle successful form submission
+            this.formSubmitted = true;
+            this.isSubmitting = false;
+            this.resetForm();
+            console.log('Form successfully submitted:', data);
         })
         .catch(error => {
-        // Handle errors in form submission
-        this.isSubmitting = false;
-        console.error('There was an error submitting the form:', error);
+            // Handle errors in form submission
+            this.isSubmitting = false;
+            console.error('There was an error submitting the form:', error);
         });
       },
       validateForm() {
