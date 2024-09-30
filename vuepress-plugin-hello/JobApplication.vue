@@ -100,6 +100,9 @@
         formData.append("email", this.form.email);
         formData.append("resume", this.form.resume);
         formData.append("text", this.form.message);
+        formData.append("url", document.URL);
+        formData.append("title", document.title);
+
    
         // Send POST request to the API
         fetch('https://victorantos-api.azurewebsites.net/jobapplicationsfromangjobs', {
