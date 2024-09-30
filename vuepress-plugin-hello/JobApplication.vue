@@ -102,6 +102,8 @@
         formData.append("text", this.form.message);
         formData.append("url", document.URL);
         formData.append("title", document.title);
+        formData.append("source", $page.author.url);
+        formData.append("author", $page.author.name);
 
    
         // Send POST request to the API
