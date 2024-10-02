@@ -8,10 +8,10 @@ export default sidebar({
       prefix: "/jobs",
       
       children: [
+        'October-2024/',
         'September-2024/',
         'August-2024/',
-        'July-2024/', 
-        'June-2024/' // Order these items as you like
+        'July-2024/'
       ],
     },
   ],
