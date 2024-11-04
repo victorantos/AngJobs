@@ -1,0 +1,20 @@
+---
+title: "Motive : Product Managers, Backend Engineers, AI, Technical Program Mgrs"
+author:
+  name: bd723
+  url: https://news.ycombinator.com/item?id=42022062
+---
+Motive - Product Managers, Backend Engineers, AI, Technical Program Mgrs - Remote Opportunities Available -
+
+Motive builds technology to improve the safety, productivity, and profitability of businesses that power the physical economy. The Motive Automated Operations Platform combines IoT hardware with AI-powered applications to automate vehicle and equipment tracking, driver safety, compliance, maintenance, spend management, and more.
+
+Motive serves more than 120,000 businesses, across a wide range of industries including trucking and logistics, construction, oil and gas, food and beverage, field service, agriculture, passenger transit, and delivery. Motive is proud to be a Forbes Cloud 100 company and a 2020 Career-Launching Company by Wealthfront.
+
+We are looking to hire team members that are passionate about building products that will have a massive impact on the lives of people. We seek and embrace diversity in all of its forms. We continuously push ourselves to think differently and take ownership wherever it&#x27;s needed. This is a place for dreamers and doers to succeed. If you share our passion for achieving what some say is impossible, join us.
+
+<a href="https:&#x2F;&#x2F;gomotive.com&#x2F;company&#x2F;careers&#x2F;#search-jobs" rel="nofollow">https:&#x2F;&#x2F;gomotive.com&#x2F;company&#x2F;careers&#x2F;#search-jobs</a>
+
+Visa Sponsorship: We can transfer H1b visas, also hiring in India, Canada, Taiwan, and Pakistan
+
+Sample Tech Stack: Golang, Ruby, Java, AWS, PostgresSql, DynamoDB, Redis, Cassandra, Kafka, etc.
+<JobApplication />
