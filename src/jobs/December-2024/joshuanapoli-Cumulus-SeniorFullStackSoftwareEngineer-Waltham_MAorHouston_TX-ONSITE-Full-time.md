@@ -1,0 +1,18 @@
+---
+title: "Cumulus :  Senior Full Stack Software Engineer"
+author:
+  name: joshuanapoli
+  url: https://news.ycombinator.com/item?id=42301792
+---
+Cumulus -  Senior Full Stack Software Engineer - Waltham, MA or Houston, TX - ONSITE - Full-time - <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;jobs&#x2F;view&#x2F;3987534709" rel="nofollow">https:&#x2F;&#x2F;www.linkedin.com&#x2F;jobs&#x2F;view&#x2F;3987534709</a>
+
+Cumulus Digital Systems is building the Internet of Tools platform to transform the industrial workforce to be fully connected and data-driven, significantly improving safety and productivity in maintenance and construction. Our goal is to eliminate accidents caused by poor work quality.
+
+We are looking for a senior full stack software engineer to help improve the functionality of Cumulus&#x27;s web and mobile apps. Your work will provide user experiences that adapt to diverse environments, such as data centers, offshore platforms, and more. We are looking for a senior software engineer, who has mastered their craft and keeps up-to-date with developments in their field.
+
+We work from home, but need to be located near our office in Waltham, MA or Houston, TX, where we test our integration with industrial tools.
+
+Tech: React, React Native, AWS
+
+Reach out to us at careers+hn@cumulusds.com
+<JobApplication />
