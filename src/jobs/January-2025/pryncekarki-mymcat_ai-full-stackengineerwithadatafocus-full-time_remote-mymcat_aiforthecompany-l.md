@@ -1,0 +1,16 @@
+---
+title: "mymcat.ai : full-stack engineer with a data focus"
+author:
+  name: pryncekarki
+  url: https://news.ycombinator.com/item?id=42578991
+---
+mymcat.ai - full-stack engineer with a data focus - full-time, remote - mymcat.ai for the company - looking for the princess that fits the shoe
+
+MyMCAT.ai is a machine learning educational technology company that seeks to build a better class of doctors. We’ve built a unique, gamified intelligent tutoring system, essentially a video game for learning the MCAT. Our platform is an intelligent tutoring system which diagnoses student weaknesses, assigns them content and videos in fun games, and then uses AI to tutor them on topics they struggle with.
+
+It&#x27;s built like a sensor network: from the beginning to the end, every interaction with our website is tracked and used to update the model&#x27;s understanding of student knowledge. Every interaction on our platform is a data point – highlights, answer changes, even the coins they earn. This gives us unprecedented insight into how top performers master complex material. We&#x27;re capturing the real-time cognitive processes of the highest achievers, not just their scores. We are leveraging insights from behavioral economics to optimize learning through a proprietary coin system – what students prioritize, and how they respond to incentives. For example, we learned that higher-performing students on MCAT CARs reading passages actually highlight less rather than more, turning theory of excellent test-taking into data-driven insights.
+
+Please apply by sending a resume and a creative work — basically anything unrelated to work where you had to excercise creativity (art, creative writing, music) — to kalypso@mymcat.ai
+
+US-based or Canada-based ONLY.
+<JobApplication />
