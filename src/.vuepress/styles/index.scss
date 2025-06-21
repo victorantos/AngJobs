@@ -1,1 +1,213 @@
-// place your custom styles here
+// Modern AngJobs theme styles - Mobile First Design
+
+// CSS Custom Properties for theming
+:root {
+  // Brand colors
+  --angjobs-primary: #2196F3;
+  --angjobs-primary-dark: #1976D2;
+  --angjobs-secondary: #FF5722;
+  --angjobs-success: #4CAF50;
+  --angjobs-warning: #FF9800;
+  --angjobs-error: #F44336;
+  
+  // Gradients
+  --angjobs-gradient-primary: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+  --angjobs-gradient-secondary: linear-gradient(135deg, #FF5722 0%, #E64A19 100%);
+  
+  // Shadows
+  --angjobs-shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --angjobs-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.15);
+  --angjobs-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.2);
+  --angjobs-shadow-xl: 0 12px 32px rgba(0, 0, 0, 0.25);
+  
+  // Borders
+  --angjobs-border-radius: 8px;
+  --angjobs-border-radius-lg: 12px;
+  --angjobs-border-radius-xl: 16px;
+  
+  // Spacing
+  --angjobs-space-xs: 0.25rem;
+  --angjobs-space-sm: 0.5rem;
+  --angjobs-space-md: 1rem;
+  --angjobs-space-lg: 1.5rem;
+  --angjobs-space-xl: 2rem;
+  --angjobs-space-2xl: 3rem;
+  
+  // Typography
+  --angjobs-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --angjobs-font-mono: 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;
+  
+  // Transitions
+  --angjobs-transition: all 0.2s ease;
+  --angjobs-transition-slow: all 0.3s ease;
+}
+
+// Override theme variables
+html {
+  --theme-color: var(--angjobs-primary);
+  --theme-color-dark: var(--angjobs-primary-dark);
+}
+
+// Base styles
+body {
+  font-family: var(--angjobs-font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Enhanced buttons
+.btn {
+  border-radius: var(--angjobs-border-radius);
+  font-weight: 500;
+  transition: var(--angjobs-transition);
+  
+  &:hover {
+    transform: translateY(-1px);
+  }
+  
+  &.btn-primary {
+    background: var(--angjobs-gradient-primary);
+    border: none;
+    box-shadow: var(--angjobs-shadow-sm);
+    
+    &:hover {
+      box-shadow: var(--angjobs-shadow-md);
+    }
+  }
+}
+
+// Custom badge styles
+.badge {
+  &.badge-tech {
+    background: rgba(33, 150, 243, 0.1);
+    color: var(--angjobs-primary);
+    border: 1px solid rgba(33, 150, 243, 0.2);
+    font-weight: 500;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+  }
+  
+  &.badge-remote {
+    background: rgba(76, 175, 80, 0.1);
+    color: var(--angjobs-success);
+    border: 1px solid rgba(76, 175, 80, 0.2);
+  }
+  
+  &.badge-salary {
+    background: rgba(255, 152, 0, 0.1);
+    color: var(--angjobs-warning);
+    border: 1px solid rgba(255, 152, 0, 0.2);
+  }
+}
+
+// Mobile-first responsive utilities
+.mobile-hidden {
+  @media (max-width: 768px) {
+    display: none !important;
+  }
+}
+
+.mobile-only {
+  @media (min-width: 769px) {
+    display: none !important;
+  }
+}
+
+// Loading animations
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-slide-up {
+  animation: slideInUp 0.5s ease-out;
+}
+
+.animate-fade-scale {
+  animation: fadeInScale 0.3s ease-out;
+}
+
+// Enhanced form elements
+.form-control {
+  border-radius: var(--angjobs-border-radius);
+  border: 1px solid var(--border-color);
+  transition: var(--angjobs-transition);
+  
+  &:focus {
+    border-color: var(--angjobs-primary);
+    box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.1);
+    outline: none;
+  }
+}
+
+// Enhanced typography
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: var(--angjobs-space-md);
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+}
+
+h3 {
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+}
+
+// Dark mode enhancements
+html.dark {
+  --angjobs-shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
+  --angjobs-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --angjobs-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --angjobs-shadow-xl: 0 12px 32px rgba(0, 0, 0, 0.6);
+}
+
+// Accessibility improvements
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+// Focus indicators
+*:focus-visible {
+  outline: 2px solid var(--angjobs-primary);
+  outline-offset: 2px;
+}

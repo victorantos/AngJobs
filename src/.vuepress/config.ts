@@ -1,32 +1,68 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
-import  vuepressPluginHello from  "../../vuepress-plugin-hello/index.js";
+import vuepressPluginHello from "../../vuepress-plugin-hello/index.js";
 
 export default defineUserConfig({
   base: "/",
 
   lang: "en-US",
-  title: "ANGJOBS",
-  description: "Jobs for hackers",
+  title: "AngJobs - Hacker News Job Board",
+  description: "Find your next hacker job from Hacker News monthly threads. Browse the latest tech jobs, remote positions, and startup opportunities.",
 
   theme,
 
   // Enable it with pwa
-  // shouldPrefetch: false,
+  shouldPrefetch: false,
+  
   head: [
-    // Other head elements...
+    // SEO and meta tags
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
+    ['meta', { name: 'keywords', content: 'hacker news jobs, tech jobs, remote jobs, startup jobs, developer jobs, programming jobs' }],
+    ['meta', { name: 'author', content: 'AngJobs' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'AngJobs - Hacker News Job Board' }],
+    ['meta', { property: 'og:description', content: 'Find your next hacker job from Hacker News monthly threads' }],
+    ['meta', { property: 'og:url', content: 'https://angjobs.com' }],
+    ['meta', { property: 'og:image', content: 'https://angjobs.com/og-image.png' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:title', content: 'AngJobs - Hacker News Job Board' }],
+    ['meta', { name: 'twitter:description', content: 'Find your next hacker job from Hacker News monthly threads' }],
+    ['meta', { name: 'twitter:image', content: 'https://angjobs.com/twitter-image.png' }],
+    
+    // Favicon and icons
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
+    ['link', { rel: 'manifest', href: '/site.webmanifest' }],
+    
+    // Structured data for job board
+    ['script', {
+      type: 'application/ld+json'
+    }, JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "AngJobs",
+      "url": "https://angjobs.com",
+      "description": "Hacker News job board with the latest tech and startup opportunities",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://angjobs.com/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    })],
+    
+    // Analytics
     ['script', {
       'data-goatcounter': 'https://angjobs.goatcounter.com/count',
       async: true,
       src: '//gc.zgo.at/count.js'
     }]
   ],
+  
   plugins: [
-    [
-      vuepressPluginHello({
-        greeting: 'Hello VuePress!',
-        themeColor: '#42b983'
-      }) // relative path to your plugin
-    ]
+    vuepressPluginHello({
+      greeting: 'Hello VuePress!',
+      themeColor: '#42b983'
+    })
   ]
 });
