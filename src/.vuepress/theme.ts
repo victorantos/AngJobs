@@ -6,7 +6,7 @@ export default hopeTheme({
   hostname: "https://angjobs.com",
   name: "AngJobs - Hacker News Jobs",
   author: {
-    name: "AngJobs",
+    name: "victorantos",
     url: "https://angjobs.com",
   },
 

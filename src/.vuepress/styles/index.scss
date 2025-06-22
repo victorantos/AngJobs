@@ -1,14 +1,18 @@
-// Modern AngJobs theme styles - Mobile First Design
+// Modern AngJobs theme styles - Mobile First Design with HN aesthetic
 
 // CSS Custom Properties for theming
 :root {
-  // Brand colors
-  --angjobs-primary: #2196F3;
-  --angjobs-primary-dark: #1976D2;
-  --angjobs-secondary: #FF5722;
+  // Brand colors - HN inspired
+  --angjobs-primary: #ff6600;
+  --angjobs-primary-dark: #e55500;
+  --angjobs-secondary: #2196F3;
   --angjobs-success: #4CAF50;
   --angjobs-warning: #FF9800;
   --angjobs-error: #F44336;
+  --angjobs-bg-main: #f6f6ef;
+  --angjobs-text-primary: #1a1a1a;
+  --angjobs-text-secondary: #666;
+  --angjobs-border: #e5e7eb;
   
   // Gradients
   --angjobs-gradient-primary: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
@@ -210,4 +214,139 @@ html.dark {
 *:focus-visible {
   outline: 2px solid var(--angjobs-primary);
   outline-offset: 2px;
+}
+
+// Enhanced job listing pages with HN style
+.theme-default-content {
+  // Job listing pages
+  h1:has(+ ul li a[href*="/jobs/"]),
+  h1:has(+ p + ul li a[href*="/jobs/"]) {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--angjobs-text-primary);
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--angjobs-primary);
+  }
+  
+  // Job list styling
+  ul:has(li a[href*="/jobs/"]) {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    li {
+      background: var(--angjobs-bg-main);
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 12px;
+      transition: all 0.2s;
+      border: 1px solid transparent;
+      position: relative;
+      
+      &:hover {
+        background: #fff;
+        border-color: var(--angjobs-primary);
+        box-shadow: 0 2px 8px rgba(255, 102, 0, 0.1);
+        transform: translateY(-1px);
+      }
+      
+      a {
+        color: var(--angjobs-text-primary);
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        display: block;
+        
+        &:hover {
+          color: var(--angjobs-primary);
+        }
+        
+        &:visited {
+          color: var(--angjobs-text-secondary);
+        }
+      }
+      
+      // Extract company and job info
+      &::after {
+        content: "";
+        display: block;
+        font-size: 14px;
+        color: var(--angjobs-text-secondary);
+        margin-top: 4px;
+      }
+    }
+  }
+}
+
+// Job detail pages
+.theme-default-content:has(.job-application) {
+  h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--angjobs-text-primary);
+    margin-bottom: 16px;
+  }
+  
+  h2:first-of-type {
+    font-size: 20px;
+    color: var(--angjobs-text-secondary);
+    font-weight: 400;
+    margin-bottom: 24px;
+  }
+  
+  p, li {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #374151;
+  }
+  
+  a:not(.job-application a) {
+    color: var(--angjobs-primary);
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Add instant search to job listing pages
+.page:has(ul li a[href*="/jobs/"]) {
+  position: relative;
+  
+  &::before {
+    content: "";
+    display: block;
+    height: 60px;
+  }
+}
+
+// Mobile optimizations
+@media (max-width: 768px) {
+  .theme-default-content {
+    padding: 12px !important;
+    
+    h1 {
+      font-size: 20px !important;
+    }
+    
+    ul:has(li a[href*="/jobs/"]) li {
+      padding: 12px 16px;
+      margin-bottom: 8px;
+      
+      a {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+// Add job count indicator
+.theme-default-content h1:has(+ ul li a[href*="/jobs/"])::after {
+  content: attr(data-job-count);
+  font-size: 14px;
+  color: var(--angjobs-text-secondary);
+  font-weight: 400;
+  margin-left: 12px;
 }

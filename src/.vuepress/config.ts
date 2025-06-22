@@ -18,7 +18,7 @@ export default defineUserConfig({
     // SEO and meta tags
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
     ['meta', { name: 'keywords', content: 'hacker news jobs, tech jobs, remote jobs, startup jobs, developer jobs, programming jobs' }],
-    ['meta', { name: 'author', content: 'AngJobs' }],
+    ['meta', { name: 'author', content: 'victorantos' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'AngJobs - Hacker News Job Board' }],
     ['meta', { property: 'og:description', content: 'Find your next hacker job from Hacker News monthly threads' }],

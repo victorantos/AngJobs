@@ -19,6 +19,11 @@
   },
   "engines": {
     "node": "^20.0.0"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3"
+  },
+  "overrides": {
+    "execa": "^8.0.1"
   }
- 
 }

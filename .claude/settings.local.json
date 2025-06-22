@@ -10,7 +10,16 @@
       "Bash(sed:*)",
       "Bash(grep:*)",
       "Bash(ls:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(npm install:*)",
+      "Bash(chmod:*)",
+      "Bash(node:*)",
+      "Bash(npm run docs:clean-dev:*)",
+      "Bash(cp:*)",
+      "Bash(curl:*)",
+      "Bash(rg:*)",
+      "Bash(pkill:*)",
+      "Bash(mv:*)"
     ],
     "deny": []
   }
