@@ -5,19 +5,19 @@ title: All June 2025 Jobs
 <div class="all-jobs-page">
 
 <div class="jobs-header">
-  <div class="jobs-count">229 total positions</div>
+  <div class="jobs-count">230 total positions</div>
   <div class="back-link">
     <a href="/jobs/June-2025/">&larr; Back to Featured Jobs</a>
   </div>
 </div>
 
-<JobSearch />
+<AllJobsSearch />
 
 <div class="jobs-grid">
 
   <div class="job-item" data-title="[stealth genai startup] : nyc onsite" data-company="[stealthgenaistartup]">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/jeffreysmith-[StealthGenAIstartup]-NYCONSITE-FoundingEngineeringLead-Full-Time]">[Stealth GenAI startup] : NYC ONSITE</a></h3>
+      <h3><a href="/jobs/June-2025/jeffreysmith-%5BStealthGenAIstartup%5D-NYCONSITE-FoundingEngineeringLead-Full-Time%5D">[Stealth GenAI startup] : NYC ONSITE</a></h3>
       <div class="job-meta">
         <span class="company">🏢 [StealthGenAIstartup]</span>
         <span class="author">👤 jeffreysmith</span>
@@ -67,7 +67,7 @@ title: All June 2025 Jobs
 
   <div class="job-item" data-title="agentio : senior software engineer" data-company="agentio">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/jmeyers44-Agentio-SeniorSoftwareEngineer-On-site(Brooklyn_NY)-Full-time-$150k–225k+Equity">Agentio : Senior Software Engineer</a></h3>
+      <h3><a href="/jobs/June-2025/jmeyers44-Agentio-SeniorSoftwareEngineer-On-site(Brooklyn_NY)-Full-time-%24150k%E2%80%93225k%2BEquity">Agentio : Senior Software Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Agentio</span>
         <span class="author">👤 jmeyers44</span>
@@ -91,6 +91,16 @@ title: All June 2025 Jobs
       <div class="job-meta">
         <span class="company">🏢 Aleph</span>
         <span class="author">👤 espinchi</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="job-item" data-title="all june 2025 jobs" data-company="jobs">
+    <div class="job-content">
+      <h3><a href="/jobs/June-2025/all-jobs">All June 2025 Jobs</a></h3>
+      <div class="job-meta">
+        <span class="company">🏢 jobs</span>
+        <span class="author">👤 Anonymous</span>
       </div>
     </div>
   </div>
@@ -137,7 +147,7 @@ title: All June 2025 Jobs
 
   <div class="job-item" data-title="ascertain : full-time" data-company="ascertain">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/ascertain_john-Ascertain-Full-time-$180k–$280k+equity-HealthcareAI">Ascertain : Full-time</a></h3>
+      <h3><a href="/jobs/June-2025/ascertain_john-Ascertain-Full-time-%24180k%E2%80%93%24280k%2Bequity-HealthcareAI">Ascertain : Full-time</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Ascertain</span>
         <span class="author">👤 ascertain_john</span>
@@ -207,7 +217,7 @@ title: All June 2025 Jobs
 
   <div class="job-item" data-title="better stack : europe remote in utc ± 3h" data-company="betterstack">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/jurajmasar-BetterStack-EuroperemoteinUTC±3h">Better Stack : Europe remote in UTC ± 3h</a></h3>
+      <h3><a href="/jobs/June-2025/jurajmasar-BetterStack-EuroperemoteinUTC%C2%B13h">Better Stack : Europe remote in UTC ± 3h</a></h3>
       <div class="job-meta">
         <span class="company">🏢 BetterStack</span>
         <span class="author">👤 jurajmasar</span>
@@ -247,7 +257,7 @@ title: All June 2025 Jobs
 
   <div class="job-item" data-title="boost my school : senior or staff software engineer" data-company="boostmyschool">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/golmansax-BoostMySchool-SeniororStaffSoftwareEngineer-Full-time-Remote_USAonly-$147-$185Ksalary-">Boost My School : Senior or Staff Software Engineer</a></h3>
+      <h3><a href="/jobs/June-2025/golmansax-BoostMySchool-SeniororStaffSoftwareEngineer-Full-time-Remote_USAonly-%24147-%24185Ksalary-">Boost My School : Senior or Staff Software Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 BoostMySchool</span>
         <span class="author">👤 golmansax</span>
@@ -257,7 +267,7 @@ title: All June 2025 Jobs
 
   <div class="job-item" data-title="brilliant.org : software engineers" data-company="brilliant_org">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/jaredsilver-Brilliant_org-SoftwareEngineers-Remote(NorthAmerica)_SF_NYC-Full-time-$145k—$230k">Brilliant.org : Software Engineers</a></h3>
+      <h3><a href="/jobs/June-2025/jaredsilver-Brilliant_org-SoftwareEngineers-Remote(NorthAmerica)_SF_NYC-Full-time-%24145k%E2%80%94%24230k">Brilliant.org : Software Engineers</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Brilliant_org</span>
         <span class="author">👤 jaredsilver</span>
@@ -267,7 +277,7 @@ title: All June 2025 Jobs
 
   <div class="job-item" data-title="bubble goods : bubblegoods.com" data-company="bubblegoods">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/alanmcgee-BubbleGoods-bubblegoods_com-SeniorFullStackEngineer-Hybrid(NYC)-Full-time-$135k–$150k+">Bubble Goods : bubblegoods.com</a></h3>
+      <h3><a href="/jobs/June-2025/alanmcgee-BubbleGoods-bubblegoods_com-SeniorFullStackEngineer-Hybrid(NYC)-Full-time-%24135k%E2%80%93%24150k%2B">Bubble Goods : bubblegoods.com</a></h3>
       <div class="job-meta">
         <span class="company">🏢 BubbleGoods</span>
         <span class="author">👤 alanmcgee</span>
@@ -317,7 +327,7 @@ title: All June 2025 Jobs
 
   <div class="job-item" data-title="can you please stop farming cvs?" data-company="canyoupleasestopfarmingcvs?">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/mariopt-CanyoupleasestopfarmingCVs?">Can you please stop farming CVs?</a></h3>
+      <h3><a href="/jobs/June-2025/mariopt-CanyoupleasestopfarmingCVs%3F">Can you please stop farming CVs?</a></h3>
       <div class="job-meta">
         <span class="company">🏢 CanyoupleasestopfarmingCVs?</span>
         <span class="author">👤 mariopt</span>
@@ -337,7 +347,7 @@ title: All June 2025 Jobs
 
   <div class="job-item" data-title="category labs : remote and nyc" data-company="categorylabs">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/wwolffrec-CategoryLabs-RemoteandNYC-FullTime-$200KUSD+">Category Labs : Remote and NYC</a></h3>
+      <h3><a href="/jobs/June-2025/wwolffrec-CategoryLabs-RemoteandNYC-FullTime-%24200KUSD%2B">Category Labs : Remote and NYC</a></h3>
       <div class="job-meta">
         <span class="company">🏢 CategoryLabs</span>
         <span class="author">👤 wwolffrec</span>
@@ -367,7 +377,7 @@ title: All June 2025 Jobs
 
   <div class="job-item" data-title="centry capital : platform engineer and quality assurance engineer roles" data-company="centrycapital">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/olddognewtricks-CentryCapital-PlatformEngineerandQualityAssuranceEngineerroles-REMOTE(±3hoursCET">Centry Capital : Platform Engineer and Quality Assurance Engineer roles</a></h3>
+      <h3><a href="/jobs/June-2025/olddognewtricks-CentryCapital-PlatformEngineerandQualityAssuranceEngineerroles-REMOTE(%C2%B13hoursCET">Centry Capital : Platform Engineer and Quality Assurance Engineer roles</a></h3>
       <div class="job-meta">
         <span class="company">🏢 CentryCapital</span>
         <span class="author">👤 olddognewtricks</span>
@@ -397,7 +407,7 @@ title: All June 2025 Jobs
 
   <div class="job-item" data-title="chestnut : senior software engineer (4+ yoe)" data-company="chestnut">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/hilem-Chestnut-SeniorSoftwareEngineer(4+YoE)-Bayarearemotehybrid-FullTime">Chestnut : Senior Software Engineer (4+ YoE)</a></h3>
+      <h3><a href="/jobs/June-2025/hilem-Chestnut-SeniorSoftwareEngineer(4%2BYoE)-Bayarearemotehybrid-FullTime">Chestnut : Senior Software Engineer (4+ YoE)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Chestnut</span>
         <span class="author">👤 hilem</span>
@@ -457,7 +467,7 @@ title: All June 2025 Jobs
 
   <div class="job-item" data-title="cleric : staff software engineer" data-company="cleric">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/willempienaar-Cleric-StaffSoftwareEngineer-Full-Time-$160K–$220K-Onsite(SanFrancisco)">Cleric : Staff Software Engineer</a></h3>
+      <h3><a href="/jobs/June-2025/willempienaar-Cleric-StaffSoftwareEngineer-Full-Time-%24160K%E2%80%93%24220K-Onsite(SanFrancisco)">Cleric : Staff Software Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Cleric</span>
         <span class="author">👤 willempienaar</span>
@@ -497,7 +507,7 @@ title: All June 2025 Jobs
 
   <div class="job-item" data-title="comulate : senior engineer (3+ yoe)" data-company="comulate">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/michaelm244-Comulate-SeniorEngineer(3+YoE)-ONSITEinSanFrancisco_CA">Comulate : Senior Engineer (3+ YoE)</a></h3>
+      <h3><a href="/jobs/June-2025/michaelm244-Comulate-SeniorEngineer(3%2BYoE)-ONSITEinSanFrancisco_CA">Comulate : Senior Engineer (3+ YoE)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Comulate</span>
         <span class="author">👤 michaelm244</span>
@@ -527,7 +537,7 @@ title: All June 2025 Jobs
 
   <div class="job-item" data-title="cora ai : full-time" data-company="coraai">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/jesalg-CoraAI-Full-time-$175-220k+EarlyEquity">Cora AI : Full-time</a></h3>
+      <h3><a href="/jobs/June-2025/jesalg-CoraAI-Full-time-%24175-220k%2BEarlyEquity">Cora AI : Full-time</a></h3>
       <div class="job-meta">
         <span class="company">🏢 CoraAI</span>
         <span class="author">👤 jesalg</span>
@@ -547,7 +557,7 @@ title: All June 2025 Jobs
 
   <div class="job-item" data-title="count : senior software engineer" data-company="count">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/ojpike-Count-SeniorSoftwareEngineer-Full-time-£100-140k+Equity">Count : Senior Software Engineer</a></h3>
+      <h3><a href="/jobs/June-2025/ojpike-Count-SeniorSoftwareEngineer-Full-time-%C2%A3100-140k%2BEquity">Count : Senior Software Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Count</span>
         <span class="author">👤 ojpike</span>
@@ -577,7 +587,7 @@ title: All June 2025 Jobs
 
   <div class="job-item" data-title="curipod : senior software engineer" data-company="curipod">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/frikk18-Curipod-SeniorSoftwareEngineer-Fulltime-Remote(US-based)($160-200k+equity)">Curipod : Senior Software Engineer</a></h3>
+      <h3><a href="/jobs/June-2025/frikk18-Curipod-SeniorSoftwareEngineer-Fulltime-Remote(US-based)(%24160-200k%2Bequity)">Curipod : Senior Software Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Curipod</span>
         <span class="author">👤 frikk18</span>
@@ -587,7 +597,7 @@ title: All June 2025 Jobs
 
   <div class="job-item" data-title="depot (w23) : enterprise support engineer" data-company="depot(w23)">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/jacobwg-Depot(W23)-EnterpriseSupportEngineer-Remote(UK_Europe)-Full-time-€100K-€160K">Depot (W23) : Enterprise Support Engineer</a></h3>
+      <h3><a href="/jobs/June-2025/jacobwg-Depot(W23)-EnterpriseSupportEngineer-Remote(UK_Europe)-Full-time-%E2%82%AC100K-%E2%82%AC160K">Depot (W23) : Enterprise Support Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Depot(W23)</span>
         <span class="author">👤 jacobwg</span>
@@ -637,7 +647,7 @@ title: All June 2025 Jobs
 
   <div class="job-item" data-title="duckduckgo : multiple roles" data-company="duckduckgo">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/bill_duckduckgo-DuckDuckGo-MultipleRoles-Remote-Full-time-$178_5k+equity">DuckDuckGo : Multiple Roles</a></h3>
+      <h3><a href="/jobs/June-2025/bill_duckduckgo-DuckDuckGo-MultipleRoles-Remote-Full-time-%24178_5k%2Bequity">DuckDuckGo : Multiple Roles</a></h3>
       <div class="job-meta">
         <span class="company">🏢 DuckDuckGo</span>
         <span class="author">👤 bill_duckduckgo</span>
@@ -657,7 +667,7 @@ title: All June 2025 Jobs
 
   <div class="job-item" data-title="edge impulse (a qualcomm company) : senior ml engineer" data-company="edgeimpulse(aqualcommcompany)">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/dansitu-EdgeImpulse(aQualcommcompany)-SeniorMLEngineer-Full-time-$126-211k+RSUs">Edge Impulse (a Qualcomm company) : Senior ML Engineer</a></h3>
+      <h3><a href="/jobs/June-2025/dansitu-EdgeImpulse(aQualcommcompany)-SeniorMLEngineer-Full-time-%24126-211k%2BRSUs">Edge Impulse (a Qualcomm company) : Senior ML Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 EdgeImpulse(aQualcommcompany)</span>
         <span class="author">👤 dansitu</span>
@@ -677,7 +687,7 @@ title: All June 2025 Jobs
 
   <div class="job-item" data-title="elicit : san francisco + remote (us timezones)" data-company="elicit">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/jamesbrady-Elicit-SanFrancisco+remote(UStimezones)">Elicit : San Francisco + remote (US timezones)</a></h3>
+      <h3><a href="/jobs/June-2025/jamesbrady-Elicit-SanFrancisco%2Bremote(UStimezones)">Elicit : San Francisco + remote (US timezones)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Elicit</span>
         <span class="author">👤 jamesbrady</span>
@@ -687,7 +697,7 @@ title: All June 2025 Jobs
 
   <div class="job-item" data-title="elide.dev : multiple roles" data-company="elide_dev">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/sgammon-elide_dev-MultipleRoles-REMOTEOROFFICE(US)-Kotlin+Rust">elide.dev : Multiple Roles</a></h3>
+      <h3><a href="/jobs/June-2025/sgammon-elide_dev-MultipleRoles-REMOTEOROFFICE(US)-Kotlin%2BRust">elide.dev : Multiple Roles</a></h3>
       <div class="job-meta">
         <span class="company">🏢 elide_dev</span>
         <span class="author">👤 sgammon</span>
@@ -697,8 +707,7 @@ title: All June 2025 Jobs
 
   <div class="job-item" data-title="engineers, marketing+gtm : remote (us, san francisco)" data-company="engineers_marketing+gtm">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/danfarrelly-Engineers_Marketing+GTM-Remote(US_SanFrancisco)-Full-time-$130-245k+equity
-Inngestis">Engineers, Marketing+GTM : Remote (US, San Francisco)</a></h3>
+      <h3><a href="/jobs/June-2025/danfarrelly-Engineers_Marketing%2BGTM-Remote(US_SanFrancisco)-Full-time-%24130-245k%2BequityInngestis">Engineers, Marketing+GTM : Remote (US, San Francisco)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Engineers_Marketing+GTM</span>
         <span class="author">👤 danfarrelly</span>
@@ -708,7 +717,7 @@ Inngestis">Engineers, Marketing+GTM : Remote (US, San Francisco)</a></h3>
 
   <div class="job-item" data-title="equall : product engineer (full stack)" data-company="equall">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/mjdesa-Equall-ProductEngineer(FullStack)-FullTime-$150K–$250Kdependingonexperience-dani@equall_c">Equall : Product Engineer (Full Stack)</a></h3>
+      <h3><a href="/jobs/June-2025/mjdesa-Equall-ProductEngineer(FullStack)-FullTime-%24150K%E2%80%93%24250Kdependingonexperience-dani%40equall_c">Equall : Product Engineer (Full Stack)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Equall</span>
         <span class="author">👤 mjdesa</span>
@@ -718,8 +727,7 @@ Inngestis">Engineers, Marketing+GTM : Remote (US, San Francisco)</a></h3>
 
   <div class="job-item" data-title="exnaton (climate tech) : fullstack engineer (with devops focus)" data-company="exnaton(climatetech)">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/mariaufnal-Exnaton(ClimateTech)-FullstackEngineer(withDevOpsfocus)-Remote(EUcountries)-fulltime
-">Exnaton (Climate Tech) : Fullstack Engineer (with DevOps focus)</a></h3>
+      <h3><a href="/jobs/June-2025/mariaufnal-Exnaton(ClimateTech)-FullstackEngineer(withDevOpsfocus)-Remote(EUcountries)-fulltime">Exnaton (Climate Tech) : Fullstack Engineer (with DevOps focus)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Exnaton(ClimateTech)</span>
         <span class="author">👤 mariaufnal</span>
@@ -769,7 +777,7 @@ Inngestis">Engineers, Marketing+GTM : Remote (US, San Francisco)</a></h3>
 
   <div class="job-item" data-title="floryn : software engineer" data-company="floryn">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/meurkens-Floryn-SoftwareEngineer-RubyonRails_React_ReactNative-€45_000-€90_000">Floryn : Software Engineer</a></h3>
+      <h3><a href="/jobs/June-2025/meurkens-Floryn-SoftwareEngineer-RubyonRails_React_ReactNative-%E2%82%AC45_000-%E2%82%AC90_000">Floryn : Software Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Floryn</span>
         <span class="author">👤 meurkens</span>
@@ -779,7 +787,7 @@ Inngestis">Engineers, Marketing+GTM : Remote (US, San Francisco)</a></h3>
 
   <div class="job-item" data-title="flourish health : senior software engineer" data-company="flourishhealth">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/servercobra-FlourishHealth-SeniorSoftwareEngineer-Remote(US)-Full-time-$150-189k">Flourish Health : Senior Software Engineer</a></h3>
+      <h3><a href="/jobs/June-2025/servercobra-FlourishHealth-SeniorSoftwareEngineer-Remote(US)-Full-time-%24150-189k">Flourish Health : Senior Software Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 FlourishHealth</span>
         <span class="author">👤 servercobra</span>
@@ -889,9 +897,7 @@ Inngestis">Engineers, Marketing+GTM : Remote (US, San Francisco)</a></h3>
 
   <div class="job-item" data-title="galaxy (getgalaxy.io) - the cursor for sql : nyc, ny" data-company="galaxy(getgalaxy_io)">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/garrettwolfe-Galaxy(getgalaxy_io)-TheCursorforSQL-NYC_NY-Fulltime
---FoundingFrontendEngineer
---F">Galaxy (getgalaxy.io) - The Cursor for SQL : NYC, NY</a></h3>
+      <h3><a href="/jobs/June-2025/garrettwolfe-Galaxy(getgalaxy_io)-TheCursorforSQL-NYC_NY-Fulltime--FoundingFrontendEngineer--F">Galaxy (getgalaxy.io) - The Cursor for SQL : NYC, NY</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Galaxy(getgalaxy_io)</span>
         <span class="author">👤 garrettwolfe</span>
@@ -901,7 +907,7 @@ Inngestis">Engineers, Marketing+GTM : Remote (US, San Francisco)</a></h3>
 
   <div class="job-item" data-title="good pair days : lead engineer, fullstack" data-company="goodpairdays">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/betocmn-GoodPairDays-LeadEngineer_Fullstack-Full-Time-REMOTE(Australia+-1h)-AUD$150_000to$250_00">Good Pair Days : Lead Engineer, Fullstack</a></h3>
+      <h3><a href="/jobs/June-2025/betocmn-GoodPairDays-LeadEngineer_Fullstack-Full-Time-REMOTE(Australia%2B-1h)-AUD%24150_000to%24250_00">Good Pair Days : Lead Engineer, Fullstack</a></h3>
       <div class="job-meta">
         <span class="company">🏢 GoodPairDays</span>
         <span class="author">👤 betocmn</span>
@@ -921,7 +927,7 @@ Inngestis">Engineers, Marketing+GTM : Remote (US, San Francisco)</a></h3>
 
   <div class="job-item" data-title="goody : remote" data-company="goody">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/markbao-Goody-Remote-$170-230K+equityandbenefits-Full-time">Goody : Remote</a></h3>
+      <h3><a href="/jobs/June-2025/markbao-Goody-Remote-%24170-230K%2Bequityandbenefits-Full-time">Goody : Remote</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Goody</span>
         <span class="author">👤 markbao</span>
@@ -931,7 +937,7 @@ Inngestis">Engineers, Marketing+GTM : Remote (US, San Francisco)</a></h3>
 
   <div class="job-item" data-title="govpilot : senior + staff software engineer" data-company="govpilot">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/j4pe-GovPilot-Senior+StaffSoftwareEngineer-PythonNYCOnsite">GovPilot : Senior + Staff Software Engineer</a></h3>
+      <h3><a href="/jobs/June-2025/j4pe-GovPilot-Senior%2BStaffSoftwareEngineer-PythonNYCOnsite">GovPilot : Senior + Staff Software Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 GovPilot</span>
         <span class="author">👤 j4pe</span>
@@ -951,7 +957,7 @@ Inngestis">Engineers, Marketing+GTM : Remote (US, San Francisco)</a></h3>
 
   <div class="job-item" data-title="hello prenup : software engineer" data-company="helloprenup">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/enghelloprenup-HelloPrenup-SoftwareEngineer-REMOTE(UStimezones)-Full-time-$90-130k+Equity">Hello Prenup : Software Engineer</a></h3>
+      <h3><a href="/jobs/June-2025/enghelloprenup-HelloPrenup-SoftwareEngineer-REMOTE(UStimezones)-Full-time-%2490-130k%2BEquity">Hello Prenup : Software Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 HelloPrenup</span>
         <span class="author">👤 enghelloprenup</span>
@@ -981,7 +987,7 @@ Inngestis">Engineers, Marketing+GTM : Remote (US, San Francisco)</a></h3>
 
   <div class="job-item" data-title="homevision : engineering" data-company="homevision">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/vincentchu-HomeVision-Engineering-Full-Time-$150k-$220k+equity">HomeVision : Engineering</a></h3>
+      <h3><a href="/jobs/June-2025/vincentchu-HomeVision-Engineering-Full-Time-%24150k-%24220k%2Bequity">HomeVision : Engineering</a></h3>
       <div class="job-meta">
         <span class="company">🏢 HomeVision</span>
         <span class="author">👤 vincentchu</span>
@@ -991,8 +997,7 @@ Inngestis">Engineers, Marketing+GTM : Remote (US, San Francisco)</a></h3>
 
   <div class="job-item" data-title="ifolio : atlanta, ga" data-company="ifolio">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/peter_ifolio-iFOLIO-Atlanta_GA-ONSITE_possibleRemote(US)inEST-SoftwareEngineerIII-Full-time
-Wepo">iFOLIO : Atlanta, GA</a></h3>
+      <h3><a href="/jobs/June-2025/peter_ifolio-iFOLIO-Atlanta_GA-ONSITE_possibleRemote(US)inEST-SoftwareEngineerIII-Full-timeWepo">iFOLIO : Atlanta, GA</a></h3>
       <div class="job-meta">
         <span class="company">🏢 iFOLIO</span>
         <span class="author">👤 peter_ifolio</span>
@@ -1052,8 +1057,7 @@ Wepo">iFOLIO : Atlanta, GA</a></h3>
 
   <div class="job-item" data-title="ivo : sf (in-person)" data-company="ivo">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/jacob-ivo-Ivo-SF(In-Person)-SoftwareEngineer
-Ivo(www_ivo_ai)isanAIlegalassistantforreviewingandr">Ivo : SF (In-Person)</a></h3>
+      <h3><a href="/jobs/June-2025/jacob-ivo-Ivo-SF(In-Person)-SoftwareEngineerIvo(www_ivo_ai)isanAIlegalassistantforreviewingandr">Ivo : SF (In-Person)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 ivo</span>
         <span class="author">👤 jacob-ivo</span>
@@ -1113,7 +1117,7 @@ Ivo(www_ivo_ai)isanAIlegalassistantforreviewingandr">Ivo : SF (In-Person)</a></h
 
   <div class="job-item" data-title="lexoga : applied research engineer" data-company="lexoga">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/adarshd-Lexoga-AppliedResearchEngineer-FullTime-Remote(Global)-$60k-$180kUSD">Lexoga : Applied Research Engineer</a></h3>
+      <h3><a href="/jobs/June-2025/adarshd-Lexoga-AppliedResearchEngineer-FullTime-Remote(Global)-%2460k-%24180kUSD">Lexoga : Applied Research Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Lexoga</span>
         <span class="author">👤 adarshd</span>
@@ -1193,7 +1197,7 @@ Ivo(www_ivo_ai)isanAIlegalassistantforreviewingandr">Ivo : SF (In-Person)</a></h
 
   <div class="job-item" data-title="max ai : full-time" data-company="maxai">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/kveykva-MaxAI-Full-time-$145k—$230k">Max AI : Full-time</a></h3>
+      <h3><a href="/jobs/June-2025/kveykva-MaxAI-Full-time-%24145k%E2%80%94%24230k">Max AI : Full-time</a></h3>
       <div class="job-meta">
         <span class="company">🏢 MaxAI</span>
         <span class="author">👤 kveykva</span>
@@ -1203,7 +1207,7 @@ Ivo(www_ivo_ai)isanAIlegalassistantforreviewingandr">Ivo : SF (In-Person)</a></h
 
   <div class="job-item" data-title="mbue : hybrid (austin, tx)" data-company="mbue">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/jeanpierretrou-mbue-Hybrid(Austin_TX)-Full-time-MachineLearningEngineer(CV+LLM)">mbue : Hybrid (Austin, TX)</a></h3>
+      <h3><a href="/jobs/June-2025/jeanpierretrou-mbue-Hybrid(Austin_TX)-Full-time-MachineLearningEngineer(CV%2BLLM)">mbue : Hybrid (Austin, TX)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 mbue</span>
         <span class="author">👤 jeanpierretrou</span>
@@ -1233,8 +1237,7 @@ Ivo(www_ivo_ai)isanAIlegalassistantforreviewingandr">Ivo : SF (In-Person)</a></h
 
   <div class="job-item" data-title="minoa.io : software engineer" data-company="minoa_io">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/GTM_Vic-Minoa_io-SoftwareEngineer-On-site_SanFrancisco_USA-Full-time-$160k-$220k+equity
-Joinusat">Minoa.io : Software Engineer</a></h3>
+      <h3><a href="/jobs/June-2025/GTM_Vic-Minoa_io-SoftwareEngineer-On-site_SanFrancisco_USA-Full-time-%24160k-%24220k%2BequityJoinusat">Minoa.io : Software Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Minoa_io</span>
         <span class="author">👤 GTM_Vic</span>
@@ -1314,7 +1317,7 @@ Joinusat">Minoa.io : Software Engineer</a></h3>
 
   <div class="job-item" data-title="nao labs : [staff, senior] ai engineer" data-company="naolabs">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/blef-naoLabs-[Staff_Senior]AIEngineer-Parisorremote(Europe)-Python_Typescript_React">nao Labs : [Staff, Senior] AI Engineer</a></h3>
+      <h3><a href="/jobs/June-2025/blef-naoLabs-%5BStaff_Senior%5DAIEngineer-Parisorremote(Europe)-Python_Typescript_React">nao Labs : [Staff, Senior] AI Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 naoLabs</span>
         <span class="author">👤 blef</span>
@@ -1334,7 +1337,7 @@ Joinusat">Minoa.io : Software Engineer</a></h3>
 
   <div class="job-item" data-title="neon health : founding sr backend engineer" data-company="neonhealth">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/stedman-NeonHealth-FoundingSrBackendEngineer-SF_Remote(NorthAmerica)-Full-time-$170-225K+equity">Neon Health : Founding Sr Backend Engineer</a></h3>
+      <h3><a href="/jobs/June-2025/stedman-NeonHealth-FoundingSrBackendEngineer-SF_Remote(NorthAmerica)-Full-time-%24170-225K%2Bequity">Neon Health : Founding Sr Backend Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 NeonHealth</span>
         <span class="author">👤 stedman</span>
@@ -1374,7 +1377,7 @@ Joinusat">Minoa.io : Software Engineer</a></h3>
 
   <div class="job-item" data-title="nomi.ai : senior machine learning engineer" data-company="nomi_ai">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/cardine-Nomi_ai-SeniorMachineLearningEngineer-Remote(Global)-Full-time-$150k–$250k+equity">Nomi.ai : Senior Machine Learning Engineer</a></h3>
+      <h3><a href="/jobs/June-2025/cardine-Nomi_ai-SeniorMachineLearningEngineer-Remote(Global)-Full-time-%24150k%E2%80%93%24250k%2Bequity">Nomi.ai : Senior Machine Learning Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Nomi_ai</span>
         <span class="author">👤 cardine</span>
@@ -1404,7 +1407,7 @@ Joinusat">Minoa.io : Software Engineer</a></h3>
 
   <div class="job-item" data-title="odoo : full stack developer" data-company="odoo">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/spiksla-Odoo-FullStackDeveloper-Full-time-Visa+€10kSigningBonus">Odoo : Full Stack Developer</a></h3>
+      <h3><a href="/jobs/June-2025/spiksla-Odoo-FullStackDeveloper-Full-time-Visa%2B%E2%82%AC10kSigningBonus">Odoo : Full Stack Developer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Odoo</span>
         <span class="author">👤 spiksla</span>
@@ -1464,7 +1467,7 @@ Joinusat">Minoa.io : Software Engineer</a></h3>
 
   <div class="job-item" data-title="parable : senior ml engineer x2" data-company="parable">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/usful-Parable-SeniorMLEngineerx2-Remote•Fulltime-$150-250k-EnterpriseSalesPartnerx2-NYCOffice•Fu">Parable : Senior ML Engineer x2</a></h3>
+      <h3><a href="/jobs/June-2025/usful-Parable-SeniorMLEngineerx2-Remote%E2%80%A2Fulltime-%24150-250k-EnterpriseSalesPartnerx2-NYCOffice%E2%80%A2Fu">Parable : Senior ML Engineer x2</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Parable</span>
         <span class="author">👤 usful</span>
@@ -1584,7 +1587,7 @@ Joinusat">Minoa.io : Software Engineer</a></h3>
 
   <div class="job-item" data-title="rebolt : atlanta (onsite)" data-company="rebolt">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/wallawe-Rebolt-Atlanta(onsite)-Full-stackengineer(AIfocus)-Full-Time-120-180k+equity">Rebolt : Atlanta (onsite)</a></h3>
+      <h3><a href="/jobs/June-2025/wallawe-Rebolt-Atlanta(onsite)-Full-stackengineer(AIfocus)-Full-Time-120-180k%2Bequity">Rebolt : Atlanta (onsite)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Rebolt</span>
         <span class="author">👤 wallawe</span>
@@ -1604,7 +1607,7 @@ Joinusat">Minoa.io : Software Engineer</a></h3>
 
   <div class="job-item" data-title="remote (us east coast + eu) : full-time" data-company="remote(useastcoast+eu)">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/ArchieHub-Remote(USEastCoast+EU)-Full-Time-Equity">Remote (US East Coast + EU) : Full-Time</a></h3>
+      <h3><a href="/jobs/June-2025/ArchieHub-Remote(USEastCoast%2BEU)-Full-Time-Equity">Remote (US East Coast + EU) : Full-Time</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Remote(USEastCoast+EU)</span>
         <span class="author">👤 ArchieHub</span>
@@ -1704,7 +1707,7 @@ Joinusat">Minoa.io : Software Engineer</a></h3>
 
   <div class="job-item" data-title="sharecare : multiple roles (contract)" data-company="sharecare">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/prashanth_docai-Sharecare-MultipleRoles(Contract)-Remote–SouthAmerica_Mexico_India_Canada_EU-sha">Sharecare : Multiple Roles (Contract)</a></h3>
+      <h3><a href="/jobs/June-2025/prashanth_docai-Sharecare-MultipleRoles(Contract)-Remote%E2%80%93SouthAmerica_Mexico_India_Canada_EU-sha">Sharecare : Multiple Roles (Contract)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Sharecare</span>
         <span class="author">👤 prashanth_docai</span>
@@ -1734,7 +1737,7 @@ Joinusat">Minoa.io : Software Engineer</a></h3>
 
   <div class="job-item" data-title="sketch.dev, hiring full-time engineering in sf. 200k and significant early equity." data-company="sketch_dev_hiringfull">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/crawshaw-sketch_dev_hiringfull-timeengineeringinSF_$200kandsignificantearlyequity_">sketch.dev, hiring full-time engineering in SF. 200k and significant early equity.</a></h3>
+      <h3><a href="/jobs/June-2025/crawshaw-sketch_dev_hiringfull-timeengineeringinSF_%24200kandsignificantearlyequity_">sketch.dev, hiring full-time engineering in SF. 200k and significant early equity.</a></h3>
       <div class="job-meta">
         <span class="company">🏢 sketch_dev_hiringfull</span>
         <span class="author">👤 crawshaw</span>
@@ -1774,7 +1777,7 @@ Joinusat">Minoa.io : Software Engineer</a></h3>
 
   <div class="job-item" data-title="smarterdx : 150-250k+ + equity + benefits" data-company="smarterdx">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/justin_sdx-SmarterDx-150-250k++equity+benefits-Remote(USonly)-Multipleroles">SmarterDx : 150-250k+ + equity + benefits</a></h3>
+      <h3><a href="/jobs/June-2025/justin_sdx-SmarterDx-150-250k%2B%2Bequity%2Bbenefits-Remote(USonly)-Multipleroles">SmarterDx : 150-250k+ + equity + benefits</a></h3>
       <div class="job-meta">
         <span class="company">🏢 SmarterDx</span>
         <span class="author">👤 justin_sdx</span>
@@ -1814,7 +1817,7 @@ Joinusat">Minoa.io : Software Engineer</a></h3>
 
   <div class="job-item" data-title="spacelift : remote (europe)" data-company="spacelift">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/cube2222-Spacelift-Remote(Europe)-Full-time-SeniorSoftwareEngineer-$80k-$110k+(cangohigher)">Spacelift : Remote (Europe)</a></h3>
+      <h3><a href="/jobs/June-2025/cube2222-Spacelift-Remote(Europe)-Full-time-SeniorSoftwareEngineer-%2480k-%24110k%2B(cangohigher)">Spacelift : Remote (Europe)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Spacelift</span>
         <span class="author">👤 cube2222</span>
@@ -1894,7 +1897,7 @@ Joinusat">Minoa.io : Software Engineer</a></h3>
 
   <div class="job-item" data-title="storpool storage : remote (eu timezones)" data-company="storpoolstorage">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/stoitsev-StorPoolStorage-Remote(EUtimezones)-Full-time`">StorPool Storage : Remote (EU timezones)</a></h3>
+      <h3><a href="/jobs/June-2025/stoitsev-StorPoolStorage-Remote(EUtimezones)-Full-time%60">StorPool Storage : Remote (EU timezones)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 StorPoolStorage</span>
         <span class="author">👤 stoitsev</span>
@@ -1924,7 +1927,7 @@ Joinusat">Minoa.io : Software Engineer</a></h3>
 
   <div class="job-item" data-title="strongdm : [staff, senior, junior] ai agent engineer" data-company="strongdm">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/jmccarthy-StrongDM-[Staff_Senior_Junior]AIAgentEngineer-SanFranciscoBayArea(PaloAlto)-Full-Time-">StrongDM : [Staff, Senior, Junior] AI Agent Engineer</a></h3>
+      <h3><a href="/jobs/June-2025/jmccarthy-StrongDM-%5BStaff_Senior_Junior%5DAIAgentEngineer-SanFranciscoBayArea(PaloAlto)-Full-Time-">StrongDM : [Staff, Senior, Junior] AI Agent Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 StrongDM</span>
         <span class="author">👤 jmccarthy</span>
@@ -1984,7 +1987,7 @@ Joinusat">Minoa.io : Software Engineer</a></h3>
 
   <div class="job-item" data-title="sysamic : us" data-company="sysamic">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/David_Ken-Sysamic-US-Remote-Parttime-$5K">Sysamic : US</a></h3>
+      <h3><a href="/jobs/June-2025/David_Ken-Sysamic-US-Remote-Parttime-%245K">Sysamic : US</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Sysamic</span>
         <span class="author">👤 David_Ken</span>
@@ -2054,7 +2057,7 @@ Joinusat">Minoa.io : Software Engineer</a></h3>
 
   <div class="job-item" data-title="trivago : düsseldorf, germany" data-company="trivago">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/jorgelbg-trivago-Düsseldorf_Germany-Full-time">trivago : Düsseldorf, Germany</a></h3>
+      <h3><a href="/jobs/June-2025/jorgelbg-trivago-D%C3%BCsseldorf_Germany-Full-time">trivago : Düsseldorf, Germany</a></h3>
       <div class="job-meta">
         <span class="company">🏢 trivago</span>
         <span class="author">👤 jorgelbg</span>
@@ -2124,7 +2127,7 @@ Joinusat">Minoa.io : Software Engineer</a></h3>
 
   <div class="job-item" data-title="vesto : remote (ny preferred)" data-company="vesto">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/mvesto-Vesto-Remote(NYpreferred)-Full-Time-$120K–$180K-vesto_com">Vesto : Remote (NY preferred)</a></h3>
+      <h3><a href="/jobs/June-2025/mvesto-Vesto-Remote(NYpreferred)-Full-Time-%24120K%E2%80%93%24180K-vesto_com">Vesto : Remote (NY preferred)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Vesto</span>
         <span class="author">👤 mvesto</span>
@@ -2164,7 +2167,7 @@ Joinusat">Minoa.io : Software Engineer</a></h3>
 
   <div class="job-item" data-title="waipu.tv (exaring) : headcount ≈ 120" data-company="waipu_tv(exaring)">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/totallyunknown-waipu_tv(EXARING)-Headcount≈120">waipu.tv (EXARING) : Headcount ≈ 120</a></h3>
+      <h3><a href="/jobs/June-2025/totallyunknown-waipu_tv(EXARING)-Headcount%E2%89%88120">waipu.tv (EXARING) : Headcount ≈ 120</a></h3>
       <div class="job-meta">
         <span class="company">🏢 waipu_tv(EXARING)</span>
         <span class="author">👤 totallyunknown</span>
@@ -2214,7 +2217,7 @@ Joinusat">Minoa.io : Software Engineer</a></h3>
 
   <div class="job-item" data-title="yaoun.de sarl : cameroon yaoundé" data-company="yaoun_desarl">
     <div class="job-content">
-      <h3><a href="/jobs/June-2025/yde_java-Yaoun_deSARL-CameroonYaoundé-on-site-full-time">Yaoun.de SARL : Cameroon Yaoundé</a></h3>
+      <h3><a href="/jobs/June-2025/yde_java-Yaoun_deSARL-CameroonYaound%C3%A9-on-site-full-time">Yaoun.de SARL : Cameroon Yaoundé</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Yaoun_deSARL</span>
         <span class="author">👤 yde_java</span>

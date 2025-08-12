@@ -4,6 +4,9 @@ author:
   name: HomeCloud
   url: https://news.ycombinator.com/item?id=44436748
 ---
+
+<JobNavigation />
+
 HomeCloud - Senior Cloud Engineer (AWS &#x2F; Node.js &#x2F; TypeScript) - Remote (US, EU UTC-6 to UTC+2) - Full-Time (Contractor)
 
 HomeCloud is a fast-growing proptech startup rethinking home inspections, onboarding, and management using cloud-native systems and AI. We just raised a $3.5M seed round from top VCs and are building intelligent infrastructure for the future of homeownership.

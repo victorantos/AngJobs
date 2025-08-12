@@ -4,6 +4,9 @@ author:
   name: thoreonresearch
   url: https://news.ycombinator.com/item?id=44761597
 ---
+
+<JobNavigation />
+
 Thoreon Research AI - Founding Engineer - Remote (US-based only) - Full-time - Competitive Base + Equity
 
 Thoreon Research is an early-stage startup on a mission to revolutionize the clinical research industry. The process of bringing new treatments to patients is slow, complex, and expensive. We believe that intelligent AI agents can fundamentally reshape this landscape, accelerating development and significantly reducing costs. We are a small, nimble team of industry experts and are looking for a passionate and autonomous engineer to help build the core of our product and be a part of an exciting new company.

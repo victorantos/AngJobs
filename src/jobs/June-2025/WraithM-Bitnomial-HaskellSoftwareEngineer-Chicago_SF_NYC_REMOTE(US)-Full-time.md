@@ -4,6 +4,9 @@ author:
   name: WraithM
   url: https://news.ycombinator.com/item?id=44160682
 ---
+
+<JobNavigation />
+
 Bitnomial - Haskell Software Engineer - Chicago, SF, NYC, REMOTE (US) - Full-time - <a href="https:&#x2F;&#x2F;bitnomial.com&#x2F;jobs&#x2F;" rel="nofollow">https:&#x2F;&#x2F;bitnomial.com&#x2F;jobs&#x2F;</a>
 
 Bitnomial is looking for Haskell Software Engineers to join our team. Bitnomial is a US based, CFTC licensed and regulated derivatives exchange, headquartered in Chicago. Bitnomial develops and operates exchange, clearing, and settlement infrastructure. Our first products are physically-settled Bitcoin futures and options. We recently launched a Hashrate future, and we have more and different products on the way. Trading industry experience is a plus.

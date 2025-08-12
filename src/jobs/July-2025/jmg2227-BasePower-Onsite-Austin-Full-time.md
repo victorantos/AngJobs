@@ -4,6 +4,9 @@ author:
   name: jmg2227
   url: https://news.ycombinator.com/item?id=44447664
 ---
+
+<JobNavigation />
+
 Base Power - Onsite - Austin - Full-time - <a href="https:&#x2F;&#x2F;www.basepowercompany.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;www.basepowercompany.com&#x2F;careers</a>
 
 We&#x27;re building a distributed energy storage fleet to fix the nation&#x27;s power grid. We build and manufacture power converters, deploy them across the power grid, and build the algs, ingestion and commanding platforms that operate the fleet in response to real-time grid conditions.

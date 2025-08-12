@@ -4,6 +4,9 @@ author:
   name: dpetrou
   url: https://news.ycombinator.com/item?id=44759017
 ---
+
+<JobNavigation />
+
 Continua - <a href="https:&#x2F;&#x2F;continua.ai" rel="nofollow">https:&#x2F;&#x2F;continua.ai</a> - Multiple Roles - ONSITE (NYC&#x2F;Seattle) - Full-time
 
 At Continua (<a href="http:&#x2F;&#x2F;continua.ai&#x2F;" rel="nofollow">http:&#x2F;&#x2F;continua.ai&#x2F;</a>), we&#x27;ve built an AI agent that users can invite into group conversations to make planning, coordination, and information retrieval effortless, and we&#x27;re expanding our team. We&#x27;ve seen rapid growth over the last few months and want you to help us scale to the next level. Try adding our agent at <a href="http:&#x2F;&#x2F;continua.ai&#x2F;" rel="nofollow">http:&#x2F;&#x2F;continua.ai&#x2F;</a> to group texts and kick the tires!

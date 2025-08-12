@@ -4,6 +4,9 @@ author:
   name: hommes-r
   url: https://news.ycombinator.com/item?id=44759149
 ---
+
+<JobNavigation />
+
 Founding AI Engineer at AI Tech Startup (Amsterdam, The Netherlands)
 
 About the company:

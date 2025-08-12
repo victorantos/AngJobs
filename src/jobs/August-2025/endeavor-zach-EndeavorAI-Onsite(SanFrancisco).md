@@ -4,6 +4,9 @@ author:
   name: endeavor-zach
   url: https://news.ycombinator.com/item?id=44763580
 ---
+
+<JobNavigation />
+
 Endeavor AI - Onsite (San Francisco)
 
 We build agents for industrial manufacturing. Help us scale our agents to process order documents at scale.

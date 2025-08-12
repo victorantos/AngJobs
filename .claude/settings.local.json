@@ -19,7 +19,9 @@
       "Bash(curl:*)",
       "Bash(rg:*)",
       "Bash(pkill:*)",
-      "Bash(mv:*)"
+      "Bash(mv:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run generate:jobs:*)"
     ],
     "deny": []
   }

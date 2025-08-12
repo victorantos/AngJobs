@@ -4,6 +4,9 @@ author:
   name: sarachilton
   url: https://news.ycombinator.com/item?id=44160627
 ---
+
+<JobNavigation />
+
 JustPark - Lead Software Engineer - Ideally based in Dallas area - Open to remote (US) - Hybrid &#x2F; Remote
 
 JD here: <a href="https:&#x2F;&#x2F;apply.workable.com&#x2F;justpark&#x2F;j&#x2F;EDD44DA0AB&#x2F;" rel="nofollow">https:&#x2F;&#x2F;apply.workable.com&#x2F;justpark&#x2F;j&#x2F;EDD44DA0AB&#x2F;</a>

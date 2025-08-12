@@ -4,6 +4,9 @@ author:
   name: llaxsll
   url: https://news.ycombinator.com/item?id=44767975
 ---
+
+<JobNavigation />
+
 SuperMe - Software Engineer - SF (In-Person) - Full-time -
 <a href="https:&#x2F;&#x2F;www.superme.ai" rel="nofollow">https:&#x2F;&#x2F;www.superme.ai</a>
 

@@ -4,6 +4,9 @@ author:
   name: corlinp
   url: https://news.ycombinator.com/item?id=44160549
 ---
+
+<JobNavigation />
+
 ParaFi Capital - San Diego (Hybrid) - Sr. full-stack Engineer
 
 ParaFi is a multi‑strategy investment and technology firm focused on the digital‑asset ecosystem. Since 2018 we’ve partnered with leading institutions to deploy venture, liquid, and quantitative capital. Our edge comes from marrying rigorous research, deep technical capability, and an operator’s mindset. We ship code, contribute to protocols, and build internal systems that keep us a step ahead of the market.

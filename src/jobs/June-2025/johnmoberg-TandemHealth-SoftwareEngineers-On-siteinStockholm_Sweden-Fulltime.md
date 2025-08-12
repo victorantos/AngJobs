@@ -4,6 +4,9 @@ author:
   name: johnmoberg
   url: https://news.ycombinator.com/item?id=44160214
 ---
+
+<JobNavigation />
+
 Tandem Health - Software Engineers - On-site in Stockholm, Sweden - Full time
 
 At Tandem Health we&#x27;re building a clinician copilot to allow clinicians to focus on care rather than administration. We’re building, launching and iterating quickly, and already have &gt;500 organizations using our product.

@@ -4,6 +4,9 @@ author:
   name: madiganf
   url: https://news.ycombinator.com/item?id=44434765
 ---
+
+<JobNavigation />
+
 Fathom - AI Notetaker - REMOTE (must work US hours) - Full time - <a href="https:&#x2F;&#x2F;fathom.video">https:&#x2F;&#x2F;fathom.video</a>
 We make the number one AI Notetaker and are hiring across the stack (rails&#x2F;typescript&#x2F;go&#x2F;k8s&#x2F;gcp).
 

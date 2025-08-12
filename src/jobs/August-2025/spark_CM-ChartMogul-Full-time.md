@@ -4,6 +4,9 @@ author:
   name: spark_CM
   url: https://news.ycombinator.com/item?id=44781687
 ---
+
+<JobNavigation />
+
 ChartMogul - Remote (Europe&#x2F;Asia) - Full-time
 
 Since 2014, we have been building the leading Subscription Analytics Platform for growing SaaS businesses and CRM purpose-built for B2B SaaS teams. We&#x27;re a remote-first company with 62 team members across 23 different countries. Profitable and self-sustaining since our seed funding.

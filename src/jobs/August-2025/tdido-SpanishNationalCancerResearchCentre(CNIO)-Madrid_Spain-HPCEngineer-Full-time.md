@@ -4,6 +4,9 @@ author:
   name: tdido
   url: https://news.ycombinator.com/item?id=44766062
 ---
+
+<JobNavigation />
+
 Spanish National Cancer Research Centre (CNIO) - Madrid, Spain - HYBRID (2d&#x2F;week on-site) - HPC Engineer - Full-time
 
 We&#x27;re looking for an HPC engineer to join us at the Bioinformatics Unit to help us boost the scientific computing infrastructure at our research centre.

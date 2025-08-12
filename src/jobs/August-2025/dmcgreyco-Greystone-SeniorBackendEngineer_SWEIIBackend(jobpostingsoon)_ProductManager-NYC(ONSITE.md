@@ -4,6 +4,9 @@ author:
   name: dmcgreyco
   url: https://news.ycombinator.com/item?id=44789076
 ---
+
+<JobNavigation />
+
 Greystone - Senior Backend Engineer, SWE II Backend (job posting soon), Product Manager - NYC (ONSITE) - Full-time
 
 We&#x27;re hiring a Backend Engineers and a PM at Greystone, a leading real estate finance and investment company. We&#x27;re building internal platforms and external tools to help investors, lenders, and originators operate smarter and faster with a strong focus on data quality, workflow automation, and user-first design.

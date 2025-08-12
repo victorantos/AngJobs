@@ -4,6 +4,9 @@ author:
   name: patsreynolds
   url: https://news.ycombinator.com/item?id=44439243
 ---
+
+<JobNavigation />
+
 Office Hours - Software Engineer, Senior&#x2F;Staff Software Engineer - SF, NYC, or Remote (US) - <a href="https:&#x2F;&#x2F;officehours.com" rel="nofollow">https:&#x2F;&#x2F;officehours.com</a>
 
 Office Hours is a consulting platform and marketplace. We connect businesses with experts, and experts with opportunities to get paid to share what they know.

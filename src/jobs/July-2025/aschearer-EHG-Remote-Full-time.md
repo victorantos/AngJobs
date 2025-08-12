@@ -4,6 +4,9 @@ author:
   name: aschearer
   url: https://news.ycombinator.com/item?id=44436322
 ---
+
+<JobNavigation />
+
 EHG - Remote - Full-time
 
 EHG is hiring! We&#x27;re looking for a talented Senior Back-End Engineer

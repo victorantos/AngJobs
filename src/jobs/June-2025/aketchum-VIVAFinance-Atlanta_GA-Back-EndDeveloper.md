@@ -4,6 +4,9 @@ author:
   name: aketchum
   url: https://news.ycombinator.com/item?id=44159679
 ---
+
+<JobNavigation />
+
 VIVA Finance - Atlanta, GA -  Back-End Developer
 
 VIVA is a Fintech Startup based in Atlanta, GA with the mission to build a more inclusive financial system. VIVA offers unsecured personal loans to customers who have traditionally been excluded and taken advantage of by the legacy financial institutions. The VIVA difference is to underwrite heavily on employment history and set up repayments through voluntary direct deposit payments from the borrower&#x27;s paycheck. Our interest rates are less than 1&#x2F;3 of the rates our customers are able to get from other financing options.

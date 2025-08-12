@@ -4,6 +4,9 @@ author:
   name: Kimi_livekit
   url: https://news.ycombinator.com/item?id=44435095
 ---
+
+<JobNavigation />
+
 LiveKit - Remote - Full-Time - Livekit.io - VoiceAI - webRTC - Real-time communications
 
 At LiveKit, we build open-source APIs to power the future of computing. We are a company of engineers building software stacks for other engineers. If you&#x27;re interested in building Agentic Models or Frameworks OR have any experience with RTC,

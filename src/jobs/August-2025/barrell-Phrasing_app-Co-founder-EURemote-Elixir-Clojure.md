@@ -4,6 +4,9 @@ author:
   name: barrell
   url: https://news.ycombinator.com/item?id=44765423
 ---
+
+<JobNavigation />
+
 Phrasing.app - Co-founder - EU Remote - Elixir - Clojure
 
 Phrasing is a language learning app built by a polyglot, for polyglots. It was designed to be language agnostic, and currently supports over 120 languages. It brings a beautiful, simple, and addictive [1] learning experience to languages big and small, and helps users learn 2-10x more in the same amount of time [2].

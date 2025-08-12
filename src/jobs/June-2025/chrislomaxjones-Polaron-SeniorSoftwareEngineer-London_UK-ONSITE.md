@@ -4,6 +4,9 @@ author:
   name: chrislomaxjones
   url: https://news.ycombinator.com/item?id=44159666
 ---
+
+<JobNavigation />
+
 Polaron - Senior Software Engineer - London, UK - ONSITE - <a href="https:&#x2F;&#x2F;polaron.ai&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;polaron.ai&#x2F;careers</a>.
 
 Polaron is an Imperial College London spinout using generative AI to bridge the gap between process (how materials are made) and performance (how materials behave). We’re building a platform that enables materials designers to use these state-of-the-art AI techniques in their day-to-day work. We’re a small, well-funded team, and recently won the UK Government’s inaugural Manchester Prize [2] for AI innovation and public good.

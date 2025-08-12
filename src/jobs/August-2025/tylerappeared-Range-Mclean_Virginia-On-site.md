@@ -4,6 +4,9 @@ author:
   name: tylerappeared
   url: https://news.ycombinator.com/item?id=44762118
 ---
+
+<JobNavigation />
+
 Range - Mclean, Virginia - On-site - Full Stack Engineers (Senior&#x2F;Staff&#x2F;Principal) - Full-time 
 <a href="https:&#x2F;&#x2F;www.range.com&#x2F;public&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;www.range.com&#x2F;public&#x2F;careers</a>
 

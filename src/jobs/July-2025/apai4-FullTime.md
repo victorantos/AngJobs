@@ -4,6 +4,9 @@ author:
   name: apai4
   url: https://news.ycombinator.com/item?id=44437921
 ---
+
+<JobNavigation />
+
 Bolt.new &#x2F; StackBlitz.com - Full Time - Remote US&#x2F;EU
 
 —

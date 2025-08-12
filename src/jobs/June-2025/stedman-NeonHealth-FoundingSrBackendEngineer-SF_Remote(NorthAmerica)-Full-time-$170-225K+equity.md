@@ -4,6 +4,9 @@ author:
   name: stedman
   url: https://news.ycombinator.com/item?id=44159535
 ---
+
+<JobNavigation />
+
 Neon Health - Founding Sr Backend Engineer - SF, Remote (North America) - Full-time - $170-225K + equity
 
 <a href="https:&#x2F;&#x2F;neonhealth.com" rel="nofollow">https:&#x2F;&#x2F;neonhealth.com</a>

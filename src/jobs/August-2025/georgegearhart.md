@@ -4,6 +4,9 @@ author:
   name: georgegearhart
   url: https://news.ycombinator.com/item?id=44764929
 ---
+
+<JobNavigation />
+
 Goji Labs: Various roles, all REMOTE
 
 We&#x27;re a fast-growing, strategy-first software studio with multiple openings. Please use &quot;hackernews&quot; as your referral source and I&#x27;ll flag your CV for priority review with the hiring team.

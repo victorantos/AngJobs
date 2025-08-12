@@ -4,6 +4,9 @@ author:
   name: ahstilde
   url: https://news.ycombinator.com/item?id=44161754
 ---
+
+<JobNavigation />
+
 Wyndly - Physician - Synchronous Telehealth - 1099 &#x2F; Remote - <a href="https:&#x2F;&#x2F;www.wyndly.com">https:&#x2F;&#x2F;www.wyndly.com</a>
 
 Join Wyndly in revolutionizing allergy care through telemedicine. We&#x27;re transforming how millions access effective allergy treatment, making it both convenient and affordable. Our physicians find fulfillment in providing life-changing care while maintaining work-life balance.

@@ -4,6 +4,9 @@ author:
   name: blacksharkAI
   url: https://news.ycombinator.com/item?id=44462711
 ---
+
+<JobNavigation />
+
 Blackshark AI - Software Engineers &amp; Senior DevOps Engineer - Full-time - Austria or Remote EU - VISA sponsorship available
 
 Satellite and drone imagery access is on the rise, and traditional image processing methods are struggling to keep up. Our scalable AI platform enables custom model training on global features, providing real-time, on-demand geospatial insights with impressive speed and accuracy. We are turning months of manual work into mere minutes, and with much better results. We work with customers from various domains, from intelligence and defence, local and federal governments, to small and large enterprise enterprises, which requires us to have a lot of flexibility on how we deploy and maintain our services.

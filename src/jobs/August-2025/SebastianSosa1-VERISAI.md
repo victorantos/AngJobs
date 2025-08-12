@@ -4,6 +4,9 @@ author:
   name: SebastianSosa1
   url: https://news.ycombinator.com/item?id=44765522
 ---
+
+<JobNavigation />
+
 VERIS AI
 
 Cracked engineers (who can research)

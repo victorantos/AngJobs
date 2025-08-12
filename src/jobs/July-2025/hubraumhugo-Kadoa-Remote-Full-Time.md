@@ -4,6 +4,9 @@ author:
   name: hubraumhugo
   url: https://news.ycombinator.com/item?id=44435270
 ---
+
+<JobNavigation />
+
 Kadoa - Multiple Roles (Senior Software Eng, Frontend&#x2F;UX) - Remote - Full-Time - <a href="https:&#x2F;&#x2F;kadoa.com" rel="nofollow">https:&#x2F;&#x2F;kadoa.com</a>
 
 We&#x27;re building AI agents for unstructured data.

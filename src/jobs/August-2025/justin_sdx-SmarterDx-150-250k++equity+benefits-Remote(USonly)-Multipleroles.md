@@ -4,6 +4,9 @@ author:
   name: justin_sdx
   url: https://news.ycombinator.com/item?id=44757835
 ---
+
+<JobNavigation />
+
 SmarterDx - 150-250k+ + equity + benefits - Remote (US only) - Multiple roles - <a href="https:&#x2F;&#x2F;smarterdx.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;smarterdx.com&#x2F;careers</a>
 
 We build clinical AI that empowers hospitals to analyze the complete record of every patient to fully capture the value of care delivered. Founded by physicians in 2020, our proprietary AI platform understands the nuances of clinical reasoning, enabling hospitals to accurately reflect every patient visit for fair reimbursement. By doing so, hospitals can recover millions in earned revenue, enhance care outcome and quality metrics, and optimize healthcare operations.

@@ -4,6 +4,9 @@ author:
   name: jamesjyu
   url: https://news.ycombinator.com/item?id=44757802
 ---
+
+<JobNavigation />
+
 Sudowrite - <a href="https:&#x2F;&#x2F;sudowrite.com" rel="nofollow">https:&#x2F;&#x2F;sudowrite.com</a> - √ remote - √ profitable - √ full-time
 
 PROFITABLE, SUSTAINABLE SMALL TEAM, MAKING SOMETHING PEOPLE WANT

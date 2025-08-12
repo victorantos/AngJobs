@@ -4,6 +4,9 @@ author:
   name: wallawe
   url: https://news.ycombinator.com/item?id=44161423
 ---
+
+<JobNavigation />
+
 Rebolt - Atlanta (onsite) - Full-stack engineer (AI focus) - Full-Time - 120-180k + equity - <a href="https:&#x2F;&#x2F;rebolthq.com" rel="nofollow">https:&#x2F;&#x2F;rebolthq.com</a>
 
 We&#x27;ve raised $4.6M to date to help home service businesses (think HVAC, plumbing, landscaping, roofing) with their digital marketing, building everything with an AI-first mindset.

@@ -4,6 +4,9 @@ author:
   name: bpowell
   url: https://news.ycombinator.com/item?id=44434686
 ---
+
+<JobNavigation />
+
 NowSecure - Senior DevOps Engineer - Vienna, VA - Full-time
 
 We are leading in cutting edge mobile security and sponsor a number of open-source tools such as radare (<a href="https:&#x2F;&#x2F;github.com&#x2F;radare&#x2F;radare2">https:&#x2F;&#x2F;github.com&#x2F;radare&#x2F;radare2</a>) and Frida (<a href="https:&#x2F;&#x2F;github.com&#x2F;frida&#x2F;">https:&#x2F;&#x2F;github.com&#x2F;frida&#x2F;</a>) that are widely used by security researchers. Unfortunately we can’t offer sponsorship at this time and candidates must be located in the continental US. We are looking to fill a senior devops position.

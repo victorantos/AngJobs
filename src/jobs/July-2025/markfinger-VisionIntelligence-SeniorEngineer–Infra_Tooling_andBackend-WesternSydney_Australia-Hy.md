@@ -4,6 +4,9 @@ author:
   name: markfinger
   url: https://news.ycombinator.com/item?id=44441027
 ---
+
+<JobNavigation />
+
 Vision Intelligence - Senior Engineer – Infra, Tooling, and Backend - Western Sydney, Australia - Hybrid - Full-time
 
 Cool stuff: We work on offline-first systems, distributed state, real-time video streaming, and remote edge device management. We get to work on finding practical solutions to hard problems in software and hardware.

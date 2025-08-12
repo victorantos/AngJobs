@@ -1,9 +1,11 @@
 ---
-title: "-----------------------------------------------------------"
+title: "RepIntel : CTO-track Full Stack Engineer"
 author:
   name: repintel
   url: https://news.ycombinator.com/item?id=44857568
 ---
+
+<JobNavigation />
 -----------------------------------------------------------
 
 1099 OR Equity - Remote, or NYC Pref - RepIntel.com

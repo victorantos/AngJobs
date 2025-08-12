@@ -4,6 +4,9 @@ author:
   name: smcnc
   url: https://news.ycombinator.com/item?id=44162867
 ---
+
+<JobNavigation />
+
 Cenith Innovations - Senior Software Engineer - Raleigh, NC - Hybrid (2 days) - Full Time
 
 Develop software to help the US Army solve pressing, tactical issues using a modern tech stack.

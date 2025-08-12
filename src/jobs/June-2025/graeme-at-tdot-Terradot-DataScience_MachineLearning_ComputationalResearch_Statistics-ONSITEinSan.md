@@ -4,6 +4,9 @@ author:
   name: graeme-at-tdot
   url: https://news.ycombinator.com/item?id=44160543
 ---
+
+<JobNavigation />
+
 Terradot - Data Science, Machine Learning, Computational Research, Statistics - ONSITE in San Francisco, CA or São Paulo, BR - Full-Time
 
 Terradot is a carbon removal company founded out of Stanford University. We are advancing the science and technology of Enhanced Rock Weathering (ERW), a carbon removal pathway that leverages earth’s natural weathering cycle to draw carbon dioxide out of the atmosphere at the gigaton scale. We just raised ~$60M in funding and have sold 300k tons of offtakes from leading CDR buyers like Frontier and Google.

@@ -4,6 +4,9 @@ author:
   name: cullenking
   url: https://news.ycombinator.com/item?id=44434749
 ---
+
+<JobNavigation />
+
 Ride with GPS - Full Time Remote - <a href="https:&#x2F;&#x2F;ridewithgps.com&#x2F;about" rel="nofollow">https:&#x2F;&#x2F;ridewithgps.com&#x2F;about</a>
 
 We are the world&#x27;s largest library of bike routes, and we enable cyclists to go on better rides, more often. We have a website and mobile apps that allow people to discover the best riding in their area, and get turn by turn navigation using either our mobile apps or the bike computer of their choosing. Come join us in taking Ride with GPS to the next level! We have two openings right now, and are starting to build out the hiring plan for a third:

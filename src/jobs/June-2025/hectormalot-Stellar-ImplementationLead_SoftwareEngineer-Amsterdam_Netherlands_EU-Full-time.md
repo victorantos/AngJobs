@@ -4,6 +4,9 @@ author:
   name: hectormalot
   url: https://news.ycombinator.com/item?id=44163190
 ---
+
+<JobNavigation />
+
 Stellar - Implementation Lead, Software Engineer - Amsterdam, Netherlands, EU - Onsite&#x2F;Hybrid - Full-time
 
 We&#x27;re building AI voice agents for enterprise contact centers. We focus on remarkably human-like conversations, regulated environments and support for non-English markets (Dutch, German, French, etc.).

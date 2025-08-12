@@ -4,6 +4,9 @@ author:
   name: gregce10
   url: https://news.ycombinator.com/item?id=44437626
 ---
+
+<JobNavigation />
+
 SpecStory - REMOTE (US) - Full-time - <a href="https:&#x2F;&#x2F;specstory.com" rel="nofollow">https:&#x2F;&#x2F;specstory.com</a>
 
 We&#x27;re building tools that preserve your AI-chat history and specs alongside code, so nothing gets lost and you create betting agent first software.

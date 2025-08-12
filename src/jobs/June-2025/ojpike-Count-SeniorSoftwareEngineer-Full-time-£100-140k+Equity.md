@@ -4,6 +4,9 @@ author:
   name: ojpike
   url: https://news.ycombinator.com/item?id=44161954
 ---
+
+<JobNavigation />
+
 Count - Senior Software Engineer - REMOTE within UK&#x2F;Europe - Full-time - <a href="https:&#x2F;&#x2F;count.co" rel="nofollow">https:&#x2F;&#x2F;count.co</a> - £100-140k + Equity
 
 Count is like Jupyter, Tableau and Miro combined in one tool. Some of the world&#x27;s leading data teams use it for everything from iterating data models and performing in-depth analyses to creating process flow maps of their entire business.

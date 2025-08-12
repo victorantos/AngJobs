@@ -4,6 +4,9 @@ author:
   name: st-msl
   url: https://news.ycombinator.com/item?id=44766561
 ---
+
+<JobNavigation />
+
 Entourage - REMOTE - Principal AI Engineer – Collective‑Memory &#x2F; Multi‑Agent Systems - Full‑time + meaningful equity
 
 We’re building the shared‑memory protocol that lets AI agents learn from each other, turning isolated tools into a network of collective intelligence. Incubated by Moonsong Labs (creators of Kluster.ai, Moonbeam, Tanssi).

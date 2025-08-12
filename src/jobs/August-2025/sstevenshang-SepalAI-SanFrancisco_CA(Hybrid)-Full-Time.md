@@ -4,6 +4,9 @@ author:
   name: sstevenshang
   url: https://news.ycombinator.com/item?id=44763415
 ---
+
+<JobNavigation />
+
 Sepal AI - San Francisco, CA (Hybrid) - Full-Time
 
 Things we&#x27;re building out:

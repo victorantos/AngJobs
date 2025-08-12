@@ -4,6 +4,9 @@ author:
   name: recruit-iscribe
   url: https://news.ycombinator.com/item?id=44435973
 ---
+
+<JobNavigation />
+
 iScribeHealth - Hybrid - Nashville, TN or Atlanta,GA- Full-Time
 
 Join iScribeHealth – Building the Future of Healthcare with AI

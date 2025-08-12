@@ -4,6 +4,9 @@ author:
   name: nik_h_squared
   url: https://news.ycombinator.com/item?id=44464978
 ---
+
+<JobNavigation />
+
 Henry Homes - Senior Full Stack Engineer - Full-time - Remote (US)
 
 We help homeowners understand and manage the health of their homes. Think Prenuvo full-body scan, but for your home. Through our dashboard and AI  chatbot, you gain instant access to your home&#x27;s data, maintenance alerts, and expert guidance. We&#x27;re exploring the biggest opportunities in this space as we work toward product-market fit. We&#x27;re at seed stage backed by Forerunner Ventures &amp; Precursor Ventures

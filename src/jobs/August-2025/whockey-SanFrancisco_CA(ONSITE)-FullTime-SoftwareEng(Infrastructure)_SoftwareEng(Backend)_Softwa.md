@@ -4,6 +4,9 @@ author:
   name: whockey
   url: https://news.ycombinator.com/item?id=44763729
 ---
+
+<JobNavigation />
+
 Column (<a href="https:&#x2F;&#x2F;column.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;column.com&#x2F;</a>) - San Francisco, CA (ONSITE) - Full Time - Software Eng (Infrastructure), Software Eng (Backend), Software Eng (Product)
 
 Column is building the infrastructure that powers the US dollar globally. We own a nationally chartered bank that we&#x27;ve built from the ground up. We&#x27;re currently processing trillions of dollars annually, supporting some of the largest and most sophisticated companies out there like Wise, Bilt, Brex, Ramp, Mercury and dozens of others.

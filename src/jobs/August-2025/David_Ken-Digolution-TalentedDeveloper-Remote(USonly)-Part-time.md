@@ -4,6 +4,9 @@ author:
   name: David_Ken
   url: https://news.ycombinator.com/item?id=44869638
 ---
+
+<JobNavigation />
+
 Digolution - Talented Developer - Remote(US only) - Part-time - $100~$200&#x2F;hour
 
 We are seeking a highly skilled software developers who not only excels technically but also communicates effectively within diverse teams and with clients.

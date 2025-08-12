@@ -4,6 +4,9 @@ author:
   name: kmsun07
   url: https://news.ycombinator.com/item?id=44160971
 ---
+
+<JobNavigation />
+
 Conduit - Product Engineer - San Francisco (Hybrid) - Full-Time
 
 We (<a href="https:&#x2F;&#x2F;helloconduit.com">https:&#x2F;&#x2F;helloconduit.com</a>) are building Air Traffic Control for warehouses. We help supply chains handle thousands of trucks and shipments every single day and move the physical economy forward. As the operating system for shipping and receiving, we serve one of the largest, most important industries in the world. Logistics teams depend on us every single day, and we have proof that we make their operations more profitable, safer, and more secure.

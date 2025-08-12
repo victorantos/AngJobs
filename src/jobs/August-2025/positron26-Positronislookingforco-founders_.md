@@ -4,6 +4,9 @@ author:
   name: positron26
   url: https://news.ycombinator.com/item?id=44766395
 ---
+
+<JobNavigation />
+
 Positron is looking for co-founders.
 
 ∇ Full-stack Rust (Leptos &amp; Axum)

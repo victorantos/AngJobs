@@ -4,6 +4,9 @@ author:
   name: antonoo
   url: https://news.ycombinator.com/item?id=44455319
 ---
+
+<JobNavigation />
+
 Lovable (<a href="https:&#x2F;&#x2F;lovable.dev" rel="nofollow">https:&#x2F;&#x2F;lovable.dev</a>) - Stockholm + NY + London + hybrid - Full-Time - Product+Research Engineers
 
 We’re a small team caring deeply about building a product that move people’s lives. Currently, 70,000 new apps are started every day with lovable, many of them becoming real businesses that earn people’s livelihood.

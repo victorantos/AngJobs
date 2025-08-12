@@ -4,6 +4,9 @@ author:
   name: claudioll
   url: https://news.ycombinator.com/item?id=44439488
 ---
+
+<JobNavigation />
+
 Udacity - <a href="https:&#x2F;&#x2F;www.udacity.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.udacity.com&#x2F;</a> - Upskilling talent for the careers of the future
 
 Open Roles:

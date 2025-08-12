@@ -2,8 +2,94 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
-const jobsDir = '/Users/victora/RiderProjects/AngJobs/src/jobs';
-const months = ['June-2025', 'May-2025', 'April-2025'];
+const jobsDir = path.resolve('src/jobs');
+
+// Automatically detect available month directories
+const months = fs.readdirSync(jobsDir)
+  .filter(item => {
+    const fullPath = path.join(jobsDir, item);
+    return fs.statSync(fullPath).isDirectory() && 
+           item.match(/^[A-Za-z]+-20\d{2}$/) && // Match format like "August-2025"
+           item !== 'README'; // Exclude non-month directories
+  })
+  .sort((a, b) => {
+    // Sort by year first, then by month (newest first)
+    const [monthA, yearA] = a.split('-');
+    const [monthB, yearB] = b.split('-');
+    if (yearA !== yearB) return yearB.localeCompare(yearA);
+    
+    const monthOrder = ['January', 'February', 'March', 'April', 'May', 'June',
+                       'July', 'August', 'September', 'October', 'November', 'December'];
+    return monthOrder.indexOf(monthB) - monthOrder.indexOf(monthA);
+  });
+
+console.log('Detected months:', months);
+
+// Function to generate featured jobs for month overview page
+function generateFeaturedJobs(month, jobs) {
+  // Randomly select 10 jobs
+  const shuffled = [...jobs].sort(() => 0.5 - Math.random());
+  const featuredJobs = shuffled.slice(0, Math.min(10, jobs.length));
+  
+  const monthFormatted = month.replace('-', ' ');
+  const monthDir = path.join(jobsDir, month);
+  const readmePath = path.join(monthDir, 'README.md');
+  
+  // Read existing README
+  let readmeContent = '';
+  if (fs.existsSync(readmePath)) {
+    readmeContent = fs.readFileSync(readmePath, 'utf8');
+  } else {
+    // Create basic README structure if it doesn't exist
+    readmeContent = `---
+title: ${monthFormatted} Jobs
+icon: briefcase
+index: true
+dir:
+  order: -1
+  collapsible: false
+---
+
+# ${monthFormatted} Jobs
+
+<div class="jobs-header">
+  <div class="jobs-count">${jobs.length} positions available</div>
+  <a href="./all-jobs.md" class="search-all-button">🔍 Search All Jobs</a>
+</div>
+`;
+  }
+  
+  // Add featured jobs section
+  const featuredSection = `
+## ⭐ Featured Jobs
+
+<div class="featured-jobs">
+${featuredJobs.map(job => `  <div class="featured-job">
+    <h3><a href="${job.url}">${job.title}</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 ${job.company}</span>
+      <span class="author">👤 ${job.author}</span>
+    </div>
+  </div>`).join('\n')}
+</div>
+`;
+
+  // Check if featured jobs section already exists and replace it
+  const featuredRegex = /## ⭐ Featured Jobs[\s\S]*?(?=##|$)/;
+  if (featuredRegex.test(readmeContent)) {
+    readmeContent = readmeContent.replace(featuredRegex, featuredSection.trim());
+  } else {
+    // Add featured jobs section after the header, ensure proper spacing
+    if (!readmeContent.endsWith('\n')) {
+      readmeContent += '\n';
+    }
+    readmeContent += featuredSection;
+  }
+  
+  // Write updated README
+  fs.writeFileSync(readmePath, readmeContent);
+  console.log(`Generated ${featuredJobs.length} featured jobs for ${month} overview`);
+}
 
 months.forEach(month => {
   const monthDir = path.join(jobsDir, month);
@@ -31,9 +117,16 @@ months.forEach(month => {
       const company = parts.slice(1, 2).join('-') || 'Company';
       const role = parts.slice(2, 4).join(' ') || 'Role';
       
+      // Create a clean URL from the filename, handling malformed filenames
+      const cleanFilename = file
+        .replace('.md', '')
+        .replace(/\n/g, '') // Remove newlines
+        .replace(/\r/g, '') // Remove carriage returns
+        .trim();
+
       return {
         title: cleanTitle,
-        url: `/jobs/${month}/${file.replace('.md', '')}`,
+        url: `/jobs/${month}/${encodeURIComponent(cleanFilename)}`,
         company,
         role,
         author: frontmatter.author?.name || 'Anonymous'
@@ -54,8 +147,6 @@ title: All ${month.replace('-', ' ')} Jobs
 
 <div class="all-jobs-page">
 
-# All ${month.replace('-', ' ')} Jobs
-
 <div class="jobs-header">
   <div class="jobs-count">${jobs.length} total positions</div>
   <div class="back-link">
@@ -63,12 +154,7 @@ title: All ${month.replace('-', ' ')} Jobs
   </div>
 </div>
 
-<div class="jobs-search">
-  <input type="text" id="jobSearch" placeholder="Search jobs..." />
-  <div class="search-results-count">
-    <span id="searchCount">${jobs.length}</span> jobs found
-  </div>
-</div>
+<AllJobsSearch />
 
 <div class="jobs-grid">
 ${jobs.map(job => `
@@ -86,33 +172,6 @@ ${jobs.map(job => `
 
 </div>
 
-<script>
-// Simple search functionality
-document.addEventListener('DOMContentLoaded', function() {
-  const searchInput = document.getElementById('jobSearch');
-  const searchCount = document.getElementById('searchCount');
-  const jobItems = document.querySelectorAll('.job-item');
-  
-  searchInput.addEventListener('input', function() {
-    const query = this.value.toLowerCase();
-    let visibleCount = 0;
-    
-    jobItems.forEach(item => {
-      const title = item.dataset.title;
-      const company = item.dataset.company;
-      
-      if (!query || title.includes(query) || company.includes(query)) {
-        item.style.display = '';
-        visibleCount++;
-      } else {
-        item.style.display = 'none';
-      }
-    });
-    
-    searchCount.textContent = visibleCount;
-  });
-});
-</script>
 
 <style>
 .all-jobs-page {
@@ -268,6 +327,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const allJobsPath = path.join(monthDir, 'all-jobs.md');
   fs.writeFileSync(allJobsPath, allJobsContent);
   console.log(`Generated all-jobs page for ${month}: ${jobs.length} jobs`);
+
+  // Generate featured jobs for month overview README
+  generateFeaturedJobs(month, jobs);
 });
 
 console.log('All job listing pages generated successfully!');

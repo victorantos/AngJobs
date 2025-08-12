@@ -4,6 +4,9 @@ author:
   name: ritchie46
   url: https://news.ycombinator.com/item?id=44441481
 ---
+
+<JobNavigation />
+
 Polars - Rust Engineer - Amsterdam ONSITE &#x2F; HYBRID
 
 At Polars we&#x27;re building a fast distributed query engine for Polars DataFrames.

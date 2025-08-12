@@ -4,6 +4,9 @@ author:
   name: stedman
   url: https://news.ycombinator.com/item?id=44434786
 ---
+
+<JobNavigation />
+
 Neon Health - AI agents in healthcare - Hiring Eng and BizOps - SF, Remote (North America)
 
 We’re mission-driven capitalists: making life-saving drugs more accessible, and building a $200B+ company—on the scale of Palantir or ServiceNow—serving the largest healthcare enterprises.

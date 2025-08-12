@@ -4,6 +4,9 @@ author:
   name: hilem
   url: https://news.ycombinator.com/item?id=44161807
 ---
+
+<JobNavigation />
+
 Chestnut - Senior Software Engineer (4+ YoE) - Bay area remote hybrid - Full Time - <a href="https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;Chestnut" rel="nofollow">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;Chestnut</a>
 
 We&#x27;re a well funded (a16z) close-knit seed stage insurtech - building next-gen enterprise infrastructure for the $7T insurance industry.

@@ -4,6 +4,9 @@ author:
   name: tebbers
   url: https://news.ycombinator.com/item?id=44166949
 ---
+
+<JobNavigation />
+
 Carebit - Full Stack Support Engineer (Ruby on Rails, TypeScript&#x2F;JS, React, Postgres, Linux) - Fully Remote (European timezones only) - Full-Time - Up To £80k&#x2F;$100k&#x2F;year DOE
 
 About Carebit

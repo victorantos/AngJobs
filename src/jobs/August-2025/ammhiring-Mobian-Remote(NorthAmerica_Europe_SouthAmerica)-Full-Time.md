@@ -4,6 +4,9 @@ author:
   name: ammhiring
   url: https://news.ycombinator.com/item?id=44761865
 ---
+
+<JobNavigation />
+
 Mobian - Remote (North America, Europe, South America) - Full-Time
 
 We&#x27;re hiring a Senior Data Scientist to lead the measurement of digital ad campaigns on sales outcomes. You&#x27;ll design advanced sales lift models, integrate complex data pipelines, and deliver insights to clients.

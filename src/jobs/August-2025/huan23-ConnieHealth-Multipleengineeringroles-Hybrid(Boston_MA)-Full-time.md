@@ -4,6 +4,9 @@ author:
   name: huan23
   url: https://news.ycombinator.com/item?id=44764669
 ---
+
+<JobNavigation />
+
 Connie Health - <a href="https:&#x2F;&#x2F;www.conniehealth.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.conniehealth.com&#x2F;</a> - Multiple engineering roles - Hybrid (Boston, MA) - Full-time
 
 Connie Health is a fast-growing healthtech startup on a mission to empower older Americans to make confident, worry-free Medicare plan decisions. We offer a tech-enabled Medicare navigation platform that combines an AI-driven technology with local Medicare experts to help people select optimal healthcare plans and navigate their benefits. Our culture is mission-driven, collaborative, and innovative, as we strive to transform healthcare through data-driven insights and personalized guidance.

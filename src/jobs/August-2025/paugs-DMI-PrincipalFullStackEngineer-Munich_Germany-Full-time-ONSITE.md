@@ -4,6 +4,9 @@ author:
   name: paugs
   url: https://news.ycombinator.com/item?id=44762648
 ---
+
+<JobNavigation />
+
 DMI - Principal Full Stack Engineer - Munich, Germany - Full-time - ONSITE
 
 DMI is a bootstrapped startup building the next-gen autonomy platform for defense &amp; aerospace. Join us as Principal Full Stack Engineer to own and shape our product with the CTO.

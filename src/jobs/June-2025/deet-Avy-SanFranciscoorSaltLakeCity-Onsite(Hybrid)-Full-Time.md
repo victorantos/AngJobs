@@ -4,6 +4,9 @@ author:
   name: deet
   url: https://news.ycombinator.com/item?id=44163036
 ---
+
+<JobNavigation />
+
 Avy - Staff Engineer &#x2F; Startup Polyglot Engineer - San Francisco or Salt Lake City - Onsite (Hybrid) - Full-Time - <a href="https:&#x2F;&#x2F;www.avy.ai" rel="nofollow">https:&#x2F;&#x2F;www.avy.ai</a>
 
 We are an early-stage, well-funded startup making humans and computers work together more efficiently. Experienced team from Apple AIML and other great companies.

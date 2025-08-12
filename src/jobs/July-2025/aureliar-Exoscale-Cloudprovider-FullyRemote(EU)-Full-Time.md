@@ -4,6 +4,9 @@ author:
   name: aureliar
   url: https://news.ycombinator.com/item?id=44452272
 ---
+
+<JobNavigation />
+
 Exoscale - Cloud provider - Fully Remote (EU) - Full-Time - <a href="https:&#x2F;&#x2F;www.exoscale.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.exoscale.com&#x2F;</a>
 
 Exoscale is a Swiss&#x2F;European cloud service provider. We offer not only virtual machines but also storage (Object &amp; Block), managed k8s and databases etc...

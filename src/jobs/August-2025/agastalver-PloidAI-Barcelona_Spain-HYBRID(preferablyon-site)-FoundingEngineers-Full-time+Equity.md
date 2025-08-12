@@ -4,6 +4,9 @@ author:
   name: agastalver
   url: https://news.ycombinator.com/item?id=44766520
 ---
+
+<JobNavigation />
+
 Ploid AI - Barcelona, Spain - HYBRID (preferably on-site) - Founding Engineers - Full-time + Equity
 
 We’re building an AI-first bioinformatics platform to empower plant breeders and life science researchers with agentic AI and LLMs. Backed by pre-seed funding and real demand from biotech and seed companies, we’re looking for versatile founding engineers to help us shape the future of AI in genomics.

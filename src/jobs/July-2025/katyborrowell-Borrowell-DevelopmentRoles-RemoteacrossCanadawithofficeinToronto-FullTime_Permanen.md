@@ -4,6 +4,9 @@ author:
   name: katyborrowell
   url: https://news.ycombinator.com/item?id=44445751
 ---
+
+<JobNavigation />
+
 Borrowell - Development Roles - Remote across Canada with office in Toronto - Full Time, Permanent, Benefits from Day 1
 
 Who we are:

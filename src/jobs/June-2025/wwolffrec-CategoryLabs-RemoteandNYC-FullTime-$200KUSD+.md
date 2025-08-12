@@ -4,6 +4,9 @@ author:
   name: wwolffrec
   url: https://news.ycombinator.com/item?id=44165287
 ---
+
+<JobNavigation />
+
 Category Labs - <a href="https:&#x2F;&#x2F;www.category.xyz&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.category.xyz&#x2F;</a> - Remote and NYC - Full Time - $200K USD+
 
 Category Labs (formerly known as Monad Labs) is a team of systems engineers and researchers on a mission to design and build at the frontier of decentralized technology. We strive to design and build step-function improvements over existing blockchain solutions. After recently raising $225M in series A funding, led by Paradigm, we are growing our team.

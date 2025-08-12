@@ -4,6 +4,9 @@ author:
   name: lisacombinaut
   url: https://news.ycombinator.com/item?id=44758559
 ---
+
+<JobNavigation />
+
 Combinaut - REMOTE - Developers and PM - Contract - <a href="https:&#x2F;&#x2F;www.sparkle.health&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.sparkle.health&#x2F;</a>
 We’re looking for remote candidates to join our team of kind, hardworking, and creative people!
 

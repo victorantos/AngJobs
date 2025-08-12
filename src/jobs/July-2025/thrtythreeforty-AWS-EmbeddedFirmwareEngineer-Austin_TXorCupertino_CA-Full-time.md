@@ -4,6 +4,9 @@ author:
   name: thrtythreeforty
   url: https://news.ycombinator.com/item?id=44435704
 ---
+
+<JobNavigation />
+
 AWS - Embedded Firmware Engineer - Austin, TX or Cupertino, CA - Full-time
 
 I&#x27;m a team lead engineer at Annapurna Labs, the small company-within-a-company that designs AWS custom silicon.  My organization designs and runs the Trainium and Inferentia machine learning (ML) accelerators.  Our team is hiring engineers to help build the on-chip firmware stack for new and existing chips.  This firmware is the lowest layer of the Neuron software stack; you can think of it as implementing a silicon-accelerated virtual machine that the Neuron compiler targets.

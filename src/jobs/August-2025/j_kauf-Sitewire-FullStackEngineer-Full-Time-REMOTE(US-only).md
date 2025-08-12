@@ -4,6 +4,9 @@ author:
   name: j_kauf
   url: https://news.ycombinator.com/item?id=44787513
 ---
+
+<JobNavigation />
+
 Sitewire - Full Stack Engineer - Full-Time - REMOTE (US-only) - <a href="https:&#x2F;&#x2F;sitewire.com" rel="nofollow">https:&#x2F;&#x2F;sitewire.com</a>
 
 Learn more or apply at <a href="https:&#x2F;&#x2F;wellfound.com&#x2F;l&#x2F;2zf9K9" rel="nofollow">https:&#x2F;&#x2F;wellfound.com&#x2F;l&#x2F;2zf9K9</a> - I personally review every application, so just mention you found us on HN.

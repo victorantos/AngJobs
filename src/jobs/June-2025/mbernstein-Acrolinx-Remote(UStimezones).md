@@ -4,6 +4,9 @@ author:
   name: mbernstein
   url: https://news.ycombinator.com/item?id=44160127
 ---
+
+<JobNavigation />
+
 Acrolinx - Remote (US time zones) - Software Engineer (Python) (AI&#x2F;LLM) - 125k-150k + benefits
 <a href="https:&#x2F;&#x2F;www.acrolinx.com" rel="nofollow">https:&#x2F;&#x2F;www.acrolinx.com</a>
 

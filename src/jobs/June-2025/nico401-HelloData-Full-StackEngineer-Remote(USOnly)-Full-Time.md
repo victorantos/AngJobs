@@ -4,6 +4,9 @@ author:
   name: nico401
   url: https://news.ycombinator.com/item?id=44160748
 ---
+
+<JobNavigation />
+
 HelloData - Full-Stack Engineer - Remote (US Only) - Full-Time - <a href="https:&#x2F;&#x2F;www.hellodata.ai" rel="nofollow">https:&#x2F;&#x2F;www.hellodata.ai</a>
 
 Join HelloData as our sixth engineer and help shape the leading public data platform for property owners, managers, and developers. We’re a profitable, fast-growing, and fully bootstrapped PropTech startup with several million in ARR, powering market surveys, pricing intelligence, and comps for thousands of properties across the U.S.

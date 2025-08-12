@@ -4,6 +4,9 @@ author:
   name: mglidden11
   url: https://news.ycombinator.com/item?id=44438149
 ---
+
+<JobNavigation />
+
 Tulip - <a href="https:&#x2F;&#x2F;tulip.co&#x2F;eng" rel="nofollow">https:&#x2F;&#x2F;tulip.co&#x2F;eng</a> - Boston, MA, Munich, Germany, and Budapest, Hungary - Full time - Hybrid (3 days &#x2F; week)
 
 Tulip is transforming manufacturing. Our customers use Tulip to create apps without code and to connect their apps to machines, sensors and smart tools. Each process is different, and every shop floor is filled with exciting challenges, technological and otherwise. Tulip&#x27;s no-code app editor lets customers build custom apps to their specific use case. You&#x27;ll contribute to software used to make gigantic CNC mills, high-end pharmaceuticals, jewelry, PCBs, and more.

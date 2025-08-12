@@ -4,6 +4,9 @@ author:
   name: nicholasjbs
   url: https://news.ycombinator.com/item?id=44448936
 ---
+
+<JobNavigation />
+
 Recurse Center (YC S10) - Career Facilitator - Onsite - Brooklyn - Full-time
 
 We operate a programming retreat with an integrated recruiting agency.

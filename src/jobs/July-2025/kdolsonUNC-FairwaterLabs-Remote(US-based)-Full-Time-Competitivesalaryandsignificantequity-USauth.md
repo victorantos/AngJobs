@@ -4,6 +4,9 @@ author:
   name: kdolsonUNC
   url: https://news.ycombinator.com/item?id=44436403
 ---
+
+<JobNavigation />
+
 Fairwater Labs - Founding Engineer &#x2F; Technical Product Co-Founder for AI content generation Dual-Use Startup focused on workforce attention and engagement - Remote (US-based) - Full-Time - Competitive salary and significant equity - US authorized only
 
 Help us reinvent how US + partner military and civilian teams leverage AI to maximize attention and engagement onto the most important and evolving needs. We’re building an AI copilot that enables leaders to move away from sending emails that go unread, and towards more engaging, habit-forming, and micro &#x2F; repetitive content means to emphasize most essential priorities, and align workforces dealing with high-risk environments, disruption, and transformation.

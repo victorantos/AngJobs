@@ -4,6 +4,9 @@ author:
   name: hugobiais
   url: https://news.ycombinator.com/item?id=44438214
 ---
+
+<JobNavigation />
+
 Wordware (YCS24) - Engineering &amp; Design Roles - San Francisco (ONSITE) - Full-time
 
 Wordware (wordware.ai) is building an IDE for creating AI agents using natural language—think Notion meets VSCode for AI development. We&#x27;ve raised the largest seed round in Y Combinator history ($30M) backed by Spark Capital, Felicis, and YC, with 400k+ sign-ups already.

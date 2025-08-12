@@ -4,6 +4,9 @@ author:
   name: frikk18
   url: https://news.ycombinator.com/item?id=44167100
 ---
+
+<JobNavigation />
+
 Curipod - Senior Software Engineer - Full time - Remote (US-based) ($160-200k + equity)
 
 Curipod founder here.

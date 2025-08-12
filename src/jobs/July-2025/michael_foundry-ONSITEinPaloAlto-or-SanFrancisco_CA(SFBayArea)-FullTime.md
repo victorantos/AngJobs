@@ -4,6 +4,9 @@ author:
   name: michael_foundry
   url: https://news.ycombinator.com/item?id=44437560
 ---
+
+<JobNavigation />
+
 Foundry [<a href="https:&#x2F;&#x2F;mlfoundry.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;mlfoundry.com&#x2F;</a>] - ONSITE in Palo Alto -or- San Francisco, CA (SF Bay Area) - Full Time
 
 We’re building Foundry to be the cloud compute platform AI developers actually want—no more battling procurement, limited quotas, or clunky tooling. Our platform gives ML engineers frictionless access to high-performance GPUs, clean APIs, and modern infra primitives to train, fine-tune, and serve state-of-the-art models. Backed by Sequoia, Lightspeed, and founders of Databricks, Google Brain, and Scale.

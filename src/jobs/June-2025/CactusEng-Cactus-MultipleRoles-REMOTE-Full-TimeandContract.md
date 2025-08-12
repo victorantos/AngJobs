@@ -4,6 +4,9 @@ author:
   name: CactusEng
   url: https://news.ycombinator.com/item?id=44163562
 ---
+
+<JobNavigation />
+
 Cactus - <a href="https:&#x2F;&#x2F;www.cactus.is&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.cactus.is&#x2F;</a> - Multiple Roles - REMOTE - Full-Time and Contract
 
 Cactus is a strategy, design, and engineering firm that builds physical and digital products for some of the world&#x27;s leading healthcare clinics. Fully remote with teams based in the US and Brazil, we&#x27;re hiring for a variety of software engineering roles (<a href="https:&#x2F;&#x2F;www.cactus.is&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;www.cactus.is&#x2F;careers</a>).

@@ -4,6 +4,9 @@ author:
   name: kevg86
   url: https://news.ycombinator.com/item?id=44438999
 ---
+
+<JobNavigation />
+
 Nooks (<a href="https:&#x2F;&#x2F;nooks.ai" rel="nofollow">https:&#x2F;&#x2F;nooks.ai</a>) - Software Engineers (full-stack &amp; backend&#x2F;applied ML) - Full-time - Onsite in SF (hybrid)
 
 Hi, I&#x27;m on the recruiting team at Nooks — we’re a Series B co using AI to reimagine the future of work for sales teams.

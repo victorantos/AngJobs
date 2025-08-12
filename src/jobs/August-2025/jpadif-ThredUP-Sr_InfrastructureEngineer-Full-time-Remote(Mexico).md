@@ -4,6 +4,9 @@ author:
   name: jpadif
   url: https://news.ycombinator.com/item?id=44758838
 ---
+
+<JobNavigation />
+
 ThredUP - Sr. Infrastructure Engineer - Full-time - Remote (Mexico)
 
 We’re thredUP, the largest online thrift store, on a mission to inspire a new generation of consumers to think secondhand first. We run a high-scale e-commerce platform, and infra is core to everything we do.

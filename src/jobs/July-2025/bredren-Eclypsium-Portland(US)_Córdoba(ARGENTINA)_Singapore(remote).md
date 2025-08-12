@@ -4,6 +4,9 @@ author:
   name: bredren
   url: https://news.ycombinator.com/item?id=44436627
 ---
+
+<JobNavigation />
+
 Eclypsium - Portland (US), Córdoba (ARGENTINA), Singapore (remote) - ONSITE &#x2F; HYBRID &#x2F; REMOTE - Full-time &amp; Contract
 
 <a href="https:&#x2F;&#x2F;eclypsium.com&#x2F;company&#x2F;careers&#x2F;" rel="nofollow">https:&#x2F;&#x2F;eclypsium.com&#x2F;company&#x2F;careers&#x2F;</a>

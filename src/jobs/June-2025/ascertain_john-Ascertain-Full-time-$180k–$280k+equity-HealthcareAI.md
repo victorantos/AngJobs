@@ -4,6 +4,9 @@ author:
   name: ascertain_john
   url: https://news.ycombinator.com/item?id=44161112
 ---
+
+<JobNavigation />
+
 Ascertain - NYC (Hybrid ~3d&#x2F;week) - Full-time - $180k–$280k + equity - Healthcare AI - Senior Engineers: Backend, Frontend, AI
 
 Ascertain is a healthcare AI startup backed by Northwell (New York&#x27;s largest health system) and Deerfield. We&#x27;re a small team automating the painful admin work that clogs up the U.S. healthcare system — things like prior authorizations, discharge planning, and insurance claims. Our goal is simple: give time back to clinicians so they can focus on patient care, not paperwork.

@@ -4,6 +4,9 @@ author:
   name: usful
   url: https://news.ycombinator.com/item?id=44161599
 ---
+
+<JobNavigation />
+
 Parable - Senior ML Engineer x2 - Remote • Full time - $150-250k -  Enterprise Sales Partner x2 - NYC Office • Full time • On-site - Variable comp
 
 Parable is an AI intelligence layer purpose built for the C-suite.  By creating a holistic observability layer across an entire organization we help drive real operating leverage at enterprise organizations of 1,000+ employees.

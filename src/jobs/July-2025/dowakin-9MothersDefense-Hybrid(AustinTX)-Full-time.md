@@ -4,6 +4,9 @@ author:
   name: dowakin
   url: https://news.ycombinator.com/item?id=44435660
 ---
+
+<JobNavigation />
+
 9 Mothers Defense - Embedded Robotics Eng. &amp; Computer Vision &#x2F; ML Data Scientist - Hybrid (Austin TX) - Full-time
 
 Building AI-driven turrets that stop hostile drones. We need sharp, hands-on engineers:

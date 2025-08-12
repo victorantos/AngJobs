@@ -4,6 +4,9 @@ author:
   name: z3ugma
   url: https://news.ycombinator.com/item?id=44764886
 ---
+
+<JobNavigation />
+
 EnsoData - Sales - Remote US - Full-Time - $83k-$220k + equity
 
 Sleep is vital to recharging mentally, restoring our bodies physically, and fighting off disease. Sleep is so core to our health that it&#x27;s the activity we all spend most of our life doing.

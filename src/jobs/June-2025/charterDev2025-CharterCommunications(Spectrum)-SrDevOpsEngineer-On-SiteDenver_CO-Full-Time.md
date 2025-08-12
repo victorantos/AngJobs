@@ -4,6 +4,9 @@ author:
   name: charterDev2025
   url: https://news.ycombinator.com/item?id=44160316
 ---
+
+<JobNavigation />
+
 Charter Communications (Spectrum) - Sr DevOps Engineer - On-Site Denver, CO - Full-Time
 
 Looking for a Sr. Systems Engineer &#x2F; Admin with experience in managing and implementing geo-dispersed on-prem Kubernetes clusters, experience with timeseries DBs such as QuestDB and InfluxDB, distributed DBs such as Cassandra, and traditional SQL DBs such as MariaDB.

@@ -4,6 +4,9 @@ author:
   name: jastice
   url: https://news.ycombinator.com/item?id=44868787
 ---
+
+<JobNavigation />
+
 JetBrains - Tech Lead &#x2F; Senior for Bazel plugin - REMOTE or onsite (Germany, Poland, Netherlands, Czechia, Cyprus, Armenia)
 
 About us: we make devtools. Our team is working on Bazel integration for all our IDEs, primarily IntelliJ IDEA.

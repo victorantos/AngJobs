@@ -4,6 +4,9 @@ author:
   name: jadeyychan
   url: https://news.ycombinator.com/item?id=44858243
 ---
+
+<JobNavigation />
+
 Camber fka Juniper (YC W21) - Senior Software Engineer (Product, Backend, Data, platform - Engineering Manager - Full-time - Hybrid NYC - camber.health
 
 Camber is working to improve the messy financial infrastructure for US Healthcare. We&#x27;ve built an automated end-to-end insurance billing system for recurring care, starting with Autism clinics. It’s a product that clinicians need and love.

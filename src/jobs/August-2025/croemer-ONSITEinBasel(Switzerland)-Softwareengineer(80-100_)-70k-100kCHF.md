@@ -4,6 +4,9 @@ author:
   name: croemer
   url: https://news.ycombinator.com/item?id=44766110
 ---
+
+<JobNavigation />
+
 Swiss Institute of Tropical &amp; Public Health - ONSITE in Basel (Switzerland) - Software engineer (80-100%) - 70k-100k CHF
 
 We build open-source infrastructure to make pathogen sequencing data more accessible, interpretable, and equitable

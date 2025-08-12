@@ -4,6 +4,9 @@ author:
   name: frawley
   url: https://news.ycombinator.com/item?id=44439691
 ---
+
+<JobNavigation />
+
 Sift (<a href="https:&#x2F;&#x2F;siftstack.com" rel="nofollow">https:&#x2F;&#x2F;siftstack.com</a>) - Multiple Roles - Full-time - El Segundo, CA
 
 ---

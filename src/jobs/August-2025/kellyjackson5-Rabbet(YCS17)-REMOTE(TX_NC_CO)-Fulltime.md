@@ -4,6 +4,9 @@ author:
   name: kellyjackson5
   url: https://news.ycombinator.com/item?id=44799826
 ---
+
+<JobNavigation />
+
 Rabbet (YC S17) - Sr. Software Engineer (Elixir&#x2F;React) - REMOTE (TX, NC, CO) - Full time
 
 Rabbet is hiring Sr. Software Engineers to help us streamline construction finances. We offer cloud-based software for commercial lenders and real estate developers to centralize construction finances, automate administrative tasks, and reduce the time spent managing draws.

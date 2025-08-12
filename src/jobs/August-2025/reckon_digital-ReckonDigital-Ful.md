@@ -4,6 +4,9 @@ author:
   name: reckon_digital
   url: https://news.ycombinator.com/item?id=44759647
 ---
+
+<JobNavigation />
+
 Reckon Digital - Full-Stack Software Dev - London, UK or remote (UTC) - Full-time - 
 <a href="https:&#x2F;&#x2F;reckondigital.com&#x2F;careers&#x2F;" rel="nofollow">https:&#x2F;&#x2F;reckondigital.com&#x2F;careers&#x2F;</a>
 We are looking for an experienced Senior Full-Stack Software Engineer to work with us on a full-time basis. Required: Python, React. The place of work is London or remote.

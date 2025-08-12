@@ -4,6 +4,9 @@ author:
   name: sophanox_
   url: https://news.ycombinator.com/item?id=44160391
 ---
+
+<JobNavigation />
+
 Stored - Full Stack&#x2F;Backend Engineer (C#, TypeScript, Postgres) - Fully Remote (European timezones only) - Full-Time
 
 We&#x27;re Stored – a digital payments startup redefining how merchants sell and get paid. We recently closed an oversubscribed funding round, driven by several new partnership agreements with some of the world&#x27;s largest payments businesses.

@@ -4,6 +4,9 @@ author:
   name: jansenderr
   url: https://news.ycombinator.com/item?id=44435753
 ---
+
+<JobNavigation />
+
 Loman AI - Software Engineer - Austin, TX - Hybrid - Full-Time - <a href="https:&#x2F;&#x2F;loman.ai" rel="nofollow">https:&#x2F;&#x2F;loman.ai</a>
 
 --------------------------------------

@@ -4,6 +4,9 @@ author:
   name: FailMore
   url: https://news.ycombinator.com/item?id=44765950
 ---
+
+<JobNavigation />
+
 London - In person&#x2F;hybrid or Abroad - Remote
 
 Magic position for people who know HEAPs about the playwright testing framework.

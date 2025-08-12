@@ -4,6 +4,9 @@ author:
   name: hamelcubsfan
   url: https://news.ycombinator.com/item?id=44165348
 ---
+
+<JobNavigation />
+
 Recruiter from Waymo here. We’re hiring all over the place to make these cars drive without needing to strike up small talk with a human.
 
 Mostly in person (MTV, SEA, NYC…a few other spots). Remote isn’t likely, but…we do have remote employees.

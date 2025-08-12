@@ -4,6 +4,9 @@ author:
   name: inian
   url: https://news.ycombinator.com/item?id=44439547
 ---
+
+<JobNavigation />
+
 Supabase - <a href="https:&#x2F;&#x2F;supabase.com&#x2F;">https:&#x2F;&#x2F;supabase.com&#x2F;</a> - Remote
 
 Supabase is the Postgres Development Platform and we are looking for Product Managers and Technical Program managers. You will be working with very strong Product Engineers across a wide variety of products (Postgres, realtime, storage, Queues, etc). If you enjoy working on developer tools and like to get your hands dirty, check out our open product roles

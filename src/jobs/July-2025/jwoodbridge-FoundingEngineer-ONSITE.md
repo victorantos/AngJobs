@@ -4,6 +4,9 @@ author:
   name: jwoodbridge
   url: https://news.ycombinator.com/item?id=44437991
 ---
+
+<JobNavigation />
+
 Phoebe (<a href="https:&#x2F;&#x2F;phoebe.work&#x2F;" rel="nofollow">https:&#x2F;&#x2F;phoebe.work&#x2F;</a>) - Founding Engineer - ONSITE
 
 Phoebe is building AI teammates for home health agencies. We are growing fast with paying customers and real revenue

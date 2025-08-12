@@ -4,6 +4,9 @@ author:
   name: Jaketeagle
   url: https://news.ycombinator.com/item?id=44760930
 ---
+
+<JobNavigation />
+
 V7 - London (UK) - ONSITE (2&#x2F;3 Days P&#x2F;W) - <a href="https:&#x2F;&#x2F;www.v7labs.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.v7labs.com&#x2F;</a>
 
 AI Engineer - up to £160,000

@@ -4,6 +4,9 @@ author:
   name: jpbutler
   url: https://news.ycombinator.com/item?id=44160479
 ---
+
+<JobNavigation />
+
 Youth Inc - Senior Elixir Engineer - On-site Hybrid Boston, USA - Full-time
 
 At Youth Inc., we’re on a mission to empower youth athletes and their families with trusted content and a best-in-class e-commerce experience. Our Elixir&#x2F;Phoenix-powered platform reaches millions of users—coaches, trainers, and parents—while our B2B marketplace supplies premium team gear to hundreds of programs across the U.S.

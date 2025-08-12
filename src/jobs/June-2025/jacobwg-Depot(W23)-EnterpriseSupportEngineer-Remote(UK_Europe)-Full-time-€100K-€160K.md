@@ -4,6 +4,9 @@ author:
   name: jacobwg
   url: https://news.ycombinator.com/item?id=44162328
 ---
+
+<JobNavigation />
+
 Depot (W23) - Enterprise Support Engineer - Remote (UK, Europe) - Full-time - €100K - €160K - <a href="https:&#x2F;&#x2F;depot.dev">https:&#x2F;&#x2F;depot.dev</a>
 
 Depot is the fastest place to build software. We accelerate builds for customers using GitHub Actions, Docker, Bazel, Gradle, and more. We&#x27;re seeking our first Enterprise Support Engineer to become a customer-facing expert on build optimization.

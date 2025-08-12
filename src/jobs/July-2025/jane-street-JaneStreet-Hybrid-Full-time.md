@@ -4,6 +4,9 @@ author:
   name: jane-street
   url: https://news.ycombinator.com/item?id=44436953
 ---
+
+<JobNavigation />
+
 Jane Street - Hybrid - Full-time
 
 If you haven&#x27;t heard of us before, we’re a quantitative trading firm that cares a lot about technology. This means building elegant solutions that scale well, never assuming that “best in market” is the same as “best possible,” and ensuring everybody has the resources needed to do their jobs well.

@@ -4,6 +4,9 @@ author:
   name: MakerSam
   url: https://news.ycombinator.com/item?id=44436034
 ---
+
+<JobNavigation />
+
 Blue Origin - Full Stack Web Software Engineer - ONSITE in Seattle, WA or Huntsville, AL - Full Time - <a href="https:&#x2F;&#x2F;www.blueorigin.com" rel="nofollow">https:&#x2F;&#x2F;www.blueorigin.com</a>
 
 Come build the road the space with us!

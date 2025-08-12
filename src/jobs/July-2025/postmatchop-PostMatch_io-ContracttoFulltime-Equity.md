@@ -4,6 +4,9 @@ author:
   name: postmatchop
   url: https://news.ycombinator.com/item?id=44436633
 ---
+
+<JobNavigation />
+
 PostMatch.io - Growth Hacker&#x2F;Marketing&#x2F;Sales - Remote (USA&#x2F;Canada) - Contract to Fulltime - Equity
 
 I’m building a SaaS product with PMF already solved and a clear roadmap. Competitor traction shows there’s plenty of room in the space, and I’m looking for marketers and growth hackers to help secure customers and drive growth.

@@ -4,6 +4,9 @@ author:
   name: swhopkins
   url: https://news.ycombinator.com/item?id=44760650
 ---
+
+<JobNavigation />
+
 Sonix - Senior Full-Stack Engineer - Remote (US only) - Full-time - Ruby on Rails + React
 
 Sonix (<a href="https:&#x2F;&#x2F;sonix.ai" rel="nofollow">https:&#x2F;&#x2F;sonix.ai</a>) is an AI-powered transcription and translation platform used by thousands of businesses, researchers, media teams, and legal professionals around the world. We’re profitable, bootstrapped, and growing fast.

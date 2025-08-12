@@ -4,6 +4,9 @@ author:
   name: ThibautdeVos
   url: https://news.ycombinator.com/item?id=44443177
 ---
+
+<JobNavigation />
+
 Gigs (YC W21) - Multiple US &amp; EU Locations (SF, NY, Berlin, London) - Full-time
 
 At Gigs, we&#x27;re building the operating system for mobile services - a platform that enables tech companies to seamlessly embed connectivity into their products.

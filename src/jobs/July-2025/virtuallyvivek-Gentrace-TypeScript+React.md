@@ -4,6 +4,9 @@ author:
   name: virtuallyvivek
   url: https://news.ycombinator.com/item?id=44436615
 ---
+
+<JobNavigation />
+
 Gentrace - TypeScript + React - Hybrid (Williamsburg, Brooklyn &amp; San Francisco)
 
 Gentrace helps the most impactful companies in the world like Quizlet systematically test and evaluate their AI applications. We recently raised an $8M Series A from Matrix Partners.

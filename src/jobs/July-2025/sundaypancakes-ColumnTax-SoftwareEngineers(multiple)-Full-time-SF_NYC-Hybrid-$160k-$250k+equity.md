@@ -4,6 +4,9 @@ author:
   name: sundaypancakes
   url: https://news.ycombinator.com/item?id=44436061
 ---
+
+<JobNavigation />
+
 Column Tax - <a href="https:&#x2F;&#x2F;columntax.com" rel="nofollow">https:&#x2F;&#x2F;columntax.com</a> - Software Engineers (multiple) - Full-time - SF, NYC - Hybrid - $160k - $250k + equity
 
 “The hardest thing in the world to understand is income taxes” - Albert Einstein

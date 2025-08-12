@@ -4,6 +4,9 @@ author:
   name: zetaben
   url: https://news.ycombinator.com/item?id=44435542
 ---
+
+<JobNavigation />
+
 Konvu - <a href="https:&#x2F;&#x2F;konvu.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;konvu.com&#x2F;</a> - Software Engineer - FULLTIME - ONSITE - Paris, France
 
 At Konvu, we’re on a mission to make security invisible. As we move towards a future dominated by code automatically generated, tested, and deployed by AIs, we need a new paradigm for application security. We need vulnerabilities to be automatically detected, prioritized and remediated.

@@ -4,6 +4,9 @@ author:
   name: MKK
   url: https://news.ycombinator.com/item?id=44435162
 ---
+
+<JobNavigation />
+
 Duranta - <a href="https:&#x2F;&#x2F;www.getduranta.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.getduranta.com&#x2F;</a> - Seattle, WA or New York, NY - ONSITE - Full-time
 
 Roles: Computer Vision Engineer

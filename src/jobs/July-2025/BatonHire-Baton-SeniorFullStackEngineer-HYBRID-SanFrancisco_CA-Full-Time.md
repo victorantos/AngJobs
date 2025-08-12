@@ -4,6 +4,9 @@ author:
   name: BatonHire
   url: https://news.ycombinator.com/item?id=44438764
 ---
+
+<JobNavigation />
+
 Baton- Senior Full Stack Engineer - HYBRID -San Francisco, CA - Full-Time
 
 Baton is building software to automate the $800B+ freight industry. We’re a small, fast-moving team inside Ryder (Fortune 500 logistics company), rethinking how freight moves with real-time visibility, automation, and AI.

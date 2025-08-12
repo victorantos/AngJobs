@@ -4,6 +4,9 @@ author:
   name: jaredrhine
   url: https://news.ycombinator.com/item?id=44764163
 ---
+
+<JobNavigation />
+
 Swayable - <a href="https:&#x2F;&#x2F;www.swayable.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.swayable.com&#x2F;</a> - SF, NY, Remote - Full-Time
 
 Swayable measures how content changes people&#x27;s opinions. We apply a variety of sophisticated machine learning classification, regression, causal AI, and GenAI-based analyses to survey-based data we collect. Customers receive high-level, actionable data about different group&#x27;s responses through an ever-expanding portfolio of web-based visualizations, reports, and natural language interfaces.

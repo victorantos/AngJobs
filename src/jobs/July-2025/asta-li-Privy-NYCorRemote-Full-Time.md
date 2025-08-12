@@ -4,6 +4,9 @@ author:
   name: asta-li
   url: https://news.ycombinator.com/item?id=44439237
 ---
+
+<JobNavigation />
+
 Privy - NYC or Remote - Staff engineering roles (Backend, Frontend, FDE, Security &amp; more) - Full-Time - <a href="https:&#x2F;&#x2F;privy.io" rel="nofollow">https:&#x2F;&#x2F;privy.io</a>
 
 Hi, I&#x27;m Asta, CTO at the identity and fintech infra startup Privy. We build a wallet and digital asset API that hundreds of companies integrate in order to onboard (75M+) users onto products built with blockchain infra and distributed systems.

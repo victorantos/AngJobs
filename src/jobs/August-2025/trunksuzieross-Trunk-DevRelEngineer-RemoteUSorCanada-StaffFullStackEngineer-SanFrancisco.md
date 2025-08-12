@@ -4,6 +4,9 @@ author:
   name: trunksuzieross
   url: https://news.ycombinator.com/item?id=44826156
 ---
+
+<JobNavigation />
+
 Trunk - <a href="https:&#x2F;&#x2F;trunk.io" rel="nofollow">https:&#x2F;&#x2F;trunk.io</a> - DevRel Engineer - Remote US or Canada-  Staff Full Stack Engineer - San Francisco
 
 Trunk is an a16z funded dev tools startup, redefining software development at scale. We aim to solve problems that developers hate by bringing the tools usually built in-house at the best engineering orgs to every development team. Some of our products:

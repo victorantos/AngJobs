@@ -5,6 +5,9 @@ author:
   name: lpandong
   url: https://news.ycombinator.com/item?id=44449265
 ---
+
+<JobNavigation />
+
 TigerData (FKA Timescale)
 [ Global - 100% Remote - Multiple Roles: Eng, Product + more ]
 

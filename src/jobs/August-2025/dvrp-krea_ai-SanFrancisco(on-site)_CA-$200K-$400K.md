@@ -4,6 +4,9 @@ author:
   name: dvrp
   url: https://news.ycombinator.com/item?id=44760068
 ---
+
+<JobNavigation />
+
 krea.ai - Distributed Systems Eng. &amp; Data Engineers - San Francisco (on-site), CA - $200K-$400K
 
 I&#x27;m the cofounder of Krea (<a href="https:&#x2F;&#x2F;www.krea.ai" rel="nofollow">https:&#x2F;&#x2F;www.krea.ai</a>), a startup in San Francisco building browser-based AI creative tools to improve the workflows of artists, designers, and creatives. Small team (~15); millions of active users; and we&#x27;ve raised over $83M from top silicon valley firms.

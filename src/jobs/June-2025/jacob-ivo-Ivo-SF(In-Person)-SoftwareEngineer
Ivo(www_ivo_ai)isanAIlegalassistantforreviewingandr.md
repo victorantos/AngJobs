@@ -4,6 +4,9 @@ author:
   name: jacob-ivo
   url: https://news.ycombinator.com/item?id=44159557
 ---
+
+<JobNavigation />
+
 Ivo - SF (In-Person) - Software Engineer
 Ivo (www.ivo.ai) is an AI legal assistant for reviewing and redlining contracts more efficiently — although we primarily serve lawyers, we think we can eventually remove lawyers from contracting processes entirely. Our customers include companies like Zapier, Canva, Quora, and WordPress.
 

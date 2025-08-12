@@ -4,6 +4,9 @@ author:
   name: eyphka
   url: https://news.ycombinator.com/item?id=44437448
 ---
+
+<JobNavigation />
+
 Prelim (YC S17) - <a href="https:&#x2F;&#x2F;prelim.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;prelim.com&#x2F;</a> - REMOTE (US) - Engineers, Designers, People - Full-time
 
 Prelim helps banks onboard their customers. If you&#x27;re applying for a financial service like a bank account online, or in person with a banker, we&#x27;re the tool that makes banking easier.

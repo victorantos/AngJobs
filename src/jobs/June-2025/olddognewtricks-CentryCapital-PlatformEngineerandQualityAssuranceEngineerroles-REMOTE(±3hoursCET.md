@@ -4,6 +4,9 @@ author:
   name: olddognewtricks
   url: https://news.ycombinator.com/item?id=44160963
 ---
+
+<JobNavigation />
+
 Centry Capital - Platform Engineer and Quality Assurance Engineer roles - REMOTE (±3 hours CET, i.e. European and similar timezones) - <a href="https:&#x2F;&#x2F;centry.capital" rel="nofollow">https:&#x2F;&#x2F;centry.capital</a> - Full-Time
 
 Revolutionising wealth management with AI-driven automation. Founded by repeat fintech entrepreneurs with multiple successful exits. Seeking a Platform Engineer and a Quality Engineer to build our AI-powered digital family office platform. Early-stage; have closed an initial round of funding.

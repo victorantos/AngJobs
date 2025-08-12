@@ -4,6 +4,9 @@ author:
   name: cosuno
   url: https://news.ycombinator.com/item?id=44758972
 ---
+
+<JobNavigation />
+
 Cosuno - Senior Full Stack Developer (TypeScript) &#x2F; Senior Machine Learning Engineer – Generative AI - Remote (EU) &#x2F; Berlin - Full-time - <a href="https:&#x2F;&#x2F;www.cosuno.com" rel="nofollow">https:&#x2F;&#x2F;www.cosuno.com</a>
 
 Cosuno is a fast-growing tech startup revolutionizing the construction industry with our digital platform for tenders and procurement. We use AI to analyze millions of price data points, helping construction companies create precise and efficient bids. We&#x27;re looking to expand our team with creative minds who want to solve real-world problems and reshape a massive industry. We are an open-minded, collaborative, and international team.

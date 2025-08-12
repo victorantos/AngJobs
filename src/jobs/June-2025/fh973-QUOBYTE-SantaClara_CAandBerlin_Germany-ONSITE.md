@@ -4,6 +4,9 @@ author:
   name: fh973
   url: https://news.ycombinator.com/item?id=44161714
 ---
+
+<JobNavigation />
+
 QUOBYTE - Santa Clara, CA and Berlin, Germany - Full-time &#x2F; Remote - ONSITE - <a href="https:&#x2F;&#x2F;www.quobyte.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.quobyte.com&#x2F;</a>
 
 At *Quobyte* we are working on the Data Center File System, a highly scalable and fault-tolerant software storage system built around a parallel file system core. Customers use Quobyte DCFS for AI and HPC clusters in industry and academia, k8s and OpenStack infrastructures, streaming, web mail, post production, origin and CGI clusters, and as a scalable backend for SaaS products. There are Quobyte clusters which span tens of thousands of machines and slurp 100s of GB&#x2F;s!

@@ -4,6 +4,9 @@ author:
   name: wagslane
   url: https://news.ycombinator.com/item?id=44802038
 ---
+
+<JobNavigation />
+
 Boot.dev - Senior Course Producer (Full Time, Remote)
 
 We’re building the smartest way to master backend development by tackling the hardest problem with e-learning: boredom. We’re a small team of developers who love to make the process of learning as fun and hands-on as it can be. We are looking for a course producer and editor to help us create more programming and computer science courses on Boot.dev!

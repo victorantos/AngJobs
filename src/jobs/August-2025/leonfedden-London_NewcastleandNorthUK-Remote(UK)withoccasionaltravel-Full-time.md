@@ -4,6 +4,9 @@ author:
   name: leonfedden
   url: https://news.ycombinator.com/item?id=44762616
 ---
+
+<JobNavigation />
+
 London, Newcastle and North UK - Remote (UK) with occasional travel - Full-time - <a href="https:&#x2F;&#x2F;www.literal-labs.ai" rel="nofollow">https:&#x2F;&#x2F;www.literal-labs.ai</a>
 
 Hi are you based in the UK? We are looking for Junior, Mid to Senior Full Stack Engineers.

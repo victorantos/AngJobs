@@ -4,6 +4,9 @@ author:
   name: nicksolace
   url: https://news.ycombinator.com/item?id=44435510
 ---
+
+<JobNavigation />
+
 Solace Health - Various Roles - Remote (US Only)
 
 A quick note. A few of you have pointed out we have been hiring for some of the same roles for a few months. This is true - it&#x27;s not because we have not hired anyone, quite the opposite. We are growing fast and our engineering team is no exception. I realize it&#x27;s hard to tell these days what jobs are &quot;real&quot; but make no mistake - we&#x27;re hiring aggressively.

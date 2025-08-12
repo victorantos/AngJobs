@@ -4,6 +4,9 @@ author:
   name: hilem
   url: https://news.ycombinator.com/item?id=44760222
 ---
+
+<JobNavigation />
+
 Chestnut - Hiring multiple roles (across engineering) - San Francisco + Seattle hubs (hybrid) - <a href="https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;Chestnut" rel="nofollow">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;Chestnut</a>
 
 Massive opp. Chestnut is the first AI-native operating system for insurance distribution management, tackling a $100B+ spend pool in the largest industry in the U.S. Legacy software and manual processes dominate this space; Chestnut is the only modern platform enabling real-time data, automation, and agentic AI workflows that directly grow carrier revenue.

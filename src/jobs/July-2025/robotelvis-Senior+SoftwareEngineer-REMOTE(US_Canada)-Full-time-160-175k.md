@@ -4,6 +4,9 @@ author:
   name: robotelvis
   url: https://news.ycombinator.com/item?id=44435216
 ---
+
+<JobNavigation />
+
 New Public (<a href="https:&#x2F;&#x2F;newpublic.org" rel="nofollow">https:&#x2F;&#x2F;newpublic.org</a>) - Senior+ Software Engineer - REMOTE (US, Canada) - Full-time - 160-175k
 
 We are working with a consortium of public broadcasters around the world to create a publicly-owned public-interest online space that helps people with different viewpoints understand each other and relate to each other. This project has a lot of momentum behind it, particularly as recent political changes in the US are getting countries interested in the idea of digital sovereignty.

@@ -4,6 +4,9 @@ author:
   name: pagnihotry
   url: https://news.ycombinator.com/item?id=44161792
 ---
+
+<JobNavigation />
+
 Voldex - Full-time - Remote (Canada) - <a href="https:&#x2F;&#x2F;voldex.com&#x2F;careers&#x2F;" rel="nofollow">https:&#x2F;&#x2F;voldex.com&#x2F;careers&#x2F;</a>
 
 Voldex is one of the top developers on Roblox, backed by investors like Andreessen Horowitz, Dune Ventures, Makers Fund, MIT Innovation Capital, Raine Ventures, and the Qatar Investment Authority.

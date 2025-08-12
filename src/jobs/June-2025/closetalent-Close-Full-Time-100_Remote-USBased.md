@@ -4,6 +4,9 @@ author:
   name: closetalent
   url: https://news.ycombinator.com/item?id=44160525
 ---
+
+<JobNavigation />
+
 Close - Full-Time - 100% Remote - US Based
 
 * Backend Engineer (Python)

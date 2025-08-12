@@ -4,6 +4,9 @@ author:
   name: MeaningfulAI
   url: https://news.ycombinator.com/item?id=44758710
 ---
+
+<JobNavigation />
+
 Puntt.AI - Founding Account Executive &amp; Founding Growth Marketer (AI-first)
 - Full-time - Remote from New York, London or San Francisco)
 

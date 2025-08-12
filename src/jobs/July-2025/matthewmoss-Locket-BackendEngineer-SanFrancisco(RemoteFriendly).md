@@ -4,6 +4,9 @@ author:
   name: matthewmoss
   url: https://news.ycombinator.com/item?id=44438358
 ---
+
+<JobNavigation />
+
 Locket - Backend Engineer - San Francisco (Remote Friendly) - <a href="https:&#x2F;&#x2F;locket.camera" rel="nofollow">https:&#x2F;&#x2F;locket.camera</a>
 
 Locket is building the platform that puts real friends first. Since launching in 2022, Locket has grown to 10s of millions of active users and is one of the fastest-growing apps amongst Gen Z around the world.

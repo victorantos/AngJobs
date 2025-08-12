@@ -4,6 +4,9 @@ author:
   name: dsyang
   url: https://news.ycombinator.com/item?id=44161655
 ---
+
+<JobNavigation />
+
 Notion - <a href="https:&#x2F;&#x2F;notion.com" rel="nofollow">https:&#x2F;&#x2F;notion.com</a> - Android Engineer - SF - hybrid (in office 2x a week) - Full time
 
 <pre><code>  Level: All levels (at least 2yrs of experience shipping production Android apps)

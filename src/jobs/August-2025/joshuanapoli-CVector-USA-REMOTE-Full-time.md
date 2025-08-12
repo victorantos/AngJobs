@@ -4,6 +4,9 @@ author:
   name: joshuanapoli
   url: https://news.ycombinator.com/item?id=44767051
 ---
+
+<JobNavigation />
+
 CVector - Full Stack Software Engineer; UI&#x2F;UX Designer - USA - REMOTE - Full-time - $75k&#x2F;yr + 0.3% – 1%
 
 CVector builds software to make energy systems smarter, more reliable, and autonomous. We integrate real-time data visualization and analytics to help power generation stations, chemical plants, and other critical infrastructure make informed decisions in rapidly changing environments. You&#x27;ll help create intuitive, robust web apps and backend systems, shaping tools that directly impact industrial operations and energy reliability.

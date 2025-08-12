@@ -4,6 +4,9 @@ author:
   name: nswizzle31
   url: https://news.ycombinator.com/item?id=44161378
 ---
+
+<JobNavigation />
+
 Wave3 Social - Marketing Director - Remote
 
 Wave3 is a social club for men looking to build meaningful IRL friendships in the digital era. Our mission is to solve the growing male loneliness crisis. We host monthly mixers and exclusive events for members. The goal is to remove all friction to having the consistent interactions needed to build meaningful relationships.

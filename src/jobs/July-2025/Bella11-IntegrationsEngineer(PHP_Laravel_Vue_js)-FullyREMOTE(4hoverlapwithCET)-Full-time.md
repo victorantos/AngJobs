@@ -4,6 +4,9 @@ author:
   name: Bella11
   url: https://news.ycombinator.com/item?id=44441548
 ---
+
+<JobNavigation />
+
 MailerLite (<a href="https:&#x2F;&#x2F;www.mailerlite.com" rel="nofollow">https:&#x2F;&#x2F;www.mailerlite.com</a>) - Integrations Engineer (PHP, Laravel, Vue.js) - Fully REMOTE (4h overlap with CET) - Full-time
 
 MailerLite is searching for an Integrations Engineer that can help implement and coordinate solutions across a variety of its products (MailerLite, MailerSend, MailerCheck and upcoming ones).

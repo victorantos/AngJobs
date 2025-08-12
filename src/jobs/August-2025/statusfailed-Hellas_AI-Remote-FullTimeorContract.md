@@ -4,6 +4,9 @@ author:
   name: statusfailed
   url: https://news.ycombinator.com/item?id=44783595
 ---
+
+<JobNavigation />
+
 Hellas.AI - Remote - Full Time or Contract - <a href="https:&#x2F;&#x2F;hellas.ai" rel="nofollow">https:&#x2F;&#x2F;hellas.ai</a>
 
 Hellas.AI is building a compiler for categorical deep learning to power decentralised, serverless AI.

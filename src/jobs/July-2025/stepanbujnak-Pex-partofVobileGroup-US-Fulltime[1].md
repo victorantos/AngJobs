@@ -4,6 +4,9 @@ author:
   name: stepanbujnak
   url: https://news.ycombinator.com/item?id=44437650
 ---
+
+<JobNavigation />
+
 Pex - part of Vobile Group - US - Full time [1]
 
 We serve everyone who uses the Internet to view, share, or create content – from the largest platforms and rightsholders, to independent creators. Pex automated content recognition technology identifies uses that other tools can’t detect, including modified audio with speed, pitch, tempo, language, and other distortions.

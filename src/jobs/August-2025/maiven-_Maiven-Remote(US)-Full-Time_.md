@@ -4,6 +4,9 @@ author:
   name: maiven
   url: https://news.ycombinator.com/item?id=44757922
 ---
+
+<JobNavigation />
+
 *Maiven - Full-Stack Engineer &amp; Energy Modeling Engineer - Remote (US) - Full-Time*
 
 Maiven is the software platform automating home decarbonization. We’re a small, mission-driven team punching way above our weight: we have large utility customers, contracts in multiple states, and a growing pipeline of programs launching later this year. We’re venture backed and moving fast.

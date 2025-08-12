@@ -4,6 +4,9 @@ author:
   name: cshimmin
   url: https://news.ycombinator.com/item?id=44440180
 ---
+
+<JobNavigation />
+
 P-1 AI - Hybrid (SF) and Remote (US) roles - Full time
 
 P-1 is trying to do for physical engineering (mechanical, aerospace, electrical), what Devin, Cursor *et al.* are doing for the software world. Founded by ex Airbus execs and DARPA program managers, we&#x27;ve just raised a $23 million seed round. Our goal is to solve engineering AGI to enable humans to scale engineering complexity by orders of magnitude.

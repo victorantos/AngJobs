@@ -4,6 +4,9 @@ author:
   name: willempienaar
   url: https://news.ycombinator.com/item?id=44162795
 ---
+
+<JobNavigation />
+
 Cleric - <a href="https:&#x2F;&#x2F;cleric.ai" rel="nofollow">https:&#x2F;&#x2F;cleric.ai</a> - Staff Software Engineer - Full-Time - $160K–$220K - Onsite (San Francisco)
 
 Cleric is an AI Site Reliability Engineer (SRE) that autonomously root causes production issues for engineering teams. Our AI agent frees engineers from time consuming investigations and context switching by reliably diagnosing and fixing problems in production environments.

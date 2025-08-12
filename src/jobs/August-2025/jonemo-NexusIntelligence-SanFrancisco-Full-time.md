@@ -4,6 +4,9 @@ author:
   name: jonemo
   url: https://news.ycombinator.com/item?id=44757876
 ---
+
+<JobNavigation />
+
 Nexus Intelligence - <a href="https:&#x2F;&#x2F;getnexus.ai" rel="nofollow">https:&#x2F;&#x2F;getnexus.ai</a> - San Francisco - Full-time - Onsite&#x2F;Hybrid
 
 --

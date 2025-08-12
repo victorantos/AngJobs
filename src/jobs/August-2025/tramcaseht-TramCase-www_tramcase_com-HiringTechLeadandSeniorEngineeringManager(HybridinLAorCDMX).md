@@ -4,6 +4,9 @@ author:
   name: tramcaseht
   url: https://news.ycombinator.com/item?id=44770296
 ---
+
+<JobNavigation />
+
 Tram Case - www.tramcase.com- Hiring Tech Lead and Senior Engineering Manager (Hybrid in LA or CDMX) and Remote Engineers (LATAM) - Fluency in both Spanish and English is required for all roles.
 
 We’re building software to help high-volume law firms handle their caseload more efficiently—starting with an AI assistant that transcribes and classifies inbound calls so teams can focus on what needs action. That system is already in use, and we’re now expanding into case tracking, follow-ups, and broader workflow automation.

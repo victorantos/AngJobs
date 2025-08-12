@@ -4,6 +4,9 @@ author:
   name: kveykva
   url: https://news.ycombinator.com/item?id=44161581
 ---
+
+<JobNavigation />
+
 Max AI - SWE Fullstack, Backend, AI&#x2F;ML Engineer - Hybrid In-Person&#x2F;Remote (SF) - Full-time - $145k — $230k - <a href="https:&#x2F;&#x2F;www.maxcare.ai" rel="nofollow">https:&#x2F;&#x2F;www.maxcare.ai</a>
 
 Max AI is building the financial operating system for healthcare—turning the broken, error-prone billing process into a lightning-fast, autonomous experience, much like swiping a credit card. Our ambient AI agents handle medical coding, claim submission, and fund collection the moment a doctor finishes charting—no humans in the loop.

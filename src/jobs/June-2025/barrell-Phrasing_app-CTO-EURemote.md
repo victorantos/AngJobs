@@ -4,6 +4,9 @@ author:
   name: barrell
   url: https://news.ycombinator.com/item?id=44161930
 ---
+
+<JobNavigation />
+
 Phrasing.app - CTO - EU Remote
 
 I&#x27;ve spent the last 18 months iterating on Phrasing, a language learning app for polyglots. It&#x27;s finally reached a stable point, and we&#x27;re starting to get Daily Active Users. I&#x27;ve been using it every day for over a month now to learn over a dozen languages, and have been blown away at my progress.

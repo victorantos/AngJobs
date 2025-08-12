@@ -4,6 +4,9 @@ author:
   name: armincerf
   url: https://news.ycombinator.com/item?id=44435977
 ---
+
+<JobNavigation />
+
 Artis - Lead Front-end Developer - React, TypeScript - Remote (UK Hours)
 
 Artis is a rapidly growing fintech company building innovative financial products focused on fast-moving market data. We provide powerful grid-based data displays (AG Grid) and real-time candlestick charting (TradingView Lightweight Charts) to our expanding user base.

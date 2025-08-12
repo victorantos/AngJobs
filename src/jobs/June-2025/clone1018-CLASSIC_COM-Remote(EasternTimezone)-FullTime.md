@@ -4,6 +4,9 @@ author:
   name: clone1018
   url: https://news.ycombinator.com/item?id=44161064
 ---
+
+<JobNavigation />
+
 CLASSIC.COM - 2 Roles: Software Engineer (Python) &#x2F; Senior Software Engineer (Elixir) - Remote (Eastern Timezone) - Full Time - <a href="https:&#x2F;&#x2F;www.classic.com" rel="nofollow">https:&#x2F;&#x2F;www.classic.com</a>
 
 We are building CLASSIC.COM a comprehensive platform for classic, collectible, and rare automobiles. As a leader in our vertical, our platform serves millions of users, and we are seeking two Software Engineers to help take our systems to the next level.

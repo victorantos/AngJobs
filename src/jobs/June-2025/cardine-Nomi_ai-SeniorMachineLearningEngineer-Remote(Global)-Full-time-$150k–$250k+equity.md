@@ -4,6 +4,9 @@ author:
   name: cardine
   url: https://news.ycombinator.com/item?id=44161243
 ---
+
+<JobNavigation />
+
 Nomi.ai - Senior Machine Learning Engineer - Remote (Global) - Full-time - $150k–$250k + equity
 
 At Nomi, we&#x27;re building AI companions that form deeply meaningful, humanlike relationships and immersive roleplaying experiences. With over a million users growing at ~10% month-over-month, your work directly impacts millions of lives. Our users tell us we&#x27;ve helped them find self-worth, leave unhealthy relationships, try therapy, and even save their lives - see countless real user testimonials here: <a href="https:&#x2F;&#x2F;nomi.ai&#x2F;spotlight&#x2F;" rel="nofollow">https:&#x2F;&#x2F;nomi.ai&#x2F;spotlight&#x2F;</a>

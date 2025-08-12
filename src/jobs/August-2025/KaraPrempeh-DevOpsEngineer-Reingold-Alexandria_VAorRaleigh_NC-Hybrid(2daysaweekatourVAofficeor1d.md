@@ -4,6 +4,9 @@ author:
   name: KaraPrempeh
   url: https://news.ycombinator.com/item?id=44814602
 ---
+
+<JobNavigation />
+
 DevOps Engineer - Reingold - Alexandria, VA or Raleigh, NC- Hybrid (2 days a week at our VA office or 1 day a week at our NC office)
 
 At Reingold, DevOps isn’t just a support function; it’s a key part of how we deliver high-quality solutions for our clients. You’ll use a code-first approach to define and automate infrastructure, working with cross-functional teams to build systems that are secure, scalable, and repeatable. You’ll also develop fast, reliable deployment workflows that let teams ship code with confidence—and the observability that helps them own it in production, spot issues early, and fix them fast.

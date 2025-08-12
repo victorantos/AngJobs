@@ -4,6 +4,9 @@ author:
   name: doomvwr
   url: https://news.ycombinator.com/item?id=44443029
 ---
+
+<JobNavigation />
+
 N26 SE - SREs, JVM Backend Engineers, Product Owners - Berlin, Barcelona, Vienna - <a href="https:&#x2F;&#x2F;www.n26.com" rel="nofollow">https:&#x2F;&#x2F;www.n26.com</a> - Full-time
 
 N26 has reimagined banking for today’s digital world. Technology and design empower everything we do and it’s how we are building the global banking platform the world loves to use.

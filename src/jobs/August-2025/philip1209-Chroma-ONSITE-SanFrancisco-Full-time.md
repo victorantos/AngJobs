@@ -4,6 +4,9 @@ author:
   name: philip1209
   url: https://news.ycombinator.com/item?id=44760303
 ---
+
+<JobNavigation />
+
 Chroma - ONSITE - San Francisco - Full-time - <a href="https:&#x2F;&#x2F;trychroma.com" rel="nofollow">https:&#x2F;&#x2F;trychroma.com</a>
 
 Chroma is the open-source search and retrieval database for AI applications.

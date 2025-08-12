@@ -4,6 +4,9 @@ author:
   name: asciimike
   url: https://news.ycombinator.com/item?id=44165876
 ---
+
+<JobNavigation />
+
 Fluidstack - Forward Deployed Engineer, SWE, SRE, Infrastructure, Networking, Devrel - London&#x2F;SF&#x2F;NYC or remote - fluidstack.io Fluidstack builds and operates GPU supercomputers for top AI labs, governments, and enterprises. Our customers include Mistral, Poolside, Black Forest Labs, Meta, and more.
 Engineers at Fluidstack work on a wide variety of activities, including:
 

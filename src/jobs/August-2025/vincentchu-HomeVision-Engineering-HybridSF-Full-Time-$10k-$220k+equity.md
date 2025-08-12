@@ -4,6 +4,9 @@ author:
   name: vincentchu
   url: https://news.ycombinator.com/item?id=44764800
 ---
+
+<JobNavigation />
+
 HomeVision - Engineering - Hybrid SF - Full-Time - $10k-$220k + equity
 
 I&#x27;m looking for an junior-to-senior software engineer to work with me (CTO) directly. Our systems process millions of pages of documents a month for the mortgage industry. We work with some of the largest lenders in the country and are at the forefront of applying LLMs and other multi-modal models in this industry.

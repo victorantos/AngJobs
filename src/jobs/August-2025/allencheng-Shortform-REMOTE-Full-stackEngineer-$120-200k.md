@@ -4,6 +4,9 @@ author:
   name: allencheng
   url: https://news.ycombinator.com/item?id=44757820
 ---
+
+<JobNavigation />
+
 Shortform - REMOTE - Full-stack Engineer - Full-time &#x2F; Part-time - $120-200k
 
 <a href="https:&#x2F;&#x2F;www.shortform.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.shortform.com&#x2F;</a>

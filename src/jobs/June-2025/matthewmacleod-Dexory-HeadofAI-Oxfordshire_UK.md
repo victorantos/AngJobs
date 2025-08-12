@@ -4,6 +4,9 @@ author:
   name: matthewmacleod
   url: https://news.ycombinator.com/item?id=44161543
 ---
+
+<JobNavigation />
+
 Dexory - Head of AI - Oxfordshire, UK - Hybrid &#x2F; ONSITE
 
 We’re building the world’s most advanced, real-time warehouse intelligence platform powered by autonomous robots and AI that thinks spatially, reasons like a human, and drives logistics performance instantly.

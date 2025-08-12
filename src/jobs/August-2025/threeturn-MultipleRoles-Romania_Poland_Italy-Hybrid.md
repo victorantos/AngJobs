@@ -4,6 +4,9 @@ author:
   name: threeturn
   url: https://news.ycombinator.com/item?id=44826965
 ---
+
+<JobNavigation />
+
 # UniCredit  
 [<a href="https:&#x2F;&#x2F;www.unicreditgroup.eu&#x2F;en.html" rel="nofollow">https:&#x2F;&#x2F;www.unicreditgroup.eu&#x2F;en.html</a>] - Multiple Roles - Romania, Poland, Italy - Hybrid
 

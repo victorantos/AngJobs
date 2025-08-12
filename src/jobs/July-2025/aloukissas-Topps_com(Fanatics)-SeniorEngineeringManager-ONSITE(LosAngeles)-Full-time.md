@@ -4,6 +4,9 @@ author:
   name: aloukissas
   url: https://news.ycombinator.com/item?id=44435299
 ---
+
+<JobNavigation />
+
 Topps.com (Fanatics) - Senior Engineering Manager - ONSITE (Los Angeles) - Full-time
 
 We’re seeking a Senior Engineering Manager to lead and scale the engineering team behind Topps.com (<a href="https:&#x2F;&#x2F;topps.com" rel="nofollow">https:&#x2F;&#x2F;topps.com</a>), our global e-commerce platform built on Shopify. This high-impact role focuses on maintaining platform reliability, accelerating innovation, and delivering outstanding customer experiences to collectors worldwide.

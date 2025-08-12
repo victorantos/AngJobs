@@ -4,6 +4,9 @@ author:
   name: yokto
   url: https://news.ycombinator.com/item?id=44795803
 ---
+
+<JobNavigation />
+
 Journee - Berlin, Germany, Europe - REMOTE (CET +&#x2F;- 2h) - Full-time - <a href="https:&#x2F;&#x2F;journee.ai" rel="nofollow">https:&#x2F;&#x2F;journee.ai</a>
 
 ==========

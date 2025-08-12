@@ -4,6 +4,9 @@ author:
   name: mslzed
   url: https://news.ycombinator.com/item?id=44434910
 ---
+
+<JobNavigation />
+
 Zed Industries - North America, South America, Europe REMOTE - <a href="https:&#x2F;&#x2F;zed.dev&#x2F;" rel="nofollow">https:&#x2F;&#x2F;zed.dev&#x2F;</a>
 
 Zed is a company for developers, by developers. All 3 of our founders have spent years in the trenches writing software and still do it almost every single day. 

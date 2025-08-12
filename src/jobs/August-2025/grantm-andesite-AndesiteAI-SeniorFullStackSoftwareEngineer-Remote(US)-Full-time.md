@@ -4,6 +4,9 @@ author:
   name: grantm-andesite
   url: https://news.ycombinator.com/item?id=44759960
 ---
+
+<JobNavigation />
+
 Andesite AI - Senior Full Stack Software Engineer - Remote (US) - Full-time
 
 Andesite AI is a company founded by industry and govt veterans to build security products that transform how humans and AI collaborate to defend against increasingly sophisticated cyber threats.

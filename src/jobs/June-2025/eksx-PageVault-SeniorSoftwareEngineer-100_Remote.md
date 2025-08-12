@@ -4,6 +4,9 @@ author:
   name: eksx
   url: https://news.ycombinator.com/item?id=44161547
 ---
+
+<JobNavigation />
+
 Page Vault - Senior Software Engineer - 100% Remote - $90k - $160k
 At Page Vault, we&#x27;re on an exciting mission to transform the way web evidence is used in legal battles. Our cutting-edge technology captures web content effortlessly and, critically, makes it admissible in court. We&#x27;re a fully remote team spread across the U.S.
 

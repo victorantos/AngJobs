@@ -4,6 +4,9 @@ author:
   name: sqquuiiiddd
   url: https://news.ycombinator.com/item?id=44434799
 ---
+
+<JobNavigation />
+
 Felt Clinic (<a href="https:&#x2F;&#x2F;feltclinic.com" rel="nofollow">https:&#x2F;&#x2F;feltclinic.com</a>) - Senior Mobile Engineer - Remote (US Only) - Full-time - $180k-$220k
 
 Felt Clinic is building the first embedded care SDK for health apps. Our mission is to make access to a doctor simple and secure inside any mobile application. We want teams to stop worrying about provider contracting and focus on building awesome experiences.

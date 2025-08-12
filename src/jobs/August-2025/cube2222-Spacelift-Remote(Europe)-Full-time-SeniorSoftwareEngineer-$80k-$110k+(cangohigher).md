@@ -4,6 +4,9 @@ author:
   name: cube2222
   url: https://news.ycombinator.com/item?id=44760909
 ---
+
+<JobNavigation />
+
 Spacelift - Remote (Europe) - Full-time - Senior Software Engineer - $80k-$110k+ (can go higher)
 
 We&#x27;re a VC-funded startup building an infrastructure orchestrator and collaborative management platform for Infrastructure-as-Code – from OpenTofu, Terraform, Terragrunt, CloudFormation, Pulumi, Kubernetes, to Ansible.

@@ -4,6 +4,9 @@ author:
   name: beautiful-ai
   url: https://news.ycombinator.com/item?id=44758026
 ---
+
+<JobNavigation />
+
 Beautiful.ai - Full-Time - Remote in US &amp; CAN - SaaS B2B Presentation Software - Series B - 16M Funding - AI Industry
 
 1. Customer Supper Representative - 65k - 75k Base Salary + Equity - <a href="https:&#x2F;&#x2F;job-boards.greenhouse.io&#x2F;beautifulai&#x2F;jobs&#x2F;4142396007" rel="nofollow">https:&#x2F;&#x2F;job-boards.greenhouse.io&#x2F;beautifulai&#x2F;jobs&#x2F;4142396007</a>

@@ -4,6 +4,9 @@ author:
   name: rmnull
   url: https://news.ycombinator.com/item?id=44767414
 ---
+
+<JobNavigation />
+
 NexBio Research Labs - Remote (India only) - ABIS Internship - <a href="https:&#x2F;&#x2F;nexbiolabs.com&#x2F;hiring" rel="nofollow">https:&#x2F;&#x2F;nexbiolabs.com&#x2F;hiring</a>
 
 We&#x27;re building a high-performance Automated Biometric Identification System (ABIS) and looking for interns who enjoy systems-level work, performance tuning, and debugging real-world problems. You’ll work closely with a co-founder (me) on testing, benchmarking, and prototyping GPU-heavy components.

@@ -4,6 +4,9 @@ author:
   name: Dsuniga14
   url: https://news.ycombinator.com/item?id=44815114
 ---
+
+<JobNavigation />
+
 Oscilar.com - Sr&#x2F;Staff Software Engineers + Product&#x2F;Data Analysts - REMOTE (US&#x2F;Canada) - Full-time AI Risk Decisioning™ platform that helps organizations manage onboarding, fraud, credit, and compliance risks
 
 At Oscilar, we&#x27;re building the most advanced AI Risk Decisioning™ Platform. Banks, fintechs, and digitally native organizations rely on us to manage their fraud, credit, and compliance risk with the power of AI.

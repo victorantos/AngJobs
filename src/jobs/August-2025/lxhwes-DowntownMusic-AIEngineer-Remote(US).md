@@ -4,6 +4,9 @@ author:
   name: lxhwes
   url: https://news.ycombinator.com/item?id=44788220
 ---
+
+<JobNavigation />
+
 Downtown Music - AI Engineer - Remote (US)
 
 Downtown Music serves 50+ million music assets globally. We&#x27;re looking for our first AI Engineer to pioneer AI solutions for music rights management at scale.

@@ -4,6 +4,9 @@ author:
   name: kellysutton
   url: https://news.ycombinator.com/item?id=44759124
 ---
+
+<JobNavigation />
+
 Scholarly - Full-stack Software Engineer - Seattle, On-Site - Full-Time - $130k - $200k + equity + health benefits + equipment budget
 
 Scholarly is building the HR operating system for higher education. We&#x27;ve built a software platform that enables our customers to make data-driven decisions and to automate essential processes like performance reviews, tenure processes, leave workflows, and more. We are a venture-backed seed stage company of experienced, motivated, and collaborative folks. We are backed by leading investors in the industry and working with some of the best universities in the US.

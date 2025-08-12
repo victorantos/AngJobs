@@ -4,6 +4,9 @@ author:
   name: jadowdl
   url: https://news.ycombinator.com/item?id=44162388
 ---
+
+<JobNavigation />
+
 June 2025
 
 Prophet Town LLC - Full-Stack Software Engineer - REMOTE (US) and Hybrid - English fluency required - Full-time - $150K-$250K annual total comp (multiple)

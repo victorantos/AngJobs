@@ -4,6 +4,9 @@ author:
   name: yazmi
   url: https://news.ycombinator.com/item?id=44757832
 ---
+
+<JobNavigation />
+
 Nova Credit - Remote (US, Canada)
 
 We&#x27;re building a unified platform for credit and financial data to power financial inclusion globally. Our mission is to unlock economic opportunities for consumers historically excluded from traditional credit systems by transforming diverse data into actionable risk insights.

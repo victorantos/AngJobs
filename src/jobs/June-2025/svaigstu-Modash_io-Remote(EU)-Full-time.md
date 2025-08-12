@@ -4,6 +4,9 @@ author:
   name: svaigstu
   url: https://news.ycombinator.com/item?id=44162535
 ---
+
+<JobNavigation />
+
 Modash.io - Senior Product&#x2F;Data Engineers - Remote (EU) - Full-time
 
 • Modash is an end-to-end influencer marketing platform for Shopify stores.

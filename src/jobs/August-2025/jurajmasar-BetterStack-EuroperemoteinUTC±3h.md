@@ -4,6 +4,9 @@ author:
   name: jurajmasar
   url: https://news.ycombinator.com/item?id=44758311
 ---
+
+<JobNavigation />
+
 Better Stack - <a href="https:&#x2F;&#x2F;betterstack.com" rel="nofollow">https:&#x2F;&#x2F;betterstack.com</a> - &#x2F;^(Full-?stack-Backend) Engineer$&#x2F;i - Europe remote in UTC ± 3h
 
 We are software builders at :heart: CEO is a software engineer, COO is a software engineer and you guessed it; CTO is an engineer, too. We are engineers, making the tools we always wanted. If you love building amazing software, you&#x27;re at the right address.

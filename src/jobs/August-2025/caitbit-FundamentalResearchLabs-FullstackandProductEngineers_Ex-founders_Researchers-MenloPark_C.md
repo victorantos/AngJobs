@@ -4,6 +4,9 @@ author:
   name: caitbit
   url: https://news.ycombinator.com/item?id=44757817
 ---
+
+<JobNavigation />
+
 Fundamental Research Labs - Fullstack and Product Engineers, Ex-founders, Researchers - Menlo Park, CA - <a href="https:&#x2F;&#x2F;fundamentalresearchlabs.com" rel="nofollow">https:&#x2F;&#x2F;fundamentalresearchlabs.com</a>
 
 We&#x27;re an applied research company building autonomous, collaborative, and socially intelligent agents. Our small team includes computational neuroscientists, AI researchers, engineers, and builders from MIT EECS, Stanford NLP Group, Google X, Citadel, and beyond.

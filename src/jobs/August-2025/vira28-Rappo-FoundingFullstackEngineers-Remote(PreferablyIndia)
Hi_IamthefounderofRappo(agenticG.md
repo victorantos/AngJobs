@@ -4,6 +4,9 @@ author:
   name: vira28
   url: https://news.ycombinator.com/item?id=44772688
 ---
+
+<JobNavigation />
+
 Rappo - <a href="https:&#x2F;&#x2F;buildrappo.com" rel="nofollow">https:&#x2F;&#x2F;buildrappo.com</a> - Founding Fullstack Engineers - Remote (Preferably India)
 Hi, I am the founder of Rappo (agentic GTM Chief of Staff). We observed that technical startups spend way too much time in the early stages figuring out GTM.
 

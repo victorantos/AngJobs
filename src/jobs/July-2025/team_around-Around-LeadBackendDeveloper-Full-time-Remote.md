@@ -4,6 +4,9 @@ author:
   name: team_around
   url: https://news.ycombinator.com/item?id=44439899
 ---
+
+<JobNavigation />
+
 Around - Lead Backend Developer - Full-time - Remote
 
 We’re building a modern platform to transform how companies in the consumer packaged goods (CPG) industry operate and grow. Our goal is to streamline the way products are presented, shared, and sold across global markets. We’re post-MVP and pre-revenue, now moving fast to onboard early users and shape the future of this industry.

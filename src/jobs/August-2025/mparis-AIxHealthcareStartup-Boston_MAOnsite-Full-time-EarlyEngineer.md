@@ -4,6 +4,9 @@ author:
   name: mparis
   url: https://news.ycombinator.com/item?id=44765348
 ---
+
+<JobNavigation />
+
 AI x Healthcare Startup - Boston, MA Onsite - Full-time - Early Engineer
 
 We&#x27;re looking for a backend-leaning fullstack dev. You will be one of the first engineers outside of the founding team. Here is a bit more about us:

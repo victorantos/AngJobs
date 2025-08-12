@@ -4,6 +4,9 @@ author:
   name: roasbeef
   url: https://news.ycombinator.com/item?id=44165111
 ---
+
+<JobNavigation />
+
 Lightning Labs - Lightning Infrastructure Engineer, Protocol Engineer - San Francisco - Remote - Full-time
 
 <a href="https:&#x2F;&#x2F;lightning.engineering&#x2F;join-us&#x2F;" rel="nofollow">https:&#x2F;&#x2F;lightning.engineering&#x2F;join-us&#x2F;</a>

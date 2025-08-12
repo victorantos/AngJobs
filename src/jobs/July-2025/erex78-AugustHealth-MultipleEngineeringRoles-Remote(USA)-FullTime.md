@@ -4,6 +4,9 @@ author:
   name: erex78
   url: https://news.ycombinator.com/item?id=44438793
 ---
+
+<JobNavigation />
+
 August Health - Multiple Engineering Roles - Remote (USA) - Full Time
 
 Our mission is to empower the essential work of caring for our elders. We achieve this by providing a modern operating platform and electronic health record that enables senior living operators to deliver high-quality care with confidence.

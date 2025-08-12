@@ -4,6 +4,9 @@ author:
   name: markbao
   url: https://news.ycombinator.com/item?id=44434578
 ---
+
+<JobNavigation />
+
 Goody - Remote (US &amp; Canada preferred) - Multiple Roles - Full-time
 
 —

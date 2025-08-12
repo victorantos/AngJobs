@@ -4,6 +4,9 @@ author:
   name: closetalent
   url: https://news.ycombinator.com/item?id=44762378
 ---
+
+<JobNavigation />
+
 Close - Full-Time - 100% Remote - US Based
 
 * Sr. Backend Engineer (Python)

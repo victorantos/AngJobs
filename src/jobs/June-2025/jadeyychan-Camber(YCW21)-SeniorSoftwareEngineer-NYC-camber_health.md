@@ -4,6 +4,9 @@ author:
   name: jadeyychan
   url: https://news.ycombinator.com/item?id=44161604
 ---
+
+<JobNavigation />
+
 Camber (YC W21) - Senior Software Engineer - NYC - Onsite &#x2F; Hybrid - camber.health
 
 Camber (fka Juniper) operates at the messy financial infrastructure for US Healthcare. We&#x27;ve built an automated end-to-end insurance billing system for recurring care, starting with Autism clinics.

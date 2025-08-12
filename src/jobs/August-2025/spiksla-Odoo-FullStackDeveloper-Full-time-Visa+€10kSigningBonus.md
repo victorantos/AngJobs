@@ -4,6 +4,9 @@ author:
   name: spiksla
   url: https://news.ycombinator.com/item?id=44766786
 ---
+
+<JobNavigation />
+
 Odoo - Full Stack Developer - Hybrid (Belgium, 3 days&#x2F;week) - Full-time - Visa + €10k Signing Bonus - <a href="https:&#x2F;&#x2F;www.odoo.com&#x2F;r&#x2F;mnk" rel="nofollow">https:&#x2F;&#x2F;www.odoo.com&#x2F;r&#x2F;mnk</a>
 
 Odoo builds open-source business apps used by millions. We&#x27;re hiring full stack developers to work on our Python&#x2F;PostgreSQL backend, fast JS framework, mobile apps, website builder, and more.

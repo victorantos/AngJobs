@@ -4,6 +4,9 @@ author:
   name: throw14082020
   url: https://news.ycombinator.com/item?id=44161859
 ---
+
+<JobNavigation />
+
 Drone startup - Product Engineer (Typescript) - 1 day&#x2F;week in the office (London, UK) - Citizens of the UNITED KINGDOM only
 
 You&#x27;d be working with engineers who previously worked at Google, Amazon, Helsing, Darktrace and an F1 team. We build drones (software and hardware)

@@ -4,6 +4,9 @@ author:
   name: helmetwearer2
   url: https://news.ycombinator.com/item?id=44437930
 ---
+
+<JobNavigation />
+
 [Stealth AI Startup Seeks Founding Engineer]
 - Full Stack &#x2F; ML
 - Focused on the IP product space

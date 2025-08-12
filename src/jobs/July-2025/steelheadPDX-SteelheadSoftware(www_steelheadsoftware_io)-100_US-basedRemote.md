@@ -4,6 +4,9 @@ author:
   name: steelheadPDX
   url: https://news.ycombinator.com/item?id=44434887
 ---
+
+<JobNavigation />
+
 Steelhead Software (www.steelheadsoftware.io) - Full-Stack Software Developer ($45+&#x2F;hr) - 100% US-based Remote - Contract (FT 40 hours&#x2F;wk)
 
 Steelhead Software is a premium technology consulting firm with a focus on custom software development and third party integrations. We empower leaders to achieve real business outcomes through custom technology - automating workflows, building integrations, and eliminating reliance on wasteful manual processes. We strongly believe in the power of custom software to transform businesses, and that this tool should be available to everyone - not just corporations that can afford to hire full time design &amp; engineering teams.

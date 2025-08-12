@@ -4,6 +4,9 @@ author:
   name: ben-net
   url: https://news.ycombinator.com/item?id=44163149
 ---
+
+<JobNavigation />
+
 Costa Security - Chicago&#x2F;Bay Area&#x2F;Remote (US Time Zones) - Full-Time - Staff&#x2F;Lead Engineer &amp; Software Engineer - <a href="https:&#x2F;&#x2F;careers.costa.security" rel="nofollow">https:&#x2F;&#x2F;careers.costa.security</a>
 
 Costa is building Zero-Trust AI infrastructure to help enterprises safely deploy and scale agentic AI. Our product enables enterprises to create powerful AI agents and workflows—accessible via app or API—without compromising on security.

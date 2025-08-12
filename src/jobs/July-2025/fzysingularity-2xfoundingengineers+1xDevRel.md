@@ -4,6 +4,9 @@ author:
   name: fzysingularity
   url: https://news.ycombinator.com/item?id=44436222
 ---
+
+<JobNavigation />
+
 VLM Run (<a href="https:&#x2F;&#x2F;vlm.run" rel="nofollow">https:&#x2F;&#x2F;vlm.run</a>) - 2x founding engineers + 1x DevRel - <a href="https:&#x2F;&#x2F;app.dover.com&#x2F;VLM%20Run&#x2F;careers&#x2F;a63ca8a3-0866-4a36-88a7-b755a9b4aef3" rel="nofollow">https:&#x2F;&#x2F;app.dover.com&#x2F;VLM%20Run&#x2F;careers&#x2F;a63ca8a3-0866-4a36-8...</a>
 
 If you&#x27;re excited about building bleeding edge infrastructure for VLMs (Vision-Language Models), we&#x27;re looking for cracked founding engineers to join our team. At VLM Run, we&#x27;re building an end-to-end platform for developers to build and operationalize agentic VLMs. We&#x27;re a team of veteran AI &#x2F; computer-vision experts with over 20+ YoE building production-ready ML infra for autonomous driving and AR&#x2F;VR.

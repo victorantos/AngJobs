@@ -4,6 +4,9 @@ author:
   name: onejgordon
   url: https://news.ycombinator.com/item?id=44434734
 ---
+
+<JobNavigation />
+
 Olli Health - Remote or New York - Full-Time - Senior Backend SDE - ollihealth.ai
 
 We are a TechStars NYC ‘24 startup dedicated to modernizing home healthcare with advanced AI tools and we are expanding our team again! These are pivotal hands-on roles that will begin shaping our product from day 1. Last summer we closed our Seed round from top healthtech and AI-focused VCs investors (Cannage Capital, Arkitekt Ventures, and Tau Ventures) and have been moving lightning fast to build incredibly valuable tools in home health.

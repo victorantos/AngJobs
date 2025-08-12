@@ -4,6 +4,9 @@ author:
   name: gwoplock
   url: https://news.ycombinator.com/item?id=44763482
 ---
+
+<JobNavigation />
+
 Vizio&#x2F;Walmart - ONSITE(Addison&#x2F;Dallas TX)
 
 We are looking for a highly technically skilled and experienced Senior Software Engineer with a passion for embedded systems and a deep understanding of Smart TV applications to join our team. You will be responsible for the design, development, and implementation of cutting-edge software for the next generation of Vizio Smart TVs.

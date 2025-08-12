@@ -4,6 +4,9 @@ author:
   name: servercobra
   url: https://news.ycombinator.com/item?id=44162277
 ---
+
+<JobNavigation />
+
 Flourish Health - Senior Software Engineer - Remote (US) - Full-time - <a href="https:&#x2F;&#x2F;flourish.health" rel="nofollow">https:&#x2F;&#x2F;flourish.health</a> - $150-189k
 
 We&#x27;re helping teens and families get the mental health support they deserve. Many of our families are on Medicaid and&#x2F;or in foster care. We build tech that powers care in the real world - apps for our staff (guides, therapist, psychiatrists, ops) and for the families we serve. We&#x27;re mission-driven, moving fast, and grounded in the belief that thoughtful software can genuinely change lives.

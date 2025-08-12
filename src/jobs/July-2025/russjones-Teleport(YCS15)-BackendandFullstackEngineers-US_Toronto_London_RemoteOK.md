@@ -4,6 +4,9 @@ author:
   name: russjones
   url: https://news.ycombinator.com/item?id=44436227
 ---
+
+<JobNavigation />
+
 Teleport (YC S15) - Backend and Fullstack Engineers - US, Toronto, London, Remote OK - <a href="https:&#x2F;&#x2F;goteleport.com" rel="nofollow">https:&#x2F;&#x2F;goteleport.com</a>
 
 Do you enjoy building security and deployment tools for other engineers? Join us to hack on <a href="https:&#x2F;&#x2F;github.com&#x2F;gravitational&#x2F;teleport">https:&#x2F;&#x2F;github.com&#x2F;gravitational&#x2F;teleport</a>. Most of our code is Go, we have very little technical debt, our codebase is clean and small.

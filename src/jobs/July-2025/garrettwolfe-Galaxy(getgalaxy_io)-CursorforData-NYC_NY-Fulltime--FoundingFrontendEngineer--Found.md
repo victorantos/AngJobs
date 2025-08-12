@@ -4,6 +4,9 @@ author:
   name: garrettwolfe
   url: https://news.ycombinator.com/item?id=44439277
 ---
+
+<JobNavigation />
+
 Galaxy (getgalaxy.io) - Cursor for Data - NYC, NY - Full time -- Founding Frontend Engineer -- Founding Machine Learning Engineer
 We are building the unified data platform, starting with a reimagined, modern, AI-enabled SQL editor - and will move into sharing, collaboration, access controls, and more.
 

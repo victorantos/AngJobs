@@ -4,6 +4,9 @@ author:
   name: kevinsane
   url: https://news.ycombinator.com/item?id=44761497
 ---
+
+<JobNavigation />
+
 Hestus - Machine Learning Engineer (Python, ML) - Peninsula (Onsite) - Full-time - $130k–$170k + equity - YC-funded
 
 We&#x27;re building AI-powered CAD tools to transform hardware development — think next-gen design workflows powered by custom ML models. We&#x27;re a fast-moving startup, working with bleeding-edge tech at the intersection of mechanical engineering and AI.

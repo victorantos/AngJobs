@@ -4,6 +4,9 @@ author:
   name: kylegalbraith
   url: https://news.ycombinator.com/item?id=44761824
 ---
+
+<JobNavigation />
+
 Depot (W23) - Multiple openings - Remote (North America, Europe) - Full-time
 
 Depot is the fastest place to build software. We accelerate builds for customers using GitHub Actions, Docker, Bazel, Gradle, and more. We&#x27;re seeking the following roles:

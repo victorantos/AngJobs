@@ -4,6 +4,9 @@ author:
   name: rustyparts
   url: https://news.ycombinator.com/item?id=44161337
 ---
+
+<JobNavigation />
+
 Seeq - <a href="https:&#x2F;&#x2F;seeq.com" rel="nofollow">https:&#x2F;&#x2F;seeq.com</a> - Staff Software Engineer (Frontend, Backend) - REMOTE (Some crossover w&#x2F; PST required) - Full-time - $140k - $180k + equity. Salary range for US-based; local adjustments for other countries.
 Seeq creates cutting-edge data analytics software for industrial process data, serving sectors like pharmaceuticals, energy, and manufacturing. Our core product is a robust calculation engine capable of executing advanced math and machine learning algorithms on streaming time-series data. By leveraging generative AI, we enhance usability and accelerate outcomes for our users.
 

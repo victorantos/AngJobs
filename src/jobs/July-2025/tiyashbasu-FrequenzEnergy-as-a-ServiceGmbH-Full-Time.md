@@ -4,6 +4,9 @@ author:
   name: tiyashbasu
   url: https://news.ycombinator.com/item?id=44434960
 ---
+
+<JobNavigation />
+
 Frequenz Energy-as-a-Service GmbH - Full-Time - Hybrid&#x2F;Berlin, Germany
 
 We are a vibrant technology company developing groundbreaking solutions that enable the rapid transition towards a world of decentralized energy. We’re helping companies to rapidly transition from being passive electricity consumers to becoming fully self-sustaining prosumers, capable of leveraging various renewable energy assets.

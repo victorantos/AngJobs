@@ -4,6 +4,9 @@ author:
   name: Wearlinq
   url: https://news.ycombinator.com/item?id=44763022
 ---
+
+<JobNavigation />
+
 Wearlinq - San Francisco, REMOTE (US) - Lead AI Engineer
 
 Wearlinq is making cardiovascular disease prevention personal and intelligent through hardware, AI, and services - we&#x27;re looking for a top engineer to lead our AI efforts after closing out our latest round (not yet announced).

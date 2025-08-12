@@ -4,6 +4,9 @@ author:
   name: tramcaseht
   url: https://news.ycombinator.com/item?id=44165862
 ---
+
+<JobNavigation />
+
 Tram Case - Hiring Head of Engineering (LAX), Tech Lead, Backend, Full Stack &amp; AI Engineers(Remote, LATAM only) - Spanish &amp; English required
 
 We’re building AI-powered tools to help law firms work faster, smarter, and with less busywork.

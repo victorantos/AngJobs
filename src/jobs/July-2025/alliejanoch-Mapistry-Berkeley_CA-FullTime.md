@@ -4,6 +4,9 @@ author:
   name: alliejanoch
   url: https://news.ycombinator.com/item?id=44438866
 ---
+
+<JobNavigation />
+
 Mapistry - Berkeley, CA - Full Time - On-site &#x2F; Hybrid - Full-stack Software Engineer
 <a href="https:&#x2F;&#x2F;bit.ly&#x2F;4n1fTVK" rel="nofollow">https:&#x2F;&#x2F;bit.ly&#x2F;4n1fTVK</a>
 

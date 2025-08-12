@@ -4,6 +4,9 @@ author:
   name: arrty88
   url: https://news.ycombinator.com/item?id=44437673
 ---
+
+<JobNavigation />
+
 Better - Hybrid in NYC - Full Time
 
 Seeking Senior Engineers for our Marketplace and AI teams.

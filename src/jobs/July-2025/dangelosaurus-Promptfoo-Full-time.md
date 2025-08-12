@@ -4,6 +4,9 @@ author:
   name: dangelosaurus
   url: https://news.ycombinator.com/item?id=44439658
 ---
+
+<JobNavigation />
+
 Promptfoo - Senior&#x2F;Staff Engineers, Former Technical Founders &amp; Experienced Operators - Remote (US time zones) &#x2F; Hybrid San Mateo CA - Full-time
 
 Promptfoo is the MIT-licensed open-source toolkit 100 k+ developers use to evaluate and secure their LLM apps. We are funded by top investors and operate as a tight, all-senior team of high-agency builders, former founders, and owner-operators.

@@ -4,6 +4,9 @@ author:
   name: as-jobs
   url: https://news.ycombinator.com/item?id=44435047
 ---
+
+<JobNavigation />
+
 Atomic Semi - Onsite - San Francisco, CA - Full-time and Internships
 
 Atomic Semi is building a small, fast semiconductor fab. We&#x27;ll build the tools ourselves then quickly push them to more advanced geometries. We&#x27;re building a small team of exceptional, hands-on engineers to make this happen.

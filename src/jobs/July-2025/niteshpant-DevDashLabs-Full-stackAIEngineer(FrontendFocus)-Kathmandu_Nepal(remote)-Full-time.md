@@ -4,6 +4,9 @@ author:
   name: niteshpant
   url: https://news.ycombinator.com/item?id=44444635
 ---
+
+<JobNavigation />
+
 DevDash Labs - Full-stack AI Engineer (Frontend Focus) - Kathmandu, Nepal (remote) - Full-time
 
 Hiring a full-stack AI engineer (front-end focused), with about 2+ years experience -

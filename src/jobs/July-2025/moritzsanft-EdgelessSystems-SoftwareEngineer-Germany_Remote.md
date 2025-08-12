@@ -4,6 +4,9 @@ author:
   name: moritzsanft
   url: https://news.ycombinator.com/item?id=44462897
 ---
+
+<JobNavigation />
+
 Edgeless Systems - Software Engineer - Germany, Remote
 
 We&#x27;re building an AI inference service leveraging confidential computing to ensure that prompts remain encrypted end-to-end. Our core engineering stack includes Go, Kubernetes, gRPC, and vLLM, with some web development using NextJS and Svelte. Most of our code is also on Github.

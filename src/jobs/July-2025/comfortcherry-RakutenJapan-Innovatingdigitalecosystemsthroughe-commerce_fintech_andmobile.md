@@ -4,6 +4,9 @@ author:
   name: comfortcherry
   url: https://news.ycombinator.com/item?id=44439561
 ---
+
+<JobNavigation />
+
 Rakuten Japan - <a href="https:&#x2F;&#x2F;global.rakuten.com&#x2F;corp&#x2F;" rel="nofollow">https:&#x2F;&#x2F;global.rakuten.com&#x2F;corp&#x2F;</a> - Innovating digital ecosystems through e-commerce, fintech, and mobile
 
 Open Role:

@@ -4,6 +4,9 @@ author:
   name: markbao
   url: https://news.ycombinator.com/item?id=44159548
 ---
+
+<JobNavigation />
+
 Goody - Remote - $170-230K + equity and benefits - Full-time
 
 Goody is hiring a full-stack Senior Software Engineer who likes to ship at a startup pace and has an eye for exceptional UI&#x2F;UX.

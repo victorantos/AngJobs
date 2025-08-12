@@ -4,6 +4,9 @@ author:
   name: garrettwolfe
   url: https://news.ycombinator.com/item?id=44159626
 ---
+
+<JobNavigation />
+
 Galaxy (getgalaxy.io) - The Cursor for SQL - NYC, NY - Full time
 -- Founding Frontend Engineer
 -- Founding Backend Engineer

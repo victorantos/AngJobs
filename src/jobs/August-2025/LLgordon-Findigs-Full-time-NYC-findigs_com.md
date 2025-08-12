@@ -4,6 +4,9 @@ author:
   name: LLgordon
   url: https://news.ycombinator.com/item?id=44785589
 ---
+
+<JobNavigation />
+
 Findigs - Full-time - NYC - 3x&#x2F;week in office - findigs.com
 
 At Findigs, we’re transforming the rental experience — making it fairer, stress-free, and more convenient by changing the fundamentals of renting.

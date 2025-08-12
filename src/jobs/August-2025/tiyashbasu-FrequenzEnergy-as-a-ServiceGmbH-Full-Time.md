@@ -4,6 +4,9 @@ author:
   name: tiyashbasu
   url: https://news.ycombinator.com/item?id=44758000
 ---
+
+<JobNavigation />
+
 Frequenz Energy-as-a-Service GmbH - Full-Time - Berlin&#x2F;Hybrid-Possible, Germany
 
 We are a technology company developing groundbreaking solutions that help companies to rapidly transition from being passive electricity consumers to becoming fully self-sustaining prosumers, capable of leveraging various renewable energy assets.

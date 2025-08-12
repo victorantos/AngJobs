@@ -4,6 +4,9 @@ author:
   name: alex-zeven
   url: https://news.ycombinator.com/item?id=44434655
 ---
+
+<JobNavigation />
+
 Zeven - Senior Backend Developer - ONSITE - Zurich, Switzerland - Full-time - Competitive salary + stock options
 
 We&#x27;re a newly-founded and well-funded startup that is seeking to revolutionize the sports industry with AI-powered solutions. Our mission is to unlock human potential and redefine the sports experience through innovation and technology.

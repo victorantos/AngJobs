@@ -4,6 +4,9 @@ author:
   name: adarshd
   url: https://news.ycombinator.com/item?id=44466987
 ---
+
+<JobNavigation />
+
 Stealth AI Startup - Open Source Software Engineer - Full-time - Remote (Global)
 
 We&#x27;re building one of the most widely adopted open-source libraries for evaluating LLM applications - used by teams at Google, Amazon, and Databricks. As an early engineer, you’ll work on core features, improve developer experience, and help shape the future of LLM tooling.

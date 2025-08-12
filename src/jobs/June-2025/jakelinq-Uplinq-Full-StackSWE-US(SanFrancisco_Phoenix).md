@@ -4,6 +4,9 @@ author:
   name: jakelinq
   url: https://news.ycombinator.com/item?id=44160449
 ---
+
+<JobNavigation />
+
 Uplinq - Full-Stack SWE - US (San Francisco, Phoenix) - Onsite&#x2F;Hybrid - 140k - 200k + equity
 I&#x27;m the CTO of Uplinq. We&#x27;re automating bookkeeping and accounting for small businesses. Our customers are real people from Main Street America — think Insurance Agents, Dentists, Restaurant Owners, and Realtors. We’re a fast-growing VC-backed startup and just closed our Series A. We&#x27;re looking to add 2 SWEs to our team of 5. Last year we quadrupled ARR ($1M → $4M+) and we&#x27;re on track for $9M+ this year. Your work will directly shape how we get there.
 

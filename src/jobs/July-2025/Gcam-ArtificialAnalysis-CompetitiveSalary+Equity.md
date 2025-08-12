@@ -4,6 +4,9 @@ author:
   name: Gcam
   url: https://news.ycombinator.com/item?id=44436705
 ---
+
+<JobNavigation />
+
 Artificial Analysis - <a href="https:&#x2F;&#x2F;artificialanalysis.ai" rel="nofollow">https:&#x2F;&#x2F;artificialanalysis.ai</a> - Full Stack Engineer &amp; ML Engineer - Onsite in San Francisco or in Australia&#x2F;New Zealand - Competitive Salary + Equity
 
 Artificial Analysis is an independent AI benchmarking and insights provider. Our benchmarks help engineers and companies understand AI and make informed decisions on AI technologies.

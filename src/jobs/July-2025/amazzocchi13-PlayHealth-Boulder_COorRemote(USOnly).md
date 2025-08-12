@@ -4,6 +4,9 @@ author:
   name: amazzocchi13
   url: https://news.ycombinator.com/item?id=44467976
 ---
+
+<JobNavigation />
+
 Play Health - Founding Designer&#x2F;Design Engineer - Boulder, CO or Remote (US Only)
 
 Play Health is redefining care for women in perimenopause through a precision platform that combines at-home hormone testing, real-time symptom tracking, and AI-powered insights. Our system translates complex biological and behavioral data into clear, personalized guidance - helping women understand what’s happening in their bodies and what actually works to feel better. As our user base grows, so does a uniquely structured, longitudinal dataset, creating a flywheel that powers better interventions today and unlocks discovery opportunities for women’s midlife health and longevity tomorrow.

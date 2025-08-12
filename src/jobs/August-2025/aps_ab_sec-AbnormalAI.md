@@ -4,6 +4,9 @@ author:
   name: aps_ab_sec
   url: https://news.ycombinator.com/item?id=44761247
 ---
+
+<JobNavigation />
+
 Abnormal AI - REMOTE (US, Canada) with optional offices in SF &amp; NYC - <a href="https:&#x2F;&#x2F;grnh.se&#x2F;y5i0cdv43us" rel="nofollow">https:&#x2F;&#x2F;grnh.se&#x2F;y5i0cdv43us</a>
 
 I am an Engineering Manager in the Message Security Division. My team builds the platform for inbound email security, fighting cybercrime every day at a massive scale!

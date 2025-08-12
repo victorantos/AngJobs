@@ -4,6 +4,9 @@ author:
   name: kanjun
   url: https://news.ycombinator.com/item?id=44435008
 ---
+
+<JobNavigation />
+
 Imbue [<a href="https:&#x2F;&#x2F;imbue.com" rel="nofollow">https:&#x2F;&#x2F;imbue.com</a>] - Infrastructure Engineers - San Francisco (ONSITE) - Full-time
 
 Imbue is building a coding agent environment (<a href="https:&#x2F;&#x2F;imbue.com&#x2F;product&#x2F;sculptor&#x2F;" rel="nofollow">https:&#x2F;&#x2F;imbue.com&#x2F;product&#x2F;sculptor&#x2F;</a>) that imbues engineering wisdom into LLM workflows—so anyone has the power to create software they can trust.

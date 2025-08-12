@@ -4,6 +4,9 @@ author:
   name: richard_pepper
   url: https://news.ycombinator.com/item?id=44762228
 ---
+
+<JobNavigation />
+
 Spice Data (S19) - San Francisco, CA - Full-time
 
 We collect and license data about the food industry to large restaurants, CPGs, and consultants

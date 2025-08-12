@@ -4,6 +4,9 @@ author:
   name: darweenist
   url: https://news.ycombinator.com/item?id=44166825
 ---
+
+<JobNavigation />
+
 Martin AI (YC S23) - <a href="https:&#x2F;&#x2F;trymartin.com">https:&#x2F;&#x2F;trymartin.com</a> - Founding Product Engineer - Founding AI Engineer - San Francisco (ONSITE)
 
 Martin is an AI personal assistant. Text, call, or email Martin. It manages your calendar, inbox, to-dos, reminders, notes, messages, calls, and more.

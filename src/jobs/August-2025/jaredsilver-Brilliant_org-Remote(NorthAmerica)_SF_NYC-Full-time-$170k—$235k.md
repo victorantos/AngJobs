@@ -4,6 +4,9 @@ author:
   name: jaredsilver
   url: https://news.ycombinator.com/item?id=44759575
 ---
+
+<JobNavigation />
+
 Brilliant.org - Software Engineers &amp; Designers - Remote (North America), SF, NYC - Full-time - $170k — $235k - <a href="https:&#x2F;&#x2F;brilliant.org" rel="nofollow">https:&#x2F;&#x2F;brilliant.org</a>
 
 Brilliant is building world-class interactive learning experiences that combine challenging problems, compelling narratives, and delightful visual storytelling.

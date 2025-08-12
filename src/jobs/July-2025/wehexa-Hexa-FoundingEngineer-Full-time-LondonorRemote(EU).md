@@ -4,6 +4,9 @@ author:
   name: wehexa
   url: https://news.ycombinator.com/item?id=44435598
 ---
+
+<JobNavigation />
+
 Hexa - Founding Engineer - Full-time - London or Remote (EU)
 
 Hexa is building the governance backbone for modern enterprises. Complex data integration, intelligent workflows, zero legacy systems.

@@ -4,6 +4,9 @@ author:
   name: aloukissas
   url: https://news.ycombinator.com/item?id=44162926
 ---
+
+<JobNavigation />
+
 Fanatics Collect and Live - Multiple Roles (eng) - Los Angeles - Onsite - Full Time - <a href="https:&#x2F;&#x2F;fanaticscollect.com" rel="nofollow">https:&#x2F;&#x2F;fanaticscollect.com</a> &#x2F; <a href="https:&#x2F;&#x2F;fanatics.live" rel="nofollow">https:&#x2F;&#x2F;fanatics.live</a>
 
 We&#x27;re building the best experiences for collectors.

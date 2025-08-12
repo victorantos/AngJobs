@@ -4,6 +4,9 @@ author:
   name: ThoBustos
   url: https://news.ycombinator.com/item?id=44441928
 ---
+
+<JobNavigation />
+
 Radiance - Founding Full-Stack + AI Engineer - Remote (Global) - Full-time - Competitive Salary + Meaningful Equity
 <a href="https:&#x2F;&#x2F;withradiance.com" rel="nofollow">https:&#x2F;&#x2F;withradiance.com</a>
 

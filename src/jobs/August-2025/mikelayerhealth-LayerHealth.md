@@ -4,6 +4,9 @@ author:
   name: mikelayerhealth
   url: https://news.ycombinator.com/item?id=44785153
 ---
+
+<JobNavigation />
+
 Layer Health - <a href="https:&#x2F;&#x2F;www.layerhealth.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.layerhealth.com&#x2F;</a> Our team&#x2F;engineers are incredible! Take a look at their backgrounds: <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;layerhealth&#x2F;people&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;layerhealth&#x2F;people&#x2F;</a>
 
 Work Location: HYBRID in Boston or NYC (downtown) Headcount: ~30, hiring 2-3 per month

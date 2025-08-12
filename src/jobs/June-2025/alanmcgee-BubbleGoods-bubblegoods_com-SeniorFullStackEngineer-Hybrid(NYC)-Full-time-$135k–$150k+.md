@@ -4,6 +4,9 @@ author:
   name: alanmcgee
   url: https://news.ycombinator.com/item?id=44159658
 ---
+
+<JobNavigation />
+
 Bubble Goods - bubblegoods.com - Senior Full Stack Engineer - Hybrid (NYC) - Full-time - $135k–$150k + Equity
 
 We&#x27;re building the largest digital grocery marketplace for clean-label, better-for-you food. We help 2,000+ small food brands reach consumers nationwide.

@@ -4,6 +4,9 @@ author:
   name: izyda
   url: https://news.ycombinator.com/item?id=44435606
 ---
+
+<JobNavigation />
+
 New Hedge fund - Sr&#x2F;Staff Frontend Engineer - On-site (NYC)
 
 We are a new discretionary, tech industry focused hedge fund, founded by a portfolio manager with 15+ years of experience at a Tiger Cub. I lead the data&#x2F;technology team here and previously spent ~6 years in a similar role at a well known Tiger Cub and briefly running a data startup.

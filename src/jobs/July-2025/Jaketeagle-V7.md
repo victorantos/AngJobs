@@ -4,6 +4,9 @@ author:
   name: Jaketeagle
   url: https://news.ycombinator.com/item?id=44441444
 ---
+
+<JobNavigation />
+
 V7 - AI Solutions Engineer &#x2F; Forward Deployed Engineer - London or New York ONSITE &#x2F; HYBRID (3-4 Days)
 
 At V7, we’re building AI platforms that help humans do their best work, at incredible scale and speed. Our mission is to turn human knowledge into trustworthy AI, making complex tasks faster, smarter, and more accurate.

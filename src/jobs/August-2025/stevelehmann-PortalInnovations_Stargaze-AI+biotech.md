@@ -4,6 +4,9 @@ author:
   name: stevelehmann
   url: https://news.ycombinator.com/item?id=44801204
 ---
+
+<JobNavigation />
+
 Portal Innovations, Stargaze - Product Engineer (Part-Time, Chicago) 20 hrs&#x2F;week - AI + biotech
 
 Portal Innovations is a life sciences venture platform building tools to surface high-potential science and researchers. We’re hiring a part-time Product Engineer (20 hrs&#x2F;week, Chicago only) to extend Stargaze, our AI-driven innovation discovery toolkit.

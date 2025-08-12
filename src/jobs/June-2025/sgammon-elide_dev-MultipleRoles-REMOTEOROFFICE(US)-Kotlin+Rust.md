@@ -4,6 +4,9 @@ author:
   name: sgammon
   url: https://news.ycombinator.com/item?id=44164731
 ---
+
+<JobNavigation />
+
 elide.dev - Multiple Roles - REMOTE OR OFFICE (US) - Full-time &amp; Part-time - Kotlin + Rust
 
 Elide, a new runtime built in Kotlin, and which runs JavaScript&#x2F;TypeScript, Kotlin, Python, WASM, and soon Ruby.

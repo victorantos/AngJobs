@@ -4,6 +4,9 @@ author:
   name: alextousss
   url: https://news.ycombinator.com/item?id=44441922
 ---
+
+<JobNavigation />
+
 Tornyol - AI Control Research Intern - Embedded Systems Intern - ONSITE (Paris) - full-time - 2K€&#x2F;month - <a href="https:&#x2F;&#x2F;tornyol.com" rel="nofollow">https:&#x2F;&#x2F;tornyol.com</a>
 
 Tornyol is building anti-mosquito drones to fight against malaria. We use smartphone microphones to detect mosquitoes, than a policy learned with reinforcement learning to guide our drones towards mosquitoes. We&#x27;re in the middle of raising a pre-seed, and are looking for two interns to join us for six months starting in September.

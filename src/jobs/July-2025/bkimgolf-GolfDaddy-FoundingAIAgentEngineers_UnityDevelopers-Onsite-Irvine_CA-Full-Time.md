@@ -4,6 +4,9 @@ author:
   name: bkimgolf
   url: https://news.ycombinator.com/item?id=44447704
 ---
+
+<JobNavigation />
+
 Golf Daddy - Founding AI Agent Engineers, Unity Developers - Onsite - Irvine, CA - Full-Time - <a href="https:&#x2F;&#x2F;golfdaddy.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;golfdaddy.com&#x2F;</a>
 
 We&#x27;re building the world’s most accessible golf simulator using just an iPhone and hitting mat. We’re already:

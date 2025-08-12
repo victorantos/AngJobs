@@ -4,6 +4,9 @@ author:
   name: goldbeck
   url: https://news.ycombinator.com/item?id=44165845
 ---
+
+<JobNavigation />
+
 Spara - Hiring Full Stack &amp; AI Engineers - Hybrid NYC (3-4 days in-office) - Full-Time - <a href="https:&#x2F;&#x2F;www.spara.co&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;www.spara.co&#x2F;careers</a>
 
 Spara builds enterprise-grade AI agents that engage, qualify, and convert sales leads into revenue. We&#x27;re solving a complex, high-impact sales problem ($28B market) through sophisticated multi-modal interactions, leveraging leading-edge foundation models across multiple providers (OpenAI, Anthropic, Meta, Google...)

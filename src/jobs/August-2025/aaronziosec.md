@@ -4,6 +4,9 @@ author:
   name: aaronziosec
   url: https://news.ycombinator.com/item?id=44842129
 ---
+
+<JobNavigation />
+
 ZioSec Is Hiring a Senior Backend Engineer (Rust&#x2F;PostgreSQL&#x2F;GCP) - Remote
 
 The Problem: Agentic AI systems are becoming increasingly powerful and autonomous. Most companies deploying them have no idea how vulnerable they are. We&#x27;re building the offensive security platform that will become the industry standard for AI safety testing.

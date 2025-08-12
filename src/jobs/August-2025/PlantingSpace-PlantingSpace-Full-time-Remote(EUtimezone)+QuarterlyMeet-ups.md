@@ -4,6 +4,9 @@ author:
   name: PlantingSpace
   url: https://news.ycombinator.com/item?id=44758147
 ---
+
+<JobNavigation />
+
 PlantingSpace - Full-time - Remote (EU time zone) + Quarterly Meet-ups - <a href="https:&#x2F;&#x2F;planting.space" rel="nofollow">https:&#x2F;&#x2F;planting.space</a>
 
 Ready to push the frontier of automated structured reasoning?

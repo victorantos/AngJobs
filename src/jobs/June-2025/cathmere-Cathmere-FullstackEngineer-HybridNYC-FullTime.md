@@ -4,6 +4,9 @@ author:
   name: cathmere
   url: https://news.ycombinator.com/item?id=44161787
 ---
+
+<JobNavigation />
+
 Cathmere - Fullstack Engineer - Hybrid NYC - Full Time - <a href="https:&#x2F;&#x2F;cathmere.com" rel="nofollow">https:&#x2F;&#x2F;cathmere.com</a>
 
 Cathmere is a seed-stage fintech startup, building a private blockchain-based platform that connects US investors with asset-backed securities based in emerging markets - creating new investment opportunities by providing verifiable data about real-world asset performance.

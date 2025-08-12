@@ -4,6 +4,9 @@ author:
   name: petra_shaheen
   url: https://news.ycombinator.com/item?id=44757816
 ---
+
+<JobNavigation />
+
 *Blacklane* (Berlin &#x2F; Barcelona &#x2F; London – hybrid)
 
 Blacklane is a global premium chauffeur service company operating in 50+ countries, focused on sustainable and high-quality services. We’re hiring for two senior engineering roles:

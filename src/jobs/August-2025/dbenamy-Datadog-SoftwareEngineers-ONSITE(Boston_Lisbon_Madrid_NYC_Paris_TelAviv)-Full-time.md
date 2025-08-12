@@ -4,6 +4,9 @@ author:
   name: dbenamy
   url: https://news.ycombinator.com/item?id=44759133
 ---
+
+<JobNavigation />
+
 Datadog - Software Engineers - ONSITE (Boston, Lisbon, Madrid, NYC, Paris, Tel Aviv) - Full-time
 
 Datadog is a monitoring, tracing, logs system, and more, for your infrastructure and services. We build our own tsdb, event store [1][2], distributed tracing tools, cutting edge visualizations, and more. We love shipping great experiences for customers just like us and are growing fast! We write a lot of Go, Java, Python, Typescript (with React), and a bit of other languages. We run on k8s, and are multi-region and multi-cloud.

@@ -4,6 +4,9 @@ author:
   name: dpetrou
   url: https://news.ycombinator.com/item?id=44161035
 ---
+
+<JobNavigation />
+
 At Continua (<a href="http:&#x2F;&#x2F;continua.ai&#x2F;" rel="nofollow">http:&#x2F;&#x2F;continua.ai&#x2F;</a>), we&#x27;ve built an AI agent that users can invite into group conversations to make planning, coordination, and information retrieval effortless. We&#x27;ve seen extremely rapid growth over the last few months, and we want you to help us improve the quality of our agent experience and scale to the next level. Try adding 332-286-3377 to group texts to kick its tires.
 
 I&#x27;m David (<a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;dpetrou&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;dpetrou&#x2F;</a>), the founder and CEO, and I was a Distinguished Software Engineer at Google. Continua is backed by tier-1 VCs. Our team (<a href="http:&#x2F;&#x2F;continua.ai&#x2F;team" rel="nofollow">http:&#x2F;&#x2F;continua.ai&#x2F;team</a>) is a fantastic bunch of accomplished engineers and researchers from Google, Slack, Disney, and AI startups. We&#x27;re pretty clued in on the technology side and have a strong vision of how the transformative technology of the last few years along with our own secret sauce (not just a ChatGPT wrapper) can help a huge number of people.

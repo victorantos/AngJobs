@@ -4,6 +4,9 @@ author:
   name: fmeirinhos
   url: https://news.ycombinator.com/item?id=44796398
 ---
+
+<JobNavigation />
+
 DESY - Scientific AI - Hamburg, Germany - HYBRID - 2-year positions - Full-time
 
 DESY is one of the world&#x27;s leading research centers and is now building a dedicated AI team for high-profile European projects.

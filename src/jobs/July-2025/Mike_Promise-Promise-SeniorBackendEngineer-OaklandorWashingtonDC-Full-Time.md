@@ -4,6 +4,9 @@ author:
   name: Mike_Promise
   url: https://news.ycombinator.com/item?id=44456170
 ---
+
+<JobNavigation />
+
 Promise - Senior Backend Engineer - Oakland or Washington DC - Hybrid&#x2F;Onsite - Full-Time
 
 Promise (YC W18) is building modern payment infrastructure for the government. We help people stay on track with rent, utilities, court fines, and more—without falling into cycles of debt or incarceration. It’s complex, high-scale work with real human impact.

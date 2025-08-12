@@ -4,6 +4,9 @@ author:
   name: peter_ifolio
   url: https://news.ycombinator.com/item?id=44161619
 ---
+
+<JobNavigation />
+
 iFOLIO - Atlanta, GA - ONSITE, possible Remote (US) in EST - Software Engineer III - Full-time
 We power digital marketing platforms for GE, Equifax, Madison Square Garden, MLB, major universities, and more.
 

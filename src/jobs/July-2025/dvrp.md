@@ -4,6 +4,9 @@ author:
   name: dvrp
   url: https://news.ycombinator.com/item?id=44441176
 ---
+
+<JobNavigation />
+
 San Francisco, CA; Full-time &amp; Onsite; Member of technical staff.
 
 I&#x27;m the cofounder of Krea (<a href="https:&#x2F;&#x2F;www.krea.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.krea.ai&#x2F;</a>), a startup in San

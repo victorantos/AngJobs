@@ -4,6 +4,9 @@ author:
   name: sophiad7
   url: https://news.ycombinator.com/item?id=44435382
 ---
+
+<JobNavigation />
+
 Deyan7 - Full Stack AI Engineer - Bochum, Cologne, Mainz, Germany - Remote possible - Full Time
 
 We are Deyan7. We build leading AI solutions.

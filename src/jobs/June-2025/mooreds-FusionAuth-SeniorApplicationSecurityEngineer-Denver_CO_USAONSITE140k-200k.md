@@ -4,6 +4,9 @@ author:
   name: mooreds
   url: https://news.ycombinator.com/item?id=44161323
 ---
+
+<JobNavigation />
+
 FusionAuth - Senior Application Security Engineer - Denver, CO, USA ONSITE  140k-200k
 
 Our mission is to make authentication and authorization simple and secure for every developer building web and mobile applications. We want devs to stop worrying about auth and focus on building something awesome.

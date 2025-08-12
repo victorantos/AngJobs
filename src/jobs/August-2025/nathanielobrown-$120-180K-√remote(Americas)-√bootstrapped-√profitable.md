@@ -4,6 +4,9 @@ author:
   name: nathanielobrown
   url: https://news.ycombinator.com/item?id=44835635
 ---
+
+<JobNavigation />
+
 Sr Vue 3 &#x2F; TS Engineer - $120-180K - √ remote (Americas) - √ bootstrapped - √ profitable
 
 PRODUCT+ENGINEERING-FOCUSED SMALL TEAM, REAL-WORLD IMPACT

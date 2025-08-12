@@ -4,6 +4,9 @@ author:
   name: _zachs
   url: https://news.ycombinator.com/item?id=44866686
 ---
+
+<JobNavigation />
+
 MeritFirst - Software Engineer - Austin, TX (onsite)
 
 MeritFirst is a VC-backed startup building a new way to identify talent, where intelligence, problem-solving, and adaptability matter more than credentials. We&#x27;re a small, profitable team using a modern stack (TypeScript, Next.js, Postgres&#x2F;Drizzle, Vercel).

@@ -4,6 +4,9 @@ author:
   name: jrowley
   url: https://news.ycombinator.com/item?id=44435591
 ---
+
+<JobNavigation />
+
 Pomelo Care - San Francisco, NYC, Remote - USA ONLY with Work Authorization - Software Engineer (mid career - Staff),
 AI Automation Engineer, Senior Product Designer
 

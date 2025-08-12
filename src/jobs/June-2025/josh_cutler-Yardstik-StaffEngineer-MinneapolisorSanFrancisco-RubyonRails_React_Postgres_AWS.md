@@ -4,6 +4,9 @@ author:
   name: josh_cutler
   url: https://news.ycombinator.com/item?id=44161905
 ---
+
+<JobNavigation />
+
 Yardstik - Staff Engineer - Minneapolis or San Francisco - Ruby on Rails, React, Postgres, AWS
 
 Yardstik is building the platform to reduce workforce risk.  We are fast growing, doubling each of the past 3 years.

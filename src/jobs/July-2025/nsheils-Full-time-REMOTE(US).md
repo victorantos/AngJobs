@@ -4,6 +4,9 @@ author:
   name: nsheils
   url: https://news.ycombinator.com/item?id=44435634
 ---
+
+<JobNavigation />
+
 Lore (<a href="https:&#x2F;&#x2F;careers.lore.co" rel="nofollow">https:&#x2F;&#x2F;careers.lore.co</a>) - Software&#x2F;Machine-Learning&#x2F; Data Engineers + More! - Full-time - REMOTE (US)
 
 The company: Modern healthcare excels at treating fallout, but it struggles to address triggers—because it wasn’t built to. Yet intervening at these trigger points isn’t just how we stop rising demand; it’s how we create more health and happiness. We started Lore to build a new kind of care: a continuous, holistic approach that supports people whether they’re flourishing, struggling, or somewhere in between. We call it preemptive care.

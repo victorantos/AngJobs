@@ -4,6 +4,9 @@ author:
   name: nathans12
   url: https://news.ycombinator.com/item?id=44435615
 ---
+
+<JobNavigation />
+
 Verition - AI researcher founding engineer - Hedgefund front office team - Remote (USA) - Full time
 
 Verition is a ~$13b global hedgefund and I am hiring a software engineer to build greenfield genAI unstructured data and NLP pipelines.

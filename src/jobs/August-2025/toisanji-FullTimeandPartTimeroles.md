@@ -4,6 +4,9 @@ author:
   name: toisanji
   url: https://news.ycombinator.com/item?id=44766982
 ---
+
+<JobNavigation />
+
 Full Time and Part Time roles
 
 Distark is hiring, an edutainment brand building learning videos for Education. Our small, passionate team creates animated shows and learning tools that help kids (ages 3-9) fall in love with curiosity and real-world learning. We use custom automation to speed up everything from story writing to animation. See what we’re making: <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=c46VaM_VZGU" rel="nofollow">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=c46VaM_VZGU</a>

@@ -4,6 +4,9 @@ author:
   name: Estuary
   url: https://news.ycombinator.com/item?id=44446788
 ---
+
+<JobNavigation />
+
 Estuary - US Based (Some flexibility with location for the right candidate) &#x2F; Remote - Full-time – <a href="https:&#x2F;&#x2F;estuary.dev&#x2F;" rel="nofollow">https:&#x2F;&#x2F;estuary.dev&#x2F;</a>
 
 Estuary is a VC-backed startup building the next generation of real-time data infrastructure. Our platform, Estuary Flow, combines change data capture (CDC), stream processing, and declarative configuration to unify real-time and batch data movement.

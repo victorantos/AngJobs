@@ -4,6 +4,9 @@ author:
   name: zetier
   url: https://news.ycombinator.com/item?id=44435903
 ---
+
+<JobNavigation />
+
 Zetier - Multiple US locations (VA, PA, FL, TX, CA, NY) - ONSITE - Full-Time
 
 Zetier develops real-world tools and capabilities to secure our nation in the short- and long-term. If you’re excited to delve deep into low-level systems, exploit dev, and more alongside a group of passionate hackers, then we’d love to hear from you.

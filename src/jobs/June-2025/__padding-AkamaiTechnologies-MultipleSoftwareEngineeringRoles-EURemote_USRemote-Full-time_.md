@@ -4,6 +4,9 @@ author:
   name: __padding
   url: https://news.ycombinator.com/item?id=44163324
 ---
+
+<JobNavigation />
+
 Akamai Technologies - Multiple Software Engineering Roles - EU Remote, US Remote - Full-time*
 
 I&#x27;m a principal lead on Akamai&#x27;s Linux Performance Team, and we&#x27;re actively hiring talented engineers to join our team!

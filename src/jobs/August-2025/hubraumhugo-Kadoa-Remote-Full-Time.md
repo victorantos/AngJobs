@@ -4,6 +4,9 @@ author:
   name: hubraumhugo
   url: https://news.ycombinator.com/item?id=44758036
 ---
+
+<JobNavigation />
+
 Kadoa - UX Designer&#x2F;Frontend Developer - Remote - Full-Time - <a href="https:&#x2F;&#x2F;kadoa.com" rel="nofollow">https:&#x2F;&#x2F;kadoa.com</a>
 
 We’re automating web scraping at scale with AI.

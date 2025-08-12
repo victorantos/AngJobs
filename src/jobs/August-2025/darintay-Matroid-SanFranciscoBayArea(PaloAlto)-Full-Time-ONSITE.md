@@ -4,6 +4,9 @@ author:
   name: darintay
   url: https://news.ycombinator.com/item?id=44760333
 ---
+
+<JobNavigation />
+
 Matroid - DL&#x2F;AI&#x2F;CV, Infra, WebApp, Field Software Engineer positions - San Francisco Bay Area (Palo Alto) - Full-Time - ONSITE
 
 Matroid brings cutting edge computer vision to visual inspection, with a “no programming required” product that empowers businesses and industry to solve their unique inspection challenges.

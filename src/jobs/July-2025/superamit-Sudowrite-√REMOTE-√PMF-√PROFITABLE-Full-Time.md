@@ -4,6 +4,9 @@ author:
   name: superamit
   url: https://news.ycombinator.com/item?id=44434796
 ---
+
+<JobNavigation />
+
 Sudowrite - <a href="https:&#x2F;&#x2F;sudowrite.com" rel="nofollow">https:&#x2F;&#x2F;sudowrite.com</a> - √ REMOTE - √ PMF - √  PROFITABLE - Full-Time
 
 PROFITABLE, SUSTAINABLE SMALL TEAM, MAKING SOMETHING PEOPLE WANT

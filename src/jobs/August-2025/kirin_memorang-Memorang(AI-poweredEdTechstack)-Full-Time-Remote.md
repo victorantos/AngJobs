@@ -4,6 +4,9 @@ author:
   name: kirin_memorang
   url: https://news.ycombinator.com/item?id=44840389
 ---
+
+<JobNavigation />
+
 Memorang (AI-powered EdTech stack) - Full-Time - Remote
 
 Our mission: Build the AI stack for education—an agentic framework to launch, monetize, and power learning apps 50× faster. We bootstrapped to profitability, were voted #1 among 1,500 in the Vercel AI Accelerator, and collectively reach tens of millions of learners.

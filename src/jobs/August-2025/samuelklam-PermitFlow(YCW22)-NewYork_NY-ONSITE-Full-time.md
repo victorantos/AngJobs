@@ -4,6 +4,9 @@ author:
   name: samuelklam
   url: https://news.ycombinator.com/item?id=44818903
 ---
+
+<JobNavigation />
+
 PermitFlow (YC W22) - Staff, Fullstack &amp; Frontend Software Engineers - New York, NY - ONSITE - Full-time - <a href="https:&#x2F;&#x2F;permitflow.com">https:&#x2F;&#x2F;permitflow.com</a>
 
 PermitFlow’s mission is to streamline and simplify construction permitting in the $1.6 trillion United States construction market. Our software reduces time to permit, supporting permitting end-to-end including permit research, application preparation, submission, and monitoring.

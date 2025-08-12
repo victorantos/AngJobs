@@ -4,6 +4,9 @@ author:
   name: stoitsev
   url: https://news.ycombinator.com/item?id=44162369
 ---
+
+<JobNavigation />
+
 StorPool Storage - Senior Software Engineer, Storage Core (C&#x2F;Linux) - Remote (EU timezones) - Full-time`
 
 StorPool (<a href="https:&#x2F;&#x2F;storpool.com" rel="nofollow">https:&#x2F;&#x2F;storpool.com</a>) is hiring exceptional engineers for our Core Storage team. Join us to build and evolve the heart of our globally recognized distributed block storage platform, used by leading cloud builders worldwide.

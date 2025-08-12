@@ -4,6 +4,9 @@ author:
   name: r3tr0
   url: https://news.ycombinator.com/item?id=44161063
 ---
+
+<JobNavigation />
+
 yeet - Chicago, IL &#x2F; Remote - Full-Time
 
 Building a dynamic runtime on top of the Linux BPF sub-system. Looking for extremely talented &#x2F; passionate Rust developers &#x2F; Product Managers with a deep interest in Linux internals, Dev Tools, Great Developer Experiences and Systems programming. Experience writing highly-concurrent, performant multi-threaded Rust is a must.

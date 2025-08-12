@@ -4,6 +4,9 @@ author:
   name: steakunderscore
   url: https://news.ycombinator.com/item?id=44444104
 ---
+
+<JobNavigation />
+
 Thought Machine - Security Engineering Manager - London, UK (3+ days ONSITE) - Full-time
 
 G&#x27;day folks. Here at Thought Machine we&#x27;re hiring a Security Engineering Manager.

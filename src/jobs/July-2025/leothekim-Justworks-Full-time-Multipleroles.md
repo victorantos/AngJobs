@@ -4,6 +4,9 @@ author:
   name: leothekim
   url: https://news.ycombinator.com/item?id=44443486
 ---
+
+<JobNavigation />
+
 Justworks - Hybrid (US: New York City, Canada: Toronto) - Full-time - Multiple roles - <a href="https:&#x2F;&#x2F;justworks.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;justworks.com&#x2F;careers</a>
 
 Justworks is helping businesses get off the ground by enabling them to focus on running their business. We solve HR issues. We’re data-driven and never stop iterating. And, we are hiring across the board! If you’d like to work in a supportive, entrepreneurial environment, are interested in building something meaningful and having fun while doing it, we’d love to hear from you!

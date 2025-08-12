@@ -4,6 +4,9 @@ author:
   name: kcartmell
   url: https://news.ycombinator.com/item?id=44159532
 ---
+
+<JobNavigation />
+
 Snout <a href="https:&#x2F;&#x2F;www.snoutplans.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.snoutplans.com&#x2F;</a> - Principal Software Engineer - Remote US - Full Time
 
 Join us at Snout on our mission to ensure no one ever has to make a health decision for their pet based on the cash in their bank account. Snout plans pay for 100% of routine veterinary care, unlimited visits, and additional member benefits - think pet insurance, that you will actually use every year.

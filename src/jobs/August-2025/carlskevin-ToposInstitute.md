@@ -4,6 +4,9 @@ author:
   name: carlskevin
   url: https://news.ycombinator.com/item?id=44765088
 ---
+
+<JobNavigation />
+
 Topos Institute - SWE&#x2F;Senior SWE-Onsite Berkeley&#x2F;Oxford -Rust&#x2F;TS
 
 <a href="https:&#x2F;&#x2F;topos.institute&#x2F;contact&#x2F;" rel="nofollow">https:&#x2F;&#x2F;topos.institute&#x2F;contact&#x2F;</a>

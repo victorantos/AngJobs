@@ -4,6 +4,9 @@ author:
   name: anikolaev
   url: https://news.ycombinator.com/item?id=44817913
 ---
+
+<JobNavigation />
+
 JotPsych (<a href="https:&#x2F;&#x2F;jotpsych.com" rel="nofollow">https:&#x2F;&#x2F;jotpsych.com</a>) - Hybrid (DC Area) - Full-Time - Roles: (1)Senior Frontend Engineer (2)Senior Backend Engineer - $5m Seed Round
 
 JotPsych is a behavioral health AI scribe tool and we&#x27;re looking for frontend and backend engineers as we build the first agentic EHR for behavioral health. We&#x27;re looking to hire ASAP! More info in the links below:

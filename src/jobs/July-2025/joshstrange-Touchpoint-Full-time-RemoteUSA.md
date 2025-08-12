@@ -4,6 +4,9 @@ author:
   name: joshstrange
   url: https://news.ycombinator.com/item?id=44435200
 ---
+
+<JobNavigation />
+
 Touchpoint - Senior Typescript&#x2F;PHP - Full-time - Remote USA
 
 Touchpoint is transforming the restaurant industry for brands, staff, and guests.

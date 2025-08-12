@@ -4,6 +4,9 @@ author:
   name: samcheng
   url: https://news.ycombinator.com/item?id=44164296
 ---
+
+<JobNavigation />
+
 RINSE - REMOTE or San Francisco, Los Angeles, Chicago, Boston, New York, New Jersey, Seattle, Austin, Dallas, or Washington DC - QA Engineer, IT Associate - Full-Time - <a href="https:&#x2F;&#x2F;www.rinse.com" rel="nofollow">https:&#x2F;&#x2F;www.rinse.com</a>
 
 Rinse provides dry cleaning and laundry delivery services to customers in nine metropolitan areas in the US. We have sophisticated logistics optimization software, a polished consumer product, and firm business fundamentals. We&#x27;re now over a decade old - this is a stable, yet consistently growing and innovating, company.

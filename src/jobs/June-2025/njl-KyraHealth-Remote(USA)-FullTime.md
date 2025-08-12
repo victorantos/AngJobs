@@ -4,6 +4,9 @@ author:
   name: njl
   url: https://news.ycombinator.com/item?id=44161916
 ---
+
+<JobNavigation />
+
 Kyra Health - Python&#x2F;Typescript - Remote (USA) - Full Time
 
 We believe there is a significant opportunity to improve healthcare quality and cost for employers, employees, and insurance companies; regulatory changes and LLMs mean it is time to build. We think we can provide a better experience for less money, and have multiple positive impacts on society. We have the idea, the funding, and the skills and knowledge to make it happen. We&#x27;re looking for a few more strong engineers to help us build it.

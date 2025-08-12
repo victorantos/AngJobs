@@ -4,6 +4,9 @@ author:
   name: Soupy
   url: https://news.ycombinator.com/item?id=44829306
 ---
+
+<JobNavigation />
+
 Stoke - Bellevue, WA - ONSITE (hybrid)
 
 Stoke is a 5-month-old startup (founded in Feb 2025 by insuretech veterans with $4B+ in previous exits across 2 bootstrapped companies) building real-time Voice AI agents to make insurance purchases easier, faster, and more affordable.

@@ -4,6 +4,9 @@ author:
   name: dansitu
   url: https://news.ycombinator.com/item?id=44162037
 ---
+
+<JobNavigation />
+
 Edge Impulse (a Qualcomm company) - Senior ML Engineer - REMOTE in NY&#x2F;NJ&#x2F;CT - Full-time - <a href="https:&#x2F;&#x2F;careers.qualcomm.com&#x2F;careers&#x2F;job&#x2F;446705785653" rel="nofollow">https:&#x2F;&#x2F;careers.qualcomm.com&#x2F;careers&#x2F;job&#x2F;446705785653</a> - $126-211k + RSUs
 
 Edge Impulse (<a href="https:&#x2F;&#x2F;edgeimpulse.com" rel="nofollow">https:&#x2F;&#x2F;edgeimpulse.com</a>) is the top developer platform for edge AI: think HuggingFace but for models that process sensor data on the edge. We have a large and active community of hundreds of thousands of developers. We were recently acquired by Qualcomm, who have a crazy ambitious vision for bringing AI within reach of every embedded engineer.

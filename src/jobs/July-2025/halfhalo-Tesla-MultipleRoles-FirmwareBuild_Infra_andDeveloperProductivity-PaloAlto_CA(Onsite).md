@@ -4,6 +4,9 @@ author:
   name: halfhalo
   url: https://news.ycombinator.com/item?id=44435913
 ---
+
+<JobNavigation />
+
 Tesla - Multiple Roles - Firmware Build, Infra, and Developer Productivity - Palo Alto, CA (Onsite)
 
 The Firmware Build team within Vehicle Software is responsible for the tools, frameworks, and systems required to build firmware at scale.  For us, a full firmware build for all current production vehicles &amp; stationary storage products uses more than 6000 cpu cores and 4TB of memory concurrently, and we do a _lot_ of simultaneous builds.

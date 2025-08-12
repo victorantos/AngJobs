@@ -4,6 +4,9 @@ author:
   name: betocmn
   url: https://news.ycombinator.com/item?id=44166097
 ---
+
+<JobNavigation />
+
 Good Pair Days - Lead Engineer, Fullstack - Full-Time - REMOTE (Australia +- 1h) - <a href="https:&#x2F;&#x2F;www.goodpairdays.com" rel="nofollow">https:&#x2F;&#x2F;www.goodpairdays.com</a> - AUD $150,000 to $250,000 + Stock Options
 
 Profitable wine-subscription scale-up (tens of millions ARR) that used ML for personalised recommendations before &quot;AI&quot; was cool. Own and scale the whole stack (React&#x2F;React Native, Python&#x2F;Django, GraphQL, Postgres, AWS), ship new AI-native features, chase latency spikes, and grow the team from 1 → 5+.

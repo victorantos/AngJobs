@@ -4,6 +4,9 @@ author:
   name: kyry_cz
   url: https://news.ycombinator.com/item?id=44795586
 ---
+
+<JobNavigation />
+
 ThreatMark - Security, Machine Learning - REMOTE(World) &#x2F; Brno, Czech Republic - Equity
 ThreatMark protects &gt;50M end users from finacial fraud and saves &gt; $100M every year in losses. We are working with top banks in EU and US to protect their end users.
 

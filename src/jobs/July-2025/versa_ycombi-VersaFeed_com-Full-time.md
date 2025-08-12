@@ -4,6 +4,9 @@ author:
   name: versa_ycombi
   url: https://news.ycombinator.com/item?id=44436467
 ---
+
+<JobNavigation />
+
 VersaFeed.com - SENIOR SOFTWARE ENGINEER (Python&#x2F;Django) - REMOTE (USA&#x2F;EU) - Full-time
 
 *About us*: Fancy ETL pipeline which processes products from huge ecommerce companies. Data extraction and massage, delivery to destinations like Google&#x2F;Meta&#x2F;TikTok&#x2F;etc. Profitable, 15+ yrs stable, 100% employee-owned. No VC, no pointless meetings, just serious coding.

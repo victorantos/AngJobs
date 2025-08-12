@@ -4,6 +4,9 @@ author:
   name: longanglejobs
   url: https://news.ycombinator.com/item?id=44434617
 ---
+
+<JobNavigation />
+
 Long Angle - Multiple Roles - REMOTE (US) - Full-time - <a href="https:&#x2F;&#x2F;longangle.com" rel="nofollow">https:&#x2F;&#x2F;longangle.com</a>
 
 Long Angle, a peer network for high-net-worth individuals is looking for a Ruby-on-Rails engineer and a frontend engineer (React &#x2F; React Native). Come work on a wide range of problems in a modern codebase, in a fully remote environment.

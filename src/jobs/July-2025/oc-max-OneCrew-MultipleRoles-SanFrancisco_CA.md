@@ -4,6 +4,9 @@ author:
   name: oc-max
   url: https://news.ycombinator.com/item?id=44436656
 ---
+
+<JobNavigation />
+
 OneCrew - Multiple Roles - ONSITE &#x2F; HYBRID - San Francisco, CA
 
 OneCrew is the leading unified platform helping paving contractors estimate accurately, manage crews effectively, and track profitability in real-time. We eliminate the costly mistakes and wasted time that come from juggling multiple disconnected systems—giving contractors a single source of truth to run their entire operation.

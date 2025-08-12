@@ -4,6 +4,9 @@ author:
   name: vicpara
   url: https://news.ycombinator.com/item?id=44758667
 ---
+
+<JobNavigation />
+
 Broadn Inc - <a href="https:&#x2F;&#x2F;www.broadn.io" rel="nofollow">https:&#x2F;&#x2F;www.broadn.io</a> - Founding engineer - NYC - USA - Full-time - ONSITE in NYC - US persons only - Full-stack -
 
 Broadn is an early-stage company. We work with USA manufacturers to help them accelerate the configuration, pricing and quoting process for their industrial products. Our customers are manufacturers operating in electronic parts, pipes, packaging, aerospace, defense and metal parts.

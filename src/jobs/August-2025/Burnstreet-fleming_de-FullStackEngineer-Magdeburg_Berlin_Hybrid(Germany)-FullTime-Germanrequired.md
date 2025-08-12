@@ -4,6 +4,9 @@ author:
   name: Burnstreet
   url: https://news.ycombinator.com/item?id=44790807
 ---
+
+<JobNavigation />
+
 fleming.de - Full Stack Engineer - Magdeburg, Berlin, Hybrid (Germany) - Full Time - German required
 
 Fleming (www.fleming.de) is digitalizing financing for health professionals. 

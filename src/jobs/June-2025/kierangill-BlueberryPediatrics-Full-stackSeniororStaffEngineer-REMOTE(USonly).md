@@ -4,6 +4,9 @@ author:
   name: kierangill
   url: https://news.ycombinator.com/item?id=44161570
 ---
+
+<JobNavigation />
+
 Blueberry Pediatrics - Full-stack Senior or Staff Engineer - REMOTE (US only)
 
 American healthcare is seldom affordable, accessible, or high-quality. We are fixing this for pediatrics. Blueberry is the most affordable option amongst our competitors. We practice the highest quality pediatric telemedicine, as evidenced by our exclusive hiring of board-certified pediatricians and the usage of at-home medical kits. And, we’re accessible 24 hours a day.

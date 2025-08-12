@@ -4,6 +4,9 @@ author:
   name: preetamjinka
   url: https://news.ycombinator.com/item?id=44160494
 ---
+
+<JobNavigation />
+
 FunnelStory - Principal Architect (Go) - REMOTE (India) - Bengaluru - Full-Time - 55-85 LPA - <a href="https:&#x2F;&#x2F;funnelstory.ai" rel="nofollow">https:&#x2F;&#x2F;funnelstory.ai</a>
 
 I&#x27;m Preetam, co-founder and chief architect of FunnelStory. We&#x27;re looking for a Principal Architect with a strong Go background to join our team.

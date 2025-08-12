@@ -4,6 +4,9 @@ author:
   name: mg00dman2025
   url: https://news.ycombinator.com/item?id=44828342
 ---
+
+<JobNavigation />
+
 EquipmentShare - Staff Software Engineer - Remote (US) - Full-Time - <a href="https:&#x2F;&#x2F;equipmentshare.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;equipmentshare.com&#x2F;careers</a>
 
 We’re building tools that power the physical world — from IoT-enabled fleet tracking to real-time logistics coordination. Our platform supports a $1.4B+ heavy equipment network and growing fast.

@@ -4,6 +4,9 @@ author:
   name: kmano8
   url: https://news.ycombinator.com/item?id=44161290
 ---
+
+<JobNavigation />
+
 Perpay - Senior Full Stack&#x2F;Backend Engineer + Engineering Manager - Onsite in Philadelphia, Full-Time
 
 Perpay is building financial products backed by users&#x27; paycheck direct deposit. We believe everyone deserves a chance to improve their financial future, and we’re dedicated to building simple and inclusive financial products that help our members create healthy habits and achieve economic stability.

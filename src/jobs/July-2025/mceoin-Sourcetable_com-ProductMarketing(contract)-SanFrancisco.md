@@ -4,6 +4,9 @@ author:
   name: mceoin
   url: https://news.ycombinator.com/item?id=44437143
 ---
+
+<JobNavigation />
+
 Sourcetable.com - Product Marketing (contract) - San Francisco
 
 We&#x27;re building a spreadsheet-based operating system for the web, although on first touch Sourcetable feels more like Excel Copilot or &quot;Cursor for spreadsheets&quot;.

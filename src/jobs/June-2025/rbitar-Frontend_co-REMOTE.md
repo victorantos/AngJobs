@@ -4,6 +4,9 @@ author:
   name: rbitar
   url: https://news.ycombinator.com/item?id=44165128
 ---
+
+<JobNavigation />
+
 Frontend.co - REMOTE - Full-time &amp; Part-time - <a href="https:&#x2F;&#x2F;www.frontend.co" rel="nofollow">https:&#x2F;&#x2F;www.frontend.co</a>
 
 Frontend is building an AI-powered Shopify development platform. We use AI to generate full-stack application built using Next.js &#x2F; Tailwind for Shopify-connected storefronts.

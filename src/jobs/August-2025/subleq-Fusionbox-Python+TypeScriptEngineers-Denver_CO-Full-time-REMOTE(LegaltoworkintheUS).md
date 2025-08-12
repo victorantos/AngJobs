@@ -4,6 +4,9 @@ author:
   name: subleq
   url: https://news.ycombinator.com/item?id=44757800
 ---
+
+<JobNavigation />
+
 Fusionbox - Python + TypeScript Engineers - Denver, CO - Full-time - REMOTE (Legal to work in the US)
 
 We&#x27;re a software engineering consultancy that builds enterprise software the right way. We negotiate the right to open source all our client code, maintain a handful of popular libraries, and our engineers contribute to Django core. We sponsor PyCon, DjangoCon, and Django Girls because we&#x27;re invested in the ecosystem we build on.

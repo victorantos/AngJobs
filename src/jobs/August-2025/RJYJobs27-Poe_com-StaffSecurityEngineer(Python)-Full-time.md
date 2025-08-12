@@ -4,6 +4,9 @@ author:
   name: RJYJobs27
   url: https://news.ycombinator.com/item?id=44868515
 ---
+
+<JobNavigation />
+
 Poe.com - Staff Security Engineer (Python) - REMOTE: US&#x2F;Canada&#x2F;Ireland&#x2F;UK) - Full-time
 
 About us: Poe is a a16z backed product. Gives you access to the best AI from many different companies in a single interface across all of your devices. ChatGPT, Claude 3.7 Sonnet, DeepSeek R1, many of the top image, video, and audio generation models, and millions of user-created bots are all on Poe.

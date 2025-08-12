@@ -4,6 +4,9 @@ author:
   name: stock4hire
   url: https://news.ycombinator.com/item?id=44787072
 ---
+
+<JobNavigation />
+
 Senior Network Engineer - REMOTE from the United States - Full-time - Benefits - Stock Options
 
 The Infrastructure Engineering team at Sirona is a dynamic, cross-functional group responsible for building and maintaining the foundational infrastructure that powers all of our products.

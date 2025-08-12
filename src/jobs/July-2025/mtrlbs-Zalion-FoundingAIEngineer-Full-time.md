@@ -4,6 +4,9 @@ author:
   name: mtrlbs
   url: https://news.ycombinator.com/item?id=44441404
 ---
+
+<JobNavigation />
+
 Zalion - Founding AI Engineer - London &#x2F; Remote (Europe) - Full-time
 
 Zalion is building a platform to build, deploy, evaluate, and scale AI agents for procurement. We’re live, bootstrapped, and solving real problems for manufacturers.

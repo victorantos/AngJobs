@@ -4,6 +4,9 @@ author:
   name: beaconai
   url: https://news.ycombinator.com/item?id=44159607
 ---
+
+<JobNavigation />
+
 Beacon AI - <a href="https:&#x2F;&#x2F;beaconai.co&#x2F;" rel="nofollow">https:&#x2F;&#x2F;beaconai.co&#x2F;</a> - San Carlos, CA - Full-Time - Hybrid
 
 Beacon AI builds R2-D2 for pilots. We are on a mission to make flight safer, more efficient, and accessible for commercial and defense aircraft operators by applying technology to the flight deck. We are building a modern technology stack with a data platform and web application (Lighthouse), and in-cockpit assistant (Murdock).

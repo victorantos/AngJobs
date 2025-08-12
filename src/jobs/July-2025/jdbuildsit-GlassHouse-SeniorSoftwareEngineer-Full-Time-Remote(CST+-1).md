@@ -4,6 +4,9 @@ author:
   name: jdbuildsit
   url: https://news.ycombinator.com/item?id=44436124
 ---
+
+<JobNavigation />
+
 GlassHouse - Senior Software Engineer - Full-Time - Remote (CST+-1)
 
 GlassHouse is a funded startup whose mission is to make more profitable home service businesses. We have customers, funding, a great product, and are ready to grow -- come build with us!

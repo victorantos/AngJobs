@@ -4,6 +4,9 @@ author:
   name: adarshd
   url: https://news.ycombinator.com/item?id=44160906
 ---
+
+<JobNavigation />
+
 Lexoga - Applied Research Engineer - Full Time - Remote (Global) - $60k - $180k USD
 
 We’re hiring an Applied Research Engineer who thrives at the intersection of machine learning, research, and real-world deployment for a YC-backed &amp; funded AI tooling startup. The company is building tooling to evaluate and align LLM-based systems, and your work will directly influence the next wave of developer-facing AI tools.

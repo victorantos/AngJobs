@@ -4,6 +4,9 @@ author:
   name: MartinMond
   url: https://news.ycombinator.com/item?id=44765511
 ---
+
+<JobNavigation />
+
 Nutrient - Senior TypeScript SDK Engineer - Full-time - Remote
 
 We&#x27;re looking for a Senior TypeScript SDK Engineer to join the team responsible for the Nutrient Web SDK.

@@ -4,6 +4,9 @@ author:
   name: hratinsightm
   url: https://news.ycombinator.com/item?id=44162273
 ---
+
+<JobNavigation />
+
 Make an Impact on Climate! Looking for Data Stores and Full-Stack Engineers (Remote, US)
 
 At Insight M, we combine innovative aerospace systems with advanced data science. Unlike traditional aerospace companies, we sell information, not hardware - we operate our sensors cost-effectively at a continental scale to produce novel data streams about pressing global problems.

@@ -4,6 +4,9 @@ author:
   name: ahmedbaracat
   url: https://news.ycombinator.com/item?id=44759081
 ---
+
+<JobNavigation />
+
 ko-br - Hiring across design, engineering, research and business development - <a href="https:&#x2F;&#x2F;ko-br.com" rel="nofollow">https:&#x2F;&#x2F;ko-br.com</a> - Onsite (London, UK or Cairo, Egypt)
 
 It’s a shame that we have unbelievably good hardware like collaborative robots (cobots) that could transform warehouses and yet they still struggle with basic tasks like unloading mixed pallets. Why? Because today&#x27;s software can&#x27;t handle real-world chaos.

@@ -4,6 +4,9 @@ author:
   name: tristansokol
   url: https://news.ycombinator.com/item?id=44164479
 ---
+
+<JobNavigation />
+
 Small boutique consulting - Javascript Developer (Vue experience strongly preferred) - Remote (US) (some est meetings) - part-time&#x2F;flexible&#x2F;1099 - ~$50&#x2F;hr
 
 Hi! I work with a small group of developers doing custom software development and consulting for small&#x2F;medium businesses. This is a great opportunity for people who value flexibility, maybe SAHMs, new parents, etc. who want to get back into the workforce in a very flexible way. Not a great fit for someone between who wants to do something temporary between jobs, supplemental around their existing full time job or who *need* a stable level of income.

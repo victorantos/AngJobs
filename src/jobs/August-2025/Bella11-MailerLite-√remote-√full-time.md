@@ -4,6 +4,9 @@ author:
   name: Bella11
   url: https://news.ycombinator.com/item?id=44782525
 ---
+
+<JobNavigation />
+
 MailerLite - <a href="https:&#x2F;&#x2F;www.mailerlite.com" rel="nofollow">https:&#x2F;&#x2F;www.mailerlite.com</a> - √ remote - √ full-time - √ people-focused perks &amp; benefits
 
 MailerLite makes email marketing LITE.

@@ -4,6 +4,9 @@ author:
   name: karma_p
   url: https://news.ycombinator.com/item?id=44761994
 ---
+
+<JobNavigation />
+
 Zigment (<a href="https:&#x2F;&#x2F;zigment.ai" rel="nofollow">https:&#x2F;&#x2F;zigment.ai</a>) - Bangalore &#x2F; Bengaluru, India - Full-time - ONSITE
 
 Zigment is a customer journey platform. We make it super simple to build AI agents for enterprises.

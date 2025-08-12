@@ -4,6 +4,9 @@ author:
   name: David_Ken
   url: https://news.ycombinator.com/item?id=44167190
 ---
+
+<JobNavigation />
+
 Sysamic - US - Remote - Part time - $5K
 
 Sysamic, digital industry and software development, is expanding the business — and we’re looking for a talented and driven Software Developer to join us as a Technical Interviewer.

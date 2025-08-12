@@ -4,6 +4,9 @@ author:
   name: gruvo
   url: https://news.ycombinator.com/item?id=44759717
 ---
+
+<JobNavigation />
+
 CoVar - Durham, NC - <a href="https:&#x2F;&#x2F;covar.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;covar.com&#x2F;</a> - Full-time - ONSITE&#x2F;HYBRID
 
 CoVar is a small R&amp;D company specializing in machine learning and software development for defense, healthcare, and manufacturing applications.

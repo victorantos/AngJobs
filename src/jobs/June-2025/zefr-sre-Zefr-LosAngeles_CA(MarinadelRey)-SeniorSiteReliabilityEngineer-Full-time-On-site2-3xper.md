@@ -4,6 +4,9 @@ author:
   name: zefr-sre
   url: https://news.ycombinator.com/item?id=44166797
 ---
+
+<JobNavigation />
+
 Zefr - Los Angeles, CA (Marina del Rey) - Senior Site Reliability Engineer - Full-time - On-site 2-3x per week - $150,000 - $170,000
 Company
 

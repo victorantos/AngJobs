@@ -4,6 +4,9 @@ author:
   name: ahmedbaracat
   url: https://news.ycombinator.com/item?id=44434692
 ---
+
+<JobNavigation />
+
 ko-br - Computer Vision, Imitation Learning, Backend Engineers &amp; Business Dev - <a href="https:&#x2F;&#x2F;ko-br.com" rel="nofollow">https:&#x2F;&#x2F;ko-br.com</a> - Onsite (London, UK or Cairo, Egypt)
 
 We build Physical AI for warehouses—solving palletizing, kitting, and pick&#x2F;pack tasks that giants like Amazon&#x2F;ABB&#x2F;Universal Robots haven&#x27;t cracked. Our tech lets cobots adapt to mixed SKUs, grip slips, and chaotic environments in real time. No reconfiguration. No coding. Just results.

@@ -4,6 +4,9 @@ author:
   name: timsuchanek
   url: https://news.ycombinator.com/item?id=44164452
 ---
+
+<JobNavigation />
+
 expand.ai - SF - <a href="https:&#x2F;&#x2F;expand.ai">https:&#x2F;&#x2F;expand.ai</a>
 
 Do you want to turn the internet into a database with us?

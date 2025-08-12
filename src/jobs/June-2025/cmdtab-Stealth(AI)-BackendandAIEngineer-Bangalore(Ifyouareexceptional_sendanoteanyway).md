@@ -4,6 +4,9 @@ author:
   name: cmdtab
   url: https://news.ycombinator.com/item?id=44162449
 ---
+
+<JobNavigation />
+
 Stealth (AI) - Backend and AI Engineer - Bangalore (If you are exceptional, send a note anyway)
 
 We’re building a general purpose automation platform to allow your grandma to automate anything a person can do online.

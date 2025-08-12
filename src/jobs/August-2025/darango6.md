@@ -4,6 +4,9 @@ author:
   name: darango6
   url: https://news.ycombinator.com/item?id=44786393
 ---
+
+<JobNavigation />
+
 Gauntlet - Financial modeling &amp; curation for DeFi
 
 Gauntlet’s mission is to drive adoption and understanding of the financial systems of the future. It is crypto&#x27;s leading product-led model provider, building optimization strategies and platforms for tokens, protocols, and chains. We equip investors, builders, and token issuers with data-driven strategies to allocate funds confidently on-chain by leveraging the most trusted crypto-economic research and analysis.

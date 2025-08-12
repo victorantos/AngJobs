@@ -4,6 +4,9 @@ author:
   name: rubenfiszel
   url: https://news.ycombinator.com/item?id=44762613
 ---
+
+<JobNavigation />
+
 Windmill.dev (YC S22) - Software Engineers - Paris (ONSITE 3d&#x2F;wk) - Full-time
 
 Fastest open-source workflow engine built in Rust + Svelte. 300+ Enterprise customers. Profitable with a lean team of 9 engineers.

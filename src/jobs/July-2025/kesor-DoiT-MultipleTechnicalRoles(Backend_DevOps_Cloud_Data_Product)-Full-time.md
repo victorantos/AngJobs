@@ -4,6 +4,9 @@ author:
   name: kesor
   url: https://news.ycombinator.com/item?id=44442024
 ---
+
+<JobNavigation />
+
 DoiT - Multiple Technical Roles (Backend, DevOps, Cloud, Data, Product) - REMOTE (Global: US, EU, UK, JP) - Full-time - <a href="https:&#x2F;&#x2F;grnh.se&#x2F;3b64cb7a3us" rel="nofollow">https:&#x2F;&#x2F;grnh.se&#x2F;3b64cb7a3us</a>
 
 <a href="https:&#x2F;&#x2F;Doit.com" rel="nofollow">https:&#x2F;&#x2F;Doit.com</a> is a remote-first company helping cloud-native teams thrive. We build platforms and tools to optimize cloud infrastructure (AWS, GCP) and empower developers and data engineers.

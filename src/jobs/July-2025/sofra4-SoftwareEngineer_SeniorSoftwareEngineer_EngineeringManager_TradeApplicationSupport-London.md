@@ -4,6 +4,9 @@ author:
   name: sofra4
   url: https://news.ycombinator.com/item?id=44435398
 ---
+
+<JobNavigation />
+
 GHCO - <a href="https:&#x2F;&#x2F;www.ghco.co.uk&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.ghco.co.uk&#x2F;</a> - Software Engineer, Senior Software Engineer, Engineering Manager, Trade Application Support - London - Hybrid - Full Time
 
 GHCO is an ETF market maker, quoting across European exchanges. We&#x27;re a small team of expert traders and proven software engineers, looking for experienced technologists who have an interest in advancing the state of the art in automated market making. 

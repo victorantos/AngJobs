@@ -4,6 +4,9 @@ author:
   name: brd
   url: https://news.ycombinator.com/item?id=44437157
 ---
+
+<JobNavigation />
+
 lemongrasscloud.com - Senior Kafka Engineer - Hybrid (Chicago)
 
 Lemongrass is a SAP focused consultancy support customers as they look to keep up with SAP&#x27;s &quot;migration to the cloud&quot;.

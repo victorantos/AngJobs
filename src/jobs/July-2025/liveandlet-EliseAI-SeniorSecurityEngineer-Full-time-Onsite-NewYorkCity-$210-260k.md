@@ -4,6 +4,9 @@ author:
   name: liveandlet
   url: https://news.ycombinator.com/item?id=44435587
 ---
+
+<JobNavigation />
+
 EliseAI - <a href="https:&#x2F;&#x2F;eliseai.com" rel="nofollow">https:&#x2F;&#x2F;eliseai.com</a> - Senior Security Engineer - Full-time - Onsite - New York City - $210-260k
 
 EliseAI develops cutting-edge conversational AI technology for industries fundamental to our lives: housing and healthcare.

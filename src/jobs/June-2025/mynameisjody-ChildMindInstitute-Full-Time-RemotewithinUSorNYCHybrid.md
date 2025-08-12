@@ -4,6 +4,9 @@ author:
   name: mynameisjody
   url: https://news.ycombinator.com/item?id=44162174
 ---
+
+<JobNavigation />
+
 Child Mind Institute - Full-Time - Remote within US or NYC Hybrid - <a href="https:&#x2F;&#x2F;childmind.org&#x2F;about-us&#x2F;careers&#x2F;" rel="nofollow">https:&#x2F;&#x2F;childmind.org&#x2F;about-us&#x2F;careers&#x2F;</a>
 Join us in transforming the lives of children struggling with mental health or learning disorders.
 

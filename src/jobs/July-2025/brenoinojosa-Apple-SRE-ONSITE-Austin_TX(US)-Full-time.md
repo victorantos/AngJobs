@@ -4,6 +4,9 @@ author:
   name: brenoinojosa
   url: https://news.ycombinator.com/item?id=44437692
 ---
+
+<JobNavigation />
+
 Apple - SRE - ONSITE - Austin, TX (US) - Full-time
 
 Hiring for an entry-level to mid-level SRE engineer with great SWE foundations. Previous experience being a Dev is a requirement. We work with other Devs on the team as a Platform Engineering team. Looking to grow the team to support additional work required by our partner Dev and QA teams.

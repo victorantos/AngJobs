@@ -4,6 +4,9 @@ author:
   name: nfriedly
   url: https://news.ycombinator.com/item?id=44446894
 ---
+
+<JobNavigation />
+
 Fullstory - Atlanta or Remote (US or Colombia) - <a href="https:&#x2F;&#x2F;www.fullstory.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.fullstory.com&#x2F;</a>
 
 Fullstory provides privacy-preserving session replay and analytics for websites and mobile apps. Our session replays are nothing short of magical - they look almost like a video of the user&#x27;s screen (with private details redacted) - and the combination with analytics creates eye-opening insights.

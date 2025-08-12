@@ -4,6 +4,9 @@ author:
   name: PeopleOpsX
   url: https://news.ycombinator.com/item?id=44438390
 ---
+
+<JobNavigation />
+
 Appwrite - Remote - Platform Engineers, AI, Interns - <a href="https:&#x2F;&#x2F;www.appwrite.careers" rel="nofollow">https:&#x2F;&#x2F;www.appwrite.careers</a>
 
 Appwrite (<a href="https:&#x2F;&#x2F;appwrite.io" rel="nofollow">https:&#x2F;&#x2F;appwrite.io</a>) is an open-source backend platform that helps developers build secure web and mobile apps faster.

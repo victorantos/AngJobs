@@ -4,6 +4,9 @@ author:
   name: hermanradtke
   url: https://news.ycombinator.com/item?id=44438266
 ---
+
+<JobNavigation />
+
 Trove - Senior Engineer - Warehouse Management System - Remote (US) - $140k - $185k + Equity
 
 Trove powers recommerce for Patagonia, On, Canada Goose and many other retailers. We&#x27;re looking for a Senior Engineer to develop our Warehouse Management System that enables circular retail at scale.

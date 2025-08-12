@@ -4,6 +4,9 @@ author:
   name: jadowdl
   url: https://news.ycombinator.com/item?id=44763186
 ---
+
+<JobNavigation />
+
 Prophet Town LLC - Full-Stack Software Engineer; also, Sales and Marketing - REMOTE (US) and Hybrid - English fluency required - Full-time - $150K-$250K annual total comp (multiple)
 
 I’m the founder, trying to do “enlightened business.” We are a people-first, fully-remote, boutique indie tech agency – building a team of talented, high integrity, and community-minded individuals first, then building businesses around them. Our leadership staff are ex-Fortune 100; everybody touches code. Notable recent projects: internal tools for Anduril, and voltagepark.com.

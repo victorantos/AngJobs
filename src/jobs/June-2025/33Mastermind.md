@@ -4,6 +4,9 @@ author:
   name: 33Mastermind
   url: https://news.ycombinator.com/item?id=44164839
 ---
+
+<JobNavigation />
+
 automotiveMastermind is hiring multiple NY based hybrid positions!  We help dealerships sell more cars by predicting and targeting likely buyers.  All roles are full time with benefits:
 
 - Full Stack Software Engineer - NY - <a href="https:&#x2F;&#x2F;spgi.wd5.myworkdayjobs.com&#x2F;en-US&#x2F;aM_Careers&#x2F;details&#x2F;Full-Stack-Software-Engineer_316657" rel="nofollow">https:&#x2F;&#x2F;spgi.wd5.myworkdayjobs.com&#x2F;en-US&#x2F;aM_Careers&#x2F;details&#x2F;...</a>

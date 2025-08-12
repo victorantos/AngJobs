@@ -4,6 +4,9 @@ author:
   name: josh_cutler
   url: https://news.ycombinator.com/item?id=44758985
 ---
+
+<JobNavigation />
+
 Yardstik - <a href="https:&#x2F;&#x2F;www.yardstik.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.yardstik.com&#x2F;</a> - Staff Engineer - Minneapolis or San Francisco (remote possible)
 
 Yardstik is on a mission to reduce workforce risk through tools like background checks, identity verification, fraud monitoring and more.  We are a well capitalized fast growing company based in Minneapolis but with a distributed workforce.

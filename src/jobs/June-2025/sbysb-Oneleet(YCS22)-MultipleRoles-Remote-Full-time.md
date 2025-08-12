@@ -4,6 +4,9 @@ author:
   name: sbysb
   url: https://news.ycombinator.com/item?id=44162390
 ---
+
+<JobNavigation />
+
 Oneleet (YC S22) - Multiple Roles - US &amp; NATO Countries - Remote - Full-time
 
 Oneleet is an all-in-one cybersecurity startup that has built its own Attack Surface Monitoring (ASM), Code Scanner, Device Monitoring, and Compliance Platform. We are growing at an unprecedented pace and working on some very exciting projects.

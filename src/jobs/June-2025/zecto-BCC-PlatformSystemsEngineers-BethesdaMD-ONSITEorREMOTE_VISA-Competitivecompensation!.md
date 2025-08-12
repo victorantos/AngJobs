@@ -4,6 +4,9 @@ author:
   name: zecto
   url: https://news.ycombinator.com/item?id=44161164
 ---
+
+<JobNavigation />
+
 BCC - Platform Systems Engineers - Bethesda MD - ONSITE or REMOTE, VISA - Competitive compensation! - <a href="https:&#x2F;&#x2F;www.ncbi.nlm.nih.gov" rel="nofollow">https:&#x2F;&#x2F;www.ncbi.nlm.nih.gov</a> Black Canyon Consulting (BCC) is hiring Platform Systems Engineers of all levels to join our team at the National Center for Biotechnology Information (NCBI).
 Our team is dedicated to building cutting-edge tools and systems. Our mission is to empower developers across NCBI to build, deploy, and manage software, data, and web services that make a real difference in the lives of millions of Americans.
 

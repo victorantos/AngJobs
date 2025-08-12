@@ -4,6 +4,9 @@ author:
   name: kollmar28
   url: https://news.ycombinator.com/item?id=44162611
 ---
+
+<JobNavigation />
+
 Railway - Product Eng (full stack), Developer Relations, Infra (Platform) eng, Infra eng - Data Centers- REMOTE (International) - <a href="https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;Railway?utm_source=DayMzWzJ0P" rel="nofollow">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;Railway?utm_source=DayMzWzJ0P</a>
 
 Tired of trying to beat kube into shape? Does writing YAML to ship code fill you with utter dread? Dream of a future where deploying software is simple, and you don&#x27;t need an army of infrastructure engineers to build that perfect janky bash script™ to make life easy?

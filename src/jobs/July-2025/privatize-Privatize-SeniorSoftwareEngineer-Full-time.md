@@ -4,6 +4,9 @@ author:
   name: privatize
   url: https://news.ycombinator.com/item?id=44435915
 ---
+
+<JobNavigation />
+
 Privatize - <a href="https:&#x2F;&#x2F;www.privatizegroup.com&#x2F;en&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.privatizegroup.com&#x2F;en&#x2F;</a> - Senior Software Engineer - Full-time - Remote (UK &amp; EU-only)
 
 For over 200 wealth organisations, Privatize isn’t just the place to access Private Equity, Private Credit and Infrastructure funds. It’s the operating system for private markets — from education and fund insights to portfolio design, execution, and compliance. All in favor of delivering more resilient, outperforming client portfolios.

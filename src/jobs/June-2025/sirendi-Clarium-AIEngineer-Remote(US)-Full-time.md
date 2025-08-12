@@ -4,6 +4,9 @@ author:
   name: sirendi
   url: https://news.ycombinator.com/item?id=44165451
 ---
+
+<JobNavigation />
+
 Clarium - AI Engineer - Remote (US) - Full-time - <a href="https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;clarium&#x2F;f92e0604-9ac0-4dd4-b837-9bdfc5cc0c39" rel="nofollow">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;clarium&#x2F;f92e0604-9ac0-4dd4-b837-9bd...</a>
 
 Clarium is building an AI-powered platform to transform hospital operations. Our mission is to accelerate healthcare transformation by automating workflows and surfacing only the high-complexity issues that require human expertise.

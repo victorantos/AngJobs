@@ -4,6 +4,9 @@ author:
   name: RitaSand
   url: https://news.ycombinator.com/item?id=44165274
 ---
+
+<JobNavigation />
+
 Supabase (YC S20) -- Fully Remote &#x2F;&#x2F; Async-first -- Full-time -- supabase.com
 
 Supabase is an open-source, fully remote company building developer tools for Postgres—and now running 3 million+ managed database instances in production. Supabase offers a Postgres database, vector extensions, auth, real-time functionality, storage, restful APIs, and edge functions.

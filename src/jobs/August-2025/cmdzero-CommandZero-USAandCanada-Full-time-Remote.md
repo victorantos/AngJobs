@@ -4,6 +4,9 @@ author:
   name: cmdzero
   url: https://news.ycombinator.com/item?id=44758007
 ---
+
+<JobNavigation />
+
 Command Zero - <a href="https:&#x2F;&#x2F;www.cmdzero.io" rel="nofollow">https:&#x2F;&#x2F;www.cmdzero.io</a> - USA and Canada - Full-time - Remote
 
 Command Zero is looking to revolutionize the way organizations conduct cyber investigations. To date, the founders have participated in six successful cybersecurity acquisitions, including exits to Symantec, McAfee, Sourcefire, and Cisco. Backed by leading tier-1 VCs and dozens of cyber executives and thought leaders, Command Zero is currently hiring.

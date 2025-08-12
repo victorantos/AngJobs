@@ -4,6 +4,9 @@ author:
   name: Amperage0279
   url: https://news.ycombinator.com/item?id=44834694
 ---
+
+<JobNavigation />
+
 Francis - Senior Full-Stack Engineer - Full-Time - ONSITE Copenhagen, Denmark
 Stack keywords: Typescript, React+Tailwind, Node+Express, WebSockets, PostgreSQL.
 

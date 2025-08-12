@@ -4,6 +4,9 @@ author:
   name: aklarfeld
   url: https://news.ycombinator.com/item?id=44159719
 ---
+
+<JobNavigation />
+
 Supergood - Engineering - In-person, San Francisco - Full-Time - <a href="https:&#x2F;&#x2F;supergood.ai" rel="nofollow">https:&#x2F;&#x2F;supergood.ai</a>
 
 Supergood generates and maintains unofficial APIs for products without them. Our customers use our APIs to unlock new customers of their own, and build previously inconceivable features without flaky browser automation nor engineering overhead.

@@ -4,6 +4,9 @@ author:
   name: markbao
   url: https://news.ycombinator.com/item?id=44757796
 ---
+
+<JobNavigation />
+
 Goody - Remote - $200–250K + equity and benefits - Full-time
 
 Goody is hiring a full-stack Staff Software Engineer who likes to ship at a startup pace and has an eye for exceptional UI&#x2F;UX.

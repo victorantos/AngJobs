@@ -4,6 +4,9 @@ author:
   name: philip1209
   url: https://news.ycombinator.com/item?id=44161180
 ---
+
+<JobNavigation />
+
 Chroma - ONSITE - San Francisco - Full-time - <a href="https:&#x2F;&#x2F;trychroma.com" rel="nofollow">https:&#x2F;&#x2F;trychroma.com</a>
 
 Chroma is building the memory layer for AI applications. It&#x27;s an open-source vector database, with multi-environment support from a local DB to a unique serverless architecture. We just launch a re-written version of our product in Rust, and also work in Typescript, Next.js, Go, and Python.

@@ -4,6 +4,9 @@ author:
   name: Nelkins
   url: https://news.ycombinator.com/item?id=44760504
 ---
+
+<JobNavigation />
+
 Nelknet (<a href="https:&#x2F;&#x2F;nelknet.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;nelknet.com&#x2F;</a>) - Senior contractors, frontend and backend - Remote (US &amp; international, but some overlap with clients needed) We&#x27;re a small, experienced team building software solutions for US-based clients. Recent projects include:
 
 - Building ChatGPT-style interfaces for intelligence report analysis

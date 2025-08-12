@@ -4,6 +4,9 @@ author:
   name: GTM_Vic
   url: https://news.ycombinator.com/item?id=44160298
 ---
+
+<JobNavigation />
+
 Minoa.io - Software Engineer - On-site, San Francisco, USA - Full-time - <a href="https:&#x2F;&#x2F;www.minoa.io&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.minoa.io&#x2F;</a> - $160k-$220k + equity
 Join us at Minoa as a senior full-stack engineer and build the software that turns enterprise sales into a multiplayer experience.
 

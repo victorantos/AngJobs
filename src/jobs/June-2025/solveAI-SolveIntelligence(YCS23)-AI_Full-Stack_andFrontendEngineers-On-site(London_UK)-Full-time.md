@@ -4,6 +4,9 @@ author:
   name: solveAI
   url: https://news.ycombinator.com/item?id=44160691
 ---
+
+<JobNavigation />
+
 Solve Intelligence (YC S23) - AI, Full-Stack, and Frontend Engineers - On-site (London, UK) - Full-time
 
 We’re the fastest growing startup building AI products to transform how IP professionals work. We’re building an AI-powered end-to-end platform to help with every aspect of invention harvesting, patent generation, and IP portfolio management.

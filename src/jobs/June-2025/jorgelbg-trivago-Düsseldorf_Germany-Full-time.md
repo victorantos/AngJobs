@@ -4,6 +4,9 @@ author:
   name: jorgelbg
   url: https://news.ycombinator.com/item?id=44162752
 ---
+
+<JobNavigation />
+
 trivago - Düsseldorf, Germany - Onsite&#x2F;hybrid - Full-time - <a href="https:&#x2F;&#x2F;www.trivago.com" rel="nofollow">https:&#x2F;&#x2F;www.trivago.com</a>
 
 trivago is a metasearch engine that compares accommodation offers from many booking sites e.g. independent hotels and online travel agencies.

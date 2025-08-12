@@ -4,6 +4,9 @@ author:
   name: totallyunknown
   url: https://news.ycombinator.com/item?id=44162891
 ---
+
+<JobNavigation />
+
 waipu.tv (EXARING) - <a href="https:&#x2F;&#x2F;www.waipu.tv" rel="nofollow">https:&#x2F;&#x2F;www.waipu.tv</a>  
 Munich, Germany - ONSITE (hybrid 2-3 d&#x2F;w) - Headcount ≈ 120
 

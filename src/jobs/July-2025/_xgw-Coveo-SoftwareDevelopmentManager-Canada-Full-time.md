@@ -4,6 +4,9 @@ author:
   name: _xgw
   url: https://news.ycombinator.com/item?id=44443564
 ---
+
+<JobNavigation />
+
 Coveo - Software Development Manager - Canada - Full-time - Hybrid&#x2F;Remote
 
 At Coveo, we build AI-powered systems that bring hyper-personalization to every enterprise experience — whether it&#x27;s e-commerce, customer service, or internal workplace tools. Our platform unifies relevance across the stack, helping users find what they need, when they need it.

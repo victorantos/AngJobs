@@ -4,6 +4,9 @@ author:
   name: kelsonreiss
   url: https://news.ycombinator.com/item?id=44758754
 ---
+
+<JobNavigation />
+
 Monterra - Remote - Full Time - Sr Full Stack Engineer - <a href="https:&#x2F;&#x2F;monterra.ai" rel="nofollow">https:&#x2F;&#x2F;monterra.ai</a>
 
 We’re building an AI-powered design tool that help electrical contractors plan and win projects. We recently raised a $5m seed to grow the team.

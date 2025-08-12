@@ -4,6 +4,9 @@ author:
   name: eswiac
   url: https://news.ycombinator.com/item?id=44763114
 ---
+
+<JobNavigation />
+
 Brico - San Francisco, CA - ONSITE (Hybrid OK)- Full-Time - <a href="https:&#x2F;&#x2F;www.brico.ai" rel="nofollow">https:&#x2F;&#x2F;www.brico.ai</a>
 
 Brico takes the hassle out of financial licensing for Financial Institutions and FinTechs. We automate new license applications, maintenance, and renewals, creating a 1-stop shop for all licensing needs. Put simply, we are creating from the ground-up dedicated AI-augmented software to manage complex regulatory compliance workflows that used to live in spreadsheets and emails, across all 50+ US jurisdictions.

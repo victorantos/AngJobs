@@ -4,6 +4,9 @@ author:
   name: prashanth_docai
   url: https://news.ycombinator.com/item?id=44161813
 ---
+
+<JobNavigation />
+
 Sharecare - Multiple Roles (Contract) - Remote – South America, Mexico, India, Canada, EU - sharecare.com
 
 ==============

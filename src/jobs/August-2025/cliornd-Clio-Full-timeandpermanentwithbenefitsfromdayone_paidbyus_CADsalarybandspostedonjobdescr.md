@@ -4,6 +4,9 @@ author:
   name: cliornd
   url: https://news.ycombinator.com/item?id=44758408
 ---
+
+<JobNavigation />
+
 Clio - Remote Canada if outside of Toronto, Calgary, or Burnaby. Hybrid 2 days&#x2F;week if local - Full-time and permanent with benefits from day one, paid by us, CAD salary bands posted on job descriptions
 
 Clio is the market leader in legaltech products and we recently raised a Series F round of 1.4 billion CAD to a valuation of 4 billion CAD, marking the largest Canadian tech funding in history (<a href="https:&#x2F;&#x2F;betakit.com&#x2F;clio-tops-4-billion-cad-valuation-with-largest-software-funding-round-in-canadian-tech-history&#x2F;" rel="nofollow">https:&#x2F;&#x2F;betakit.com&#x2F;clio-tops-4-billion-cad-valuation-with-l...</a>)

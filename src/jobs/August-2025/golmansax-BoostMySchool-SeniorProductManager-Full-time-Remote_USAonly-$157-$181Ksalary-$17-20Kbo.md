@@ -4,6 +4,9 @@ author:
   name: golmansax
   url: https://news.ycombinator.com/item?id=44805340
 ---
+
+<JobNavigation />
+
 Boost My School - Senior Product Manager - Full-time - Remote, USA only - $157-$181K salary - $17-20K bonus
 
 Love building a product that improves a user’s life so much that they can’t help but share it with their peers?

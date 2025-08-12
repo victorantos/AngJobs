@@ -4,6 +4,9 @@ author:
   name: nbraga
   url: https://news.ycombinator.com/item?id=44454679
 ---
+
+<JobNavigation />
+
 Chronograph (chronograph.pe) - DevOps Engineer - Full-Time - Remote (US) - $140-160K USD + equity
 
 Chronograph was founded to bring next-generation technology to private capital markets. Through our suite of cloud-based analytics and data management solutions, we help many of the world’s largest and most sophisticated venture capital, private equity, and credit funds understand their investment performance in unprecedented detail.

@@ -4,6 +4,9 @@ author:
   name: sjhewitt
   url: https://news.ycombinator.com/item?id=44436827
 ---
+
+<JobNavigation />
+
 Archera - Senior Data Engineer - REMOTE (US&#x2F;Canada) or Hybrid (Seattle) - Full-time
 
 Archera empowers organizations of all sizes to optimize their cloud costs through unique, short-term, insured GRI (Guaranteed Reserved Instance) and GSP (Guaranteed Savings Plan) commitments.

@@ -4,6 +4,9 @@ author:
   name: elijah_smith
   url: https://news.ycombinator.com/item?id=44763272
 ---
+
+<JobNavigation />
+
 Apollo Agriculture - Full Stack Software Engineer - Full-time - Amsterdam, NL - <a href="https:&#x2F;&#x2F;www.apolloagriculture.com&#x2F;team" rel="nofollow">https:&#x2F;&#x2F;www.apolloagriculture.com&#x2F;team</a>
 Apollo Agriculture (YC F1) is bringing modern farming to the world&#x27;s poorest farmers. Millions of farmers globally don&#x27;t have access to the basic resources the rest of the world depends on for food production: good seed and fertilizer. We sell these on credit, use ML to figure out who we can lend to profitably, and are growing rapidly (two countries and growing).
 

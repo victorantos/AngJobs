@@ -4,6 +4,9 @@ author:
   name: adam-at-tecton
   url: https://news.ycombinator.com/item?id=44437208
 ---
+
+<JobNavigation />
+
 Tecton - <a href="https:&#x2F;&#x2F;tecton.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;tecton.ai&#x2F;</a> - Various roles - Remote (US&#x2F;Canada), or Hybrid (San Francisco&#x2F;New York City&#x2F;Seattle) - Full-time
 
 * About us *

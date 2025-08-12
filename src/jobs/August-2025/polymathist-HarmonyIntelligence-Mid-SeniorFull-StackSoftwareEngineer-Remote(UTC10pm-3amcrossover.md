@@ -4,6 +4,9 @@ author:
   name: polymathist
   url: https://news.ycombinator.com/item?id=44760258
 ---
+
+<JobNavigation />
+
 Harmony Intelligence - Mid-Senior Full-Stack Software Engineer - Remote (UTC 10pm-3am crossover) - $150k-250k + benefits + equity
 
 I&#x27;m Alex, CTO &amp; Co-Founder. We&#x27;ve just raised $3M to build a defensive AI AppSec agent to protect mission-critical software from AI cyberattacks.

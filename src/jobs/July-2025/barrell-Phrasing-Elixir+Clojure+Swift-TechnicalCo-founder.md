@@ -4,6 +4,9 @@ author:
   name: barrell
   url: https://news.ycombinator.com/item?id=44435735
 ---
+
+<JobNavigation />
+
 Phrasing - <a href="https:&#x2F;&#x2F;phrasing.app" rel="nofollow">https:&#x2F;&#x2F;phrasing.app</a> - Elixir + Clojure + Swift - Technical Co-founder - EU REMOTE (Amsterdam&#x2F;Lisbon)
 
 I’m going to be honest with you: I want to be the best in the world at what I do. I’m not there yet, but I know I am willing to put in the hours, and fail as many times as it takes for me to get there.

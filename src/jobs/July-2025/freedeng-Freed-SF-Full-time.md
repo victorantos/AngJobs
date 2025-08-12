@@ -4,6 +4,9 @@ author:
   name: freedeng
   url: https://news.ycombinator.com/item?id=44447602
 ---
+
+<JobNavigation />
+
 Freed - Software Engineers (Fullstack &#x2F; AI), EM &#x2F; Tech Lead Manager, UX Design - SF - <a href="https:&#x2F;&#x2F;getfreed.ai" rel="nofollow">https:&#x2F;&#x2F;getfreed.ai</a> - Full-time
 
 Doctors are overworked, burnt out, and are quitting in masses.

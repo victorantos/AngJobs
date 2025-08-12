@@ -4,6 +4,9 @@ author:
   name: perivamsi
   url: https://news.ycombinator.com/item?id=44758970
 ---
+
+<JobNavigation />
+
 Metabase - <a href="https:&#x2F;&#x2F;metabase.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;metabase.com&#x2F;</a> - REMOTE - Full-time - Backend Engineers, Frontend Engineers, and Engineering Managers
 
 Metabase is an open source (<a href="https:&#x2F;&#x2F;github.com&#x2F;metabase&#x2F;metabase">https:&#x2F;&#x2F;github.com&#x2F;metabase&#x2F;metabase</a>) business intelligence software that lets anyone in your company rummage around in the databases you have. It connects to a number of databases &#x2F; data warehouses (BigQuery, Redshift, Snowflake, Postgres, MySQL, etc).

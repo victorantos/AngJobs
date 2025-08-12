@@ -4,6 +4,9 @@ author:
   name: obviyus
   url: https://news.ycombinator.com/item?id=44166853
 ---
+
+<JobNavigation />
+
 sherl0ck - Junior Developer - Hyderabad, India - Full-time Hybrid
 
 sherl0ck is a small startup building AI applications for businesses with a focus on finance and pharma sectors. We&#x27;re bootstrapped and profitable.

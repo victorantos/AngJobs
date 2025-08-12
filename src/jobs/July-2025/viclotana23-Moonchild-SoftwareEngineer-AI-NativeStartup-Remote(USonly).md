@@ -4,6 +4,9 @@ author:
   name: viclotana23
   url: https://news.ycombinator.com/item?id=44467567
 ---
+
+<JobNavigation />
+
 Moonchild - Software Engineer - AI-Native Startup - Remote (US only)
 
 We&#x27;re building the future of product design in this new AI world. We&#x27;re early stage, fast-moving, and building something that matters with people who move at your pace.

@@ -4,6 +4,9 @@ author:
   name: wizardnh
   url: https://news.ycombinator.com/item?id=44460441
 ---
+
+<JobNavigation />
+
 Microsoft AI - Mountain View, CA, USA - Engineering Manager, Backend Engineer, Machine Learning Engineer - Full Time
 
 We’re a newly formed team inside Microsoft AI (from the Inflection.ai acquisition) building core infrastructure and product capabilities behind Copilot Memory &amp; Personalization — enabling long-term memory, intelligent search, and adaptive user experiences.

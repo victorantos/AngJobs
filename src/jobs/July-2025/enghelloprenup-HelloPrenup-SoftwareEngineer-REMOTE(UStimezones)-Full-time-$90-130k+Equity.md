@@ -4,6 +4,9 @@ author:
   name: enghelloprenup
   url: https://news.ycombinator.com/item?id=44438158
 ---
+
+<JobNavigation />
+
 Hello Prenup - Software Engineer - REMOTE (US timezones) - Full-time - <a href="https:&#x2F;&#x2F;helloprenup.com" rel="nofollow">https:&#x2F;&#x2F;helloprenup.com</a> - $90-130k + Equity
 
 We are driven by our mission to help every couple get on the same page before marriage. We&#x27;re disrupting an archaic industry in the law space. With our product market fit already in place, we’re poised to accelerate our growth.

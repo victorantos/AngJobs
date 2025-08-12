@@ -4,6 +4,9 @@ author:
   name: dasickis
   url: https://news.ycombinator.com/item?id=44440472
 ---
+
+<JobNavigation />
+
 Sarama - On-site (San Francisco, CA) - Full Time - Must have a dog - hello@sarama.ai
 
 *Fullstack Hardware Engineer:* Build smart collar hardware stack - PCBs, 3D printing, battery-efficient firmware. We have prototypes; need you to own hardware so we focus on distribution.  

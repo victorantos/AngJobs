@@ -4,6 +4,9 @@ author:
   name: brianfleming
   url: https://news.ycombinator.com/item?id=44436123
 ---
+
+<JobNavigation />
+
 Meedan - Lead Software Engineer (Machine Learning) - Remote - Full-Time or Contractor - <a href="https:&#x2F;&#x2F;meedan.com" rel="nofollow">https:&#x2F;&#x2F;meedan.com</a>
 
 Meedan is a global nonprofit focused on building open source digital tools and community-led programs that enhance the accessibility, reliability, and distribution of information - when and where people need it most. We also strive to make online ecosystems safer, more inclusive, and more equitable, so that existing pathways for content production and distribution can better serve the needs of all communities, regardless of their location, language, or income.

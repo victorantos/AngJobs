@@ -4,6 +4,9 @@ author:
   name: Zaheer
   url: https://news.ycombinator.com/item?id=44437016
 ---
+
+<JobNavigation />
+
 Levels.fyi - Backend &amp; Frontend Engineer - Remote (India, Open to other countries) - Full-time - <a href="https:&#x2F;&#x2F;www.levels.fyi" rel="nofollow">https:&#x2F;&#x2F;www.levels.fyi</a> - $30-50k USD
 
 Levels.fyi&#x27;s mission is to help every professional build a better career through the most accurate insights and services. We&#x27;re building the future of compensation &amp; hiring by centering ourselves around professionals.

@@ -4,6 +4,9 @@ author:
   name: kdumont
   url: https://news.ycombinator.com/item?id=44165168
 ---
+
+<JobNavigation />
+
 AllSpice - <a href="https:&#x2F;&#x2F;allspice.io&#x2F;" rel="nofollow">https:&#x2F;&#x2F;allspice.io&#x2F;</a> - Boston, MA &#x2F; SF or Remote&#x2F;Hybrid - Full time (US timezones) - Sr.&#x2F;Principal&#x2F;Staff - Golang, Vuejs, Rust
 
 At AllSpice, we&#x27;re building the future of hardware development and collaboration, applying modern software design principles to the hardware industry with revision control, design review, and automated test (think GitHub&#x2F;Bitbucket for hardware). AllSpice is unlocking the next generation of smart vehicles, IOT devices, rockets, medical devices, robotics, and much more.

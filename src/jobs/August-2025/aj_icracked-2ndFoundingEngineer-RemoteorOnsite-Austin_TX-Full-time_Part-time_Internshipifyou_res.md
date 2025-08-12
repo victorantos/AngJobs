@@ -4,7 +4,10 @@ author:
   name: aj_icracked
   url: https://news.ycombinator.com/item?id=44764006
 ---
-Coop (<a href="https:&#x2F;&#x2F;smart.coop.farm" rel="nofollow">https:&#x2F;&#x2F;smart.coop.farm</a>)- 2nd Founding Engineer - Remote or Onsite - Austin, TX - Full-time, Part-time, Internship if you’re scrappy
+
+<JobNavigation />
+
+Coop (<a href="https:&#x2F;&#x2F;smart.coop.farm" rel="nofollow">https:&#x2F;&#x2F;smart.coop.farm</a>)- 2nd Founding Engineer - Remote or Onsite - Austin, TX - Full-time, Part-time, Internship if you're scrappy
 
 My name is AJ Forsythe and I&#x27;m the Founder &#x2F; Chief Chicken Tender at Coop! We&#x27;re an Austin TX based company on a mission to build the world’s largest decentralized food production network, starting with AI powered chicken Coops.  We’ve been in the market for about 18 months and our customers are in 48 states and will generate about &gt;5M eggs this year. It&#x27;s insanely fun to work on and we have a shot at building a huge business in the connected urban farming space. If you’re big into computer vision, consumer products that are fun, and an awesome team we would love to chat. The Coop has an automatic door + cameras doing computer vision work (predator detection, egg alerts, remote health monitoring, etc). It&#x27;s a super exciting time and are seeing directional product market fit which I&#x27;m thrilled about. Seriously go check out our website, it&#x27;s a super fun + amazing product.
 

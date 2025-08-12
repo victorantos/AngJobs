@@ -4,6 +4,9 @@ author:
   name: breezyryan
   url: https://news.ycombinator.com/item?id=44759816
 ---
+
+<JobNavigation />
+
 Breezy - Product Engineer (Fullstack) - Remote (US) - Full-time - $175k–200k + Equity - <a href="https:&#x2F;&#x2F;www.getbreezyapp.com" rel="nofollow">https:&#x2F;&#x2F;www.getbreezyapp.com</a>
 
 Breezy is modern field service software purpose-built for residential HVAC companies. We combine thoughtful product design, tight customer feedback loops, and best-in-class technology, including LLMs when they’re the right tool for the job, to help contractors grow, streamline operations, and run world-class businesses. We’re already replacing legacy systems like ServiceTitan and Housecall Pro.

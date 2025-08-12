@@ -4,6 +4,9 @@ author:
   name: sebastiennight
   url: https://news.ycombinator.com/item?id=44766108
 ---
+
+<JobNavigation />
+
 OneTake AI (<a href="https:&#x2F;&#x2F;www.onetake.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.onetake.ai&#x2F;</a>) - Full Stack Senior Engineer (React + Node + AI experience) - Fully Remote (CET hours ±4) - Full-time - USD $105,000 - $140,000
 
 Hi there, I’m a cofounder of a remote AI startup, reimagining video editing with AI agents. We’re small, friendly, and flat in structure, and we place a high value on autonomy, initiative, and embracing complex challenges.

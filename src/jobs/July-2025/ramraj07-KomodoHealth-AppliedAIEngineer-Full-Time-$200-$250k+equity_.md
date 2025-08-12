@@ -4,6 +4,9 @@ author:
   name: ramraj07
   url: https://news.ycombinator.com/item?id=44436399
 ---
+
+<JobNavigation />
+
 Komodo Health - Applied AI Engineer - Full-Time - $200-$250k + equity... - SF On-site &#x2F; Remote US
 
 Healthcare in the U.S. is a mess. Komodo Health is fixing that—with data. We’ve mapped the patient journey across the country to build the most complete picture of disease burden and treatment gaps. Our customers are pharma, payers, and health systems who actually want to do something meaningful with that information.

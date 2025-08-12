@@ -4,6 +4,9 @@ author:
   name: thomas_witt
   url: https://news.ycombinator.com/item?id=44766963
 ---
+
+<JobNavigation />
+
 Vendis - Senior Ruby on Rails Developer - REMOTE (EU preferred, US ok) - Full-time
 
 • Post-MVP AI-powered B2B SaaS; serial founder-built &amp; self-funded (pre-angel&#x2F;VC), first customers onboarding – hiring employee #2. Modernizing a software category every company needs.

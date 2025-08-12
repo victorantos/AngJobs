@@ -4,6 +4,9 @@ author:
   name: bploetz
   url: https://news.ycombinator.com/item?id=44760349
 ---
+
+<JobNavigation />
+
 Ground Signal - Remote (US only) - Multiple Roles - Full Time - <a href="https:&#x2F;&#x2F;groundsignal.ai" rel="nofollow">https:&#x2F;&#x2F;groundsignal.ai</a>
 
 Ground Signal uses social analytics and AI to help suppliers in the alcohol industry optimize sales. Our platform processes billions of records and delivers insights through a robust SaaS product used by top-tier analysts and global brands.

@@ -4,6 +4,9 @@ author:
   name: enmity
   url: https://news.ycombinator.com/item?id=44787734
 ---
+
+<JobNavigation />
+
 EVgo - Multiple Roles - Remote (US) - Full-time
 
 EVgo (Nasdaq: EVGO) is one of the nation’s leading public fast charging providers. With more than 1,100 fast charging stations across over 40 states, EVgo strategically deploys localized and accessible charging infrastructure by partnering with leading businesses across the U.S., including retailers, grocery stores, restaurants, shopping centers, gas stations, rideshare operators, and autonomous vehicle companies. At its dedicated Innovation Lab, EVgo performs extensive interoperability testing and has ongoing technical collaborations with leading automakers and industry partners to advance the EV charging industry and deliver a seamless charging experience.

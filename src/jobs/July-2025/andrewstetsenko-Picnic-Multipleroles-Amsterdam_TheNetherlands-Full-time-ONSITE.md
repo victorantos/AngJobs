@@ -4,6 +4,9 @@ author:
   name: andrewstetsenko
   url: https://news.ycombinator.com/item?id=44441917
 ---
+
+<JobNavigation />
+
 Picnic - Multiple roles - Amsterdam, The Netherlands - Full-time - ONSITE - Visa Sponsorship &amp; Relocation Support
 
 Take the lead on projects that power Europe&#x27;s most advanced grocery delivery tech. And without the grind of Big Tech or chaos of early-stage startups.

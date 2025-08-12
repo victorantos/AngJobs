@@ -4,6 +4,9 @@ author:
   name: pambeardsell
   url: https://news.ycombinator.com/item?id=44819156
 ---
+
+<JobNavigation />
+
 Yuzu Health - <a href="https:&#x2F;&#x2F;yuzu.health" rel="nofollow">https:&#x2F;&#x2F;yuzu.health</a> - Founding Pricing Engineer - New York, NY - ONSITE
 
 At Yuzu, we’re building the next-generation health insurance company. We are NOT building a digital brokerage or an AI wrapper, we&#x27;re fixing health insurance from the ground up -- starting with administration. We have a small, highly capable team currently serving 10,000+ members, and we&#x27;re looking for a data oriented engineer to define how we price and pay for healthcare.

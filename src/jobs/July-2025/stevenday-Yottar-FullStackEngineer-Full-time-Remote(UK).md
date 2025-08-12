@@ -4,6 +4,9 @@ author:
   name: stevenday
   url: https://news.ycombinator.com/item?id=44444620
 ---
+
+<JobNavigation />
+
 Yottar - Full Stack Engineer - Full-time - Remote (UK)
 
 Yottar is a startup on a mission to speed up the shift to clean energy. We’re building a SaaS platform that helps energy developers figure out where they can connect new infrastructure - like EV chargers, batteries, or solar - to the electricity grid. The team today is three co-founders and we have just raised our first funding round primarily to increase the size of our tech team, so that we can accelerate our platform development.

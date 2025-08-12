@@ -4,6 +4,9 @@ author:
   name: bredren
   url: https://news.ycombinator.com/item?id=44159531
 ---
+
+<JobNavigation />
+
 Eclypsium - Portland, OR (USA) &amp; Córdoba (ARGENTINA) - ONSITE &#x2F; HYBRID - Full-time
 
 We build supply-chain security that protects every device from chip to cloud.

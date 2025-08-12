@@ -4,6 +4,9 @@ author:
   name: burnaway
   url: https://news.ycombinator.com/item?id=44766635
 ---
+
+<JobNavigation />
+
 Privacy-focused AI Project - Founding Engineer - Remote - Europe (UTC-1 to UTC+3) - Full-time - Base salary + Up to 4% equity
 
 We are building a truly private, open-source LLM gateway with outstanding user experience to address privacy problems around using LLMs. When we interact with AI-based services, we face the fundamental tension between utility and privacy. Current solutions to this problem are inadequate, so we are ready to build what we couldn&#x27;t find.

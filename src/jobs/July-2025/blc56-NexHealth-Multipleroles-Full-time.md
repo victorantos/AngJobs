@@ -4,6 +4,9 @@ author:
   name: blc56
   url: https://news.ycombinator.com/item?id=44436160
 ---
+
+<JobNavigation />
+
 NexHealth - Multiple roles - Hybrid(SF&#x2F;Seattle) - Full-time - <a href="https:&#x2F;&#x2F;www.nexhealth.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.nexhealth.com&#x2F;</a>
 
 *NexHealth is like Uber before ride sharing was a thing but for healthcare experiences*

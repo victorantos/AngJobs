@@ -4,6 +4,9 @@ author:
   name: Toddward
   url: https://news.ycombinator.com/item?id=44759839
 ---
+
+<JobNavigation />
+
 Saildrone - Multiple Roles - Onsite&#x2F;Hybrid (US Only) - SF Bay Area (Alameda) - Full-Time - <a href="https:&#x2F;&#x2F;www.saildrone.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.saildrone.com&#x2F;</a>
 
 Saildrone is the world&#x27;s leading collector of ocean related in situ data via uncrewed vehicle, above and below the sea surface. We work with governments, civic agencies, foundations, universities, and private companies around the globe to derive better information about our oceans and seas - be it sailing drones into the eye of hurricanes to obtain new scientific storm data, mapping out the ocean floor, collecting new CO2 data in hard-to-reach areas, counting biomass to establish fishing quotas, or detecting and stopping illegal fishing and drug trafficking.

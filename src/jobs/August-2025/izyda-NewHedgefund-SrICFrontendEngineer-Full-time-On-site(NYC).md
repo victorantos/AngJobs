@@ -4,6 +4,9 @@ author:
   name: izyda
   url: https://news.ycombinator.com/item?id=44771323
 ---
+
+<JobNavigation />
+
 New Hedge fund - Sr IC Frontend Engineer - Full-time - On-site (NYC)
 
 We are a new discretionary, tech industry focused L&#x2F;S hedge fund, founded by a portfolio manager with 15+ years of experience at a well known Tiger Cub. I lead the data&#x2F;technology team here and previously spent ~6 years in a similar role at that firm as well. We are not the only ones trying to figure out how to use AI in investing but in a world where there are lots of people trying to build picks &amp; shovels, this is an opportunity to be one of the goldminers at a greenfield, new firm. This role makes sense for people who are interested in finance&#x2F;investing (although you do not necessarily have to have experience in the industry).

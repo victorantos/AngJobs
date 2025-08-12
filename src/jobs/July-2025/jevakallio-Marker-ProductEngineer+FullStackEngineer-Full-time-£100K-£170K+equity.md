@@ -4,6 +4,9 @@ author:
   name: jevakallio
   url: https://news.ycombinator.com/item?id=44441843
 ---
+
+<JobNavigation />
+
 Marker - Product Engineer + Full Stack Engineer - Onsite&#x2F;Hybrid, London, UK - Full-time - <a href="https:&#x2F;&#x2F;writewithmarker.com&#x2F;jobs" rel="nofollow">https:&#x2F;&#x2F;writewithmarker.com&#x2F;jobs</a> - £100K - £170K + equity
 
 Marker is an AI-native Word Processor – a reimagining of Google Docs and Microsoft Word.

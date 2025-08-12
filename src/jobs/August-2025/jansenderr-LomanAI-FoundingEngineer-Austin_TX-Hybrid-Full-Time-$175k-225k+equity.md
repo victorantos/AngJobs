@@ -4,6 +4,9 @@ author:
   name: jansenderr
   url: https://news.ycombinator.com/item?id=44777784
 ---
+
+<JobNavigation />
+
 Loman AI - Founding Engineer - Austin, TX - Hybrid - Full-Time - $175k - 225k + equity - <a href="https:&#x2F;&#x2F;loman.ai" rel="nofollow">https:&#x2F;&#x2F;loman.ai</a>
 
 -----------------------------------------------------------------------------------------------------------------------

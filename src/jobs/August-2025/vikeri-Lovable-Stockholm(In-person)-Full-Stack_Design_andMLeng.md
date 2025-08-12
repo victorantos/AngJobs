@@ -4,6 +4,9 @@ author:
   name: vikeri
   url: https://news.ycombinator.com/item?id=44761620
 ---
+
+<JobNavigation />
+
 Lovable - Stockholm (In-person) - Full-Stack, Design, and ML eng
 
 We sponsor visas and have very generous relocation packages (even if you just want to come for a year).

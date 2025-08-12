@@ -4,6 +4,9 @@ author:
   name: nicholasjbs
   url: https://news.ycombinator.com/item?id=44761866
 ---
+
+<JobNavigation />
+
 Recurse Center (YC S10) - Career Facilitator &#x2F; Full-Cycle Recruiter - Onsite - Brooklyn - Full-time - $70-135k + good benefits
 
 We operate a programming retreat with an integrated recruiting agency.

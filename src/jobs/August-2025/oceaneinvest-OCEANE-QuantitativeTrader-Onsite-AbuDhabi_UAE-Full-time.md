@@ -4,6 +4,9 @@ author:
   name: oceaneinvest
   url: https://news.ycombinator.com/item?id=44760363
 ---
+
+<JobNavigation />
+
 OCEANE - Quantitative Trader - Onsite - Abu Dhabi, UAE - Full-time - <a href="https:&#x2F;&#x2F;www.oceaneinvest.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.oceaneinvest.com&#x2F;</a>
 
 OCEANE is a proprietary trading firm focused on ETFs and equities across GCC and global markets. We specialize in market making and quantitative strategies, powered by our in-house systems.

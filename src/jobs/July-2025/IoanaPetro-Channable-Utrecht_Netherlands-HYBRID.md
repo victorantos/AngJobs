@@ -4,6 +4,9 @@ author:
   name: IoanaPetro
   url: https://news.ycombinator.com/item?id=44436731
 ---
+
+<JobNavigation />
+
 Channable - Utrecht, Netherlands - HYBRID
 
 Channable is a fast-growing B2B SaaS platform that offers a fully integrated way to market your products online. We empower marketers and online businesses to manage, scale, and optimize their marketing.

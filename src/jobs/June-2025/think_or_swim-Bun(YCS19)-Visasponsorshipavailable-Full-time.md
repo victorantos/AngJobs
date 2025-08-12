@@ -4,6 +4,9 @@ author:
   name: think_or_swim
   url: https://news.ycombinator.com/item?id=44164766
 ---
+
+<JobNavigation />
+
 Bun (YC S19) - <a href="https:&#x2F;&#x2F;bun.sh" rel="nofollow">https:&#x2F;&#x2F;bun.sh</a> - San Francisco, CA; on-site - Visa sponsorship available - Full-time
 
 Bun is an incredibly fast all-in-one toolkit for building, installing, running, and testing JavaScript and TypeScript. We were born out of frustration with the fragmented, slow JavaScript ecosystem and are on a mission to make JavaScript development faster and more productive.

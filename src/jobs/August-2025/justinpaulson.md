@@ -4,6 +4,9 @@ author:
   name: justinpaulson
   url: https://news.ycombinator.com/item?id=44787634
 ---
+
+<JobNavigation />
+
 Aha! (<a href="https:&#x2F;&#x2F;www.aha.io" rel="nofollow">https:&#x2F;&#x2F;www.aha.io</a>) - Rails &#x2F; React &#x2F; Devops - REMOTE
 Aha! is the #1 tool for product managers to plan strategy and roadmaps. We serve more than 700,000 users worldwide. We are looking for:
 

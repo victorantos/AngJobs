@@ -4,6 +4,9 @@ author:
   name: blef
   url: https://news.ycombinator.com/item?id=44161629
 ---
+
+<JobNavigation />
+
 nao Labs - [Staff, Senior] AI Engineer - Paris or remote (Europe) - Python, Typescript, React
 
 We are building Cursor for data teams. Using nao, data practitioners can work on data pipelines using AI faster without breaking stuff. nao connects to your data warehouse &#x2F; lake and helps users give the correct data context to the AI so it does not hallucinate.

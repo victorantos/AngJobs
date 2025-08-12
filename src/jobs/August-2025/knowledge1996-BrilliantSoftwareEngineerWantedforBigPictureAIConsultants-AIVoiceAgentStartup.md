@@ -4,6 +4,9 @@ author:
   name: knowledge1996
   url: https://news.ycombinator.com/item?id=44759426
 ---
+
+<JobNavigation />
+
 Brilliant Software Engineer Wanted for Big Picture AI Consultants - AI Voice Agent Startup
 
 About Us:

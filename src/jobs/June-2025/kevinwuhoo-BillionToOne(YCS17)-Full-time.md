@@ -4,6 +4,9 @@ author:
   name: kevinwuhoo
   url: https://news.ycombinator.com/item?id=44164613
 ---
+
+<JobNavigation />
+
 BillionToOne (YC S17) - Menlo Park, CA; on-site or hybrid (US only) - Full-time
 
 BillionToOne is ranked at the top 5% of Y Combinator companies with close to $400M in funding. In June 2024, we closed a $130M Series D resulting in a company valuation of over $1 billion. This funding has come from prestigious global institutional investors, including Hummingbird, Adams Street Partners, Neuberger Berman, Baillie Gifford, and Premji Invest.

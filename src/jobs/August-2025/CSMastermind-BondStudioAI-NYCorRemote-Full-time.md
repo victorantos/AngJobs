@@ -4,6 +4,9 @@ author:
   name: CSMastermind
   url: https://news.ycombinator.com/item?id=44757997
 ---
+
+<JobNavigation />
+
 Bond Studio AI - NYC or Remote - Full-time
 
 Bond Studio transforms the physical world into a real-time 3D environment built for commerce. Our spatial engine leverages state-of-the-art CV+AI tech and is already being used across industries – from boutique shops to Fortune 50 enterprises. We’re currently in stealth, have a team of ~18 engineers, and are backed by Tier 1 institutional investors.

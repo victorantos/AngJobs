@@ -4,6 +4,9 @@ author:
   name: GabrielBianconi
   url: https://news.ycombinator.com/item?id=44438616
 ---
+
+<JobNavigation />
+
 TensorZero - <a href="https:&#x2F;&#x2F;github.com&#x2F;tensorzero&#x2F;tensorzero">https:&#x2F;&#x2F;github.com&#x2F;tensorzero&#x2F;tensorzero</a> - Founding Member of Technical Staff - NYC (onsite) - Full-time
 
 TensorZero is an open-source stack for industrial-grade LLM applications. It unifies an LLM gateway, observability, optimization, evaluation, and experimentation.

@@ -4,6 +4,9 @@ author:
   name: Dsuniga14
   url: https://news.ycombinator.com/item?id=44439138
 ---
+
+<JobNavigation />
+
 Oscilar.com - Sr&#x2F;Staff Software Engineers - REMOTE (US&#x2F;Canada&#x2F;UK) - Full-time
 
 AI Risk Decisioning™ platform that helps organizations manage onboarding, fraud, credit, and compliance risks

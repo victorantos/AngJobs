@@ -4,6 +4,9 @@ author:
   name: mvesto
   url: https://news.ycombinator.com/item?id=44162579
 ---
+
+<JobNavigation />
+
 Vesto - Engineer #2 - Remote (NY preferred) - Full-Time - $120K–$180K - vesto.com
 
 - We’re building a finance &#x2F; cash operating system

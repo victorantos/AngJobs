@@ -4,6 +4,9 @@ author:
   name: jmeyers44
   url: https://news.ycombinator.com/item?id=44162265
 ---
+
+<JobNavigation />
+
 Agentio - Senior Software Engineer - On-site (Brooklyn, NY) - Full-time - <a href="https:&#x2F;&#x2F;www.agentio.com" rel="nofollow">https:&#x2F;&#x2F;www.agentio.com</a> - $150k–225k + Equity
 
 Agentio is AI-native platform enabling brands like Bombas, DoorDash, and HelloFresh to scale revenue through creator-led advertising—and empowering creators to monetize more efficiently.

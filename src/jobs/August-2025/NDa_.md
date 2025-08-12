@@ -4,6 +4,9 @@ author:
   name: NDa_
   url: https://news.ycombinator.com/item?id=44786196
 ---
+
+<JobNavigation />
+
 Voltquant(<a href="https:&#x2F;&#x2F;www.voltquant.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.voltquant.com&#x2F;</a>) is building an AI-powered platform for engineering firms, utilities, and infrastructure companies. We help teams process technical data more efficiently, automate complex workflows, and make informed decisions using AI.
 
 We’re seeking engineers who want to build real-world AI tools that address industry challenges—working with data from large-scale infrastructure to ML-powered document intelligence.

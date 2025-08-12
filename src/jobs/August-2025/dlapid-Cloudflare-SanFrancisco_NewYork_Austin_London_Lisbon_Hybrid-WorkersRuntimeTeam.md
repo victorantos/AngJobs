@@ -4,6 +4,9 @@ author:
   name: dlapid
   url: https://news.ycombinator.com/item?id=44761026
 ---
+
+<JobNavigation />
+
 Cloudflare - San Francisco, New York, Austin, London, Lisbon, Hybrid - Workers Runtime Team
 
 We&#x27;re building the serverless platform that powers millions of developers at the edge. Looking for passionate engineers to shape the future of edge computing.

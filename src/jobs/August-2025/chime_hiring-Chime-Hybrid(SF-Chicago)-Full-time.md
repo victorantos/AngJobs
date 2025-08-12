@@ -4,6 +4,9 @@ author:
   name: chime_hiring
   url: https://news.ycombinator.com/item?id=44790199
 ---
+
+<JobNavigation />
+
 Chime - Engineering Manager &amp; Staff Engineer, Machine Learning Platform - Hybrid (SF - Chicago) - Full-time
 
 At Chime, we’re building the ML platform that powers real-time decisions across fraud, risk, personalization, and growth. We’re hiring for both an Engineering Manager and a Staff Engineer to help lead and grow this critical part of our infra.

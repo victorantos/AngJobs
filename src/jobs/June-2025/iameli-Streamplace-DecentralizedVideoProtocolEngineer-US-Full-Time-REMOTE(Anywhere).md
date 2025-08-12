@@ -4,6 +4,9 @@ author:
   name: iameli
   url: https://news.ycombinator.com/item?id=44161389
 ---
+
+<JobNavigation />
+
 Streamplace - Decentralized Video Protocol Engineer - US - Full-Time - REMOTE (Anywhere)
 
 Streamplace is building open-source live video for Bluesky&#x27;s AT Protocol as part of our mission to solve video for everybody forever. We&#x27;ve recently raised ~$500,000 from the Livepeer Treasury and are building our founding team.

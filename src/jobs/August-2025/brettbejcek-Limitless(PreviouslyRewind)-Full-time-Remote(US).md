@@ -4,6 +4,9 @@ author:
   name: brettbejcek
   url: https://news.ycombinator.com/item?id=44785783
 ---
+
+<JobNavigation />
+
 Limitless (Previously Rewind) - Full-time - Remote (US) - <a href="https:&#x2F;&#x2F;limitless.ai" rel="nofollow">https:&#x2F;&#x2F;limitless.ai</a>
 
 At Limitless, our vision is to free the human mind from its biological limits. We build software and hardware that captures what you see, say, and hear and makes it useful. Our investors include Sam Altman, Alexis Ohanian, a16z, First Round, NEA, and many others. We are a well-funded, 20-person, remote-first startup.

@@ -4,6 +4,9 @@ author:
   name: jamesbrady
   url: https://news.ycombinator.com/item?id=44160799
 ---
+
+<JobNavigation />
+
 Elicit - San Francisco + remote (US timezones) - <a href="https:&#x2F;&#x2F;elicit.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;elicit.com&#x2F;careers</a>
 
 Elicit is an AI research assistant that uses language models to help researchers figure out what’s true and make better decisions. We scaled to &gt;$6MM annual revenue and 450k MAU *fast*. We&#x27;re hiring for multiple roles and are primarily interested in people with early-stage company experience, who are comfortable in high-agency, fast-paced teams.

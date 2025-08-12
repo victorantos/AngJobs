@@ -4,6 +4,9 @@ author:
   name: a_tessellator
   url: https://news.ycombinator.com/item?id=44820766
 ---
+
+<JobNavigation />
+
 Atomic Tessellator (<a href="https:&#x2F;&#x2F;atomictessellator.com" rel="nofollow">https:&#x2F;&#x2F;atomictessellator.com</a>) - Front End Engineer - Location: Remote - Full-time - Salary: dependent on experience - seniors preferred
 
 We are a materials science company with a small, highly dedicated team. We are looking for a truly great front-end engineer to design and implement intuitive interfaces for scientific applications.

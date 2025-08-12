@@ -4,6 +4,9 @@ author:
   name: bobbiechen
   url: https://news.ycombinator.com/item?id=44760424
 ---
+
+<JobNavigation />
+
 Stytch - Hiring a Designer and Software Engineers - ONSITE &#x2F; HYBRID in San Francisco, California - <a href="https:&#x2F;&#x2F;stytch.com" rel="nofollow">https:&#x2F;&#x2F;stytch.com</a>
 
 About us: Stytch is the identity platform for humans &amp; AI agents. We&#x27;re making it easy to build authentication, authorization, and security + fraud prevention for both humans and AI agents.

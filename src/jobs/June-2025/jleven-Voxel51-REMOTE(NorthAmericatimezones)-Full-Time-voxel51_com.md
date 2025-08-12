@@ -4,6 +4,9 @@ author:
   name: jleven
   url: https://news.ycombinator.com/item?id=44160054
 ---
+
+<JobNavigation />
+
 Voxel51 - REMOTE (North America time zones) - Full-Time - voxel51.com
 
 We’re the team behind FiftyOne, the leading open-source toolkit for building visual AI. FiftyOne is used worldwide by Fortune 500 companies, startups, and research labs to curate datasets, debug models, and build the next generation of production-ready AI.

@@ -4,6 +4,9 @@ author:
   name: etaioinshrdlu
   url: https://news.ycombinator.com/item?id=44439907
 ---
+
+<JobNavigation />
+
 DeepAI - Software Engineer (Full Stack, Django, AWS) - Remote - Contract (W2 or 1099) - Ongoing
 
 DeepAI is the all-in-one creative AI platform: generate images, edit photos, chat with AI (web browsing, voice), create videos and music, all in your browser. We focus on accessibility, affordability, and fun.

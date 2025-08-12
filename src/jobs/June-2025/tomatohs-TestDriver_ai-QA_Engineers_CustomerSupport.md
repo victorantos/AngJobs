@@ -4,6 +4,9 @@ author:
   name: tomatohs
   url: https://news.ycombinator.com/item?id=44161280
 ---
+
+<JobNavigation />
+
 TestDriver.ai - <a href="https:&#x2F;&#x2F;testdriver.ai" rel="nofollow">https:&#x2F;&#x2F;testdriver.ai</a> - QA, Engineers, Customer Support - Austin &#x2F; Remote - Full-time &#x2F; Part Time
 95% of companies are still wasting time manually testing due to shortcomings in Playwright, Cypress, and other frameworks. Developers rank testing as the #1 blocker to release.
 

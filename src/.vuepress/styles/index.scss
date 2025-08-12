@@ -350,3 +350,120 @@ html.dark {
   font-weight: 400;
   margin-left: 12px;
 }
+
+// Simplified month page header styles
+.jobs-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--angjobs-bg-main, #f6f6ef);
+  border: 1px solid var(--angjobs-border, #e5e7eb);
+  border-radius: var(--angjobs-border-radius, 12px);
+  padding: 20px 24px;
+  margin: 24px 0;
+  
+  .jobs-count {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--angjobs-text-primary, #1a1a1a);
+  }
+  
+  .search-all-button {
+    background: var(--angjobs-primary, #ff6600);
+    color: white;
+    padding: 12px 24px;
+    border-radius: var(--angjobs-border-radius, 8px);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.2s ease;
+    
+    &:hover {
+      background: var(--angjobs-primary-dark, #e55500);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(255, 102, 0, 0.3);
+    }
+  }
+  
+  // Mobile responsive
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    
+    .search-all-button {
+      width: 100%;
+      display: block;
+      text-align: center;
+    }
+  }
+}
+
+// Featured jobs section styles
+.featured-jobs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+  margin: 24px 0;
+  
+  .featured-job {
+    background: var(--angjobs-bg-main, #f6f6ef);
+    border: 1px solid var(--angjobs-border, #e5e7eb);
+    border-radius: var(--angjobs-border-radius, 8px);
+    padding: 16px;
+    transition: all 0.2s ease;
+    
+    &:hover {
+      background: white;
+      border-color: var(--angjobs-primary, #ff6600);
+      box-shadow: 0 2px 8px rgba(255, 102, 0, 0.1);
+      transform: translateY(-1px);
+    }
+    
+    h3 {
+      margin: 0 0 8px 0;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.3;
+      
+      a {
+        color: var(--angjobs-text-primary, #1a1a1a);
+        text-decoration: none;
+        
+        &:hover {
+          color: var(--angjobs-primary, #ff6600);
+        }
+      }
+    }
+    
+    .job-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 13px;
+      margin-top: 8px;
+      
+      span {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        color: var(--angjobs-text-secondary, #666);
+      }
+      
+      .company {
+        font-weight: 500;
+        color: var(--angjobs-text-primary, #374151);
+      }
+    }
+  }
+  
+  // Mobile responsive
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    
+    .featured-job {
+      padding: 14px;
+    }
+  }
+}

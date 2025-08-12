@@ -4,6 +4,9 @@ author:
   name: gerad
   url: https://news.ycombinator.com/item?id=44435564
 ---
+
+<JobNavigation />
+
 Gladly - Remote (US, Colombia, Argentina) - Staff Software Engineer, AI &amp; Automation - $156k–$215k + Equity - <a href="https:&#x2F;&#x2F;www.gladly.ai&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;www.gladly.ai&#x2F;careers</a>
 
 Gladly is at the forefront of building retail e-commerce AI. Our AI is live in production with customer-centric brands like Crate &amp; Barrel, Ulta Beauty, and Allbirds. We have the ingredients that make AI work: rich data, close customer partnerships, and a strong engineering culture.

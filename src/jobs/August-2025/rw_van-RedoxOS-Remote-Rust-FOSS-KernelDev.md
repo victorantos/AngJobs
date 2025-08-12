@@ -4,6 +4,9 @@ author:
   name: rw_van
   url: https://news.ycombinator.com/item?id=44833275
 ---
+
+<JobNavigation />
+
 Redox OS - Remote - Rust - FOSS - Kernel Dev
 
 Redox OS is a Unix-like general-purpose microkernel-based operating system written in Rust, aiming to be a complete alternative to Linux and BSD. It is community developed and MIT licensed.

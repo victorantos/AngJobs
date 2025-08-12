@@ -4,6 +4,9 @@ author:
   name: chuckblake
   url: https://news.ycombinator.com/item?id=44864660
 ---
+
+<JobNavigation />
+
 LEA — Founding Engineer — Hybrid NYC (2–3 days&#x2F;week onsite) — Salary + Equity
 
 Early stage Rails engineer wanted to build AI-driven enterprise wealth tools in NYC. Founding role, high ownership, direct impact.

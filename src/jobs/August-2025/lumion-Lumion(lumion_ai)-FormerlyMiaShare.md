@@ -4,6 +4,9 @@ author:
   name: lumion
   url: https://news.ycombinator.com/item?id=44762338
 ---
+
+<JobNavigation />
+
 Lumion (lumion.ai) - Formerly Mia Share - REMOTE (US&#x2F;Canada) - Senior Software Engineer – PHP&#x2F;Laravel
 
 Apply: <a href="https:&#x2F;&#x2F;jobs.polymer.co&#x2F;mia-share&#x2F;35339" rel="nofollow">https:&#x2F;&#x2F;jobs.polymer.co&#x2F;mia-share&#x2F;35339</a>

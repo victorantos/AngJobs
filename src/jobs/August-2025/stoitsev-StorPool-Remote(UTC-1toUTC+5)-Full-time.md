@@ -4,6 +4,9 @@ author:
   name: stoitsev
   url: https://news.ycombinator.com/item?id=44761493
 ---
+
+<JobNavigation />
+
 StorPool - Senior Software Engineer, Storage Core (C&#x2F;Linux) - Remote (UTC-1 to UTC+5) - Full-time
 
 StorPool is a profitable, self-funded company building one of the fastest, most reliable distributed block storage platforms in the world. Our software powers modern clouds with latency under 100µs, up to 113M IOPS per cluster, 99.999% measured availability, and a fantastic customer NPS.

@@ -4,6 +4,9 @@ author:
   name: mintberricrunch
   url: https://news.ycombinator.com/item?id=44436763
 ---
+
+<JobNavigation />
+
 360Me - Founding CTO &amp; iOS Engineer - London &#x2F; UK - Full-time - AI, Precision Health, Aging
 
 We&#x27;re building 360Me: an AI-driven platform that helps people measure and reverse their biological age using diagnostics, wearables, and real-time insights. Backed by clinical validation and a world-class product team, we&#x27;re turning fragmented health data into personalized, impactful action.

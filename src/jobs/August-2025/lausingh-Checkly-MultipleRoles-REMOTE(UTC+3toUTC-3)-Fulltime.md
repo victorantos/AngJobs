@@ -4,6 +4,9 @@ author:
   name: lausingh
   url: https://news.ycombinator.com/item?id=44760289
 ---
+
+<JobNavigation />
+
 Checkly - Multiple Roles - REMOTE (UTC +3 to UTC -3) - Full time - <a href="https:&#x2F;&#x2F;www.checklyhq.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.checklyhq.com&#x2F;</a>
 
 Checkly helps engineers build reliable products by unifying testing, monitoring and observability. OpenTelemetry, Playwright, and Monitoring as Code are our foundation for unifying performance and reliability. In 2024, we raised $20M in Series B funding from Balderton, CRV, and Accel to take things to the next level.

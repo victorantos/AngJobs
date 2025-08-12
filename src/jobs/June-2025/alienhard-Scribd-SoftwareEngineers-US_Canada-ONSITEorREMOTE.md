@@ -4,6 +4,9 @@ author:
   name: alienhard
   url: https://news.ycombinator.com/item?id=44163520
 ---
+
+<JobNavigation />
+
 Scribd - Software Engineers - US, Canada - ONSITE or REMOTE
 
 Scribd is a reading subscription that gives you access to the best books, audiobooks, documents, slide decks, and more. Our mission is to change how the world reads. We have 2M+ paying subscribers. In 2020 we acquired SlideShare. Last year we launched www.everand.com&#x2F;. We are one of the oldest YC startups (YC &#x27;06), operating one of the largest Ruby on Rails sites, serving +200M unique visitors monthly. Learn more about our tech at [<a href="https:&#x2F;&#x2F;tech.scribd.com" rel="nofollow">https:&#x2F;&#x2F;tech.scribd.com</a>](<a href="https:&#x2F;&#x2F;tech.scribd.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;tech.scribd.com&#x2F;</a>).

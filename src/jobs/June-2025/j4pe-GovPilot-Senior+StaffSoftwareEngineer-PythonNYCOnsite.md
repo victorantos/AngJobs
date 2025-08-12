@@ -4,6 +4,9 @@ author:
   name: j4pe
   url: https://news.ycombinator.com/item?id=44159663
 ---
+
+<JobNavigation />
+
 GovPilot - Senior + Staff Software Engineer - Python NYC Onsite - C# NYC + remote
 
 I&#x27;m CTO of a bootstrapped civic tech provider powering hundreds of local and county governments across 40+ states and 3 countries. We provide 150+ services from marriage licenses to construction projects to tax assessments.

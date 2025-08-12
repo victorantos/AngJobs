@@ -4,6 +4,9 @@ author:
   name: acv
   url: https://news.ycombinator.com/item?id=44449120
 ---
+
+<JobNavigation />
+
 Istari Digital - Senior Frontend Engineer - Full-Time - Remote (US only)
 
 Istari Digital is building a modern platform for digital engineering in aerospace and defense. Our mission is to give mechanical and systems engineering teams the same velocity, collaboration, and confidence that software teams. Our platform connects known tools like CAD and MATLAB using open data standards and modern workflows.

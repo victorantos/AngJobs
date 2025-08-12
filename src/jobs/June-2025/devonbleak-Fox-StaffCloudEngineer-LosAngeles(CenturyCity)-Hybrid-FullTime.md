@@ -4,6 +4,9 @@ author:
   name: devonbleak
   url: https://news.ycombinator.com/item?id=44162790
 ---
+
+<JobNavigation />
+
 Fox - Staff Cloud Engineer - Los Angeles (Century City) - Hybrid - Full Time
 
 We&#x27;re a broadcast company.

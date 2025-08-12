@@ -4,6 +4,9 @@ author:
   name: protoduction
   url: https://news.ycombinator.com/item?id=44441910
 ---
+
+<JobNavigation />
+
 Friendly Captcha - Data Engineer - Bot Protection - REMOTE within EU - PART-TIME or FULL-TIME - Office in Munich, Germany - <a href="https:&#x2F;&#x2F;friendlycaptcha.com" rel="nofollow">https:&#x2F;&#x2F;friendlycaptcha.com</a>
 
 At Friendly Captcha we do one thing and we do it well: we protect websites from malicious actors and bots.

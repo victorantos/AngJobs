@@ -4,6 +4,9 @@ author:
   name: zukee
   url: https://news.ycombinator.com/item?id=44760852
 ---
+
+<JobNavigation />
+
 Clerq - Senior&#x2F;Staff Engineer - onsite (NYC) - <a href="https:&#x2F;&#x2F;clerq.io" rel="nofollow">https:&#x2F;&#x2F;clerq.io</a>
 
 Clerq is a NYC based fintech startup building the next generation platform payments platform delivers a seamless checkout experience for high-ticket transactions. By leveraging modern bank rails, the platform offers the conversion and UX benefits of cards with risk and money movement infrastructure purpose-built for large purchases. Clerq replaces outdated manual payment methods like cash, checks and wires and expensive card surcharges with a smooth, integrated solution that helps merchants convert more customers without sacrificing margins.

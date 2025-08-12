@@ -4,6 +4,9 @@ author:
   name: jreynoldsdev
   url: https://news.ycombinator.com/item?id=44758206
 ---
+
+<JobNavigation />
+
 Wirespeed - Founding Engineer - REMOTE (US) - Full-time - <a href="https:&#x2F;&#x2F;wirespeed.co" rel="nofollow">https:&#x2F;&#x2F;wirespeed.co</a>
 We are looking for a founding engineer to help us continue our mission of building a fully-automated Managed Detection &amp; Response (MDR) platform.
 

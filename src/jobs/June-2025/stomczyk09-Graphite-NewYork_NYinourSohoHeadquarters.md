@@ -4,6 +4,9 @@ author:
   name: stomczyk09
   url: https://news.ycombinator.com/item?id=44161402
 ---
+
+<JobNavigation />
+
 Graphite - Mid-level &amp; Senior Software Engineers- New York, NY in our Soho Headquarters - <a href="https:&#x2F;&#x2F;graphite.dev" rel="nofollow">https:&#x2F;&#x2F;graphite.dev</a>
 
 We’re building Graphite to help high-performing engineering teams run faster, cleaner code reviews. Our product is already used by some of the world’s best developers, and we’re just getting started!

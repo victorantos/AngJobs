@@ -4,6 +4,9 @@ author:
   name: mjdesa
   url: https://news.ycombinator.com/item?id=44162448
 ---
+
+<JobNavigation />
+
 Equall - Product Engineer (Full Stack) - NYC (In-Person &#x2F; Hybrid) - Full Time - $150K–$250K depending on experience - dani@equall.com
 We’re building the OS for legal risk — a real-time AI platform that does legal work (not a co-pilot). Custom knowledge graphs + multi-agent systems = outputs that replace 100s of lawyer-hours.
 

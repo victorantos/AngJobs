@@ -4,6 +4,9 @@ author:
   name: otodus
   url: https://news.ycombinator.com/item?id=44445102
 ---
+
+<JobNavigation />
+
 Calico - Senior Engineer - Boston, MA, USA (only) - Hybrid
 
 Calico is a digital assets aggregation startup being incubated by Fidelity Labs.  We offer the unique chance to have the same impact and freedom to build that a startup does, while having the same stability as a large firm. We&#x27;re looking for a seasoned senior backend or full-stack engineer with a collaborative personality and eye for clean code to help build out our team and our aggregation API platform.

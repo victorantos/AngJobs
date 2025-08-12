@@ -4,6 +4,9 @@ author:
   name: william-evans
   url: https://news.ycombinator.com/item?id=44167341
 ---
+
+<JobNavigation />
+
 Myndstream - Hybrid London, UK - Full time - <a href="https:&#x2F;&#x2F;myndstream.com" rel="nofollow">https:&#x2F;&#x2F;myndstream.com</a>
 
 Music for health and wellbeing - we&#x27;re working with leading scientists at MIT, NYU and UPenn alongside a roster of composers &amp; producers to create validated music to improve health and wellbeing.

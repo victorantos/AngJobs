@@ -4,6 +4,9 @@ author:
   name: PeaceByArtifice
   url: https://news.ycombinator.com/item?id=44467233
 ---
+
+<JobNavigation />
+
 Anduril Industries - Engineering Manager, SDET, Software Engineers (all levels) - Full-time - In-Office (Seattle, Boston, Costa Mesa)
 
 We&#x27;re growing the Maritime Application Team at Anduril. We combine core platform technology into mission-winning capabilities. We write the software that delivers a decisive operational edge for autonomous platforms like the Dive-XL, Dive-LD, Copperhead, and Seabed Sentry. Scaling the team, in-office, U.S. citizens eligible for a clearance. Lots of roles available.

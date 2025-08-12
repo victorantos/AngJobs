@@ -4,6 +4,9 @@ author:
   name: amacneil
   url: https://news.ycombinator.com/item?id=44163079
 ---
+
+<JobNavigation />
+
 Foxglove - Onsite &#x2F; Hybrid - Full Time or Contract - <a href="https:&#x2F;&#x2F;foxglove.dev&#x2F;" rel="nofollow">https:&#x2F;&#x2F;foxglove.dev&#x2F;</a>
 
 Foxglove is the leading observability stack for robotics and physical AI. We accelerate robotics development through industry-leading logging, cloud dataset management, and visualization&#x2F;analysis for multimodal data. We&#x27;re well funded (Series A, ~35 people), and assembling the most talented team in the industry to build a platform for all robots. Sound interesting? Join us!

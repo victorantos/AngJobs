@@ -4,6 +4,9 @@ author:
   name: dataking
   url: https://news.ycombinator.com/item?id=44804356
 ---
+
+<JobNavigation />
+
 Immunant - Systems Programmer - REMOTE (US only) - Full-time - $120k - $150k + retirement benefits
 
 If you&#x27;re interested in low-level, resource-constrained and privileged execution environments, consider joining our team of compiler, OS, and Rust enthusiasts.

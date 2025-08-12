@@ -4,6 +4,9 @@ author:
   name: florinzf
   url: https://news.ycombinator.com/item?id=44447119
 ---
+
+<JobNavigation />
+
 Fully REMOTE Positions - Full Stack Developer with NodeJS &amp; AWS DevOps
 
 At Noosa Labs, we&#x27;re acquiring profitable SaaS businesses and growing them. We&#x27;re in search of two roles. Please use the links below for applying.

@@ -4,6 +4,9 @@ author:
   name: darintay
   url: https://news.ycombinator.com/item?id=44161066
 ---
+
+<JobNavigation />
+
 Matroid - DL&#x2F;AI&#x2F;CV, Infra, WebApp Software Engineer positions - San Francisco Bay Area (Palo Alto) - Full-Time - ONSITE
 
 Matroid’s mission is to enable computers to visually understand the world. Our “no programming required” product empowers businesses and industry with our computer vision solutions.

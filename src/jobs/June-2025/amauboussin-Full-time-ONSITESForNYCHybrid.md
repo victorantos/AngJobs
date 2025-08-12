@@ -4,6 +4,9 @@ author:
   name: amauboussin
   url: https://news.ycombinator.com/item?id=44162669
 ---
+
+<JobNavigation />
+
 Surge AI (<a href="https:&#x2F;&#x2F;surgehq.ai&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;surgehq.ai&#x2F;careers</a>) - Software Engineers (full-stack &#x2F; product <a href="https:&#x2F;&#x2F;surgeai.notion.site&#x2F;Product-Engineer-4211688ff99b46daacf34dd455ba3472" rel="nofollow">https:&#x2F;&#x2F;surgeai.notion.site&#x2F;Product-Engineer-4211688ff99b46d...</a>) and Strategic Project Lead (<a href="https:&#x2F;&#x2F;surgeai.notion.site&#x2F;Strategic-Projects-Lead-Generative-AI-455b7fb94f0d4543a00366d3154da5ec?pvs=74" rel="nofollow">https:&#x2F;&#x2F;surgeai.notion.site&#x2F;Strategic-Projects-Lead-Generati...</a>) - Full-time - ONSITE SF or NYC Hybrid
 
 Our mission at Surge is to build the human infrastructure behind the next wave of AI and LLMs. We operate a data platform that powers AI teams at OpenAI, Anthropic, Meta, Google, and more. This year, we&#x27;re focused on extending our platform to support agentic workflows and help our clients ship agents that interact with the world. Here are some examples of our past work:

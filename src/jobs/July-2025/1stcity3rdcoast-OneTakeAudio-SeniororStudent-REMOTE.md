@@ -4,6 +4,9 @@ author:
   name: 1stcity3rdcoast
   url: https://news.ycombinator.com/item?id=44434633
 ---
+
+<JobNavigation />
+
 One Take Audio - Senior or Student - REMOTE - <a href="https:&#x2F;&#x2F;www.onetakeaudio.com" rel="nofollow">https:&#x2F;&#x2F;www.onetakeaudio.com</a>
 We&#x27;re building generative AI software that helps music creators build their visions. Our team is at capacity and we need your help to accelerate development.
 

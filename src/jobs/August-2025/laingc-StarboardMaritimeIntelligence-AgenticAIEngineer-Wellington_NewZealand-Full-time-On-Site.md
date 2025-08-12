@@ -4,6 +4,9 @@ author:
   name: laingc
   url: https://news.ycombinator.com/item?id=44792780
 ---
+
+<JobNavigation />
+
 Starboard Maritime Intelligence - Agentic AI Engineer - Wellington, New Zealand - Full-time - On-Site
 
 Starboard builds mission-critical intelligence platforms for the defence, national security, and maritime enforcement sectors. Our software fuses complex datasets—including satellite imagery (SAR&#x2F;EO), vessel tracking (AIS), and proprietary intelligence to help our customers identify and respond to illicit and threatening activities at sea. We work on challenges like sanctions evasion, illegal fishing, and maritime security operations.

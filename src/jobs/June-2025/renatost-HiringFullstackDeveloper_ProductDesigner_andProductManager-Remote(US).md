@@ -4,6 +4,9 @@ author:
   name: renatost
   url: https://news.ycombinator.com/item?id=44165495
 ---
+
+<JobNavigation />
+
 Klutch (<a href="https:&#x2F;&#x2F;www.klutchcard.com" rel="nofollow">https:&#x2F;&#x2F;www.klutchcard.com</a>) - Hiring Fullstack Developer, Product Designer, and Product Manager - Remote (US)
 
 Klutch is building the platform for financial mini-apps.

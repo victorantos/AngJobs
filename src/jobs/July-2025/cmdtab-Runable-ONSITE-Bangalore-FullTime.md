@@ -4,6 +4,9 @@ author:
   name: cmdtab
   url: https://news.ycombinator.com/item?id=44438625
 ---
+
+<JobNavigation />
+
 Runable - ONSITE - Bangalore - Full Time - <a href="https:&#x2F;&#x2F;runable.com" rel="nofollow">https:&#x2F;&#x2F;runable.com</a>
 
 Runable is building general purpose automation agent to automate anything digitally possible.

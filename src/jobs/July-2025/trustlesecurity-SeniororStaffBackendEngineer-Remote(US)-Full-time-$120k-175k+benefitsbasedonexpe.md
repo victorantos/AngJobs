@@ -4,6 +4,9 @@ author:
   name: trustlesecurity
   url: https://news.ycombinator.com/item?id=44436401
 ---
+
+<JobNavigation />
+
 Trustle (<a href="https:&#x2F;&#x2F;trustle.com" rel="nofollow">https:&#x2F;&#x2F;trustle.com</a>) - Senior or Staff Backend Engineer - Remote (US) - Full-time - $120k-175k + benefits based on experience
 
 We&#x27;re building the future of cloud access management - helping companies achieve Zero Standing Privileges through just-in-time access and intelligent entitlement management.

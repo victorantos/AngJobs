@@ -4,6 +4,9 @@ author:
   name: woodrow
   url: https://news.ycombinator.com/item?id=44166739
 ---
+
+<JobNavigation />
+
 New Lantern - <a href="https:&#x2F;&#x2F;newlantern.ai" rel="nofollow">https:&#x2F;&#x2F;newlantern.ai</a> - Software engineers (infrastructure engineers &amp; backend-leaning product engineers) - Full time in San Francisco, CA (ONSITE)
 
 New Lantern is hiring software engineers to help build an AI copilot [1] for radiologists.

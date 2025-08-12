@@ -4,6 +4,9 @@ author:
   name: zarko34
   url: https://news.ycombinator.com/item?id=44162433
 ---
+
+<JobNavigation />
+
 Edra Labs - Full-Time - Equity - New York &amp; London (No remote) - AI Engineers &#x2F; Full-Stack Engineers
 
 At Edra we built a new, proprietary method of learning that allows LLMs to understand and automate business processes.

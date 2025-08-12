@@ -4,6 +4,9 @@ author:
   name: dangelosaurus
   url: https://news.ycombinator.com/item?id=44763865
 ---
+
+<JobNavigation />
+
 Promptfoo - Senior&#x2F;Staff Engineers, Security Researchers, GTM &amp; Founding Operators - REMOTE (North America) &#x2F; Hybrid San Mateo CA - Full-time - <a href="https:&#x2F;&#x2F;promptfoo.dev" rel="nofollow">https:&#x2F;&#x2F;promptfoo.dev</a>
 
 Promptfoo is the MIT-licensed open-source toolkit 125 000+ developers use to evaluate and secure LLM apps. We just closed an $18.4 M Series A led by Insight Partners with participation from a16z and are scaling a small, senior team of high-agency builders.

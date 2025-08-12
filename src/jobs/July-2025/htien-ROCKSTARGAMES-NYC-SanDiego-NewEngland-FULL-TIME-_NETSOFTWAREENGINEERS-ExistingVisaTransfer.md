@@ -4,6 +4,9 @@ author:
   name: htien
   url: https://news.ycombinator.com/item?id=44437175
 ---
+
+<JobNavigation />
+
 ROCKSTAR GAMES - NYC-San Diego-New England- FULL-TIME - .NET SOFTWARE ENGINEERS - Existing Visa Transfers Welcome
 
 A career at Rockstar Games is about being part of a team working on some of the most creatively rewarding and ambitious projects to be found in any entertainment medium. You would be welcomed to a dedicated and inclusive environment where you can learn, and collaborate with some of the most talented people in the industry.

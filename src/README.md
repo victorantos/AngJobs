@@ -23,11 +23,10 @@ features:
 
 Browse our newest collection of jobs from the [August 2025 Hacker News thread](/jobs/August-2025/). We've got hundreds of fresh opportunities from top companies and startups.
 
-<div id="recent-jobs">
-<JobSearch />
-</div>
-
 **Quick Links:**
-- [August 2025 Jobs](/jobs/August-2025/) - Latest postings
+- [🔥 August 2025 Jobs](/jobs/August-2025/) - **Latest postings** (300+ jobs)
 - [July 2025 Jobs](/jobs/July-2025/) - Previous month  
 - [June 2025 Jobs](/jobs/June-2025/) - Archive
+
+### Featured Recent Companies
+Some of the top companies posting in August include: **OpenAI**, **Anthropic**, **Google**, **Apple**, **Tesla**, **Datadog**, **DuckDuckGo**, and hundreds more!

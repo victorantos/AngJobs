@@ -4,6 +4,9 @@ author:
   name: mariopt
   url: https://news.ycombinator.com/item?id=44161133
 ---
+
+<JobNavigation />
+
 Can you please stop farming CVs?
 
 Your company has been &quot;hiring&quot; since last year, running the weirdest interview process, with no real intention of hiring.

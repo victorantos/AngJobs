@@ -4,6 +4,9 @@ author:
   name: AdriaanvRossum
   url: https://news.ycombinator.com/item?id=44164273
 ---
+
+<JobNavigation />
+
 Simple Analytics - Full-stack developer - Remote - Full time - $5,000&#x2F;month - <a href="https:&#x2F;&#x2F;www.simpleanalytics.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.simpleanalytics.com&#x2F;</a>
 
 This is not your average company to work for. We are a very small team fighting Google. We make the internet a little better by adding privacy-friendly analytics. You will have a ton of ownership, and to get an idea of who you are dealing with, check out the video [1].

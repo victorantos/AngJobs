@@ -4,6 +4,9 @@ author:
   name: jeanpierretrou
   url: https://news.ycombinator.com/item?id=44160285
 ---
+
+<JobNavigation />
+
 mbue - Hybrid (Austin, TX) - Full-time - Machine Learning Engineer (CV + LLM) - <a href="https:&#x2F;&#x2F;www.mbue.ai" rel="nofollow">https:&#x2F;&#x2F;www.mbue.ai</a>
 
 We’re automating architectural review in construction.

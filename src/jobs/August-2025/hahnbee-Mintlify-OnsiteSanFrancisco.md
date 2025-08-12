@@ -4,6 +4,9 @@ author:
   name: hahnbee
   url: https://news.ycombinator.com/item?id=44765194
 ---
+
+<JobNavigation />
+
 Mintlify - SWE&#x2F;Senior SWE - Onsite San Francisco
 
 Join us in our mission to empower developers worldwide! We&#x27;re a developer documentation platform that helps companies build and maintain public-facing documentation (X, Anthropic, Scale AI and over 20% of the last YC batch).

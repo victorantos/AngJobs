@@ -4,6 +4,9 @@ author:
   name: rossng
   url: https://news.ycombinator.com/item?id=44758695
 ---
+
+<JobNavigation />
+
 MONUMENTAL - <a href="https:&#x2F;&#x2F;www.monumental.co&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.monumental.co&#x2F;</a> - Amsterdam, The Netherlands - Full Time - Onsite
 
 We make robots that autonomously construct buildings. We are currently developing and manufacturing our autonomous bricklaying system in the beautiful centre of Amsterdam. And our robots are already earning real revenue operating on construction sites all over the Netherlands.

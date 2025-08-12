@@ -4,6 +4,9 @@ author:
   name: not-a-cat
   url: https://news.ycombinator.com/item?id=44447403
 ---
+
+<JobNavigation />
+
 Tufalabs - AI researchers and engineers - Zurich - Full time - Onsite - $165k - <a href="https:&#x2F;&#x2F;tufalabs.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;tufalabs.ai&#x2F;</a>
 
 We are a small, independent research group working on fundamental AI research.

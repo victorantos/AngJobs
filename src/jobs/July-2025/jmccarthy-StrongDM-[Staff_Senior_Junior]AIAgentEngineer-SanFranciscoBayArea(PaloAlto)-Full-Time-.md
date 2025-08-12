@@ -4,6 +4,9 @@ author:
   name: jmccarthy
   url: https://news.ycombinator.com/item?id=44437361
 ---
+
+<JobNavigation />
+
 StrongDM - [Staff, Senior, Junior] AI Agent Engineer - San Francisco Bay Area (Palo Alto) - Full-Time - ONSITE
 StrongDM applies deep tech to hard problems for demanding cybersecurity customers. Our embrace of large language models continues that tradition, achieving useful and reliable outputs from ambiguous and non-deterministic inputs.
 

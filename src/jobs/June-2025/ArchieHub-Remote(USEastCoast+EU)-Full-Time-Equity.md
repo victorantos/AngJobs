@@ -4,6 +4,9 @@ author:
   name: ArchieHub
   url: https://news.ycombinator.com/item?id=44162245
 ---
+
+<JobNavigation />
+
 Archie (<a href="https:&#x2F;&#x2F;www.archiehub.com" rel="nofollow">https:&#x2F;&#x2F;www.archiehub.com</a>) - Remote (US East Coast + EU) - Full-Time - Equity - Roles: Senior Full-Stack Developer (Ruby on Rails)
 
 Hi, my name is Marius and I am the CTO at Archie (<a href="https:&#x2F;&#x2F;www.archiehub.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.archiehub.com&#x2F;</a>). Archie is here to make buying a home easier, faster, and more transparent by reducing paperwork and improving efficiency. We are well-funded, growing quickly, and led by founders with over 20 years of combined experience in real estate and tech.

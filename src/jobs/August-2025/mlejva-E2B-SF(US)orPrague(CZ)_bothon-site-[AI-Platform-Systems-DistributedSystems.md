@@ -4,6 +4,9 @@ author:
   name: mlejva
   url: https://news.ycombinator.com/item?id=44762624
 ---
+
+<JobNavigation />
+
 E2B - SF (US) or Prague (CZ), both on-site - [AI - Platform - Systems - Distributed Systems - Customer] Engineer&#x2F;DevRel Engineer&#x2F;Head of Engineering - <a href="https:&#x2F;&#x2F;e2b.dev&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;e2b.dev&#x2F;careers</a>
 
 E2B is an open-source infra devtool that gives AI agents cloud computers that we call sandboxes.

@@ -4,6 +4,9 @@ author:
   name: habitue
   url: https://news.ycombinator.com/item?id=44763223
 ---
+
+<JobNavigation />
+
 Pylon (<a href="https:&#x2F;&#x2F;pylonlending.com" rel="nofollow">https:&#x2F;&#x2F;pylonlending.com</a>) - ONSITE Menlo Park &#x2F; San Francisco, CA
 
 What Stripe did for payments, Pylon is doing for the mortgage industry: We&#x27;re taking a sleepy industry with backward technology and re-building the stack from the ground up. We&#x27;re first-principles thinkers, and our team is small, talented and ambitious.

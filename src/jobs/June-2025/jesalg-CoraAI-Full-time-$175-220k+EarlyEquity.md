@@ -4,6 +4,9 @@ author:
   name: jesalg
   url: https://news.ycombinator.com/item?id=44160160
 ---
+
+<JobNavigation />
+
 Cora AI - Founding Engineers (Full Stack &amp; Applied AI) - Remote (USA only, CA &amp; NY preferred) - Full-time - $175-220k + Early Equity
 
 We&#x27;re building AI agents to transform how B2B companies scale customer relationships.

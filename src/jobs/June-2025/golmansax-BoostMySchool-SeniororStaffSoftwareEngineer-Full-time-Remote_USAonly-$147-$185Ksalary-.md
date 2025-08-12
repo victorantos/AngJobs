@@ -4,6 +4,9 @@ author:
   name: golmansax
   url: https://news.ycombinator.com/item?id=44166174
 ---
+
+<JobNavigation />
+
 Boost My School - Senior or Staff Software Engineer - Full-time - Remote, USA only - $147-$185K salary - $16-26K bonus
 
 Love building a product that improves a user’s life so much that they can’t help but share it with their peers?

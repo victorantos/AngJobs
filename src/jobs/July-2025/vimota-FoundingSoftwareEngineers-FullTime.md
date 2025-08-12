@@ -4,6 +4,9 @@ author:
   name: vimota
   url: https://news.ycombinator.com/item?id=44435595
 ---
+
+<JobNavigation />
+
 CoPlane (<a href="https:&#x2F;&#x2F;coplane.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;coplane.com&#x2F;</a>) - Founding Software Engineers - Remote (US&#x2F;CAN Timezones) - Full Time
 
 The world doesn&#x27;t need another ERP. CoPlane is building the Agentic Orchestration platform that enables enterprises to orchestrate intelligent processes across their existing systems. Founded by ex-Stripe&#x2F;Segment product and tech leads, we&#x27;re changing how businesses operate their backoffice - helping them scale intelligence not headcount.

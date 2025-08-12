@@ -4,6 +4,9 @@ author:
   name: giannibertolop
   url: https://news.ycombinator.com/item?id=44784066
 ---
+
+<JobNavigation />
+
 OnePool - Valencia, Spain - Flexible (preferably on-site) - Founding CTO &#x2F; Technical Cofounder - Full-time + Equity
 
 We’re building the first group payment platform that integrates directly into merchant checkouts. Backed by real user demand and selected by Lanzadera (Spain’s top startup accelerator), OnePool is looking for a technical cofounder to lead the development of our MVP and shape the future of collaborative payments.

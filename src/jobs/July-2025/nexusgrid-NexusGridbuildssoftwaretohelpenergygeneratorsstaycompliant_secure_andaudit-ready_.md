@@ -4,6 +4,9 @@ author:
   name: nexusgrid
   url: https://news.ycombinator.com/item?id=44469818
 ---
+
+<JobNavigation />
+
 NexusGrid builds software to help energy generators stay compliant, secure, and audit-ready.
 
 We&#x27;re tackling the growing complexity of US energy regulations by automating data validation, documentation, and reporting — turning what&#x27;s now a painful, manual process into a seamless, secure platform. With a power engineering talent shortage compounding the problem, operators desperately need automation. We&#x27;re driven by $1.7T energy transition investment, where new regulatory requirements create natural competitive moats and mandatory adoption.

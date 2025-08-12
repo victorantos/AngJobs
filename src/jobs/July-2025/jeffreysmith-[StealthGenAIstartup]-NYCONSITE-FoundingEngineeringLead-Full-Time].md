@@ -4,6 +4,9 @@ author:
   name: jeffreysmith
   url: https://news.ycombinator.com/item?id=44435512
 ---
+
+<JobNavigation />
+
 [Stealth GenAI startup] - NYC ONSITE - Founding Engineering Lead - Full-Time]
 
 We&#x27;re a stealth mode genAI startup working to advance the state-of-the-art in generative visual media. We&#x27;ve just closed our preseed round and are now backed by 3 expert VC funds and a collection of AI leader angels. Our team consists of highly experienced AI leaders from leading companies. And we&#x27;re working with some of the biggest companies in media.

@@ -4,6 +4,9 @@ author:
   name: tiangolo
   url: https://news.ycombinator.com/item?id=44434705
 ---
+
+<JobNavigation />
+
 FastAPI Labs - Design Engineer - Remote
 
 We are the same team behind FastAPI, building FastAPI Cloud.

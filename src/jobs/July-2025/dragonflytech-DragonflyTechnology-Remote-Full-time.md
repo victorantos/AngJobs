@@ -4,6 +4,9 @@ author:
   name: dragonflytech
   url: https://news.ycombinator.com/item?id=44435341
 ---
+
+<JobNavigation />
+
 Dragonfly Technology - Remote - Full-time
 
 We’re an early-stage startup at the intersection of system design, cloud infra and AI, enabling companies to adopt the latest in GenAI, including agentic frameworks. 

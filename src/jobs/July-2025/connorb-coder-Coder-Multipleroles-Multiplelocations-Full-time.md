@@ -4,6 +4,9 @@ author:
   name: connorb-coder
   url: https://news.ycombinator.com/item?id=44455979
 ---
+
+<JobNavigation />
+
 Coder - <a href="https:&#x2F;&#x2F;coder.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;coder.com&#x2F;</a> - Multiple roles - Multiple locations - Full-time
 
 Coder is an AI software development company leading the future of autonomous coding. We empower teams to build software faster, more securely, and at scale through the collaboration of AI coding agents and human developers. Our mission is to make agentic AI a safe, trusted, and integral part of every software development lifecycle.

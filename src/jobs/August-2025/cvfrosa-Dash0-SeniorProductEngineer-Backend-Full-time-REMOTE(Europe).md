@@ -4,6 +4,9 @@ author:
   name: cvfrosa
   url: https://news.ycombinator.com/item?id=44786166
 ---
+
+<JobNavigation />
+
 Dash0 - Senior Product Engineer - Backend - Full-time - REMOTE (Europe) - <a href="https:&#x2F;&#x2F;www.dash0.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.dash0.com&#x2F;</a>
 Imagine a world where observability is... well, easy. That&#x27;s what we&#x27;re building at Dash0. We&#x27;re not just another observability company – we&#x27;re a team of passionate experts who are obsessed with making observability accessible and delightful for every developer.
 

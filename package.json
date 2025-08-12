@@ -5,9 +5,11 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "docs:build": "vuepress-vite build src",
-    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
-    "docs:dev": "vuepress-vite dev src",
+    "generate:jobs": "node scripts/generate-all-jobs.js",
+    "add:navigation": "node scripts/add-navigation-to-jobs.js",
+    "docs:build": "npm run generate:jobs && vuepress-vite build src",
+    "docs:clean-dev": "npm run generate:jobs && vuepress-vite dev src --clean-cache",
+    "docs:dev": "npm run generate:jobs && vuepress-vite dev src",
     "docs:update-package": "npx vp-update",
     "build": "npm run docs:build"
   },

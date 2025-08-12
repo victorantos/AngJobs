@@ -4,6 +4,9 @@ author:
   name: kwi
   url: https://news.ycombinator.com/item?id=44436951
 ---
+
+<JobNavigation />
+
 Yuma.ai (YC W23) - Senior Full-Stack AI Engineer - Remote (Europe) or Hybrid (Barcelona) - Full-time
 Ruby + AI Agents = Yuma
 

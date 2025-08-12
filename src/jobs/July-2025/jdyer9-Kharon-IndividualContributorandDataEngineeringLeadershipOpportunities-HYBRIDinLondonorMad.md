@@ -4,6 +4,9 @@ author:
   name: jdyer9
   url: https://news.ycombinator.com/item?id=44449012
 ---
+
+<JobNavigation />
+
 Kharon - Individual Contributor and Data Engineering Leadership Opportunities - HYBRID in London or Madrid or On-site in Denver, CO - Full Time
 
 Kharon is on a mission to revolutionize the current global security landscape. When you look at any major global crisis event, we’re providing intelligence that’s at the heart of those circumstances. We connect the dots in a way that’s meaningful, and we&#x27;re currently growing our Data Engineering vertical.

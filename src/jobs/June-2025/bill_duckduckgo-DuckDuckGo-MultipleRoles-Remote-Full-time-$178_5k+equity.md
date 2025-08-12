@@ -4,6 +4,9 @@ author:
   name: bill_duckduckgo
   url: https://news.ycombinator.com/item?id=44161344
 ---
+
+<JobNavigation />
+
 DuckDuckGo - Multiple Roles - Remote - Full-time - $178.5k + equity
 
 We are looking for candidates that are excited to join us on a mission to raise the standard of trust online. All of our roles are fully-remote, except where specific locations are noted.

@@ -4,6 +4,9 @@ author:
   name: nicksolace
   url: https://news.ycombinator.com/item?id=44759175
 ---
+
+<JobNavigation />
+
 Solace Health - Full-Stack - Remote (US Only)
 
 I realize it&#x27;s hard to tell these days what jobs are &quot;real&quot; but make no mistake - we&#x27;re hiring aggressively.

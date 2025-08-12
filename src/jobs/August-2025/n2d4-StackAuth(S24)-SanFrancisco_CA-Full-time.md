@@ -4,6 +4,9 @@ author:
   name: n2d4
   url: https://news.ycombinator.com/item?id=44761925
 ---
+
+<JobNavigation />
+
 Stack Auth (S24) - San Francisco, CA - Full-time
 
 Hiring design &amp; founding engineers! We&#x27;re building the customer platform for developers — think of a single service that does auth, payments, analytics, marketing emails, and so much more.

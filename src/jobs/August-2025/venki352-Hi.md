@@ -4,6 +4,9 @@ author:
   name: venki352
   url: https://news.ycombinator.com/item?id=44765056
 ---
+
+<JobNavigation />
+
 Hi
 
 This is Venkitesh, Founder and CEO of Nextoar.

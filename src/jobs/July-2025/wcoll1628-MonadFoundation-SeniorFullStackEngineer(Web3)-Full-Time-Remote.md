@@ -4,6 +4,9 @@ author:
   name: wcoll1628
   url: https://news.ycombinator.com/item?id=44454900
 ---
+
+<JobNavigation />
+
 Monad Foundation - Senior Full Stack Engineer (Web3) - Full-Time - Remote
 
 Job Description: <a href="https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;monad.foundation&#x2F;2242c712-d2cf-4fe5-8cc4-eae0ce2bc4f5" rel="nofollow">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;monad.foundation&#x2F;2242c712-d2cf-4fe5...</a>

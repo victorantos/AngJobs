@@ -4,6 +4,9 @@ author:
   name: klarainc
   url: https://news.ycombinator.com/item?id=44817645
 ---
+
+<JobNavigation />
+
 klarasystems.com - OpenZFS Developer - REMOTE - Full-time
 
 We successfully hired from HN in the last round and are looking for more OpenZFS Developers (4+ years of experience) to join our team!

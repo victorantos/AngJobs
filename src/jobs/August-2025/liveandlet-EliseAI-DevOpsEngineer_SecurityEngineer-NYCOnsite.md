@@ -4,6 +4,9 @@ author:
   name: liveandlet
   url: https://news.ycombinator.com/item?id=44788853
 ---
+
+<JobNavigation />
+
 EliseAI - DevOps Engineer, Security Engineer - NYC Onsite - <a href="https:&#x2F;&#x2F;www.eliseai.com" rel="nofollow">https:&#x2F;&#x2F;www.eliseai.com</a>
 
 EliseAI develops cutting-edge conversational AI technology for industries fundamental to our lives: housing and healthcare. Everything is built on the foundation of health and home. Broken systems or ineffective processes in these domains have a disproportionate impact on our quality of life and society’s overall wellbeing. Conversely, any solution or technology that solves problems in these areas will have an impact that ripples far beyond them.

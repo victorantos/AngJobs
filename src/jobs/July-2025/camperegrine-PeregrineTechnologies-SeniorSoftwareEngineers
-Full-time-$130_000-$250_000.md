@@ -4,6 +4,9 @@ author:
   name: camperegrine
   url: https://news.ycombinator.com/item?id=44446404
 ---
+
+<JobNavigation />
+
 Peregrine Technologies - Senior Software Engineers
  - SF &#x2F; NYC &#x2F; DC - Hybrid - Full-time - $130,000 - $250,000
 

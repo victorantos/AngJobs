@@ -4,6 +4,9 @@ author:
   name: debarshri
   url: https://news.ycombinator.com/item?id=44161463
 ---
+
+<JobNavigation />
+
 Adaptive - Software Engineer - Amsterdam&#x2F;Utrecht&#x2F;Delft, NL - Go, kubernetes, Docker, React, Typescript, Chrome plugins
 
 We are building a platform to manage data security and privileged access to servers, databases, VMs, MCP, cloud and other critical systems etc. Along with the access and authorizations, our customers can mask or tokenize data, discover and classify data sources, and manage workload identity.

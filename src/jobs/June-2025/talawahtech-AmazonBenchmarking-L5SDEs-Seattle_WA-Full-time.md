@@ -4,6 +4,9 @@ author:
   name: talawahtech
   url: https://news.ycombinator.com/item?id=44165540
 ---
+
+<JobNavigation />
+
 Amazon Benchmarking - L5 SDEs - Seattle, WA - Full-time - <a href="https:&#x2F;&#x2F;www.amazon.jobs&#x2F;en&#x2F;jobs&#x2F;2933471&#x2F;software-development-engineer-customer-experience-and-business-trends" rel="nofollow">https:&#x2F;&#x2F;www.amazon.jobs&#x2F;en&#x2F;jobs&#x2F;2933471&#x2F;software-development...</a>
 
 Help make AWS faster, more efficient, and cheaper for our customers!

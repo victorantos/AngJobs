@@ -4,6 +4,9 @@ author:
   name: mariaufnal
   url: https://news.ycombinator.com/item?id=44167364
 ---
+
+<JobNavigation />
+
 Exnaton (Climate Tech) - Fullstack Engineer (with DevOps focus) - Remote (EU countries) - fulltime
 Exnaton is a start-up spun out of ETH Zurich, which offers software for renewable energy to utility companies. Our AI billing software enables energy providers to set up energy communities and smart energy tariffs in their distribution areas. Users of our software can track their energy consumption and buy renewable energy from their neighbors, which makes investing in the energy transition simple and fun!
 

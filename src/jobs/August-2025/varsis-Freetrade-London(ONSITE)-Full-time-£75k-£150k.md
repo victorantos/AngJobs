@@ -4,6 +4,9 @@ author:
   name: varsis
   url: https://news.ycombinator.com/item?id=44758396
 ---
+
+<JobNavigation />
+
 Freetrade - London (ONSITE) - Full-time - <a href="https:&#x2F;&#x2F;freetrade.io" rel="nofollow">https:&#x2F;&#x2F;freetrade.io</a> - £75k-£150k
 
 Freetrade is a commission-free investing app used by over 1 million people in the UK.

@@ -4,6 +4,9 @@ author:
   name: jhirshman
   url: https://news.ycombinator.com/item?id=44435113
 ---
+
+<JobNavigation />
+
 Uncountable - NY, SF, London &amp; Munich (In-Person) - Full-Stack Engineering 
 <a href="https:&#x2F;&#x2F;www.uncountable.com&#x2F;hiring&#x2F;hn" rel="nofollow">https:&#x2F;&#x2F;www.uncountable.com&#x2F;hiring&#x2F;hn</a>
 

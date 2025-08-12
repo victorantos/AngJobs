@@ -4,6 +4,9 @@ author:
   name: dan_manges
   url: https://news.ycombinator.com/item?id=44439808
 ---
+
+<JobNavigation />
+
 RWX - Software Engineer - REMOTE (US) - Full-time - <a href="https:&#x2F;&#x2F;rwx.com" rel="nofollow">https:&#x2F;&#x2F;rwx.com</a>
 
 $175K – $250K + equity

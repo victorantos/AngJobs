@@ -4,6 +4,9 @@ author:
   name: masonhipp
   url: https://news.ycombinator.com/item?id=44160304
 ---
+
+<JobNavigation />
+
 Slides With Friends - Software Engineer: Front-end&#x2F;full-stack - REMOTE within USA, Canada, Latin America, Europe - Javascript&#x2F;Vue.js - Full-time contract (4-6 months) - <a href="https:&#x2F;&#x2F;slideswith.com" rel="nofollow">https:&#x2F;&#x2F;slideswith.com</a>
 
 We&#x27;re building a platform for live group teaching, training, and team building (think interactive slide decks, live polls, games, and quizzes). We want to make group experiences more engaging, fun, and useful.

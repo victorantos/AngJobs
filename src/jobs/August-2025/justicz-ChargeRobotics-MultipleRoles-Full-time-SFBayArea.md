@@ -4,6 +4,9 @@ author:
   name: justicz
   url: https://news.ycombinator.com/item?id=44763660
 ---
+
+<JobNavigation />
+
 Charge Robotics - Multiple Roles - Full-time - Onsite &#x2F; Hybrid - SF Bay Area
 
 Hi HN! We’re a YC-backed, Series-A startup building robots that build large-scale solar farms.

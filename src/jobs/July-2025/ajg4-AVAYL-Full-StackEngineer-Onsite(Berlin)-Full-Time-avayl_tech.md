@@ -4,6 +4,9 @@ author:
   name: ajg4
   url: https://news.ycombinator.com/item?id=44443127
 ---
+
+<JobNavigation />
+
 AVAYL - Full-Stack Engineer - Onsite (Berlin) - Full-Time - avayl.tech
 
 We&#x27;re transforming Medical Information in life sciences with AI-driven solutions, enabling companies to keep pace with evidence generation and optimize interactions with healthcare professionals and patients. Backed by VCs and unicorn founders, we&#x27;re building the next generation of tools to modernize how medical information is managed and delivered.

@@ -4,6 +4,9 @@ author:
   name: mksaunders2
   url: https://news.ycombinator.com/item?id=44837439
 ---
+
+<JobNavigation />
+
 LibreOffice developer - Preferably full-time - Remote
 
 Love LibreOffice development? Want to turn your passion into a paid job? We are The Document Foundation (TDF), the non-profit entity behind LibreOffice. We’re passionate about free software, the open source culture and about bringing new companies and people with fresh ideas into our community.

@@ -4,6 +4,9 @@ author:
   name: nivivon
   url: https://news.ycombinator.com/item?id=44801081
 ---
+
+<JobNavigation />
+
 Felix Health - Engineering Lead – Web Experience - REMOTE (Canada) - Full-time
 
 Felix is a digital healthcare company making healthcare more accessible for Canadians. We offer end-to-end care for conditions like weight loss, birth control, menopause, ED, and more.

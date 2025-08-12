@@ -4,6 +4,9 @@ author:
   name: devinbhushan
   url: https://news.ycombinator.com/item?id=44799504
 ---
+
+<JobNavigation />
+
 Squint - Onsite, San Francisco - Squint is a mobile app that uses AI and AR to automate data entry, generate custom procedures, and make every operator an expert.
 
 Squint is the leading manufacturing intelligence platform. We unlock agentic manufacturing by giving frontline operators the knowledge they need, exactly when they need it.

@@ -4,6 +4,9 @@ author:
   name: tamebadger
   url: https://news.ycombinator.com/item?id=44759469
 ---
+
+<JobNavigation />
+
 ether.fi - BE&#x2F;FE&#x2F;FS Software Engineer - Denver, New York, Grand Cayman, On-Site - Full-Time - $130k - $200k + equity + health benefits
 
 ether.fi is building the crypto native neobank of the future. We are a profitable early stage company that currently has $10B in TVL, a top five ethereum protocol when ranked by TVL. Our 3 products, Stake, Liquid and Cash all generate revenue and we are scaling up our team to keep up with growth.

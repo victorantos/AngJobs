@@ -4,6 +4,9 @@ author:
   name: tiffsaw
   url: https://news.ycombinator.com/item?id=44434671
 ---
+
+<JobNavigation />
+
 Fold - Remote (US Only) - Senior Frontend Engineer &amp; Senior Design Engineer - Full-time
 Fold is making Bitcoin adoption simple through user-centric design and rewards. We&#x27;re building the future of Bitcoin payments and need talented frontend engineers to join our fully remote team.
 

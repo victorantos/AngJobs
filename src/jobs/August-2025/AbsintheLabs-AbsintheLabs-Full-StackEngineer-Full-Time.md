@@ -4,6 +4,9 @@ author:
   name: AbsintheLabs
   url: https://news.ycombinator.com/item?id=44784182
 ---
+
+<JobNavigation />
+
 Absinthe Labs - Full-Stack Engineer - Remote &#x2F; NYC Hybrid - Full-Time - <a href="https:&#x2F;&#x2F;absinthe.network&#x2F;" rel="nofollow">https:&#x2F;&#x2F;absinthe.network&#x2F;</a>
 
 About us:

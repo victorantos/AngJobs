@@ -4,6 +4,9 @@ author:
   name: ghita_
   url: https://news.ycombinator.com/item?id=44162256
 ---
+
+<JobNavigation />
+
 ZeroEntropy (W25) - GTM Engineer - SF in person preferred, remote ok - Full-time - www.zeroentropy.dev
 
 We are building a high accuracy search engine for RAG and AI Agents. Our API is live and we&#x27;re processing billions of tokens monthly. We&#x27;re looking for a highly skilled full stack developer, to help us with our GTM efforts.

@@ -4,6 +4,9 @@ author:
   name: cosenal
   url: https://news.ycombinator.com/item?id=44796426
 ---
+
+<JobNavigation />
+
 Unitary Foundation - Full-Stack Web Developer (Data visualization) - Open-source - Full-time - Remote (EU&#x2F;NA timezones) - <a href="https:&#x2F;&#x2F;unitary.foundation&#x2F;" rel="nofollow">https:&#x2F;&#x2F;unitary.foundation&#x2F;</a>
 
 We&#x27;re a quantum computing non-profit organization, and we are looking for a full-stack web developer.

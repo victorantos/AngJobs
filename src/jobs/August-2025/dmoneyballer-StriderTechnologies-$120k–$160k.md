@@ -4,6 +4,9 @@ author:
   name: dmoneyballer
   url: https://news.ycombinator.com/item?id=44763077
 ---
+
+<JobNavigation />
+
 Strider Technologies - SLC,UT or Tyson&#x27;s Corner VA USA- AI Engineers, Data Collection Engineers (Scrapy&#x2F;Playwright) - $120k–$160k
 
 Strider Technologies does strategic intelligence to enable faster,  more confident decision-making for organizations around the world. To do this, we need data collection engineers(web scrapers) we use scrapy and playwright to do this. also AI engineers to make sense of all the documents we collect.

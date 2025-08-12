@@ -4,6 +4,9 @@ author:
   name: dhawalhs
   url: https://news.ycombinator.com/item?id=44777165
 ---
+
+<JobNavigation />
+
 Class Central - Developer Education Specialist (Course Guide Author) - Remote (Global) - Full-time - 
 We’re the most popular search engine for online courses, and we’re hiring a deeply technical writer-researcher to help learners master tech skills by testing advanced courses and publishing “best course” guides.
 

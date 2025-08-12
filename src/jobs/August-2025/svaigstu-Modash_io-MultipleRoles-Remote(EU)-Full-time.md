@@ -4,6 +4,9 @@ author:
   name: svaigstu
   url: https://news.ycombinator.com/item?id=44782827
 ---
+
+<JobNavigation />
+
 Modash.io - Multiple Roles - Remote (EU) - Full-time
 
 • Modash is an end-to-end influencer marketing platform for Shopify stores.

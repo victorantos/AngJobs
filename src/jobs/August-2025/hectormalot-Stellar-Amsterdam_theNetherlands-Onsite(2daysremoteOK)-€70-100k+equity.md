@@ -4,6 +4,9 @@ author:
   name: hectormalot
   url: https://news.ycombinator.com/item?id=44771384
 ---
+
+<JobNavigation />
+
 Stellar - Amsterdam, the Netherlands - Onsite (2 days remote OK) - €70-100k + equity - <a href="https:&#x2F;&#x2F;stellarcs.ai" rel="nofollow">https:&#x2F;&#x2F;stellarcs.ai</a>
 
 Hey, I&#x27;m one of Stellar&#x27;s founders. We&#x27;re building voice AI for large contact centers.

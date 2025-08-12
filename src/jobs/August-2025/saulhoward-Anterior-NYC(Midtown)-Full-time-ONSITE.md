@@ -4,6 +4,9 @@ author:
   name: saulhoward
   url: https://news.ycombinator.com/item?id=44789030
 ---
+
+<JobNavigation />
+
 Anterior - NYC (Midtown) - Full-time - ONSITE - <a href="https:&#x2F;&#x2F;anterior.com" rel="nofollow">https:&#x2F;&#x2F;anterior.com</a>
 
 Anterior is improving the experience of healthcare for everyone. We&#x27;re growing fast on the cutting edge of using AI to make clinical decisioning frictionless.

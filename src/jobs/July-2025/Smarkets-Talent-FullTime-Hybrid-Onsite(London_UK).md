@@ -4,6 +4,9 @@ author:
   name: Smarkets-Talent
   url: https://news.ycombinator.com/item?id=44445345
 ---
+
+<JobNavigation />
+
 Smarkets (<a href="https:&#x2F;&#x2F;www.smarkets.com" rel="nofollow">https:&#x2F;&#x2F;www.smarkets.com</a>) - Full Time - Hybrid - Onsite (London, UK)
 
 Smarkets is a betting exchange for sports and political trading that has handled over £37 billion in volume since 2010. Our company mission is to fix the betting industry with the best products and best prices.

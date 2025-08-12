@@ -4,6 +4,9 @@ author:
   name: onvbqalc
   url: https://news.ycombinator.com/item?id=44771178
 ---
+
+<JobNavigation />
+
 ZenMaid Inc - Back-End Engineer (Ruby&#x2F;Rails) - Remote (USA&#x2F;EU) - Full-time (open to part-time)
 
 We&#x27;re a niche SaaS for the residential cleaning industry - #1 in our space and growing. 10 years profitable, no VC, few meetings. Lots of deep work, shipping &amp; care for our craft. Cool culture, yearly retreats in Europe.

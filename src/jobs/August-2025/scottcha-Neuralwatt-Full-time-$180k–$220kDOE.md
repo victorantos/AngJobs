@@ -4,6 +4,9 @@ author:
   name: scottcha
   url: https://news.ycombinator.com/item?id=44767967
 ---
+
+<JobNavigation />
+
 Neuralwatt - <a href="https:&#x2F;&#x2F;neuralwatt.com" rel="nofollow">https:&#x2F;&#x2F;neuralwatt.com</a> - REMOTE (US – Seattle&#x2F;Denver&#x2F;Boulder metros only) - Full-time - $180k–$220k DOE
 
 Energy is the #1 constraint in new datacenter buildouts. Neuralwatt is reshaping AI compute around energy efficiency to maximize revenue per kilowatt. We’re a VC-backed, early-stage startup building optimization tools for AI, HPC, and datacenter workloads.

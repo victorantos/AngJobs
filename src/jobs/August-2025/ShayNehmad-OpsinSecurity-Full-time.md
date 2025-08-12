@@ -4,6 +4,9 @@ author:
   name: ShayNehmad
   url: https://news.ycombinator.com/item?id=44760610
 ---
+
+<JobNavigation />
+
 Opsin Security - San Jose &#x2F; SF Bay Area (Hybrid, 2–3 days on-site) - Full-time - <a href="https:&#x2F;&#x2F;opsinsecurity.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;opsinsecurity.com&#x2F;careers</a>
 
 Opsin helps enterprises secure and deploy Enterprise Search&#x2F;AI systems (e.g. Microsoft Copilot, Google Gemini) responsibly without exposing sensitive data. Venture-backed by Race Capital. You’ll work directly with the founders on a small (&lt;10) person team shipping fast in a huge green-field space.

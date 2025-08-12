@@ -4,6 +4,9 @@ author:
   name: grmartinez
   url: https://news.ycombinator.com/item?id=44818733
 ---
+
+<JobNavigation />
+
 Thatch - www.thatch.ai - Remote (US) - Software Engineer (full-stack and backend)
 
 Thatch is a startup on a mission to build a healthcare system people love. We&#x27;re combining the latest innovations in fintech with recent legislation in the healthcare space to take a new approach to health benefits.

@@ -4,6 +4,9 @@ author:
   name: nezaj
   url: https://news.ycombinator.com/item?id=44162515
 ---
+
+<JobNavigation />
+
 InstantDB (YC S22) - Founding Engineers - ONSITE - San Francisco - Full-time - <a href="https:&#x2F;&#x2F;instantdb.com">https:&#x2F;&#x2F;instantdb.com</a>
 
 We&#x27;re looking for talented individuals interested in solving some of the hardest problems in real-time databases and front-end technology. If you love building delightful developer experiences and want to work on cutting-edge tech, we want to hear from you!

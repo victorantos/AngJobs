@@ -4,6 +4,9 @@ author:
   name: tinloaf
   url: https://news.ycombinator.com/item?id=44452302
 ---
+
+<JobNavigation />
+
 MENTZ - C++ Algorithm Engineer - ONSITE (Munich) - Full-Time
 
 MENTZ builds software for public transit agencies and authorities. One big part of our portfolio is an intermodal journey planning system - think Google&#x2F;Apple Maps, but with a strong focus on public transit.

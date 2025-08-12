@@ -4,6 +4,9 @@ author:
   name: ynouri
   url: https://news.ycombinator.com/item?id=44458901
 ---
+
+<JobNavigation />
+
 Pave - <a href="https:&#x2F;&#x2F;www.pavefi.com" rel="nofollow">https:&#x2F;&#x2F;www.pavefi.com</a> - Data Scientist - Backend Engineer - Remote (US or Canada) - Full-time
 
 I’m the Director of Engineering at Pave, a rapidly growing startup revolutionizing financial access for underserved consumers and small businesses through AI-powered Cashflow Analytics and Scores.

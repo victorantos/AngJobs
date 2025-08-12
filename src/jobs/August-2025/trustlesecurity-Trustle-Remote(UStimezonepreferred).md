@@ -4,6 +4,9 @@ author:
   name: trustlesecurity
   url: https://news.ycombinator.com/item?id=44761828
 ---
+
+<JobNavigation />
+
 Trustle - <a href="https:&#x2F;&#x2F;trustle.com" rel="nofollow">https:&#x2F;&#x2F;trustle.com</a> - Senior&#x2F;Staff Backend Engineer - Remote (US time zone preferred) - Salary based on experience and location 
 We&#x27;re building the future of cloud access management - helping companies achieve Zero Standing Privileges through just-in-time access and intelligent entitlement management.
 What you&#x27;ll work on:

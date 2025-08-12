@@ -4,6 +4,9 @@ author:
   name: annaliakruseman
   url: https://news.ycombinator.com/item?id=44436529
 ---
+
+<JobNavigation />
+
 Chirp Family Travel - San Francisco Bay Area
 
 - iOS Developer (Swift)

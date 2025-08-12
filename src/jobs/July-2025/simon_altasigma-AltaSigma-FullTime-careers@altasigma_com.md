@@ -4,6 +4,9 @@ author:
   name: simon_altasigma
   url: https://news.ycombinator.com/item?id=44434989
 ---
+
+<JobNavigation />
+
 AltaSigma - Senior Kubernetes &amp; Cloud-native Engineer - Hybrid (Germany: Berlin, Stuttgart, Ulm) - Full Time - careers@altasigma.com
 
 Company: AltaSigma is an innovative AI company dedicated to making artificial intelligence efficient, secure, and truly value-driven for organizations of all kinds. We provide a powerful, in-house developed AI platform—built on modern software architecture, clean code principles, and scalable open source technologies.

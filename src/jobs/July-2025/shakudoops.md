@@ -4,6 +4,9 @@ author:
   name: shakudoops
   url: https://news.ycombinator.com/item?id=44443916
 ---
+
+<JobNavigation />
+
 Shakudo - <a href="https:&#x2F;&#x2F;www.shakudo.io&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.shakudo.io&#x2F;</a>
 
 we are seeking a team of Technical Support Specialists to join Shakudo on a fully remote basis. In this role, you will be responsible for providing technical support for the Shakudo AI &amp; Data Platform across multiple time zones.

@@ -4,6 +4,9 @@ author:
   name: rattray
   url: https://news.ycombinator.com/item?id=44165232
 ---
+
+<JobNavigation />
+
 Stainless - Engineers, EMs, Former Founders, GTM, Business, more - NYC &amp; SF ONSITE - Full-time
 
 Stainless is building the platform for high-quality, easy-to-use APIs.

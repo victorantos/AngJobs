@@ -4,6 +4,9 @@ author:
   name: spderosso
   url: https://news.ycombinator.com/item?id=44760584
 ---
+
+<JobNavigation />
+
 Aleph - Senior Software Engineers (frontend, backend, fullstack), Eng Managers - Fully Remote (ET to PT hours) - Full-time - <a href="https:&#x2F;&#x2F;www.getaleph.com">https:&#x2F;&#x2F;www.getaleph.com</a>
 
 Aleph is an AI-native platform for Financial Planning &amp; Analysis (FP&amp;A). We operate in an established software category with a multi-billion market but no clear winner. Our growth has come from product velocity and customer outcomes, not marketing spend, and the results speak for themselves.

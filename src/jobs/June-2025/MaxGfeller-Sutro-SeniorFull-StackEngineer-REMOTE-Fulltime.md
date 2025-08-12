@@ -4,6 +4,9 @@ author:
   name: MaxGfeller
   url: https://news.ycombinator.com/item?id=44162102
 ---
+
+<JobNavigation />
+
 Sutro - Senior Full-Stack Engineer - REMOTE - Full time
 
 At Sutro, we&#x27;re building the next generation AI-native no-code platform. Our code base is mostly written in TypeScript, with React (Native) for the frontend, with a particular focus on complex agentic workflows and many patterns from the fields of compilers and the theory of software languages.

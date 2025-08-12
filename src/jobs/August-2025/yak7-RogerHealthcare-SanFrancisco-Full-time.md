@@ -4,6 +4,9 @@ author:
   name: yak7
   url: https://news.ycombinator.com/item?id=44842321
 ---
+
+<JobNavigation />
+
 Roger Healthcare - ONSITE &#x2F; Hybrid &#x2F; REMOTE - San Francisco - Senior&#x2F;Staff Backend Engineer &amp; Junior Backend Engineer - Full-time
 
 Build AI tools that give clinicians their evenings back. We’re creating AI-powered clinical documentation for home-based care, improving elder care nationwide. Backed by top investors, profitable in year one, and growing faster than anyone in our space.

@@ -4,6 +4,9 @@ author:
   name: dempsry
   url: https://news.ycombinator.com/item?id=44758529
 ---
+
+<JobNavigation />
+
 SalesJack - Founding Engineer - Remote (US&#x2F;Canada) - $200K + equity and benefits - Full-time
 
 Sales software platform (CRM, Prospecting Service) for independent businesses in the construction supply industry. Our customers are blue-collar, entrepreneurial teams who have been underserved by technology. We provide them the tools to compete head-to-head with larger rivals (Home Depot, Lowe’s).

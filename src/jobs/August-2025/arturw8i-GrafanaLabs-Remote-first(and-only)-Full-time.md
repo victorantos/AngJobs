@@ -4,6 +4,9 @@ author:
   name: arturw8i
   url: https://news.ycombinator.com/item?id=44757803
 ---
+
+<JobNavigation />
+
 Grafana Labs - Remote-first (and-only) - Senior &#x2F; Staff Software Engineer - Full-time
 
 I am looking for someone with a lot of experience with SaaS platforms at scale. We are turning Grafana into a high-scale, multitenant observability application platform that is easy to build upon.

@@ -4,6 +4,9 @@ author:
   name: rephus
   url: https://news.ycombinator.com/item?id=44441675
 ---
+
+<JobNavigation />
+
 Lightdash - Senior Full Stack Engineer - REMOTE (Europe-based) - full-time - <a href="https:&#x2F;&#x2F;www.lightdash.com&#x2F;">https:&#x2F;&#x2F;www.lightdash.com&#x2F;</a> - £80K – £130K +options
 
 We are Lightdash, an open source BI and analytics dashboard. We have recently closed our series A and are actively hiring for senior full-stack engineers with experience in Typescript+React+Node+SQL. Bonus points for experience in data-related companies&#x2F;projects, or being a founding engineer at a startup.

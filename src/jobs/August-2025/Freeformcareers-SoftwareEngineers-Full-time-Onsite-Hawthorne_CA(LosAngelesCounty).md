@@ -4,6 +4,9 @@ author:
   name: Freeformcareers
   url: https://news.ycombinator.com/item?id=44802650
 ---
+
+<JobNavigation />
+
 Freeform (<a href="http:&#x2F;&#x2F;freeform.co" rel="nofollow">http:&#x2F;&#x2F;freeform.co</a> ) - Software Engineers - Full-time - Onsite -Hawthorne, CA (Los Angeles County)
 
 Freeform is deploying metal 3D printing factories at global scale and setting a new frontier in manufacturing. With AI, GPUs, and FPGAs working in tandem, our system monitors and corrects every microsecond of the process, delivering a level of precision, speed, and quality that’s never been possible—until now. This isn’t just an improvement; it’s a leap forward in how complex metal parts are made, with the ability to revolutionize industries like aerospace, defense, automotive, energy, and beyond. We are backed by top VCs including NVIDIA’s NVentures, Founders Fund, and Threshold Ventures.

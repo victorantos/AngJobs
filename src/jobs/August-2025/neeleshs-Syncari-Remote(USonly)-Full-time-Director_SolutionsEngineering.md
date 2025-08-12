@@ -4,6 +4,9 @@ author:
   name: neeleshs
   url: https://news.ycombinator.com/item?id=44762301
 ---
+
+<JobNavigation />
+
 Syncari - Remote (US only) - Full-time - Director, Solutions Engineering
 
 We are an all-in-one modern data integration, management, workflow and analytics platform.

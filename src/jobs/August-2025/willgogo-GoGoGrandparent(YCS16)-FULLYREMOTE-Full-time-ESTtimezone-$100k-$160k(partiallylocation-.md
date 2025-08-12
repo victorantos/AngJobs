@@ -4,6 +4,9 @@ author:
   name: willgogo
   url: https://news.ycombinator.com/item?id=44765821
 ---
+
+<JobNavigation />
+
 GoGoGrandparent (YC S16) - FULLY REMOTE - Full-time - EST timezone - 1 x Tech Lead Engineer + 3 x Senior&#x2F;Staff Backend&#x2F;Full-stack&#x2F;Frontend Engineers - $100k-$160k (partially location-dependent)
 Build high-quality, robust engineering at the rarest of things - a Silicon Valley startup that is both wholesome AND profitable. We have 8-figure revenue, are YC-backed, and growing fast.
 

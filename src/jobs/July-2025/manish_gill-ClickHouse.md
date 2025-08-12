@@ -4,6 +4,9 @@ author:
   name: manish_gill
   url: https://news.ycombinator.com/item?id=44435233
 ---
+
+<JobNavigation />
+
 ClickHouse - Senior Software Engineer - Cloud Infrastructure &#x2F; Kubernetes - Remote (US &#x2F; EU preferred)
 
 ClickHouse is a popular, Open-Source OLAP Database. We are ClickHouse Inc, the company behind the database aiming to build the best in class real time data warehouse.

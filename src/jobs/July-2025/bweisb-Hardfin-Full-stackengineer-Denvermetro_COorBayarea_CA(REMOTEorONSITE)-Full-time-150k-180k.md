@@ -4,6 +4,9 @@ author:
   name: bweisb
   url: https://news.ycombinator.com/item?id=44435971
 ---
+
+<JobNavigation />
+
 Hardfin - Full-stack engineer - Denver metro, CO or Bay area, CA (REMOTE or ONSITE) - CA&#x2F;CO ONLY - Full-time - 150k-180k salary
 
 Hardfin is a B2B software platform for equipment manufacturers that enables them to track their assets and manage projects for their hardware. We are looking to add another fullstack engineer that can wear a bit of a product hat and is comfortable with &quot;figuring it out&quot; as they build.

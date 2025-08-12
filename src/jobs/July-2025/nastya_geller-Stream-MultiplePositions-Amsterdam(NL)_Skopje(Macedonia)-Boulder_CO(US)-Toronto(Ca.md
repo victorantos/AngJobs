@@ -4,6 +4,9 @@ author:
   name: nastya_geller
   url: https://news.ycombinator.com/item?id=44435151
 ---
+
+<JobNavigation />
+
 Stream - Multiple Positions - Amsterdam (NL), Skopje (Macedonia) -  Boulder, CO (US) - Toronto (Canada) - Remote possible - Full Time - Visa Sponsorship
 
 We are consistently hiring backend engineers ranging from Senior level to Staff &#x2F; Lead &#x2F; Director &#x2F; Principal Go engineers.
