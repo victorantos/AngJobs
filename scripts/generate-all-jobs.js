@@ -54,7 +54,7 @@ dir:
 
 <div class="jobs-header">
   <div class="jobs-count">${jobs.length} positions available</div>
-  <a href="./all-jobs.md" class="search-all-button">🔍 Search All Jobs</a>
+  <a href="./all-jobs.html" class="search-all-button">🔍 Search All Jobs</a>
 </div>
 `;
   }

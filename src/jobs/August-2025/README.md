@@ -11,79 +11,79 @@ dir:
 
 <div class="jobs-header">
   <div class="jobs-count">290 positions available</div>
-  <a href="./all-jobs.md" class="search-all-button">🔍 Search All Jobs</a>
+  <a href="./all-jobs.html" class="search-all-button">🔍 Search All Jobs</a>
 </div>
 ## ⭐ Featured Jobs
 
 <div class="featured-jobs">
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/aaronziosec">aaronziosec</a></h3>
+    <h3><a href="/jobs/August-2025/darango6">darango6</a></h3>
     <div class="job-meta">
       <span class="company">🏢 Company</span>
-      <span class="author">👤 aaronziosec</span>
+      <span class="author">👤 darango6</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/knowledge1996-BrilliantSoftwareEngineerWantedforBigPictureAIConsultants-AIVoiceAgentStartup">Brilliant Software Engineer Wanted for Big Picture AI Consultants - AI Voice Agent Startup</a></h3>
+    <h3><a href="/jobs/August-2025/r3tr0-yeet-Full-Time">yeet : Full-Time</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 BrilliantSoftwareEngineerWantedforBigPictureAIConsultants</span>
-      <span class="author">👤 knowledge1996</span>
+      <span class="company">🏢 yeet</span>
+      <span class="author">👤 r3tr0</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/rossng-MONUMENTAL-Amsterdam_TheNetherlands-FullTime-Onsite">MONUMENTAL : Amsterdam, The Netherlands</a></h3>
+    <h3><a href="/jobs/August-2025/all-jobs">All August 2025 Jobs</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 MONUMENTAL</span>
-      <span class="author">👤 rossng</span>
+      <span class="company">🏢 jobs</span>
+      <span class="author">👤 Anonymous</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/j_kauf-Sitewire-FullStackEngineer-Full-Time-REMOTE(US-only)">Sitewire : Full Stack Engineer</a></h3>
+    <h3><a href="/jobs/August-2025/jadeyychan-CamberfkaJuniper(YCW21)-SeniorSoftwareEngineer(Product_Backend_Data_platform-Engineer">Camber fka Juniper (YC W21) : Senior Software Engineer (Product, Backend, Data, platform</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Sitewire</span>
-      <span class="author">👤 j_kauf</span>
+      <span class="company">🏢 CamberfkaJuniper(YCW21)</span>
+      <span class="author">👤 jadeyychan</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/swhopkins-Sonix-SeniorFull-StackEngineer-Remote(USonly)-Full-time-RubyonRails%2BReact">Sonix : Senior Full-Stack Engineer</a></h3>
+    <h3><a href="/jobs/August-2025/statusfailed-Hellas_AI-Remote-FullTimeorContract">Hellas.AI : Remote</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Sonix</span>
-      <span class="author">👤 swhopkins</span>
+      <span class="company">🏢 Hellas_AI</span>
+      <span class="author">👤 statusfailed</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/Nelkins-Seniorcontractors_frontendandbackend">Senior contractors, frontend and backend</a></h3>
+    <h3><a href="/jobs/August-2025/mikelayerhealth-LayerHealth">Layer Health</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Seniorcontractors_frontendandbackend</span>
-      <span class="author">👤 Nelkins</span>
+      <span class="company">🏢 LayerHealth</span>
+      <span class="author">👤 mikelayerhealth</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/richard_pepper-SpiceData(S19)-SanFrancisco_CA-Full-time">Spice Data (S19) : San Francisco, CA</a></h3>
+    <h3><a href="/jobs/August-2025/dvrp-krea_ai-SanFrancisco(on-site)_CA-%24200K-%24400K">krea.ai : San Francisco (on-site), CA</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 SpiceData(S19)</span>
-      <span class="author">👤 richard_pepper</span>
+      <span class="company">🏢 krea_ai</span>
+      <span class="author">👤 dvrp</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/jmccarthy-StrongDM-%5BStaff_Senior_Junior%5DAIAgentEngineer-SanFranciscoBayArea(PaloAlto)-Full-Time-">StrongDM : [Staff, Senior, Junior] AI Agent Engineer</a></h3>
+    <h3><a href="/jobs/August-2025/lap5j-Alembic-SanFrancisco_UnitedStates-Full-time-Onsite">Alembic : San Francisco, United States</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 StrongDM</span>
-      <span class="author">👤 jmccarthy</span>
+      <span class="company">🏢 Alembic</span>
+      <span class="author">👤 lap5j</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/bkrausz-Stainless-Engineers_EMs_GTM_FormerFounders-Full-time">Stainless : Engineers, EMs, GTM, Former Founders</a></h3>
+    <h3><a href="/jobs/August-2025/wwolffrec-CategoryLabs-RemoteandNYC-FullTime-%24200KUSD%2B">Category Labs : Remote and NYC</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Stainless</span>
-      <span class="author">👤 bkrausz</span>
+      <span class="company">🏢 CategoryLabs</span>
+      <span class="author">👤 wwolffrec</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/RadAIWill-RadAI-RemoteUS_CAN(%2BOfficeinSF)Empoweringphysicianswithbest-in-classAIradiologysoluti">Rad AI : Remote US, CAN (+ Office in SF) Empowering physicians with best-in-class AI radiology solutions to save time, reduce burnout, and improve patient care. Series C with tremendous momentum.</a></h3>
+    <h3><a href="/jobs/August-2025/dowakin-9MothersDefense-Hybrid(AustinTX)-Full-time">9 Mothers Defense : Hybrid (Austin TX)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 RadAI</span>
-      <span class="author">👤 RadAIWill</span>
+      <span class="company">🏢 9MothersDefense</span>
+      <span class="author">👤 dowakin</span>
     </div>
   </div>
 </div>

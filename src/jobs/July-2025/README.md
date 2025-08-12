@@ -8,11 +8,39 @@ index: true
 
 <div class="jobs-header">
   <div class="jobs-count">285 positions available</div>
-  <a href="./all-jobs.md" class="search-all-button">🔍 Search All Jobs</a>
+  <a href="./all-jobs.html" class="search-all-button">🔍 Search All Jobs</a>
 </div>
 ## ⭐ Featured Jobs
 
 <div class="featured-jobs">
+  <div class="featured-job">
+    <h3><a href="/jobs/July-2025/konz-ML6-MachineLearningEngineer_DataEngineer-Python_TensorFlow_PyTorch_GCP_AWS_Azure-Full-time">ML6 : Machine Learning Engineer, Data Engineer</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 ML6</span>
+      <span class="author">👤 konz</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/July-2025/fosterfriends-Graphite-NewYork_NYinourSohoHeadquarters">Graphite : New York, NY in our Soho Headquarters</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 Graphite</span>
+      <span class="author">👤 fosterfriends</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/July-2025/vimota-FoundingSoftwareEngineers-FullTime">Founding Software Engineers : Full Time</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 FoundingSoftwareEngineers</span>
+      <span class="author">👤 vimota</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/July-2025/huan23-ConnieHealth-Multipleengineeringroles-Hybrid(Boston_MA)-Full-time">Connie Health : Multiple engineering roles</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 ConnieHealth</span>
+      <span class="author">👤 huan23</span>
+    </div>
+  </div>
   <div class="featured-job">
     <h3><a href="/jobs/July-2025/aabhas-Found-Full-Time">Found : Full-Time</a></h3>
     <div class="job-meta">
@@ -21,66 +49,38 @@ index: true
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/July-2025/hussainkader-Treeline-Hybrid(SForLA)-Full-time">Treeline : Hybrid (SF or LA)</a></h3>
+    <h3><a href="/jobs/July-2025/philip1209-Chroma-ONSITE-SanFrancisco-Full-time">Chroma : ONSITE - San Francisco</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Treeline</span>
-      <span class="author">👤 hussainkader</span>
+      <span class="company">🏢 Chroma</span>
+      <span class="author">👤 philip1209</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/July-2025/michaelm244-Comulate-SeniorEngineer(3%2BYoE)-ONSITEinSanFrancisco_CA">Comulate : Senior Engineer (3+ YoE)</a></h3>
+    <h3><a href="/jobs/July-2025/bkimgolf-GolfDaddy-FoundingAIAgentEngineers_UnityDevelopers-Onsite-Irvine_CA-Full-Time">Golf Daddy : Founding AI Agent Engineers, Unity Developers</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Comulate</span>
-      <span class="author">👤 michaelm244</span>
+      <span class="company">🏢 GolfDaddy</span>
+      <span class="author">👤 bkimgolf</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/July-2025/MakerSam-BlueOrigin-FullStackWebSoftwareEngineer-ONSITEinSeattle_WAorHuntsville_AL-FullTime">Blue Origin : Full Stack Web Software Engineer</a></h3>
+    <h3><a href="/jobs/July-2025/jeswin-CredCore-Engineering-Full-time-www_credcore_com">CredCore : Engineering</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 BlueOrigin</span>
-      <span class="author">👤 MakerSam</span>
+      <span class="company">🏢 CredCore</span>
+      <span class="author">👤 jeswin</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/July-2025/jmg2227-BasePower-Onsite-Austin-Full-time">Base Power : Onsite</a></h3>
+    <h3><a href="/jobs/July-2025/brenoinojosa-Apple-SRE-ONSITE-Austin_TX(US)-Full-time">Apple : SRE</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 BasePower</span>
-      <span class="author">👤 jmg2227</span>
+      <span class="company">🏢 Apple</span>
+      <span class="author">👤 brenoinojosa</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/July-2025/as-jobs-AtomicSemi-Onsite-SanFrancisco_CA-Full-timeandInternships">Atomic Semi : Onsite</a></h3>
+    <h3><a href="/jobs/July-2025/MKK-Duranta-Seattle_WAorNewYork_NY-ONSITE-Full-time">Duranta : Seattle, WA or New York, NY</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 jobs</span>
-      <span class="author">👤 as-jobs</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/July-2025/fzysingularity-2xfoundingengineers%2B1xDevRel">2x founding engineers + 1x DevRel</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 2xfoundingengineers+1xDevRel</span>
-      <span class="author">👤 fzysingularity</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/July-2025/beaconai-BeaconAI-SanCarlos_CA-Full-Time-Hybrid">Beacon AI : San Carlos, CA</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 BeaconAI</span>
-      <span class="author">👤 beaconai</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/July-2025/erex78-AugustHealth-MultipleEngineeringRoles-Remote(USA)-FullTime">August Health : Multiple Engineering Roles</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 AugustHealth</span>
-      <span class="author">👤 erex78</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/July-2025/blacksharkAI-BlacksharkAI-Full-time-AustriaorRemoteEU-VISAsponsorshipavailable">Blackshark AI : Full-time</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 BlacksharkAI</span>
-      <span class="author">👤 blacksharkAI</span>
+      <span class="company">🏢 Duranta</span>
+      <span class="author">👤 MKK</span>
     </div>
   </div>
 </div>
