@@ -1,0 +1,16 @@
+---
+title: "ResiQuantAI : San Francisco, CA"
+author:
+  name: JordanResiQuant
+  url: https://news.ycombinator.com/item?id=45441693
+---
+ResiQuantAI - San Francisco, CA - US Based - Resiquant.ai - Onsite, Fulltime
+
+ResiQuant is a mission-driven startup building the future of property risk intelligence—where every building can be accurately assessed for disaster resilience, at scale. We’re solving one of the toughest problems in climate risk: the lack of reliable, standardized, and dynamic data on the built environment. Our work is critical in a world where wildfires, earthquakes, and hurricanes are escalating in frequency and impact. Empowering insurers, financial institutions, and asset managers, our AI-powered systems combine cutting-edge machine learning with deep structural engineering expertise. The result: precise, actionable insights that close critical data gaps and drive smarter decisions.
+
+Backend Product Engineer: -Architect and maintain backend systems that support AI-driven property risk intelligence at enterprise scale - Own end-to-end development of backend features, from design through deployment - Design and implement scalable APIs, data pipelines, and model-integrated services to deliver real-time, high-reliability insights used by Fortune 500 insurers - Collaborate cross-functionally with engineering, product, and customer stakeholders to build and iterate on impactful features - Ensure backend systems are observable, reliable, performant, and ready for production at scale - Evaluate user and customer feedback to inform product iterations and backend improvements - Minimum of 3 years of backend engineering experience with ownership of production systems - Hands-on experience developing in modern backend stacks (Python experience is a plus) - BS or above in Computer Science&#x2F;Engineering and at least three years of applicable industry experience
+
+Forward Deployed Engineer: Act as the technical liaison between the company and enterprise insurance customers, leading engagements from initial discovery through full-scale implementation - Collaborate directly with underwriters, executives, and IT teams to deliver AI-driven solutions that transform risk assessment for wildfire, earthquake, and hurricane exposure - Architect and implement custom APIs, integrations, and automations that connect customer systems with ResiQuant’s platform - Travel to customer sites across the U.S. to conduct workshops, lead technical deployments, and ensure successful adoption of the platform - Train and onboard underwriter teams, supporting workflow integration and long-term platform usage - Serve as the voice of the customer, translating needs and feedback into product roadmap priorities - Develop internal tools and automations to streamline future implementations and scale delivery - Minimum of 3 years of software engineering or technical implementation experience, with strong communication and customer-facing skills - Hands-on development experience, particularly with APIs and systems integration (Python proficiency is a plus) - BS or above in Computer Science&#x2F;Engineering and at least three years of relevant industry experience
+
+Please send your resume to: jordan@resiquant.ai
+<JobApplication />
