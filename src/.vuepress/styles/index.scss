@@ -216,6 +216,88 @@ html.dark {
   outline-offset: 2px;
 }
 
+// Mobile-friendly sidebar improvements
+@media (max-width: 768px) {
+  // Sidebar container
+  .sidebar {
+    font-size: 16px !important;  // Larger base font for better readability
+  }
+
+  // Sidebar links - increase touch target size
+  .sidebar-link,
+  .sidebar-item > a {
+    min-height: 44px !important;  // Minimum touch target size
+    padding: 12px 16px !important;  // Increased padding for easier tapping
+    font-size: 15px !important;  // Larger font size
+    line-height: 1.5 !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  // Sidebar headings
+  .sidebar-heading {
+    min-height: 44px !important;
+    padding: 12px 16px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+  }
+
+  // Sidebar groups
+  .sidebar-group {
+    margin-bottom: 8px !important;
+  }
+
+  // Sidebar sub-items (nested links)
+  .sidebar-sub-headers {
+    a {
+      min-height: 42px !important;
+      padding: 10px 16px 10px 32px !important;  // Extra left padding for hierarchy
+      font-size: 14px !important;
+    }
+  }
+
+  // Active sidebar link - better visual feedback
+  .sidebar-link.active,
+  .sidebar-item > a.active {
+    background: rgba(255, 102, 0, 0.1) !important;
+    border-left: 4px solid var(--angjobs-primary, #ff6600) !important;
+    font-weight: 600 !important;
+  }
+
+  // Hover/tap feedback
+  .sidebar-link:active,
+  .sidebar-item > a:active {
+    background: rgba(255, 102, 0, 0.15) !important;
+    transform: scale(0.98);
+  }
+
+  // Increase spacing between sidebar items
+  .sidebar-links > li,
+  .sidebar-group-items > li {
+    margin-bottom: 4px !important;
+  }
+
+  // Sidebar button (collapse/expand)
+  .sidebar-button {
+    min-height: 44px !important;
+    padding: 12px 16px !important;
+  }
+}
+
+// Extra spacing for very small screens
+@media (max-width: 480px) {
+  .sidebar-link,
+  .sidebar-item > a {
+    padding: 14px 18px !important;  // Even more padding
+    font-size: 16px !important;  // Larger font
+  }
+
+  .sidebar-heading {
+    padding: 14px 18px !important;
+    font-size: 17px !important;
+  }
+}
+
 // Enhanced job listing pages with HN style
 .theme-default-content {
   // Job listing pages
@@ -361,13 +443,14 @@ html.dark {
   border-radius: var(--angjobs-border-radius, 12px);
   padding: 20px 24px;
   margin: 24px 0;
-  
+  box-sizing: border-box;  // Ensure padding is included in width
+
   .jobs-count {
     font-size: 18px;
     font-weight: 600;
     color: var(--angjobs-text-primary, #1a1a1a);
   }
-  
+
   .search-all-button {
     background: var(--angjobs-primary, #ff6600);
     color: white;
@@ -377,34 +460,50 @@ html.dark {
     font-weight: 600;
     font-size: 16px;
     transition: all 0.2s ease;
-    
+    box-sizing: border-box;  // Ensure padding is included in width
+
     &:hover {
       background: var(--angjobs-primary-dark, #e55500);
       transform: translateY(-1px);
       box-shadow: 0 4px 12px rgba(255, 102, 0, 0.3);
     }
   }
-  
+
   // Mobile responsive
   @media (max-width: 768px) {
     flex-direction: column;
-    gap: 16px;
+    gap: 12px;
     text-align: center;
-    padding: 16px;  // Reduce padding on mobile to prevent overflow
+    padding: 12px;  // Reduce padding on mobile to prevent overflow
+    margin: 16px 0;  // Reduce margin on mobile
 
     .jobs-count {
       font-size: 16px;  // Slightly smaller on mobile
+      width: 100%;
     }
 
     .search-all-button {
-      width: 100%;
+      width: calc(100% - 4px);  // Slightly less than 100% to prevent overflow
+      max-width: 100%;
       display: block;
       text-align: center;
-      padding: 10px 16px;  // Reduce padding on mobile
+      padding: 10px 12px;  // Reduce padding on mobile
       font-size: 14px;  // Smaller font on mobile
       white-space: nowrap;  // Prevent text wrapping
       overflow: hidden;
       text-overflow: ellipsis;
+      margin: 0 auto;  // Center the button
+    }
+  }
+
+  // Extra small screens
+  @media (max-width: 480px) {
+    padding: 10px;
+    margin: 12px 0;
+
+    .search-all-button {
+      padding: 8px 10px;
+      font-size: 13px;
     }
   }
 }
