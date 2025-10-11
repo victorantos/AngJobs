@@ -17,59 +17,38 @@ dir:
 
 <div class="featured-jobs">
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/darango6">darango6</a></h3>
+    <h3><a href="/jobs/August-2025/gruvo-CoVar-Durham_NC-Full-time">CoVar : Durham, NC</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Company</span>
-      <span class="author">👤 darango6</span>
+      <span class="company">🏢 CoVar</span>
+      <span class="author">👤 gruvo</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/r3tr0-yeet-Full-Time">yeet : Full-Time</a></h3>
+    <h3><a href="/jobs/August-2025/jpadif-ThredUP-Sr_InfrastructureEngineer-Full-time-Remote(Mexico)">ThredUP : Sr. Infrastructure Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 yeet</span>
-      <span class="author">👤 r3tr0</span>
+      <span class="company">🏢 ThredUP</span>
+      <span class="author">👤 jpadif</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/all-jobs">All August 2025 Jobs</a></h3>
+    <h3><a href="/jobs/August-2025/nathanielobrown-%24120-180K-%E2%88%9Aremote(Americas)-%E2%88%9Abootstrapped-%E2%88%9Aprofitable">120-180K : √ remote (Americas)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 jobs</span>
-      <span class="author">👤 Anonymous</span>
+      <span class="company">🏢 $120</span>
+      <span class="author">👤 nathanielobrown</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/jadeyychan-CamberfkaJuniper(YCW21)-SeniorSoftwareEngineer(Product_Backend_Data_platform-Engineer">Camber fka Juniper (YC W21) : Senior Software Engineer (Product, Backend, Data, platform</a></h3>
+    <h3><a href="/jobs/August-2025/cbigc-BigCartel-DevOpsEngineer-Remote-Fulltime">Big Cartel : DevOps Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 CamberfkaJuniper(YCW21)</span>
-      <span class="author">👤 jadeyychan</span>
+      <span class="company">🏢 BigCartel</span>
+      <span class="author">👤 cbigc</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/statusfailed-Hellas_AI-Remote-FullTimeorContract">Hellas.AI : Remote</a></h3>
+    <h3><a href="/jobs/August-2025/maiven-_Maiven-Remote(US)-Full-Time_">*Maiven : Remote (US)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Hellas_AI</span>
-      <span class="author">👤 statusfailed</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/August-2025/mikelayerhealth-LayerHealth">Layer Health</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 LayerHealth</span>
-      <span class="author">👤 mikelayerhealth</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/August-2025/dvrp-krea_ai-SanFrancisco(on-site)_CA-%24200K-%24400K">krea.ai : San Francisco (on-site), CA</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 krea_ai</span>
-      <span class="author">👤 dvrp</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/August-2025/lap5j-Alembic-SanFrancisco_UnitedStates-Full-time-Onsite">Alembic : San Francisco, United States</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 Alembic</span>
-      <span class="author">👤 lap5j</span>
+      <span class="company">🏢 _Maiven</span>
+      <span class="author">👤 maiven</span>
     </div>
   </div>
   <div class="featured-job">
@@ -80,10 +59,31 @@ dir:
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/dowakin-9MothersDefense-Hybrid(AustinTX)-Full-time">9 Mothers Defense : Hybrid (Austin TX)</a></h3>
+    <h3><a href="/jobs/August-2025/pambeardsell-YuzuHealth-FoundingPricingEngineer-NewYork_NY-ONSITE">Yuzu Health : Founding Pricing Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 9MothersDefense</span>
-      <span class="author">👤 dowakin</span>
+      <span class="company">🏢 YuzuHealth</span>
+      <span class="author">👤 pambeardsell</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/August-2025/SebastianSosa1-VERISAI">VERIS AI</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 VERISAI</span>
+      <span class="author">👤 SebastianSosa1</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/August-2025/jaredsilver-Brilliant_org-Remote(NorthAmerica)_SF_NYC-Full-time-%24170k%E2%80%94%24235k">Brilliant.org : Remote (North America), SF, NYC</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 Brilliant_org</span>
+      <span class="author">👤 jaredsilver</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/August-2025/vicpara-BroadnInc-Foundingengineer-NYC-USA-Full-time-ONSITEinNYC-USpersonsonly-Full-stack-">Broadn Inc : Founding engineer</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 BroadnInc</span>
+      <span class="author">👤 vicpara</span>
     </div>
   </div>
 </div>
