@@ -19,15 +19,7 @@ export default defineUserConfig({
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
     ['meta', { name: 'keywords', content: 'hacker news jobs, tech jobs, remote jobs, startup jobs, developer jobs, programming jobs' }],
     ['meta', { name: 'author', content: 'victorantos' }],
-    ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'AngJobs - Hacker News Job Board' }],
-    ['meta', { property: 'og:description', content: 'Find your next hacker job from Hacker News monthly threads' }],
-    ['meta', { property: 'og:url', content: 'https://angjobs.com' }],
-    ['meta', { property: 'og:image', content: 'https://angjobs.com/og-image.png' }],
-    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:title', content: 'AngJobs - Hacker News Job Board' }],
-    ['meta', { name: 'twitter:description', content: 'Find your next hacker job from Hacker News monthly threads' }],
-    ['meta', { name: 'twitter:image', content: 'https://angjobs.com/twitter-image.png' }],
+    // Note: og:* and twitter:* tags are handled by vuepress-theme-hope SEO plugin per-page
     
     // Favicon and icons
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],

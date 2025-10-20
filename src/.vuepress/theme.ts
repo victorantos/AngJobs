@@ -20,12 +20,7 @@ export default hopeTheme({
 
   // Mobile-first configuration
   mobileBreakPoint: 768,
-  
-  // SEO improvements
-  seo: true,
-  sitemap: true,
-  canonicalLink: true,
-  
+
   // Theme appearance
   darkmode: "toggle",
   themeColor: "#2196F3",
@@ -52,6 +47,15 @@ export default hopeTheme({
   },
 
   plugins: {
+    // SEO improvements
+    seo: {
+      canonical: (page) => {
+        return `https://angjobs.com${page.path}`;
+      },
+    },
+    sitemap: {
+      hostname: "https://angjobs.com",
+    },
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
     // comment: {

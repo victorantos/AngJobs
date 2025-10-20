@@ -5,7 +5,7 @@ title: All September 2025 Jobs
 <div class="all-jobs-page">
 
 <div class="jobs-header">
-  <div class="jobs-count">231 total positions</div>
+  <div class="jobs-count">232 total positions</div>
   <div class="back-link">
     <a href="/jobs/September-2025/">&larr; Back to Featured Jobs</a>
   </div>
@@ -71,6 +71,16 @@ title: All September 2025 Jobs
       <div class="job-meta">
         <span class="company">🏢 bp</span>
         <span class="author">👤 trinamic-bp</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="job-item" data-title="all september 2025 jobs" data-company="jobs">
+    <div class="job-content">
+      <h3><a href="/jobs/September-2025/all-jobs">All September 2025 Jobs</a></h3>
+      <div class="job-meta">
+        <span class="company">🏢 jobs</span>
+        <span class="author">👤 Anonymous</span>
       </div>
     </div>
   </div>

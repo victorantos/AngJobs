@@ -15,16 +15,6 @@ title: All October 2025 Jobs
 
 <div class="jobs-grid">
 
-  <div class="job-item" data-title="=================================================" data-company="=================================================">
-    <div class="job-content">
-      <h3><a href="/jobs/October-2025/repintel-%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D">=================================================</a></h3>
-      <div class="job-meta">
-        <span class="company">🏢 =================================================</span>
-        <span class="author">👤 repintel</span>
-      </div>
-    </div>
-  </div>
-
   <div class="job-item" data-title="10x genomics : software engineer(multiple roles)" data-company="10xgenomics">
     <div class="job-content">
       <h3><a href="/jobs/October-2025/bjg-10xGenomics-SoftwareEngineer(MultipleRoles)-Remote(US)orPleasanton_CA-Full-Time">10x Genomics : Software Engineer(Multiple Roles)</a></h3>
@@ -121,6 +111,16 @@ title: All October 2025 Jobs
       <div class="job-meta">
         <span class="company">🏢 Algolia</span>
         <span class="author">👤 fredalgolia</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="job-item" data-title="all october 2025 jobs" data-company="jobs">
+    <div class="job-content">
+      <h3><a href="/jobs/October-2025/all-jobs">All October 2025 Jobs</a></h3>
+      <div class="job-meta">
+        <span class="company">🏢 jobs</span>
+        <span class="author">👤 Anonymous</span>
       </div>
     </div>
   </div>

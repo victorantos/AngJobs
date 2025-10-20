@@ -18,59 +18,38 @@ dir:
 
 <div class="featured-jobs">
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/mceoin-Sourcetable_com-ProductMarketing(contract)">Sourcetable.com : Product Marketing (contract)</a></h3>
+    <h3><a href="/jobs/September-2025/agnivade-AdalatAI-Remote(India_butopentoglobalforexceptionalcandidates)-Go_React_Next_js_k8s">Adalat AI : Remote (India, but open to global for exceptional candidates)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Sourcetable_com</span>
-      <span class="author">👤 mceoin</span>
+      <span class="company">🏢 AdalatAI</span>
+      <span class="author">👤 agnivade</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/furtimmodus-FurtimModus-HiringJavaDeveloper(Full-Time)-NYC(HYBRID)">Furtim Modus : Hiring Java Developer (Full-Time)</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 FurtimModus</span>
-      <span class="author">👤 furtimmodus</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/September-2025/willgogo-GoGoGrandparent(YCS16)-FULLYREMOTE-Full-time-ESTtimezone">GoGoGrandparent (YC S16) : FULLY REMOTE</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 GoGoGrandparent(YCS16)</span>
-      <span class="author">👤 willgogo</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/September-2025/caitbit-FundamentalResearchLabs-Fullstack_Product_%2BSoftwareEngineers_Ex-founders_Researchers-Men">Fundamental Research Labs : Fullstack, Product, + Software Engineers, Ex-founders, Researchers</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 FundamentalResearchLabs</span>
-      <span class="author">👤 caitbit</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/September-2025/IanWoodfill">IanWoodfill</a></h3>
+    <h3><a href="/jobs/September-2025/quaintdev">quaintdev</a></h3>
     <div class="job-meta">
       <span class="company">🏢 Company</span>
-      <span class="author">👤 IanWoodfill</span>
+      <span class="author">👤 quaintdev</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/martinthought-iGentAI-Full-time">iGent AI : Full-time</a></h3>
+    <h3><a href="/jobs/September-2025/maiven-_Maiven-Remote(US)-Full-Time_">*Maiven : Remote (US)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 iGentAI</span>
-      <span class="author">👤 martinthought</span>
+      <span class="company">🏢 _Maiven</span>
+      <span class="author">👤 maiven</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/justicz-ChargeRobotics-MechanicalEngineer-Full-time-SFBayArea">Charge Robotics : Mechanical Engineer</a></h3>
+    <h3><a href="/jobs/September-2025/ravenzachary-BackendEngineer-20-40hoursaweekTBD-Contractorcontract-to-hire">Backend Engineer : 20-40 hours a week TBD</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 ChargeRobotics</span>
-      <span class="author">👤 justicz</span>
+      <span class="company">🏢 BackendEngineer</span>
+      <span class="author">👤 ravenzachary</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/jmg2227-BasePower-Onsite-Austin-Full-time">Base Power : Onsite</a></h3>
+    <h3><a href="/jobs/September-2025/bill_02109-40GRID-Full-timeRemote-SeniorReactNativeMobile-SeniorPythonDjangoOurmissionistoempow">40GRID - Full-time Remote : Senior React Native Mobile</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 BasePower</span>
-      <span class="author">👤 jmg2227</span>
+      <span class="company">🏢 40GRID</span>
+      <span class="author">👤 bill_02109</span>
     </div>
   </div>
   <div class="featured-job">
@@ -81,10 +60,31 @@ dir:
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/bill_02109-40GRID-Full-timeRemote-SeniorReactNativeMobile-SeniorPythonDjangoOurmissionistoempow">40GRID - Full-time Remote : Senior React Native Mobile</a></h3>
+    <h3><a href="/jobs/September-2025/neom-CharlieLabs-Remote(Global)-Full-time-TypeScriptcodeagent">Charlie Labs : Remote (Global)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 40GRID</span>
-      <span class="author">👤 bill_02109</span>
+      <span class="company">🏢 CharlieLabs</span>
+      <span class="author">👤 neom</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/September-2025/markbao-Goody-Remote-%24200%E2%80%93250K%2Bequityandbenefits-Full-time">Goody : Remote</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 Goody</span>
+      <span class="author">👤 markbao</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/September-2025/joshuanapoli-CVector-FullStackSoftwareEngineer-USA-REMOTE-Full-time">CVector : Full Stack Software Engineer</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 CVector</span>
+      <span class="author">👤 joshuanapoli</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/September-2025/some-ai-dev-EAGL-Ghent_Belgium-Onsite-Full-Time">EAGL : Ghent, Belgium</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 ai</span>
+      <span class="author">👤 some-ai-dev</span>
     </div>
   </div>
 </div>

@@ -18,73 +18,73 @@ dir:
 
 <div class="featured-jobs">
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/mattias-moody-n8n-AIWorkflowAutomationPlatform-FullstackEngineersandAppliedAIEngineers-EuropeRem">n8n : AI Workflow Automation Platform</a></h3>
+    <h3><a href="/jobs/October-2025/Kimi_livekit-LiveKit-Remote-Livekit_io-VoiceAI-webRTC">LiveKit : Remote</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 moody</span>
-      <span class="author">👤 mattias-moody</span>
+      <span class="company">🏢 LiveKit</span>
+      <span class="author">👤 Kimi_livekit</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/AbsintheLabs-AbsintheLabs-Full-StackEngineer-Full-Time">Absinthe Labs : Full-Stack Engineer</a></h3>
+    <h3><a href="/jobs/October-2025/Prove_Richard-ProveAI-SeniorSoftwareDeveloper(FullStack)-Europe_UK_UnitedStates_Canada_Brazil-Re">Prove AI : Senior Software Developer (Full Stack)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 AbsintheLabs</span>
-      <span class="author">👤 AbsintheLabs</span>
+      <span class="company">🏢 ProveAI</span>
+      <span class="author">👤 Prove_Richard</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/farmdawgnation-Censys-ProductDetectionEngineer-FullTime-RemoteUS">Censys : Product Detection Engineer</a></h3>
+    <h3><a href="/jobs/October-2025/chrishynes-OwnerRez-FullTime-Remote">OwnerRez : Full Time</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Censys</span>
-      <span class="author">👤 farmdawgnation</span>
+      <span class="company">🏢 OwnerRez</span>
+      <span class="author">👤 chrishynes</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/bsirkia-Brynson-FullStackDeveloper-%24120-%24160Kbrynson_com">Brynson : Full Stack Developer</a></h3>
+    <h3><a href="/jobs/October-2025/jansenderr-LomanAI-FoundingEngineer-Austin_TX-Hybrid-Full-Time-%24175k-225k%2Bequity">Loman AI : Founding Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Brynson</span>
-      <span class="author">👤 bsirkia</span>
+      <span class="company">🏢 LomanAI</span>
+      <span class="author">👤 jansenderr</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/jperaino">jperaino</a></h3>
+    <h3><a href="/jobs/October-2025/habitue-ONSITEMenloPark_CA">ONSITE Menlo Park, CA</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Company</span>
-      <span class="author">👤 jperaino</span>
+      <span class="company">🏢 ONSITEMenloPark_CA</span>
+      <span class="author">👤 habitue</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/Estuary-Estuary">Estuary</a></h3>
+    <h3><a href="/jobs/October-2025/vimota-Remote(NorthAmerica)orNYC-FullTime">Remote (North America) or NYC : Full Time</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Estuary</span>
-      <span class="author">👤 Estuary</span>
+      <span class="company">🏢 Remote(NorthAmerica)orNYC</span>
+      <span class="author">👤 vimota</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/KirillClutch-FullstackEngineer_HeadofProductDesign_HardwareEngineer-Full-time">Fullstack Engineer, Head of Product Design, Hardware Engineer : Full-time</a></h3>
+    <h3><a href="/jobs/October-2025/kollmar28-Railway-Infraeng-Storage_Infra(Platform)eng_ProductEng(fullstack)-REMOTE(Worldwide)">Railway : Infra eng - Storage, Infra (Platform) eng, Product Eng (full stack)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 FullstackEngineer_HeadofProductDesign_HardwareEngineer</span>
-      <span class="author">👤 KirillClutch</span>
+      <span class="company">🏢 Railway</span>
+      <span class="author">👤 kollmar28</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/jpcody-CampusOptics-ProductEngineer-Austin_TX-Full-Time">CampusOptics : Product Engineer</a></h3>
+    <h3><a href="/jobs/October-2025/KeepTalking-Oryo_io-Cybersecurity-Full-time-NoVisasponsorship_">Oryo.io : Cybersecurity</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 CampusOptics</span>
-      <span class="author">👤 jpcody</span>
+      <span class="company">🏢 Oryo_io</span>
+      <span class="author">👤 KeepTalking</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/archerabi-ASBL-Full-StackEngineers(AllLevels)-Hyderabad_India-ONSITE-12-80LINR">ASBL : Full-Stack Engineers (All Levels)</a></h3>
+    <h3><a href="/jobs/October-2025/quadrature_ai-QuadratureCapital-London(In-person)-DataEngineers">Quadrature Capital : London (In-person)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 ASBL</span>
-      <span class="author">👤 archerabi</span>
+      <span class="company">🏢 QuadratureCapital</span>
+      <span class="author">👤 quadrature_ai</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/peteratt-FoundingAppliedAIEngineer-Full-Time-SFBayArea(hybrid)">Founding Applied AI Engineer : Full-Time</a></h3>
+    <h3><a href="/jobs/October-2025/sre_mny-LuminDigital-SeniorSiteReliabilityEngineer-Full-Time-Remote(US)-170k-200kUSDbase_plusbon">Lumin Digital : Senior Site Reliability Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 FoundingAppliedAIEngineer</span>
-      <span class="author">👤 peteratt</span>
+      <span class="company">🏢 LuminDigital</span>
+      <span class="author">👤 sre_mny</span>
     </div>
   </div>
 </div>
