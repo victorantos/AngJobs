@@ -18,73 +18,73 @@ dir:
 
 <div class="featured-jobs">
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/mceoin-Sourcetable_com-ProductMarketing(contract)">Sourcetable.com : Product Marketing (contract)</a></h3>
+    <h3><a href="/jobs/September-2025/Prove_Richard-ProveAI-AIManagementstartup-FullyRemote-Fulltime(B2boremployedifinUS_UKorSwitzerla">Prove AI: AI Management start up</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Sourcetable_com</span>
-      <span class="author">👤 mceoin</span>
+      <span class="company">🏢 ProveAI</span>
+      <span class="author">👤 Prove_Richard</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/furtimmodus-FurtimModus-HiringJavaDeveloper(Full-Time)-NYC(HYBRID)">Furtim Modus : Hiring Java Developer (Full-Time)</a></h3>
+    <h3><a href="/jobs/September-2025/anais9-Hearst-NewYorkCity-HybridorRemote-Full-time">Hearst : New York City - Hybrid or Remote</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 FurtimModus</span>
-      <span class="author">👤 furtimmodus</span>
+      <span class="company">🏢 Hearst</span>
+      <span class="author">👤 anais9</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/willgogo-GoGoGrandparent(YCS16)-FULLYREMOTE-Full-time-ESTtimezone">GoGoGrandparent (YC S16) : FULLY REMOTE</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 GoGoGrandparent(YCS16)</span>
-      <span class="author">👤 willgogo</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/September-2025/caitbit-FundamentalResearchLabs-Fullstack_Product_%2BSoftwareEngineers_Ex-founders_Researchers-Men">Fundamental Research Labs : Fullstack, Product, + Software Engineers, Ex-founders, Researchers</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 FundamentalResearchLabs</span>
-      <span class="author">👤 caitbit</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/September-2025/IanWoodfill">IanWoodfill</a></h3>
+    <h3><a href="/jobs/September-2025/dlapid">dlapid</a></h3>
     <div class="job-meta">
       <span class="company">🏢 Company</span>
-      <span class="author">👤 IanWoodfill</span>
+      <span class="author">👤 dlapid</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/martinthought-iGentAI-Full-time">iGent AI : Full-time</a></h3>
+    <h3><a href="/jobs/September-2025/kanjun-Imbue-DataEngineers-Full-time-SanFrancisco_CA(ONSITE)">Imbue : Data Engineers</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 iGentAI</span>
-      <span class="author">👤 martinthought</span>
+      <span class="company">🏢 Imbue</span>
+      <span class="author">👤 kanjun</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/justicz-ChargeRobotics-MechanicalEngineer-Full-time-SFBayArea">Charge Robotics : Mechanical Engineer</a></h3>
+    <h3><a href="/jobs/September-2025/haxzie-Composio-SeniorBackendEngineers%2BProductEngineers(Frontend%2BSDKs)-Full-Time-InOffice(SFandB">Composio : Senior Backend Engineers + Product Engineers (Frontend + SDKs)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 ChargeRobotics</span>
-      <span class="author">👤 justicz</span>
+      <span class="company">🏢 Composio</span>
+      <span class="author">👤 haxzie</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/jmg2227-BasePower-Onsite-Austin-Full-time">Base Power : Onsite</a></h3>
+    <h3><a href="/jobs/September-2025/maiven-_Maiven-Remote(US)-Full-Time_">*Maiven : Remote (US)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 BasePower</span>
-      <span class="author">👤 jmg2227</span>
+      <span class="company">🏢 _Maiven</span>
+      <span class="author">👤 maiven</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/dowakin-9MothersDefense-Hybrid(AustinTX)-Full-time">9 Mothers Defense : Hybrid (Austin TX)</a></h3>
+    <h3><a href="/jobs/September-2025/sbenitez-Formal-MultiplePositions-REMOTE-Full-Time-%24100k-%24250k%2BEquity">Formal : Multiple Positions</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 9MothersDefense</span>
-      <span class="author">👤 dowakin</span>
+      <span class="company">🏢 Formal</span>
+      <span class="author">👤 sbenitez</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/bill_02109-40GRID-Full-timeRemote-SeniorReactNativeMobile-SeniorPythonDjangoOurmissionistoempow">40GRID - Full-time Remote : Senior React Native Mobile</a></h3>
+    <h3><a href="/jobs/September-2025/dnlphys-Greenline-FoundingEngineerRoles-Remote(U_S_only)">Greenline : Founding Engineer Roles</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 40GRID</span>
-      <span class="author">👤 bill_02109</span>
+      <span class="company">🏢 Greenline</span>
+      <span class="author">👤 dnlphys</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/September-2025/Ken_At_EM-Hybrid(Houston_TX)-SeniorSoftwareSystemsEngineer-%24154k-%24175k">Hybrid (Houston, TX) : Senior Software Systems Engineer</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 Hybrid(Houston_TX)</span>
+      <span class="author">👤 Ken_At_EM</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/September-2025/joshuanapoli-CVector-FullStackSoftwareEngineer-USA-REMOTE-Full-time">CVector : Full Stack Software Engineer</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 CVector</span>
+      <span class="author">👤 joshuanapoli</span>
     </div>
   </div>
 </div>

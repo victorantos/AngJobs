@@ -17,6 +17,41 @@ dir:
 
 <div class="featured-jobs">
   <div class="featured-job">
+    <h3><a href="/jobs/August-2025/nbraga-Chronograph(chronograph_pe)-DevOpsEngineer-Full-Time-Remote(US)-%24140-160KUSD%2Bequity">Chronograph (chronograph.pe) : DevOps Engineer</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 Chronograph(chronograph_pe)</span>
+      <span class="author">👤 nbraga</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/August-2025/Amperage0279-Francis-SeniorFull-StackEngineer-Full-Time">Francis : Senior Full-Stack Engineer</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 Francis</span>
+      <span class="author">👤 Amperage0279</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/August-2025/darintay-Matroid-SanFranciscoBayArea(PaloAlto)-Full-Time-ONSITE">Matroid : San Francisco Bay Area (Palo Alto)</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 Matroid</span>
+      <span class="author">👤 darintay</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/August-2025/aj_icracked-2ndFoundingEngineer-RemoteorOnsite-Austin_TX-Full-time_Part-time_Internshipifyou_res">2nd Founding Engineer : Remote or Onsite</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 2ndFoundingEngineer</span>
+      <span class="author">👤 aj_icracked</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/August-2025/chime_hiring-Chime-Hybrid(SF-Chicago)-Full-time">Chime : Hybrid (SF</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 Chime</span>
+      <span class="author">👤 chime_hiring</span>
+    </div>
+  </div>
+  <div class="featured-job">
     <h3><a href="/jobs/August-2025/gruvo-CoVar-Durham_NC-Full-time">CoVar : Durham, NC</a></h3>
     <div class="job-meta">
       <span class="company">🏢 CoVar</span>
@@ -24,66 +59,31 @@ dir:
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/jpadif-ThredUP-Sr_InfrastructureEngineer-Full-time-Remote(Mexico)">ThredUP : Sr. Infrastructure Engineer</a></h3>
+    <h3><a href="/jobs/August-2025/teknominds-Littlebird-SeniorMLE%2BSeniorSwiftEngineers-Remote(global)">Littlebird  :  Senior MLE + Senior Swift Engineers</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 ThredUP</span>
-      <span class="author">👤 jpadif</span>
+      <span class="company">🏢 Littlebird</span>
+      <span class="author">👤 teknominds</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/nathanielobrown-%24120-180K-%E2%88%9Aremote(Americas)-%E2%88%9Abootstrapped-%E2%88%9Aprofitable">120-180K : √ remote (Americas)</a></h3>
+    <h3><a href="/jobs/August-2025/ammhiring-Mobian-Remote(NorthAmerica_Europe_SouthAmerica)-Full-Time">Mobian : Remote (North America, Europe, South America)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 $120</span>
-      <span class="author">👤 nathanielobrown</span>
+      <span class="company">🏢 Mobian</span>
+      <span class="author">👤 ammhiring</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/cbigc-BigCartel-DevOpsEngineer-Remote-Fulltime">Big Cartel : DevOps Engineer</a></h3>
+    <h3><a href="/jobs/August-2025/michaelm244-Comulate-SeniorEngineer(3%2BYoE)-ONSITEinSanFrancisco_CA">Comulate : Senior Engineer (3+ YoE)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 BigCartel</span>
-      <span class="author">👤 cbigc</span>
+      <span class="company">🏢 Comulate</span>
+      <span class="author">👤 michaelm244</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/maiven-_Maiven-Remote(US)-Full-Time_">*Maiven : Remote (US)</a></h3>
+    <h3><a href="/jobs/August-2025/ahmedbaracat-ko-br-Hiringacrossdesign_engineering_researchandbusinessdevelopment-Onsite(London_U">ko-br : Hiring across design, engineering, research and business development</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 _Maiven</span>
-      <span class="author">👤 maiven</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/August-2025/wwolffrec-CategoryLabs-RemoteandNYC-FullTime-%24200KUSD%2B">Category Labs : Remote and NYC</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 CategoryLabs</span>
-      <span class="author">👤 wwolffrec</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/August-2025/pambeardsell-YuzuHealth-FoundingPricingEngineer-NewYork_NY-ONSITE">Yuzu Health : Founding Pricing Engineer</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 YuzuHealth</span>
-      <span class="author">👤 pambeardsell</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/August-2025/SebastianSosa1-VERISAI">VERIS AI</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 VERISAI</span>
-      <span class="author">👤 SebastianSosa1</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/August-2025/jaredsilver-Brilliant_org-Remote(NorthAmerica)_SF_NYC-Full-time-%24170k%E2%80%94%24235k">Brilliant.org : Remote (North America), SF, NYC</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 Brilliant_org</span>
-      <span class="author">👤 jaredsilver</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/August-2025/vicpara-BroadnInc-Foundingengineer-NYC-USA-Full-time-ONSITEinNYC-USpersonsonly-Full-stack-">Broadn Inc : Founding engineer</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 BroadnInc</span>
-      <span class="author">👤 vicpara</span>
+      <span class="company">🏢 ko</span>
+      <span class="author">👤 ahmedbaracat</span>
     </div>
   </div>
 </div>

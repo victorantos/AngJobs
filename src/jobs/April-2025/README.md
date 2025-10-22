@@ -17,5 +17,11 @@ dir:
 ## ⭐ Featured Jobs
 
 <div class="featured-jobs">
-
+  <div class="featured-job">
+    <h3><a href="/jobs/April-2025/all-jobs">All April 2025 Jobs</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 jobs</span>
+      <span class="author">👤 Anonymous</span>
+    </div>
+  </div>
 </div>

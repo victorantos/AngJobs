@@ -15,16 +15,6 @@ title: All October 2025 Jobs
 
 <div class="jobs-grid">
 
-  <div class="job-item" data-title="=================================================" data-company="=================================================">
-    <div class="job-content">
-      <h3><a href="/jobs/October-2025/repintel-%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D">=================================================</a></h3>
-      <div class="job-meta">
-        <span class="company">🏢 =================================================</span>
-        <span class="author">👤 repintel</span>
-      </div>
-    </div>
-  </div>
-
   <div class="job-item" data-title="10x genomics : software engineer(multiple roles)" data-company="10xgenomics">
     <div class="job-content">
       <h3><a href="/jobs/October-2025/bjg-10xGenomics-SoftwareEngineer(MultipleRoles)-Remote(US)orPleasanton_CA-Full-Time">10x Genomics : Software Engineer(Multiple Roles)</a></h3>
@@ -121,6 +111,16 @@ title: All October 2025 Jobs
       <div class="job-meta">
         <span class="company">🏢 Algolia</span>
         <span class="author">👤 fredalgolia</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="job-item" data-title="all october 2025 jobs" data-company="jobs">
+    <div class="job-content">
+      <h3><a href="/jobs/October-2025/all-jobs">All October 2025 Jobs</a></h3>
+      <div class="job-meta">
+        <span class="company">🏢 jobs</span>
+        <span class="author">👤 Anonymous</span>
       </div>
     </div>
   </div>
@@ -2295,13 +2295,11 @@ title: All October 2025 Jobs
     </div>
   </div>
 
-  <div class="job-item" data-title="picnic is kicking off a hiring sprint for java developers! at picnic, we’re transforming the way people buy groceries with our innovative, app-only, and sustainable service. we’re looking for passionate engineers to join our diverse team at our amsterdam hq, where you’ll have the chance to make a real impact in a fast-growing scale-up environment." data-company="picniciskickingoffahiringsprintforjavadevelopers!
-atpicnic_we_retransformingthewaypeopl">
+  <div class="job-item" data-title="picnic is kicking off a hiring sprint for java developers! at picnic, we’re transforming the way people buy groceries with our innovative, app-only, and sustainable service. we’re looking for passionate engineers to join our diverse team at our amsterdam hq, where you’ll have the chance to make a real impact in a fast-growing scale-up environment." data-company="picniciskickingoffahiringsprintforjavadevelopers!atpicnic_we_retransformingthewaypeopl">
     <div class="job-content">
       <h3><a href="/jobs/October-2025/jankothe-PicniciskickingoffaHiringSprintforJavaDevelopers!AtPicnic_we_retransformingthewaypeopl">Picnic is kicking off a Hiring Sprint for Java Developers! At Picnic, we’re transforming the way people buy groceries with our innovative, app-only, and sustainable service. We’re looking for passionate engineers to join our diverse team at our Amsterdam HQ, where you’ll have the chance to make a real impact in a fast-growing scale-up environment.</a></h3>
       <div class="job-meta">
-        <span class="company">🏢 PicniciskickingoffaHiringSprintforJavaDevelopers!
-AtPicnic_we_retransformingthewaypeopl</span>
+        <span class="company">🏢 PicniciskickingoffaHiringSprintforJavaDevelopers!AtPicnic_we_retransformingthewaypeopl</span>
         <span class="author">👤 jankothe</span>
       </div>
     </div>
