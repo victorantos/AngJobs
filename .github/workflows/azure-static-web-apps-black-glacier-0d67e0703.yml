@@ -23,6 +23,10 @@ jobs:
         with:
           submodules: true
           lfs: false
+      - name: Install dependencies
+        run: npm ci
+      - name: Build site
+        run: npm run docs:build
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
