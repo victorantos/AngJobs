@@ -18,17 +18,38 @@ dir:
 
 <div class="featured-jobs">
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/agnivade-AdalatAI-Remote(India_butopentoglobalforexceptionalcandidates)-Go_React_Next_js_k8s">Adalat AI : Remote (India, but open to global for exceptional candidates)</a></h3>
+    <h3><a href="/jobs/September-2025/Prove_Richard-ProveAI-AIManagementstartup-FullyRemote-Fulltime(B2boremployedifinUS_UKorSwitzerla">Prove AI: AI Management start up</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 AdalatAI</span>
-      <span class="author">👤 agnivade</span>
+      <span class="company">🏢 ProveAI</span>
+      <span class="author">👤 Prove_Richard</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/quaintdev">quaintdev</a></h3>
+    <h3><a href="/jobs/September-2025/anais9-Hearst-NewYorkCity-HybridorRemote-Full-time">Hearst : New York City - Hybrid or Remote</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 Hearst</span>
+      <span class="author">👤 anais9</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/September-2025/dlapid">dlapid</a></h3>
     <div class="job-meta">
       <span class="company">🏢 Company</span>
-      <span class="author">👤 quaintdev</span>
+      <span class="author">👤 dlapid</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/September-2025/kanjun-Imbue-DataEngineers-Full-time-SanFrancisco_CA(ONSITE)">Imbue : Data Engineers</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 Imbue</span>
+      <span class="author">👤 kanjun</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/September-2025/haxzie-Composio-SeniorBackendEngineers%2BProductEngineers(Frontend%2BSDKs)-Full-Time-InOffice(SFandB">Composio : Senior Backend Engineers + Product Engineers (Frontend + SDKs)</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 Composio</span>
+      <span class="author">👤 haxzie</span>
     </div>
   </div>
   <div class="featured-job">
@@ -39,38 +60,24 @@ dir:
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/ravenzachary-BackendEngineer-20-40hoursaweekTBD-Contractorcontract-to-hire">Backend Engineer : 20-40 hours a week TBD</a></h3>
+    <h3><a href="/jobs/September-2025/sbenitez-Formal-MultiplePositions-REMOTE-Full-Time-%24100k-%24250k%2BEquity">Formal : Multiple Positions</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 BackendEngineer</span>
-      <span class="author">👤 ravenzachary</span>
+      <span class="company">🏢 Formal</span>
+      <span class="author">👤 sbenitez</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/bill_02109-40GRID-Full-timeRemote-SeniorReactNativeMobile-SeniorPythonDjangoOurmissionistoempow">40GRID - Full-time Remote : Senior React Native Mobile</a></h3>
+    <h3><a href="/jobs/September-2025/dnlphys-Greenline-FoundingEngineerRoles-Remote(U_S_only)">Greenline : Founding Engineer Roles</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 40GRID</span>
-      <span class="author">👤 bill_02109</span>
+      <span class="company">🏢 Greenline</span>
+      <span class="author">👤 dnlphys</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/dowakin-9MothersDefense-Hybrid(AustinTX)-Full-time">9 Mothers Defense : Hybrid (Austin TX)</a></h3>
+    <h3><a href="/jobs/September-2025/Ken_At_EM-Hybrid(Houston_TX)-SeniorSoftwareSystemsEngineer-%24154k-%24175k">Hybrid (Houston, TX) : Senior Software Systems Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 9MothersDefense</span>
-      <span class="author">👤 dowakin</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/September-2025/neom-CharlieLabs-Remote(Global)-Full-time-TypeScriptcodeagent">Charlie Labs : Remote (Global)</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 CharlieLabs</span>
-      <span class="author">👤 neom</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/September-2025/markbao-Goody-Remote-%24200%E2%80%93250K%2Bequityandbenefits-Full-time">Goody : Remote</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 Goody</span>
-      <span class="author">👤 markbao</span>
+      <span class="company">🏢 Hybrid(Houston_TX)</span>
+      <span class="author">👤 Ken_At_EM</span>
     </div>
   </div>
   <div class="featured-job">
@@ -78,13 +85,6 @@ dir:
     <div class="job-meta">
       <span class="company">🏢 CVector</span>
       <span class="author">👤 joshuanapoli</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/September-2025/some-ai-dev-EAGL-Ghent_Belgium-Onsite-Full-Time">EAGL : Ghent, Belgium</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 ai</span>
-      <span class="author">👤 some-ai-dev</span>
     </div>
   </div>
 </div>

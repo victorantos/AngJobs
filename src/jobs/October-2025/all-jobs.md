@@ -2295,13 +2295,11 @@ title: All October 2025 Jobs
     </div>
   </div>
 
-  <div class="job-item" data-title="picnic is kicking off a hiring sprint for java developers! at picnic, we’re transforming the way people buy groceries with our innovative, app-only, and sustainable service. we’re looking for passionate engineers to join our diverse team at our amsterdam hq, where you’ll have the chance to make a real impact in a fast-growing scale-up environment." data-company="picniciskickingoffahiringsprintforjavadevelopers!
-atpicnic_we_retransformingthewaypeopl">
+  <div class="job-item" data-title="picnic is kicking off a hiring sprint for java developers! at picnic, we’re transforming the way people buy groceries with our innovative, app-only, and sustainable service. we’re looking for passionate engineers to join our diverse team at our amsterdam hq, where you’ll have the chance to make a real impact in a fast-growing scale-up environment." data-company="picniciskickingoffahiringsprintforjavadevelopers!atpicnic_we_retransformingthewaypeopl">
     <div class="job-content">
       <h3><a href="/jobs/October-2025/jankothe-PicniciskickingoffaHiringSprintforJavaDevelopers!AtPicnic_we_retransformingthewaypeopl">Picnic is kicking off a Hiring Sprint for Java Developers! At Picnic, we’re transforming the way people buy groceries with our innovative, app-only, and sustainable service. We’re looking for passionate engineers to join our diverse team at our Amsterdam HQ, where you’ll have the chance to make a real impact in a fast-growing scale-up environment.</a></h3>
       <div class="job-meta">
-        <span class="company">🏢 PicniciskickingoffaHiringSprintforJavaDevelopers!
-AtPicnic_we_retransformingthewaypeopl</span>
+        <span class="company">🏢 PicniciskickingoffaHiringSprintforJavaDevelopers!AtPicnic_we_retransformingthewaypeopl</span>
         <span class="author">👤 jankothe</span>
       </div>
     </div>

@@ -18,73 +18,73 @@ dir:
 
 <div class="featured-jobs">
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/Kimi_livekit-LiveKit-Remote-Livekit_io-VoiceAI-webRTC">LiveKit : Remote</a></h3>
+    <h3><a href="/jobs/October-2025/willgogo-GoGoGrandparent(YCS16)-FULLYREMOTE-Full-time-ESTtimezone-%24100k-%24200k(partiallylocation-">GoGoGrandparent (YC S16) : FULLY REMOTE</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 LiveKit</span>
-      <span class="author">👤 Kimi_livekit</span>
+      <span class="company">🏢 GoGoGrandparent(YCS16)</span>
+      <span class="author">👤 willgogo</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/Prove_Richard-ProveAI-SeniorSoftwareDeveloper(FullStack)-Europe_UK_UnitedStates_Canada_Brazil-Re">Prove AI : Senior Software Developer (Full Stack)</a></h3>
+    <h3><a href="/jobs/October-2025/spiksla-Odoo-FullStackDeveloper-Full-time-Visa%2B%E2%82%AC10kSigningBonus">Odoo : Full Stack Developer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 ProveAI</span>
-      <span class="author">👤 Prove_Richard</span>
+      <span class="company">🏢 Odoo</span>
+      <span class="author">👤 spiksla</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/chrishynes-OwnerRez-FullTime-Remote">OwnerRez : Full Time</a></h3>
+    <h3><a href="/jobs/October-2025/cheq-ImprovingSouthAmerica-REMOTE(LATAM)-Full-Time_">Improving South America : REMOTE (LATAM)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 OwnerRez</span>
-      <span class="author">👤 chrishynes</span>
+      <span class="company">🏢 ImprovingSouthAmerica</span>
+      <span class="author">👤 cheq</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/jansenderr-LomanAI-FoundingEngineer-Austin_TX-Hybrid-Full-Time-%24175k-225k%2Bequity">Loman AI : Founding Engineer</a></h3>
+    <h3><a href="/jobs/October-2025/agnivade-AdalatAI-Remote(India_butopentoglobalforexceptionalcandidates)">Adalat AI : Remote (India, but open to global for exceptional candidates)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 LomanAI</span>
-      <span class="author">👤 jansenderr</span>
+      <span class="company">🏢 AdalatAI</span>
+      <span class="author">👤 agnivade</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/habitue-ONSITEMenloPark_CA">ONSITE Menlo Park, CA</a></h3>
+    <h3><a href="/jobs/October-2025/dvrp-krea_ai-SanFrancisco(on-site)_CA">krea.ai : San Francisco (on-site), CA</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 ONSITEMenloPark_CA</span>
-      <span class="author">👤 habitue</span>
+      <span class="company">🏢 krea_ai</span>
+      <span class="author">👤 dvrp</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/vimota-Remote(NorthAmerica)orNYC-FullTime">Remote (North America) or NYC : Full Time</a></h3>
+    <h3><a href="/jobs/October-2025/IoanaPetro-Channable-Utrecht_Netherlands-ONSITE">Channable : Utrecht, Netherlands</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Remote(NorthAmerica)orNYC</span>
-      <span class="author">👤 vimota</span>
+      <span class="company">🏢 Channable</span>
+      <span class="author">👤 IoanaPetro</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/kollmar28-Railway-Infraeng-Storage_Infra(Platform)eng_ProductEng(fullstack)-REMOTE(Worldwide)">Railway : Infra eng - Storage, Infra (Platform) eng, Product Eng (full stack)</a></h3>
+    <h3><a href="/jobs/October-2025/ravenzachary-BackendEngineer-20-40hoursaweekTBD-Contractorcontract-to-hire">Backend Engineer : 20-40 hours a week TBD</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Railway</span>
-      <span class="author">👤 kollmar28</span>
+      <span class="company">🏢 BackendEngineer</span>
+      <span class="author">👤 ravenzachary</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/KeepTalking-Oryo_io-Cybersecurity-Full-time-NoVisasponsorship_">Oryo.io : Cybersecurity</a></h3>
+    <h3><a href="/jobs/October-2025/jupiterhealth-JupiterHealth-FoundingEngineer-Full-Time-%24200K%2BequityJupiterisbuildingabetterappr">Jupiter Health : Founding Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Oryo_io</span>
-      <span class="author">👤 KeepTalking</span>
+      <span class="company">🏢 JupiterHealth</span>
+      <span class="author">👤 jupiterhealth</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/quadrature_ai-QuadratureCapital-London(In-person)-DataEngineers">Quadrature Capital : London (In-person)</a></h3>
+    <h3><a href="/jobs/October-2025/unicode1-Helloeveryone!">Hello everyone!</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 QuadratureCapital</span>
-      <span class="author">👤 quadrature_ai</span>
+      <span class="company">🏢 Helloeveryone!</span>
+      <span class="author">👤 unicode1</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/sre_mny-LuminDigital-SeniorSiteReliabilityEngineer-Full-Time-Remote(US)-170k-200kUSDbase_plusbon">Lumin Digital : Senior Site Reliability Engineer</a></h3>
+    <h3><a href="/jobs/October-2025/ksctrading-KSCTrading-Remote-Full-Time-SeniorBackendSoftwareEngineer-%24150kto%24200kUSD">KSC Trading : Remote</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 LuminDigital</span>
-      <span class="author">👤 sre_mny</span>
+      <span class="company">🏢 KSCTrading</span>
+      <span class="author">👤 ksctrading</span>
     </div>
   </div>
 </div>

@@ -31,59 +31,59 @@ dir:
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/AbsintheLabs-AbsintheLabs-Full-StackEngineer-Full-Time">Absinthe Labs : Full-Stack Engineer</a></h3>
+    <h3><a href="/jobs/August-2025/nathanielobrown-%24120-180K-%E2%88%9Aremote(Americas)-%E2%88%9Abootstrapped-%E2%88%9Aprofitable">120-180K : √ remote (Americas)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 AbsintheLabs</span>
-      <span class="author">👤 AbsintheLabs</span>
+      <span class="company">🏢 $120</span>
+      <span class="author">👤 nathanielobrown</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/ttoinou-Autokroma_com-Full-time-HYBRIDREMOTEONSITE">Autokroma.com : Full-time</a></h3>
+    <h3><a href="/jobs/August-2025/cbigc-BigCartel-DevOpsEngineer-Remote-Fulltime">Big Cartel : DevOps Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Autokroma_com</span>
-      <span class="author">👤 ttoinou</span>
+      <span class="company">🏢 BigCartel</span>
+      <span class="author">👤 cbigc</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/mparis-AIxHealthcareStartup-Boston_MAOnsite-Full-time-EarlyEngineer">AI x Healthcare Startup : Boston, MA Onsite</a></h3>
+    <h3><a href="/jobs/August-2025/maiven-_Maiven-Remote(US)-Full-Time_">*Maiven : Remote (US)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 AIxHealthcareStartup</span>
-      <span class="author">👤 mparis</span>
+      <span class="company">🏢 _Maiven</span>
+      <span class="author">👤 maiven</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/st-msl-Entourage-REMOTE-Full%E2%80%91time%2Bmeaningfulequity">Entourage : REMOTE</a></h3>
+    <h3><a href="/jobs/August-2025/wwolffrec-CategoryLabs-RemoteandNYC-FullTime-%24200KUSD%2B">Category Labs : Remote and NYC</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 msl</span>
-      <span class="author">👤 st-msl</span>
+      <span class="company">🏢 CategoryLabs</span>
+      <span class="author">👤 wwolffrec</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/Freeformcareers-SoftwareEngineers-Full-time-Onsite-Hawthorne_CA(LosAngelesCounty)">Software Engineers : Full-time</a></h3>
+    <h3><a href="/jobs/August-2025/pambeardsell-YuzuHealth-FoundingPricingEngineer-NewYork_NY-ONSITE">Yuzu Health : Founding Pricing Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 SoftwareEngineers</span>
-      <span class="author">👤 Freeformcareers</span>
+      <span class="company">🏢 YuzuHealth</span>
+      <span class="author">👤 pambeardsell</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/kollmar28-Railway-Infraeng-Storage_Infra(Platform)eng_ProductEng(fullstack)-REMOTE(Worldwide)">Railway : Infra eng - Storage, Infra (Platform) eng, Product Eng (full stack)</a></h3>
+    <h3><a href="/jobs/August-2025/SebastianSosa1-VERISAI">VERIS AI</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Railway</span>
-      <span class="author">👤 kollmar28</span>
+      <span class="company">🏢 VERISAI</span>
+      <span class="author">👤 SebastianSosa1</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/nh_risiq-RisiqGmbH-BackendEngineer(Python)-%E2%82%AC55k%E2%80%93%E2%82%AC85k-Full-timeorpart-timeWehelpbanksandfinancia">Risiq GmbH : Backend Engineer (Python)</a></h3>
+    <h3><a href="/jobs/August-2025/jaredsilver-Brilliant_org-Remote(NorthAmerica)_SF_NYC-Full-time-%24170k%E2%80%94%24235k">Brilliant.org : Remote (North America), SF, NYC</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 RisiqGmbH</span>
-      <span class="author">👤 nh_risiq</span>
+      <span class="company">🏢 Brilliant_org</span>
+      <span class="author">👤 jaredsilver</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/August-2025/lumion-Lumion(lumion_ai)-FormerlyMiaShare">Lumion (lumion.ai) - Formerly Mia Share</a></h3>
+    <h3><a href="/jobs/August-2025/vicpara-BroadnInc-Foundingengineer-NYC-USA-Full-time-ONSITEinNYC-USpersonsonly-Full-stack-">Broadn Inc : Founding engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Lumion(lumion_ai)</span>
-      <span class="author">👤 lumion</span>
+      <span class="company">🏢 BroadnInc</span>
+      <span class="author">👤 vicpara</span>
     </div>
   </div>
 </div>
