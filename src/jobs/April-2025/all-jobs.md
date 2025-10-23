@@ -17,7 +17,7 @@ title: All April 2025 Jobs
 
   <div class="job-item" data-title="all april 2025 jobs" data-company="jobs">
     <div class="job-content">
-      <h3><a href="/jobs/April-2025/all-jobs">All April 2025 Jobs</a></h3>
+      <h3><a href="/jobs/April-2025/all-jobs.html">All April 2025 Jobs</a></h3>
       <div class="job-meta">
         <span class="company">🏢 jobs</span>
         <span class="author">👤 Anonymous</span>

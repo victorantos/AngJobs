@@ -18,73 +18,73 @@ dir:
 
 <div class="featured-jobs">
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/Prove_Richard-ProveAI-AIManagementstartup-FullyRemote-Fulltime(B2boremployedifinUS_UKorSwitzerla">Prove AI: AI Management start up</a></h3>
+    <h3><a href="/jobs/September-2025/nthz554-CambridgeTerahertz-ONSITESantaClara_CA-Full-time.html">Cambridge Terahertz : ONSITE Santa Clara, CA</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 ProveAI</span>
-      <span class="author">👤 Prove_Richard</span>
+      <span class="company">🏢 CambridgeTerahertz</span>
+      <span class="author">👤 nthz554</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/anais9-Hearst-NewYorkCity-HybridorRemote-Full-time">Hearst : New York City - Hybrid or Remote</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 Hearst</span>
-      <span class="author">👤 anais9</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/September-2025/dlapid">dlapid</a></h3>
+    <h3><a href="/jobs/September-2025/felipelalli.html">felipelalli</a></h3>
     <div class="job-meta">
       <span class="company">🏢 Company</span>
-      <span class="author">👤 dlapid</span>
+      <span class="author">👤 felipelalli</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/kanjun-Imbue-DataEngineers-Full-time-SanFrancisco_CA(ONSITE)">Imbue : Data Engineers</a></h3>
+    <h3><a href="/jobs/September-2025/some-ai-dev-EAGL-Ghent_Belgium-Onsite-Full-Time.html">EAGL : Ghent, Belgium</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Imbue</span>
-      <span class="author">👤 kanjun</span>
+      <span class="company">🏢 ai</span>
+      <span class="author">👤 some-ai-dev</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/haxzie-Composio-SeniorBackendEngineers%2BProductEngineers(Frontend%2BSDKs)-Full-Time-InOffice(SFandB">Composio : Senior Backend Engineers + Product Engineers (Frontend + SDKs)</a></h3>
+    <h3><a href="/jobs/September-2025/jeswin-CredCore-Engineering-Full-time-www_credcore_com.html">CredCore : Engineering</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Composio</span>
-      <span class="author">👤 haxzie</span>
+      <span class="company">🏢 CredCore</span>
+      <span class="author">👤 jeswin</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/maiven-_Maiven-Remote(US)-Full-Time_">*Maiven : Remote (US)</a></h3>
+    <h3><a href="/jobs/September-2025/akash91-SamsungResearchAmerica_MountainViewishiringMultipleSpeechResearchRole[5+yrsexperience]_B.html">Samsung Research America, Mountain View is hiring Multiple Speech Research Role [5+ yrs experience]. Both Speech to Text ASR, and Text to Speech TTS, Speech to Speech roles. You will get to work on cutting edge AI Speech Research.</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 _Maiven</span>
-      <span class="author">👤 maiven</span>
+      <span class="company">🏢 SamsungResearchAmerica_MountainViewishiringMultipleSpeechResearchRole[5+yrsexperience]_B</span>
+      <span class="author">👤 akash91</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/sbenitez-Formal-MultiplePositions-REMOTE-Full-Time-%24100k-%24250k%2BEquity">Formal : Multiple Positions</a></h3>
+    <h3><a href="/jobs/September-2025/HomeCloud-HomeCloud-Remote(US_EUUTC-6toUTC+2)-Full-Time(Contractor).html">HomeCloud : Remote (US, EU UTC-6 to UTC+2)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Formal</span>
-      <span class="author">👤 sbenitez</span>
+      <span class="company">🏢 HomeCloud</span>
+      <span class="author">👤 HomeCloud</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/dnlphys-Greenline-FoundingEngineerRoles-Remote(U_S_only)">Greenline : Founding Engineer Roles</a></h3>
+    <h3><a href="/jobs/September-2025/CharlesRP.html">CharlesRP</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Greenline</span>
-      <span class="author">👤 dnlphys</span>
+      <span class="company">🏢 Company</span>
+      <span class="author">👤 CharlesRP</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/Ken_At_EM-Hybrid(Houston_TX)-SeniorSoftwareSystemsEngineer-%24154k-%24175k">Hybrid (Houston, TX) : Senior Software Systems Engineer</a></h3>
+    <h3><a href="/jobs/September-2025/bweisb-Hardfin-Full-stackengineer-Denvermetro_COorBayarea_CA(REMOTEorONSITE)-Full-time-150k-180k.html">Hardfin : Full-stack engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Hybrid(Houston_TX)</span>
-      <span class="author">👤 Ken_At_EM</span>
+      <span class="company">🏢 Hardfin</span>
+      <span class="author">👤 bweisb</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/joshuanapoli-CVector-FullStackSoftwareEngineer-USA-REMOTE-Full-time">CVector : Full Stack Software Engineer</a></h3>
+    <h3><a href="/jobs/September-2025/sara_p2p.html">sara_p2p</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 CVector</span>
-      <span class="author">👤 joshuanapoli</span>
+      <span class="company">🏢 Company</span>
+      <span class="author">👤 sara_p2p</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/September-2025/nastya_geller-Stream-MultiplePositions-Amsterdam(NL)_Skopje(Macedonia)-Boulder_CO(US)-Toronto(Ca.html">Stream : Multiple Positions</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 Stream</span>
+      <span class="author">👤 nastya_geller</span>
     </div>
   </div>
 </div>

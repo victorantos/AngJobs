@@ -18,73 +18,73 @@ dir:
 
 <div class="featured-jobs">
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/willgogo-GoGoGrandparent(YCS16)-FULLYREMOTE-Full-time-ESTtimezone-%24100k-%24200k(partiallylocation-">GoGoGrandparent (YC S16) : FULLY REMOTE</a></h3>
+    <h3><a href="/jobs/October-2025/chptung-Raremarq-FoundingEngineer-Full-time-FullyRemote-$150K+founding-engineerequity.html">Raremarq : Founding Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 GoGoGrandparent(YCS16)</span>
-      <span class="author">👤 willgogo</span>
+      <span class="company">🏢 Raremarq</span>
+      <span class="author">👤 chptung</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/spiksla-Odoo-FullStackDeveloper-Full-time-Visa%2B%E2%82%AC10kSigningBonus">Odoo : Full Stack Developer</a></h3>
+    <h3><a href="/jobs/October-2025/benSepanski-Veridise-REMOTE-FullTime.html">Veridise : REMOTE</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Odoo</span>
-      <span class="author">👤 spiksla</span>
+      <span class="company">🏢 Veridise</span>
+      <span class="author">👤 benSepanski</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/cheq-ImprovingSouthAmerica-REMOTE(LATAM)-Full-Time_">Improving South America : REMOTE (LATAM)</a></h3>
+    <h3><a href="/jobs/October-2025/lightningzou-LightningAI-SoftwareEngineer(multiple)-Hybrid-Full-time-.html">Lightning AI : Software Engineer (multiple)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 ImprovingSouthAmerica</span>
-      <span class="author">👤 cheq</span>
+      <span class="company">🏢 LightningAI</span>
+      <span class="author">👤 lightningzou</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/agnivade-AdalatAI-Remote(India_butopentoglobalforexceptionalcandidates)">Adalat AI : Remote (India, but open to global for exceptional candidates)</a></h3>
+    <h3><a href="/jobs/October-2025/onejgordon-OlliHealth-Full-Time-ollihealth_ai.html">Olli Health : Full-Time</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 AdalatAI</span>
-      <span class="author">👤 agnivade</span>
+      <span class="company">🏢 OlliHealth</span>
+      <span class="author">👤 onejgordon</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/dvrp-krea_ai-SanFrancisco(on-site)_CA">krea.ai : San Francisco (on-site), CA</a></h3>
+    <h3><a href="/jobs/October-2025/nhatcher-FrequenzEnergy-as-a-ServiceGmbH-Full-Time.html">Frequenz Energy-as-a-Service GmbH : Full-Time</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 krea_ai</span>
-      <span class="author">👤 dvrp</span>
+      <span class="company">🏢 FrequenzEnergy</span>
+      <span class="author">👤 nhatcher</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/IoanaPetro-Channable-Utrecht_Netherlands-ONSITE">Channable : Utrecht, Netherlands</a></h3>
+    <h3><a href="/jobs/October-2025/rdli-PolarSky-FoundingAILead-Full-time.html">Polar Sky : Founding AI Lead</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Channable</span>
-      <span class="author">👤 IoanaPetro</span>
+      <span class="company">🏢 PolarSky</span>
+      <span class="author">👤 rdli</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/ravenzachary-BackendEngineer-20-40hoursaweekTBD-Contractorcontract-to-hire">Backend Engineer : 20-40 hours a week TBD</a></h3>
+    <h3><a href="/jobs/October-2025/ravenzachary-BackendEngineer-20-40hoursaweekTBD-Contractorcontract-to-hire.html">Backend Engineer : 20-40 hours a week TBD</a></h3>
     <div class="job-meta">
       <span class="company">🏢 BackendEngineer</span>
       <span class="author">👤 ravenzachary</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/jupiterhealth-JupiterHealth-FoundingEngineer-Full-Time-%24200K%2BequityJupiterisbuildingabetterappr">Jupiter Health : Founding Engineer</a></h3>
+    <h3><a href="/jobs/October-2025/jeswin-CredCore-Engineering-Full-time-www_credcore_com.html">CredCore : Engineering</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 JupiterHealth</span>
-      <span class="author">👤 jupiterhealth</span>
+      <span class="company">🏢 CredCore</span>
+      <span class="author">👤 jeswin</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/unicode1-Helloeveryone!">Hello everyone!</a></h3>
+    <h3><a href="/jobs/October-2025/colcoder-LiquidFi(Miami_FL)-SeniorSoftwareEngineer-Solidity+Python-ONSITE-Full-time.html">LiquidFi (Miami, FL) : Senior Software Engineer - Solidity + Python</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Helloeveryone!</span>
-      <span class="author">👤 unicode1</span>
+      <span class="company">🏢 LiquidFi(Miami_FL)</span>
+      <span class="author">👤 colcoder</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/ksctrading-KSCTrading-Remote-Full-Time-SeniorBackendSoftwareEngineer-%24150kto%24200kUSD">KSC Trading : Remote</a></h3>
+    <h3><a href="/jobs/October-2025/evan22w-Rotabull-SeniorSoftwareEngineer-FullTime-NYC.html">Rotabull : Senior Software Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 KSCTrading</span>
-      <span class="author">👤 ksctrading</span>
+      <span class="company">🏢 Rotabull</span>
+      <span class="author">👤 evan22w</span>
     </div>
   </div>
 </div>

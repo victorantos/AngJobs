@@ -126,7 +126,7 @@ months.forEach(month => {
 
       return {
         title: cleanTitle,
-        url: `/jobs/${month}/${encodeURIComponent(cleanFilename)}`,
+        url: `/jobs/${month}/${cleanFilename}.html`,
         company,
         role,
         author: frontmatter.author?.name || 'Anonymous'
