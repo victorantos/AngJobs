@@ -21,7 +21,10 @@
       "Bash(pkill:*)",
       "Bash(mv:*)",
       "Bash(npm run build:*)",
-      "Bash(npm run generate:jobs:*)"
+      "Bash(npm run generate:jobs:*)",
+      "Bash(git rm src/jobs/April-2025/README.md src/jobs/April-2025/all-jobs.md)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nUpdate featured jobs and remove empty April-2025\n\n- Regenerated featured jobs for August, September, October 2025\n- Removed April-2025 (no job files in directory)\n- Featured jobs are randomly selected on each build\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push origin main)"
     ],
     "deny": []
   }
