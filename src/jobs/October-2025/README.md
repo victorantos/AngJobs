@@ -18,73 +18,73 @@ dir:
 
 <div class="featured-jobs">
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/timroty-Hudl-SeniorSoftwareEngineer-REMOTE(Nebraska_Kentucky_KansasCity_Chicago_AustinorDallas)-.html">Hudl : Senior Software Engineer</a></h3>
+    <h3><a href="/jobs/October-2025/greghinch-Amplifi-DataEngineer(mid-senior)-Remote(UK)-Full-time.html">Amplifi : Data Engineer (mid-senior)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Hudl</span>
-      <span class="author">👤 timroty</span>
+      <span class="company">🏢 Amplifi</span>
+      <span class="author">👤 greghinch</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/nomadiccoder-FordMotorCompany-StaffCloudSiteReliabilityEngineer-Full-Time-Remote(US)-120k-220kUS.html">Ford Motor Company : Staff Cloud Site Reliability Engineer</a></h3>
+    <h3><a href="/jobs/October-2025/podnetwork-podnetwork-Competitivesalary+equity-RemoteoronsiteinAthens_Greece-multipleroles.html">pod network : Competitive salary + equity</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 FordMotorCompany</span>
-      <span class="author">👤 nomadiccoder</span>
+      <span class="company">🏢 podnetwork</span>
+      <span class="author">👤 podnetwork</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/gh-llm-in-loop.html">gh-llm-in-loop</a></h3>
+    <h3><a href="/jobs/October-2025/tomatohs-TestDriver_ai-QA_Engineers_CustomerSupport.html">TestDriver.ai : QA, Engineers, Customer Support</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 llm</span>
-      <span class="author">👤 gh-llm-in-loop</span>
+      <span class="company">🏢 TestDriver_ai</span>
+      <span class="author">👤 tomatohs</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/rohitshenoy-FoundingEngineer-ONSITE-NYC_SF-$170k-220ksalary+equityandbenefits-Willsponsoranyvisa.html">Founding Engineer : ONSITE - NYC, SF</a></h3>
+    <h3><a href="/jobs/October-2025/chptung-Raremarq-FoundingEngineer-Full-time-FullyRemote-$150K+founding-engineerequity.html">Raremarq : Founding Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 FoundingEngineer</span>
-      <span class="author">👤 rohitshenoy</span>
+      <span class="company">🏢 Raremarq</span>
+      <span class="author">👤 chptung</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/vincentchu-HomeVision-MultipleRoles-Eng_SRE-Full-Time-$100k-$220k+equity.html">HomeVision : Multiple Roles - Eng, SRE</a></h3>
+    <h3><a href="/jobs/October-2025/gz09-REMOTE(US)-Full-Time.html">REMOTE (US) : Full-Time</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 HomeVision</span>
-      <span class="author">👤 vincentchu</span>
+      <span class="company">🏢 REMOTE(US)</span>
+      <span class="author">👤 gz09</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/mooreds-FusionAuth-SeniorSecurityEngineer_DocumentationEngineer_SrDeveloperAdvocate-Variesbetwee.html">FusionAuth : Senior Security Engineer, Documentation Engineer, Sr Developer Advocate</a></h3>
+    <h3><a href="/jobs/October-2025/AustinWentz-PropertyMeld-SeniorSoftwareEngineer-Full-time.html">Property Meld : Senior Software Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 FusionAuth</span>
-      <span class="author">👤 mooreds</span>
+      <span class="company">🏢 PropertyMeld</span>
+      <span class="author">👤 AustinWentz</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/deet-Avy-SanFrancisco-Onsite(Hybrid)-Full-Time.html">Avy : San Francisco</a></h3>
+    <h3><a href="/jobs/October-2025/chubot-REMOTE(non-US).html">REMOTE (non-US)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Avy</span>
-      <span class="author">👤 deet</span>
+      <span class="company">🏢 REMOTE(non</span>
+      <span class="author">👤 chubot</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/eudoxus-Full-Time.html">Full-Time</a></h3>
+    <h3><a href="/jobs/October-2025/jankothe-PicniciskickingoffaHiringSprintforJavaDevelopers!AtPicnic_we_retransformingthewaypeopl.html">Picnic is kicking off a Hiring Sprint for Java Developers! At Picnic, we’re transforming the way people buy groceries with our innovative, app-only, and sustainable service. We’re looking for passionate engineers to join our diverse team at our Amsterdam HQ, where you’ll have the chance to make a real impact in a fast-growing scale-up environment.</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Full</span>
-      <span class="author">👤 eudoxus</span>
+      <span class="company">🏢 PicniciskickingoffaHiringSprintforJavaDevelopers!AtPicnic_we_retransformingthewaypeopl</span>
+      <span class="author">👤 jankothe</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/ageospatial-AISolutionsArchitect-FoundingEngineer.html">AI Solutions Architect - Founding Engineer</a></h3>
+    <h3><a href="/jobs/October-2025/klaaz0r-Promptwatch-Amsterdam_Netherlands-Full-time.html">Promptwatch : Amsterdam, Netherlands</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 AISolutionsArchitect</span>
-      <span class="author">👤 ageospatial</span>
+      <span class="company">🏢 Promptwatch</span>
+      <span class="author">👤 klaaz0r</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/pfraze-Bluesky-SeniorGoEngineers_SeniorMachineLearningEngineers_SeniorReactNativeEngineers_Fulls.html">Bluesky : Senior Go Engineers, Senior Machine Learning Engineers, Senior React Native Engineers, Fullstack Engineers</a></h3>
+    <h3><a href="/jobs/October-2025/agonza-Monadical_com-ChiefofStaff-SeniorFull-StackEng_(Quebec)-Full-Time-REMOTE(Canada).html">Monadical.com : Chief of Staff</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Bluesky</span>
-      <span class="author">👤 pfraze</span>
+      <span class="company">🏢 Monadical_com</span>
+      <span class="author">👤 agonza</span>
     </div>
   </div>
 </div>

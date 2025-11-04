@@ -18,73 +18,73 @@ dir:
 
 <div class="featured-jobs">
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/mdahardy-Roundtable-On-siteSanFrancisco_CA-Full-time.html">Roundtable : On-site San Francisco, CA</a></h3>
+    <h3><a href="/jobs/September-2025/rossng-MONUMENTAL-Amsterdam_TheNetherlands-FullTime-Onsite.html">MONUMENTAL : Amsterdam, The Netherlands</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Roundtable</span>
-      <span class="author">👤 mdahardy</span>
+      <span class="company">🏢 MONUMENTAL</span>
+      <span class="author">👤 rossng</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/hahughes-Oxidian.html">Oxidian</a></h3>
+    <h3><a href="/jobs/September-2025/codeafinil-Undetect_io-Remote_Global.html">Undetect.io : Remote, Global</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Oxidian</span>
-      <span class="author">👤 hahughes</span>
+      <span class="company">🏢 Undetect_io</span>
+      <span class="author">👤 codeafinil</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/n2d4-StackAuth(S24)-SanFrancisco_CA-Full-time.html">Stack Auth (S24) : San Francisco, CA</a></h3>
+    <h3><a href="/jobs/September-2025/pfraze-BlueskySocial-Multiplepositions-Remote(US-based).html">Bluesky Social : Multiple positions</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 StackAuth(S24)</span>
-      <span class="author">👤 n2d4</span>
+      <span class="company">🏢 BlueskySocial</span>
+      <span class="author">👤 pfraze</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/klaaz0r-Promptwatch-Amsterdam_Netherlands-Full-time.html">Promptwatch : Amsterdam, Netherlands</a></h3>
+    <h3><a href="/jobs/September-2025/sara_p2p.html">sara_p2p</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Promptwatch</span>
-      <span class="author">👤 klaaz0r</span>
+      <span class="company">🏢 Company</span>
+      <span class="author">👤 sara_p2p</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/austil-Upway-Paris(Hybrid)-Full-time.html">Upway : Paris (Hybrid)</a></h3>
+    <h3><a href="/jobs/September-2025/felix-h-eventfirst-SeniorFull-StackEngineer-Berlin_Germany-REMOTE(CET)-Full-time.html">eventfirst : Senior Full-Stack Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Upway</span>
-      <span class="author">👤 austil</span>
+      <span class="company">🏢 h</span>
+      <span class="author">👤 felix-h</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/johnmoberg-TandemHealth-On-siteinStockholm_Sweden-Fulltime.html">Tandem Health : On-site in Stockholm, Sweden</a></h3>
+    <h3><a href="/jobs/September-2025/cwbrandsma-BradenHealth-Boise(ONSITE)-Full-time.html">Braden Health : Boise (ONSITE)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 TandemHealth</span>
-      <span class="author">👤 johnmoberg</span>
+      <span class="company">🏢 BradenHealth</span>
+      <span class="author">👤 cwbrandsma</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/hartator-SerpApi-JuniortoSeniorFullstackEngineermultiplepositions-CustomerSuccessEngineer-Hiring.html">SerpApi : Junior to Senior Fullstack Engineer multiple positions</a></h3>
+    <h3><a href="/jobs/September-2025/samcheng-Rinse-HybridinSFBayArea_LosAngeles_NewYork(Brooklyn)_Boston_Chicago_Seattle_WashingtonD.html">Rinse : Hybrid in SF Bay Area, Los Angeles, New York (Brooklyn), Boston, Chicago, Seattle, Washington DC, or Newark. (Primarily remote with some on-site responsibilities.)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 SerpApi</span>
-      <span class="author">👤 hartator</span>
+      <span class="company">🏢 Rinse</span>
+      <span class="author">👤 samcheng</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/kdumont-AllSpice-Fulltime(UStimezones)-Golang_Vuejs_Rust.html">AllSpice : Full time (US timezones)</a></h3>
+    <h3><a href="/jobs/September-2025/ocfnash-MathlibInitiative-DevOpsEngineer-Fully-remote-Full-time.html">Mathlib Initiative : DevOps Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 AllSpice</span>
-      <span class="author">👤 kdumont</span>
+      <span class="company">🏢 MathlibInitiative</span>
+      <span class="author">👤 ocfnash</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/dionyziz-CommonPrefix-Greece-Remote-Full-time.html">Common Prefix : Greece</a></h3>
+    <h3><a href="/jobs/September-2025/continua-ContinuaAI-MultipleRoles-Full-time-Salary+Equity.html">Continua AI : Multiple Roles</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 CommonPrefix</span>
-      <span class="author">👤 dionyziz</span>
+      <span class="company">🏢 ContinuaAI</span>
+      <span class="author">👤 continua</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/josephstein-VeritusAgent-FullStackSoftwareEngineer-Hybrid-SanFrancisco-Full-time-$200k+0_5_-1_.html">VeritusAgent : Full Stack Software Engineer</a></h3>
+    <h3><a href="/jobs/September-2025/sarrma-StealthSolarTechStartup-Remote(EU-friendly)-Full-timeorContract.html">Stealth Solar Tech Startup : Remote (EU-friendly)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 VeritusAgent</span>
-      <span class="author">👤 josephstein</span>
+      <span class="company">🏢 StealthSolarTechStartup</span>
+      <span class="author">👤 sarrma</span>
     </div>
   </div>
 </div>
