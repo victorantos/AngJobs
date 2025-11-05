@@ -242,3 +242,4 @@ _Pvt_Extensions
 /src/.vuepress/.cache/deps
 /src/.vuepress/.cache/deps
 /src/.vuepress/dist
+.claude/settings.local.json

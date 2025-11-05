@@ -17,7 +17,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="*maiven : remote (us)" data-company="_maiven">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/maiven-_Maiven-Remote(US)-Full-Time_.html">*Maiven : Remote (US)</a></h3>
+      <h3><a href="/jobs/September-2025/maiven-_Maiven-RemoteUS-Full-Time_.html">*Maiven : Remote (US)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 _Maiven</span>
         <span class="author">👤 maiven</span>
@@ -37,7 +37,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="9 mothers defense : hybrid (austin tx)" data-company="9mothersdefense">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/dowakin-9MothersDefense-Hybrid(AustinTX)-Full-time.html">9 Mothers Defense : Hybrid (Austin TX)</a></h3>
+      <h3><a href="/jobs/September-2025/dowakin-9MothersDefense-HybridAustinTX-Full-time.html">9 Mothers Defense : Hybrid (Austin TX)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 9MothersDefense</span>
         <span class="author">👤 dowakin</span>
@@ -57,7 +57,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="adalat ai : remote (india, but open to global for exceptional candidates)" data-company="adalatai">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/agnivade-AdalatAI-Remote(India_butopentoglobalforexceptionalcandidates)-Go_React_Next_js_k8s.html">Adalat AI : Remote (India, but open to global for exceptional candidates)</a></h3>
+      <h3><a href="/jobs/September-2025/agnivade-AdalatAI-RemoteIndia_butopentoglobalforexceptionalcandidates-Go_React_Next_js_k8s.html">Adalat AI : Remote (India, but open to global for exceptional candidates)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 AdalatAI</span>
         <span class="author">👤 agnivade</span>
@@ -67,7 +67,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="adi trinamic : junior embedded systems software engineer" data-company="bp">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/trinamic-bp-ADITrinamic-JuniorEmbeddedSystemsSoftwareEngineer-ONSITE(hybrid)-Full-time-Hamburg_G.html">ADI Trinamic : Junior Embedded Systems Software Engineer</a></h3>
+      <h3><a href="/jobs/September-2025/trinamic-bp-ADITrinamic-JuniorEmbeddedSystemsSoftwareEngineer-ONSITEhybrid-Full-time-Hamburg_G.html">ADI Trinamic : Junior Embedded Systems Software Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 bp</span>
         <span class="author">👤 trinamic-bp</span>
@@ -87,7 +87,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="allspice : full time (us timezones)" data-company="allspice">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/kdumont-AllSpice-Fulltime(UStimezones)-Golang_Vuejs_Rust.html">AllSpice : Full time (US timezones)</a></h3>
+      <h3><a href="/jobs/September-2025/kdumont-AllSpice-FulltimeUStimezones-Golang_Vuejs_Rust.html">AllSpice : Full time (US timezones)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 AllSpice</span>
         <span class="author">👤 kdumont</span>
@@ -127,7 +127,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="attendi : ml platform engineer" data-company="attendi">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/edwardfsoler-Attendi-MLPlatformEngineer-Amsterdam_Netherlands-ON-SITEhybrid-Full-time(80-100_).html">Attendi : ML Platform Engineer</a></h3>
+      <h3><a href="/jobs/September-2025/edwardfsoler-Attendi-MLPlatformEngineer-Amsterdam_Netherlands-ON-SITEhybrid-Full-time80-100_.html">Attendi : ML Platform Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Attendi</span>
         <span class="author">👤 edwardfsoler</span>
@@ -195,11 +195,11 @@ title: All September 2025 Jobs
     </div>
   </div>
 
-  <div class="job-item" data-title="billiontoone (yc s17)" data-company="billiontoone(ycs17)">
+  <div class="job-item" data-title="billiontoone (yc s17)" data-company="billiontooneycs17">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/kevinwuhoo-BillionToOne(YCS17).html">BillionToOne (YC S17)</a></h3>
+      <h3><a href="/jobs/September-2025/kevinwuhoo-BillionToOneYCS17.html">BillionToOne (YC S17)</a></h3>
       <div class="job-meta">
-        <span class="company">🏢 BillionToOne(YCS17)</span>
+        <span class="company">🏢 BillionToOneYCS17</span>
         <span class="author">👤 kevinwuhoo</span>
       </div>
     </div>
@@ -207,7 +207,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="bluesky social : multiple positions" data-company="blueskysocial">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/pfraze-BlueskySocial-Multiplepositions-Remote(US-based).html">Bluesky Social : Multiple positions</a></h3>
+      <h3><a href="/jobs/September-2025/pfraze-BlueskySocial-Multiplepositions-RemoteUS-based.html">Bluesky Social : Multiple positions</a></h3>
       <div class="job-meta">
         <span class="company">🏢 BlueskySocial</span>
         <span class="author">👤 pfraze</span>
@@ -217,7 +217,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="braden health : boise (onsite)" data-company="bradenhealth">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/cwbrandsma-BradenHealth-Boise(ONSITE)-Full-time.html">Braden Health : Boise (ONSITE)</a></h3>
+      <h3><a href="/jobs/September-2025/cwbrandsma-BradenHealth-BoiseONSITE-Full-time.html">Braden Health : Boise (ONSITE)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 BradenHealth</span>
         <span class="author">👤 cwbrandsma</span>
@@ -227,7 +227,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="brilliant.org : remote (north america), sf, nyc" data-company="brilliant_org">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/jaredsilver-Brilliant_org-Remote(NorthAmerica)_SF_NYC-Full-time-$170k—$235k.html">Brilliant.org : Remote (North America), SF, NYC</a></h3>
+      <h3><a href="/jobs/September-2025/jaredsilver-Brilliant_org-RemoteNorthAmerica_SF_NYC-Full-time-170k—235k.html">Brilliant.org : Remote (North America), SF, NYC</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Brilliant_org</span>
         <span class="author">👤 jaredsilver</span>
@@ -237,7 +237,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="bubblehouse : fully remote" data-company="bubblehouse">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/andreyvit-Bubblehouse-FullyREMOTE-Full-Time-$250k-PrincipalEngineer.html">Bubblehouse : Fully REMOTE</a></h3>
+      <h3><a href="/jobs/September-2025/andreyvit-Bubblehouse-FullyREMOTE-Full-Time-250k-PrincipalEngineer.html">Bubblehouse : Fully REMOTE</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Bubblehouse</span>
         <span class="author">👤 andreyvit</span>
@@ -257,7 +257,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="category labs : remote and nyc" data-company="categorylabs">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/wwolffrec-CategoryLabs-RemoteandNYC-FullTime-$200KUSD+.html">Category Labs : Remote and NYC</a></h3>
+      <h3><a href="/jobs/September-2025/wwolffrec-CategoryLabs-RemoteandNYC-FullTime-200KUSD.html">Category Labs : Remote and NYC</a></h3>
       <div class="job-meta">
         <span class="company">🏢 CategoryLabs</span>
         <span class="author">👤 wwolffrec</span>
@@ -277,7 +277,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="channel3 : nyc" data-company="channel3">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/aschiff1-Channel3-NYC-$120–200K+0_5–1_5_equity-Full-time.html">Channel3 : NYC</a></h3>
+      <h3><a href="/jobs/September-2025/aschiff1-Channel3-NYC-120–200K-0_5–1_5_equity-Full-time.html">Channel3 : NYC</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Channel3</span>
         <span class="author">👤 aschiff1</span>
@@ -307,7 +307,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="charlie labs : remote (global)" data-company="charlielabs">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/neom-CharlieLabs-Remote(Global)-Full-time-TypeScriptcodeagent.html">Charlie Labs : Remote (Global)</a></h3>
+      <h3><a href="/jobs/September-2025/neom-CharlieLabs-RemoteGlobal-Full-time-TypeScriptcodeagent.html">Charlie Labs : Remote (Global)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 CharlieLabs</span>
         <span class="author">👤 neom</span>
@@ -317,7 +317,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="checkly : multiple roles" data-company="checkly">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/lausingh-Checkly-MultipleRoles-REMOTE(UTC+3toUTC-3)-Fulltime.html">Checkly : Multiple Roles</a></h3>
+      <h3><a href="/jobs/September-2025/lausingh-Checkly-MultipleRoles-REMOTEUTC-3toUTC-3-Fulltime.html">Checkly : Multiple Roles</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Checkly</span>
         <span class="author">👤 lausingh</span>
@@ -335,11 +335,11 @@ title: All September 2025 Jobs
     </div>
   </div>
 
-  <div class="job-item" data-title="chronograph (chronograph.pe) : devops engineer" data-company="chronograph(chronograph_pe)">
+  <div class="job-item" data-title="chronograph (chronograph.pe) : devops engineer" data-company="chronographchronograph_pe">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/nbraga-Chronograph(chronograph_pe)-DevOpsEngineer-Full-Time-Remote(US)-$150-170KUSD+equity.html">Chronograph (chronograph.pe) : DevOps Engineer</a></h3>
+      <h3><a href="/jobs/September-2025/nbraga-Chronographchronograph_pe-DevOpsEngineer-Full-Time-RemoteUS-150-170KUSD-equity.html">Chronograph (chronograph.pe) : DevOps Engineer</a></h3>
       <div class="job-meta">
-        <span class="company">🏢 Chronograph(chronograph_pe)</span>
+        <span class="company">🏢 Chronographchronograph_pe</span>
         <span class="author">👤 nbraga</span>
       </div>
     </div>
@@ -347,7 +347,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="citymapper by via : london, uk" data-company="citymapperbyvia">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/EmilLondon-CitymapperbyVia-London_UK-OnsiteorHybrid(London_UKandNewYork_USA)-VISA.html">Citymapper by Via : London, UK</a></h3>
+      <h3><a href="/jobs/September-2025/EmilLondon-CitymapperbyVia-London_UK-OnsiteorHybridLondon_UKandNewYork_USA-VISA.html">Citymapper by Via : London, UK</a></h3>
       <div class="job-meta">
         <span class="company">🏢 CitymapperbyVia</span>
         <span class="author">👤 EmilLondon</span>
@@ -367,7 +367,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="clerq : onsite (nyc)" data-company="clerq">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/zukee-Clerq-onsite(NYC).html">Clerq : onsite (NYC)</a></h3>
+      <h3><a href="/jobs/September-2025/zukee-Clerq-onsiteNYC.html">Clerq : onsite (NYC)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Clerq</span>
         <span class="author">👤 zukee</span>
@@ -387,7 +387,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="climatefriendly : data engineer" data-company="climatefriendly">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/gtuckera-ClimateFriendly-DataEngineer-Remote(Australia).html">ClimateFriendly : Data Engineer</a></h3>
+      <h3><a href="/jobs/September-2025/gtuckera-ClimateFriendly-DataEngineer-RemoteAustralia.html">ClimateFriendly : Data Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 ClimateFriendly</span>
         <span class="author">👤 gtuckera</span>
@@ -427,7 +427,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="cogram : full-time" data-company="cogram">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/ricwo-Cogram-Full-time-Remote(CET±3).html">Cogram : Full-time</a></h3>
+      <h3><a href="/jobs/September-2025/ricwo-Cogram-Full-time-RemoteCET±3.html">Cogram : Full-time</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Cogram</span>
         <span class="author">👤 ricwo</span>
@@ -457,7 +457,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="comity inc. : platform software engineer" data-company="comityinc_">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/andres_comity-ComityInc_-PlatformSoftwareEngineer-Hybrid(Brooklyn_NYC)-Full-time.html">Comity Inc. : Platform Software Engineer</a></h3>
+      <h3><a href="/jobs/September-2025/andres_comity-ComityInc_-PlatformSoftwareEngineer-HybridBrooklyn_NYC-Full-time.html">Comity Inc. : Platform Software Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 ComityInc_</span>
         <span class="author">👤 andres_comity</span>
@@ -477,7 +477,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="composio : senior backend engineers + product engineers (frontend + sdks)" data-company="composio">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/haxzie-Composio-SeniorBackendEngineers+ProductEngineers(Frontend+SDKs)-Full-Time-InOffice(SFandB.html">Composio : Senior Backend Engineers + Product Engineers (Frontend + SDKs)</a></h3>
+      <h3><a href="/jobs/September-2025/haxzie-Composio-SeniorBackendEngineers-ProductEngineersFrontend-SDKs-Full-Time-InOfficeSFandB.html">Composio : Senior Backend Engineers + Product Engineers (Frontend + SDKs)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Composio</span>
         <span class="author">👤 haxzie</span>
@@ -487,7 +487,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="comulate : senior engineer (3+ yoe)" data-company="comulate">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/michaelm244-Comulate-SeniorEngineer(3+YoE)-ONSITEinSanFrancisco_CA.html">Comulate : Senior Engineer (3+ YoE)</a></h3>
+      <h3><a href="/jobs/September-2025/michaelm244-Comulate-SeniorEngineer3-YoE-ONSITEinSanFrancisco_CA.html">Comulate : Senior Engineer (3+ YoE)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Comulate</span>
         <span class="author">👤 michaelm244</span>
@@ -497,7 +497,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="connie health : multiple senior engineering roles" data-company="conniehealth">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/huan23-ConnieHealth-Multipleseniorengineeringroles-Hybrid(Boston_MA)-Full-time.html">Connie Health : Multiple senior engineering roles</a></h3>
+      <h3><a href="/jobs/September-2025/huan23-ConnieHealth-Multipleseniorengineeringroles-HybridBoston_MA-Full-time.html">Connie Health : Multiple senior engineering roles</a></h3>
       <div class="job-meta">
         <span class="company">🏢 ConnieHealth</span>
         <span class="author">👤 huan23</span>
@@ -507,7 +507,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="continua ai : multiple roles" data-company="continuaai">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/continua-ContinuaAI-MultipleRoles-Full-time-Salary+Equity.html">Continua AI : Multiple Roles</a></h3>
+      <h3><a href="/jobs/September-2025/continua-ContinuaAI-MultipleRoles-Full-time-Salary-Equity.html">Continua AI : Multiple Roles</a></h3>
       <div class="job-meta">
         <span class="company">🏢 ContinuaAI</span>
         <span class="author">👤 continua</span>
@@ -517,7 +517,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="count : senior software engineer" data-company="count">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/ojpike-Count-SeniorSoftwareEngineer-Full-time-£100-140k+Equity.html">Count : Senior Software Engineer</a></h3>
+      <h3><a href="/jobs/September-2025/ojpike-Count-SeniorSoftwareEngineer-Full-time-100-140k-Equity.html">Count : Senior Software Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Count</span>
         <span class="author">👤 ojpike</span>
@@ -525,11 +525,11 @@ title: All September 2025 Jobs
     </div>
   </div>
 
-  <div class="job-item" data-title="creativemode (s24) : on-site - san francisco, ca" data-company="creativemode(s24)">
+  <div class="job-item" data-title="creativemode (s24) : on-site - san francisco, ca" data-company="creativemodes24">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/wilson090-CreativeMode(S24)-On-site-SanFrancisco_CA.html">CreativeMode (S24) : On-site - San Francisco, CA</a></h3>
+      <h3><a href="/jobs/September-2025/wilson090-CreativeModeS24-On-site-SanFrancisco_CA.html">CreativeMode (S24) : On-site - San Francisco, CA</a></h3>
       <div class="job-meta">
-        <span class="company">🏢 CreativeMode(S24)</span>
+        <span class="company">🏢 CreativeModeS24</span>
         <span class="author">👤 wilson090</span>
       </div>
     </div>
@@ -567,7 +567,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="dash0 : multiple roles" data-company="dash0">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/ayoisaiah-Dash0-Multipleroles-FULLYREMOTE-Full-time-Salary+equity.html">Dash0 : Multiple roles</a></h3>
+      <h3><a href="/jobs/September-2025/ayoisaiah-Dash0-Multipleroles-FULLYREMOTE-Full-time-Salary-equity.html">Dash0 : Multiple roles</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Dash0</span>
         <span class="author">👤 ayoisaiah</span>
@@ -577,7 +577,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="data engineer : us resident" data-company="dataengineer">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/ransom1538-DataEngineer-USResident-REMOTE-Full-Time-130-160k(open).html">Data Engineer : US Resident</a></h3>
+      <h3><a href="/jobs/September-2025/ransom1538-DataEngineer-USResident-REMOTE-Full-Time-130-160kopen.html">Data Engineer : US Resident</a></h3>
       <div class="job-meta">
         <span class="company">🏢 DataEngineer</span>
         <span class="author">👤 ransom1538</span>
@@ -587,7 +587,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="datadog : software engineers" data-company="datadog">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/dbenamy-Datadog-SoftwareEngineers-ONSITE(Boston_Lisbon_Madrid_NYC_Paris_TelAviv)-Full-time.html">Datadog : Software Engineers</a></h3>
+      <h3><a href="/jobs/September-2025/dbenamy-Datadog-SoftwareEngineers-ONSITEBoston_Lisbon_Madrid_NYC_Paris_TelAviv-Full-time.html">Datadog : Software Engineers</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Datadog</span>
         <span class="author">👤 dbenamy</span>
@@ -597,7 +597,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="digital onboarding : senior full-stack engineer" data-company="digitalonboarding">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/crossman-DigitalOnboarding-SeniorFull-stackEngineer-REMOTE(USbased)-Fulltime.html">Digital Onboarding : Senior Full-stack Engineer</a></h3>
+      <h3><a href="/jobs/September-2025/crossman-DigitalOnboarding-SeniorFull-stackEngineer-REMOTEUSbased-Fulltime.html">Digital Onboarding : Senior Full-stack Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 DigitalOnboarding</span>
         <span class="author">👤 crossman</span>
@@ -617,7 +617,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="duckduckgo : multiple roles" data-company="duckduckgo">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/bill_duckduckgo-DuckDuckGo-MultipleRoles-Remote-Full-time-$178_5k-$243_800+equity.html">DuckDuckGo : Multiple Roles</a></h3>
+      <h3><a href="/jobs/September-2025/bill_duckduckgo-DuckDuckGo-MultipleRoles-Remote-Full-time-178_5k-243_800-equity.html">DuckDuckGo : Multiple Roles</a></h3>
       <div class="job-meta">
         <span class="company">🏢 DuckDuckGo</span>
         <span class="author">👤 bill_duckduckgo</span>
@@ -645,11 +645,11 @@ title: All September 2025 Jobs
     </div>
   </div>
 
-  <div class="job-item" data-title="eli beamlines (eli eric) : dolní břežany (prague), czech republic" data-company="elibeamlines(elieric)">
+  <div class="job-item" data-title="eli beamlines (eli eric) : dolní břežany (prague), czech republic" data-company="elibeamlineselieric">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/drmacak-ELIBeamlines(ELIERIC)-DolníBřežany(Prague)_CzechRepublic-Onsite(withHO)-Full‑time.html">ELI Beamlines (ELI ERIC) : Dolní Břežany (Prague), Czech Republic</a></h3>
+      <h3><a href="/jobs/September-2025/drmacak-ELIBeamlinesELIERIC-DolníBřežanyPrague_CzechRepublic-OnsitewithHO-Full‑time.html">ELI Beamlines (ELI ERIC) : Dolní Břežany (Prague), Czech Republic</a></h3>
       <div class="job-meta">
-        <span class="company">🏢 ELIBeamlines(ELIERIC)</span>
+        <span class="company">🏢 ELIBeamlinesELIERIC</span>
         <span class="author">👤 drmacak</span>
       </div>
     </div>
@@ -667,7 +667,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="eventfirst : senior full-stack engineer" data-company="h">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/felix-h-eventfirst-SeniorFull-StackEngineer-Berlin_Germany-REMOTE(CET)-Full-time.html">eventfirst : Senior Full-Stack Engineer</a></h3>
+      <h3><a href="/jobs/September-2025/felix-h-eventfirst-SeniorFull-StackEngineer-Berlin_Germany-REMOTECET-Full-time.html">eventfirst : Senior Full-Stack Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 h</span>
         <span class="author">👤 felix-h</span>
@@ -677,7 +677,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="faction : founding engineers" data-company="faction">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/kurns-Faction-FoundingEngineers-ONSITE(SF)-wesponsorvisas-Full-Time-$130_000-$225_000+equity.html">Faction : Founding Engineers</a></h3>
+      <h3><a href="/jobs/September-2025/kurns-Faction-FoundingEngineers-ONSITESF-wesponsorvisas-Full-Time-130_000-225_000-equity.html">Faction : Founding Engineers</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Faction</span>
         <span class="author">👤 kurns</span>
@@ -707,7 +707,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="fleming.de : full stack engineer" data-company="fleming_de">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/Burnstreet-fleming_de-FullStackEngineer-Magdeburg_Berlin_Hybrid(Germany)-FullTime-Germanrequired.html">fleming.de : Full Stack Engineer</a></h3>
+      <h3><a href="/jobs/September-2025/Burnstreet-fleming_de-FullStackEngineer-Magdeburg_Berlin_HybridGermany-FullTime-Germanrequired.html">fleming.de : Full Stack Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 fleming_de</span>
         <span class="author">👤 Burnstreet</span>
@@ -717,7 +717,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="fold : remote (us only)" data-company="fold">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/xur17-Fold-Remote(USOnly)-SeniorFrontendEngineer_SeniorDesignEngineer_LeadQAEngineer-Full-time.html">Fold : Remote (US Only)</a></h3>
+      <h3><a href="/jobs/September-2025/xur17-Fold-RemoteUSOnly-SeniorFrontendEngineer_SeniorDesignEngineer_LeadQAEngineer-Full-time.html">Fold : Remote (US Only)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Fold</span>
         <span class="author">👤 xur17</span>
@@ -727,7 +727,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="formal : multiple positions" data-company="formal">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/sbenitez-Formal-MultiplePositions-REMOTE-Full-Time-$100k-$250k+Equity.html">Formal : Multiple Positions</a></h3>
+      <h3><a href="/jobs/September-2025/sbenitez-Formal-MultiplePositions-REMOTE-Full-Time-100k-250k-Equity.html">Formal : Multiple Positions</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Formal</span>
         <span class="author">👤 sbenitez</span>
@@ -747,7 +747,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="franklin templeton : quant implementation lead" data-company="franklintempleton">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/dnadler-FranklinTempleton-QuantImplementationLead-Boston_MA-In-Person-$145k-$190k+Bonus.html">Franklin Templeton : Quant Implementation Lead</a></h3>
+      <h3><a href="/jobs/September-2025/dnadler-FranklinTempleton-QuantImplementationLead-Boston_MA-In-Person-145k-190k-Bonus.html">Franklin Templeton : Quant Implementation Lead</a></h3>
       <div class="job-meta">
         <span class="company">🏢 FranklinTempleton</span>
         <span class="author">👤 dnadler</span>
@@ -757,7 +757,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="freetrade : london (onsite)" data-company="freetrade">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/varsis-Freetrade-London(ONSITE)-Full-time-£75k-£140k.html">Freetrade : London (ONSITE)</a></h3>
+      <h3><a href="/jobs/September-2025/varsis-Freetrade-LondonONSITE-Full-time-75k-140k.html">Freetrade : London (ONSITE)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Freetrade</span>
         <span class="author">👤 varsis</span>
@@ -777,7 +777,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="full-stack, former technical founders : full-time" data-company="full">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/hanrelan-Full-stack_formertechnicalfounders-Full-time-Remote(mustbeabletoworkUStimezones).html">Full-stack, former technical founders : Full-time</a></h3>
+      <h3><a href="/jobs/September-2025/hanrelan-Full-stack_formertechnicalfounders-Full-time-RemotemustbeabletoworkUStimezones.html">Full-stack, former technical founders : Full-time</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Full</span>
         <span class="author">👤 hanrelan</span>
@@ -807,7 +807,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="full-time montreal - hybrid (canada) : internship brazil - remote" data-company="full">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/stere0-Full-TimeMontreal-Hybrid(Canada)-InternshipBrazil-Remote.html">Full-Time Montreal - Hybrid (Canada) : Internship Brazil - Remote</a></h3>
+      <h3><a href="/jobs/September-2025/stere0-Full-TimeMontreal-HybridCanada-InternshipBrazil-Remote.html">Full-Time Montreal - Hybrid (Canada) : Internship Brazil - Remote</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Full</span>
         <span class="author">👤 stere0</span>
@@ -817,7 +817,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="fundamental research labs : fullstack, product, + software engineers, ex-founders, researchers" data-company="fundamentalresearchlabs">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/caitbit-FundamentalResearchLabs-Fullstack_Product_+SoftwareEngineers_Ex-founders_Researchers-Men.html">Fundamental Research Labs : Fullstack, Product, + Software Engineers, Ex-founders, Researchers</a></h3>
+      <h3><a href="/jobs/September-2025/caitbit-FundamentalResearchLabs-Fullstack_Product_-SoftwareEngineers_Ex-founders_Researchers-Men.html">Fundamental Research Labs : Fullstack, Product, + Software Engineers, Ex-founders, Researchers</a></h3>
       <div class="job-meta">
         <span class="company">🏢 FundamentalResearchLabs</span>
         <span class="author">👤 caitbit</span>
@@ -827,7 +827,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="funnelstory : remote (india)" data-company="funnelstory">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/preetamjinka-FunnelStory-REMOTE(India)-Bengaluru-Full-Time-55-85LPA.html">FunnelStory : REMOTE (India)</a></h3>
+      <h3><a href="/jobs/September-2025/preetamjinka-FunnelStory-REMOTEIndia-Bengaluru-Full-Time-55-85LPA.html">FunnelStory : REMOTE (India)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 FunnelStory</span>
         <span class="author">👤 preetamjinka</span>
@@ -837,7 +837,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="furtim modus : hiring java developer (full-time)" data-company="furtimmodus">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/furtimmodus-FurtimModus-HiringJavaDeveloper(Full-Time)-NYC(HYBRID).html">Furtim Modus : Hiring Java Developer (Full-Time)</a></h3>
+      <h3><a href="/jobs/September-2025/furtimmodus-FurtimModus-HiringJavaDeveloperFull-Time-NYCHYBRID.html">Furtim Modus : Hiring Java Developer (Full-Time)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 FurtimModus</span>
         <span class="author">👤 furtimmodus</span>
@@ -865,21 +865,21 @@ title: All September 2025 Jobs
     </div>
   </div>
 
-  <div class="job-item" data-title="gigs (yc w21) : full-time" data-company="gigs(ycw21)">
+  <div class="job-item" data-title="gigs (yc w21) : full-time" data-company="gigsycw21">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/ThibautdeVos-Gigs(YCW21)-Full-time.html">Gigs (YC W21) : Full-time</a></h3>
+      <h3><a href="/jobs/September-2025/ThibautdeVos-GigsYCW21-Full-time.html">Gigs (YC W21) : Full-time</a></h3>
       <div class="job-meta">
-        <span class="company">🏢 Gigs(YCW21)</span>
+        <span class="company">🏢 GigsYCW21</span>
         <span class="author">👤 ThibautdeVos</span>
       </div>
     </div>
   </div>
 
-  <div class="job-item" data-title="gogograndparent (yc s16) : fully remote" data-company="gogograndparent(ycs16)">
+  <div class="job-item" data-title="gogograndparent (yc s16) : fully remote" data-company="gogograndparentycs16">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/willgogo-GoGoGrandparent(YCS16)-FULLYREMOTE-Full-time-ESTtimezone.html">GoGoGrandparent (YC S16) : FULLY REMOTE</a></h3>
+      <h3><a href="/jobs/September-2025/willgogo-GoGoGrandparentYCS16-FULLYREMOTE-Full-time-ESTtimezone.html">GoGoGrandparent (YC S16) : FULLY REMOTE</a></h3>
       <div class="job-meta">
-        <span class="company">🏢 GoGoGrandparent(YCS16)</span>
+        <span class="company">🏢 GoGoGrandparentYCS16</span>
         <span class="author">👤 willgogo</span>
       </div>
     </div>
@@ -887,7 +887,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="goody : remote" data-company="goody">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/markbao-Goody-Remote-$200–250K+equityandbenefits-Full-time.html">Goody : Remote</a></h3>
+      <h3><a href="/jobs/September-2025/markbao-Goody-Remote-200–250K-equityandbenefits-Full-time.html">Goody : Remote</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Goody</span>
         <span class="author">👤 markbao</span>
@@ -907,7 +907,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="greenline : founding engineer roles" data-company="greenline">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/dnlphys-Greenline-FoundingEngineerRoles-Remote(U_S_only).html">Greenline : Founding Engineer Roles</a></h3>
+      <h3><a href="/jobs/September-2025/dnlphys-Greenline-FoundingEngineerRoles-RemoteU_S_only.html">Greenline : Founding Engineer Roles</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Greenline</span>
         <span class="author">👤 dnlphys</span>
@@ -917,7 +917,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="hardfin : full-stack engineer" data-company="hardfin">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/bweisb-Hardfin-Full-stackengineer-Denvermetro_COorBayarea_CA(REMOTEorONSITE)-Full-time-150k-180k.html">Hardfin : Full-stack engineer</a></h3>
+      <h3><a href="/jobs/September-2025/bweisb-Hardfin-Full-stackengineer-Denvermetro_COorBayarea_CAREMOTEorONSITE-Full-time-150k-180k.html">Hardfin : Full-stack engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Hardfin</span>
         <span class="author">👤 bweisb</span>
@@ -947,7 +947,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="homecloud : remote (us, eu utc-6 to utc+2)" data-company="homecloud">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/HomeCloud-HomeCloud-Remote(US_EUUTC-6toUTC+2)-Full-Time(Contractor).html">HomeCloud : Remote (US, EU UTC-6 to UTC+2)</a></h3>
+      <h3><a href="/jobs/September-2025/HomeCloud-HomeCloud-RemoteUS_EUUTC-6toUTC-2-Full-TimeContractor.html">HomeCloud : Remote (US, EU UTC-6 to UTC+2)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 HomeCloud</span>
         <span class="author">👤 HomeCloud</span>
@@ -965,31 +965,31 @@ title: All September 2025 Jobs
     </div>
   </div>
 
-  <div class="job-item" data-title="howie.systems (eu vc funded) : full-stack (ai) engineer" data-company="howie_systems(euvcfunded)">
+  <div class="job-item" data-title="howie.systems (eu vc funded) : full-stack (ai) engineer" data-company="howie_systemseuvcfunded">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/BrandiATMuhkuh-Howie_systems(EUVCfunded)-Full-Stack(AI)Engineer-ONSITEVienna_Austria-Full-time.html">Howie.systems (EU VC funded) : Full-Stack (AI) Engineer</a></h3>
+      <h3><a href="/jobs/September-2025/BrandiATMuhkuh-Howie_systemsEUVCfunded-Full-StackAIEngineer-ONSITEVienna_Austria-Full-time.html">Howie.systems (EU VC funded) : Full-Stack (AI) Engineer</a></h3>
       <div class="job-meta">
-        <span class="company">🏢 Howie_systems(EUVCfunded)</span>
+        <span class="company">🏢 Howie_systemsEUVCfunded</span>
         <span class="author">👤 BrandiATMuhkuh</span>
       </div>
     </div>
   </div>
 
-  <div class="job-item" data-title="humaans (yc w21) : engineering leads, senior full-stack engineers" data-company="humaans(ycw21)">
+  <div class="job-item" data-title="humaans (yc w21) : engineering leads, senior full-stack engineers" data-company="humaansycw21">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/kn8-Humaans(YCW21)-EngineeringLeads_SeniorFull-StackEngineers-Full-time.html">Humaans (YC W21) : Engineering Leads, Senior Full-Stack Engineers</a></h3>
+      <h3><a href="/jobs/September-2025/kn8-HumaansYCW21-EngineeringLeads_SeniorFull-StackEngineers-Full-time.html">Humaans (YC W21) : Engineering Leads, Senior Full-Stack Engineers</a></h3>
       <div class="job-meta">
-        <span class="company">🏢 Humaans(YCW21)</span>
+        <span class="company">🏢 HumaansYCW21</span>
         <span class="author">👤 kn8</span>
       </div>
     </div>
   </div>
 
-  <div class="job-item" data-title="hybrid (houston, tx) : senior software systems engineer" data-company="hybrid(houston_tx)">
+  <div class="job-item" data-title="hybrid (houston, tx) : senior software systems engineer" data-company="hybridhouston_tx">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/Ken_At_EM-Hybrid(Houston_TX)-SeniorSoftwareSystemsEngineer-$154k-$175k.html">Hybrid (Houston, TX) : Senior Software Systems Engineer</a></h3>
+      <h3><a href="/jobs/September-2025/Ken_At_EM-HybridHouston_TX-SeniorSoftwareSystemsEngineer-154k-175k.html">Hybrid (Houston, TX) : Senior Software Systems Engineer</a></h3>
       <div class="job-meta">
-        <span class="company">🏢 Hybrid(Houston_TX)</span>
+        <span class="company">🏢 HybridHouston_TX</span>
         <span class="author">👤 Ken_At_EM</span>
       </div>
     </div>
@@ -1027,7 +1027,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="imbue : data engineers" data-company="imbue">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/kanjun-Imbue-DataEngineers-Full-time-SanFrancisco_CA(ONSITE).html">Imbue : Data Engineers</a></h3>
+      <h3><a href="/jobs/September-2025/kanjun-Imbue-DataEngineers-Full-time-SanFrancisco_CAONSITE.html">Imbue : Data Engineers</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Imbue</span>
         <span class="author">👤 kanjun</span>
@@ -1057,7 +1057,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="justwatch : frontend engineer (junior–mid)" data-company="justwatch">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/JustWatchTA-JustWatch-FrontendEngineer(Junior–Mid)-Berlin-Full-time-HYBRID(2–3daysoffice_restrem.html">JustWatch : Frontend Engineer (Junior–Mid)</a></h3>
+      <h3><a href="/jobs/September-2025/JustWatchTA-JustWatch-FrontendEngineerJunior–Mid-Berlin-Full-time-HYBRID2–3daysoffice_restrem.html">JustWatch : Frontend Engineer (Junior–Mid)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 JustWatch</span>
         <span class="author">👤 JustWatchTA</span>
@@ -1077,7 +1077,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="jwp connatix : ai software engineer" data-company="jwpconnatix">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/kxrm-JWPConnatix-AISoftwareEngineer-REMOTE(EU)-Full-Time.html">JWP Connatix : AI Software Engineer</a></h3>
+      <h3><a href="/jobs/September-2025/kxrm-JWPConnatix-AISoftwareEngineer-REMOTEEU-Full-Time.html">JWP Connatix : AI Software Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 JWPConnatix</span>
         <span class="author">👤 kxrm</span>
@@ -1107,7 +1107,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="klara inc. : openzfs developer" data-company="klarainc_">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/allanjude-KlaraInc_-OpenZFSDeveloper-Full-time(Contractor)-Remote.html">Klara Inc. : OpenZFS Developer</a></h3>
+      <h3><a href="/jobs/September-2025/allanjude-KlaraInc_-OpenZFSDeveloper-Full-timeContractor-Remote.html">Klara Inc. : OpenZFS Developer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 KlaraInc_</span>
         <span class="author">👤 allanjude</span>
@@ -1127,7 +1127,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="komodo health : applied ai engineer" data-company="komodohealth">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/ramraj07-KomodoHealth-AppliedAIEngineer-Full-Time-$200-$253k+equity_.html">Komodo Health : Applied AI Engineer</a></h3>
+      <h3><a href="/jobs/September-2025/ramraj07-KomodoHealth-AppliedAIEngineer-Full-Time-200-253k-equity_.html">Komodo Health : Applied AI Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 KomodoHealth</span>
         <span class="author">👤 ramraj07</span>
@@ -1157,7 +1157,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="krea.ai : san francisco (on-site), ca" data-company="krea_ai">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/dvrp-krea_ai-SanFrancisco(on-site)_CA.html">krea.ai : San Francisco (on-site), CA</a></h3>
+      <h3><a href="/jobs/September-2025/dvrp-krea_ai-SanFranciscoon-site_CA.html">krea.ai : San Francisco (on-site), CA</a></h3>
       <div class="job-meta">
         <span class="company">🏢 krea_ai</span>
         <span class="author">👤 dvrp</span>
@@ -1167,7 +1167,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="kredit : .net engineer roles" data-company="kredit">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/kreditkenny-Kredit-_NETEngineerRoles-Remote(US).html">Kredit : .NET Engineer Roles</a></h3>
+      <h3><a href="/jobs/September-2025/kreditkenny-Kredit-_NETEngineerRoles-RemoteUS.html">Kredit : .NET Engineer Roles</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Kredit</span>
         <span class="author">👤 kreditkenny</span>
@@ -1175,11 +1175,11 @@ title: All September 2025 Jobs
     </div>
   </div>
 
-  <div class="job-item" data-title="langdock (yc s23) : product engineers (full-stack), infrastructure engineers, ai associates" data-company="langdock(ycs23)">
+  <div class="job-item" data-title="langdock (yc s23) : product engineers (full-stack), infrastructure engineers, ai associates" data-company="langdockycs23">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/balazscsomor-Langdock(YCS23)-ProductEngineers(Full-stack)_InfrastructureEngineers_AIAssociates-B.html">Langdock (YC S23) : Product Engineers (Full-stack), Infrastructure Engineers, AI Associates</a></h3>
+      <h3><a href="/jobs/September-2025/balazscsomor-LangdockYCS23-ProductEngineersFull-stack_InfrastructureEngineers_AIAssociates-B.html">Langdock (YC S23) : Product Engineers (Full-stack), Infrastructure Engineers, AI Associates</a></h3>
       <div class="job-meta">
-        <span class="company">🏢 Langdock(YCS23)</span>
+        <span class="company">🏢 LangdockYCS23</span>
         <span class="author">👤 balazscsomor</span>
       </div>
     </div>
@@ -1217,7 +1217,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="loman ai : founding engineer" data-company="lomanai">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/jansenderr-LomanAI-FoundingEngineer-Austin_TX-Hybrid-Full-Time-$175k-225k+equity.html">Loman AI : Founding Engineer</a></h3>
+      <h3><a href="/jobs/September-2025/jansenderr-LomanAI-FoundingEngineer-Austin_TX-Hybrid-Full-Time-175k-225k-equity.html">Loman AI : Founding Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 LomanAI</span>
         <span class="author">👤 jansenderr</span>
@@ -1277,7 +1277,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="mattermost : multiple roles" data-company="mattermost">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/evasar-Mattermost-Multipleroles-Remote(US_Canada_UK_Spain_Germany).html">Mattermost : Multiple roles</a></h3>
+      <h3><a href="/jobs/September-2025/evasar-Mattermost-Multipleroles-RemoteUS_Canada_UK_Spain_Germany.html">Mattermost : Multiple roles</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Mattermost</span>
         <span class="author">👤 evasar</span>
@@ -1285,11 +1285,11 @@ title: All September 2025 Jobs
     </div>
   </div>
 
-  <div class="job-item" data-title="memorang (ai-powered edtech stack) : full-time" data-company="memorang(ai">
+  <div class="job-item" data-title="memorang (ai-powered edtech stack) : full-time" data-company="memorangai">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/kirin_memorang-Memorang(AI-poweredEdTechstack)-Full-Time.html">Memorang (AI-powered EdTech stack) : Full-Time</a></h3>
+      <h3><a href="/jobs/September-2025/kirin_memorang-MemorangAI-poweredEdTechstack-Full-Time.html">Memorang (AI-powered EdTech stack) : Full-Time</a></h3>
       <div class="job-meta">
-        <span class="company">🏢 Memorang(AI</span>
+        <span class="company">🏢 MemorangAI</span>
         <span class="author">👤 kirin_memorang</span>
       </div>
     </div>
@@ -1317,7 +1317,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="modash.io : multiple roles" data-company="modash_io">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/svaigstu-Modash_io-MultipleRoles-Remote(EU)-Full-time.html">Modash.io : Multiple Roles</a></h3>
+      <h3><a href="/jobs/September-2025/svaigstu-Modash_io-MultipleRoles-RemoteEU-Full-time.html">Modash.io : Multiple Roles</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Modash_io</span>
         <span class="author">👤 svaigstu</span>
@@ -1327,7 +1327,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="monad foundation : remote" data-company="monadfoundation">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/clee_tech01-MonadFoundation-Remote-$225MSeriesAFunded.html">Monad Foundation : Remote</a></h3>
+      <h3><a href="/jobs/September-2025/clee_tech01-MonadFoundation-Remote-225MSeriesAFunded.html">Monad Foundation : Remote</a></h3>
       <div class="job-meta">
         <span class="company">🏢 MonadFoundation</span>
         <span class="author">👤 clee_tech01</span>
@@ -1337,7 +1337,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="monadical.com : chief of staff" data-company="monadical_com">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/agonza-Monadical_com-ChiefofStaff-Full-TimeMontreal-REMOTE(Canada).html">Monadical.com : Chief of Staff</a></h3>
+      <h3><a href="/jobs/September-2025/agonza-Monadical_com-ChiefofStaff-Full-TimeMontreal-REMOTECanada.html">Monadical.com : Chief of Staff</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Monadical_com</span>
         <span class="author">👤 agonza</span>
@@ -1357,7 +1357,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="moyai : amsterdam, the netherlands" data-company="r">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/hommes-r-Moyai-Amsterdam_TheNetherlands-FullTime-Onsite-FoundingAIEngineer-60k-80k+Equity.html">Moyai : Amsterdam, The Netherlands</a></h3>
+      <h3><a href="/jobs/September-2025/hommes-r-Moyai-Amsterdam_TheNetherlands-FullTime-Onsite-FoundingAIEngineer-60k-80k-Equity.html">Moyai : Amsterdam, The Netherlands</a></h3>
       <div class="job-meta">
         <span class="company">🏢 r</span>
         <span class="author">👤 hommes-r</span>
@@ -1397,7 +1397,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="neon health : ai agents in healthcare" data-company="neonhealth">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/stedman-NeonHealth-AIagentsinhealthcare-HiringEngandBizOps-SF_Remote(NorthAmerica).html">Neon Health : AI agents in healthcare</a></h3>
+      <h3><a href="/jobs/September-2025/stedman-NeonHealth-AIagentsinhealthcare-HiringEngandBizOps-SF_RemoteNorthAmerica.html">Neon Health : AI agents in healthcare</a></h3>
       <div class="job-meta">
         <span class="company">🏢 NeonHealth</span>
         <span class="author">👤 stedman</span>
@@ -1427,7 +1427,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="nova credit : remote (us, canada)" data-company="novacredit">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/yazmi-NovaCredit-Remote(US_Canada).html">Nova Credit : Remote (US, Canada)</a></h3>
+      <h3><a href="/jobs/September-2025/yazmi-NovaCredit-RemoteUS_Canada.html">Nova Credit : Remote (US, Canada)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 NovaCredit</span>
         <span class="author">👤 yazmi</span>
@@ -1455,11 +1455,11 @@ title: All September 2025 Jobs
     </div>
   </div>
 
-  <div class="job-item" data-title="oneleet (yc s22) : multiple roles" data-company="oneleet(ycs22)">
+  <div class="job-item" data-title="oneleet (yc s22) : multiple roles" data-company="oneleetycs22">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/sbysb-Oneleet(YCS22)-MultipleRoles-Remote-Full-time.html">Oneleet (YC S22) : Multiple Roles</a></h3>
+      <h3><a href="/jobs/September-2025/sbysb-OneleetYCS22-MultipleRoles-Remote-Full-time.html">Oneleet (YC S22) : Multiple Roles</a></h3>
       <div class="job-meta">
-        <span class="company">🏢 Oneleet(YCS22)</span>
+        <span class="company">🏢 OneleetYCS22</span>
         <span class="author">👤 sbysb</span>
       </div>
     </div>
@@ -1467,7 +1467,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="openrent : london, uk" data-company="openrent">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/dazbradbury-OpenRent-London_UK-Full-Time-ONSITE+PARTREMOTE.html">OpenRent : London, UK</a></h3>
+      <h3><a href="/jobs/September-2025/dazbradbury-OpenRent-London_UK-Full-Time-ONSITE-PARTREMOTE.html">OpenRent : London, UK</a></h3>
       <div class="job-meta">
         <span class="company">🏢 OpenRent</span>
         <span class="author">👤 dazbradbury</span>
@@ -1547,7 +1547,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="plantingspace : full-time" data-company="plantingspace">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/PlantingSpace-PlantingSpace-Full-time-Remote(EUtimezone)+QuarterlyMeet-ups.html">PlantingSpace : Full-time</a></h3>
+      <h3><a href="/jobs/September-2025/PlantingSpace-PlantingSpace-Full-time-RemoteEUtimezone-QuarterlyMeet-ups.html">PlantingSpace : Full-time</a></h3>
       <div class="job-meta">
         <span class="company">🏢 PlantingSpace</span>
         <span class="author">👤 PlantingSpace</span>
@@ -1567,7 +1567,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="ploid ai : barcelona, spain" data-company="ploidai">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/agastalver-PloidAI-Barcelona_Spain-HYBRID(preferablyon-site)-FoundingEngineers-Full-time+Equity.html">Ploid AI : Barcelona, Spain</a></h3>
+      <h3><a href="/jobs/September-2025/agastalver-PloidAI-Barcelona_Spain-HYBRIDpreferablyon-site-FoundingEngineers-Full-time-Equity.html">Ploid AI : Barcelona, Spain</a></h3>
       <div class="job-meta">
         <span class="company">🏢 PloidAI</span>
         <span class="author">👤 agastalver</span>
@@ -1577,7 +1577,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="pocketflows : founding engineer" data-company="pocketflows">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/theodoretliu-Pocketflows-FoundingEngineer-SanFrancisco_CA-In-person-$170k-225k+equity-pocketflow.html">Pocketflows : Founding Engineer</a></h3>
+      <h3><a href="/jobs/September-2025/theodoretliu-Pocketflows-FoundingEngineer-SanFrancisco_CA-In-person-170k-225k-equity-pocketflow.html">Pocketflows : Founding Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Pocketflows</span>
         <span class="author">👤 theodoretliu</span>
@@ -1597,7 +1597,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="posthog : full-time" data-company="posthog">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/timgl-PostHog-Full-Time-REMOTE(allremote)-HiringGMT-8toGMT+1.html">PostHog : Full-Time</a></h3>
+      <h3><a href="/jobs/September-2025/timgl-PostHog-Full-Time-REMOTEallremote-HiringGMT-8toGMT-1.html">PostHog : Full-Time</a></h3>
       <div class="job-meta">
         <span class="company">🏢 PostHog</span>
         <span class="author">👤 timgl</span>
@@ -1607,7 +1607,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="predictdao : full-stack engineer" data-company="predictdao">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/hmoody-PredictDAO-Full-stackengineer-Full-time-$200k-$300k.html">PredictDAO : Full-stack engineer</a></h3>
+      <h3><a href="/jobs/September-2025/hmoody-PredictDAO-Full-stackengineer-Full-time-200k-300k.html">PredictDAO : Full-stack engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 PredictDAO</span>
         <span class="author">👤 hmoody</span>
@@ -1617,7 +1617,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="privacy-focused ai project : founding engineer" data-company="privacy">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/burnaway-Privacy-focusedAIProject-FoundingEngineer-Remote-Europe(UTC-1toUTC+3)-Full-time-Basesal.html">Privacy-focused AI Project : Founding Engineer</a></h3>
+      <h3><a href="/jobs/September-2025/burnaway-Privacy-focusedAIProject-FoundingEngineer-Remote-EuropeUTC-1toUTC-3-Full-time-Basesal.html">Privacy-focused AI Project : Founding Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Privacy</span>
         <span class="author">👤 burnaway</span>
@@ -1625,11 +1625,11 @@ title: All September 2025 Jobs
     </div>
   </div>
 
-  <div class="job-item" data-title="product manager (sr) : 185k-205k salary + equity" data-company="productmanager(sr)">
+  <div class="job-item" data-title="product manager (sr) : 185k-205k salary + equity" data-company="productmanagersr">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/mikebabineau-ProductManager(Sr)-$185k-205ksalary+equity.html">Product Manager (Sr) : 185k-205k salary + equity</a></h3>
+      <h3><a href="/jobs/September-2025/mikebabineau-ProductManagerSr-185k-205ksalary-equity.html">Product Manager (Sr) : 185k-205k salary + equity</a></h3>
       <div class="job-meta">
-        <span class="company">🏢 ProductManager(Sr)</span>
+        <span class="company">🏢 ProductManagerSr</span>
         <span class="author">👤 mikebabineau</span>
       </div>
     </div>
@@ -1667,7 +1667,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="prove ai: ai management start up" data-company="proveai">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/Prove_Richard-ProveAI-AIManagementstartup-FullyRemote-Fulltime(B2boremployedifinUS_UKorSwitzerla.html">Prove AI: AI Management start up</a></h3>
+      <h3><a href="/jobs/September-2025/Prove_Richard-ProveAI-AIManagementstartup-FullyRemote-FulltimeB2boremployedifinUS_UKorSwitzerla.html">Prove AI: AI Management start up</a></h3>
       <div class="job-meta">
         <span class="company">🏢 ProveAI</span>
         <span class="author">👤 Prove_Richard</span>
@@ -1697,7 +1697,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="radar labs : software engineers (sre, data platform, backend, full-stack, mobile)" data-company="radarlabs">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/timjulien-RadarLabs-SoftwareEngineers(SRE_dataplatform_backend_full-stack_mobile)-Remote(US)_NYC.html">Radar Labs : Software Engineers (SRE, data platform, backend, full-stack, mobile)</a></h3>
+      <h3><a href="/jobs/September-2025/timjulien-RadarLabs-SoftwareEngineersSRE_dataplatform_backend_full-stack_mobile-RemoteUS_NYC.html">Radar Labs : Software Engineers (SRE, data platform, backend, full-stack, mobile)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 RadarLabs</span>
         <span class="author">👤 timjulien</span>
@@ -1707,7 +1707,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="railway : infra eng - storage, infra (platform) eng, product eng (full stack)" data-company="railway">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/kollmar28-Railway-Infraeng-Storage_Infra(Platform)eng_ProductEng(fullstack)-REMOTE(Worldwide).html">Railway : Infra eng - Storage, Infra (Platform) eng, Product Eng (full stack)</a></h3>
+      <h3><a href="/jobs/September-2025/kollmar28-Railway-Infraeng-Storage_InfraPlatformeng_ProductEngfullstack-REMOTEWorldwide.html">Railway : Infra eng - Storage, Infra (Platform) eng, Product Eng (full stack)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Railway</span>
         <span class="author">👤 kollmar28</span>
@@ -1747,7 +1747,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="rentspree : 185k-265k" data-company="rentspree">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/alexzoltano-RentSpree-$185k-265k-Seattle-Full-time.html">RentSpree : 185k-265k</a></h3>
+      <h3><a href="/jobs/September-2025/alexzoltano-RentSpree-185k-265k-Seattle-Full-time.html">RentSpree : 185k-265k</a></h3>
       <div class="job-meta">
         <span class="company">🏢 RentSpree</span>
         <span class="author">👤 alexzoltano</span>
@@ -1757,7 +1757,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="retirable : senior engineer" data-company="retirable">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/trevolutionary-Retirable-SeniorEngineer-NYC_hybridonsite(Flatiron).html">Retirable : Senior Engineer</a></h3>
+      <h3><a href="/jobs/September-2025/trevolutionary-Retirable-SeniorEngineer-NYC_hybridonsiteFlatiron.html">Retirable : Senior Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Retirable</span>
         <span class="author">👤 trevolutionary</span>
@@ -1767,7 +1767,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="reveng.ai : london, uk" data-company="reveng_ai">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/u53rn4m3-RevEng_AI-London_UK-Full-Time-ONSITE+PARTREMOTE.html">RevEng.AI : London, UK</a></h3>
+      <h3><a href="/jobs/September-2025/u53rn4m3-RevEng_AI-London_UK-Full-Time-ONSITE-PARTREMOTE.html">RevEng.AI : London, UK</a></h3>
       <div class="job-meta">
         <span class="company">🏢 RevEng_AI</span>
         <span class="author">👤 u53rn4m3</span>
@@ -1787,7 +1787,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="rinse : hybrid in sf bay area, los angeles, new york (brooklyn), boston, chicago, seattle, washington dc, or newark. (primarily remote with some on-site responsibilities.)" data-company="rinse">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/samcheng-Rinse-HybridinSFBayArea_LosAngeles_NewYork(Brooklyn)_Boston_Chicago_Seattle_WashingtonD.html">Rinse : Hybrid in SF Bay Area, Los Angeles, New York (Brooklyn), Boston, Chicago, Seattle, Washington DC, or Newark. (Primarily remote with some on-site responsibilities.)</a></h3>
+      <h3><a href="/jobs/September-2025/samcheng-Rinse-HybridinSFBayArea_LosAngeles_NewYorkBrooklyn_Boston_Chicago_Seattle_WashingtonD.html">Rinse : Hybrid in SF Bay Area, Los Angeles, New York (Brooklyn), Boston, Chicago, Seattle, Washington DC, or Newark. (Primarily remote with some on-site responsibilities.)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Rinse</span>
         <span class="author">👤 samcheng</span>
@@ -1795,11 +1795,11 @@ title: All September 2025 Jobs
     </div>
   </div>
 
-  <div class="job-item" data-title="riverline (bengaluru, india) : full-stack ai engineers" data-company="riverline(bengaluru_india)">
+  <div class="job-item" data-title="riverline (bengaluru, india) : full-stack ai engineers" data-company="riverlinebengaluru_india">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/jayanthk_-Riverline(Bengaluru_India)-Full-StackAIEngineers-ONSITE-CTC₹20–35LPA.html">Riverline (Bengaluru, India) : Full-Stack AI Engineers</a></h3>
+      <h3><a href="/jobs/September-2025/jayanthk_-RiverlineBengaluru_India-Full-StackAIEngineers-ONSITE-CTC₹20–35LPA.html">Riverline (Bengaluru, India) : Full-Stack AI Engineers</a></h3>
       <div class="job-meta">
-        <span class="company">🏢 Riverline(Bengaluru_India)</span>
+        <span class="company">🏢 RiverlineBengaluru_India</span>
         <span class="author">👤 jayanthk_</span>
       </div>
     </div>
@@ -1807,7 +1807,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="rocket alumni solutions : technical product manager, frontend engineer" data-company="rocketalumnisolutions">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/arm32-RocketAlumniSolutions-TechnicalProductManager_FrontendEngineer-REMOTE(CrossoverwithESTtime.html">Rocket Alumni Solutions : Technical Product Manager, Frontend Engineer</a></h3>
+      <h3><a href="/jobs/September-2025/arm32-RocketAlumniSolutions-TechnicalProductManager_FrontendEngineer-REMOTECrossoverwithESTtime.html">Rocket Alumni Solutions : Technical Product Manager, Frontend Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 RocketAlumniSolutions</span>
         <span class="author">👤 arm32</span>
@@ -1837,7 +1837,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="rover : software engineers (multiple roles)" data-company="tech">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/rover-tech-Rover-SoftwareEngineers(MultipleRoles)-Full-time.html">Rover : Software Engineers (Multiple Roles)</a></h3>
+      <h3><a href="/jobs/September-2025/rover-tech-Rover-SoftwareEngineersMultipleRoles-Full-time.html">Rover : Software Engineers (Multiple Roles)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 tech</span>
         <span class="author">👤 rover-tech</span>
@@ -1855,11 +1855,11 @@ title: All September 2025 Jobs
     </div>
   </div>
 
-  <div class="job-item" data-title="samsung research america, mountain view is hiring multiple speech research role [5+ yrs experience]. both speech to text asr, and text to speech tts, speech to speech roles. you will get to work on cutting edge ai speech research." data-company="samsungresearchamerica_mountainviewishiringmultiplespeechresearchrole[5+yrsexperience]_b">
+  <div class="job-item" data-title="samsung research america, mountain view is hiring multiple speech research role [5+ yrs experience]. both speech to text asr, and text to speech tts, speech to speech roles. you will get to work on cutting edge ai speech research." data-company="samsungresearchamerica_mountainviewishiringmultiplespeechresearchrole[5">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/akash91-SamsungResearchAmerica_MountainViewishiringMultipleSpeechResearchRole[5+yrsexperience]_B.html">Samsung Research America, Mountain View is hiring Multiple Speech Research Role [5+ yrs experience]. Both Speech to Text ASR, and Text to Speech TTS, Speech to Speech roles. You will get to work on cutting edge AI Speech Research.</a></h3>
+      <h3><a href="/jobs/September-2025/akash91-SamsungResearchAmerica_MountainViewishiringMultipleSpeechResearchRole[5-yrsexperience]_B.html">Samsung Research America, Mountain View is hiring Multiple Speech Research Role [5+ yrs experience]. Both Speech to Text ASR, and Text to Speech TTS, Speech to Speech roles. You will get to work on cutting edge AI Speech Research.</a></h3>
       <div class="job-meta">
-        <span class="company">🏢 SamsungResearchAmerica_MountainViewishiringMultipleSpeechResearchRole[5+yrsexperience]_B</span>
+        <span class="company">🏢 SamsungResearchAmerica_MountainViewishiringMultipleSpeechResearchRole[5</span>
         <span class="author">👤 akash91</span>
       </div>
     </div>
@@ -1877,7 +1877,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="saris ai : full-stack + ml engineers" data-company="sarisai">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/jd007-SarisAI-Full-Stack+MLEngineers-Full-Time-Montreal_Canada.html">Saris AI : Full-Stack + ML Engineers</a></h3>
+      <h3><a href="/jobs/September-2025/jd007-SarisAI-Full-Stack-MLEngineers-Full-Time-Montreal_Canada.html">Saris AI : Full-Stack + ML Engineers</a></h3>
       <div class="job-meta">
         <span class="company">🏢 SarisAI</span>
         <span class="author">👤 jd007</span>
@@ -1887,7 +1887,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="seeq : staff software engineer (full stack)" data-company="seeq">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/rustyparts-Seeq-StaffSoftwareEngineer(Fullstack)-Full-time.html">Seeq : Staff Software Engineer (Full stack)</a></h3>
+      <h3><a href="/jobs/September-2025/rustyparts-Seeq-StaffSoftwareEngineerFullstack-Full-time.html">Seeq : Staff Software Engineer (Full stack)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Seeq</span>
         <span class="author">👤 rustyparts</span>
@@ -1927,7 +1927,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="shieldai : full-time" data-company="shieldai">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/ta_sai_2025-ShieldAI-Full-time-Remote(US)orSanDiego_CAwithoccasionaltravel.html">ShieldAI : Full-time</a></h3>
+      <h3><a href="/jobs/September-2025/ta_sai_2025-ShieldAI-Full-time-RemoteUSorSanDiego_CAwithoccasionaltravel.html">ShieldAI : Full-time</a></h3>
       <div class="job-meta">
         <span class="company">🏢 ShieldAI</span>
         <span class="author">👤 ta_sai_2025</span>
@@ -1937,7 +1937,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="shorebird : mid-senior across web, dart, full stack or c++" data-company="shorebird">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/eseidel-Shorebird-Mid-SenioracrossWeb_Dart_FullStackorC++-Remote(NorthAmerica)-Full-time-$150-23.html">Shorebird : Mid-Senior across Web, Dart, Full Stack or C++</a></h3>
+      <h3><a href="/jobs/September-2025/eseidel-Shorebird-Mid-SenioracrossWeb_Dart_FullStackorC---RemoteNorthAmerica-Full-time-150-23.html">Shorebird : Mid-Senior across Web, Dart, Full Stack or C++</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Shorebird</span>
         <span class="author">👤 eseidel</span>
@@ -1947,7 +1947,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="sketch.dev : engineer" data-company="sketch_dev">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/crawshaw-sketch_dev-engineer-onsite(SF)twodaysaweek-Full-Time-$200_000+generousequity.html">sketch.dev : engineer</a></h3>
+      <h3><a href="/jobs/September-2025/crawshaw-sketch_dev-engineer-onsiteSFtwodaysaweek-Full-Time-200_000-generousequity.html">sketch.dev : engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 sketch_dev</span>
         <span class="author">👤 crawshaw</span>
@@ -1957,7 +1957,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="smarterdx : 150-250k+ + equity + benefits" data-company="smarterdx">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/justin_sdx-SmarterDx-150-250k++equity+benefits-Remote(USonly)-Multipleroles.html">SmarterDx : 150-250k+ + equity + benefits</a></h3>
+      <h3><a href="/jobs/September-2025/justin_sdx-SmarterDx-150-250k--equity-benefits-RemoteUSonly-Multipleroles.html">SmarterDx : 150-250k+ + equity + benefits</a></h3>
       <div class="job-meta">
         <span class="company">🏢 SmarterDx</span>
         <span class="author">👤 justin_sdx</span>
@@ -1977,7 +1977,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="sourcetable.com : product marketing (contract)" data-company="sourcetable_com">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/mceoin-Sourcetable_com-ProductMarketing(contract).html">Sourcetable.com : Product Marketing (contract)</a></h3>
+      <h3><a href="/jobs/September-2025/mceoin-Sourcetable_com-ProductMarketingcontract.html">Sourcetable.com : Product Marketing (contract)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Sourcetable_com</span>
         <span class="author">👤 mceoin</span>
@@ -1987,7 +1987,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="spacelift : remote (europe)" data-company="spacelift">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/cube2222-Spacelift-Remote(Europe)-Full-time-SeniorSoftwareEngineer-$80k-$110k+(cangohigher).html">Spacelift : Remote (Europe)</a></h3>
+      <h3><a href="/jobs/September-2025/cube2222-Spacelift-RemoteEurope-Full-time-SeniorSoftwareEngineer-80k-110k-cangohigher.html">Spacelift : Remote (Europe)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Spacelift</span>
         <span class="author">👤 cube2222</span>
@@ -1997,7 +1997,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="sphinx defense : remote (us only), dc, colorado springs, la" data-company="sphinxdefense">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/meganvs-SphinxDefense-Remote(USOnly)_DC_ColoradoSprings_LA.html">Sphinx Defense : Remote (US Only), DC, Colorado Springs, LA</a></h3>
+      <h3><a href="/jobs/September-2025/meganvs-SphinxDefense-RemoteUSOnly_DC_ColoradoSprings_LA.html">Sphinx Defense : Remote (US Only), DC, Colorado Springs, LA</a></h3>
       <div class="job-meta">
         <span class="company">🏢 SphinxDefense</span>
         <span class="author">👤 meganvs</span>
@@ -2005,11 +2005,11 @@ title: All September 2025 Jobs
     </div>
   </div>
 
-  <div class="job-item" data-title="stack auth (s24) : san francisco, ca" data-company="stackauth(s24)">
+  <div class="job-item" data-title="stack auth (s24) : san francisco, ca" data-company="stackauths24">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/n2d4-StackAuth(S24)-SanFrancisco_CA-Full-time.html">Stack Auth (S24) : San Francisco, CA</a></h3>
+      <h3><a href="/jobs/September-2025/n2d4-StackAuthS24-SanFrancisco_CA-Full-time.html">Stack Auth (S24) : San Francisco, CA</a></h3>
       <div class="job-meta">
-        <span class="company">🏢 StackAuth(S24)</span>
+        <span class="company">🏢 StackAuthS24</span>
         <span class="author">👤 n2d4</span>
       </div>
     </div>
@@ -2027,7 +2027,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="stealth solar tech startup : remote (eu-friendly)" data-company="stealthsolartechstartup">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/sarrma-StealthSolarTechStartup-Remote(EU-friendly)-Full-timeorContract.html">Stealth Solar Tech Startup : Remote (EU-friendly)</a></h3>
+      <h3><a href="/jobs/September-2025/sarrma-StealthSolarTechStartup-RemoteEU-friendly-Full-timeorContract.html">Stealth Solar Tech Startup : Remote (EU-friendly)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 StealthSolarTechStartup</span>
         <span class="author">👤 sarrma</span>
@@ -2037,7 +2037,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="stellar science : hybrid (usa) albuquerque nm, washington dc (tysons va), dayton oh" data-company="stellarscience">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/StellarScience-StellarScience-Hybrid(USA)AlbuquerqueNM_WashingtonDC(TysonsVA)_DaytonOH-U_S_citiz.html">Stellar Science : Hybrid (USA) Albuquerque NM, Washington DC (Tysons VA), Dayton OH</a></h3>
+      <h3><a href="/jobs/September-2025/StellarScience-StellarScience-HybridUSAAlbuquerqueNM_WashingtonDCTysonsVA_DaytonOH-U_S_citiz.html">Stellar Science : Hybrid (USA) Albuquerque NM, Washington DC (Tysons VA), Dayton OH</a></h3>
       <div class="job-meta">
         <span class="company">🏢 StellarScience</span>
         <span class="author">👤 StellarScience</span>
@@ -2057,7 +2057,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="stitch fix : data platform engineer" data-company="stitchfix">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/jkubicek-StitchFix-DataPlatformEngineer-Full-time-Remote(thoughwedohaveanofficeinSanFrancisco).html">Stitch Fix : Data Platform Engineer</a></h3>
+      <h3><a href="/jobs/September-2025/jkubicek-StitchFix-DataPlatformEngineer-Full-time-RemotethoughwedohaveanofficeinSanFrancisco.html">Stitch Fix : Data Platform Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 StitchFix</span>
         <span class="author">👤 jkubicek</span>
@@ -2067,7 +2067,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="stream : multiple positions" data-company="stream">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/nastya_geller-Stream-MultiplePositions-Amsterdam(NL)_Skopje(Macedonia)-Boulder_CO(US)-Toronto(Ca.html">Stream : Multiple Positions</a></h3>
+      <h3><a href="/jobs/September-2025/nastya_geller-Stream-MultiplePositions-AmsterdamNL_SkopjeMacedonia-Boulder_COUS-TorontoCa.html">Stream : Multiple Positions</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Stream</span>
         <span class="author">👤 nastya_geller</span>
@@ -2077,7 +2077,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="sync bio : biology postdoc" data-company="syncbio">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/petersand-SyncBio-BiologyPostdoc-Onsite(BayArea)-FullTime.html">Sync Bio : Biology Postdoc</a></h3>
+      <h3><a href="/jobs/September-2025/petersand-SyncBio-BiologyPostdoc-OnsiteBayArea-FullTime.html">Sync Bio : Biology Postdoc</a></h3>
       <div class="job-meta">
         <span class="company">🏢 SyncBio</span>
         <span class="author">👤 petersand</span>
@@ -2087,7 +2087,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="synca : stockholm (eu remote ok)" data-company="synca">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/eliswiftly-Synca-Stockholm(EURemoteok)-SeniorFrontendEngineer-Full-time-Salary+Equity.html">Synca : Stockholm (EU Remote ok)</a></h3>
+      <h3><a href="/jobs/September-2025/eliswiftly-Synca-StockholmEURemoteok-SeniorFrontendEngineer-Full-time-Salary-Equity.html">Synca : Stockholm (EU Remote ok)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Synca</span>
         <span class="author">👤 eliswiftly</span>
@@ -2097,7 +2097,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="talk machine : founding engineers" data-company="talkmachine">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/azmaty-TalkMachine-FoundingEngineers-Remote(orLondon_Dubai_SanFrancisco).html">Talk Machine : Founding Engineers</a></h3>
+      <h3><a href="/jobs/September-2025/azmaty-TalkMachine-FoundingEngineers-RemoteorLondon_Dubai_SanFrancisco.html">Talk Machine : Founding Engineers</a></h3>
       <div class="job-meta">
         <span class="company">🏢 TalkMachine</span>
         <span class="author">👤 azmaty</span>
@@ -2127,7 +2127,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="terrace networks : security data systems engineer" data-company="terracenetworks">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/ericpauley-TerraceNetworks-SecurityDataSystemsEngineer-REMOTE(US).html">Terrace Networks : Security Data Systems Engineer</a></h3>
+      <h3><a href="/jobs/September-2025/ericpauley-TerraceNetworks-SecurityDataSystemsEngineer-REMOTEUS.html">Terrace Networks : Security Data Systems Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 TerraceNetworks</span>
         <span class="author">👤 ericpauley</span>
@@ -2187,7 +2187,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="unto labs : san francisco, ca" data-company="untolabs">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/untolabs-UntoLabs-SanFrancisco_CA-ONSITE(HybridOK)_REMOTE(US)-Full-Time.html">Unto Labs : San Francisco, CA</a></h3>
+      <h3><a href="/jobs/September-2025/untolabs-UntoLabs-SanFrancisco_CA-ONSITEHybridOK_REMOTEUS-Full-Time.html">Unto Labs : San Francisco, CA</a></h3>
       <div class="job-meta">
         <span class="company">🏢 UntoLabs</span>
         <span class="author">👤 untolabs</span>
@@ -2197,7 +2197,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="upway : paris (hybrid)" data-company="upway">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/austil-Upway-Paris(Hybrid)-Full-time.html">Upway : Paris (Hybrid)</a></h3>
+      <h3><a href="/jobs/September-2025/austil-Upway-ParisHybrid-Full-time.html">Upway : Paris (Hybrid)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Upway</span>
         <span class="author">👤 austil</span>
@@ -2227,7 +2227,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="veritusagent : full stack software engineer" data-company="veritusagent">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/josephstein-VeritusAgent-FullStackSoftwareEngineer-Hybrid-SanFrancisco-Full-time-$200k+0_5_-1_.html">VeritusAgent : Full Stack Software Engineer</a></h3>
+      <h3><a href="/jobs/September-2025/josephstein-VeritusAgent-FullStackSoftwareEngineer-Hybrid-SanFrancisco-Full-time-200k-0_5_-1_.html">VeritusAgent : Full Stack Software Engineer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 VeritusAgent</span>
         <span class="author">👤 josephstein</span>
@@ -2237,7 +2237,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="vitvio : senior full-stack engineer (elixir, nixos, react)" data-company="vitvio">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/cafkafk-VitVio-SeniorFull-StackEngineer(Elixir_NixOS_React)-Remote(EUTimezones)-Full-Time-vitvio.html">VitVio : Senior Full-Stack Engineer (Elixir, NixOS, React)</a></h3>
+      <h3><a href="/jobs/September-2025/cafkafk-VitVio-SeniorFull-StackEngineerElixir_NixOS_React-RemoteEUTimezones-Full-Time-vitvio.html">VitVio : Senior Full-Stack Engineer (Elixir, NixOS, React)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 VitVio</span>
         <span class="author">👤 cafkafk</span>
@@ -2245,11 +2245,11 @@ title: All September 2025 Jobs
     </div>
   </div>
 
-  <div class="job-item" data-title="we are lifepowr! antwerp (belgium) : full-time" data-company="wearelifepowr!antwerp(belgium)">
+  <div class="job-item" data-title="we are lifepowr! antwerp (belgium) : full-time" data-company="wearelifepowr!antwerpbelgium">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/jbailleux-WeareLIFEPOWR!Antwerp(Belgium)-Full-time-Remote(Europe)orhybrid(Antwerp).html">We are LIFEPOWR! Antwerp (Belgium) : Full-time</a></h3>
+      <h3><a href="/jobs/September-2025/jbailleux-WeareLIFEPOWR!AntwerpBelgium-Full-time-RemoteEuropeorhybridAntwerp.html">We are LIFEPOWR! Antwerp (Belgium) : Full-time</a></h3>
       <div class="job-meta">
-        <span class="company">🏢 WeareLIFEPOWR!Antwerp(Belgium)</span>
+        <span class="company">🏢 WeareLIFEPOWR!AntwerpBelgium</span>
         <span class="author">👤 jbailleux</span>
       </div>
     </div>
@@ -2265,11 +2265,11 @@ title: All September 2025 Jobs
     </div>
   </div>
 
-  <div class="job-item" data-title="y combinator (yes, the people who run this site) : full stack web and ai" data-company="ycombinator(yes_thepeoplewhorunthissite)">
+  <div class="job-item" data-title="y combinator (yes, the people who run this site) : full stack web and ai" data-company="ycombinatoryes_thepeoplewhorunthissite">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/snowmaker-YCombinator(yes_thepeoplewhorunthissite)-FullstackwebandAI-SanFrancisco-Onsite-Fulltim.html">Y Combinator (yes, the people who run this site) : Full stack web and AI</a></h3>
+      <h3><a href="/jobs/September-2025/snowmaker-YCombinatoryes_thepeoplewhorunthissite-FullstackwebandAI-SanFrancisco-Onsite-Fulltim.html">Y Combinator (yes, the people who run this site) : Full stack web and AI</a></h3>
       <div class="job-meta">
-        <span class="company">🏢 YCombinator(yes_thepeoplewhorunthissite)</span>
+        <span class="company">🏢 YCombinatoryes_thepeoplewhorunthissite</span>
         <span class="author">👤 snowmaker</span>
       </div>
     </div>
@@ -2307,7 +2307,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="zetier : multiple us locations (va, pa, fl, tx, ca, ny)" data-company="zetier">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/zetier-Zetier-MultipleUSlocations(VA_PA_FL_TX_CA_NY)-ONSITE-Full-Time.html">Zetier : Multiple US locations (VA, PA, FL, TX, CA, NY)</a></h3>
+      <h3><a href="/jobs/September-2025/zetier-Zetier-MultipleUSlocationsVA_PA_FL_TX_CA_NY-ONSITE-Full-Time.html">Zetier : Multiple US locations (VA, PA, FL, TX, CA, NY)</a></h3>
       <div class="job-meta">
         <span class="company">🏢 Zetier</span>
         <span class="author">👤 zetier</span>
@@ -2317,7 +2317,7 @@ title: All September 2025 Jobs
 
   <div class="job-item" data-title="zeven : senior backend developer" data-company="alex">
     <div class="job-content">
-      <h3><a href="/jobs/September-2025/zeven-alex-Zeven-SeniorBackendDeveloper-ONSITEinZurich(Switzerland)-Full-time-Competitivesalary+.html">Zeven : Senior Backend Developer</a></h3>
+      <h3><a href="/jobs/September-2025/zeven-alex-Zeven-SeniorBackendDeveloper-ONSITEinZurichSwitzerland-Full-time-Competitivesalary.html">Zeven : Senior Backend Developer</a></h3>
       <div class="job-meta">
         <span class="company">🏢 alex</span>
         <span class="author">👤 zeven-alex</span>

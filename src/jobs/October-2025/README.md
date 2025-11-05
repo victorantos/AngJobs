@@ -18,73 +18,73 @@ dir:
 
 <div class="featured-jobs">
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/greghinch-Amplifi-DataEngineer(mid-senior)-Remote(UK)-Full-time.html">Amplifi : Data Engineer (mid-senior)</a></h3>
+    <h3><a href="/jobs/October-2025/calciphus-Checkr-SoftwareEngineermultiple-Hybrid-Full-time.html">Checkr : Software Engineer (multiple)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Amplifi</span>
-      <span class="author">👤 greghinch</span>
+      <span class="company">🏢 Checkr</span>
+      <span class="author">👤 calciphus</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/podnetwork-podnetwork-Competitivesalary+equity-RemoteoronsiteinAthens_Greece-multipleroles.html">pod network : Competitive salary + equity</a></h3>
+    <h3><a href="/jobs/October-2025/jelkand-AtomicFi-StrongJuniortoMidLevelEngineer-Automation_IntegrationEngineering-Full-Time-REMO.html">Atomic Fi : Strong Junior to Mid Level Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 podnetwork</span>
-      <span class="author">👤 podnetwork</span>
+      <span class="company">🏢 AtomicFi</span>
+      <span class="author">👤 jelkand</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/tomatohs-TestDriver_ai-QA_Engineers_CustomerSupport.html">TestDriver.ai : QA, Engineers, Customer Support</a></h3>
+    <h3><a href="/jobs/October-2025/AbsintheLabs-AbsintheLabs-Full-StackEngineer-Full-Time.html">Absinthe Labs : Full-Stack Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 TestDriver_ai</span>
-      <span class="author">👤 tomatohs</span>
+      <span class="company">🏢 AbsintheLabs</span>
+      <span class="author">👤 AbsintheLabs</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/chptung-Raremarq-FoundingEngineer-Full-time-FullyRemote-$150K+founding-engineerequity.html">Raremarq : Founding Engineer</a></h3>
+    <h3><a href="/jobs/October-2025/justcallmejm-Aloe-VancouverBCCanada-ONSITE.html">Aloe : Vancouver BC Canada</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Raremarq</span>
-      <span class="author">👤 chptung</span>
+      <span class="company">🏢 Aloe</span>
+      <span class="author">👤 justcallmejm</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/gz09-REMOTE(US)-Full-Time.html">REMOTE (US) : Full-Time</a></h3>
+    <h3><a href="/jobs/October-2025/youngwilkie-CarriageModels-ONSITENYC-Full-time.html">Carriage Models : ONSITE (NYC)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 REMOTE(US)</span>
-      <span class="author">👤 gz09</span>
+      <span class="company">🏢 CarriageModels</span>
+      <span class="author">👤 youngwilkie</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/AustinWentz-PropertyMeld-SeniorSoftwareEngineer-Full-time.html">Property Meld : Senior Software Engineer</a></h3>
+    <h3><a href="/jobs/October-2025/RubixCube-Aesthetic-FullStack-FULLYREMOTE-Full-timeORContract-Cash-Equity.html">Aesthetic : Full Stack</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 PropertyMeld</span>
-      <span class="author">👤 AustinWentz</span>
+      <span class="company">🏢 Aesthetic</span>
+      <span class="author">👤 RubixCube</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/chubot-REMOTE(non-US).html">REMOTE (non-US)</a></h3>
+    <h3><a href="/jobs/October-2025/phil__h-ThaloLabs-On-siteNYC-190-240kUSD-equity.html">Thalo Labs : On-site (NYC)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 REMOTE(non</span>
-      <span class="author">👤 chubot</span>
+      <span class="company">🏢 ThaloLabs</span>
+      <span class="author">👤 phil__h</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/jankothe-PicniciskickingoffaHiringSprintforJavaDevelopers!AtPicnic_we_retransformingthewaypeopl.html">Picnic is kicking off a Hiring Sprint for Java Developers! At Picnic, we’re transforming the way people buy groceries with our innovative, app-only, and sustainable service. We’re looking for passionate engineers to join our diverse team at our Amsterdam HQ, where you’ll have the chance to make a real impact in a fast-growing scale-up environment.</a></h3>
+    <h3><a href="/jobs/October-2025/chicagobuss-Duckbillengineeringishiringafull-timeONSITEseniordataengineerindowntownSanFrancisco_.html">Duckbill engineering is hiring a full-time ONSITE senior data engineer in downtown San Francisco. We WFH Tuesdays and Thursdays.</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 PicniciskickingoffaHiringSprintforJavaDevelopers!AtPicnic_we_retransformingthewaypeopl</span>
-      <span class="author">👤 jankothe</span>
+      <span class="company">🏢 Duckbillengineeringishiringafull</span>
+      <span class="author">👤 chicagobuss</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/klaaz0r-Promptwatch-Amsterdam_Netherlands-Full-time.html">Promptwatch : Amsterdam, Netherlands</a></h3>
+    <h3><a href="/jobs/October-2025/ttoinou-Autokroma_com-Full-time-HYBRIDREMOTE-ONSITE.html">Autokroma.com : Full-time</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Promptwatch</span>
-      <span class="author">👤 klaaz0r</span>
+      <span class="company">🏢 Autokroma_com</span>
+      <span class="author">👤 ttoinou</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/agonza-Monadical_com-ChiefofStaff-SeniorFull-StackEng_(Quebec)-Full-Time-REMOTE(Canada).html">Monadical.com : Chief of Staff</a></h3>
+    <h3><a href="/jobs/October-2025/arun057-AryaHealth-MultipleRoles-NewYorkCity-Full-time-InOffice.html">Arya Health : Multiple Roles</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Monadical_com</span>
-      <span class="author">👤 agonza</span>
+      <span class="company">🏢 AryaHealth</span>
+      <span class="author">👤 arun057</span>
     </div>
   </div>
 </div>

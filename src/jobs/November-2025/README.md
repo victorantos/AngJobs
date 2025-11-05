@@ -18,73 +18,73 @@ dir:
 
 <div class="featured-jobs">
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/akoculu-MITTE_AI-Berlin_Germany-FULL-TIME-AICreativeSuite.html">MITTE.AI : Berlin, Germany</a></h3>
+    <h3><a href="/jobs/November-2025/punjabikura-Onsite.html">Onsite</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 MITTE_AI</span>
-      <span class="author">👤 akoculu</span>
+      <span class="company">🏢 Onsite</span>
+      <span class="author">👤 punjabikura</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/crawshaw-exe_dev-BackendandFrontend-SFBayArea-Full-time.html">exe.dev : Backend and Frontend</a></h3>
+    <h3><a href="/jobs/November-2025/chadd-SitchApp-FoundingProductManager-Full-time.html">Sitch App : Founding Product Manager</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 exe_dev</span>
-      <span class="author">👤 crawshaw</span>
+      <span class="company">🏢 SitchApp</span>
+      <span class="author">👤 chadd</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/iaz-Automattic-Remote-Full-time-Multipleroles.html">Automattic : Remote</a></h3>
+    <h3><a href="/jobs/November-2025/eightnoteight-ZenactAI-Full-Time-6-MonthInternships-OnsiteBangalore.html">Zenact AI : Full-Time + 6-Month Internships</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Automattic</span>
-      <span class="author">👤 iaz</span>
+      <span class="company">🏢 ZenactAI</span>
+      <span class="author">👤 eightnoteight</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/Kraji-Aqora-QuantumComputingExpert-Full-time.html">Aqora : Quantum Computing Expert</a></h3>
+    <h3><a href="/jobs/November-2025/umrashrf-YOUAREWELCOME!.html">YOU ARE WELCOME !</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Aqora</span>
-      <span class="author">👤 Kraji</span>
+      <span class="company">🏢 YOUAREWELCOME!</span>
+      <span class="author">👤 umrashrf</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/ImpostorKeanu-BlackHillsInformationSecurity-SeniorDevOpsEngineer-REMOTE.html">Black Hills Information Security : Senior DevOps Engineer</a></h3>
+    <h3><a href="/jobs/November-2025/janlin1999-DocSpot-ONSITESantaClara_CA.html">DocSpot : ONSITE (Santa Clara, CA)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 BlackHillsInformationSecurity</span>
-      <span class="author">👤 ImpostorKeanu</span>
+      <span class="company">🏢 DocSpot</span>
+      <span class="author">👤 janlin1999</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/loftsy-CamyPro-Oxford_UK-Full-time-ONSITE.html">CamyPro : Oxford, UK</a></h3>
+    <h3><a href="/jobs/November-2025/ricw-Truetax-SanFranciscoHybridorREMOTEUS-Full-time.html">Truetax : San Francisco (Hybrid) or REMOTE (US)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 CamyPro</span>
-      <span class="author">👤 loftsy</span>
+      <span class="company">🏢 Truetax</span>
+      <span class="author">👤 ricw</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/jackhelpcareai-CareforceAI-Senio.html">Careforce AI : Senio</a></h3>
+    <h3><a href="/jobs/November-2025/webviswerk53-IABG-FullstackWebDeveloperFEFocus-OnsiteGermanywith60_Remote-GermanFluencyRequi.html">IABG : Fullstack Web Developer (FE Focus)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 CareforceAI</span>
-      <span class="author">👤 jackhelpcareai</span>
+      <span class="company">🏢 IABG</span>
+      <span class="author">👤 webviswerk53</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/ASHEWMAKE.html">ASHEWMAKE</a></h3>
+    <h3><a href="/jobs/November-2025/Terra_AI_HQ-TerraAI-RemoteorHybridinRedwoodCityOffices.html">Terra AI : Remote or Hybrid in Redwood City Offices</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Company</span>
-      <span class="author">👤 ASHEWMAKE</span>
+      <span class="company">🏢 TerraAI</span>
+      <span class="author">👤 Terra_AI_HQ</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/Fahadhabib123-AtJeenie_we_rebuildingtechnologythatbreaksdownlanguagebarriers_Ourplatformconnects.html">At Jeenie, we’re building technology that breaks down language barriers. Our platform connects people with live, professional linguists — providing on-demand interpretation in 300+ languages.</a></h3>
+    <h3><a href="/jobs/November-2025/Tina-Fet-FetLife-SeniorDevOpsEngineer-Full-Time-Remote.html">FetLife : Senior DevOps Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 AtJeenie_we_rebuildingtechnologythatbreaksdownlanguagebarriers_Ourplatformconnects</span>
-      <span class="author">👤 Fahadhabib123</span>
+      <span class="company">🏢 Fet</span>
+      <span class="author">👤 Tina-Fet</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/piyushnarang-Zipline_ai-REMOTE-Europe_LATAM-Contractwork.html">Zipline.ai : REMOTE - Europe, LATAM</a></h3>
+    <h3><a href="/jobs/November-2025/WireScreenNYC-WireScreenSeriesA-SeniorSoftwareEngineer-NYC-hybrid-Full-time-165k-210kbase-eq.html">WireScreen (Series A) : Senior Software Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Zipline_ai</span>
-      <span class="author">👤 piyushnarang</span>
+      <span class="company">🏢 WireScreenSeriesA</span>
+      <span class="author">👤 WireScreenNYC</span>
     </div>
   </div>
 </div>

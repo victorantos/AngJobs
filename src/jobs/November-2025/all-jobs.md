@@ -5,7 +5,7 @@ title: All November 2025 Jobs
 <div class="all-jobs-page">
 
 <div class="jobs-header">
-  <div class="jobs-count">307 total positions</div>
+  <div class="jobs-count">308 total positions</div>
   <div class="back-link">
     <a href="/jobs/November-2025/">&larr; Back to Featured Jobs</a>
   </div>
@@ -101,6 +101,16 @@ title: All November 2025 Jobs
       <div class="job-meta">
         <span class="company">🏢 Company</span>
         <span class="author">👤 alikiasmt</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="job-item" data-title="all november 2025 jobs" data-company="jobs">
+    <div class="job-content">
+      <h3><a href="/jobs/November-2025/all-jobs.html">All November 2025 Jobs</a></h3>
+      <div class="job-meta">
+        <span class="company">🏢 jobs</span>
+        <span class="author">👤 Anonymous</span>
       </div>
     </div>
   </div>
