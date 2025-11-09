@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AngJobs Branding Assets Preview</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f5f5f5;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #2C3E50;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        h1 span {
+            color: #FF6600;
+        }
+
+        .subtitle {
+            color: #7F8C8D;
+            margin-bottom: 40px;
+            font-size: 1.2em;
+        }
+
+        .section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .section-title {
+            color: #2C3E50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #FF6600;
+            font-size: 1.5em;
+        }
+
+        .asset-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .asset-item {
+            text-align: center;
+        }
+
+        .asset-preview {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            min-height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .asset-preview.dark {
+            background: #2C3E50;
+        }
+
+        .asset-preview img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .asset-name {
+            font-weight: 600;
+            color: #2C3E50;
+            margin-bottom: 5px;
+        }
+
+        .asset-size {
+            color: #7F8C8D;
+            font-size: 0.9em;
+        }
+
+        .color-palette {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .color-swatch {
+            text-align: center;
+        }
+
+        .color-box {
+            width: 120px;
+            height: 120px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .color-name {
+            font-weight: 600;
+            color: #2C3E50;
+            margin-bottom: 3px;
+        }
+
+        .color-hex {
+            color: #7F8C8D;
+            font-family: 'Courier New', monospace;
+        }
+
+        .banner-preview {
+            width: 100%;
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .favicon-grid {
+            display: flex;
+            gap: 20px;
+            align-items: flex-end;
+            flex-wrap: wrap;
+        }
+
+        .usage-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .usage-card {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #FF6600;
+        }
+
+        .usage-card h3 {
+            color: #2C3E50;
+            margin-bottom: 10px;
+        }
+
+        .usage-card ul {
+            list-style: none;
+            color: #555;
+        }
+
+        .usage-card li {
+            padding: 5px 0;
+        }
+
+        .usage-card li:before {
+            content: "→ ";
+            color: #FF6600;
+            font-weight: bold;
+        }
+
+        code {
+            background: #2C3E50;
+            color: #FF6600;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ang<span>Jobs</span> Branding Assets</h1>
+        <p class="subtitle">Complete branding package for AngJobs.com</p>
+
+        <!-- Color Palette -->
+        <div class="section">
+            <h2 class="section-title">Color Palette</h2>
+            <div class="color-palette">
+                <div class="color-swatch">
+                    <div class="color-box" style="background: linear-gradient(135deg, #FF6600, #FF8833);"></div>
+                    <div class="color-name">Primary Orange</div>
+                    <div class="color-hex">#FF6600</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-box" style="background: #2C3E50;"></div>
+                    <div class="color-name">Dark Background</div>
+                    <div class="color-hex">#2C3E50</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-box" style="background: #7F8C8D;"></div>
+                    <div class="color-name">Text Gray</div>
+                    <div class="color-hex">#7F8C8D</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-box" style="background: #95A5A6;"></div>
+                    <div class="color-name">Light Gray</div>
+                    <div class="color-hex">#95A5A6</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Logo -->
+        <div class="section">
+            <h2 class="section-title">Main Logo</h2>
+            <div class="asset-grid">
+                <div class="asset-item">
+                    <div class="asset-preview">
+                        <img src="logo.svg" alt="AngJobs Logo" style="max-height: 100px;">
+                    </div>
+                    <div class="asset-name">logo.svg</div>
+                    <div class="asset-size">400×120px (Vector)</div>
+                </div>
+                <div class="asset-item">
+                    <div class="asset-preview dark">
+                        <img src="logo.svg" alt="AngJobs Logo" style="max-height: 100px;">
+                    </div>
+                    <div class="asset-name">On Dark Background</div>
+                    <div class="asset-size">400×120px</div>
+                </div>
+            </div>
+            <div class="asset-grid">
+                <div class="asset-item">
+                    <div class="asset-preview">
+                        <img src="logo-256.png" alt="Logo 256">
+                    </div>
+                    <div class="asset-name">logo-256.png</div>
+                    <div class="asset-size">256×256px</div>
+                </div>
+                <div class="asset-item">
+                    <div class="asset-preview">
+                        <img src="logo-512.png" alt="Logo 512">
+                    </div>
+                    <div class="asset-name">logo-512.png</div>
+                    <div class="asset-size">512×512px</div>
+                </div>
+                <div class="asset-item">
+                    <div class="asset-preview">
+                        <img src="logo.png" alt="Logo 1024">
+                    </div>
+                    <div class="asset-name">logo.png</div>
+                    <div class="asset-size">1024×1024px</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Square Icons -->
+        <div class="section">
+            <h2 class="section-title">Square Icons</h2>
+            <div class="asset-grid">
+                <div class="asset-item">
+                    <div class="asset-preview dark">
+                        <img src="icon-square.svg" alt="Square Icon" style="max-height: 150px;">
+                    </div>
+                    <div class="asset-name">icon-square.svg</div>
+                    <div class="asset-size">512×512px (Vector)</div>
+                </div>
+                <div class="asset-item">
+                    <div class="asset-preview dark">
+                        <img src="icon-512.png" alt="Icon 512">
+                    </div>
+                    <div class="asset-name">icon-512.png</div>
+                    <div class="asset-size">512×512px</div>
+                </div>
+                <div class="asset-item">
+                    <div class="asset-preview dark">
+                        <img src="icon-1024.png" alt="Icon 1024">
+                    </div>
+                    <div class="asset-name">icon-1024.png</div>
+                    <div class="asset-size">1024×1024px</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Favicons -->
+        <div class="section">
+            <h2 class="section-title">Favicons</h2>
+            <div class="favicon-grid">
+                <div class="asset-item">
+                    <div class="asset-preview dark" style="min-height: auto; padding: 10px;">
+                        <img src="favicon-16.png" alt="Favicon 16">
+                    </div>
+                    <div class="asset-name">16×16px</div>
+                </div>
+                <div class="asset-item">
+                    <div class="asset-preview dark" style="min-height: auto; padding: 10px;">
+                        <img src="favicon-32.png" alt="Favicon 32">
+                    </div>
+                    <div class="asset-name">32×32px</div>
+                </div>
+                <div class="asset-item">
+                    <div class="asset-preview dark" style="min-height: auto; padding: 10px;">
+                        <img src="favicon-48.png" alt="Favicon 48">
+                    </div>
+                    <div class="asset-name">48×48px</div>
+                </div>
+                <div class="asset-item">
+                    <div class="asset-preview dark" style="min-height: auto; padding: 10px;">
+                        <img src="favicon-64.png" alt="Favicon 64">
+                    </div>
+                    <div class="asset-name">64×64px</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Profile Pictures -->
+        <div class="section">
+            <h2 class="section-title">Profile Pictures</h2>
+            <div class="asset-grid">
+                <div class="asset-item">
+                    <div class="asset-preview dark">
+                        <img src="profile-200.png" alt="Profile 200">
+                    </div>
+                    <div class="asset-name">profile-200.png</div>
+                    <div class="asset-size">200×200px</div>
+                </div>
+                <div class="asset-item">
+                    <div class="asset-preview dark">
+                        <img src="profile-400.png" alt="Profile 400">
+                    </div>
+                    <div class="asset-name">profile-400.png</div>
+                    <div class="asset-size">400×400px (Recommended)</div>
+                </div>
+                <div class="asset-item">
+                    <div class="asset-preview dark">
+                        <img src="profile-800.png" alt="Profile 800">
+                    </div>
+                    <div class="asset-name">profile-800.png</div>
+                    <div class="asset-size">800×800px</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Social Media Banner -->
+        <div class="section">
+            <h2 class="section-title">Social Media Banner</h2>
+            <img src="twitter-banner.png" alt="Twitter Banner" class="banner-preview">
+            <p style="margin-top: 15px; color: #7F8C8D;">
+                <strong>twitter-banner.png</strong> • 1500×500px • For Twitter/X, LinkedIn headers
+            </p>
+        </div>
+
+        <!-- Usage Guide -->
+        <div class="section">
+            <h2 class="section-title">Usage Guide</h2>
+            <div class="usage-grid">
+                <div class="usage-card">
+                    <h3>Website</h3>
+                    <ul>
+                        <li>Use <code>logo.svg</code> in header</li>
+                        <li>Use <code>favicon.ico</code> for browser icon</li>
+                        <li>Maintain 60px height for header logo</li>
+                    </ul>
+                </div>
+                <div class="usage-card">
+                    <h3>Twitter/X</h3>
+                    <ul>
+                        <li>Profile: <code>profile-400.png</code></li>
+                        <li>Banner: <code>twitter-banner.png</code></li>
+                        <li>Crop profile to 400×400px square</li>
+                    </ul>
+                </div>
+                <div class="usage-card">
+                    <h3>LinkedIn</h3>
+                    <ul>
+                        <li>Profile: <code>profile-400.png</code></li>
+                        <li>Banner: <code>twitter-banner.png</code></li>
+                        <li>May need custom sizing for cover</li>
+                    </ul>
+                </div>
+                <div class="usage-card">
+                    <h3>Print</h3>
+                    <ul>
+                        <li>Use <code>logo.svg</code> for scalability</li>
+                        <li>Or use <code>logo.png</code> (1024×1024)</li>
+                        <li>Maintain aspect ratio always</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div style="text-align: center; margin-top: 60px; padding: 20px; color: #7F8C8D;">
+            <p><strong>AngJobs Branding Assets v1.0</strong></p>
+            <p>Tech Jobs from Hacker News • angjobs.com</p>
+        </div>
+    </div>
+</body>
+</html>

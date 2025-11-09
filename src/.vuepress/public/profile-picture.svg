@@ -1,0 +1,64 @@
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="profileBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a252f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2C3E50;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="profileOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6600;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8833;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background with rounded corners -->
+  <rect width="800" height="800" rx="120" fill="url(#profileBg)"/>
+
+  <!-- Accent ring -->
+  <circle cx="400" cy="400" r="360" stroke="url(#profileOrange)" stroke-width="6" fill="none" opacity="0.3"/>
+
+  <!-- Main logo icon centered -->
+  <g transform="translate(400, 400)">
+    <!-- A with upward arrow -->
+    <path d="M -100 120 L 0 -140 L 100 120 M -60 30 L 60 30"
+          stroke="url(#profileOrange)"
+          stroke-width="36"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          fill="none"/>
+
+    <!-- Upward arrow at apex -->
+    <path d="M -20 -120 L 0 -160 L 20 -120"
+          stroke="url(#profileOrange)"
+          stroke-width="24"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          fill="none"/>
+
+    <!-- J -->
+    <path d="M 140 -110 L 140 80 Q 140 140 80 140 Q 20 140 20 90"
+          stroke="white"
+          stroke-width="36"
+          stroke-linecap="round"
+          fill="none"/>
+  </g>
+
+  <!-- Text at bottom -->
+  <text x="400" y="680"
+        font-family="'Segoe UI', Arial, sans-serif"
+        font-size="72"
+        font-weight="700"
+        fill="white"
+        text-anchor="middle">
+    Ang<tspan fill="url(#profileOrange)">Jobs</tspan>
+  </text>
+
+  <text x="400" y="730"
+        font-family="'Segoe UI', Arial, sans-serif"
+        font-size="28"
+        font-weight="400"
+        fill="#95A5A6"
+        text-anchor="middle"
+        letter-spacing="2">
+    FROM HACKER NEWS
+  </text>
+</svg>

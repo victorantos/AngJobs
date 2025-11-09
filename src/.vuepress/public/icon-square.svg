@@ -1,0 +1,34 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6600;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8833;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="80" fill="#2C3E50"/>
+
+  <!-- Simplified "A" with upward arrow -->
+  <path d="M 180 360 L 240 170 L 300 360 M 200 280 L 280 280"
+        stroke="url(#iconGradient)"
+        stroke-width="32"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        fill="none"/>
+
+  <!-- Upward arrow at apex -->
+  <path d="M 225 185 L 240 155 L 255 185"
+        stroke="url(#iconGradient)"
+        stroke-width="20"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        fill="none"/>
+
+  <!-- "J" -->
+  <path d="M 340 195 L 340 320 Q 340 360 300 360 Q 260 360 260 330"
+        stroke="white"
+        stroke-width="32"
+        stroke-linecap="round"
+        fill="none"/>
+</svg>

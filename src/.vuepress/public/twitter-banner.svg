@@ -1,0 +1,93 @@
+<svg width="1500" height="500" viewBox="0 0 1500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bannerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a252f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2C3E50;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bannerOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6600;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8833;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentOrange" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6600;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#FF6600;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1500" height="500" fill="url(#bannerBg)"/>
+
+  <!-- Decorative elements - Abstract job/career pathway -->
+  <g opacity="0.15">
+    <path d="M 0 250 Q 375 150 750 250 T 1500 250" stroke="url(#bannerOrange)" stroke-width="2" fill="none"/>
+    <path d="M 0 280 Q 375 180 750 280 T 1500 280" stroke="url(#bannerOrange)" stroke-width="2" fill="none"/>
+    <circle cx="200" cy="250" r="4" fill="#FF6600"/>
+    <circle cx="500" cy="200" r="4" fill="#FF6600"/>
+    <circle cx="750" cy="250" r="4" fill="#FF6600"/>
+    <circle cx="1000" cy="300" r="4" fill="#FF6600"/>
+    <circle cx="1300" cy="250" r="4" fill="#FF6600"/>
+  </g>
+
+  <!-- Accent bar at top -->
+  <rect width="1500" height="8" fill="url(#bannerOrange)"/>
+
+  <!-- Main content container -->
+  <g id="content">
+    <!-- Large logo icon on left -->
+    <g transform="translate(100, 150)">
+      <!-- A with upward arrow -->
+      <path d="M 0 80 L 40 0 L 80 80 M 16 48 L 64 48"
+            stroke="url(#bannerOrange)"
+            stroke-width="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            fill="none"/>
+
+      <!-- Upward arrow at apex -->
+      <path d="M 32 8 L 40 -8 L 48 8"
+            stroke="url(#bannerOrange)"
+            stroke-width="6"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            fill="none"/>
+
+      <!-- J -->
+      <path d="M 100 8 L 100 64 Q 100 88 80 88 Q 60 88 60 72"
+            stroke="white"
+            stroke-width="10"
+            stroke-linecap="round"
+            fill="none"/>
+    </g>
+
+    <!-- Brand name and tagline -->
+    <g transform="translate(350, 180)">
+      <text x="0" y="0"
+            font-family="'Segoe UI', Arial, sans-serif"
+            font-size="96"
+            font-weight="700"
+            fill="white">
+        Ang<tspan fill="url(#bannerOrange)">Jobs</tspan>
+      </text>
+
+      <text x="0" y="60"
+            font-family="'Segoe UI', Arial, sans-serif"
+            font-size="32"
+            font-weight="400"
+            fill="#95A5A6">
+        Tech Jobs from Hacker News
+      </text>
+
+      <text x="0" y="110"
+            font-family="'Segoe UI', Arial, sans-serif"
+            font-size="22"
+            font-weight="400"
+            fill="#7F8C8D"
+            letter-spacing="1">
+        "Who is hiring?" • Monthly Updates • angjobs.com
+      </text>
+    </g>
+  </g>
+
+  <!-- Bottom accent -->
+  <rect y="492" width="1500" height="8" fill="url(#bannerOrange)"/>
+</svg>
