@@ -23,7 +23,7 @@ export default hopeTheme({
 
   // Theme appearance
   darkmode: "toggle",
-  themeColor: "#2196F3",
+  themeColor: "#FF6600",
   fullscreen: true,
 
   // navbar

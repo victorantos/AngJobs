@@ -5,7 +5,7 @@
   // Brand colors - HN inspired
   --angjobs-primary: #ff6600;
   --angjobs-primary-dark: #e55500;
-  --angjobs-secondary: #2196F3;
+  --angjobs-secondary: #2C3E50;
   --angjobs-success: #4CAF50;
   --angjobs-warning: #FF9800;
   --angjobs-error: #F44336;
@@ -15,8 +15,8 @@
   --angjobs-border: #e5e7eb;
   
   // Gradients
-  --angjobs-gradient-primary: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
-  --angjobs-gradient-secondary: linear-gradient(135deg, #FF5722 0%, #E64A19 100%);
+  --angjobs-gradient-primary: linear-gradient(135deg, #FF6600 0%, #FF8833 100%);
+  --angjobs-gradient-secondary: linear-gradient(135deg, #2C3E50 0%, #34495e 100%);
   
   // Shadows
   --angjobs-shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -83,9 +83,9 @@ body {
 // Custom badge styles
 .badge {
   &.badge-tech {
-    background: rgba(33, 150, 243, 0.1);
+    background: rgba(255, 102, 0, 0.1);
     color: var(--angjobs-primary);
-    border: 1px solid rgba(33, 150, 243, 0.2);
+    border: 1px solid rgba(255, 102, 0, 0.2);
     font-weight: 500;
     padding: 0.25rem 0.75rem;
     border-radius: 20px;
@@ -169,7 +169,7 @@ body {
   
   &:focus {
     border-color: var(--angjobs-primary);
-    box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.1);
+    box-shadow: 0 0 0 2px rgba(255, 102, 0, 0.1);
     outline: none;
   }
 }

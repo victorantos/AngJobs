@@ -22,9 +22,10 @@ export default defineUserConfig({
     // Note: og:* and twitter:* tags are handled by vuepress-theme-hope SEO plugin per-page
     
     // Favicon and icons
-    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
-    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
-    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon-simple.svg' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16.png' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/icon-512.png' }],
     ['link', { rel: 'manifest', href: '/site.webmanifest' }],
     
     // Structured data for job board
@@ -54,7 +55,7 @@ export default defineUserConfig({
   plugins: [
     vuepressPluginHello({
       greeting: 'Hello VuePress!',
-      themeColor: '#42b983'
+      themeColor: '#FF6600'
     })
   ]
 });
