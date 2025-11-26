@@ -48,3 +48,11 @@ features:
     <span style="color: #666;"> <a href="https://codorex.com" target="_blank" style="color: #4CAF50; font-weight: 600;">Codorex</a> — AI-powered game creation for ages 7-14.</span>
   </div>
 </div>
+
+<div style="display: flex; align-items: center; gap: 12px; padding: 16px; background: linear-gradient(135deg, #3b82f611 0%, #9333ea11 100%); border-radius: 8px; margin-top: 12px;">
+  <img src="/sneos-icon.svg" alt="Sneos" width="40" height="40" style="border-radius: 8px;" />
+  <div>
+    <strong style="color: #3b82f6;">Compare AI models?</strong>
+    <span style="color: #666;"> <a href="https://sneos.com" target="_blank" style="color: #9333ea; font-weight: 600;">Sneos</a> — Chat with multiple AIs side by side.</span>
+  </div>
+</div>

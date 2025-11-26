@@ -7,11 +7,11 @@
           <span>Muz11 — 100+ curated playlists for coding</span>
         </div>
       </a>
-      <a href="https://codorex.com" target="_blank" class="promo-card promo-codorex">
-        <img src="/codorex-icon.png" alt="Codorex" class="promo-icon" />
+      <a href="https://sneos.com" target="_blank" class="promo-card promo-sneos">
+        <img src="/sneos-icon.svg" alt="Sneos" class="promo-icon" />
         <div class="promo-text">
-          <strong>Kids want to code?</strong>
-          <span>Codorex — AI game creation for ages 7-14</span>
+          <strong>Compare AI models?</strong>
+          <span>Sneos — Chat with multiple AIs side by side</span>
         </div>
       </a>
     </div>
@@ -213,6 +213,14 @@
 
   .promo-codorex strong { color: #4CAF50; }
   .promo-codorex:hover { border-color: #4CAF5044; }
+
+  .promo-sneos {
+    background: linear-gradient(135deg, #3b82f611 0%, #9333ea11 100%);
+    border: 1px solid #3b82f622;
+  }
+
+  .promo-sneos strong { color: #3b82f6; }
+  .promo-sneos:hover { border-color: #9333ea44; }
 
   .promo-icon {
     width: 36px;

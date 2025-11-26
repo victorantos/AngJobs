@@ -40,6 +40,13 @@ The HN job threads are great but hard to navigate — hundreds of comments, no s
       <p style="margin: 4px 0 0 0; color: #666; font-size: 14px;">AI-powered game creation for kids ages 7-14</p>
     </div>
   </a>
+  <a href="https://sneos.com" target="_blank" style="display: flex; align-items: center; gap: 12px; padding: 16px; background: linear-gradient(135deg, #3b82f611 0%, #9333ea11 100%); border-radius: 8px; text-decoration: none; border: 1px solid #3b82f622;">
+    <img src="/sneos-icon.svg" alt="Sneos" style="width: 48px; height: 48px; border-radius: 8px;" />
+    <div>
+      <strong style="color: #3b82f6; font-size: 16px;">Sneos</strong>
+      <p style="margin: 4px 0 0 0; color: #666; font-size: 14px;">Compare AI outputs — chat with multiple models side by side</p>
+    </div>
+  </a>
 </div>
 
 ## Get in Touch
