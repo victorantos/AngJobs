@@ -1,4 +1,21 @@
 <template>
+    <div class="promo-section">
+      <a href="https://muz11.com" target="_blank" class="promo-card promo-muz11">
+        <img src="/muz11-icon.png" alt="Muz11" class="promo-icon" />
+        <div class="promo-text">
+          <strong>Need focus music?</strong>
+          <span>Muz11 — 100+ curated playlists for coding</span>
+        </div>
+      </a>
+      <a href="https://codorex.com" target="_blank" class="promo-card promo-codorex">
+        <img src="/codorex-icon.png" alt="Codorex" class="promo-icon" />
+        <div class="promo-text">
+          <strong>Kids want to code?</strong>
+          <span>Codorex — AI game creation for ages 7-14</span>
+        </div>
+      </a>
+    </div>
+
     <div class="form-container">
       <h2 class="form-title">Apply for this Job</h2>
       <p class="form-subtitle">Your application will be forwarded to the hiring contact.</p>
@@ -158,9 +175,87 @@
   </script>
   
   <style scoped>
-  .form-container {
+  .promo-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
     max-width: 600px;
     margin: 32px auto 0;
+  }
+
+  .promo-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .promo-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .promo-muz11 {
+    background: linear-gradient(135deg, #667eea11 0%, #764ba211 100%);
+    border: 1px solid #667eea22;
+  }
+
+  .promo-muz11 strong { color: #667eea; }
+  .promo-muz11:hover { border-color: #667eea44; }
+
+  .promo-codorex {
+    background: linear-gradient(135deg, #4CAF5011 0%, #2196F311 100%);
+    border: 1px solid #4CAF5022;
+  }
+
+  .promo-codorex strong { color: #4CAF50; }
+  .promo-codorex:hover { border-color: #4CAF5044; }
+
+  .promo-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    flex-shrink: 0;
+  }
+
+  .promo-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+  }
+
+  .promo-text strong {
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .promo-text span {
+    font-size: 11px;
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  @media (max-width: 600px) {
+    .promo-section {
+      grid-template-columns: 1fr;
+      margin: 24px 0 0 0;
+      padding: 0 16px;
+    }
+
+    .promo-text span {
+      white-space: normal;
+    }
+  }
+
+  .form-container {
+    max-width: 600px;
+    margin: 16px auto 0;
     background: #f6f6ef;
     padding: 24px;
     border-radius: 8px;
