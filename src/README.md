@@ -45,7 +45,7 @@ features:
   <img src="/codorex-icon.png" alt="Codorex" width="40" height="40" style="border-radius: 8px;" />
   <div>
     <strong style="color: #4CAF50;">Kids want to code?</strong>
-    <span style="color: #666;"> <a href="https://codorex.com" target="_blank" style="color: #4CAF50; font-weight: 600;">Codorex</a> — AI-powered game creation for ages 7-14.</span>
+    <span style="color: #666;"> Try <a href="https://codorex.com" target="_blank" style="color: #4CAF50; font-weight: 600;">Codorex</a> — AI-powered game creation for ages 7-14.</span>
   </div>
 </div>
 
@@ -53,6 +53,6 @@ features:
   <img src="/sneos-icon.png" alt="Sneos" width="40" height="40" style="border-radius: 8px;" />
   <div>
     <strong style="color: #3b82f6;">Compare AI models?</strong>
-    <span style="color: #666;"> <a href="https://sneos.com" target="_blank" style="color: #9333ea; font-weight: 600;">Sneos</a> — Chat with multiple AIs side by side.</span>
+    <span style="color: #666;"> Try <a href="https://sneos.com" target="_blank" style="color: #9333ea; font-weight: 600;">Sneos</a> — chat with multiple AIs side by side.</span>
   </div>
 </div>
