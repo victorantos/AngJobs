@@ -18,24 +18,17 @@ dir:
 
 <div class="featured-jobs">
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/calciphus-Checkr-SoftwareEngineermultiple-Hybrid-Full-time.html">Checkr : Software Engineer (multiple)</a></h3>
+    <h3><a href="/jobs/October-2025/mattias-moody-n8n-AIWorkflowAutomationPlatform-FullstackEngineersandAppliedAIEngineers-EuropeRem.html">n8n : AI Workflow Automation Platform</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Checkr</span>
-      <span class="author">👤 calciphus</span>
+      <span class="company">🏢 moody</span>
+      <span class="author">👤 mattias-moody</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/jelkand-AtomicFi-StrongJuniortoMidLevelEngineer-Automation_IntegrationEngineering-Full-Time-REMO.html">Atomic Fi : Strong Junior to Mid Level Engineer</a></h3>
+    <h3><a href="/jobs/October-2025/tylerzey-Full-stack-RemoteUS.html">Full-stack : Remote (US)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 AtomicFi</span>
-      <span class="author">👤 jelkand</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/October-2025/AbsintheLabs-AbsintheLabs-Full-StackEngineer-Full-Time.html">Absinthe Labs : Full-Stack Engineer</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 AbsintheLabs</span>
-      <span class="author">👤 AbsintheLabs</span>
+      <span class="company">🏢 Full</span>
+      <span class="author">👤 tylerzey</span>
     </div>
   </div>
   <div class="featured-job">
@@ -46,45 +39,52 @@ dir:
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/youngwilkie-CarriageModels-ONSITENYC-Full-time.html">Carriage Models : ONSITE (NYC)</a></h3>
+    <h3><a href="/jobs/October-2025/LLgordon-Findigs-Full-time-NYC-findigs_com.html">Findigs : Full-time</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 CarriageModels</span>
-      <span class="author">👤 youngwilkie</span>
+      <span class="company">🏢 Findigs</span>
+      <span class="author">👤 LLgordon</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/RubixCube-Aesthetic-FullStack-FULLYREMOTE-Full-timeORContract-Cash-Equity.html">Aesthetic : Full Stack</a></h3>
+    <h3><a href="/jobs/October-2025/rwesselink-CCVPayments-Juniortomid-levelsoftwareengineer-OnsiteNL-Full-time-€50k-€60k.html">CCV Payments : Junior to mid-level software engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Aesthetic</span>
-      <span class="author">👤 RubixCube</span>
+      <span class="company">🏢 CCVPayments</span>
+      <span class="author">👤 rwesselink</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/phil__h-ThaloLabs-On-siteNYC-190-240kUSD-equity.html">Thalo Labs : On-site (NYC)</a></h3>
+    <h3><a href="/jobs/October-2025/mattpratt-CaspianTrade-ProductEngineer-Full-Time-SF-meetcaspian_com.html">Caspian Trade : Product Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 ThaloLabs</span>
-      <span class="author">👤 phil__h</span>
+      <span class="company">🏢 CaspianTrade</span>
+      <span class="author">👤 mattpratt</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/chicagobuss-Duckbillengineeringishiringafull-timeONSITEseniordataengineerindowntownSanFrancisco_.html">Duckbill engineering is hiring a full-time ONSITE senior data engineer in downtown San Francisco. We WFH Tuesdays and Thursdays.</a></h3>
+    <h3><a href="/jobs/October-2025/maayan-crux-Crux-cruxclimate_com-Full-time-Hiringacrosseng_Product_Design-140k-250kbase-equity.html">Crux : cruxclimate.com</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Duckbillengineeringishiringafull</span>
-      <span class="author">👤 chicagobuss</span>
+      <span class="company">🏢 crux</span>
+      <span class="author">👤 maayan-crux</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/ttoinou-Autokroma_com-Full-time-HYBRIDREMOTE-ONSITE.html">Autokroma.com : Full-time</a></h3>
+    <h3><a href="/jobs/October-2025/justicz-ChargeRobotics-RoboticSystemOperator-Full-timetravelonjobsitesHiHN!We_reaYC-backed_Se.html">Charge Robotics : Robotic System Operator</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Autokroma_com</span>
-      <span class="author">👤 ttoinou</span>
+      <span class="company">🏢 ChargeRobotics</span>
+      <span class="author">👤 justicz</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/arun057-AryaHealth-MultipleRoles-NewYorkCity-Full-time-InOffice.html">Arya Health : Multiple Roles</a></h3>
+    <h3><a href="/jobs/October-2025/sarachilton-JustPark-London-RemoteorHybrid-Full-time.html">JustPark : London</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 AryaHealth</span>
-      <span class="author">👤 arun057</span>
+      <span class="company">🏢 JustPark</span>
+      <span class="author">👤 sarachilton</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/October-2025/doistcareers-Doist-BackendEngineer_AppleEngineer-REMOTE-Full-time.html">Doist : Backend Engineer, Apple Engineer</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 Doist</span>
+      <span class="author">👤 doistcareers</span>
     </div>
   </div>
 </div>

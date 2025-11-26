@@ -1,66 +1,73 @@
 <template>
     <div class="form-container">
-      <h1>Apply for the Job</h1>
+      <h2 class="form-title">Apply for this Job</h2>
+      <p class="form-subtitle">Your application will be forwarded to the hiring contact.</p>
       <form @submit.prevent="submitForm">
-        <div class="form-group">
-          <label for="fullName">Full Name</label>
-          <input
-            type="text"
-            id="fullName"
-            v-model="form.fullName"
-            required
-          />
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input
+              type="text"
+              id="fullName"
+              v-model="form.fullName"
+              placeholder="John Doe"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              v-model="form.email"
+              placeholder="you@example.com"
+              required
+            />
+          </div>
         </div>
-  
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input
-            type="email"
-            id="email"
-            v-model="form.email"
-            required
-          />
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Phone <span class="optional">(optional)</span></label>
+            <input
+              type="tel"
+              id="phone"
+              v-model="form.phone"
+              placeholder="+1 555 123 4567"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="resume">Resume (PDF)</label>
+            <input
+              type="file"
+              id="resume"
+              @change="handleFileUpload"
+              accept=".pdf"
+              required
+            />
+          </div>
         </div>
-  
+
         <div class="form-group">
-          <label for="phone">Phone Number</label>
-          <input
-            type="tel"
-            id="phone"
-            v-model="form.phone"
-            required
-          />
-        </div>
-  
-        <div class="form-group">
-          <label for="resume">Resume (PDF)</label>
-          <input
-            type="file"
-            id="resume"
-            @change="handleFileUpload"
-            accept=".pdf"
-            required
-          />
-        </div>
-  
-        <div class="form-group">
-          <label for="message">Message</label>
+          <label for="message">Cover Note <span class="optional">(optional)</span></label>
           <textarea
             id="message"
             v-model="form.message"
-            rows="5"
-            placeholder="Tell us about yourself..."
+            rows="4"
+            placeholder="Brief introduction..."
           ></textarea>
         </div>
-  
+
         <div class="form-group">
           <button type="submit" :disabled="isSubmitting">
-            {{ isSubmitting ? 'Submitting...' : 'Submit Application' }}
+            {{ isSubmitting ? 'Sending...' : 'Send Application' }}
           </button>
         </div>
-  
+
         <div v-if="formSubmitted" class="form-success">
-          Thank you! Your application has been submitted.
+          Application sent! The hiring contact will receive your details.
         </div>
       </form>
     </div>
@@ -134,7 +141,6 @@
         return (
           this.form.fullName &&
           this.form.email &&
-          this.form.phone &&
           this.form.resume
         );
       },
@@ -152,79 +158,137 @@
   </script>
   
   <style scoped>
-  body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f7f8fc;
-    color: #333;
-    padding: 20px;
-  }
-  h1 {
-    text-align: center;
-    font-weight: 600;
-    color: #2c3e50;
-  }
   .form-container {
     max-width: 600px;
-    margin: 0 auto;
-    background: white;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    margin: 32px auto 0;
+    background: #f6f6ef;
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
   }
+
+  .form-title {
+    margin: 0 0 4px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a1a1a;
+  }
+
+  .form-subtitle {
+    margin: 0 0 20px 0;
+    font-size: 14px;
+    color: #666;
+  }
+
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
   .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
   }
+
   .form-group label {
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     font-weight: 500;
-    color: #34495e;
+    font-size: 14px;
+    color: #374151;
   }
+
+  .form-group .optional {
+    font-weight: 400;
+    color: #9ca3af;
+  }
+
   .form-group input,
   .form-group textarea {
     width: 100%;
-    padding: 12px 15px; /* Even padding on left and right */
-    border: 1px solid #ddd;
+    padding: 10px 12px;
+    border: 1px solid #d1d5db;
     border-radius: 6px;
     font-size: 16px;
-    background-color: #f9f9f9;
-    box-sizing: border-box; /* Ensures padding is inside the input box */
-    transition: border 0.3s;
+    background-color: #fff;
+    box-sizing: border-box;
+    transition: border-color 0.2s, box-shadow 0.2s;
   }
+
+  .form-group input::placeholder,
+  .form-group textarea::placeholder {
+    color: #9ca3af;
+  }
+
   .form-group input:focus,
   .form-group textarea:focus {
-    border-color: #3498db;
+    border-color: #ff6600;
+    box-shadow: 0 0 0 2px rgba(255, 102, 0, 0.1);
     outline: none;
   }
+
+  .form-group input[type="file"] {
+    padding: 8px;
+    font-size: 14px;
+  }
+
   .form-group button {
     width: 100%;
-    background-color: #3498db;
+    background-color: #ff6600;
     color: white;
     border: none;
-    padding: 12px;
-    font-size: 18px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
     border-radius: 6px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.2s, transform 0.1s;
   }
+
   .form-group button:hover {
-    background-color: #2980b9;
+    background-color: #e55500;
   }
+
+  .form-group button:active {
+    transform: scale(0.98);
+  }
+
   .form-group button:disabled {
-    background-color: #95a5a6;
+    background-color: #9ca3af;
+    cursor: not-allowed;
   }
+
   .form-success {
     display: block;
-    color: #27ae60;
+    color: #059669;
+    background: #ecfdf5;
+    border: 1px solid #a7f3d0;
+    border-radius: 6px;
+    padding: 12px;
     text-align: center;
-    font-size: 18px;
-    margin-top: 20px;
-    font-weight: 600;
+    font-size: 15px;
+    margin-top: 16px;
+    font-weight: 500;
   }
- 
-@media (max-width: 600px) {
-  .form-container {
-    padding: 20px; /* Reduce padding on smaller screens */
+
+  /* Mobile: stack form fields */
+  @media (max-width: 600px) {
+    .form-container {
+      padding: 16px;
+      margin: 24px 0 0 0;
+      border-radius: 0;
+      border-left: none;
+      border-right: none;
+    }
+
+    .form-row {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      font-size: 16px; /* Prevents iOS zoom on focus */
+    }
   }
-}
 </style>

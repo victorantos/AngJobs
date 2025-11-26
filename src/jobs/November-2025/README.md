@@ -18,73 +18,73 @@ dir:
 
 <div class="featured-jobs">
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/punjabikura-Onsite.html">Onsite</a></h3>
+    <h3><a href="/jobs/November-2025/spencer-pelairo-PelairoInc_-REMOTEUS-Full-time.html">Pelairo Inc. : REMOTE (US)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Onsite</span>
-      <span class="author">👤 punjabikura</span>
+      <span class="company">🏢 pelairo</span>
+      <span class="author">👤 spencer-pelairo</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/chadd-SitchApp-FoundingProductManager-Full-time.html">Sitch App : Founding Product Manager</a></h3>
+    <h3><a href="/jobs/November-2025/daswolle-AltiraHealth-RemoteUS-Full-time-FoundingSoftwareEngineerInterop.html">Altira Health : Remote (US)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 SitchApp</span>
-      <span class="author">👤 chadd</span>
+      <span class="company">🏢 AltiraHealth</span>
+      <span class="author">👤 daswolle</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/eightnoteight-ZenactAI-Full-Time-6-MonthInternships-OnsiteBangalore.html">Zenact AI : Full-Time + 6-Month Internships</a></h3>
+    <h3><a href="/jobs/November-2025/dragonflytech-Dragonfly-RemotefirstfrequenttripstoLondon_UK-Full-time.html">Dragonfly : Remote first (frequent trips to London, UK)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 ZenactAI</span>
-      <span class="author">👤 eightnoteight</span>
+      <span class="company">🏢 Dragonfly</span>
+      <span class="author">👤 dragonflytech</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/umrashrf-YOUAREWELCOME!.html">YOU ARE WELCOME !</a></h3>
+    <h3><a href="/jobs/November-2025/justcallmejm-Aloe-Vancouver_BC.html">Aloe : Vancouver, BC</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 YOUAREWELCOME!</span>
-      <span class="author">👤 umrashrf</span>
+      <span class="company">🏢 Aloe</span>
+      <span class="author">👤 justcallmejm</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/janlin1999-DocSpot-ONSITESantaClara_CA.html">DocSpot : ONSITE (Santa Clara, CA)</a></h3>
+    <h3><a href="/jobs/November-2025/anja0x1-BabylonLabs-isbuildingnativeusecasesforBitcoin_unlockingitsbroadereconomicpotentialthrou.html">Babylon Labs : is building native use cases for Bitcoin, unlocking its broader economic potential through trustless Bitcoin staking with over 6B in native BTC TVL and the new trustless Bitcoin vault that enables BTC to participate in DeFi across any chain.</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 DocSpot</span>
-      <span class="author">👤 janlin1999</span>
+      <span class="company">🏢 BabylonLabs</span>
+      <span class="author">👤 anja0x1</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/ricw-Truetax-SanFranciscoHybridorREMOTEUS-Full-time.html">Truetax : San Francisco (Hybrid) or REMOTE (US)</a></h3>
+    <h3><a href="/jobs/November-2025/Kraji-Aqora-QuantumComputingExpert-Full-time.html">Aqora : Quantum Computing Expert</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Truetax</span>
-      <span class="author">👤 ricw</span>
+      <span class="company">🏢 Aqora</span>
+      <span class="author">👤 Kraji</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/webviswerk53-IABG-FullstackWebDeveloperFEFocus-OnsiteGermanywith60_Remote-GermanFluencyRequi.html">IABG : Fullstack Web Developer (FE Focus)</a></h3>
+    <h3><a href="/jobs/November-2025/preetamjinka-FunnelStory-REMOTEIndia-Bengaluru-Full-Time-55-85LPA.html">FunnelStory : REMOTE (India)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 IABG</span>
-      <span class="author">👤 webviswerk53</span>
+      <span class="company">🏢 FunnelStory</span>
+      <span class="author">👤 preetamjinka</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/Terra_AI_HQ-TerraAI-RemoteorHybridinRedwoodCityOffices.html">Terra AI : Remote or Hybrid in Redwood City Offices</a></h3>
+    <h3><a href="/jobs/November-2025/thinkafterbef-JetKVM-SeniorFullstackEngineer-RemoteCET±3-Full-Time-OpenSource.html">JetKVM : Senior Fullstack Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 TerraAI</span>
-      <span class="author">👤 Terra_AI_HQ</span>
+      <span class="company">🏢 JetKVM</span>
+      <span class="author">👤 thinkafterbef</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/Tina-Fet-FetLife-SeniorDevOpsEngineer-Full-Time-Remote.html">FetLife : Senior DevOps Engineer</a></h3>
+    <h3><a href="/jobs/November-2025/thomas-arcol-Arcol-SeniorSoftwareEngineer-NYC_SF_orRemoteUS-Full-time.html">Arcol : Senior Software Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Fet</span>
-      <span class="author">👤 Tina-Fet</span>
+      <span class="company">🏢 arcol</span>
+      <span class="author">👤 thomas-arcol</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/WireScreenNYC-WireScreenSeriesA-SeniorSoftwareEngineer-NYC-hybrid-Full-time-165k-210kbase-eq.html">WireScreen (Series A) : Senior Software Engineer</a></h3>
+    <h3><a href="/jobs/November-2025/kmdupree-Avantos-LeadFullstackEngineer-RemoteUS-150-200k.html">Avantos : Lead Fullstack Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 WireScreenSeriesA</span>
-      <span class="author">👤 WireScreenNYC</span>
+      <span class="company">🏢 Avantos</span>
+      <span class="author">👤 kmdupree</span>
     </div>
   </div>
 </div>

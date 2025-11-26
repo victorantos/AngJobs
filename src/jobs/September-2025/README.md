@@ -18,66 +18,24 @@ dir:
 
 <div class="featured-jobs">
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/threeturn-MultipleRoles-Romania_Poland_Italy.html">Multiple Roles : Romania, Poland, Italy</a></h3>
+    <h3><a href="/jobs/September-2025/Kimi_livekit-LiveKit-Remote-Livekit_io-VoiceAI-webRTC-Real-timecommunications.html">LiveKit : Remote</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 MultipleRoles</span>
-      <span class="author">👤 threeturn</span>
+      <span class="company">🏢 LiveKit</span>
+      <span class="author">👤 Kimi_livekit</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/Jaketeagle-V7-www_v7labs_com-LondonorNewYork-Hybrid.html">V7 : www.v7labs.com</a></h3>
+    <h3><a href="/jobs/September-2025/adelinabu15-N43Studioisaventurestudiodedicatedtobuildingbold_technology-drivencompaniesfromthegr.html">N43 Studio is a venture studio dedicated to building bold, technology-driven companies from the ground up. We identify emerging opportunities, develop ideas into working prototypes, and launch ventures designed to scale.</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 V7</span>
-      <span class="author">👤 Jaketeagle</span>
+      <span class="company">🏢 N43Studioisaventurestudiodedicatedtobuildingbold_technology</span>
+      <span class="author">👤 adelinabu15</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/sarrma-StealthSolarTechStartup-RemoteEU-friendly-Full-timeorContract.html">Stealth Solar Tech Startup : Remote (EU-friendly)</a></h3>
+    <h3><a href="/jobs/September-2025/OnjaMadagascar-Helloeveryone_Lookingforameaningfulandintrepidchange?.html">Hello everyone. Looking for a meaningful and intrepid change?</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 StealthSolarTechStartup</span>
-      <span class="author">👤 sarrma</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/September-2025/dnlphys-Greenline-FoundingEngineerRoles-RemoteU_S_only.html">Greenline : Founding Engineer Roles</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 Greenline</span>
-      <span class="author">👤 dnlphys</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/September-2025/trevolutionary-Retirable-SeniorEngineer-NYC_hybridonsiteFlatiron.html">Retirable : Senior Engineer</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 Retirable</span>
-      <span class="author">👤 trevolutionary</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/September-2025/willgogo-GoGoGrandparentYCS16-FULLYREMOTE-Full-time-ESTtimezone.html">GoGoGrandparent (YC S16) : FULLY REMOTE</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 GoGoGrandparentYCS16</span>
-      <span class="author">👤 willgogo</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/September-2025/LLgordon-Findigs-Full-time-NYC.html">Findigs : Full-time</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 Findigs</span>
-      <span class="author">👤 LLgordon</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/September-2025/jadowdl-ProphetTownLLC-VariousSoftwareEngineeringRoles-US–RemoteandHybrid-Englishfluencyrequired.html">Prophet Town LLC : Various Software Engineering Roles</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 ProphetTownLLC</span>
-      <span class="author">👤 jadowdl</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/September-2025/some-ai-dev-EAGL-Ghent_Belgium-Onsite-Full-Time.html">EAGL : Ghent, Belgium</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 ai</span>
-      <span class="author">👤 some-ai-dev</span>
+      <span class="company">🏢 Helloeveryone_Lookingforameaningfulandintrepidchange?</span>
+      <span class="author">👤 OnjaMadagascar</span>
     </div>
   </div>
   <div class="featured-job">
@@ -85,6 +43,48 @@ dir:
     <div class="job-meta">
       <span class="company">🏢 DigitalOnboarding</span>
       <span class="author">👤 crossman</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/September-2025/nedwin-GreatQuestion-DirectorofEngineering.html">Great Question : Director of Engineering</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 GreatQuestion</span>
+      <span class="author">👤 nedwin</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/September-2025/stedman-NeonHealth-AIagentsinhealthcare-HiringEngandBizOps-SF_RemoteNorthAmerica.html">Neon Health : AI agents in healthcare</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 NeonHealth</span>
+      <span class="author">👤 stedman</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/September-2025/deyton-TestBox-MultipleRoles-ONSITESanFrancisco_CA-Full-time.html">TestBox : Multiple Roles</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 TestBox</span>
+      <span class="author">👤 deyton</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/September-2025/klaaz0r-Promptwatch-Amsterdam_Netherlands-Full-time.html">Promptwatch : Amsterdam, Netherlands</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 Promptwatch</span>
+      <span class="author">👤 klaaz0r</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/September-2025/scottcha-Neuralwatt-Full-time.html">Neuralwatt : Full-time</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 Neuralwatt</span>
+      <span class="author">👤 scottcha</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/September-2025/ocfnash-MathlibInitiative-DevOpsEngineer-Fully-remote-Full-time.html">Mathlib Initiative : DevOps Engineer</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 MathlibInitiative</span>
+      <span class="author">👤 ocfnash</span>
     </div>
   </div>
 </div>

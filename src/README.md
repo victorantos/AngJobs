@@ -1,32 +1,32 @@
 ---
 home: true
-title: AngJobs - Find Your Next Tech Job
-heroText: Welcome to the Future of Job Hunting
-tagline: Discover hand-picked opportunities from the best tech minds on Hacker News
+title: AngJobs - Hacker News Jobs
+heroText: Tech Jobs from Hacker News
+tagline: 300+ verified opportunities from the monthly "Who is hiring?" threads
 actions:
-  - text: Browse November Jobs
+  - text: November 2025 Jobs
     link: /jobs/November-2025/
     type: primary
-  - text: View All Jobs
-    link: /jobs/
+  - text: October 2025
+    link: /jobs/October-2025/
     type: secondary
 features:
-  - title: 🎯 Curated Daily
-    details: Fresh opportunities posted by real hiring managers and founders
-  - title: 🆕 Latest November 2025 Jobs
-    details: Browse the newest job postings from Hacker News November thread
-  - title: 🔍 Search & Filter
-    details: Find your perfect role with our advanced search functionality
+  - title: Direct from HN
+    details: Jobs posted by founders and hiring managers in monthly threads
+  - title: 300+ This Month
+    details: November 2025 has 307 fresh opportunities from top companies
+  - title: No Middlemen
+    details: Apply directly to companies - no recruiters, no spam
 ---
 
-## 🚀 Latest Jobs - November 2025
+## November 2025 Jobs
 
-Browse our newest collection of jobs from the [November 2025 Hacker News thread](/jobs/November-2025/). We've got 307+ fresh opportunities from top companies and startups.
+[Browse 307+ jobs](/jobs/November-2025/) from the latest Hacker News thread.
 
-**Quick Links:**
-- [🔥 November 2025 Jobs](/jobs/November-2025/) - **Latest postings** (307+ jobs)
-- [October 2025 Jobs](/jobs/October-2025/) - Previous month (339 jobs)
-- [September 2025 Jobs](/jobs/September-2025/) - Archive (233 jobs)August 2025 Jobs](/jobs/August-2025/) - Archive (294 jobs)
+| Month | Jobs |
+|-------|------|
+| [November 2025](/jobs/November-2025/) | 307+ |
+| [October 2025](/jobs/October-2025/) | 339 |
+| [September 2025](/jobs/September-2025/) | 233 |
 
-### Featured Recent Companies
-Some of the top companies posting in November include: **OpenAI**, **Anthropic**, **Google**, **Apple**, **Tesla**, **Datadog**, **DuckDuckGo**, and hundreds more!
+**Companies hiring:** DuckDuckGo, Anthropic, OpenAI, Temporal, Shield AI, NVIDIA, and more.
