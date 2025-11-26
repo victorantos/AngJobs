@@ -18,73 +18,73 @@ dir:
 
 <div class="featured-jobs">
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/Kimi_livekit-LiveKit-Remote-Livekit_io-VoiceAI-webRTC-Real-timecommunications.html">LiveKit : Remote</a></h3>
+    <h3><a href="/jobs/September-2025/austil-Upway-ParisHybrid-Full-time.html">Upway : Paris (Hybrid)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 LiveKit</span>
-      <span class="author">👤 Kimi_livekit</span>
+      <span class="company">🏢 Upway</span>
+      <span class="author">👤 austil</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/adelinabu15-N43Studioisaventurestudiodedicatedtobuildingbold_technology-drivencompaniesfromthegr.html">N43 Studio is a venture studio dedicated to building bold, technology-driven companies from the ground up. We identify emerging opportunities, develop ideas into working prototypes, and launch ventures designed to scale.</a></h3>
+    <h3><a href="/jobs/September-2025/konstantina_ps-Kaedim-SoftwareEngineer_MachineLearningEngineer_CustomerSupportEngineer_ProductMa.html">Kaedim : Software Engineer, Machine Learning Engineer, Customer Support Engineer, Product Manager, Founding Recruiter</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 N43Studioisaventurestudiodedicatedtobuildingbold_technology</span>
-      <span class="author">👤 adelinabu15</span>
+      <span class="company">🏢 Kaedim</span>
+      <span class="author">👤 konstantina_ps</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/OnjaMadagascar-Helloeveryone_Lookingforameaningfulandintrepidchange?.html">Hello everyone. Looking for a meaningful and intrepid change?</a></h3>
+    <h3><a href="/jobs/September-2025/AbsintheLabs-AbsintheLabs-Full-StackEngineer-Full-Time.html">Absinthe Labs : Full-Stack Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Helloeveryone_Lookingforameaningfulandintrepidchange?</span>
-      <span class="author">👤 OnjaMadagascar</span>
+      <span class="company">🏢 AbsintheLabs</span>
+      <span class="author">👤 AbsintheLabs</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/crossman-DigitalOnboarding-SeniorFull-stackEngineer-REMOTEUSbased-Fulltime.html">Digital Onboarding : Senior Full-stack Engineer</a></h3>
+    <h3><a href="/jobs/September-2025/wwolffrec-CategoryLabs-RemoteandNYC-FullTime-200KUSD.html">Category Labs : Remote and NYC</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 DigitalOnboarding</span>
-      <span class="author">👤 crossman</span>
+      <span class="company">🏢 CategoryLabs</span>
+      <span class="author">👤 wwolffrec</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/nedwin-GreatQuestion-DirectorofEngineering.html">Great Question : Director of Engineering</a></h3>
+    <h3><a href="/jobs/September-2025/zukee-Clerq-onsiteNYC.html">Clerq : onsite (NYC)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 GreatQuestion</span>
-      <span class="author">👤 nedwin</span>
+      <span class="company">🏢 Clerq</span>
+      <span class="author">👤 zukee</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/stedman-NeonHealth-AIagentsinhealthcare-HiringEngandBizOps-SF_RemoteNorthAmerica.html">Neon Health : AI agents in healthcare</a></h3>
+    <h3><a href="/jobs/September-2025/zecto-BCC-PlatformSystemsEngineers-BethesdaMD-ONSITEorREMOTE_VISA-Competitivecompensation!.html">BCC : Platform Systems Engineers</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 NeonHealth</span>
-      <span class="author">👤 stedman</span>
+      <span class="company">🏢 BCC</span>
+      <span class="author">👤 zecto</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/deyton-TestBox-MultipleRoles-ONSITESanFrancisco_CA-Full-time.html">TestBox : Multiple Roles</a></h3>
+    <h3><a href="/jobs/September-2025/dowakin-9MothersDefense-HybridAustinTX-Full-time.html">9 Mothers Defense : Hybrid (Austin TX)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 TestBox</span>
-      <span class="author">👤 deyton</span>
+      <span class="company">🏢 9MothersDefense</span>
+      <span class="author">👤 dowakin</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/klaaz0r-Promptwatch-Amsterdam_Netherlands-Full-time.html">Promptwatch : Amsterdam, Netherlands</a></h3>
+    <h3><a href="/jobs/September-2025/nthz554-CambridgeTerahertz-ONSITESantaClara_CA-Full-time.html">Cambridge Terahertz : ONSITE Santa Clara, CA</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Promptwatch</span>
-      <span class="author">👤 klaaz0r</span>
+      <span class="company">🏢 CambridgeTerahertz</span>
+      <span class="author">👤 nthz554</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/scottcha-Neuralwatt-Full-time.html">Neuralwatt : Full-time</a></h3>
+    <h3><a href="/jobs/September-2025/edwardfsoler-Attendi-MLPlatformEngineer-Amsterdam_Netherlands-ON-SITEhybrid-Full-time80-100_.html">Attendi : ML Platform Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Neuralwatt</span>
-      <span class="author">👤 scottcha</span>
+      <span class="company">🏢 Attendi</span>
+      <span class="author">👤 edwardfsoler</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/ocfnash-MathlibInitiative-DevOpsEngineer-Fully-remote-Full-time.html">Mathlib Initiative : DevOps Engineer</a></h3>
+    <h3><a href="/jobs/September-2025/lausingh-Checkly-MultipleRoles-REMOTEUTC-3toUTC-3-Fulltime.html">Checkly : Multiple Roles</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 MathlibInitiative</span>
-      <span class="author">👤 ocfnash</span>
+      <span class="company">🏢 Checkly</span>
+      <span class="author">👤 lausingh</span>
     </div>
   </div>
 </div>

@@ -8,7 +8,7 @@
         </div>
       </a>
       <a href="https://sneos.com" target="_blank" class="promo-card promo-sneos">
-        <img src="/sneos-icon.svg" alt="Sneos" class="promo-icon" />
+        <img src="/sneos-icon.png" alt="Sneos" class="promo-icon" />
         <div class="promo-text">
           <strong>Compare AI models?</strong>
           <span>Sneos — Chat with multiple AIs side by side</span>

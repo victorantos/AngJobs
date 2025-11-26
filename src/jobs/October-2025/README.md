@@ -18,73 +18,73 @@ dir:
 
 <div class="featured-jobs">
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/mattias-moody-n8n-AIWorkflowAutomationPlatform-FullstackEngineersandAppliedAIEngineers-EuropeRem.html">n8n : AI Workflow Automation Platform</a></h3>
+    <h3><a href="/jobs/October-2025/ontic-Ontic-PrincipalSoftwareEngineer-FullStack-Full-Time-RemoteUS-220k-240kUSD-bonus-equity.html">Ontic : Principal Software Engineer - Full Stack</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 moody</span>
-      <span class="author">👤 mattias-moody</span>
+      <span class="company">🏢 Ontic</span>
+      <span class="author">👤 ontic</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/tylerzey-Full-stack-RemoteUS.html">Full-stack : Remote (US)</a></h3>
+    <h3><a href="/jobs/October-2025/f1shear-Berlin-Onsite-Media4Care.html">Berlin : Onsite</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 Berlin</span>
+      <span class="author">👤 f1shear</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/October-2025/deet-Avy-SanFrancisco-OnsiteHybrid-Full-Time.html">Avy : San Francisco</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 Avy</span>
+      <span class="author">👤 deet</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/October-2025/paolocarroll1-Airgoods-PlatformEngineer_DesignEngineer_MobileEngineer-NYC-Full-time-120k-220k.html">Airgoods : Platform Engineer, Design Engineer, Mobile Engineer</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 Airgoods</span>
+      <span class="author">👤 paolocarroll1</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/October-2025/equinox23-CoreFlowAI-SoftwareEngineer-SydneyONSITE-Full-Time-300-500kAUD-equity.html">Core Flow AI : Software Engineer</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 CoreFlowAI</span>
+      <span class="author">👤 equinox23</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/October-2025/8iterations-JäntraBiosystems-MultipleRoles-SanFranciscoorRemote-Full-time-Salary-Equity.html">Jäntra Biosystems : Multiple Roles</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 JäntraBiosystems</span>
+      <span class="author">👤 8iterations</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/October-2025/makeavish-SigNoz-DevOpsEngineer-Support-RemoteIndia-Full-time.html">SigNoz : DevOps Engineer - Support</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 SigNoz</span>
+      <span class="author">👤 makeavish</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/October-2025/mertens-CrazyGames-REMOTEinEurope-Full-time-Multipleroles.html">CrazyGames : REMOTE (in Europe)</a></h3>
+    <div class="job-meta">
+      <span class="company">🏢 CrazyGames</span>
+      <span class="author">👤 mertens</span>
+    </div>
+  </div>
+  <div class="featured-job">
+    <h3><a href="/jobs/October-2025/dilipdasilva-Full-time.html">Full-time</a></h3>
     <div class="job-meta">
       <span class="company">🏢 Full</span>
-      <span class="author">👤 tylerzey</span>
+      <span class="author">👤 dilipdasilva</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/October-2025/justcallmejm-Aloe-VancouverBCCanada-ONSITE.html">Aloe : Vancouver BC Canada</a></h3>
+    <h3><a href="/jobs/October-2025/willgogo-GoGoGrandparentYCS16-FULLYREMOTE-Full-time-ESTtimezone-100k-200kpartiallylocation.html">GoGoGrandparent (YC S16) : FULLY REMOTE</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Aloe</span>
-      <span class="author">👤 justcallmejm</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/October-2025/LLgordon-Findigs-Full-time-NYC-findigs_com.html">Findigs : Full-time</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 Findigs</span>
-      <span class="author">👤 LLgordon</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/October-2025/rwesselink-CCVPayments-Juniortomid-levelsoftwareengineer-OnsiteNL-Full-time-€50k-€60k.html">CCV Payments : Junior to mid-level software engineer</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 CCVPayments</span>
-      <span class="author">👤 rwesselink</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/October-2025/mattpratt-CaspianTrade-ProductEngineer-Full-Time-SF-meetcaspian_com.html">Caspian Trade : Product Engineer</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 CaspianTrade</span>
-      <span class="author">👤 mattpratt</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/October-2025/maayan-crux-Crux-cruxclimate_com-Full-time-Hiringacrosseng_Product_Design-140k-250kbase-equity.html">Crux : cruxclimate.com</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 crux</span>
-      <span class="author">👤 maayan-crux</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/October-2025/justicz-ChargeRobotics-RoboticSystemOperator-Full-timetravelonjobsitesHiHN!We_reaYC-backed_Se.html">Charge Robotics : Robotic System Operator</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 ChargeRobotics</span>
-      <span class="author">👤 justicz</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/October-2025/sarachilton-JustPark-London-RemoteorHybrid-Full-time.html">JustPark : London</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 JustPark</span>
-      <span class="author">👤 sarachilton</span>
-    </div>
-  </div>
-  <div class="featured-job">
-    <h3><a href="/jobs/October-2025/doistcareers-Doist-BackendEngineer_AppleEngineer-REMOTE-Full-time.html">Doist : Backend Engineer, Apple Engineer</a></h3>
-    <div class="job-meta">
-      <span class="company">🏢 Doist</span>
-      <span class="author">👤 doistcareers</span>
+      <span class="company">🏢 GoGoGrandparentYCS16</span>
+      <span class="author">👤 willgogo</span>
     </div>
   </div>
 </div>

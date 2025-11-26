@@ -27,7 +27,9 @@
       "Bash(git push origin main)",
       "Bash(./rename-special-chars.sh:*)",
       "Bash(/Users/victora/RiderProjects/AngJobs/rename-special-chars.sh)",
-      "Bash(bash:*)"
+      "Bash(bash:*)",
+      "Bash(npm run docs:build:*)",
+      "Bash(git commit:*)"
     ],
     "deny": []
   }
