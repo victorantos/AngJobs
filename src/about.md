@@ -6,7 +6,7 @@ icon: user
 <div style="max-width: 600px; margin: 0 auto;">
 
 <div style="text-align: center; margin-bottom: 32px;">
-  <img src="/victor-antos.jpg" alt="Victor Antofica" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; margin-bottom: 16px;" />
+  <img src="/victor-antos.jpg" alt="Victor Antofica" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; object-position: top; margin-bottom: 16px;" />
   <h1 style="margin: 0 0 4px 0; font-size: 24px;">Victor Antofica</h1>
   <p style="margin: 0; color: #666;">Creator of AngJobs</p>
 </div>
