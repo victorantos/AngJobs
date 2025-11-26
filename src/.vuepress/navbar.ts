@@ -16,5 +16,10 @@ export default navbar([
     text: "Post a Job",
     icon: "plus",
     link: "/jobs/"
+  },
+  {
+    text: "About",
+    icon: "user",
+    link: "/about"
   }
 ]);
