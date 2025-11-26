@@ -4,7 +4,6 @@ import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   hostname: "https://angjobs.com",
-  name: "AngJobs - Hacker News Jobs",
   author: {
     name: "victorantos",
     url: "https://angjobs.com",
