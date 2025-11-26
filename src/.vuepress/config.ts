@@ -22,6 +22,7 @@ export default defineUserConfig({
     // Note: og:* and twitter:* tags are handled by vuepress-theme-hope SEO plugin per-page
     
     // Favicon and icons
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon-simple.svg' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32.png' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16.png' }],
