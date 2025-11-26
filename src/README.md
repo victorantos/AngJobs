@@ -40,3 +40,11 @@ features:
     <span style="color: #666;"> Try <a href="https://muz11.com" target="_blank" style="color: #667eea; font-weight: 600;">Muz11</a> — 100+ human-curated playlists for coding.</span>
   </div>
 </div>
+
+<div style="display: flex; align-items: center; gap: 12px; padding: 16px; background: linear-gradient(135deg, #4CAF5011 0%, #2196F311 100%); border-radius: 8px; margin-top: 12px;">
+  <img src="/codorex-icon.png" alt="Codorex" width="40" height="40" style="border-radius: 8px;" />
+  <div>
+    <strong style="color: #4CAF50;">Kids want to code?</strong>
+    <span style="color: #666;"> <a href="https://codorex.com" target="_blank" style="color: #4CAF50; font-weight: 600;">Codorex</a> — AI-powered game creation for ages 7-14.</span>
+  </div>
+</div>
