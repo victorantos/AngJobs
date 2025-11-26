@@ -44,6 +44,7 @@ The HN job threads are great but hard to navigate — hundreds of comments, no s
 
 ## Get in Touch
 
+- Email: [hello@angjobs.com](mailto:hello@angjobs.com)
 - Website: [victorantos.com](https://victorantos.com)
 - GitHub: [github.com/victorantos](https://github.com/victorantos)
 
