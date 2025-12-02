@@ -1,10 +1,11 @@
 ---
-title: Promoted Jobs
-icon: lightbulb
+title: Post a Job
+icon: plus
 ---
-### Showcase Your Job Opportunity with AngJobs
 
-Join our streamlined process to post your job advertisement quickly and effectively:
+## Post Your Job on AngJobs
+
+Reach developers who read Hacker News. Quick process:
 
 **Step 1: Edit and Submit**
 

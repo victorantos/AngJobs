@@ -18,73 +18,73 @@ dir:
 
 <div class="featured-jobs">
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/threeturn-MultipleRoles-Romania_Poland_Italy.html">Multiple Roles : Romania, Poland, Italy</a></h3>
+    <h3><a href="/jobs/September-2025/austil-Upway-ParisHybrid-Full-time.html">Upway : Paris (Hybrid)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 MultipleRoles</span>
-      <span class="author">👤 threeturn</span>
+      <span class="company">🏢 Upway</span>
+      <span class="author">👤 austil</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/Jaketeagle-V7-www_v7labs_com-LondonorNewYork-Hybrid.html">V7 : www.v7labs.com</a></h3>
+    <h3><a href="/jobs/September-2025/konstantina_ps-Kaedim-SoftwareEngineer_MachineLearningEngineer_CustomerSupportEngineer_ProductMa.html">Kaedim : Software Engineer, Machine Learning Engineer, Customer Support Engineer, Product Manager, Founding Recruiter</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 V7</span>
-      <span class="author">👤 Jaketeagle</span>
+      <span class="company">🏢 Kaedim</span>
+      <span class="author">👤 konstantina_ps</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/sarrma-StealthSolarTechStartup-RemoteEU-friendly-Full-timeorContract.html">Stealth Solar Tech Startup : Remote (EU-friendly)</a></h3>
+    <h3><a href="/jobs/September-2025/AbsintheLabs-AbsintheLabs-Full-StackEngineer-Full-Time.html">Absinthe Labs : Full-Stack Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 StealthSolarTechStartup</span>
-      <span class="author">👤 sarrma</span>
+      <span class="company">🏢 AbsintheLabs</span>
+      <span class="author">👤 AbsintheLabs</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/dnlphys-Greenline-FoundingEngineerRoles-RemoteU_S_only.html">Greenline : Founding Engineer Roles</a></h3>
+    <h3><a href="/jobs/September-2025/wwolffrec-CategoryLabs-RemoteandNYC-FullTime-200KUSD.html">Category Labs : Remote and NYC</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Greenline</span>
-      <span class="author">👤 dnlphys</span>
+      <span class="company">🏢 CategoryLabs</span>
+      <span class="author">👤 wwolffrec</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/trevolutionary-Retirable-SeniorEngineer-NYC_hybridonsiteFlatiron.html">Retirable : Senior Engineer</a></h3>
+    <h3><a href="/jobs/September-2025/zukee-Clerq-onsiteNYC.html">Clerq : onsite (NYC)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Retirable</span>
-      <span class="author">👤 trevolutionary</span>
+      <span class="company">🏢 Clerq</span>
+      <span class="author">👤 zukee</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/willgogo-GoGoGrandparentYCS16-FULLYREMOTE-Full-time-ESTtimezone.html">GoGoGrandparent (YC S16) : FULLY REMOTE</a></h3>
+    <h3><a href="/jobs/September-2025/zecto-BCC-PlatformSystemsEngineers-BethesdaMD-ONSITEorREMOTE_VISA-Competitivecompensation!.html">BCC : Platform Systems Engineers</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 GoGoGrandparentYCS16</span>
-      <span class="author">👤 willgogo</span>
+      <span class="company">🏢 BCC</span>
+      <span class="author">👤 zecto</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/LLgordon-Findigs-Full-time-NYC.html">Findigs : Full-time</a></h3>
+    <h3><a href="/jobs/September-2025/dowakin-9MothersDefense-HybridAustinTX-Full-time.html">9 Mothers Defense : Hybrid (Austin TX)</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Findigs</span>
-      <span class="author">👤 LLgordon</span>
+      <span class="company">🏢 9MothersDefense</span>
+      <span class="author">👤 dowakin</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/jadowdl-ProphetTownLLC-VariousSoftwareEngineeringRoles-US–RemoteandHybrid-Englishfluencyrequired.html">Prophet Town LLC : Various Software Engineering Roles</a></h3>
+    <h3><a href="/jobs/September-2025/nthz554-CambridgeTerahertz-ONSITESantaClara_CA-Full-time.html">Cambridge Terahertz : ONSITE Santa Clara, CA</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 ProphetTownLLC</span>
-      <span class="author">👤 jadowdl</span>
+      <span class="company">🏢 CambridgeTerahertz</span>
+      <span class="author">👤 nthz554</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/some-ai-dev-EAGL-Ghent_Belgium-Onsite-Full-Time.html">EAGL : Ghent, Belgium</a></h3>
+    <h3><a href="/jobs/September-2025/edwardfsoler-Attendi-MLPlatformEngineer-Amsterdam_Netherlands-ON-SITEhybrid-Full-time80-100_.html">Attendi : ML Platform Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 ai</span>
-      <span class="author">👤 some-ai-dev</span>
+      <span class="company">🏢 Attendi</span>
+      <span class="author">👤 edwardfsoler</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/September-2025/crossman-DigitalOnboarding-SeniorFull-stackEngineer-REMOTEUSbased-Fulltime.html">Digital Onboarding : Senior Full-stack Engineer</a></h3>
+    <h3><a href="/jobs/September-2025/lausingh-Checkly-MultipleRoles-REMOTEUTC-3toUTC-3-Fulltime.html">Checkly : Multiple Roles</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 DigitalOnboarding</span>
-      <span class="author">👤 crossman</span>
+      <span class="company">🏢 Checkly</span>
+      <span class="author">👤 lausingh</span>
     </div>
   </div>
 </div>

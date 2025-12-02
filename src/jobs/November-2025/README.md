@@ -18,73 +18,73 @@ dir:
 
 <div class="featured-jobs">
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/punjabikura-Onsite.html">Onsite</a></h3>
+    <h3><a href="/jobs/November-2025/sidravi1-IDinsight-India_Senegal_Kenya.html">IDinsight : India, Senegal, Kenya</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Onsite</span>
-      <span class="author">👤 punjabikura</span>
+      <span class="company">🏢 IDinsight</span>
+      <span class="author">👤 sidravi1</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/chadd-SitchApp-FoundingProductManager-Full-time.html">Sitch App : Founding Product Manager</a></h3>
+    <h3><a href="/jobs/November-2025/sahillavingia.html">sahillavingia</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 SitchApp</span>
-      <span class="author">👤 chadd</span>
+      <span class="company">🏢 Company</span>
+      <span class="author">👤 sahillavingia</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/eightnoteight-ZenactAI-Full-Time-6-MonthInternships-OnsiteBangalore.html">Zenact AI : Full-Time + 6-Month Internships</a></h3>
+    <h3><a href="/jobs/November-2025/massens-HappyScribe-Full-time.html">Happy Scribe : Full-time</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 ZenactAI</span>
-      <span class="author">👤 eightnoteight</span>
+      <span class="company">🏢 HappyScribe</span>
+      <span class="author">👤 massens</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/umrashrf-YOUAREWELCOME!.html">YOU ARE WELCOME !</a></h3>
+    <h3><a href="/jobs/November-2025/corradoTurbo.html">corradoTurbo</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 YOUAREWELCOME!</span>
-      <span class="author">👤 umrashrf</span>
+      <span class="company">🏢 Company</span>
+      <span class="author">👤 corradoTurbo</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/janlin1999-DocSpot-ONSITESantaClara_CA.html">DocSpot : ONSITE (Santa Clara, CA)</a></h3>
+    <h3><a href="/jobs/November-2025/mcg_ab_sec-Abnormal_AISeriesD_5_1BillionvaluationUnicorn-Full-time.html">Abnormal.AI (Series D, 5.1 Billion valuation Unicorn) : Full-time</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 DocSpot</span>
-      <span class="author">👤 janlin1999</span>
+      <span class="company">🏢 Abnormal_AISeriesD_5_1BillionvaluationUnicorn</span>
+      <span class="author">👤 mcg_ab_sec</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/ricw-Truetax-SanFranciscoHybridorREMOTEUS-Full-time.html">Truetax : San Francisco (Hybrid) or REMOTE (US)</a></h3>
+    <h3><a href="/jobs/November-2025/_liam-GuidelineGuru-SeniorSoftwareEngineer-RemoteUSEasternTime±2hrs-Full-time.html">Guideline Guru : Senior Software Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Truetax</span>
-      <span class="author">👤 ricw</span>
+      <span class="company">🏢 GuidelineGuru</span>
+      <span class="author">👤 _liam</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/webviswerk53-IABG-FullstackWebDeveloperFEFocus-OnsiteGermanywith60_Remote-GermanFluencyRequi.html">IABG : Fullstack Web Developer (FE Focus)</a></h3>
+    <h3><a href="/jobs/November-2025/niksmac-AnkrHealthisaUS-basedcompanywithofficesinSanFrancisco_Houston_andBangalore_.html">Ankr Health is a US-based company with offices in San Francisco, Houston, and Bangalore.</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 IABG</span>
-      <span class="author">👤 webviswerk53</span>
+      <span class="company">🏢 AnkrHealthisaUS</span>
+      <span class="author">👤 niksmac</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/Terra_AI_HQ-TerraAI-RemoteorHybridinRedwoodCityOffices.html">Terra AI : Remote or Hybrid in Redwood City Offices</a></h3>
+    <h3><a href="/jobs/November-2025/arch1e.html">arch1e</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 TerraAI</span>
-      <span class="author">👤 Terra_AI_HQ</span>
+      <span class="company">🏢 Company</span>
+      <span class="author">👤 arch1e</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/Tina-Fet-FetLife-SeniorDevOpsEngineer-Full-Time-Remote.html">FetLife : Senior DevOps Engineer</a></h3>
+    <h3><a href="/jobs/November-2025/bill_duckduckgo-DuckDuckGo-MultipleRoles-Remote-Full-time-178_500-320_000USD-equity.html">DuckDuckGo : Multiple Roles</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 Fet</span>
-      <span class="author">👤 Tina-Fet</span>
+      <span class="company">🏢 DuckDuckGo</span>
+      <span class="author">👤 bill_duckduckgo</span>
     </div>
   </div>
   <div class="featured-job">
-    <h3><a href="/jobs/November-2025/WireScreenNYC-WireScreenSeriesA-SeniorSoftwareEngineer-NYC-hybrid-Full-time-165k-210kbase-eq.html">WireScreen (Series A) : Senior Software Engineer</a></h3>
+    <h3><a href="/jobs/November-2025/L_226-AIRMO-EmbeddedSWE_ElectronicsEngineer-Berlin-onsite-Full-time.html">AIRMO : Embedded SWE, Electronics Engineer</a></h3>
     <div class="job-meta">
-      <span class="company">🏢 WireScreenSeriesA</span>
-      <span class="author">👤 WireScreenNYC</span>
+      <span class="company">🏢 AIRMO</span>
+      <span class="author">👤 L_226</span>
     </div>
   </div>
 </div>
