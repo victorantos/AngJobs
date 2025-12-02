@@ -1,0 +1,55 @@
+<svg width="400" height="120" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="orangeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6600;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8833;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Icon: Stylized "AJ" with upward arrow/bracket -->
+  <g id="icon">
+    <!-- A with upward arrow integrated -->
+    <path d="M 30 80 L 50 25 L 70 80 M 38 60 L 62 60"
+          stroke="url(#orangeGradient)"
+          stroke-width="6"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          fill="none"/>
+
+    <!-- J with modern curve -->
+    <path d="M 85 30 L 85 65 Q 85 80 75 80 Q 65 80 65 70"
+          stroke="#2C3E50"
+          stroke-width="6"
+          stroke-linecap="round"
+          fill="none"/>
+
+    <!-- Upward arrow accent -->
+    <path d="M 48 28 L 50 22 L 52 28"
+          stroke="url(#orangeGradient)"
+          stroke-width="3"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          fill="none"/>
+  </g>
+
+  <!-- Text: AngJobs -->
+  <g id="wordmark">
+    <text x="110" y="72"
+          font-family="'Segoe UI', Arial, sans-serif"
+          font-size="48"
+          font-weight="700"
+          fill="#2C3E50">
+      Ang<tspan fill="url(#orangeGradient)">Jobs</tspan>
+    </text>
+
+    <!-- Subtitle -->
+    <text x="112" y="92"
+          font-family="'Segoe UI', Arial, sans-serif"
+          font-size="14"
+          font-weight="400"
+          fill="#7F8C8D"
+          letter-spacing="2">
+      FROM HACKER NEWS
+    </text>
+  </g>
+</svg>
