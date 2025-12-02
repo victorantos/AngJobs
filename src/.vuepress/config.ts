@@ -6,7 +6,7 @@ export default defineUserConfig({
   base: "/",
 
   lang: "en-US",
-  title: "AngJobs - Hacker News Job Board",
+  title: "AngJobs",
   description: "Find your next hacker job from Hacker News monthly threads. Browse the latest tech jobs, remote positions, and startup opportunities.",
 
   theme,

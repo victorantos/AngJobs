@@ -31,7 +31,7 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "Find your next hacker job | AngJobs © 2025",
+  footer: "Find your next hacker job | AngJobs © 2025 <a href=\"https://victorantos.com\" target=\"_blank\">victorantos</a>",
 
   displayFooter: true,
 
