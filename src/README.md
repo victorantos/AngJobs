@@ -4,30 +4,30 @@ title: AngJobs
 heroText: Tech Jobs from Hacker News
 tagline: 250+ verified opportunities from the monthly "Who is hiring?" threads
 actions:
-  - text: December 2025 Jobs
-    link: /jobs/December-2025/
+  - text: January 2026 Jobs
+    link: /jobs/January-2026/
     type: primary
-  - text: November 2025
-    link: /jobs/November-2025/
+  - text: December 2025
+    link: /jobs/December-2025/
     type: secondary
 features:
   - title: Direct from HN
     details: Jobs posted by founders and hiring managers in monthly threads
-  - title: 250+ This Month
-    details: December 2025 has 256 fresh opportunities from top companies
+  - title: 257+ This Month
+    details: January 2026 has 257 fresh opportunities from top companies
   - title: No Middlemen
     details: Apply directly to companies - no recruiters, no spam
 ---
 
-## December 2025 Jobs
+## January 2026 Jobs
 
-[Browse 256+ jobs](/jobs/December-2025/) from the latest Hacker News thread.
+[Browse 257+ jobs](/jobs/January-2026/) from the latest Hacker News thread.
 
 | Month | Jobs |
 |-------|------|
-| [December 2025](/jobs/December-2025/) | 256+ |
-| [November 2025](/jobs/November-2025/) | 307 |
-| [October 2025](/jobs/October-2025/) | 339 |
+| [January 2026](/jobs/January-2026/) | 257+ |
+| [December 2025](/jobs/December-2025/) | 249 |
+| [November 2025](/jobs/November-2025/) | 309 |
 
 **Companies hiring:** DuckDuckGo, Anthropic, OpenAI, Temporal, Shield AI, NVIDIA, and more.
 
