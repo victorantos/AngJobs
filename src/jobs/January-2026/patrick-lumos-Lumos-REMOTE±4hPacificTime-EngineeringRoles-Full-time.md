@@ -20,7 +20,7 @@ Engineering Openings:
 
 - Staff Software Engineer, Workflows Platform
 
--&gt; Apply Here: <a href="https:&#x2F;&#x2F;job-boards.greenhouse.io&#x2F;lumos?gh_src=qyzy7ynq3us" rel="nofollow">https:&#x2F;&#x2F;job-boards.greenhouse.io&#x2F;lumos?gh_src=qyzy7ynq3us</a>
+-&gt; Apply Here: <a href="https:&#x2F;&#x2F;job-boards.greenhouse.io&#x2F;lumos" rel="nofollow">https:&#x2F;&#x2F;job-boards.greenhouse.io&#x2F;lumos</a>
 
 Feel free to reach out directly to me: patrick [at] lumos.com
 <JobApplication />

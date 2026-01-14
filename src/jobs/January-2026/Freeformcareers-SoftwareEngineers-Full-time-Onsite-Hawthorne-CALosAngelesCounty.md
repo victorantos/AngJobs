@@ -16,6 +16,8 @@ Our feature in TechCrunch! <a href="https:&#x2F;&#x2F;techcrunch.com&#x2F;2024&#
 
 + Lead Software Engineer (Full Stack Enterprise) - <a href="https:&#x2F;&#x2F;grnh.se&#x2F;yx5hq2sz3us" rel="nofollow">https:&#x2F;&#x2F;grnh.se&#x2F;yx5hq2sz3us</a>
 
++ Senior Software Engineer, Factory Software C++ (Skyfall) - <a href="https:&#x2F;&#x2F;grnh.se&#x2F;ddgoq9yh3us" rel="nofollow">https:&#x2F;&#x2F;grnh.se&#x2F;ddgoq9yh3us</a>
+
 + Senior Software Engineer (Edge Data &amp; Telemetry) - <a href="https:&#x2F;&#x2F;grnh.se&#x2F;j8jyvaj03us" rel="nofollow">https:&#x2F;&#x2F;grnh.se&#x2F;j8jyvaj03us</a>
 
 + Software Engineer (Edge Data &amp; Telemetry) - <a href="https:&#x2F;&#x2F;grnh.se&#x2F;9z8omwl13us" rel="nofollow">https:&#x2F;&#x2F;grnh.se&#x2F;9z8omwl13us</a>

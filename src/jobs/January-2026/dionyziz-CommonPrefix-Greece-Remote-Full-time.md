@@ -16,8 +16,6 @@ Tech stack: Doesn&#x27;t matter, we&#x27;ll teach you. But we work mostly with R
 
 Open roles:
 
-- Support Engineer (junior-mid): <a href="https:&#x2F;&#x2F;www.notion.so&#x2F;commonprefix&#x2F;Opening-Support-Engineer-2cabf672de8280438811f66b37f4b685?source=copy_link" rel="nofollow">https:&#x2F;&#x2F;www.notion.so&#x2F;commonprefix&#x2F;Opening-Support-Engineer-...</a>
-
 - Software Engineer (mid): <a href="https:&#x2F;&#x2F;www.notion.so&#x2F;commonprefix&#x2F;Opening-Software-Engineer-2b2bf672de8280b8850ac8649bf6942c?source=copy_link" rel="nofollow">https:&#x2F;&#x2F;www.notion.so&#x2F;commonprefix&#x2F;Opening-Software-Engineer...</a>
 
 - Senior Software Engineer: <a href="https:&#x2F;&#x2F;www.notion.so&#x2F;commonprefix&#x2F;Opening-Senior-Software-Engineer-ae6c6e687c26420abe76e0543d0f79bf?source=copy_link" rel="nofollow">https:&#x2F;&#x2F;www.notion.so&#x2F;commonprefix&#x2F;Opening-Senior-Software-E...</a>
