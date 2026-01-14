@@ -1,0 +1,18 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="#6F4E37"/>
+
+  <!-- Simplified coffee cup -->
+  <g transform="translate(5, 6)">
+    <!-- Cup body -->
+    <path d="M3 4 L3 16 Q3 20 7 20 L15 20 Q19 20 19 16 L19 4 Z" fill="#F5E6D3"/>
+    <!-- Cup handle -->
+    <path d="M19 6 Q24 6 24 11 Q24 16 19 16" fill="none" stroke="#F5E6D3" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Coffee inside -->
+    <path d="M5 6 L5 15 Q5 18 8 18 L14 18 Q17 18 17 15 L17 6 Z" fill="#4A3428"/>
+    <!-- Steam (simplified) -->
+    <path d="M8 2 Q9 0 8 -2" stroke="#F5E6D3" stroke-width="1.5" fill="none" opacity="0.8" stroke-linecap="round"/>
+    <path d="M11 1 Q12 -1 11 -3" stroke="#F5E6D3" stroke-width="1.5" fill="none" opacity="0.7" stroke-linecap="round"/>
+    <path d="M14 2 Q15 0 14 -2" stroke="#F5E6D3" stroke-width="1.5" fill="none" opacity="0.8" stroke-linecap="round"/>
+  </g>
+</svg>

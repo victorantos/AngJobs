@@ -56,3 +56,11 @@ features:
     <span style="color: #666;"> Try <a href="https://sneos.com" target="_blank" style="color: #9333ea; font-weight: 600;">Sneos</a> — chat with multiple AIs side by side.</span>
   </div>
 </div>
+
+<div style="display: flex; align-items: center; gap: 12px; padding: 16px; background: linear-gradient(135deg, #78350f11 0%, #b4540011 100%); border-radius: 8px; margin-top: 12px;">
+  <img src="/careercoffee-icon.svg" alt="Career.Coffee" width="40" height="40" style="border-radius: 8px;" />
+  <div>
+    <strong style="color: #78350f;">Work in coffee?</strong>
+    <span style="color: #666;"> Try <a href="https://career.coffee" target="_blank" style="color: #b45400; font-weight: 600;">Career.Coffee</a> — the professional network for specialty coffee.</span>
+  </div>
+</div>
