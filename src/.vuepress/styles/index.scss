@@ -1,110 +1,425 @@
-// Modern AngJobs theme styles - Mobile First Design with HN aesthetic
+// Apple-Style AngJobs Theme - Clean, Minimal, Elegant
+// Mobile First Design with generous whitespace and subtle depth
 
-// CSS Custom Properties for theming
+// ============================================
+// CSS Custom Properties - Apple Design System
+// ============================================
 :root {
-  // Brand colors - HN inspired
-  --angjobs-primary: #ff6600;
-  --angjobs-primary-dark: #e55500;
+  // Brand colors - Refined orange (softer than HN orange)
+  --apple-primary: #F97316;
+  --apple-primary-hover: #EA580C;
+  --apple-primary-light: #FB923C;
+  --apple-primary-subtle: #FFF7ED;
+
+  // Apple-style grays
+  --apple-bg-primary: #FFFFFF;
+  --apple-bg-secondary: #F5F5F7;
+  --apple-bg-tertiary: #FAFAFA;
+  --apple-text-primary: #1D1D1F;
+  --apple-text-secondary: #6E6E73;
+  --apple-text-tertiary: #86868B;
+  --apple-border-light: rgba(0, 0, 0, 0.08);
+  --apple-border-medium: rgba(0, 0, 0, 0.12);
+
+  // Legacy variable mappings for compatibility
+  --angjobs-primary: var(--apple-primary);
+  --angjobs-primary-dark: var(--apple-primary-hover);
   --angjobs-secondary: #2C3E50;
-  --angjobs-success: #4CAF50;
-  --angjobs-warning: #FF9800;
-  --angjobs-error: #F44336;
-  --angjobs-bg-main: #f6f6ef;
-  --angjobs-text-primary: #1a1a1a;
-  --angjobs-text-secondary: #666;
-  --angjobs-border: #e5e7eb;
-  
-  // Gradients
-  --angjobs-gradient-primary: linear-gradient(135deg, #FF6600 0%, #FF8833 100%);
-  --angjobs-gradient-secondary: linear-gradient(135deg, #2C3E50 0%, #34495e 100%);
-  
-  // Shadows
-  --angjobs-shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
-  --angjobs-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.15);
-  --angjobs-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.2);
-  --angjobs-shadow-xl: 0 12px 32px rgba(0, 0, 0, 0.25);
-  
-  // Borders
-  --angjobs-border-radius: 8px;
-  --angjobs-border-radius-lg: 12px;
-  --angjobs-border-radius-xl: 16px;
-  
-  // Spacing
-  --angjobs-space-xs: 0.25rem;
-  --angjobs-space-sm: 0.5rem;
-  --angjobs-space-md: 1rem;
-  --angjobs-space-lg: 1.5rem;
-  --angjobs-space-xl: 2rem;
-  --angjobs-space-2xl: 3rem;
-  
-  // Typography
-  --angjobs-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  --angjobs-font-mono: 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;
-  
-  // Transitions
-  --angjobs-transition: all 0.2s ease;
-  --angjobs-transition-slow: all 0.3s ease;
+  --angjobs-success: #34C759;
+  --angjobs-warning: #FF9F0A;
+  --angjobs-error: #FF3B30;
+  --angjobs-bg-main: var(--apple-bg-secondary);
+  --angjobs-text-primary: var(--apple-text-primary);
+  --angjobs-text-secondary: var(--apple-text-secondary);
+  --angjobs-border: var(--apple-border-light);
+
+  // Shadows - Diffused, not harsh (Apple style)
+  --apple-shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --apple-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 6px rgba(0, 0, 0, 0.04);
+  --apple-shadow-md: 0 2px 8px rgba(0, 0, 0, 0.06), 0 4px 16px rgba(0, 0, 0, 0.04);
+  --apple-shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.08), 0 8px 32px rgba(0, 0, 0, 0.06);
+  --apple-shadow-xl: 0 8px 24px rgba(0, 0, 0, 0.10), 0 16px 48px rgba(0, 0, 0, 0.08);
+  --apple-shadow-hover: 0 8px 30px rgba(0, 0, 0, 0.12);
+  --apple-shadow-colored: 0 4px 16px rgba(249, 115, 22, 0.20);
+
+  // Legacy shadow mappings
+  --angjobs-shadow-sm: var(--apple-shadow-sm);
+  --angjobs-shadow-md: var(--apple-shadow-md);
+  --angjobs-shadow-lg: var(--apple-shadow-lg);
+  --angjobs-shadow-xl: var(--apple-shadow-xl);
+
+  // Border radius - Larger, more rounded (Apple style)
+  --apple-radius-sm: 10px;
+  --apple-radius-md: 14px;
+  --apple-radius-lg: 20px;
+  --apple-radius-xl: 24px;
+  --apple-radius-pill: 9999px;
+
+  // Legacy radius mappings
+  --angjobs-border-radius: var(--apple-radius-md);
+  --angjobs-border-radius-lg: var(--apple-radius-lg);
+  --angjobs-border-radius-xl: var(--apple-radius-xl);
+
+  // Spacing - Generous whitespace
+  --apple-space-xs: 0.25rem;    // 4px
+  --apple-space-sm: 0.5rem;     // 8px
+  --apple-space-md: 1rem;       // 16px
+  --apple-space-lg: 1.5rem;     // 24px
+  --apple-space-xl: 2rem;       // 32px
+  --apple-space-2xl: 3rem;      // 48px
+  --apple-space-3xl: 4rem;      // 64px
+
+  // Legacy spacing mappings
+  --angjobs-space-xs: var(--apple-space-xs);
+  --angjobs-space-sm: var(--apple-space-sm);
+  --angjobs-space-md: var(--apple-space-md);
+  --angjobs-space-lg: var(--apple-space-lg);
+  --angjobs-space-xl: var(--apple-space-xl);
+  --angjobs-space-2xl: var(--apple-space-2xl);
+
+  // Typography - SF Pro inspired
+  --apple-font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --apple-font-mono: 'SF Mono', 'Fira Code', Consolas, 'Liberation Mono', Menlo, monospace;
+
+  // Legacy font mappings
+  --angjobs-font-family: var(--apple-font-family);
+  --angjobs-font-mono: var(--apple-font-mono);
+
+  // Transitions - Smooth with ease-out
+  --apple-transition-fast: all 0.15s ease-out;
+  --apple-transition: all 0.25s ease-out;
+  --apple-transition-slow: all 0.35s ease-out;
+  --apple-transition-spring: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  // Legacy transition mappings
+  --angjobs-transition: var(--apple-transition);
+  --angjobs-transition-slow: var(--apple-transition-slow);
+
+  // Glass effect
+  --apple-glass-bg: rgba(255, 255, 255, 0.72);
+  --apple-glass-border: rgba(255, 255, 255, 0.5);
 }
 
 // Override theme variables
 html {
-  --theme-color: var(--angjobs-primary);
-  --theme-color-dark: var(--angjobs-primary-dark);
+  --theme-color: var(--apple-primary);
+  --theme-color-dark: var(--apple-primary-hover);
 }
 
-// Base styles
+// ============================================
+// Base Styles
+// ============================================
 body {
-  font-family: var(--angjobs-font-family);
+  font-family: var(--apple-font-family);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--apple-text-primary);
+  background: var(--apple-bg-secondary);
 }
 
-// Enhanced buttons
+// ============================================
+// Typography - Apple Style
+// ============================================
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-bottom: var(--apple-space-md);
+  color: var(--apple-text-primary);
+}
+
+h1 {
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+h2 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  letter-spacing: -0.025em;
+}
+
+h3 {
+  font-size: clamp(1.375rem, 3vw, 1.875rem);
+}
+
+h4 {
+  font-size: clamp(1.125rem, 2.5vw, 1.5rem);
+}
+
+// Display text for hero sections
+.display-text {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+// ============================================
+// Buttons - Apple Style
+// ============================================
 .btn {
-  border-radius: var(--angjobs-border-radius);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.875rem 1.75rem;
+  border-radius: var(--apple-radius-pill);
   font-weight: 500;
-  transition: var(--angjobs-transition);
-  
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+  border: none;
+  cursor: pointer;
+  transition: var(--apple-transition);
+  text-decoration: none;
+
   &:hover {
-    transform: translateY(-1px);
+    transform: translateY(-2px);
   }
-  
+
+  &:active {
+    transform: translateY(0);
+  }
+
   &.btn-primary {
-    background: var(--angjobs-gradient-primary);
-    border: none;
-    box-shadow: var(--angjobs-shadow-sm);
-    
+    background: var(--apple-primary);
+    color: white;
+    box-shadow: var(--apple-shadow-sm);
+
     &:hover {
-      box-shadow: var(--angjobs-shadow-md);
+      background: var(--apple-primary-hover);
+      box-shadow: var(--apple-shadow-colored);
+    }
+  }
+
+  &.btn-secondary {
+    background: var(--apple-bg-secondary);
+    color: var(--apple-text-primary);
+
+    &:hover {
+      background: var(--apple-border-light);
+    }
+  }
+
+  &.btn-outline {
+    background: transparent;
+    color: var(--apple-primary);
+    border: 1.5px solid var(--apple-primary);
+
+    &:hover {
+      background: var(--apple-primary-subtle);
+    }
+  }
+
+  &.btn-ghost {
+    background: transparent;
+    color: var(--apple-primary);
+
+    &:hover {
+      background: var(--apple-primary-subtle);
     }
   }
 }
 
-// Custom badge styles
-.badge {
-  &.badge-tech {
-    background: rgba(255, 102, 0, 0.1);
-    color: var(--angjobs-primary);
-    border: 1px solid rgba(255, 102, 0, 0.2);
-    font-weight: 500;
-    padding: 0.25rem 0.75rem;
-    border-radius: 20px;
+// ============================================
+// Badges/Tags - Pill shaped, muted
+// ============================================
+.badge, .tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.375rem 0.875rem;
+  border-radius: var(--apple-radius-pill);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  transition: var(--apple-transition-fast);
+
+  &.badge-tech, &.tag-tech {
+    background: var(--apple-bg-secondary);
+    color: var(--apple-text-secondary);
   }
-  
-  &.badge-remote {
-    background: rgba(76, 175, 80, 0.1);
-    color: var(--angjobs-success);
-    border: 1px solid rgba(76, 175, 80, 0.2);
+
+  &.badge-remote, &.tag-remote {
+    background: rgba(52, 199, 89, 0.12);
+    color: #248A3D;
   }
-  
-  &.badge-salary {
-    background: rgba(255, 152, 0, 0.1);
-    color: var(--angjobs-warning);
-    border: 1px solid rgba(255, 152, 0, 0.2);
+
+  &.badge-salary, &.tag-salary {
+    background: rgba(255, 159, 10, 0.12);
+    color: #C93400;
+  }
+
+  &.badge-primary, &.tag-primary {
+    background: var(--apple-primary-subtle);
+    color: var(--apple-primary);
   }
 }
 
-// Mobile-first responsive utilities
+// ============================================
+// Cards - Borderless with shadow
+// ============================================
+.card {
+  background: var(--apple-bg-primary);
+  border-radius: var(--apple-radius-lg);
+  padding: var(--apple-space-lg);
+  box-shadow: var(--apple-shadow-sm);
+  transition: var(--apple-transition);
+
+  &:hover {
+    box-shadow: var(--apple-shadow-md);
+    transform: translateY(-4px);
+  }
+}
+
+// ============================================
+// Form Elements - Borderless, background-based
+// ============================================
+.form-control,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="search"],
+input[type="url"],
+textarea,
+select {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  border: none;
+  border-radius: var(--apple-radius-md);
+  background: var(--apple-bg-secondary);
+  color: var(--apple-text-primary);
+  transition: var(--apple-transition);
+
+  &::placeholder {
+    color: var(--apple-text-tertiary);
+  }
+
+  &:focus {
+    outline: none;
+    background: var(--apple-bg-primary);
+    box-shadow: 0 0 0 4px rgba(249, 115, 22, 0.15);
+  }
+}
+
+// ============================================
+// Links
+// ============================================
+a {
+  color: var(--apple-primary);
+  text-decoration: none;
+  transition: var(--apple-transition-fast);
+
+  &:hover {
+    color: var(--apple-primary-hover);
+  }
+}
+
+// ============================================
+// Glass Effect
+// ============================================
+.glass {
+  background: var(--apple-glass-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--apple-glass-border);
+}
+
+// ============================================
+// Animations - Smooth, elegant
+// ============================================
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.5s ease-out;
+}
+
+.animate-slide-down {
+  animation: slideDown 0.5s ease-out;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.3s ease-out;
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+// Staggered animation for lists
+.stagger-animation {
+  > * {
+    opacity: 0;
+    animation: slideUp 0.4s ease-out forwards;
+
+    @for $i from 1 through 20 {
+      &:nth-child(#{$i}) {
+        animation-delay: #{$i * 0.05}s;
+      }
+    }
+  }
+}
+
+// ============================================
+// Utility Classes
+// ============================================
 .mobile-hidden {
   @media (max-width: 768px) {
     display: none !important;
@@ -117,91 +432,44 @@ body {
   }
 }
 
-// Loading animations
-@keyframes pulse {
-  0%, 100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
+.text-center {
+  text-align: center;
 }
 
-@keyframes slideInUp {
-  from {
-    transform: translateY(20px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
+.text-secondary {
+  color: var(--apple-text-secondary);
 }
 
-@keyframes fadeInScale {
-  from {
-    transform: scale(0.9);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
+.text-tertiary {
+  color: var(--apple-text-tertiary);
 }
 
-.animate-pulse {
-  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-}
-
-.animate-slide-up {
-  animation: slideInUp 0.5s ease-out;
-}
-
-.animate-fade-scale {
-  animation: fadeInScale 0.3s ease-out;
-}
-
-// Enhanced form elements
-.form-control {
-  border-radius: var(--angjobs-border-radius);
-  border: 1px solid var(--border-color);
-  transition: var(--angjobs-transition);
-  
-  &:focus {
-    border-color: var(--angjobs-primary);
-    box-shadow: 0 0 0 2px rgba(255, 102, 0, 0.1);
-    outline: none;
-  }
-}
-
-// Enhanced typography
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
-  line-height: 1.3;
-  margin-bottom: var(--angjobs-space-md);
-}
-
-h1 {
-  font-size: clamp(2rem, 5vw, 3rem);
-}
-
-h2 {
-  font-size: clamp(1.5rem, 4vw, 2.25rem);
-}
-
-h3 {
-  font-size: clamp(1.25rem, 3vw, 1.75rem);
-}
-
-// Dark mode enhancements
+// ============================================
+// Dark Mode
+// ============================================
 html.dark {
-  --angjobs-shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
-  --angjobs-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
-  --angjobs-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
-  --angjobs-shadow-xl: 0 12px 32px rgba(0, 0, 0, 0.6);
+  --apple-bg-primary: #1C1C1E;
+  --apple-bg-secondary: #2C2C2E;
+  --apple-bg-tertiary: #3A3A3C;
+  --apple-text-primary: #F5F5F7;
+  --apple-text-secondary: #A1A1A6;
+  --apple-text-tertiary: #8E8E93;
+  --apple-border-light: rgba(255, 255, 255, 0.1);
+  --apple-border-medium: rgba(255, 255, 255, 0.15);
+  --apple-glass-bg: rgba(28, 28, 30, 0.72);
+  --apple-glass-border: rgba(255, 255, 255, 0.1);
+
+  // Adjusted shadows for dark mode
+  --apple-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px 6px rgba(0, 0, 0, 0.15);
+  --apple-shadow-md: 0 2px 8px rgba(0, 0, 0, 0.25), 0 4px 16px rgba(0, 0, 0, 0.2);
+  --apple-shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.3), 0 8px 32px rgba(0, 0, 0, 0.25);
+  --apple-shadow-xl: 0 8px 24px rgba(0, 0, 0, 0.35), 0 16px 48px rgba(0, 0, 0, 0.3);
+  --apple-shadow-hover: 0 8px 30px rgba(0, 0, 0, 0.4);
 }
 
-// Accessibility improvements
+// ============================================
+// Accessibility
+// ============================================
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.01ms !important;
@@ -210,152 +478,137 @@ html.dark {
   }
 }
 
-// Focus indicators
 *:focus-visible {
-  outline: 2px solid var(--angjobs-primary);
+  outline: 3px solid var(--apple-primary);
   outline-offset: 2px;
 }
 
-// Mobile-friendly sidebar improvements
+// ============================================
+// Mobile Sidebar - Touch Friendly
+// ============================================
 @media (max-width: 768px) {
-  // Sidebar container
   .sidebar {
-    font-size: 16px !important;  // Larger base font for better readability
+    font-size: 16px !important;
   }
 
-  // Sidebar links - increase touch target size
   .sidebar-link,
   .sidebar-item > a {
-    min-height: 44px !important;  // Minimum touch target size
-    padding: 12px 16px !important;  // Increased padding for easier tapping
-    font-size: 15px !important;  // Larger font size
+    min-height: 48px !important;
+    padding: 14px 18px !important;
+    font-size: 15px !important;
     line-height: 1.5 !important;
     display: flex !important;
     align-items: center !important;
+    border-radius: var(--apple-radius-sm);
+    margin: 2px 8px;
   }
 
-  // Sidebar headings
   .sidebar-heading {
-    min-height: 44px !important;
-    padding: 12px 16px !important;
+    min-height: 48px !important;
+    padding: 14px 18px !important;
     font-size: 16px !important;
     font-weight: 600 !important;
   }
 
-  // Sidebar groups
   .sidebar-group {
     margin-bottom: 8px !important;
   }
 
-  // Sidebar sub-items (nested links)
   .sidebar-sub-headers {
     a {
-      min-height: 42px !important;
-      padding: 10px 16px 10px 32px !important;  // Extra left padding for hierarchy
+      min-height: 44px !important;
+      padding: 12px 18px 12px 36px !important;
       font-size: 14px !important;
     }
   }
 
-  // Active sidebar link - better visual feedback
   .sidebar-link.active,
   .sidebar-item > a.active {
-    background: rgba(255, 102, 0, 0.1) !important;
-    border-left: 4px solid var(--angjobs-primary, #ff6600) !important;
+    background: var(--apple-primary-subtle) !important;
+    color: var(--apple-primary) !important;
     font-weight: 600 !important;
+    border-left: none !important;
+    border-radius: var(--apple-radius-sm) !important;
   }
 
-  // Hover/tap feedback
   .sidebar-link:active,
   .sidebar-item > a:active {
-    background: rgba(255, 102, 0, 0.15) !important;
+    background: var(--apple-bg-secondary) !important;
     transform: scale(0.98);
   }
 
-  // Increase spacing between sidebar items
   .sidebar-links > li,
   .sidebar-group-items > li {
-    margin-bottom: 4px !important;
+    margin-bottom: 2px !important;
   }
 
-  // Sidebar button (collapse/expand)
   .sidebar-button {
-    min-height: 44px !important;
-    padding: 12px 16px !important;
+    min-height: 48px !important;
+    padding: 14px 18px !important;
   }
 }
 
-// Extra spacing for very small screens
 @media (max-width: 480px) {
   .sidebar-link,
   .sidebar-item > a {
-    padding: 14px 18px !important;  // Even more padding
-    font-size: 16px !important;  // Larger font
+    padding: 16px 20px !important;
+    font-size: 16px !important;
   }
 
   .sidebar-heading {
-    padding: 14px 18px !important;
+    padding: 16px 20px !important;
     font-size: 17px !important;
   }
 }
 
-// Enhanced job listing pages with HN style
+// ============================================
+// Job Listing Page Styles
+// ============================================
 .theme-default-content {
-  // Job listing pages
   h1:has(+ ul li a[href*="/jobs/"]),
   h1:has(+ p + ul li a[href*="/jobs/"]) {
-    font-size: 24px;
-    font-weight: 500;
-    color: var(--angjobs-text-primary);
-    margin-bottom: 20px;
-    padding-bottom: 12px;
-    border-bottom: 2px solid var(--angjobs-primary);
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--apple-text-primary);
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border-bottom: none;
+    letter-spacing: -0.02em;
   }
-  
-  // Job list styling
+
   ul:has(li a[href*="/jobs/"]) {
     list-style: none;
     padding: 0;
     margin: 0;
-    
+
     li {
-      background: var(--angjobs-bg-main);
-      border-radius: 8px;
-      padding: 16px 20px;
-      margin-bottom: 12px;
-      transition: all 0.2s;
-      border: 1px solid transparent;
-      position: relative;
-      
+      background: var(--apple-bg-primary);
+      border-radius: var(--apple-radius-lg);
+      padding: 20px 24px;
+      margin-bottom: 16px;
+      transition: var(--apple-transition);
+      box-shadow: var(--apple-shadow-sm);
+      border: none;
+
       &:hover {
-        background: #fff;
-        border-color: var(--angjobs-primary);
-        box-shadow: 0 2px 8px rgba(255, 102, 0, 0.1);
-        transform: translateY(-1px);
+        box-shadow: var(--apple-shadow-md);
+        transform: translateY(-2px);
       }
-      
+
       a {
-        color: var(--angjobs-text-primary);
+        color: var(--apple-text-primary);
         text-decoration: none;
-        font-size: 16px;
+        font-size: 17px;
         font-weight: 500;
         display: block;
-        
+
         &:hover {
-          color: var(--angjobs-primary);
+          color: var(--apple-primary);
         }
-        
+
         &:visited {
-          color: var(--angjobs-text-secondary);
+          color: var(--apple-text-secondary);
         }
-      }
-      
-      // Extract company and job info
-      &::after {
-        content: "";
-        display: block;
-        font-size: 14px;
-        color: var(--angjobs-text-secondary);
-        margin-top: 4px;
       }
     }
   }
@@ -364,279 +617,239 @@ html.dark {
 // Job detail pages
 .theme-default-content:has(.job-application) {
   h1 {
-    font-size: 28px;
-    font-weight: 600;
-    color: var(--angjobs-text-primary);
-    margin-bottom: 16px;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--apple-text-primary);
+    margin-bottom: 12px;
+    letter-spacing: -0.02em;
   }
-  
+
   h2:first-of-type {
     font-size: 20px;
-    color: var(--angjobs-text-secondary);
+    color: var(--apple-text-secondary);
     font-weight: 400;
-    margin-bottom: 24px;
+    margin-bottom: 28px;
   }
-  
+
   p, li {
-    font-size: 15px;
-    line-height: 1.6;
-    color: #374151;
+    font-size: 17px;
+    line-height: 1.65;
+    color: var(--apple-text-primary);
   }
-  
+
   a:not(.job-application a) {
-    color: var(--angjobs-primary);
+    color: var(--apple-primary);
     text-decoration: none;
-    
+
     &:hover {
       text-decoration: underline;
     }
   }
 }
 
-// Add instant search to job listing pages
-.page:has(ul li a[href*="/jobs/"]) {
-  position: relative;
-  
-  &::before {
-    content: "";
-    display: block;
-    height: 60px;
-  }
-}
-
-// Mobile optimizations
-@media (max-width: 768px) {
-  .theme-default-content {
-    padding: 12px !important;
-    
-    h1 {
-      font-size: 20px !important;
-    }
-    
-    ul:has(li a[href*="/jobs/"]) li {
-      padding: 12px 16px;
-      margin-bottom: 8px;
-      
-      a {
-        font-size: 15px;
-      }
-    }
-  }
-}
-
-// Add job count indicator
-.theme-default-content h1:has(+ ul li a[href*="/jobs/"])::after {
-  content: attr(data-job-count);
-  font-size: 14px;
-  color: var(--angjobs-text-secondary);
-  font-weight: 400;
-  margin-left: 12px;
-}
-
-// Simplified month page header styles
+// ============================================
+// Jobs Header - Apple Style
+// ============================================
 .jobs-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: var(--angjobs-bg-main, #f6f6ef);
-  border: 1px solid var(--angjobs-border, #e5e7eb);
-  border-radius: var(--angjobs-border-radius, 12px);
-  padding: 20px 24px;
-  margin: 24px 0;
-  box-sizing: border-box;  // Ensure padding is included in width
+  background: var(--apple-bg-primary);
+  border: none;
+  border-radius: var(--apple-radius-lg);
+  padding: 24px 28px;
+  margin: 28px 0;
+  box-shadow: var(--apple-shadow-sm);
 
   .jobs-count {
     font-size: 18px;
     font-weight: 600;
-    color: var(--angjobs-text-primary, #1a1a1a);
+    color: var(--apple-text-primary);
+    letter-spacing: -0.01em;
   }
 
   .search-all-button {
-    background: var(--angjobs-primary, #ff6600);
+    background: var(--apple-primary);
     color: white;
-    padding: 12px 24px;
-    border-radius: var(--angjobs-border-radius, 8px);
+    padding: 14px 28px;
+    border-radius: var(--apple-radius-pill);
     text-decoration: none;
-    font-weight: 600;
-    font-size: 16px;
-    transition: all 0.2s ease;
-    box-sizing: border-box;  // Ensure padding is included in width
+    font-weight: 500;
+    font-size: 15px;
+    transition: var(--apple-transition);
+    box-shadow: var(--apple-shadow-sm);
 
     &:hover {
-      background: var(--angjobs-primary-dark, #e55500);
-      transform: translateY(-1px);
-      box-shadow: 0 4px 12px rgba(255, 102, 0, 0.3);
+      background: var(--apple-primary-hover);
+      transform: translateY(-2px);
+      box-shadow: var(--apple-shadow-colored);
     }
   }
 
-  // Mobile responsive
   @media (max-width: 768px) {
     flex-direction: column;
-    gap: 12px;
+    gap: 16px;
     text-align: center;
-    padding: 12px;  // Reduce padding on mobile to prevent overflow
-    margin: 16px 0;  // Reduce margin on mobile
+    padding: 20px;
+    margin: 20px 0;
 
     .jobs-count {
-      font-size: 16px;  // Slightly smaller on mobile
+      font-size: 16px;
       width: 100%;
     }
 
     .search-all-button {
-      width: calc(100% - 4px);  // Slightly less than 100% to prevent overflow
+      width: 100%;
       max-width: 100%;
       display: block;
       text-align: center;
-      padding: 10px 12px;  // Reduce padding on mobile
-      font-size: 14px;  // Smaller font on mobile
-      white-space: nowrap;  // Prevent text wrapping
-      overflow: hidden;
-      text-overflow: ellipsis;
-      margin: 0 auto;  // Center the button
+      padding: 14px 20px;
+      font-size: 15px;
     }
   }
 
-  // Extra small screens
   @media (max-width: 480px) {
-    padding: 10px;
-    margin: 12px 0;
+    padding: 16px;
+    margin: 16px 0;
 
     .search-all-button {
-      padding: 8px 10px;
-      font-size: 13px;
+      padding: 12px 18px;
+      font-size: 14px;
     }
   }
 }
 
-// Featured jobs section styles
+// ============================================
+// Featured Jobs Grid
+// ============================================
 .featured-jobs {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 16px;
-  margin: 24px 0;
-  
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 20px;
+  margin: 28px 0;
+
   .featured-job {
-    background: var(--angjobs-bg-main, #f6f6ef);
-    border: 1px solid var(--angjobs-border, #e5e7eb);
-    border-radius: var(--angjobs-border-radius, 8px);
-    padding: 16px;
-    transition: all 0.2s ease;
-    
+    background: var(--apple-bg-primary);
+    border: none;
+    border-radius: var(--apple-radius-lg);
+    padding: 24px;
+    transition: var(--apple-transition);
+    box-shadow: var(--apple-shadow-sm);
+
     &:hover {
-      background: white;
-      border-color: var(--angjobs-primary, #ff6600);
-      box-shadow: 0 2px 8px rgba(255, 102, 0, 0.1);
-      transform: translateY(-1px);
+      box-shadow: var(--apple-shadow-md);
+      transform: translateY(-4px);
     }
-    
+
     h3 {
-      margin: 0 0 8px 0;
-      font-size: 16px;
+      margin: 0 0 12px 0;
+      font-size: 17px;
       font-weight: 600;
-      line-height: 1.3;
-      
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+
       a {
-        color: var(--angjobs-text-primary, #1a1a1a);
+        color: var(--apple-text-primary);
         text-decoration: none;
-        
+
         &:hover {
-          color: var(--angjobs-primary, #ff6600);
+          color: var(--apple-primary);
         }
       }
     }
-    
+
     .job-meta {
       display: flex;
       flex-wrap: wrap;
       gap: 12px;
-      font-size: 13px;
-      margin-top: 8px;
-      
+      font-size: 14px;
+      margin-top: 12px;
+
       span {
         display: flex;
         align-items: center;
-        gap: 4px;
-        color: var(--angjobs-text-secondary, #666);
+        gap: 6px;
+        color: var(--apple-text-secondary);
       }
-      
+
       .company {
         font-weight: 500;
-        color: var(--angjobs-text-primary, #374151);
+        color: var(--apple-text-primary);
       }
     }
   }
-  
-  // Mobile responsive
+
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
-    gap: 12px;
+    gap: 16px;
 
     .featured-job {
-      padding: 14px;
+      padding: 20px;
     }
   }
 }
 
-// All Jobs page styles
+// ============================================
+// Jobs Grid
+// ============================================
 .all-jobs-page {
   max-width: 100%;
-  overflow-x: hidden;  // Prevent horizontal scroll
+  overflow-x: hidden;
 }
 
 .jobs-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 16px;
-  margin: 24px 0;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 24px;
+  margin: 28px 0;
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
-    gap: 12px;
-    margin: 16px 0;
+    gap: 16px;
+    margin: 20px 0;
   }
 }
 
 .job-item {
-  background: var(--angjobs-bg-main, #f6f6ef);
-  border: 1px solid var(--angjobs-border, #e5e7eb);
-  border-radius: var(--angjobs-border-radius, 8px);
-  padding: 16px;
-  transition: all 0.2s ease;
-  overflow: hidden;  // Prevent content overflow
-  word-wrap: break-word;  // Break long words
+  background: var(--apple-bg-primary);
+  border: none;
+  border-radius: var(--apple-radius-lg);
+  padding: 24px;
+  transition: var(--apple-transition);
+  box-shadow: var(--apple-shadow-sm);
+  overflow: hidden;
+  word-wrap: break-word;
 
   &:hover {
-    background: white;
-    border-color: var(--angjobs-primary, #ff6600);
-    box-shadow: 0 2px 8px rgba(255, 102, 0, 0.1);
-    transform: translateY(-1px);
+    box-shadow: var(--apple-shadow-md);
+    transform: translateY(-4px);
   }
 
   .job-content {
     width: 100%;
-    overflow: hidden;  // Ensure content doesn't overflow
+    overflow: hidden;
 
     h3 {
-      margin: 0 0 8px 0;
-      font-size: 16px;
+      margin: 0 0 12px 0;
+      font-size: 17px;
       font-weight: 600;
       line-height: 1.4;
-      word-wrap: break-word;  // Break long words
-      overflow-wrap: break-word;  // Alternative for better browser support
-      hyphens: auto;  // Add hyphenation for better breaks
+      letter-spacing: -0.01em;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
 
       a {
-        color: var(--angjobs-text-primary, #1a1a1a);
+        color: var(--apple-text-primary);
         text-decoration: none;
-        display: block;  // Make link full width
-        word-break: break-word;  // Ensure long URLs break
+        display: block;
+        word-break: break-word;
 
         &:hover {
-          color: var(--angjobs-primary, #ff6600);
+          color: var(--apple-primary);
         }
 
         &:visited {
-          color: var(--angjobs-text-secondary, #666);
+          color: var(--apple-text-secondary);
         }
       }
     }
@@ -645,20 +858,19 @@ html.dark {
       display: flex;
       flex-wrap: wrap;
       gap: 12px;
-      font-size: 13px;
-      margin-top: 8px;
+      font-size: 14px;
+      margin-top: 12px;
 
       span {
         display: flex;
         align-items: center;
-        gap: 4px;
-        color: var(--angjobs-text-secondary, #666);
-        word-break: break-all;  // Break long company names
+        gap: 6px;
+        color: var(--apple-text-secondary);
       }
 
       .company {
         font-weight: 500;
-        color: var(--angjobs-text-primary, #374151);
+        color: var(--apple-text-primary);
         max-width: 100%;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -672,46 +884,61 @@ html.dark {
     }
   }
 
-  // Mobile specific styles
   @media (max-width: 768px) {
-    padding: 14px;  // Match featured jobs padding
+    padding: 20px;
 
     .job-content {
       h3 {
-        font-size: 16px;  // Match featured jobs font size
+        font-size: 16px;
         line-height: 1.4;
-        margin-bottom: 8px;
-
-        a {
-          font-size: 16px;  // Ensure link respects parent size
-        }
+        margin-bottom: 10px;
       }
 
       .job-meta {
-        font-size: 13px;  // Match featured jobs meta text
-        gap: 12px;
-
-        span {
-          font-size: 13px;
-        }
+        font-size: 13px;
+        gap: 10px;
       }
     }
   }
 
-  // Extra small screens
   @media (max-width: 480px) {
-    padding: 12px;
+    padding: 18px;
 
     .job-content {
       h3 {
-        font-size: 15px;  // Slightly smaller but still readable
-        line-height: 1.3;
+        font-size: 15px;
+        line-height: 1.35;
       }
 
       .job-meta {
         font-size: 12px;
         gap: 8px;
       }
+    }
+  }
+}
+
+// ============================================
+// Arrow Link Component
+// ============================================
+.arrow-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--apple-primary);
+  font-weight: 500;
+  font-size: 15px;
+  transition: var(--apple-transition);
+
+  .arrow {
+    transition: transform 0.2s ease-out;
+  }
+
+  &:hover {
+    color: var(--apple-primary-hover);
+
+    .arrow {
+      transform: translateX(4px);
     }
   }
 }

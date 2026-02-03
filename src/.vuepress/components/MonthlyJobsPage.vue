@@ -1,20 +1,20 @@
 <template>
   <div class="monthly-jobs-container">
-    <!-- Header -->
-    <header class="jobs-header">
+    <!-- Header with Glass Effect -->
+    <header class="jobs-header glass">
       <div class="header-content">
         <div class="logo-section">
           <a href="/" class="logo-link">
             <span class="logo-text">AngJobs</span>
           </a>
-          <span class="tagline">Hacker News Job Board</span>
+          <span class="tagline">Tech Jobs from Hacker News</span>
         </div>
         <nav class="header-nav">
           <a href="/" class="nav-link">Home</a>
           <a href="/jobs/" class="nav-link">All Jobs</a>
-          <a href="https://news.ycombinator.com/item?id=whoishiring" target="_blank" class="nav-link external">
+          <a href="https://news.ycombinator.com/item?id=whoishiring" target="_blank" class="nav-link nav-link--external">
             Submit Job
-            <svg class="external-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <svg class="external-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
               <polyline points="15 3 21 3 21 9"></polyline>
               <line x1="10" y1="14" x2="21" y2="3"></line>
@@ -28,15 +28,15 @@
     <main class="jobs-main">
       <div class="jobs-content">
         <h1 class="page-title">{{ formattedMonth }} Jobs</h1>
-        
+
         <!-- Search and Filters -->
         <div class="search-section">
           <div class="search-wrapper">
-            <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <circle cx="11" cy="11" r="8"></circle>
               <path d="m21 21-4.35-4.35"></path>
             </svg>
-            <input 
+            <input
               v-model="searchQuery"
               type="text"
               placeholder="Search jobs, companies, locations, skills..."
@@ -44,83 +44,98 @@
               @input="handleSearch"
             />
             <button v-if="searchQuery" @click="clearSearch" class="clear-search">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <line x1="18" y1="6" x2="6" y2="18"></line>
                 <line x1="6" y1="6" x2="18" y2="18"></line>
               </svg>
             </button>
           </div>
-          
-          <div class="filter-section">
-            <div class="filter-group">
-              <label class="filter-label">Type</label>
-              <div class="filter-options">
-                <label class="filter-option">
-                  <input type="checkbox" v-model="filters.remote" />
-                  <span>Remote</span>
-                </label>
-                <label class="filter-option">
-                  <input type="checkbox" v-model="filters.onsite" />
-                  <span>Onsite</span>
-                </label>
-                <label class="filter-option">
-                  <input type="checkbox" v-model="filters.hybrid" />
-                  <span>Hybrid</span>
-                </label>
-              </div>
-            </div>
+
+          <div class="filter-chips">
+            <button
+              class="filter-chip"
+              :class="{ active: filters.remote }"
+              @click="filters.remote = !filters.remote"
+            >
+              <svg v-if="filters.remote" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Remote
+            </button>
+            <button
+              class="filter-chip"
+              :class="{ active: filters.onsite }"
+              @click="filters.onsite = !filters.onsite"
+            >
+              <svg v-if="filters.onsite" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              On-site
+            </button>
+            <button
+              class="filter-chip"
+              :class="{ active: filters.hybrid }"
+              @click="filters.hybrid = !filters.hybrid"
+            >
+              <svg v-if="filters.hybrid" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Hybrid
+            </button>
           </div>
         </div>
 
-        <!-- Job Count -->
+        <!-- Results Info -->
         <div class="results-info">
           <span class="result-count">{{ filteredJobs.length }} jobs found</span>
           <button v-if="hasActiveFilters" @click="resetFilters" class="reset-filters">
-            Reset filters
+            Clear all
           </button>
         </div>
 
         <!-- Job Cards -->
         <div class="job-cards">
-          <article 
-            v-for="(job, index) in displayedJobs" 
+          <article
+            v-for="(job, index) in displayedJobs"
             :key="job.filename"
             class="job-card"
             @click="navigateToJob(job)"
           >
             <div class="job-card-header">
-              <h2 class="job-position">{{ job.position }}</h2>
+              <div class="company-logo">
+                <span class="company-initial">{{ getCompanyInitial(job.company) }}</span>
+              </div>
+              <div class="job-card-header-content">
+                <h2 class="job-position">{{ job.position }}</h2>
+                <div class="job-company">
+                  <span class="company-name">{{ job.company }}</span>
+                  <span v-if="job.location" class="location">{{ job.location }}</span>
+                </div>
+              </div>
               <button class="save-job" @click.stop="toggleSave(job)" :class="{ saved: job.saved }">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
                 </svg>
               </button>
             </div>
-            
-            <div class="job-company">
-              <span class="company-name">{{ job.company }}</span>
-              <span v-if="job.location" class="location">{{ job.location }}</span>
-            </div>
-            
-            <div class="job-details">
-              <span v-if="job.type" class="job-type">{{ job.type }}</span>
-              <span v-if="job.salary" class="salary">{{ job.salary }}</span>
-            </div>
-            
+
             <div class="job-tags">
-              <span v-for="tag in job.tags" :key="tag" class="tag">{{ tag }}</span>
+              <span v-if="job.type" class="job-tag">{{ job.type }}</span>
+              <span v-if="job.salary" class="job-tag job-tag--salary">{{ job.salary }}</span>
+              <span v-for="tag in job.tags?.slice(0, 3)" :key="tag" class="job-tag">{{ tag }}</span>
+              <span v-if="job.tags?.length > 3" class="job-tag job-tag--more">+{{ job.tags.length - 3 }}</span>
             </div>
-            
+
             <div class="job-footer">
+              <span class="posted-info">{{ job.timeAgo }} by {{ job.author }}</span>
               <a :href="job.hnUrl" @click.stop class="hn-link" target="_blank">
-                View on HN
-                <svg class="external-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                HN
+                <svg class="external-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                   <polyline points="15 3 21 3 21 9"></polyline>
                   <line x1="10" y1="14" x2="21" y2="3"></line>
                 </svg>
               </a>
-              <span class="posted-info">by {{ job.author }} • {{ job.timeAgo }}</span>
             </div>
           </article>
         </div>
@@ -134,10 +149,12 @@
 
         <!-- No Results -->
         <div v-if="filteredJobs.length === 0" class="no-results">
-          <svg class="no-results-icon" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-            <circle cx="11" cy="11" r="8"></circle>
-            <path d="m21 21-4.35-4.35"></path>
-          </svg>
+          <div class="no-results-icon-wrapper">
+            <svg class="no-results-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.35-4.35"></path>
+            </svg>
+          </div>
           <h3>No jobs found</h3>
           <p>Try adjusting your search or filters</p>
           <button @click="resetFilters" class="reset-btn">Reset all filters</button>
@@ -173,67 +190,67 @@ export default {
     })
     const displayCount = ref(30)
     const savedJobs = ref(new Set())
-    
+
     const formattedMonth = computed(() => {
       return props.month.replace('-', ' ')
     })
-    
+
     const filteredJobs = computed(() => {
       let jobs = [...props.jobs]
-      
+
       // Search filter
       if (searchQuery.value) {
         const query = searchQuery.value.toLowerCase()
-        jobs = jobs.filter(job => 
+        jobs = jobs.filter(job =>
           job.position?.toLowerCase().includes(query) ||
           job.company?.toLowerCase().includes(query) ||
           job.location?.toLowerCase().includes(query) ||
           job.tags?.some(tag => tag.toLowerCase().includes(query))
         )
       }
-      
+
       // Type filters
       const activeTypeFilters = []
       if (filters.value.remote) activeTypeFilters.push('remote')
       if (filters.value.onsite) activeTypeFilters.push('onsite')
       if (filters.value.hybrid) activeTypeFilters.push('hybrid')
-      
+
       if (activeTypeFilters.length > 0) {
         jobs = jobs.filter(job => {
           const jobType = job.type?.toLowerCase() || ''
           const jobLocation = job.location?.toLowerCase() || ''
-          return activeTypeFilters.some(filter => 
+          return activeTypeFilters.some(filter =>
             jobType.includes(filter) || jobLocation.includes(filter)
           )
         })
       }
-      
+
       return jobs
     })
-    
+
     const displayedJobs = computed(() => {
       return filteredJobs.value.slice(0, displayCount.value).map(job => ({
         ...job,
         saved: savedJobs.value.has(job.filename)
       }))
     })
-    
+
     const hasMore = computed(() => {
       return displayCount.value < filteredJobs.value.length
     })
-    
+
     const hasActiveFilters = computed(() => {
       return searchQuery.value || Object.values(filters.value).some(v => v)
     })
-    
+
     const handleSearch = () => {
       displayCount.value = 30
     }
-    
+
     const clearSearch = () => {
       searchQuery.value = ''
     }
-    
+
     const resetFilters = () => {
       searchQuery.value = ''
       filters.value = {
@@ -243,33 +260,35 @@ export default {
       }
       displayCount.value = 30
     }
-    
+
     const loadMore = () => {
       displayCount.value += 30
     }
-    
+
     const toggleSave = (job) => {
       if (savedJobs.value.has(job.filename)) {
         savedJobs.value.delete(job.filename)
       } else {
         savedJobs.value.add(job.filename)
       }
-      // Persist to localStorage
       localStorage.setItem('savedJobs', JSON.stringify([...savedJobs.value]))
     }
-    
+
     const navigateToJob = (job) => {
       router.push(job.path)
     }
-    
+
+    const getCompanyInitial = (company) => {
+      return company ? company.charAt(0).toUpperCase() : '?'
+    }
+
     onMounted(() => {
-      // Load saved jobs from localStorage
       const saved = localStorage.getItem('savedJobs')
       if (saved) {
         savedJobs.value = new Set(JSON.parse(saved))
       }
     })
-    
+
     return {
       searchQuery,
       filters,
@@ -284,7 +303,8 @@ export default {
       resetFilters,
       loadMore,
       toggleSave,
-      navigateToJob
+      navigateToJob,
+      getCompanyInitial
     }
   }
 }
@@ -293,22 +313,24 @@ export default {
 <style scoped>
 .monthly-jobs-container {
   min-height: 100vh;
-  background: #f8f9fa;
+  background: var(--apple-bg-secondary, #F5F5F7);
 }
 
-/* Header */
+/* Header with Glass Effect */
 .jobs-header {
-  background: #fff;
-  border-bottom: 1px solid #e5e7eb;
   position: sticky;
   top: 0;
   z-index: 100;
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .header-content {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 16px 24px;
+  padding: 16px 28px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -317,7 +339,7 @@ export default {
 .logo-section {
   display: flex;
   align-items: baseline;
-  gap: 12px;
+  gap: 14px;
 }
 
 .logo-link {
@@ -325,37 +347,40 @@ export default {
 }
 
 .logo-text {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
-  color: #ff6600;
+  color: var(--apple-primary, #F97316);
+  letter-spacing: -0.02em;
 }
 
 .tagline {
-  font-size: 14px;
-  color: #6b7280;
+  font-size: 13px;
+  color: var(--apple-text-secondary, #6E6E73);
+  letter-spacing: -0.01em;
 }
 
 .header-nav {
   display: flex;
-  gap: 24px;
+  gap: 28px;
   align-items: center;
 }
 
 .nav-link {
-  color: #374151;
+  color: var(--apple-text-primary, #1D1D1F);
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 5px;
+  transition: color 0.2s ease-out;
 }
 
 .nav-link:hover {
-  color: #ff6600;
+  color: var(--apple-primary, #F97316);
 }
 
-.external-icon {
+.nav-link--external .external-icon {
   opacity: 0.5;
 }
 
@@ -363,99 +388,109 @@ export default {
 .jobs-main {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 24px;
+  padding: 32px 28px;
 }
 
 .page-title {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 700;
-  color: #111827;
-  margin-bottom: 24px;
+  color: var(--apple-text-primary, #1D1D1F);
+  margin-bottom: 32px;
+  letter-spacing: -0.03em;
 }
 
 /* Search Section */
 .search-section {
-  margin-bottom: 24px;
+  margin-bottom: 28px;
 }
 
 .search-wrapper {
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 
 .search-icon {
   position: absolute;
-  left: 16px;
+  left: 18px;
   top: 50%;
   transform: translateY(-50%);
-  color: #9ca3af;
+  color: var(--apple-text-tertiary, #86868B);
 }
 
 .search-input {
   width: 100%;
-  padding: 12px 48px;
+  padding: 16px 52px;
   font-size: 16px;
-  border: 2px solid #e5e7eb;
-  border-radius: 12px;
+  border: none;
+  border-radius: var(--apple-radius-lg, 20px);
+  background: var(--apple-bg-primary, #FFFFFF);
+  color: var(--apple-text-primary, #1D1D1F);
+  box-shadow: var(--apple-shadow-sm, 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 6px rgba(0, 0, 0, 0.04));
   outline: none;
-  transition: all 0.2s;
+  transition: all 0.25s ease-out;
+}
+
+.search-input::placeholder {
+  color: var(--apple-text-tertiary, #86868B);
 }
 
 .search-input:focus {
-  border-color: #ff6600;
-  box-shadow: 0 0 0 3px rgba(255, 102, 0, 0.1);
+  box-shadow: 0 0 0 4px rgba(249, 115, 22, 0.15);
 }
 
 .clear-search {
   position: absolute;
-  right: 16px;
+  right: 18px;
   top: 50%;
   transform: translateY(-50%);
   background: none;
   border: none;
-  color: #9ca3af;
+  color: var(--apple-text-tertiary, #86868B);
   cursor: pointer;
-  padding: 4px;
+  padding: 6px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease-out;
 }
 
 .clear-search:hover {
-  color: #6b7280;
+  background: var(--apple-bg-secondary, #F5F5F7);
+  color: var(--apple-text-primary, #1D1D1F);
 }
 
-/* Filters */
-.filter-section {
+/* Filter Chips */
+.filter-chips {
   display: flex;
-  gap: 24px;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
-.filter-group {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.filter-label {
-  font-size: 14px;
-  font-weight: 500;
-  color: #6b7280;
-}
-
-.filter-options {
-  display: flex;
-  gap: 16px;
-}
-
-.filter-option {
-  display: flex;
+.filter-chip {
+  display: inline-flex;
   align-items: center;
   gap: 6px;
-  cursor: pointer;
+  padding: 10px 18px;
+  background: var(--apple-bg-primary, #FFFFFF);
+  border: none;
+  border-radius: var(--apple-radius-pill, 9999px);
   font-size: 14px;
-  color: #374151;
+  font-weight: 500;
+  color: var(--apple-text-secondary, #6E6E73);
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  box-shadow: var(--apple-shadow-xs, 0 1px 2px rgba(0, 0, 0, 0.04));
 }
 
-.filter-option input[type="checkbox"] {
-  cursor: pointer;
+.filter-chip:hover {
+  color: var(--apple-text-primary, #1D1D1F);
+  box-shadow: var(--apple-shadow-sm, 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 6px rgba(0, 0, 0, 0.04));
+}
+
+.filter-chip.active {
+  background: var(--apple-primary, #F97316);
+  color: white;
 }
 
 /* Results Info */
@@ -465,149 +500,176 @@ export default {
   align-items: center;
   margin-bottom: 24px;
   padding-bottom: 16px;
-  border-bottom: 1px solid #e5e7eb;
 }
 
 .result-count {
-  font-size: 14px;
-  color: #6b7280;
+  font-size: 15px;
+  color: var(--apple-text-secondary, #6E6E73);
+  font-weight: 500;
 }
 
 .reset-filters {
   background: none;
   border: none;
-  color: #ff6600;
+  color: var(--apple-primary, #F97316);
   cursor: pointer;
   font-size: 14px;
   font-weight: 500;
+  padding: 6px 12px;
+  border-radius: var(--apple-radius-sm, 10px);
+  transition: all 0.15s ease-out;
 }
 
 .reset-filters:hover {
-  text-decoration: underline;
+  background: var(--apple-primary-subtle, #FFF7ED);
 }
 
-/* Job Cards */
+/* Job Cards Grid */
 .job-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 24px;
   margin-bottom: 48px;
 }
 
 .job-card {
-  background: #fff;
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
-  padding: 20px;
+  background: var(--apple-bg-primary, #FFFFFF);
+  border-radius: var(--apple-radius-lg, 20px);
+  padding: 24px;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.25s ease-out;
+  box-shadow: var(--apple-shadow-sm, 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 6px rgba(0, 0, 0, 0.04));
 }
 
 .job-card:hover {
-  border-color: #ff6600;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  transform: translateY(-2px);
+  transform: translateY(-4px);
+  box-shadow: var(--apple-shadow-md, 0 2px 8px rgba(0, 0, 0, 0.06), 0 4px 16px rgba(0, 0, 0, 0.04));
 }
 
 .job-card-header {
   display: flex;
-  justify-content: space-between;
-  align-items: start;
-  margin-bottom: 12px;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.company-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--apple-radius-md, 14px);
+  background: var(--apple-bg-secondary, #F5F5F7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.company-initial {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--apple-primary, #F97316);
+  letter-spacing: -0.02em;
+}
+
+.job-card-header-content {
+  flex: 1;
+  min-width: 0;
 }
 
 .job-position {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
-  color: #111827;
-  margin: 0;
-  flex: 1;
-  line-height: 1.3;
-}
-
-.save-job {
-  background: none;
-  border: none;
-  color: #9ca3af;
-  cursor: pointer;
-  padding: 4px;
-  transition: color 0.2s;
-}
-
-.save-job:hover {
-  color: #ff6600;
-}
-
-.save-job.saved {
-  color: #ff6600;
-}
-
-.save-job.saved svg {
-  fill: #ff6600;
+  color: var(--apple-text-primary, #1D1D1F);
+  margin: 0 0 6px 0;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
 }
 
 .job-company {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-bottom: 12px;
-  font-size: 15px;
+  font-size: 14px;
+  flex-wrap: wrap;
 }
 
 .company-name {
   font-weight: 500;
-  color: #374151;
+  color: var(--apple-text-primary, #1D1D1F);
 }
 
 .location {
-  color: #6b7280;
+  color: var(--apple-text-secondary, #6E6E73);
 }
 
 .location::before {
-  content: "•";
+  content: "";
   margin-right: 8px;
+  opacity: 0.5;
 }
 
-.job-details {
+.save-job {
+  background: none;
+  border: none;
+  color: var(--apple-text-tertiary, #86868B);
+  cursor: pointer;
+  padding: 6px;
+  border-radius: var(--apple-radius-sm, 10px);
+  transition: all 0.15s ease-out;
   display: flex;
-  gap: 16px;
-  margin-bottom: 12px;
-  font-size: 14px;
-  color: #6b7280;
+  align-items: center;
+  justify-content: center;
 }
 
-.job-type {
-  padding: 4px 8px;
-  background: #f3f4f6;
-  border-radius: 4px;
+.save-job:hover {
+  color: var(--apple-primary, #F97316);
+  background: var(--apple-primary-subtle, #FFF7ED);
 }
 
-.salary {
-  font-weight: 500;
-  color: #059669;
+.save-job.saved {
+  color: var(--apple-primary, #F97316);
 }
 
+.save-job.saved svg {
+  fill: var(--apple-primary, #F97316);
+}
+
+/* Job Tags */
 .job-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
-  margin-bottom: 16px;
+  gap: 8px;
+  margin-bottom: 18px;
 }
 
-.tag {
-  padding: 4px 10px;
+.job-tag {
+  padding: 6px 12px;
   font-size: 12px;
-  background: #eff6ff;
-  color: #2563eb;
-  border-radius: 16px;
+  font-weight: 500;
+  background: var(--apple-bg-secondary, #F5F5F7);
+  color: var(--apple-text-secondary, #6E6E73);
+  border-radius: var(--apple-radius-pill, 9999px);
+  letter-spacing: -0.01em;
 }
 
+.job-tag--salary {
+  background: rgba(52, 199, 89, 0.12);
+  color: #248A3D;
+}
+
+.job-tag--more {
+  background: transparent;
+  color: var(--apple-text-tertiary, #86868B);
+  font-weight: 400;
+}
+
+/* Job Footer */
 .job-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 16px;
-  border-top: 1px solid #f3f4f6;
+  border-top: 1px solid var(--apple-border-light, rgba(0, 0, 0, 0.06));
   font-size: 13px;
 }
 
@@ -615,17 +677,20 @@ export default {
   display: flex;
   align-items: center;
   gap: 4px;
-  color: #ff6600;
+  color: var(--apple-primary, #F97316);
   text-decoration: none;
   font-weight: 500;
+  padding: 6px 12px;
+  border-radius: var(--apple-radius-sm, 10px);
+  transition: all 0.15s ease-out;
 }
 
 .hn-link:hover {
-  text-decoration: underline;
+  background: var(--apple-primary-subtle, #FFF7ED);
 }
 
 .posted-info {
-  color: #9ca3af;
+  color: var(--apple-text-tertiary, #86868B);
 }
 
 /* Load More */
@@ -635,129 +700,177 @@ export default {
 }
 
 .load-more-btn {
-  padding: 12px 32px;
-  background: #ff6600;
-  color: #fff;
+  padding: 16px 40px;
+  background: var(--apple-bg-primary, #FFFFFF);
+  color: var(--apple-text-primary, #1D1D1F);
   border: none;
-  border-radius: 8px;
+  border-radius: var(--apple-radius-pill, 9999px);
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
-  transition: background 0.2s;
+  transition: all 0.25s ease-out;
+  box-shadow: var(--apple-shadow-sm, 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 6px rgba(0, 0, 0, 0.04));
 }
 
 .load-more-btn:hover {
-  background: #e55500;
+  transform: translateY(-2px);
+  box-shadow: var(--apple-shadow-md, 0 2px 8px rgba(0, 0, 0, 0.06), 0 4px 16px rgba(0, 0, 0, 0.04));
 }
 
 /* No Results */
 .no-results {
   text-align: center;
-  padding: 64px 24px;
+  padding: 80px 24px;
+}
+
+.no-results-icon-wrapper {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: var(--apple-bg-primary, #FFFFFF);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+  box-shadow: var(--apple-shadow-sm, 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 6px rgba(0, 0, 0, 0.04));
 }
 
 .no-results-icon {
-  color: #e5e7eb;
-  margin-bottom: 24px;
+  color: var(--apple-text-tertiary, #86868B);
 }
 
 .no-results h3 {
-  font-size: 20px;
-  color: #374151;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--apple-text-primary, #1D1D1F);
   margin-bottom: 8px;
+  letter-spacing: -0.02em;
 }
 
 .no-results p {
-  color: #6b7280;
-  margin-bottom: 24px;
+  color: var(--apple-text-secondary, #6E6E73);
+  margin-bottom: 28px;
+  font-size: 15px;
 }
 
 .reset-btn {
-  padding: 10px 24px;
-  background: #ff6600;
-  color: #fff;
+  padding: 14px 32px;
+  background: var(--apple-primary, #F97316);
+  color: white;
   border: none;
-  border-radius: 6px;
+  border-radius: var(--apple-radius-pill, 9999px);
   cursor: pointer;
   font-weight: 500;
+  font-size: 15px;
+  transition: all 0.25s ease-out;
 }
 
 .reset-btn:hover {
-  background: #e55500;
+  background: var(--apple-primary-hover, #EA580C);
+  transform: translateY(-2px);
 }
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .header-content {
-    padding: 12px 16px;
+    padding: 14px 20px;
+    flex-direction: column;
+    gap: 14px;
+    align-items: flex-start;
   }
-  
+
   .logo-section {
     flex-direction: column;
     gap: 4px;
+    align-items: flex-start;
   }
-  
+
   .logo-text {
     font-size: 20px;
   }
-  
+
   .tagline {
     font-size: 12px;
   }
-  
+
   .header-nav {
-    gap: 16px;
+    gap: 20px;
+    width: 100%;
+    justify-content: flex-start;
   }
-  
+
   .nav-link {
     font-size: 13px;
   }
-  
+
   .jobs-main {
-    padding: 16px;
+    padding: 24px 20px;
   }
-  
+
   .page-title {
-    font-size: 24px;
+    font-size: 28px;
+    margin-bottom: 24px;
   }
-  
+
   .search-input {
-    padding: 10px 40px;
+    padding: 14px 46px;
     font-size: 16px;
+    border-radius: var(--apple-radius-md, 14px);
   }
-  
-  .filter-section {
-    flex-direction: column;
-    gap: 16px;
+
+  .search-icon {
+    left: 16px;
   }
-  
+
+  .clear-search {
+    right: 14px;
+  }
+
+  .filter-chips {
+    gap: 8px;
+  }
+
+  .filter-chip {
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+
   .job-cards {
     grid-template-columns: 1fr;
     gap: 16px;
   }
-  
+
   .job-card {
-    padding: 16px;
+    padding: 20px;
+    border-radius: var(--apple-radius-md, 14px);
   }
-  
+
+  .company-logo {
+    width: 44px;
+    height: 44px;
+  }
+
   .job-position {
     font-size: 16px;
   }
-  
+
   .job-company {
-    font-size: 14px;
-  }
-  
-  .job-details {
     font-size: 13px;
   }
-  
-  .tag {
+
+  .job-tag {
     font-size: 11px;
+    padding: 5px 10px;
   }
-  
+
   .job-footer {
     font-size: 12px;
   }
+}
+
+/* Dark Mode */
+html.dark .jobs-header {
+  background: rgba(28, 28, 30, 0.72);
+  border-bottom-color: rgba(255, 255, 255, 0.08);
 }
 </style>
