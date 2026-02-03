@@ -29,7 +29,10 @@
       "Bash(/Users/victora/RiderProjects/AngJobs/rename-special-chars.sh)",
       "Bash(bash:*)",
       "Bash(npm run docs:build:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git push)",
+      "WebFetch(domain:angjobs.com)",
+      "Bash(gh run:*)"
     ],
     "deny": []
   }
