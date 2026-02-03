@@ -31,7 +31,7 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "Find your next hacker job | AngJobs © 2025 <a href=\"https://victorantos.com\" target=\"_blank\">victorantos</a>",
+  footer: "Find your next hacker job | AngJobs © 2026 <a href=\"https://victorantos.com\" target=\"_blank\">victorantos</a>",
 
   displayFooter: true,
 
@@ -51,6 +51,8 @@ export default hopeTheme({
       canonical: (page) => {
         return `https://angjobs.com${page.path}`;
       },
+      fallBackImage: "https://angjobs.com/assets/social/og-image.png",
+      twitterID: "angjobs",
     },
     sitemap: {
       hostname: "https://angjobs.com",

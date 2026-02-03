@@ -1,0 +1,66 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="twBgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a252f"/>
+      <stop offset="100%" style="stop-color:#2C3E50"/>
+    </linearGradient>
+    <linearGradient id="twOrangeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6600"/>
+      <stop offset="100%" style="stop-color:#FF8833"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="600" fill="url(#twBgGradient)"/>
+
+  <!-- Subtle pattern -->
+  <g opacity="0.05" stroke="url(#twOrangeGradient)" stroke-width="1.5" fill="none">
+    <path d="M 0 300 Q 300 200 600 300 T 1200 300"/>
+    <path d="M 0 320 Q 300 420 600 320 T 1200 320"/>
+  </g>
+
+  <!-- Top accent -->
+  <rect width="1200" height="5" fill="url(#twOrangeGradient)"/>
+
+  <!-- Centered content -->
+  <g transform="translate(600, 300)">
+    <!-- Logo Icon centered -->
+    <g transform="translate(-280, -80)">
+      <path d="M 0 100 L 50 0 L 100 100 M 20 60 L 80 60"
+            stroke="url(#twOrangeGradient)"
+            stroke-width="12"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            fill="none"/>
+      <path d="M 40 10 L 50 -10 L 60 10"
+            stroke="url(#twOrangeGradient)"
+            stroke-width="7"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            fill="none"/>
+      <path d="M 125 10 L 125 80 Q 125 110 100 110 Q 75 110 75 90"
+            stroke="#FFFFFF"
+            stroke-width="12"
+            stroke-linecap="round"
+            fill="none"/>
+    </g>
+
+    <!-- Brand name -->
+    <text x="50" y="-10" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="90" font-weight="800" fill="#FFFFFF">
+      Ang<tspan fill="url(#twOrangeGradient)">Jobs</tspan>
+    </text>
+
+    <!-- Tagline -->
+    <text x="50" y="60" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="32" font-weight="500" fill="#95A5A6">
+      Tech Jobs from Hacker News
+    </text>
+
+    <!-- URL -->
+    <text x="50" y="120" font-family="system-ui, sans-serif" font-size="24" font-weight="600" fill="#7F8C8D">
+      angjobs.com
+    </text>
+  </g>
+
+  <!-- Bottom accent -->
+  <rect y="595" width="1200" height="5" fill="url(#twOrangeGradient)"/>
+</svg>
