@@ -13,6 +13,6 @@ export default defineClientConfig({
     app.component('FilterModal', FilterModal)
     app.component('AllJobsSearch', AllJobsSearch)
     app.component('JobNavigation', JobNavigation)
-    // Note: JobSearch comes from vuepress-plugin-hello
+    // Note: JobSearch comes from vuepress-plugin-angjobs
   },
 })

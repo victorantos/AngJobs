@@ -25,7 +25,7 @@ AngJobs/
 │   │   └── ...
 │   ├── hackers/               # Additional content directory
 │   └── README.md              # Homepage content
-├── vuepress-plugin-hello/     # Custom VuePress plugin
+├── vuepress-plugin-angjobs/     # Custom VuePress plugin
 │   ├── index.js               # Plugin entry point
 │   ├── client.js              # Client-side configuration
 │   ├── JobApplication.vue    # Job application form component
@@ -37,7 +37,7 @@ AngJobs/
 
 ## Key Components
 
-### 1. Custom VuePress Plugin (`vuepress-plugin-hello`)
+### 1. Custom VuePress Plugin (`vuepress-plugin-angjobs`)
 
 The project includes a custom VuePress plugin that registers Vue components globally:
 
@@ -99,7 +99,7 @@ author:
 ## Key Files to Modify
 
 - **Adding new jobs**: Create `.md` files in `src/jobs/[Month-Year]/`
-- **Modifying application form**: Edit `vuepress-plugin-hello/JobApplication.vue`
+- **Modifying application form**: Edit `vuepress-plugin-angjobs/JobApplication.vue`
 - **Changing theme/layout**: Would need to add configuration in `src/.vuepress/`
 - **Build configuration**: Modify `package.json` scripts
 

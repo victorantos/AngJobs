@@ -1,6 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
-import vuepressPluginHello from "../../vuepress-plugin-hello/index.js";
+import vuepressPluginAngjobs from "../../vuepress-plugin-angjobs/index.js";
 
 export default defineUserConfig({
   base: "/",
@@ -54,8 +54,7 @@ export default defineUserConfig({
   ],
   
   plugins: [
-    vuepressPluginHello({
-      greeting: 'Hello VuePress!',
+    vuepressPluginAngjobs({
       themeColor: '#FF6600'
     })
   ]

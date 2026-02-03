@@ -4,7 +4,7 @@ const __dirname = getDirname(import.meta.url)
 
 export default (options, context) => {
     return {
-        name: 'vuepress-plugin-hello',  // Give your plugin a name
+        name: 'vuepress-plugin-angjobs',
         clientConfigFile: path.resolve(__dirname, 'client.js'),
         onPrepared() {
           console.log('--- VuePress is ready!');
