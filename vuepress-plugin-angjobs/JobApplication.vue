@@ -22,6 +22,17 @@
         <polyline points="12 5 19 12 12 19"></polyline>
       </svg>
     </a>
+    <a href="https://career.coffee" target="_blank" class="promo-card promo-coffee">
+      <img src="/careercoffee-icon.svg" alt="Career.Coffee" class="promo-icon" />
+      <div class="promo-text">
+        <strong>Love coffee?</strong>
+        <span>Want to switch careers? Check Career.Coffee!</span>
+      </div>
+      <svg class="promo-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="5" y1="12" x2="19" y2="12"></line>
+        <polyline points="12 5 19 12 12 19"></polyline>
+      </svg>
+    </a>
   </div>
 
   <div class="form-container">
@@ -266,6 +277,7 @@ export default {
 
 .promo-muz11 strong { color: #667eea; }
 .promo-sneos strong { color: #3b82f6; }
+.promo-coffee strong { color: #78350f; }
 
 .promo-text span {
   font-size: 12px;

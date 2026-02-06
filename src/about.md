@@ -47,6 +47,13 @@ The HN job threads are great but hard to navigate — hundreds of comments, no s
       <p style="margin: 4px 0 0 0; color: #666; font-size: 14px;">Compare AI outputs — chat with multiple models side by side</p>
     </div>
   </a>
+  <a href="https://career.coffee" target="_blank" style="display: flex; align-items: center; gap: 12px; padding: 16px; background: linear-gradient(135deg, #78350f11 0%, #92400e11 100%); border-radius: 8px; text-decoration: none; border: 1px solid #78350f22;">
+    <img src="/careercoffee-icon.svg" alt="Career.Coffee" style="width: 48px; height: 48px; border-radius: 8px;" />
+    <div>
+      <strong style="color: #78350f; font-size: 16px;">Career.Coffee</strong>
+      <p style="margin: 4px 0 0 0; color: #666; font-size: 14px;">Love coffee? Want to switch careers? Check it out!</p>
+    </div>
+  </a>
 </div>
 
 ## Get in Touch

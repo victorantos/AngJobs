@@ -1,0 +1,30 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2C1810"/>
+      <stop offset="50%" style="stop-color:#4A3428"/>
+      <stop offset="100%" style="stop-color:#6F4E37"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular background -->
+  <circle cx="256" cy="256" r="256" fill="url(#bgGradient)"/>
+
+  <!-- Coffee cup icon (centered) -->
+  <g transform="translate(130, 140) scale(0.85)">
+    <!-- Cup body -->
+    <path d="M50 50 L50 200 Q50 250 100 250 L200 250 Q250 250 250 200 L250 50 Z" fill="#F5E6D3" stroke="#D4C4B0" stroke-width="3"/>
+    <!-- Cup handle -->
+    <path d="M250 80 Q320 80 320 140 Q320 200 250 200" fill="none" stroke="#F5E6D3" stroke-width="20" stroke-linecap="round"/>
+    <path d="M250 95 Q300 95 300 140 Q300 185 250 185" fill="none" stroke="#D4C4B0" stroke-width="3"/>
+    <!-- Coffee inside -->
+    <path d="M60 70 L60 190 Q60 240 105 240 L195 240 Q240 240 240 190 L240 70 Z" fill="#6F4E37"/>
+    <!-- Steam -->
+    <g>
+      <path d="M100 30 Q110 0 100 -30 Q90 -60 100 -90" stroke="#F5E6D3" stroke-width="8" fill="none" opacity="0.7" stroke-linecap="round"/>
+      <path d="M150 20 Q160 -15 150 -50 Q140 -85 150 -110" stroke="#F5E6D3" stroke-width="8" fill="none" opacity="0.6" stroke-linecap="round"/>
+      <path d="M200 30 Q210 0 200 -30 Q190 -60 200 -90" stroke="#F5E6D3" stroke-width="8" fill="none" opacity="0.7" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
