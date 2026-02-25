@@ -82,6 +82,7 @@ features:
 .promo-codorex .home-promo-title { color: #4CAF50; }
 .promo-sneos .home-promo-title { color: #3b82f6; }
 .promo-coffee .home-promo-title { color: #78350f; }
+.promo-nestclaw .home-promo-title { color: #d97706; }
 
 .home-jobs-section {
   margin-top: 48px;
@@ -250,6 +251,17 @@ features:
     <div class="home-promo-text">
       <span class="home-promo-title">Love coffee?</span>
       <span class="home-promo-desc">Want to switch careers? Check Career.Coffee!</span>
+    </div>
+    <svg class="home-promo-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <line x1="5" y1="12" x2="19" y2="12"></line>
+      <polyline points="12 5 19 12 12 19"></polyline>
+    </svg>
+  </a>
+  <a href="https://nestclaw.com" target="_blank" class="home-promo-card promo-nestclaw">
+    <img src="/nestclaw-icon.svg" alt="NestClaw" class="home-promo-icon" />
+    <div class="home-promo-text">
+      <span class="home-promo-title">Need an AI agent?</span>
+      <span class="home-promo-desc">NestClaw - Your own private AI agent on a dedicated server</span>
     </div>
     <svg class="home-promo-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
       <line x1="5" y1="12" x2="19" y2="12"></line>

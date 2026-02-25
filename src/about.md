@@ -54,6 +54,13 @@ The HN job threads are great but hard to navigate — hundreds of comments, no s
       <p style="margin: 4px 0 0 0; color: #666; font-size: 14px;">Love coffee? Want to switch careers? Check it out!</p>
     </div>
   </a>
+  <a href="https://nestclaw.com" target="_blank" style="display: flex; align-items: center; gap: 12px; padding: 16px; background: linear-gradient(135deg, #d9770611 0%, #b4590011 100%); border-radius: 8px; text-decoration: none; border: 1px solid #d9770622;">
+    <img src="/nestclaw-icon.svg" alt="NestClaw" style="width: 48px; height: 48px; border-radius: 8px;" />
+    <div>
+      <strong style="color: #d97706; font-size: 16px;">NestClaw</strong>
+      <p style="margin: 4px 0 0 0; color: #666; font-size: 14px;">Your own private AI agent — deployed in minutes, no technical skills needed</p>
+    </div>
+  </a>
 </div>
 
 ## Get in Touch
