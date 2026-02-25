@@ -44,6 +44,17 @@
         <polyline points="12 5 19 12 12 19"></polyline>
       </svg>
     </a>
+    <a href="https://career.computer" target="_blank" class="promo-card promo-careercomputer">
+      <img src="/careercomputer-icon.svg" alt="Career.Computer" class="promo-icon" />
+      <div class="promo-text">
+        <strong>Find tech jobs?</strong>
+        <span>Career.Computer - Tech jobs for tomorrow's innovators</span>
+      </div>
+      <svg class="promo-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="5" y1="12" x2="19" y2="12"></line>
+        <polyline points="12 5 19 12 12 19"></polyline>
+      </svg>
+    </a>
   </div>
 
   <div class="form-container">
@@ -290,6 +301,7 @@ export default {
 .promo-sneos strong { color: #3b82f6; }
 .promo-coffee strong { color: #78350f; }
 .promo-nestclaw strong { color: #d97706; }
+.promo-careercomputer strong { color: #0284c7; }
 
 .promo-text span {
   font-size: 12px;

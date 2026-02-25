@@ -61,6 +61,13 @@ The HN job threads are great but hard to navigate — hundreds of comments, no s
       <p style="margin: 4px 0 0 0; color: #666; font-size: 14px;">Your own private AI agent — deployed in minutes, no technical skills needed</p>
     </div>
   </a>
+  <a href="https://career.computer" target="_blank" style="display: flex; align-items: center; gap: 12px; padding: 16px; background: linear-gradient(135deg, #0284c711 0%, #0ea5e911 100%); border-radius: 8px; text-decoration: none; border: 1px solid #0284c722;">
+    <img src="/careercomputer-icon.svg" alt="Career.Computer" style="width: 48px; height: 48px; border-radius: 8px;" />
+    <div>
+      <strong style="color: #0284c7; font-size: 16px;">Career.Computer</strong>
+      <p style="margin: 4px 0 0 0; color: #666; font-size: 14px;">Tech jobs for tomorrow's innovators — find your next tech career</p>
+    </div>
+  </a>
 </div>
 
 ## Get in Touch
