@@ -2,19 +2,19 @@
 home: true
 title: AngJobs
 heroText: Tech Jobs from Hacker News
-tagline: 250+ verified opportunities from the monthly "Who is hiring?" threads
+tagline: 270+ verified opportunities from the monthly "Who is hiring?" threads
 actions:
-  - text: February 2026 Jobs
-    link: /jobs/February-2026/
+  - text: March 2026 Jobs
+    link: /jobs/March-2026/
     type: primary
-  - text: January 2026
-    link: /jobs/January-2026/
+  - text: February 2026
+    link: /jobs/February-2026/
     type: secondary
 features:
   - title: Direct from HN
     details: Jobs posted by founders and hiring managers in monthly threads
-  - title: 263+ This Month
-    details: February 2026 has 263 fresh opportunities from top companies
+  - title: 272+ This Month
+    details: March 2026 has 272 fresh opportunities from top companies
   - title: No Middlemen
     details: Apply directly to companies - no recruiters, no spam
 ---
@@ -194,9 +194,14 @@ features:
 <div class="home-jobs-section">
   <h2 class="home-jobs-title">Latest Jobs</h2>
   <div class="home-jobs-grid">
+    <a href="/jobs/March-2026/" class="home-jobs-card">
+      <span class="home-jobs-month">March 2026</span>
+      <span class="home-jobs-count">272+</span>
+      <span class="home-jobs-label">jobs available</span>
+    </a>
     <a href="/jobs/February-2026/" class="home-jobs-card">
       <span class="home-jobs-month">February 2026</span>
-      <span class="home-jobs-count">263+</span>
+      <span class="home-jobs-count">263</span>
       <span class="home-jobs-label">jobs available</span>
     </a>
     <a href="/jobs/January-2026/" class="home-jobs-card">
@@ -204,13 +209,8 @@ features:
       <span class="home-jobs-count">257</span>
       <span class="home-jobs-label">jobs available</span>
     </a>
-    <a href="/jobs/December-2025/" class="home-jobs-card">
-      <span class="home-jobs-month">December 2025</span>
-      <span class="home-jobs-count">249</span>
-      <span class="home-jobs-label">jobs available</span>
-    </a>
   </div>
-  <p class="home-companies"><strong>Companies hiring:</strong> DuckDuckGo, Anthropic, OpenAI, Temporal, Shield AI, NVIDIA, and more.</p>
+  <p class="home-companies"><strong>Companies hiring:</strong> Apple, DuckDuckGo, Temporal, Sesame, Sphinx Defense, MixRank, and more.</p>
 </div>
 
 <div class="home-promo-section">
