@@ -1,5 +1,6 @@
 ---
 title: "40GRID - Full-time Remote : Product Manager"
+order: 999
 author:
   name: bill_02109
   url: https://news.ycombinator.com/item?id=47220965
