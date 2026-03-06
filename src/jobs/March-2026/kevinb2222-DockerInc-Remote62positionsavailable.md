@@ -1,7 +1,5 @@
 ---
-title: "Docker Inc, Remote (62 positions available)
-We are rapidly expanding to help developers securely use agentic AI to increase their productivity.
-We are hiring engineers, data scientist, program manager, product managers, solutions engineers, solutions architects, account executives"
+title: "Docker Inc : Remote (62 positions available)"
 author:
   name: kevinb2222
   url: https://news.ycombinator.com/item?id=47220774

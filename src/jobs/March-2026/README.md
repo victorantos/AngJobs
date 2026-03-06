@@ -790,12 +790,11 @@ We.html">Baseten Labs : San Francisco, New York</a></h3>
     </div>
   </div>
 
-  <div class="job-item" data-title="docker inc, remote (62 positions available)" data-company="docker">
+  <div class="job-item" data-title="docker inc : remote (62 positions available)" data-company="dockerinc">
     <div class="job-content">
-      <h3><a href="/jobs/March-2026/kevinb2222-DockerInc-Remote62positionsavailable
-Wearerapidlyexpandingtohelpdeveloperssecurelyuse.html">Docker Inc, Remote (62 positions available)</a></h3>
+      <h3><a href="/jobs/March-2026/kevinb2222-DockerInc-Remote62positionsavailable.html">Docker Inc : Remote (62 positions available)</a></h3>
       <div class="job-meta">
-        <span class="company">🏢 Docker</span>
+        <span class="company">🏢 Docker Inc</span>
         <span class="author">👤 kevinb2222</span>
       </div>
     </div>
