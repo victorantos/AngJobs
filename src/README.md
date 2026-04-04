@@ -4,17 +4,17 @@ title: AngJobs
 heroText: Tech Jobs from Hacker News
 tagline: 270+ verified opportunities from the monthly "Who is hiring?" threads
 actions:
-  - text: March 2026 Jobs
-    link: /jobs/March-2026/
+  - text: April 2026 Jobs
+    link: /jobs/April-2026/
     type: primary
-  - text: February 2026
-    link: /jobs/February-2026/
+  - text: March 2026
+    link: /jobs/March-2026/
     type: secondary
 features:
   - title: Direct from HN
     details: Jobs posted by founders and hiring managers in monthly threads
-  - title: 272+ This Month
-    details: March 2026 has 272 fresh opportunities from top companies
+  - title: 266+ This Month
+    details: April 2026 has 266 fresh opportunities from top companies
   - title: No Middlemen
     details: Apply directly to companies - no recruiters, no spam
 ---
