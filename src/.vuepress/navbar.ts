@@ -7,9 +7,9 @@ export default navbar([
     icon: "briefcase",
     prefix: "/jobs/",
     children: [
-      { text: "February 2026", link: "February-2026/" },
-      { text: "January 2026", link: "January-2026/" },
-      { text: "December 2025", link: "December-2025/" }
+      { text: "May 2026", link: "May-2026/" },
+      { text: "April 2026", link: "April-2026/" },
+      { text: "March 2026", link: "March-2026/" }
     ]
   },
   {

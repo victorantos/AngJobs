@@ -32,7 +32,13 @@
       "Bash(git commit:*)",
       "Bash(git push)",
       "WebFetch(domain:angjobs.com)",
-      "Bash(gh run:*)"
+      "Bash(gh run:*)",
+      "Bash(git rm:*)",
+      "Bash(npm audit fix:*)",
+      "Bash(rsvg-convert:*)",
+      "Bash(git checkout:*)",
+      "Bash(/Users/victora/RiderProjects/AngJobs/src/jobs/March-2026/README.md:*)",
+      "Bash(cat:*)"
     ],
     "deny": []
   }
