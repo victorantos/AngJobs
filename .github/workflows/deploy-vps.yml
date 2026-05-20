@@ -1,0 +1,57 @@
+name: Deploy AngJobs to VPS
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  SERVICE: angjobs-web
+  REMOTE_PATH: /opt/angjobs
+  BUILD_OUTPUT: src/.vuepress/dist
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20.14.0'
+
+      - name: Install
+        run: npm ci
+
+      - name: Build VuePress
+        run: npm run docs:build
+
+      - name: Inject deploy server
+        run: |
+          cp .deploy/server.js ${{ env.BUILD_OUTPUT }}/
+          cp .deploy/package.json ${{ env.BUILD_OUTPUT }}/
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.VPS_SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.VPS_HOST }} >> ~/.ssh/known_hosts
+
+      - name: rsync
+        run: |
+          rsync -az --delete --exclude=node_modules \
+            ./${{ env.BUILD_OUTPUT }}/ \
+            ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:${{ env.REMOTE_PATH }}/
+
+      - name: Restart + smoke
+        run: |
+          ssh ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} "
+            cd ${{ env.REMOTE_PATH }} && npm install --omit=dev &&
+            systemctl restart ${{ env.SERVICE }}
+          "
+          sleep 3
+          ssh ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} "
+            systemctl is-active ${{ env.SERVICE }} && \
+            curl -fsS -o /dev/null -w 'index: HTTP %{http_code}\n' http://127.0.0.1:5260/
+          "
