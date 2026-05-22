@@ -203,7 +203,7 @@ export default {
       formData.append("source", this.$page.frontmatter.author.url);
       formData.append("author", this.$page.frontmatter.author.name);
 
-      fetch('https://victorantos-api.azurewebsites.net/jobapplicationsfromangjobs', {
+      fetch('https://api.victorantos.com/jobapplicationsfromangjobs', {
           method: 'POST',
           body: formData,
       })
