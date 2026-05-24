@@ -243,3 +243,6 @@ _Pvt_Extensions
 /src/.vuepress/.cache/deps
 /src/.vuepress/dist
 .claude/
+
+# local Claude Code settings (never commit)
+.claude/settings.local.json
