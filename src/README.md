@@ -4,17 +4,17 @@ title: AngJobs
 heroText: Tech Jobs from Hacker News
 tagline: 270+ verified opportunities from the monthly "Who is hiring?" threads
 actions:
-  - text: May 2026 Jobs
-    link: /jobs/May-2026/
+  - text: June 2026 Jobs
+    link: /jobs/June-2026/
     type: primary
-  - text: April 2026
-    link: /jobs/April-2026/
+  - text: May 2026
+    link: /jobs/May-2026/
     type: secondary
 features:
   - title: Direct from HN
     details: Jobs posted by founders and hiring managers in monthly threads
-  - title: 285+ This Month
-    details: May 2026 has 285 fresh opportunities from top companies
+  - title: 234+ This Month
+    details: June 2026 has 234 fresh opportunities from top companies
   - title: No Middlemen
     details: Apply directly to companies - no recruiters, no spam
 ---
@@ -194,6 +194,11 @@ features:
 <div class="home-jobs-section">
   <h2 class="home-jobs-title">Latest Jobs</h2>
   <div class="home-jobs-grid">
+    <a href="/jobs/June-2026/" class="home-jobs-card">
+      <span class="home-jobs-month">June 2026</span>
+      <span class="home-jobs-count">234+</span>
+      <span class="home-jobs-label">jobs available</span>
+    </a>
     <a href="/jobs/May-2026/" class="home-jobs-card">
       <span class="home-jobs-month">May 2026</span>
       <span class="home-jobs-count">285+</span>
@@ -202,11 +207,6 @@ features:
     <a href="/jobs/April-2026/" class="home-jobs-card">
       <span class="home-jobs-month">April 2026</span>
       <span class="home-jobs-count">267+</span>
-      <span class="home-jobs-label">jobs available</span>
-    </a>
-    <a href="/jobs/March-2026/" class="home-jobs-card">
-      <span class="home-jobs-month">March 2026</span>
-      <span class="home-jobs-count">266+</span>
       <span class="home-jobs-label">jobs available</span>
     </a>
   </div>

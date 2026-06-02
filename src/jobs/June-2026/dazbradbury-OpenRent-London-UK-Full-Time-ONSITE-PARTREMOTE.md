@@ -1,0 +1,22 @@
+---
+title: "OpenRent : London, UK"
+author:
+  name: dazbradbury
+  url: https://news.ycombinator.com/item?id=48357822
+---
+OpenRent - London, UK - Full-Time - ONSITE+PART REMOTE - <a href="https:&#x2F;&#x2F;www.openrent.co.uk" rel="nofollow">https:&#x2F;&#x2F;www.openrent.co.uk</a>
+
+What sucked the last time you rented a house or flat? Come and fix it.
+
+OpenRent is force for good in an industry tarnished by rip-off agencies and one of the biggest UK websites by traffic. Enabled by an unrelenting focus on technology, we let more properties than any agency in the UK. In the last 12m we let over £50 billion worth of property, to over 8 million registered users, without ever charging any admin fees.
+
+You&#x27;ll be working on solving every aspect of the rental journey, from models to predict the right price of a property, to building the future of property management, all to help tenants find their dream home, and landlords their ideal tenant.
+
+We&#x27;re VC backed, profitable, and have plenty of ambition to maintain our fast growth in this absolutely massive market.
+
+Roles currently available:
+
+- Senior Full-Stack Engineer - Equity - 110k+ (based on experience) + quarterly bonus
+
+All roles visible here: <a href="https:&#x2F;&#x2F;www.openrent.co.uk&#x2F;jobs" rel="nofollow">https:&#x2F;&#x2F;www.openrent.co.uk&#x2F;jobs</a>
+<JobApplication />
