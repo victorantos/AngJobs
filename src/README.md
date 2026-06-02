@@ -13,8 +13,8 @@ actions:
 features:
   - title: Direct from HN
     details: Jobs posted by founders and hiring managers in monthly threads
-  - title: 234+ This Month
-    details: June 2026 has 234 fresh opportunities from top companies
+  - title: 231+ This Month
+    details: June 2026 has 231 fresh opportunities from top companies
   - title: No Middlemen
     details: Apply directly to companies - no recruiters, no spam
 ---
@@ -151,7 +151,7 @@ features:
   color: #1D1D1F;
 }
 
-@media (prefers-color-scheme: dark) {
+html[data-theme="dark"] {
   .home-promo-card,
   .home-jobs-card {
     background: #2C2C2E;
@@ -196,7 +196,7 @@ features:
   <div class="home-jobs-grid">
     <a href="/jobs/June-2026/" class="home-jobs-card">
       <span class="home-jobs-month">June 2026</span>
-      <span class="home-jobs-count">234+</span>
+      <span class="home-jobs-count">231+</span>
       <span class="home-jobs-label">jobs available</span>
     </a>
     <a href="/jobs/May-2026/" class="home-jobs-card">

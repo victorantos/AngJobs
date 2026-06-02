@@ -446,8 +446,9 @@ a {
 
 // ============================================
 // Dark Mode
+// vuepress-theme-hope uses [data-theme="dark"] on <html>, not html.dark
 // ============================================
-html.dark {
+html[data-theme="dark"] {
   --apple-bg-primary: #1C1C1E;
   --apple-bg-secondary: #2C2C2E;
   --apple-bg-tertiary: #3A3A3C;
@@ -465,6 +466,25 @@ html.dark {
   --apple-shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.3), 0 8px 32px rgba(0, 0, 0, 0.25);
   --apple-shadow-xl: 0 8px 24px rgba(0, 0, 0, 0.35), 0 16px 48px rgba(0, 0, 0, 0.3);
   --apple-shadow-hover: 0 8px 30px rgba(0, 0, 0, 0.4);
+
+  // Make hero tagline + feature details readable on dark bg
+  // (theme's default --vp-c-text-mute is too low-contrast on our dark surface)
+  #main-description,
+  .vp-feature,
+  .vp-feature-details {
+    color: var(--apple-text-secondary);
+  }
+
+  // Secondary hero action: theme uses --vp-c-control which is near-invisible
+  // against our dark page background — give it real contrast
+  .vp-hero-action:not(.primary) {
+    background: var(--apple-bg-tertiary);
+    color: var(--apple-text-primary);
+
+    &:hover {
+      background: var(--apple-bg-primary);
+    }
+  }
 }
 
 // ============================================

@@ -38,7 +38,9 @@
       "Bash(rsvg-convert:*)",
       "Bash(git checkout:*)",
       "Bash(/Users/victora/RiderProjects/AngJobs/src/jobs/March-2026/README.md:*)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(PORT=8080 npx vuepress-vite dev src --port 8080 --no-open)",
+      "Bash(wait 21368)"
     ],
     "deny": []
   }
