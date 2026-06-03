@@ -12,7 +12,7 @@ SecureBio is a nonprofit working to protect the world from catastrophic pandemic
 
 I&#x27;m the hiring manager for two roles:
 
-- Senior infrastructure engineer, to own cloud infra, devops, CI&#x2F;CD, AWS security, etc. Job posting should be up by this time tomorrow.
+- Senior infrastructure engineer, to own cloud infra, devops, CI&#x2F;CD, AWS security, etc. <a href="https:&#x2F;&#x2F;securebio.org&#x2F;careers&#x2F;2026-cloud-infra-engineer&#x2F;" rel="nofollow">https:&#x2F;&#x2F;securebio.org&#x2F;careers&#x2F;2026-cloud-infra-engineer&#x2F;</a>
 
 - [Senior] software engineer focused on high performance data pipelines. <a href="https:&#x2F;&#x2F;securebio.org&#x2F;careers&#x2F;2026-software-engineer-pipelines&#x2F;" rel="nofollow">https:&#x2F;&#x2F;securebio.org&#x2F;careers&#x2F;2026-software-engineer-pipelin...</a>
 

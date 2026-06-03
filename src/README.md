@@ -13,8 +13,8 @@ actions:
 features:
   - title: Direct from HN
     details: Jobs posted by founders and hiring managers in monthly threads
-  - title: 231+ This Month
-    details: June 2026 has 231 fresh opportunities from top companies
+  - title: 251+ This Month
+    details: June 2026 has 251 fresh opportunities from top companies
   - title: No Middlemen
     details: Apply directly to companies - no recruiters, no spam
 ---
