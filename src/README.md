@@ -194,6 +194,11 @@ html[data-theme="dark"] {
 <div class="home-jobs-section">
   <h2 class="home-jobs-title">Latest Jobs</h2>
   <div class="home-jobs-grid">
+    <a href="/jobs/July-2026/" class="home-jobs-card">
+      <span class="home-jobs-month">July 2026</span>
+      <span class="home-jobs-count">203+</span>
+      <span class="home-jobs-label">jobs available</span>
+    </a>
     <a href="/jobs/June-2026/" class="home-jobs-card">
       <span class="home-jobs-month">June 2026</span>
       <span class="home-jobs-count">231+</span>
@@ -202,11 +207,6 @@ html[data-theme="dark"] {
     <a href="/jobs/May-2026/" class="home-jobs-card">
       <span class="home-jobs-month">May 2026</span>
       <span class="home-jobs-count">285+</span>
-      <span class="home-jobs-label">jobs available</span>
-    </a>
-    <a href="/jobs/April-2026/" class="home-jobs-card">
-      <span class="home-jobs-month">April 2026</span>
-      <span class="home-jobs-count">267+</span>
       <span class="home-jobs-label">jobs available</span>
     </a>
   </div>
