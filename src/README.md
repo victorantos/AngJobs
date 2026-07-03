@@ -4,17 +4,17 @@ title: AngJobs
 heroText: Tech Jobs from Hacker News
 tagline: 270+ verified opportunities from the monthly "Who is hiring?" threads
 actions:
-  - text: June 2026 Jobs
-    link: /jobs/June-2026/
+  - text: July 2026 Jobs
+    link: /jobs/July-2026/
     type: primary
-  - text: May 2026
-    link: /jobs/May-2026/
+  - text: June 2026
+    link: /jobs/June-2026/
     type: secondary
 features:
   - title: Direct from HN
     details: Jobs posted by founders and hiring managers in monthly threads
-  - title: 251+ This Month
-    details: June 2026 has 251 fresh opportunities from top companies
+  - title: 203+ This Month
+    details: July 2026 has 203 fresh opportunities from top companies
   - title: No Middlemen
     details: Apply directly to companies - no recruiters, no spam
 ---

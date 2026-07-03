@@ -8,9 +8,9 @@ export default sidebar({
       prefix: "/jobs",
       
       children: [
+        'July-2026/',
         'June-2026/',
-        'May-2026/',
-        'April-2026/' 
+        'May-2026/' 
       ],
     },
   ],
