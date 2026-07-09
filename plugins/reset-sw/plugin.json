@@ -1,0 +1,7 @@
+{
+  "name": "reset-sw",
+  "version": "1.0.0",
+  "description": "Publishes a self-unregistering service worker at old PWA paths, so browsers still running a previous CMS's service worker (e.g. a Jekyll/Chirpy PWA) clear their stale cache and load the fresh site. List the paths your old site used in options.paths.",
+  "hooks": ["afterBuild"],
+  "options": { "paths": ["sw.min.js", "sw.js", "service-worker.js"] }
+}

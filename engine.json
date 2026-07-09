@@ -2,8 +2,6 @@
   "version": "1.2.0",
   "migration": 0,
   "files": {
-    ".github/workflows/build-deploy.yml": "90811800dfc4f35a4f25d8c3f05a410ebba669e7b976f1cddbb33ac49910c697",
-    ".github/workflows/update.yml": "94a33369e3b6c5e99892dc4f1d76d3c1c7c1f8db23db8d690ed49a50e42e1d54",
     "admin/admin.css": "fe84de31463508ecbf5fabed53fee4d02fecfa6bdfb5c2d2b907682daa33d54f",
     "admin/favicon.svg": "dd3765de5afd1751a09be814fc072b74c4aa8e67a672acf44a5352d6ec59d703",
     "admin/index.html": "6a2ed8a855ac3ef011b58207fd4267644344ba6106ae56dbf278b8d861b48bda",
@@ -24,7 +22,7 @@
     "lib/template.js": "be04a1959246ea539eb53774c745bf7f8f5997f063d6c42ee2c68e22c660f238",
     "lib/util.js": "4289864d171420a33924b66ee014da635720ed391bb8e2a26a6f60acbe0d6f70",
     "migrations/README.md": "a81001cc60e3024a5858894af766c2dd0c1ea8b64c57b52ffaf8dcc3ba371a33",
-    "package.json": "e882509914c59940ee4fbcaa147cf5839d8fe2eb182e2c8854a0f735aed08dc7",
+    "package.json": "d8fe57b10e6854b9348b9113cc4029b683503e8cced6cefbc8f6019ce0f3bfd4",
     "plugins/api-form/client.css": "da4733c33816d8705e6f316c6c487cd98766dcd0d3fb322d0547b0ada93ac2a7",
     "plugins/api-form/client.js": "a25f07c6feaeca54e77f2247387b2e06a493f26bf1307dab33a3ef1ce0f30c8d",
     "plugins/api-form/index.js": "110d29f1439a2671e60cb83036b8a415d270dace64ce155ecc29e4d0188e9957",
