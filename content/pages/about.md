@@ -1,6 +1,6 @@
 ---
 title: About
-description: What AngJobs is: a decade of Hacker News "Who is hiring?" threads turned into a searchable job board, run by Victor A since 2014.
+description: What AngJobs is: a decade of Hacker News 'Who is hiring?' threads turned into a searchable job board, run by Victor A since 2014.
 ---
 
 <div style="max-width: 600px; margin: 0 auto;">

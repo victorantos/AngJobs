@@ -1,6 +1,6 @@
 ---
 title: AngJobs
-description: Tech jobs from Hacker News "Who is hiring?" threads — verified opportunities posted by founders and hiring managers, no middlemen.
+description: Tech jobs from Hacker News 'Who is hiring?' threads — verified opportunities posted by founders and hiring managers, no middlemen.
 ---
 
 <style>
@@ -135,7 +135,7 @@ description: Tech jobs from Hacker News "Who is hiring?" threads — verified op
   color: #1D1D1F;
 }
 
-@media (prefers-color-scheme: dark) {
+html[data-theme="dark"] {
   .home-promo-card,
   .home-jobs-card {
     background: #2C2C2E;
@@ -188,7 +188,7 @@ description: Tech jobs from Hacker News "Who is hiring?" threads — verified op
   <h1>Tech Jobs from Hacker News</h1>
   <p>Verified opportunities from the monthly "Who is hiring?" threads — posted by founders and hiring managers directly. No middlemen.</p>
   <p class="home-hero-actions">
-    <a class="home-hero-button" href="/jobs/tag/may-2026/">May 2026 jobs</a>
+    <a class="home-hero-button" href="/jobs/tag/july-2026/">July 2026 jobs</a>
     <a class="home-hero-button home-hero-button--secondary" href="/jobs/">Browse all jobs</a>
   </p>
 </header>
@@ -196,19 +196,19 @@ description: Tech jobs from Hacker News "Who is hiring?" threads — verified op
 <div class="home-jobs-section">
   <h2 class="home-jobs-title">Latest Jobs</h2>
   <div class="home-jobs-grid">
+    <a href="/jobs/tag/july-2026/" class="home-jobs-card">
+      <span class="home-jobs-month">July 2026</span>
+      <span class="home-jobs-count">203+</span>
+      <span class="home-jobs-label">jobs available</span>
+    </a>
+    <a href="/jobs/tag/june-2026/" class="home-jobs-card">
+      <span class="home-jobs-month">June 2026</span>
+      <span class="home-jobs-count">231+</span>
+      <span class="home-jobs-label">jobs available</span>
+    </a>
     <a href="/jobs/tag/may-2026/" class="home-jobs-card">
       <span class="home-jobs-month">May 2026</span>
       <span class="home-jobs-count">285+</span>
-      <span class="home-jobs-label">jobs available</span>
-    </a>
-    <a href="/jobs/tag/april-2026/" class="home-jobs-card">
-      <span class="home-jobs-month">April 2026</span>
-      <span class="home-jobs-count">267+</span>
-      <span class="home-jobs-label">jobs available</span>
-    </a>
-    <a href="/jobs/tag/march-2026/" class="home-jobs-card">
-      <span class="home-jobs-month">March 2026</span>
-      <span class="home-jobs-count">266+</span>
       <span class="home-jobs-label">jobs available</span>
     </a>
   </div>
