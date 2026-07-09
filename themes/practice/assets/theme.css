@@ -1,0 +1,460 @@
+/* Practice — a theme for medical & dental clinics (cms-spec.md §10.7 #7).
+   Visitors are often anxious, older, or on a phone in a hurry, so the design
+   is two colors, oversized legible type, short measures, and big tap targets.
+   The one signature element is the quiet hours/phone/emergency strip under
+   the masthead — static, present on every page, never pursuing you.
+   All design decisions live in the tokens below. Restyle by editing tokens,
+   never selectors (cms-spec.md §10.1). */
+
+:root {
+  /* Type — one calm system sans, sized for tired eyes */
+  --font-body: system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Liberation Sans", sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, "Liberation Mono", monospace;
+  --text-s: 0.9375rem;
+  --text-m: 1.1875rem; /* oversized base, on purpose */
+  --text-l: 1.375rem;
+  --text-xl: 1.625rem;
+  --text-xxl: clamp(2rem, 5vw, 2.75rem);
+  --leading-body: 1.7;
+  --leading-tight: 1.25;
+
+  /* Color — soft clinical white + one calm blue-green. The emergency red ink
+     is the only third color, used once, quietly. */
+  --color-bg: #fafcfc;
+  --color-panel: #f0f6f6;
+  --color-text: #1f2e30;
+  --color-muted: #4c6164;
+  --color-accent: #137a7f;
+  --color-accent-deep: #0d5559;
+  --color-on-accent: #ffffff;
+  --color-accent-tint: #e4f1f1;
+  --color-border: #d5e2e2;
+  --color-emergency: #b3323c;
+
+  /* Layout — short measures, roomy steps, big targets */
+  --measure: 58ch;
+  --page-width: 60rem;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 1rem;
+  --space-4: 2rem;
+  --space-5: 3.5rem;
+  --radius: 10px;
+  --tap-target: 3rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Genuinely calm dark: blue-gray, not black */
+    --color-bg: #17242a;
+    --color-panel: #1e2e35;
+    --color-text: #e9f0f1;
+    --color-muted: #a9bfc3;
+    --color-accent: #79ccd1;
+    --color-accent-deep: #a5dade;
+    --color-on-accent: #10282c;
+    --color-accent-tint: #1d3a3d;
+    --color-border: #2c4048;
+    --color-emergency: #f2a7ab;
+  }
+}
+
+/* Base ------------------------------------------------------------------ */
+
+* { box-sizing: border-box; }
+
+html { color-scheme: light dark; }
+
+body {
+  margin: 0 auto;
+  padding: 0 var(--space-3);
+  max-width: var(--page-width);
+  font-family: var(--font-body);
+  font-size: var(--text-m);
+  line-height: var(--leading-body);
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+a { color: var(--color-accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+a:hover { color: var(--color-accent-deep); text-decoration-thickness: 2px; }
+
+:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -100vw;
+  top: var(--space-2);
+  z-index: 20;
+  background: var(--color-panel);
+  padding: var(--space-2) var(--space-3);
+}
+.skip-link:focus { left: var(--space-2); }
+
+main { min-height: 55vh; }
+
+/* Masthead ---------------------------------------------------------------- */
+
+.masthead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-4);
+  padding: var(--space-3) 0;
+}
+
+.site-title {
+  font-size: var(--text-l);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--color-text);
+  text-decoration: none;
+}
+.site-title:hover { color: var(--color-accent-deep); }
+
+.masthead nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.masthead nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap-target);
+  padding: 0 var(--space-2);
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 500;
+}
+.masthead nav a:hover { color: var(--color-accent-deep); text-decoration: underline; }
+.masthead nav a[aria-current="page"] {
+  color: var(--color-accent-deep);
+  box-shadow: inset 0 -3px var(--color-accent);
+}
+
+/* The appointment button — big, obvious, singular */
+.btn-book, .btn-call {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--tap-target);
+  padding: 0 var(--space-4);
+  font-size: var(--text-m);
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-on-accent);
+  background: var(--color-accent);
+  border: 0;
+  border-radius: var(--radius);
+}
+.btn-book:hover, .btn-call:hover { background: var(--color-accent-deep); color: var(--color-on-accent); }
+.masthead .btn-book { margin-left: auto; }
+
+/* THE SIGNATURE: the hours / phone / emergency strip. A quiet horizontal
+   band directly under the masthead on every page — today's hours at a
+   glance, the phone big and tappable, the emergency line in calm red ink.
+   position: static; it is present, it does not pursue. */
+
+.care-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-4);
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-panel);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  font-size: var(--text-s);
+}
+
+.strip-hours { margin: 0; color: var(--color-muted); }
+.strip-slot { white-space: nowrap; }
+.strip-slot strong { color: var(--color-text); font-weight: 600; }
+.strip-slot + .strip-slot::before { content: "· "; color: var(--color-muted); }
+
+.strip-phone {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap-target);
+  font-size: var(--text-l);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-accent-deep);
+  text-decoration-thickness: 1px;
+}
+.strip-phone:hover { color: var(--color-accent-deep); text-decoration-thickness: 2px; }
+
+.strip-emergency {
+  margin: 0 0 0 auto;
+  color: var(--color-muted);
+  text-align: right;
+}
+.emergency-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap-target);
+  font-weight: 600;
+  color: var(--color-emergency);
+  white-space: nowrap;
+}
+.emergency-link:hover { color: var(--color-emergency); text-decoration-thickness: 2px; }
+
+/* On a phone the strip condenses to what a phone is for: phone + emergency */
+@media (max-width: 40em) {
+  .strip-hours { display: none; }
+  .care-strip { justify-content: space-between; }
+  .strip-emergency { margin-left: 0; }
+  .strip-emergency-note { display: block; }
+}
+
+/* Headers ------------------------------------------------------------------ */
+
+.page-header { margin: var(--space-4) 0; max-width: var(--measure); }
+
+.page-header h1 {
+  font-size: var(--text-xxl);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  line-height: var(--leading-tight);
+  margin: 0 0 var(--space-2);
+  text-wrap: balance;
+}
+
+.eyebrow {
+  font-size: var(--text-s);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-accent-deep);
+  margin: 0 0 var(--space-2);
+}
+
+.lede {
+  font-size: var(--text-l);
+  color: var(--color-muted);
+  margin: 0;
+  text-wrap: pretty;
+}
+
+/* Notices carry their date first — plain and prominent */
+.post-date {
+  font-size: var(--text-m);
+  font-weight: 600;
+  color: var(--color-accent-deep);
+  margin: 0 0 var(--space-2);
+}
+
+.meta {
+  font-size: var(--text-s);
+  color: var(--color-muted);
+  margin: 0;
+}
+
+.tags { margin: var(--space-4) 0 0; }
+.tag { display: inline-block; margin-right: var(--space-3); color: var(--color-accent); text-decoration: none; min-height: var(--tap-target); line-height: var(--tap-target); }
+.tag::before { content: "#"; opacity: 0.6; }
+.tag:hover { text-decoration: underline; color: var(--color-accent-deep); }
+
+/* Prose --------------------------------------------------------------------- */
+
+.prose { max-width: var(--measure); }
+
+.prose h2, .prose h3, .prose h4 {
+  line-height: var(--leading-tight);
+  letter-spacing: -0.01em;
+  margin: var(--space-4) 0 var(--space-2);
+  text-wrap: balance;
+}
+.prose h2 { font-size: var(--text-xl); }
+.prose h3 { font-size: var(--text-l); }
+
+.prose p, .prose ul, .prose ol { margin: 0 0 var(--space-3); }
+.prose li { margin-bottom: var(--space-2); }
+
+.prose img { max-width: 100%; height: auto; border-radius: var(--radius); }
+
+.prose blockquote {
+  margin: var(--space-4) 0;
+  padding: var(--space-2) var(--space-3);
+  border-left: 4px solid var(--color-accent);
+  background: var(--color-panel);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  color: var(--color-muted);
+}
+.prose blockquote p:last-child { margin-bottom: 0; }
+
+.prose code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  background: var(--color-panel);
+  border: 1px solid var(--color-border);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}
+.prose pre {
+  background: var(--color-panel);
+  border: 1px solid var(--color-border);
+  padding: var(--space-3);
+  border-radius: var(--radius);
+  overflow-x: auto;
+  line-height: 1.5;
+}
+.prose pre code { background: none; border: 0; padding: 0; font-size: var(--text-s); }
+
+.prose table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 0 var(--space-3);
+  font-variant-numeric: tabular-nums;
+}
+.prose th { font-size: var(--text-s); text-transform: uppercase; letter-spacing: 0.06em; color: var(--color-muted); }
+.prose th, .prose td {
+  text-align: left;
+  padding: var(--space-2) var(--space-3);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.prose hr { border: 0; border-top: 1px solid var(--color-border); margin: var(--space-4) 0; }
+
+.cover { width: 100%; height: auto; border-radius: var(--radius); margin: 0 0 var(--space-4); }
+
+/* Care list ------------------------------------------------------------------ */
+
+.care-list {
+  list-style: none;
+  margin: 0 0 var(--space-4);
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  gap: var(--space-3);
+}
+
+.care-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4) var(--space-4) var(--space-3);
+  background: var(--color-panel);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+.care-card h2 {
+  font-size: var(--text-l);
+  line-height: var(--leading-tight);
+  margin: 0;
+}
+.care-card h2 a {
+  display: inline-block;
+  min-height: var(--tap-target);
+  color: var(--color-accent-deep);
+  text-decoration: none;
+}
+.care-card h2 a:hover { text-decoration: underline; }
+.care-card .summary { margin: 0; color: var(--color-muted); }
+
+/* "Before your visit" checklist ------------------------------------------------ */
+
+.preparation {
+  max-width: var(--measure);
+  margin: var(--space-4) 0;
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-accent-tint);
+  border-radius: var(--radius);
+}
+.preparation h2 {
+  font-size: var(--text-l);
+  line-height: var(--leading-tight);
+  color: var(--color-accent-deep);
+  margin: 0 0 var(--space-2);
+}
+.preparation ul { margin: 0; padding-left: var(--space-4); }
+.preparation li { margin-bottom: var(--space-2); }
+.preparation li::marker { content: "✓  "; color: var(--color-accent-deep); font-weight: 700; }
+
+/* Appointment CTA ---------------------------------------------------------------- */
+
+.appointment-cta {
+  max-width: var(--measure);
+  margin: var(--space-5) 0 var(--space-4);
+  padding: var(--space-4);
+  background: var(--color-panel);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+.appointment-cta h2 {
+  font-size: var(--text-xl);
+  line-height: var(--leading-tight);
+  margin: 0 0 var(--space-2);
+  text-wrap: balance;
+}
+.cta-meta { color: var(--color-muted); margin: 0 0 var(--space-3); }
+.cta-actions { display: flex; flex-wrap: wrap; gap: var(--space-2); margin: 0; }
+
+.appointment-cta .btn-book {
+  background: none;
+  color: var(--color-accent-deep);
+  box-shadow: inset 0 0 0 2px var(--color-accent);
+}
+.appointment-cta .btn-book:hover { background: var(--color-accent); color: var(--color-on-accent); }
+
+/* Pagination ------------------------------------------------------------------------ */
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4) 0;
+  font-size: var(--text-s);
+  color: var(--color-muted);
+}
+.pagination a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap-target);
+  padding: 0 var(--space-3);
+  background: var(--color-panel);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 600;
+}
+.pagination a:hover { border-color: var(--color-accent); }
+
+.empty { color: var(--color-muted); }
+
+/* Colophon ------------------------------------------------------------------------------ */
+
+.colophon {
+  margin-top: var(--space-5);
+  padding: var(--space-3) 0 var(--space-4);
+  border-top: 1px solid var(--color-border);
+  color: var(--color-muted);
+  font-size: var(--text-s);
+}
+.colophon p { margin: 0 0 var(--space-1); }
+
+/* Motion ---------------------------------------------------------------------------------- */
+
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+
+/* Print ------------------------------------------------------------------------------------- */
+
+@media print {
+  body { max-width: none; padding: 0; font-size: 11pt; color: #000; background: #fff; }
+  .masthead nav, .skip-link, .btn-book, .pagination { display: none; }
+  .care-strip { border-radius: 0; background: none; }
+  a { color: inherit; }
+  .prose a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.85em; }
+  .prose pre { white-space: pre-wrap; }
+}

@@ -1,0 +1,18 @@
+<article class="release" data-tag="{{ page.tag }}">
+  <header class="page-header">
+    <p class="release-meta">
+      <time datetime="{{ page.date }}">{{ page.dateFormatted }}</time>
+      {{#if page.version}}<span class="version-chip">{{ page.version }}</span>{{/if}}
+      {{#if page.tag}}<span class="tag-chip">{{ page.tag }}</span>{{/if}}
+    </p>
+    <h1>{{ page.title }}</h1>
+    {{#if page.description}}<p class="lede">{{ page.description }}</p>
+    {{/if}}
+  </header>
+  <div class="prose">
+{{{ page.content }}}
+  </div>
+  <nav class="backlink" aria-label="Back to the changelog">
+    <a href="/changelog/">← Full changelog</a>
+  </nav>
+</article>

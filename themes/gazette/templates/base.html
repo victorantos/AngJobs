@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="{{ site.language }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{#if page.title}}{{ page.title }} · {{/if}}{{ site.title }}</title>
+{{#if page.standfirst}}<meta name="description" content="{{ page.standfirst }}">
+{{else}}{{#if page.description}}<meta name="description" content="{{ page.description }}">
+{{/if}}{{/if}}{{#if page.url}}<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+{{/if}}<meta property="og:title" content="{{#if page.title}}{{ page.title }}{{else}}{{ site.title }}{{/if}}">
+{{#if page.standfirst}}<meta property="og:description" content="{{ page.standfirst }}">
+{{else}}{{#if page.description}}<meta property="og:description" content="{{ page.description }}">
+{{/if}}{{/if}}{{#if page.date}}<meta property="og:type" content="article">
+{{else}}<meta property="og:type" content="website">
+{{/if}}{{#if page.cover}}<meta property="og:image" content="{{ site.url }}{{ page.cover }}">
+<meta name="twitter:card" content="summary_large_image">
+{{else}}{{#if site.socialImage}}<meta property="og:image" content="{{ site.url }}{{ site.socialImage }}">
+<meta name="twitter:card" content="summary_large_image">
+{{/if}}{{/if}}{{#each feeds as feed}}<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ feed }}">
+{{/each}}<meta name="color-scheme" content="light dark">
+{{#if site.favicon}}<link rel="icon" href="{{ site.favicon }}">
+{{else}}<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+{{/if}}{{#if site.appleTouchIcon}}<link rel="apple-touch-icon" href="{{ site.appleTouchIcon }}">
+{{/if}}<link rel="stylesheet" href="/assets/theme.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="masthead">
+  <a class="site-title" href="/">{{ site.title }}</a>
+  <nav class="section-nav" aria-label="Main">
+    <ul>
+      {{#each nav as entry}}<li><a href="{{ entry.url }}"{{#if entry.current}} aria-current="page"{{/if}}>{{ entry.label }}</a></li>
+      {{/each}}
+    </ul>
+  </nav>
+</header>
+<main id="main">
+{{{ body }}}
+</main>
+<footer class="colophon">
+  <p>{{ site.title }}{{#if site.description}} — {{ site.description }}{{/if}}</p>
+  {{#if data.footer.html}}<p class="colophon-note">{{{ data.footer.html }}}</p>{{/if}}
+</footer>
+<script type="module" src="/assets/enhance.js"></script>
+</body>
+</html>

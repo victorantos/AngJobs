@@ -1,0 +1,53 @@
+{
+  "site": {
+    "title": "Fixture",
+    "url": "https://fixture.test",
+    "description": "A tiny site for golden-file tests.",
+    "language": "en",
+    "theme": "plain"
+  },
+  "collections": {
+    "pages": {
+      "path": "content/pages",
+      "urlPattern": "/:slug/",
+      "template": "page",
+      "fields": [
+        { "name": "title", "type": "text", "required": true },
+        { "name": "description", "type": "text" },
+        { "name": "draft", "type": "boolean", "default": false }
+      ]
+    },
+    "posts": {
+      "path": "content/posts",
+      "urlPattern": "/blog/:slug/",
+      "template": "post",
+      "listUrl": "/blog/",
+      "listTemplate": "list",
+      "label": "Blog",
+      "sortBy": "date",
+      "sortOrder": "desc",
+      "pageSize": 1,
+      "rss": true,
+      "fields": [
+        { "name": "title", "type": "text", "required": true },
+        { "name": "date", "type": "date", "required": true },
+        { "name": "description", "type": "text" },
+        { "name": "tags", "type": "list" },
+        { "name": "draft", "type": "boolean", "default": false }
+      ]
+    }
+  },
+  "plugins": ["stamp"],
+  "pluginOptions": {
+    "stamp": { "note": "from-config" }
+  },
+  "services": {
+    "backend": "https://backend.fixture.test"
+  },
+  "theme": {
+    "tokens": {
+      "--color-accent": "#c0ffee",
+      "--measure": "70ch"
+    }
+  }
+}

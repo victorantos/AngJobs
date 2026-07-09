@@ -1,0 +1,5 @@
+<li class="post-card">
+  <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+  <p class="meta"><time datetime="{{ item.date }}">{{ item.dateFormatted }}</time></p>
+  {{#if item.description}}<p class="summary">{{ item.description }}</p>{{/if}}
+</li>

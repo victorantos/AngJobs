@@ -1,0 +1,14 @@
+<article class="story">
+  <header class="story-head">
+    {{#if page.tagLinks}}<p class="kicker kicker-tags">{{#each page.tagLinks as tag}}<a href="{{ tag.url }}">{{ tag.name }}</a>{{/each}}</p>
+    {{/if}}<h1>{{ page.title }}</h1>
+    {{#if page.description}}<p class="standfirst">{{ page.description }}</p>
+    {{/if}}<p class="dateline"><time datetime="{{ page.date }}">{{ page.dateFormatted }}</time></p>
+  </header>
+  {{#if page.cover}}<figure class="story-cover">
+    <img src="{{ page.cover }}" alt="" decoding="async">
+  </figure>
+  {{/if}}<div class="prose story-body">
+{{{ page.content }}}
+  </div>
+</article>

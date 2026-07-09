@@ -1,0 +1,18 @@
+<article class="role">
+  <header class="page-header">
+    <p class="eyebrow">Experience</p>
+    <h1>{{ page.title }}{{#if page.organization}} <span class="cv-org">· {{ page.organization }}</span>{{/if}}</h1>
+    <p class="meta">{{#if page.period}}<span class="cv-period">{{ page.period }}</span>{{else}}<time datetime="{{ page.date }}">{{ page.dateFormatted }}</time>{{/if}}{{#if page.location}} · {{ page.location }}{{/if}}</p>
+  </header>
+  {{#if page.summary}}<p class="lede">{{ page.summary }}</p>
+  {{/if}}{{#if page.highlights}}
+  <ul class="cv-highlights">
+    {{#each page.highlights as point}}<li>{{ point }}</li>
+    {{/each}}
+  </ul>
+  {{/if}}
+  <div class="prose">
+{{{ page.content }}}
+  </div>
+  <p class="backlink"><a href="/experience/">← Back to the full CV</a></p>
+</article>

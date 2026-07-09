@@ -1,0 +1,46 @@
+<div class="doc-layout">
+  <aside class="doc-sidebar">
+    <a class="doc-search" href="/search/"><span class="doc-search-label">Search the manual</span><span class="doc-search-arrow" aria-hidden="true">→</span></a>
+    <details class="doc-contents" open>
+      <summary>Contents</summary>
+      {{#if collections.docs}}
+      <nav aria-label="Documentation sections">
+        <ol class="doc-tree">
+          {{#each collections.docs as doc}}<li><a href="{{ doc.url }}">{{#if doc.order}}<span class="doc-num" aria-hidden="true">{{ doc.order }}</span>{{/if}}<span class="doc-name">{{ doc.title }}</span></a></li>
+          {{/each}}
+        </ol>
+      </nav>
+      {{else}}
+      <p class="empty">No sections yet.</p>
+      {{/if}}
+    </details>
+  </aside>
+  <article class="doc">
+    <div class="titleblock">
+      <nav class="crumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/docs/">Docs</a></li>
+          <li aria-current="page">{{ page.title }}</li>
+        </ol>
+      </nav>
+      {{#if page.order}}<span class="doc-id">§ {{ page.order }}</span>{{/if}}
+    </div>
+    <header class="doc-header">
+      <h1>{{ page.title }}</h1>
+      {{#if page.description}}<p class="lede">{{ page.description }}</p>{{/if}}
+    </header>
+    <div class="prose">
+{{{ page.content }}}
+    </div>
+    {{#if page.prev}}
+    <nav class="doc-pager" aria-label="Section sequence">
+      {{> pager-prev}}
+      {{#if page.next}}{{> pager-next}}{{/if}}
+    </nav>
+    {{else}}{{#if page.next}}
+    <nav class="doc-pager" aria-label="Section sequence">
+      {{> pager-next}}
+    </nav>
+    {{/if}}{{/if}}
+  </article>
+</div>

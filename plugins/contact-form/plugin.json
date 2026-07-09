@@ -1,0 +1,8 @@
+{
+  "name": "contact-form",
+  "version": "1.0.0",
+  "description": "Replaces [[contact-form]] in any page with a form that POSTs to your endpoint (Formspree, a Worker, …). Works without JavaScript; JS adds inline submission.",
+  "hooks": ["renderPage"],
+  "client": { "js": "client.js", "css": "client.css" },
+  "options": { "endpoint": "", "successMessage": "Thanks — your message is on its way." }
+}

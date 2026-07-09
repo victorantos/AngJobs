@@ -1,0 +1,359 @@
+/* Bistro — a restaurant theme built around one object: the menu.
+   All colour, type, and spacing live in the tokens below. Restyle by
+   editing tokens, never selectors (cms-spec.md §10.1). */
+
+:root {
+  /* Type — condensed signage caps over a warm text serif */
+  --font-display: "Arial Narrow", "Helvetica Neue Condensed", "Roboto Condensed", ui-sans-serif, sans-serif;
+  --font-body: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  /* Colour — light: linen tablecloth, bottle green, a glass of wine */
+  --color-bg: #f6f2ea;
+  --color-text: #23201b;
+  --color-muted: #63594c;
+  --color-accent: #1e4d39;
+  --color-cta: #7a1f2b;
+  --color-cta-hover: #611620;
+  --color-cta-ink: #fbf9f4;
+  --color-paper: #fcfaf5;
+  --color-frame: #1e4d39;
+  --color-leader: #bcae9c;
+  --color-border: #e2dbcc;
+  --color-code-bg: #efe9dd;
+  --color-mark: #f2d99a;
+  --shadow-carte: 0 1px 2px rgb(30 40 30 / 0.06), 0 12px 32px rgb(30 40 30 / 0.10);
+
+  /* Layout */
+  --measure: 62ch;
+  --measure-carte: 42rem;
+  --radius: 3px;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 1rem;
+  --space-4: 2rem;
+  --space-5: 3.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* After hours — the chalkboard */
+    --color-bg: #191c18;
+    --color-text: #ece7dd;
+    --color-muted: #a79f90;
+    --color-accent: #82bb9d;
+    --color-cta: #c76b76;
+    --color-cta-hover: #d9808a;
+    --color-cta-ink: #191c18;
+    --color-paper: #22261f;
+    --color-frame: #82bb9d;
+    --color-leader: #454b40;
+    --color-border: #343a30;
+    --color-code-bg: #20241d;
+    --color-mark: #4a3f16;
+    --shadow-carte: 0 1px 2px rgb(0 0 0 / 0.4), 0 16px 40px rgb(0 0 0 / 0.5);
+  }
+}
+
+/* Base ------------------------------------------------------------------ */
+
+* { box-sizing: border-box; }
+html { color-scheme: light dark; }
+
+body {
+  margin: 0 auto;
+  padding: 0 var(--space-3);
+  max-width: calc(var(--measure) + 2 * var(--space-3));
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+::selection { background: var(--color-mark); color: var(--color-text); }
+
+a { color: var(--color-accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+a:hover { text-decoration-thickness: 2px; }
+
+:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; border-radius: 2px; }
+
+.skip-link {
+  position: absolute;
+  left: -100vw;
+  top: var(--space-2);
+  background: var(--color-paper);
+  padding: var(--space-2) var(--space-3);
+}
+.skip-link:focus { left: var(--space-2); }
+
+/* The signage voice — display caps */
+.eyebrow, .dish-course, .masthead nav a, .dish-page-price, .menu-course-legend {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+
+/* Masthead & footer ------------------------------------------------------ */
+
+.masthead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-4);
+  padding: var(--space-4) 0 var(--space-3);
+  border-bottom: 2px solid var(--color-frame);
+}
+
+.site-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 4vw, 2.1rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text);
+  text-decoration: none;
+}
+.site-title:hover { color: var(--color-accent); }
+
+.masthead nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.masthead nav a {
+  font-size: 0.82rem;
+  color: var(--color-muted);
+  text-decoration: none;
+}
+.masthead nav a:hover { color: var(--color-accent); }
+.masthead nav a[aria-current="page"] { color: var(--color-accent); border-bottom: 2px solid var(--color-accent); }
+
+main { min-height: 60vh; }
+
+.colophon {
+  margin-top: var(--space-5);
+  padding: var(--space-3) 0 var(--space-4);
+  border-top: 2px solid var(--color-frame);
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+/* Page headers & prose --------------------------------------------------- */
+
+.page-header { margin: var(--space-5) 0 var(--space-4); }
+
+.page-header h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 6vw, 3rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  line-height: 1.05;
+  margin: 0;
+  text-wrap: balance;
+}
+
+.meta { color: var(--color-muted); font-size: 0.9rem; margin: var(--space-2) 0 0; }
+
+.prose h2, .prose h3 {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  line-height: 1.15;
+  margin: var(--space-4) 0 var(--space-2);
+}
+.prose h2 { font-size: 1.5rem; }
+.prose h3 { font-size: 1.2rem; }
+.prose p, .prose ul, .prose ol { margin: 0 0 var(--space-3); }
+.prose img { max-width: 100%; height: auto; border-radius: var(--radius); }
+
+.prose blockquote {
+  margin: var(--space-3) 0;
+  padding: 0 var(--space-3);
+  border-left: 3px solid var(--color-accent);
+  color: var(--color-muted);
+  font-style: italic;
+}
+
+.prose code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background: var(--color-code-bg);
+  padding: 0.1em 0.35em;
+  border-radius: var(--radius);
+}
+.prose pre {
+  background: var(--color-code-bg);
+  padding: var(--space-3);
+  border-radius: var(--radius);
+  overflow-x: auto;
+  line-height: 1.5;
+}
+.prose pre code { background: none; padding: 0; font-size: 0.9rem; }
+
+.prose table { border-collapse: collapse; width: 100%; margin: 0 0 var(--space-3); font-variant-numeric: tabular-nums; }
+.prose th, .prose td { text-align: left; padding: var(--space-2) var(--space-3); border-bottom: 1px solid var(--color-border); }
+
+.cover { width: 100%; height: auto; border-radius: var(--radius); margin-bottom: var(--space-4); }
+
+/* Home hero — hours + reserve above the fold ----------------------------- */
+
+.hero {
+  margin: var(--space-5) 0 var(--space-4);
+  text-align: center;
+}
+.hero h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 8vw, 4rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  margin: 0 0 var(--space-2);
+}
+.hero-tagline { font-size: 1.2rem; color: var(--color-muted); font-style: italic; margin: 0 auto var(--space-4); max-width: 40ch; }
+
+.hours-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-3) var(--space-5);
+  margin: var(--space-4) auto;
+  padding: var(--space-3) var(--space-4);
+  max-width: var(--measure-carte);
+  background: var(--color-paper);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-carte);
+}
+.hours-card dl { margin: 0; text-align: left; }
+.hours-card dt { font-family: var(--font-display); text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.75rem; color: var(--color-muted); }
+.hours-card dd { margin: 0; font-variant-numeric: tabular-nums; }
+
+.btn-reserve {
+  display: inline-block;
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 1rem;
+  padding: 0.7em 2em;
+  color: var(--color-cta-ink);
+  background: var(--color-cta);
+  border-radius: var(--radius);
+  text-decoration: none;
+}
+.btn-reserve:hover { background: var(--color-cta-hover); color: var(--color-cta-ink); text-decoration: none; }
+
+/* THE CARTE — the signature designed object ------------------------------ */
+
+.menu-header { text-align: center; }
+.menu-standfirst { font-style: italic; color: var(--color-muted); margin: var(--space-2) auto 0; max-width: 44ch; }
+
+.carte {
+  max-width: var(--measure-carte);
+  margin: var(--space-4) auto;
+  padding: clamp(1.5rem, 5vw, 3rem);
+  background: var(--color-paper);
+  border: 1px solid var(--color-frame);
+  outline: 1px solid var(--color-frame);
+  outline-offset: 5px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-carte);
+}
+
+.carte-list { list-style: none; margin: 0; padding: 0; }
+
+.dish { padding: var(--space-3) 0; border-bottom: 1px dotted var(--color-border); }
+.dish:first-child { padding-top: 0; }
+.dish:last-child { border-bottom: 0; padding-bottom: 0; }
+
+/* dish name … price, with a real dot leader between them */
+.dish-line {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  margin: 0;
+}
+.dish-name {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-text);
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dish-name:hover { color: var(--color-accent); }
+.dish-leader {
+  flex: 1;
+  align-self: flex-end;
+  height: 0;
+  border-bottom: 2px dotted var(--color-leader);
+  transform: translateY(-0.28em);
+  min-width: 1.5rem;
+}
+.dish-price {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.1rem;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+  color: var(--color-accent);
+  white-space: nowrap;
+}
+
+.dish-desc { margin: var(--space-1) 0 0; color: var(--color-muted); font-style: italic; max-width: 52ch; }
+.dish-course { margin: var(--space-1) 0 0; font-size: 0.68rem; color: var(--color-muted); }
+
+/* Single dish page */
+.dish-page { max-width: var(--measure); margin: 0 auto; }
+.dish-page-back { margin: var(--space-4) 0 0; font-size: 0.9rem; }
+.dish-page-header { margin: var(--space-3) 0 var(--space-3); border-bottom: 2px solid var(--color-frame); padding-bottom: var(--space-3); }
+.dish-page-header h1 { font-family: var(--font-display); text-transform: uppercase; letter-spacing: 0.03em; font-size: clamp(1.8rem, 5vw, 2.6rem); margin: var(--space-1) 0; }
+.dish-page-price { font-size: 1.3rem; color: var(--color-accent); font-variant-numeric: tabular-nums; margin: 0; }
+.dish-page-standfirst { font-size: 1.2rem; font-style: italic; color: var(--color-muted); }
+
+/* Post list & pagination ------------------------------------------------- */
+
+.post-list { list-style: none; margin: 0; padding: 0; }
+.post-card { padding: var(--space-4) 0; border-bottom: 1px solid var(--color-border); }
+.post-card:last-child { border-bottom: 0; }
+.post-card h2 { font-family: var(--font-display); text-transform: uppercase; letter-spacing: 0.04em; font-size: 1.4rem; margin: 0 0 var(--space-1); }
+.post-card h2 a { color: var(--color-text); text-decoration: none; }
+.post-card h2 a:hover { color: var(--color-accent); }
+.post-card .summary { margin: var(--space-2) 0 0; }
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-3);
+  max-width: var(--measure-carte);
+  margin: var(--space-4) auto 0;
+  color: var(--color-muted);
+  font-size: 0.85rem;
+}
+
+.empty { color: var(--color-muted); text-align: center; }
+
+/* Motion & print --------------------------------------------------------- */
+
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+
+@media print {
+  body { max-width: none; color: #000; background: #fff; font-size: 11pt; }
+  .masthead nav, .colophon, .skip-link, .btn-reserve, .dish-page-back { display: none; }
+  a { color: inherit; text-decoration: none; }
+  .carte { box-shadow: none; outline: none; border: 1.5pt solid #000; page-break-inside: avoid; }
+  .dish-leader { border-bottom-color: #999; }
+  .dish { page-break-inside: avoid; }
+}

@@ -1,0 +1,30 @@
+{
+  "starter": "studio",
+  "collections": {
+    "projects": {
+      "path": "content/projects",
+      "urlPattern": "/work/:slug/",
+      "template": "project",
+      "listUrl": "/work/",
+      "listTemplate": "projects",
+      "label": "Work",
+      "sortBy": "date",
+      "sortOrder": "desc",
+      "pageSize": 12,
+      "fields": [
+        { "name": "title", "type": "text", "required": true },
+        { "name": "date", "type": "date", "required": true },
+        { "name": "description", "type": "text" },
+        { "name": "cover", "type": "image" },
+        { "name": "client", "type": "text" },
+        { "name": "services", "type": "list" },
+        { "name": "draft", "type": "boolean", "default": false }
+      ]
+    }
+  },
+  "navigation": [
+    { "label": "Work", "url": "/work/" },
+    { "label": "About", "url": "/about/" }
+  ],
+  "sampleContent": "sample/"
+}

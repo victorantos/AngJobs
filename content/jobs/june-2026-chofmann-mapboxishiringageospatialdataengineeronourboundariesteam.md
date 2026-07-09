@@ -1,0 +1,20 @@
+---
+title: Mapbox is hiring a Geospatial Data Engineer on our Boundaries team.
+date: 2026-06-01
+description: Mapbox is hiring a Geospatial Data Engineer on our Boundaries team. We use postgis, trino and iceberg to build and validate topologically accurate…
+author: chofmann
+authorUrl: https://news.ycombinator.com/item?id=48371094
+byline: chofmann
+section: june-2026
+tags:
+  - june-2026
+---
+
+Mapbox is hiring a Geospatial Data Engineer on our Boundaries team.
+
+We use postgis, trino and iceberg to build and validate topologically accurate geodata.
+
+We are remote-first and hire in many countries globally. Please apply!
+
+Full job description is here: <a href="https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;Mapbox&#x2F;2fc1e9b6-8d13-4cb6-8271-a2f6322ec4ab?utm_source=1laq2agZyg" rel="nofollow">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;Mapbox&#x2F;2fc1e9b6-8d13-4cb6-8271-a2f6...</a>
+[[form:apply]]

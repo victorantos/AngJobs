@@ -1,0 +1,18 @@
+<section class="work">
+  <h1 class="work-title">{{ page.title }}</h1>
+  {{#if items}}
+  <ul class="work-grid">
+    {{#each items as item}}{{> project-card}}
+    {{/each}}
+  </ul>
+  {{else}}
+  <p class="empty column">Nothing hangs here yet — add your first project and it will fill this wall.</p>
+  {{/if}}
+  {{#if pagination.multiple}}
+  <nav class="pagination" aria-label="Pages">
+    {{#if pagination.newer}}<a href="{{ pagination.newer }}">← Newer</a>{{/if}}
+    <span>Page {{ pagination.page }} of {{ pagination.totalPages }}</span>
+    {{#if pagination.older}}<a href="{{ pagination.older }}">Older →</a>{{/if}}
+  </nav>
+  {{/if}}
+</section>

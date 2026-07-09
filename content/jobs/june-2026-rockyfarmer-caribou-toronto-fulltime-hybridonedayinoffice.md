@@ -1,0 +1,23 @@
+---
+title: Caribou : Toronto
+date: 2026-06-01
+description: Caribou - Toronto- Full Time - Hybrid (one day in office) - Caribou helps homecare organizations attract, engage, and retain staff through data-driven…
+author: rockyfarmer
+authorUrl: https://news.ycombinator.com/item?id=48359536
+byline: rockyfarmer
+section: june-2026
+tags:
+  - june-2026
+---
+
+Caribou - Toronto- Full Time - Hybrid (one day in office) - <a href="https:&#x2F;&#x2F;www.caribou.care&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.caribou.care&#x2F;</a>
+Caribou helps homecare organizations attract, engage, and retain staff through data-driven recognition, rewards, and coordination tools that make the lives of patients and their caregivers better. We&#x27;re a small company of ~50 people who are mostly based in the GTA.
+
+We are building on our core product such as deploying AI-powered agentic systems that work alongside agency coordinators to handle routine coordination, outreach, and administrative workflows to improve agency operations.
+
+We are hiring:
+
+Senior Software Engineer: <a href="https:&#x2F;&#x2F;caribou.breezy.hr&#x2F;p&#x2F;66f1f5c2f30f-senior-software-engineer?state=published" rel="nofollow">https:&#x2F;&#x2F;caribou.breezy.hr&#x2F;p&#x2F;66f1f5c2f30f-senior-software-eng...</a>
+
+Staff Engineer: <a href="https:&#x2F;&#x2F;caribou.breezy.hr&#x2F;p&#x2F;e1a6bd516d2f-staff-engineer" rel="nofollow">https:&#x2F;&#x2F;caribou.breezy.hr&#x2F;p&#x2F;e1a6bd516d2f-staff-engineer</a>
+[[form:apply]]

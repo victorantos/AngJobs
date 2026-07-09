@@ -1,0 +1,50 @@
+{
+  "plans": [
+    {
+      "name": "Solo",
+      "price": "$0",
+      "period": "month",
+      "tagline": "For one person and a side project.",
+      "features": [
+        "5 monitors, 5-minute checks",
+        "1 status page",
+        "Email alerts",
+        "30-day history"
+      ],
+      "cta": "Start free",
+      "url": "/contact/",
+      "featured": false
+    },
+    {
+      "name": "Team",
+      "price": "$29",
+      "period": "month",
+      "tagline": "For a product with users who notice.",
+      "features": [
+        "50 monitors, 30-second checks",
+        "Unlimited status pages",
+        "Slack, SMS & webhook alerts",
+        "13-month history",
+        "On-call rotations"
+      ],
+      "cta": "Start a 14-day trial",
+      "url": "/contact/",
+      "featured": true
+    },
+    {
+      "name": "Scale",
+      "price": "$99",
+      "period": "month",
+      "tagline": "For fleets, agencies, and audits.",
+      "features": [
+        "500 monitors, multi-region checks",
+        "SSO & audit log",
+        "99.99% SLA on the checker itself",
+        "Priority support from an engineer"
+      ],
+      "cta": "Talk to us",
+      "url": "/contact/",
+      "featured": false
+    }
+  ]
+}

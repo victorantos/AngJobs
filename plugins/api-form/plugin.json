@@ -1,0 +1,8 @@
+{
+  "name": "api-form",
+  "version": "1.0.0",
+  "description": "Replaces [[form:<name>]] with a form that POSTs to a named backend service (site.config.json \"services\"). Forms are declared in pluginOptions. Works without JavaScript when the backend accepts regular form posts; JS adds inline submission.",
+  "hooks": ["renderPage"],
+  "client": { "js": "client.js", "css": "client.css" },
+  "options": { "service": "backend", "forms": {} }
+}

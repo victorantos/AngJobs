@@ -1,127 +1,247 @@
-# CLAUDE.md - AngJobs Codebase Knowledge
+# CLAUDE.md — how to work on this repo
 
-## Project Overview
+This is **plain**, a Git-native CMS: content is Markdown files, configuration is JSON, the build emits a static site into `dist/`. The full spec is `cms-spec.md` — read it before structural changes. This file is the working reference for day-to-day edits.
 
-AngJobs is a job board website that aggregates and displays job postings from Hacker News's "Ask HN: Who is hiring?" threads. The site is built using VuePress v2 and is hosted at https://angjobs.com.
+## The one rule
 
-## Tech Stack
+**Before committing, always run both:**
 
-- **Framework**: VuePress 2.0.0-rc.13 (Static Site Generator)
-- **Bundler**: Vite
-- **Theme**: vuepress-theme-hope 2.0.0-rc.48
-- **Frontend**: Vue 3.4.27
-- **Node**: v20.0.0+
-
-## Project Structure
-
-```
-AngJobs/
-├── src/                        # Source files
-│   ├── .vuepress/             # VuePress configuration (appears empty/minimal)
-│   ├── jobs/                  # Job listings organized by month
-│   │   ├── April-2025/        # Each month contains individual .md files
-│   │   ├── May-2025/
-│   │   ├── June-2025/
-│   │   └── ...
-│   ├── hackers/               # Additional content directory
-│   └── README.md              # Homepage content
-├── vuepress-plugin-angjobs/     # Custom VuePress plugin
-│   ├── index.js               # Plugin entry point
-│   ├── client.js              # Client-side configuration
-│   ├── JobApplication.vue    # Job application form component
-│   └── MyComponent.vue        # Additional component
-├── _site/                     # Build output directory
-├── package.json               # Project dependencies and scripts
-└── README.md                  # Project documentation
+```sh
+node --test tests/
+node build.js
 ```
 
-## Key Components
+A red test or a failed build must never be committed. The golden-file test compares built output byte-for-byte; if you intentionally changed output, run `node tests/update-goldens.js` and review the diff.
 
-### 1. Custom VuePress Plugin (`vuepress-plugin-angjobs`)
+## Hard constraints (from cms-spec.md §2 — never violate)
 
-The project includes a custom VuePress plugin that registers Vue components globally:
+- Vanilla only: no frameworks, no bundlers, no TypeScript. Plain ES modules, JSDoc for types.
+- Exactly one runtime dependency: `marked`. No new packages, including dev dependencies.
+- Core (`build.js` + `lib/` + admin JS) stays under 2,500 lines; no file over 400. Too big → make it a plugin.
+- No database. All state is files in this repo.
+- The published site must work with JavaScript disabled.
+- `lib/util.js`, `lib/template.js`, `lib/markdown.js` are **isomorphic**: they must never import `node:*` — the admin runs them in the browser so previews match the build exactly.
 
-- **JobApplication.vue**: A comprehensive job application form with:
-  - Input fields for name, email, phone, resume (PDF)
-  - Message/cover letter textarea
-  - Form validation
-  - Submission to external API endpoint
-  - Professional styling with responsive design
+## Commands
 
-- **MyComponent.vue**: Additional component (purpose unclear from analysis)
+| Command | What it does |
+| ------- | ------------ |
+| `node build.js` | Build the site into `dist/` |
+| `node build.js --watch` | Build, serve on :4000, rebuild on change |
+| `node --test tests/` | Run the test suite |
+| `node tests/update-goldens.js` | Regenerate golden files after an intentional output change |
 
-### 2. Job Listing Structure
+## Content model
 
-Each job posting is a Markdown file with:
-- Frontmatter containing:
-  - `title`: Job title and company
-  - `author.name`: HN username
-  - `author.url`: Link to original HN post
-- Job description in HTML format (likely scraped from HN)
-- `<JobApplication />` component embedded at the end
+Collections are defined in `site.config.json`. A collection = a folder of `.md` files + a field schema:
 
-Example structure:
+```json
+"posts": {
+  "path": "content/posts",        // folder of .md files
+  "urlPattern": "/blog/:slug/",   // must start with / and contain :slug
+  "template": "post",             // theme template for one item
+  "listUrl": "/blog/",            // optional: emit a paginated list page
+  "listTemplate": "list",         // required if listUrl is set
+  "label": "Blog",                // optional: heading for list pages
+  "sortBy": "date", "sortOrder": "desc",
+  "pageSize": 10,                 // pagination size for list pages
+  "rss": true,                    // emit <listUrl>rss.xml
+  "fields": [
+    { "name": "title", "type": "text", "required": true },
+    { "name": "date",  "type": "date", "required": true },
+    { "name": "draft", "type": "boolean", "default": false }
+  ]
+}
+```
+
+Field types: `text`, `textarea`, `date`, `boolean`, `image`, `list`, `select` (needs `options`). The admin renders its edit forms from this schema, so **adding a field to config is the whole job** — no code changes.
+
+**`site.basePath`** (optional): serve under a subpath, e.g. GitHub *project* Pages at `/<repo>/`. The build prefixes every root-relative `href`/`src` (and redirect target) with it; set `site.url` to the full base too (`https://user.github.io/<repo>`). Leave it empty (default) for a site served at the domain root — user Pages, Cloudflare/Netlify, or a custom domain.
+
+**`site.oauthUrl`** (optional): the deployed OAuth Worker URL (`workers/oauth/`). When set, the admin sign-in screen shows a **"Sign in with GitHub"** button (the paste-a-token form moves under "or use an access token"); writers with repo write access click it, authorize once, and publish — no PAT. Leave it out for token-only sign-in (v1). The admin opens `<oauthUrl>/login` in a popup and accepts the token only from a `postMessage` matching that origin.
+
+**`site.favicon` / `site.appleTouchIcon` / `site.socialImage`** (optional): per-site branding without editing a theme. `favicon` swaps the icon link away from the theme's `/assets/favicon.svg`; `appleTouchIcon` adds an iOS home-screen icon link; `socialImage` is the site-wide share image — every theme emits it as `og:image` + `twitter:card` for pages that have no `cover`. Values are root-relative paths served from `media/` (e.g. `/media/brand/og-image.png`); meta tags absolutize them with `site.url`. The project's brand kit (SVG masters + generator + platform rasters) lives in the site repo, `victorantos/plain-cms.com`, under `assets/` — this engine repo ships only the default favicon and the README logos in `.github/`.
+
+**`services`** (optional, top-level beside `plugins` — not inside `site`): the site's named backend endpoints, e.g. `"services": { "backend": "https://api.example.com" }`. Plugins resolve a service by name instead of hardcoding URLs: build hooks read `site.config.services`, client code reads the reserved `$services` key of the injected plugin-options JSON (see Plugins below). Values must be `https://` URL strings (validated; trailing slash stripped) and are public three times over — committed in the repo, injected into every page that loads plugin JS, served in `api/site.json`. **Endpoints only, never keys or secrets**; anything private follows the BYOK/localStorage pattern (§8.3, `admin/js/ai.js`). `plugins/api-form/` is the reference consumer.
+
+**To add a collection:** add an entry to `collections`, create its folder under `content/`, and make sure the theme has the template it names. That's all.
+
+### Content files
+
+Markdown with frontmatter. The frontmatter parser is a deliberate, hand-rolled subset — only these forms are legal:
+
 ```markdown
 ---
-title: "Company : Job Title"
-author:
-  name: HNUsername
-  url: https://news.ycombinator.com/item?id=12345678
+title: Plain scalar value          # string; true/false → boolean; 42 → number
+quoted: "kept as a string"         # quotes force string
+date: 2026-07-05                   # dates are ISO strings, validated by field type
+tags:                              # a list: "key:" then indented "- item" lines
+  - launch
 ---
-[Job description content]
-<JobApplication />
+Body in Markdown.
 ```
 
-### 3. Job Application Flow
+No nesting, no multiline strings, no YAML anchors. Unknown extra keys are allowed (e.g. `example: true` marks sample content).
 
-1. Users browse job listings
-2. Each listing has an embedded application form
-3. Form submissions are sent to: `https://victorantos-api.azurewebsites.net/jobapplicationsfromangjobs`
-4. Submission includes:
-   - User data (name, email, phone, message)
-   - Resume file
-   - Context (current URL, page title, author info)
+Rules:
+- **Filename = slug = URL.** `hello-world.md` → `/blog/hello-world/`. Filenames must be lowercase slugs. `index.md` maps to the collection's URL root (`/` for pages).
+- **Renaming a file changes its URL** — add the old URL to `data/redirects.json`: `{ "/old-url/": "/new-url/" }`.
+- `draft: true` excludes the item from the build entirely (pages, sitemap, RSS).
+- Validation failures stop the build with `file:line — problem — fix`. Broken content never half-deploys.
 
-## Build Process
+### Data files
 
-- **Development**: `npm run docs:dev` (runs VuePress dev server)
-- **Production**: `npm run build` or `npm run docs:build`
-- **Clean dev**: `npm run docs:clean-dev` (clears cache)
+Every `data/*.json` is available to templates as `data.<filename>` (e.g. `{{#each data.navigation as entry}}`). `navigation.json` is a list of `{label, url}`; `redirects.json` maps old → new URLs and produces both a `_redirects` file and meta-refresh fallback pages. `footer.json` is `{ "html": "…" }` — every shipped theme prints it at the bottom of every page (raw site-owner HTML), and the admin's Settings screen edits it (commit message `settings: update footer`).
 
-## Important Patterns & Decisions
+## Template syntax (lib/template.js — the complete list)
 
-1. **Static Site Generation**: The site is statically generated, making it fast and SEO-friendly
-2. **Monthly Organization**: Jobs are organized by month/year for easy navigation
-3. **Embedded Forms**: Application forms are embedded directly in job listings
-4. **External API**: Applications are processed by an external Azure-hosted API
-5. **Minimal Configuration**: The project uses mostly default VuePress settings
+```
+{{ item.title }}                      escaped output (dot-paths only, no JS)
+{{{ page.content }}}                  raw output, for rendered HTML
+{{#if page.draft}} … {{else}} … {{/if}}    truthy test; an empty list is false
+{{#each items as item}} … {{/each}}   iterate a list, alias in scope
+{{> post-card}}                       partial from templates/partials/
+```
 
-## Key Files to Modify
+Variables available in every template:
 
-- **Adding new jobs**: Create `.md` files in `src/jobs/[Month-Year]/`
-- **Modifying application form**: Edit `vuepress-plugin-angjobs/JobApplication.vue`
-- **Changing theme/layout**: Would need to add configuration in `src/.vuepress/`
-- **Build configuration**: Modify `package.json` scripts
+- `site` — the `site` block of config (`site.title`, `site.url`, …)
+- `page` — the current item: its fields plus `url`, `slug`, `content` (rendered HTML), `body` (raw Markdown), `dateFormatted`, `tagLinks` (`[{name, url}]`)
+- `nav` — navigation entries with `current: true` on the active one
+- `data` — all data files; `collections` — all items by collection name
+- `feeds` — RSS feed URLs (for `<link rel="alternate">`)
+- List templates also get: `items` (this page's slice), `pagination` (`page`, `totalPages`, `multiple`, `newer`, `older`), `tag` (on tag pages)
 
-## Development Tips
+Every page template renders into `base.html`'s `{{{ body }}}` slot.
 
-1. Job files follow a specific naming pattern: `[HNUsername]-[CompanyInfo]-[JobTitle].md`
-2. The JobApplication component expects specific frontmatter fields
-3. The site appears to be designed for automated job scraping/importing
-4. The `_site` directory contains a duplicate structure (possibly for testing)
+## The admin (`admin/`)
 
-## Potential Improvements
+A vanilla single-page app served at `/admin/` on the published site. It reads
+the static API (`/api/site.json` for the schema, `/api/<collection>/index.json`
+for published items) and writes through the GitHub contents API — every save
+is a commit; there is no other backend.
 
-1. Add VuePress configuration files for customization
-2. Implement job search/filtering functionality
-3. Add job categories or tags
-4. Create an admin interface for job management
-5. Add application tracking for users
-6. Implement RSS feed for new jobs
+- `js/github.js` — GitHub REST calls, token in localStorage (never sent anywhere but api.github.com)
+- `js/app.js` — router + dashboard, collection lists, navigation editor, settings, sign-in
+- `js/editor.js` — the schema-driven editor: fields come from config, preview renders with `lib/markdown.js`
+- `js/media.js` — media library + uploads to `media/YYYY/MM/` (≤5 MB, resize offer over 1 MB)
+- `js/ui.js` — DOM helpers, toasts, dialogs, the build-status pill
 
-## Notes
+The build copies `admin/` plus the isomorphic lib modules and `marked` into
+`dist/admin/` — the editor preview and the build share one renderer (§10.2).
+UI language rule: never show Git words. Say Save / Publish / History / Restore.
+Commit messages it writes: `post: publish "Title"`, `page: edit "About"`,
+`media: add lake.jpg`, `navigation: update menu`, `settings: update site settings`.
 
-- The project is relatively simple with minimal custom configuration
-- Most functionality comes from VuePress defaults and the custom plugin
-- The external API endpoint suggests this is part of a larger system
-- Git branch "Improve-UI" suggests ongoing UI enhancements
+## The static API (`dist/api/`)
+
+- `api/site.json` — `{site, collections, plugins, services, navigation}` (the machine-readable content model)
+- `api/<collection>/index.json` — `{items: [...]}`, sorted like the site
+- `api/<collection>/<slug>.json` — one item: frontmatter fields + `url`, `slug`, `file`, `body` (Markdown), `content` (HTML). Exception: an item named `index.md` has no per-item file (it would collide with the listing above, which carries every item in full).
+
+Drafts never appear in the API. Any script or agent can consume these without a server.
+
+The build also emits `llms.txt` (title, summary, and a link list per collection — the llms.txt convention) so AI agents can survey the site in one request.
+
+## AI assist (admin/js/ai.js)
+
+Editor-facing AI (§8.3): a provider interface `complete(prompt, content) → text` with an Anthropic adapter calling `/v1/messages` directly from the browser (BYOK — key pasted in Settings, kept in localStorage, sent only to api.anthropic.com). Five actions in `assist`: `improve`, `describe`, `titles`, `altText` (vision), `translate`. Rules: every action shows a before/after review and requires an explicit Apply — never auto-apply; without a key the buttons explain how to add one; no `temperature`/`thinking` params (removed on current models — they 400).
+
+Because content is plain files, **any agent workflow works with zero integration**: Claude Code writing a weekly post, an Action drafting a changelog PR, a scheduled agent updating a prices page. The tests protect this — an agent that breaks the schema gets a failing build with a clear message, not a broken site.
+
+## Themes & starters
+
+A theme is `themes/<name>/` with `templates/` (`base.html`, plus whatever templates collections name), optional `templates/partials/`, and `assets/` (copied to `/assets/`). All design decisions are CSS custom properties in one `:root` block at the top of `theme.css` — restyle by editing tokens, never selectors. Quality floor: semantic HTML, WCAG AA, visible focus, light + dark scheme, print stylesheet, no external requests, system fonts only.
+
+A **starter** (§10.3) is a theme plus an optional `starter.json` declaring the collections, navigation preset, and `sampleContent` folder it installs. Applying a starter merges its `collections` into config, sets navigation, and copies `sample/**` (all `example: true`) into the site — each a commit. A theme may also ship `content-templates/*.md` (pre-structured "New post" starting points) and, via `config.theme.tokens`, per-token customizations that the build injects as a `<style id="theme-tokens">` block **after** `theme.css` — so upgrades replace theme files wholesale while customizations survive (§10.5). Ships with fifteen starters: `default` (Journal), `toolbox` (trades), `studio` (portfolio), `bistro` (restaurant), `manual` (docs), `terminal` (developer blog), `letters` (newsletter/essays), `launch` (startup/SaaS), `gazette` (news/magazine), `folio` (résumé/CV), `keys` (real estate), `cause` (nonprofit), `practice` (clinic), `form` (fitness), `encore` (band/artist).
+
+The admin's Appearance screen renders a **try-on** of the user's own pages with a candidate theme entirely in the browser, using the same `lib/template.js`/`lib/markdown.js` the build uses (§10.2) — nothing is committed until Apply. `admin/js/appearance.js` also reads the community starter registry (§10.6). The first-run wizard (`admin/js/wizard.js`) runs when the config still has the placeholder title `"My Site"`.
+
+## Plugins — the AI extension surface
+
+**A plugin is a folder in `plugins/`. Install = copy the folder + add its name to `"plugins"` in `site.config.json`.** No npm, no registry, no build step. This section is the complete API.
+
+```
+plugins/my-plugin/
+├── plugin.json     # manifest (required)
+├── index.js        # build-time hooks (optional)
+├── client.js       # browser module, auto-injected into every page (optional)
+└── client.css      # stylesheet, auto-injected into every page (optional)
+```
+
+`plugin.json`:
+
+```json
+{
+  "name": "my-plugin",
+  "version": "1.0.0",
+  "description": "One sentence.",
+  "hooks": ["transformContent"],
+  "client": { "js": "client.js", "css": "client.css" },
+  "options": { "someOption": "default value" }
+}
+```
+
+Only `name`, `version`, `description` are required. `hooks` is documentation (the loader inspects `index.js` itself). Declare `client` entries only for files that exist.
+
+`index.js` default-exports an object of hooks. All are optional; each may be sync or async. **Every hook receives the plugin's resolved options as its last argument** (manifest `options` overridden by the site's `pluginOptions.<name>` in `site.config.json`):
+
+```js
+export default {
+  // After config load, before content is scanned. site = {config, data, collections: null}.
+  init(site, options) {},
+
+  // Once per content item, after frontmatter parsing, BEFORE Markdown rendering.
+  // Mutate the item freely: item.body is raw Markdown; fields (title, date, …)
+  // are set; item.url/slug/file/collection too. Anything you add rides along
+  // into templates and the JSON API (e.g. item.readingTime = …).
+  transformContent(item, site, options) {},
+
+  // Once per rendered HTML page (items, list pages, the 404). Return a string
+  // to replace the page's HTML; return nothing to leave it unchanged.
+  // page = the template context's page object (item or {title, url}).
+  renderPage(page, html, site, options) { return html; },
+
+  // After everything is written to dist/. Emit extra files here.
+  // site.renderPage(templateName, context) renders a themed page for you:
+  //   site.renderPage('page', {page: {title: 'X', url: '/x/', content: '<p>…</p>'}})
+  afterBuild(distPath, site, options) {},
+};
+```
+
+Rules:
+- `site` is `{config, data, collections, renderPage}` — `collections` is filled after `init`.
+- A plugin that throws fails the whole build, with the plugin's name in the error.
+- Client assets publish to `/plugins/<name>/…` and are injected into every page in config order (`css` before `</head>`, `js` as a module before `</body>`). Client code reads its options from the injected JSON: `JSON.parse(document.getElementById('plugin-options').textContent)["my-plugin"]`. The site's named backend endpoints ride along under the reserved `$services` key — resolve a service as `(opts.$services || {})[opts["my-plugin"]?.service || "backend"]`; never hardcode a backend URL in a plugin.
+- Client JS must be progressive enhancement — the page must work without it (C5).
+- The build also emits `search-index.json` (`[{url, title, description, tags, text}]`) — plugins may consume it.
+- Study `plugins/search/` (afterBuild + client), `plugins/contact-form/` (renderPage + options), and `plugins/api-form/` (config-declared forms POSTing to a named service, `services` + progressive enhancement) as reference implementations.
+- `plugins/backend-admin/` is a parked **user-owned** draft (the victorantos.com backend dashboard) awaiting migration to that site's repo — not engine-owned, not in `engine.json`, never enabled in this repo's config.
+
+**Checklist for a new plugin:** create the folder + `plugin.json` (+ `index.js`/client files) → add its name to `"plugins"` in `site.config.json` → `node build.js` → check the output in `dist/` → `node --test tests/`.
+
+## Build pipeline (build.js)
+
+config → load plugins → data → `init` hooks → content (validate) → `transformContent` hooks → Markdown → templates → client-asset injection → `renderPage` hooks → outputs (`sitemap.xml`, per-collection `rss.xml`, `robots.txt`, `_redirects` + fallback pages, `404.html`, `api/`, `search-index.json`, `llms.txt`) → copy `media/` + theme assets + plugin client assets + admin → `afterBuild` hooks. The build is deterministic: same files in, same bytes out (golden tests depend on this — never use the current time in outputs).
+
+## Upgrade system (§14) — `tools/`, `migrations/`, `engine.json`
+
+Upgrades are pull requests built by **wholesale file replacement**, never a merge. Ownership contract (§14.1): engine-owned = `build.js`, `lib/`, `admin/`, `themes/default/`, `config.defaults.json`, the workflows, `tools/`, `migrations/`, `plugins/{search,contact-form,reading-time,api-form,goatcounter}`. User-owned = `content/`, `data/`, `media/`, `site.config.json`, custom themes/plugins. Never hand-edit an engine file in a user's site — copy the default theme to `themes/custom/` first.
+
+- `engine.json` — `{version, migration, files: {path: sha256}}`, generated by `node tools/engine-manifest.js`. **Regenerate it whenever you change an engine file, before a release.**
+- `config.defaults.json` — engine defaults deep-merged *under* the user's sparse `site.config.json` at build time (§14.3, `deepMerge` in `lib/util.js`). New features ship with working defaults without touching the user's file.
+- `tools/update.js` — the updater. For each engine file: if the local hash matches the *installed* manifest it's replaced; if it differs the user modified it, so it's left and flagged for manual/AI merge. Runs `migrations/NNN-*.js` between the installed and target levels. Emits a PR-ready report.
+- `migrations/NNN-description.js` — idempotent plain-Node scripts for breaking changes (see `migrations/README.md`).
+- `.github/workflows/update.yml` — `workflow_dispatch` (from the admin's update banner) + weekly cron: fetch upstream, run the updater, test + build, open a PR.
+
+## Importers (§15) — `tools/migrate/`
+
+Local CLIs, plain Node, outside the core dependency budget. `node tools/migrate/<source>.js <input> [outDir]` writes `content/`, `media/`, and — non-negotiably — a complete old→new `data/redirects.json`, plus a migration report. `tools/migrate/jekyll.js` is the reference (Jekyll → plain: frontmatter remap, Liquid stripping, permalink-based redirects). Every importer must emit redirects; silently changing URLs destroys SEO. The user-facing step-by-step guide is `tools/migrate/README.md` — keep it current when importer flags or behavior change (not to be confused with `migrations/`, the engine's own upgrade scripts).
+
+## Errors are teaching moments
+
+Every error message must name the file (and line where possible), say what is wrong, and say how to fix it — in plain language. Follow the existing `ContentError` pattern.
+
+## Style
+
+Boring, explicit code beats clever code. Match the existing voice: small pure functions, JSDoc where types help, comments only for constraints the code can't express. Future readers include AI agents and curious non-experts.

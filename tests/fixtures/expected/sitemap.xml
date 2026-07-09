@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://fixture.test/about/</loc></url>
+  <url><loc>https://fixture.test/</loc></url>
+  <url><loc>https://fixture.test/blog/second-post/</loc><lastmod>2026-02-02</lastmod></url>
+  <url><loc>https://fixture.test/blog/first-post/</loc><lastmod>2026-01-01</lastmod></url>
+  <url><loc>https://fixture.test/blog/</loc></url>
+  <url><loc>https://fixture.test/blog/page/2/</loc></url>
+  <url><loc>https://fixture.test/blog/tag/alpha/</loc></url>
+  <url><loc>https://fixture.test/blog/tag/alpha/page/2/</loc></url>
+  <url><loc>https://fixture.test/blog/tag/beta/</loc></url>
+</urlset>

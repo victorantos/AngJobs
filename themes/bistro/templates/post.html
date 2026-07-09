@@ -1,0 +1,10 @@
+<article class="post">
+  <header class="page-header">
+    <h1>{{ page.title }}</h1>
+    {{#if page.dateFormatted}}<p class="meta"><time datetime="{{ page.date }}">{{ page.dateFormatted }}</time></p>{{/if}}
+  </header>
+  {{#if page.cover}}<img class="cover" src="{{ page.cover }}" alt="" loading="lazy" decoding="async">
+  {{/if}}<div class="prose">
+{{{ page.content }}}
+  </div>
+</article>

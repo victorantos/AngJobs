@@ -1,0 +1,26 @@
+---
+title: CrazyGames : REMOTE (in Europe)
+date: 2026-06-01
+description: CrazyGames - - REMOTE (in Europe) - Full-time - Multiple roles With recent technologies such as WebGPU and WebAssembly, the browser is quickly becoming a…
+author: mertens
+authorUrl: https://news.ycombinator.com/item?id=48373835
+byline: mertens
+section: june-2026
+tags:
+  - june-2026
+---
+
+CrazyGames - <a href="https:&#x2F;&#x2F;about.crazygames.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;about.crazygames.com&#x2F;</a> - REMOTE (in Europe) - Full-time - Multiple roles
+
+With recent technologies such as WebGPU and WebAssembly, the browser is quickly becoming a powerful gaming platform. High-quality 3D graphics and near-native level performance are now possible without the need for downloads, apps, or platform-specific development. Our browser games platform is already reaching 50 million people per month. We are self-funded, profitable, remote-first, and fast-growing.
+
+We are currently looking for multiple people to bring our engineering, product, and adops to the next level.
+
+Please note that we&#x27;re looking for people who can work on a European timezone and are ideally based in Europe (which includes the UK for those in doubt).
+
+* Product Manager (Game Experience): <a href="https:&#x2F;&#x2F;jobs.crazygames.com&#x2F;o&#x2F;remote-product-manager-game-experience" rel="nofollow">https:&#x2F;&#x2F;jobs.crazygames.com&#x2F;o&#x2F;remote-product-manager-game-ex...</a>
+
+* Ad Operations Manager: <a href="https:&#x2F;&#x2F;jobs.crazygames.com&#x2F;o&#x2F;remote-ad-operations-manager" rel="nofollow">https:&#x2F;&#x2F;jobs.crazygames.com&#x2F;o&#x2F;remote-ad-operations-manager</a>
+
+* Product Engineer: <a href="https:&#x2F;&#x2F;jobs.crazygames.com&#x2F;o&#x2F;remotehybrid-product-engineer-mobile-apps-1" rel="nofollow">https:&#x2F;&#x2F;jobs.crazygames.com&#x2F;o&#x2F;remotehybrid-product-engineer-...</a>
+[[form:apply]]

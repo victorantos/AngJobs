@@ -1,32 +1,20 @@
 {
   "name": "angjobs",
-  "version": "2.0.0",
-  "description": "job board",
-  "license": "MIT",
+  "version": "1.2.0",
+  "description": "angjobs.com — tech jobs from Hacker News, built with plain",
   "type": "module",
-  "scripts": {
-    "generate:jobs": "node scripts/generate-all-jobs.js",
-    "add:navigation": "node scripts/add-navigation-to-jobs.js",
-    "docs:build": "npm run generate:jobs && vuepress-vite build src",
-    "docs:clean-dev": "npm run generate:jobs && vuepress-vite dev src --clean-cache",
-    "docs:dev": "npm run generate:jobs && vuepress-vite dev src",
-    "docs:update-package": "npx vp-update",
-    "build": "npm run docs:build"
-  },
-  "devDependencies": {
-    "@vuepress/bundler-vite": "^2.0.0-rc.26",
-    "sass-embedded": "^1.99.0",
-    "vue": "^3.4.27",
-    "vuepress": "^2.0.0-rc.26",
-    "vuepress-theme-hope": "^2.0.0-rc.98"
-  },
+  "private": true,
+  "license": "MIT",
   "engines": {
-    "node": "^20.0.0"
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js --watch",
+    "test": "node --test tests/",
+    "manifest": "node tools/engine-manifest.js"
   },
   "dependencies": {
-    "gray-matter": "^4.0.3"
-  },
-  "overrides": {
-    "execa": "^8.0.1"
+    "marked": "^15.0.0"
   }
 }

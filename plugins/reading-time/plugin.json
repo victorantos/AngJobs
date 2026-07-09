@@ -1,0 +1,7 @@
+{
+  "name": "reading-time",
+  "version": "1.0.0",
+  "description": "Adds an estimated reading time to every content item as item.readingTime (e.g. \"3 min read\").",
+  "hooks": ["transformContent"],
+  "options": { "wordsPerMinute": 200 }
+}

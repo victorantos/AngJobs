@@ -1,0 +1,20 @@
+<section class="front">
+  <header class="front-head">
+    <h1 class="front-label">{{ page.title }}{{#if tag}} · {{ tag }}{{/if}}</h1>
+  </header>
+  {{#if items}}
+  <ol class="front-grid" reversed>
+    {{#each items as item}}{{> story-card}}
+    {{/each}}
+  </ol>
+  {{else}}
+  <p class="empty">Nothing published here yet.</p>
+  {{/if}}
+  {{#if pagination.multiple}}
+  <nav class="pagination" aria-label="Pages">
+    {{#if pagination.newer}}<a href="{{ pagination.newer }}">← Newer</a>{{/if}}
+    <span>Page {{ pagination.page }} of {{ pagination.totalPages }}</span>
+    {{#if pagination.older}}<a href="{{ pagination.older }}">Older →</a>{{/if}}
+  </nav>
+  {{/if}}
+</section>

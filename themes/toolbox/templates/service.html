@@ -1,0 +1,22 @@
+<article class="service">
+  <header class="page-header">
+    <p class="eyebrow">Service</p>
+    <h1>{{ page.title }}</h1>
+    {{#if page.description}}<p class="lede">{{ page.description }}</p>
+    {{/if}}{{#if page.priceFrom}}<p class="price-line">Typical jobs from <strong>{{ page.priceFrom }}</strong> — you get a firm price before any work starts.</p>
+    {{/if}}
+  </header>
+  <div class="prose">
+{{{ page.content }}}
+  </div>
+  {{#if page.included}}
+  <section class="included" aria-label="What every visit includes">
+    <h2>Every visit includes</h2>
+    <ul>
+      {{#each page.included as point}}<li>{{ point }}</li>
+      {{/each}}
+    </ul>
+  </section>
+  {{/if}}
+  {{> call-cta}}
+</article>

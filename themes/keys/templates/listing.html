@@ -1,0 +1,35 @@
+<article class="listing" data-status="{{ page.status }}">
+  <header class="listing-head">
+    <p class="listing-topline">
+      {{#if page.price}}<strong class="listing-price">{{ page.price }}</strong>
+      {{/if}}{{#if page.status}}<span class="status-flag">{{ page.status }}</span>
+      {{/if}}
+    </p>
+    <h1>{{ page.title }}</h1>
+    {{#if page.address}}<p class="listing-address">{{ page.address }}</p>
+    {{/if}}
+    <p class="spec-row spec-strip">
+      {{#if page.beds}}<span class="spec">{{ page.beds }} bd</span>{{/if}}
+      {{#if page.baths}}<span class="spec">{{ page.baths }} ba</span>{{/if}}
+      {{#if page.area}}<span class="spec">{{ page.area }}</span>{{/if}}
+      {{#if page.dateFormatted}}<span class="spec spec-listed">Listed <time datetime="{{ page.date }}">{{ page.dateFormatted }}</time></span>{{/if}}
+    </p>
+  </header>
+  {{#if page.photos}}
+  <ul class="gallery" aria-label="Property photos">
+    {{#each page.photos as photo}}<li><img src="{{ photo }}" alt="" loading="lazy" decoding="async"></li>
+    {{/each}}
+  </ul>
+  {{else}}{{#if page.cover}}
+  <figure class="gallery-single">
+    <img src="{{ page.cover }}" alt="" decoding="async">
+  </figure>
+  {{/if}}{{/if}}
+  <div class="prose">
+{{{ page.content }}}
+  </div>
+  {{> inquiry-cta}}
+  <nav class="listing-return" aria-label="Back to all listings">
+    <a href="/listings/">← All listings</a>
+  </nav>
+</article>

@@ -1,0 +1,11 @@
+<aside class="call-cta">
+  <h2>Tell us what’s wrong. We’ll tell you what it costs.</h2>
+  {{#if data.business.phone}}
+  {{#if data.business.hours}}<p class="cta-meta">{{ data.business.hours }}{{#if data.business.area}} · Serving {{ data.business.area }}{{/if}}</p>
+  {{else}}{{#if data.business.area}}<p class="cta-meta">Serving {{ data.business.area }}</p>
+  {{/if}}{{/if}}
+  <a class="btn-call" href="tel:{{ data.business.phone }}">Call {{ data.business.phone }}</a>
+  {{else}}
+  <p class="cta-meta"><a href="/contact/">Send us a message</a> and we’ll come back with a firm, no-obligation quote.</p>
+  {{/if}}
+</aside>

@@ -1,0 +1,9 @@
+<h1>{{ page.title }}</h1>
+<ol>
+{{#each items as item}}{{> card}}
+{{/each}}</ol>
+{{#if pagination.multiple}}<nav class="pagination">
+{{#if pagination.newer}}<a href="{{ pagination.newer }}">newer</a>{{/if}}
+<span>{{ pagination.page }}/{{ pagination.totalPages }}</span>
+{{#if pagination.older}}<a href="{{ pagination.older }}">older</a>{{/if}}
+</nav>{{/if}}

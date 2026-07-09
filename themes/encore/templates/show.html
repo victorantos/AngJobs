@@ -1,0 +1,19 @@
+<article class="show" data-status="{{ page.status }}">
+  <header class="page-header">
+    <p class="show-meta">
+      <time datetime="{{ page.date }}">{{ page.dateFormatted }}</time>
+      {{#if page.status}}<span class="status-chip">{{ page.status }}</span>{{/if}}
+    </p>
+    <h1>{{ page.title }}</h1>
+    <p class="show-line">{{#if page.venue}}<span class="show-venue">{{ page.venue }}</span>{{/if}}{{#if page.city}} — {{ page.city }}{{/if}}</p>
+    {{#if page.support}}<p class="show-support">with {{ page.support }}</p>
+    {{/if}}{{#if page.ticketsUrl}}<p class="show-cta"><a class="btn-tickets btn-big" href="{{ page.ticketsUrl }}">Get tickets</a></p>
+    {{/if}}
+  </header>
+  <div class="prose">
+{{{ page.content }}}
+  </div>
+  <nav class="backlink" aria-label="Back to all shows">
+    <a href="/shows/">← All shows</a>
+  </nav>
+</article>

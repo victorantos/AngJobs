@@ -1,0 +1,18 @@
+{{#if data.pricing.plans}}
+<ul class="plans">
+  {{#each data.pricing.plans as plan}}
+  <li class="plan{{#if plan.featured}} is-featured{{/if}}">
+    <h2 class="plan-name">{{ plan.name }}</h2>
+    {{#if plan.tagline}}<p class="plan-tagline">{{ plan.tagline }}</p>
+    {{/if}}<p class="plan-price"><strong>{{ plan.price }}</strong>{{#if plan.period}}<span class="plan-period">/{{ plan.period }}</span>{{/if}}</p>
+    {{#if plan.features}}
+    <ul class="plan-features">
+      {{#each plan.features as feature}}<li>{{ feature }}</li>
+      {{/each}}
+    </ul>
+    {{/if}}{{#if plan.url}}<a class="btn{{#if plan.featured}} btn-primary{{else}} btn-quiet{{/if}}" href="{{ plan.url }}">{{#if plan.cta}}{{ plan.cta }}{{else}}Choose {{ plan.name }}{{/if}}</a>
+    {{/if}}
+  </li>
+  {{/each}}
+</ul>
+{{/if}}

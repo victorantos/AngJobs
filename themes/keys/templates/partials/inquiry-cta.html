@@ -1,0 +1,19 @@
+<aside class="inquiry">
+  <h2>Ask about this property</h2>
+  {{#if data.agency.hours}}<p class="inquiry-meta">{{#if data.agency.name}}{{ data.agency.name }} · {{/if}}{{ data.agency.hours }}</p>
+  {{/if}}
+  {{#if data.agency.phone}}
+  <p class="inquiry-actions">
+    <a class="btn" href="tel:{{ data.agency.phone }}">Call {{ data.agency.phone }}</a>
+    {{#if data.agency.email}}<a class="btn btn-quiet" href="mailto:{{ data.agency.email }}">Email us</a>{{/if}}
+  </p>
+  <p class="inquiry-note">Mention the street name and we'll have the file open before you finish the sentence.</p>
+  {{else}}{{#if data.agency.email}}
+  <p class="inquiry-actions">
+    <a class="btn" href="mailto:{{ data.agency.email }}">Email us</a>
+  </p>
+  <p class="inquiry-note">Mention the street name and we'll have the file open before you finish the sentence.</p>
+  {{else}}
+  <p class="inquiry-note"><a href="/contact/">Send us a message</a> — tell us which property and when you could view.</p>
+  {{/if}}{{/if}}
+</aside>

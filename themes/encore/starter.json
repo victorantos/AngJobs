@@ -1,0 +1,32 @@
+{
+  "starter": "encore",
+  "collections": {
+    "shows": {
+      "path": "content/shows",
+      "urlPattern": "/shows/:slug/",
+      "template": "show",
+      "listUrl": "/shows/",
+      "listTemplate": "tour",
+      "label": "Shows",
+      "sortBy": "date",
+      "sortOrder": "desc",
+      "fields": [
+        { "name": "title", "type": "text", "required": true },
+        { "name": "date", "type": "date", "required": true },
+        { "name": "city", "type": "text" },
+        { "name": "venue", "type": "text" },
+        { "name": "ticketsUrl", "type": "text" },
+        { "name": "status", "type": "select", "options": ["On sale", "Sold out", "Free entry"] },
+        { "name": "support", "type": "text" },
+        { "name": "draft", "type": "boolean", "default": false }
+      ]
+    }
+  },
+  "navigation": [
+    { "label": "Home", "url": "/" },
+    { "label": "Shows", "url": "/shows/" },
+    { "label": "Music", "url": "/music/" },
+    { "label": "Press kit", "url": "/press/" }
+  ],
+  "sampleContent": "sample/"
+}

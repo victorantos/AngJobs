@@ -1,0 +1,8 @@
+<li class="card">
+  {{#if item.photo}}<a class="card-photo-link" href="{{ item.url }}" tabindex="-1" aria-hidden="true"><img class="card-photo" src="{{ item.photo }}" alt="" loading="lazy" decoding="async"></a>
+  {{/if}}<h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+  {{#if item.discipline}}<p class="discipline">{{ item.discipline }}</p>
+  {{/if}}{{#if item.dateFormatted}}<p class="meta"><time datetime="{{ item.date }}">{{ item.dateFormatted }}</time></p>
+  {{/if}}{{#if item.description}}<p class="summary">{{ item.description }}</p>
+  {{/if}}
+</li>

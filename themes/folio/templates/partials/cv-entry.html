@@ -1,0 +1,17 @@
+<li class="cv-entry">
+  <div class="cv-when">
+    <p class="cv-period">{{#if entry.period}}{{ entry.period }}{{else}}<time datetime="{{ entry.date }}">{{ entry.dateFormatted }}</time>{{/if}}</p>
+    {{#if entry.location}}<p class="cv-location">{{ entry.location }}</p>
+    {{/if}}
+  </div>
+  <div class="cv-what">
+    <h2 class="cv-entry-title"><a href="{{ entry.url }}">{{ entry.title }}</a>{{#if entry.organization}} <span class="cv-org">· {{ entry.organization }}</span>{{/if}}</h2>
+    {{#if entry.summary}}<p class="cv-summary">{{ entry.summary }}</p>
+    {{/if}}{{#if entry.highlights}}
+    <ul class="cv-highlights">
+      {{#each entry.highlights as point}}<li>{{ point }}</li>
+      {{/each}}
+    </ul>
+    {{/if}}
+  </div>
+</li>

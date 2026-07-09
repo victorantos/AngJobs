@@ -1,0 +1,9 @@
+{
+  "site": {
+    "language": "en",
+    "theme": "default"
+  },
+  "plugins": ["search"],
+  "pluginOptions": {},
+  "services": {}
+}

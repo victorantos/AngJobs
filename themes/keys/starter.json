@@ -1,0 +1,36 @@
+{
+  "starter": "keys",
+  "collections": {
+    "listings": {
+      "path": "content/listings",
+      "urlPattern": "/listings/:slug/",
+      "template": "listing",
+      "listUrl": "/listings/",
+      "listTemplate": "listings",
+      "label": "Listings",
+      "sortBy": "date",
+      "sortOrder": "desc",
+      "pageSize": 9,
+      "fields": [
+        { "name": "title", "type": "text", "required": true },
+        { "name": "date", "type": "date", "required": true },
+        { "name": "price", "type": "text" },
+        { "name": "status", "type": "select", "options": ["For sale", "Under offer", "Sold"] },
+        { "name": "beds", "type": "text" },
+        { "name": "baths", "type": "text" },
+        { "name": "area", "type": "text" },
+        { "name": "address", "type": "text" },
+        { "name": "cover", "type": "image" },
+        { "name": "photos", "type": "list" },
+        { "name": "draft", "type": "boolean", "default": false }
+      ]
+    }
+  },
+  "navigation": [
+    { "label": "Home", "url": "/" },
+    { "label": "Listings", "url": "/listings/" },
+    { "label": "About", "url": "/about/" },
+    { "label": "Contact", "url": "/contact/" }
+  ],
+  "sampleContent": "sample/"
+}

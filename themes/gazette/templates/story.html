@@ -1,0 +1,18 @@
+<article class="story">
+  <header class="story-head">
+    {{#if page.section}}<p class="kicker">{{ page.section }}</p>
+    {{/if}}<h1>{{ page.title }}</h1>
+    {{#if page.standfirst}}<p class="standfirst">{{ page.standfirst }}</p>
+    {{/if}}<p class="dateline">{{#if page.byline}}<span class="byline">By {{ page.byline }}</span> · {{/if}}<time datetime="{{ page.date }}">{{ page.dateFormatted }}</time></p>
+  </header>
+  {{#if page.cover}}<figure class="story-cover">
+    <img src="{{ page.cover }}" alt="{{ page.coverAlt }}" decoding="async">
+    {{#if page.coverCaption}}<figcaption>{{ page.coverCaption }}</figcaption>
+    {{/if}}</figure>
+  {{/if}}<div class="prose story-body">
+{{{ page.content }}}
+  </div>
+  <nav class="story-return" aria-label="More stories">
+    <a href="/news/">← Front page</a>
+  </nav>
+</article>

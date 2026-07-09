@@ -1,0 +1,23 @@
+<section class="listings">
+  <header class="page-header">
+    <h1>{{ page.title }}</h1>
+    {{#if data.agency.name}}<p class="lede">Every property {{ data.agency.name }} has on the market right now. Flags tell you where each one stands.</p>
+    {{/if}}
+  </header>
+  {{#if items}}
+  <ul class="listing-grid">
+    {{#each items as item}}{{> listing-card}}
+    {{/each}}
+  </ul>
+  {{else}}
+  <p class="empty">Nothing on the market this week. Tell us what you're looking for and you'll hear about the next one before the board goes up.</p>
+  {{/if}}
+  {{#if pagination.multiple}}
+  <nav class="pagination" aria-label="Pages">
+    {{#if pagination.newer}}<a href="{{ pagination.newer }}">← Newer</a>{{/if}}
+    <span>Page {{ pagination.page }} of {{ pagination.totalPages }}</span>
+    {{#if pagination.older}}<a href="{{ pagination.older }}">Older →</a>{{/if}}
+  </nav>
+  {{/if}}
+  {{> inquiry-cta}}
+</section>

@@ -1,0 +1,10 @@
+{{#if data.newsletter.formAction}}
+<aside class="subscribe" aria-label="Newsletter sign-up">
+  <h2 class="subscribe-prompt">{{#if data.newsletter.prompt}}{{ data.newsletter.prompt }}{{else}}Get new letters by email.{{/if}}</h2>
+  <form class="subscribe-form" action="{{ data.newsletter.formAction }}" method="post">
+    <label class="visually-hidden" for="subscribe-email">Email address</label>
+    <input class="subscribe-input" type="email" name="email" id="subscribe-email" required autocomplete="email" placeholder="you@example.com">
+    <button class="subscribe-button" type="submit">{{#if data.newsletter.buttonLabel}}{{ data.newsletter.buttonLabel }}{{else}}Subscribe{{/if}}</button>
+  </form>
+</aside>
+{{/if}}

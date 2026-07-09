@@ -1,0 +1,24 @@
+<article class="program">
+  <header class="page-header">
+    <p class="eyebrow">Program</p>
+    <h1>{{ page.title }}</h1>
+    {{#if page.description}}<p class="lede">{{ page.description }}</p>
+    {{/if}}
+  </header>
+  {{#if page.cover}}<img class="cover" src="{{ page.cover }}" alt="" loading="lazy" decoding="async">
+  {{/if}}<div class="prose">
+{{{ page.content }}}
+  </div>
+  <aside class="get-involved" aria-label="Get involved">
+    <h2>Get involved</h2>
+    {{#if data.impact.volunteerEmail}}
+    <p>Programs like this run on volunteers who give a couple of hours a week. No teaching background needed — we train you. Write to <a href="mailto:{{ data.impact.volunteerEmail }}">{{ data.impact.volunteerEmail }}</a> and we'll find you a seat at the table.</p>
+    {{else}}
+    <p>Programs like this run on volunteers who give a couple of hours a week. No teaching background needed — we train you. <a href="/about/">Get in touch</a> and we'll find you a seat at the table.</p>
+    {{/if}}
+    <p class="give-line"><a class="btn-donate" href="{{#if data.impact.donateUrl}}{{ data.impact.donateUrl }}{{else}}/donate/{{/if}}">Donate</a>{{#if data.impact.donatePrompt}} <span class="donate-prompt">{{ data.impact.donatePrompt }}</span>{{/if}}</p>
+  </aside>
+  <nav class="back-link" aria-label="Back to all programs">
+    <a href="/programs/">← All programs</a>
+  </nav>
+</article>

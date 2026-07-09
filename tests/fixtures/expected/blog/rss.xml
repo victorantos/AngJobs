@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fixture</title>
+    <link>https://fixture.test/blog/</link>
+    <atom:link href="https://fixture.test/blog/rss.xml" rel="self" type="application/rss+xml"/>
+    <description>A tiny site for golden-file tests.</description>
+    <language>en</language>
+    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Second post</title>
+      <link>https://fixture.test/blog/second-post/</link>
+      <guid>https://fixture.test/blog/second-post/</guid>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 GMT</pubDate>
+      <description>The second fixture post.</description>
+    </item>
+    <item>
+      <title>First post</title>
+      <link>https://fixture.test/blog/first-post/</link>
+      <guid>https://fixture.test/blog/first-post/</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
+      <description>The first fixture post.</description>
+    </item>
+  </channel>
+</rss>

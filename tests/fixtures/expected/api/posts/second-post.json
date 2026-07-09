@@ -1,0 +1,28 @@
+{
+  "title": "Second post",
+  "date": "2026-02-02",
+  "description": "The second fixture post.",
+  "tags": [
+    "alpha",
+    "beta"
+  ],
+  "draft": false,
+  "slug": "second-post",
+  "url": "/blog/second-post/",
+  "file": "content/posts/second-post.md",
+  "collection": "posts",
+  "body": "\nPlain body.\n",
+  "dateFormatted": "February 2, 2026",
+  "words": 2,
+  "content": "<p>Plain body.</p>\n",
+  "tagLinks": [
+    {
+      "name": "alpha",
+      "url": "/blog/tag/alpha/"
+    },
+    {
+      "name": "beta",
+      "url": "/blog/tag/beta/"
+    }
+  ]
+}

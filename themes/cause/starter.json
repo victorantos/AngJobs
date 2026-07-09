@@ -1,0 +1,28 @@
+{
+  "starter": "cause",
+  "collections": {
+    "programs": {
+      "path": "content/programs",
+      "urlPattern": "/programs/:slug/",
+      "template": "program",
+      "listUrl": "/programs/",
+      "listTemplate": "list",
+      "label": "Programs",
+      "sortBy": "title",
+      "sortOrder": "asc",
+      "fields": [
+        { "name": "title", "type": "text", "required": true },
+        { "name": "description", "type": "text" },
+        { "name": "cover", "type": "image" },
+        { "name": "draft", "type": "boolean", "default": false }
+      ]
+    }
+  },
+  "navigation": [
+    { "label": "Home", "url": "/" },
+    { "label": "Programs", "url": "/programs/" },
+    { "label": "About", "url": "/about/" },
+    { "label": "Donate", "url": "/donate/" }
+  ],
+  "sampleContent": "sample/"
+}

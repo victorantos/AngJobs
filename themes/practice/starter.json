@@ -1,0 +1,28 @@
+{
+  "starter": "practice",
+  "collections": {
+    "services": {
+      "path": "content/services",
+      "urlPattern": "/care/:slug/",
+      "template": "service",
+      "listUrl": "/care/",
+      "listTemplate": "list",
+      "label": "Care",
+      "sortBy": "title",
+      "sortOrder": "asc",
+      "fields": [
+        { "name": "title", "type": "text", "required": true },
+        { "name": "description", "type": "text" },
+        { "name": "preparation", "type": "list" },
+        { "name": "draft", "type": "boolean", "default": false }
+      ]
+    }
+  },
+  "navigation": [
+    { "label": "Home", "url": "/" },
+    { "label": "Care", "url": "/care/" },
+    { "label": "About", "url": "/about/" },
+    { "label": "Contact", "url": "/contact/" }
+  ],
+  "sampleContent": "sample/"
+}

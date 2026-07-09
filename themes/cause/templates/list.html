@@ -1,0 +1,22 @@
+<section class="list">
+  <header class="page-header">
+    <h1>{{ page.title }}</h1>
+    {{#if tag}}<p class="lede">Everything filed under “{{ tag }}”.</p>
+    {{/if}}
+  </header>
+  {{#if items}}
+  <ul class="entry-list">
+    {{#each items as item}}{{> entry-card}}
+    {{/each}}
+  </ul>
+  {{else}}
+  <p class="empty">Nothing here yet — check back soon.</p>
+  {{/if}}
+  {{#if pagination.multiple}}
+  <nav class="pagination" aria-label="Pages">
+    {{#if pagination.newer}}<a href="{{ pagination.newer }}">← Newer</a>{{/if}}
+    <span>Page {{ pagination.page }} of {{ pagination.totalPages }}</span>
+    {{#if pagination.older}}<a href="{{ pagination.older }}">Older →</a>{{/if}}
+  </nav>
+  {{/if}}
+</section>

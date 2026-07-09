@@ -1,0 +1,6 @@
+[
+  { "label": "Home", "url": "/" },
+  { "label": "Shows", "url": "/shows/" },
+  { "label": "Music", "url": "/music/" },
+  { "label": "Press kit", "url": "/press/" }
+]

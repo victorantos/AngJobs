@@ -1,0 +1,9 @@
+title: Dev Notes
+description: A small Jekyll blog about Ruby and the web.
+url: "https://devnotes.example.com"
+baseurl: ""
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

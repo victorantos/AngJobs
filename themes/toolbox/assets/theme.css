@@ -1,0 +1,493 @@
+/* Toolbox — a theme for trades & local services (cms-spec.md §10.7 #2).
+   Workwear navy + hi-vis yellow on steel white; condensed signage headings;
+   job-sheet mono for prices and labels. The one loud element is the sticky
+   call-now bar on mobile — everything else stays quiet and precise.
+   All design decisions live in the tokens below. Restyle by editing tokens,
+   never selectors (cms-spec.md §10.1). */
+
+:root {
+  /* Type — condensed signage display, humanist body, job-sheet mono */
+  --font-display: "Avenir Next Condensed", "Arial Narrow", "Liberation Sans Narrow", "Segoe UI", system-ui, sans-serif;
+  --font-body: system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Liberation Sans", sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, "Liberation Mono", monospace;
+  --text-s: 0.875rem;
+  --text-m: 1.125rem; /* legible at arm's length */
+  --text-l: 1.375rem;
+  --text-xl: 1.75rem;
+  --text-xxl: clamp(2.25rem, 6vw, 3.25rem);
+  --leading-body: 1.6;
+  --leading-tight: 1.1;
+  --tracking-caps: 0.08em;
+
+  /* Color — light scheme: steel white, workwear navy, hi-vis marking */
+  --color-bg: #f3f5f4;
+  --color-panel: #ffffff;
+  --color-text: #16232d;
+  --color-muted: #4c5a66;
+  --color-accent: #0b57a4;
+  --color-border: #d3dad6;
+  --color-hivis: #ffd60a;
+  --color-on-hivis: #16232d;
+  --color-stripe: #16232d;
+  --color-mark: #ffefa3;
+
+  /* Layout */
+  --measure: 62ch;
+  --page-width: 64rem;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 1rem;
+  --space-4: 2rem;
+  --space-5: 4rem;
+  --radius: 6px;
+  --border-strong: 2px;
+  --tap-target: 3rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #141a1f;
+    --color-panel: #1d2630;
+    --color-text: #e7ecef;
+    --color-muted: #9db0bc;
+    --color-accent: #7cb8ef;
+    --color-border: #313d47;
+    --color-mark: #5c4d00;
+    /* --color-hivis and --color-on-hivis stay put: hi-vis is hi-vis at night */
+  }
+}
+
+/* Base ------------------------------------------------------------------ */
+
+* { box-sizing: border-box; }
+
+html { color-scheme: light dark; }
+
+body {
+  margin: 0 auto;
+  padding: 0 var(--space-3);
+  max-width: var(--page-width);
+  font-family: var(--font-body);
+  font-size: var(--text-m);
+  line-height: var(--leading-body);
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+::selection { background: var(--color-mark); }
+
+a { color: var(--color-accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+a:hover { text-decoration-thickness: 2px; }
+
+:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -100vw;
+  top: var(--space-2);
+  z-index: 20;
+  background: var(--color-panel);
+  padding: var(--space-2) var(--space-3);
+}
+.skip-link:focus { left: var(--space-2); }
+
+main { min-height: 60vh; }
+
+/* Masthead --------------------------------------------------------------- */
+
+.masthead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-4);
+  padding: var(--space-3) 0;
+  border-bottom: var(--border-strong) solid var(--color-border);
+}
+
+.site-title {
+  font-family: var(--font-display);
+  font-size: var(--text-l);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-text);
+  text-decoration: none;
+  border-bottom: 3px solid var(--color-hivis);
+  padding-bottom: 1px;
+}
+.site-title:hover { color: var(--color-accent); }
+
+.masthead nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.masthead nav a {
+  display: inline-block;
+  padding: var(--space-2);
+  color: var(--color-muted);
+  text-decoration: none;
+  font-size: var(--text-s);
+  font-weight: 600;
+}
+.masthead nav a:hover { color: var(--color-accent); text-decoration: underline; }
+.masthead nav a[aria-current="page"] {
+  color: var(--color-text);
+  box-shadow: inset 0 -3px var(--color-hivis);
+}
+
+/* Desktop phone link; the call bar takes over on small screens */
+.call-link {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap-target);
+  padding: 0 var(--space-3);
+  font-family: var(--font-mono);
+  font-size: var(--text-s);
+  font-weight: 700;
+  color: var(--color-text);
+  text-decoration: none;
+  background: var(--color-panel);
+  border: var(--border-strong) solid var(--color-text);
+  border-radius: var(--radius);
+}
+.call-link:hover { color: var(--color-accent); border-color: var(--color-accent); }
+
+/* Headers ---------------------------------------------------------------- */
+
+.page-header { margin: var(--space-4) 0; max-width: var(--measure); }
+
+.page-header h1 {
+  font-family: var(--font-display);
+  font-size: var(--text-xxl);
+  font-weight: 700;
+  line-height: var(--leading-tight);
+  margin: 0 0 var(--space-2);
+  text-wrap: balance;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--text-s);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-caps);
+  color: var(--color-muted);
+  margin: 0 0 var(--space-2);
+}
+
+.lede {
+  font-size: var(--text-l);
+  color: var(--color-muted);
+  margin: 0;
+  text-wrap: pretty;
+}
+
+.price-line {
+  display: inline-block;
+  margin: var(--space-3) 0 0;
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-panel);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-hivis);
+  border-radius: var(--radius);
+}
+.price-line strong { font-family: var(--font-mono); }
+
+.meta {
+  font-family: var(--font-mono);
+  font-size: var(--text-s);
+  color: var(--color-muted);
+  margin: 0;
+}
+
+.tags { margin-left: var(--space-2); }
+.tag { display: inline-block; margin-right: var(--space-2); color: var(--color-accent); text-decoration: none; }
+.tag::before { content: "#"; opacity: 0.6; }
+.tag:hover { text-decoration: underline; }
+
+/* Prose ------------------------------------------------------------------ */
+
+.prose { max-width: var(--measure); }
+
+.prose h2, .prose h3, .prose h4 {
+  font-family: var(--font-display);
+  line-height: var(--leading-tight);
+  margin: var(--space-4) 0 var(--space-2);
+  text-wrap: balance;
+}
+.prose h2 { font-size: var(--text-xl); }
+.prose h3 { font-size: var(--text-l); }
+
+.prose p, .prose ul, .prose ol { margin: 0 0 var(--space-3); }
+.prose li { margin-bottom: var(--space-1); }
+
+.prose img { max-width: 100%; height: auto; border-radius: var(--radius); }
+
+/* Blockquotes are testimonials here — marked like a note on a job sheet */
+.prose blockquote {
+  margin: var(--space-4) 0;
+  padding: var(--space-3);
+  background: var(--color-panel);
+  border-left: 4px solid var(--color-hivis);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.prose blockquote p:last-child { margin-bottom: 0; }
+
+.prose code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background: var(--color-panel);
+  border: 1px solid var(--color-border);
+  padding: 0.1em 0.35em;
+  border-radius: var(--radius);
+}
+.prose pre {
+  background: var(--color-panel);
+  border: 1px solid var(--color-border);
+  padding: var(--space-3);
+  border-radius: var(--radius);
+  overflow-x: auto;
+  line-height: 1.5;
+}
+.prose pre code { background: none; border: 0; padding: 0; font-size: var(--text-s); }
+
+.prose table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 0 var(--space-3);
+  font-variant-numeric: tabular-nums;
+}
+.prose th {
+  font-family: var(--font-mono);
+  font-size: var(--text-s);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-caps);
+}
+.prose th, .prose td {
+  text-align: left;
+  padding: var(--space-2) var(--space-3);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.prose hr {
+  border: 0;
+  border-top: var(--border-strong) solid var(--color-border);
+  margin: var(--space-4) 0;
+}
+
+.cover { width: 100%; height: auto; border-radius: var(--radius); margin: 0 0 var(--space-4); }
+
+/* Before/after pairs (built by enhance.js from two images in a paragraph) */
+.before-after {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3);
+}
+.before-after figure { margin: 0; }
+.before-after figcaption {
+  font-family: var(--font-mono);
+  font-size: var(--text-s);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-caps);
+  color: var(--color-muted);
+  margin-top: var(--space-1);
+}
+@media (max-width: 30em) {
+  .before-after { grid-template-columns: 1fr; }
+}
+
+/* Service list ------------------------------------------------------------ */
+
+.service-list {
+  list-style: none;
+  margin: 0 0 var(--space-4);
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: var(--space-3);
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-3);
+  background: var(--color-panel);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+.service-card h2 {
+  font-family: var(--font-display);
+  font-size: var(--text-l);
+  line-height: var(--leading-tight);
+  margin: 0;
+}
+.service-card h2 a { color: var(--color-text); text-decoration: none; }
+.service-card h2 a:hover { color: var(--color-accent); text-decoration: underline; }
+.service-card .summary { margin: 0; }
+
+/* The price sits on a dashed rule, like the total line of an estimate */
+.service-card .price {
+  margin: auto 0 0;
+  padding-top: var(--space-2);
+  border-top: 1px dashed var(--color-border);
+  font-family: var(--font-mono);
+  font-weight: 700;
+}
+.service-card .price span { color: var(--color-muted); font-weight: 400; font-size: var(--text-s); }
+
+/* "Every visit includes" checklist ---------------------------------------- */
+
+.included {
+  max-width: var(--measure);
+  margin: var(--space-4) 0;
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-panel);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+.included h2 {
+  font-family: var(--font-display);
+  font-size: var(--text-l);
+  line-height: var(--leading-tight);
+  margin: 0 0 var(--space-2);
+}
+.included ul { margin: 0; padding-left: var(--space-4); }
+.included li { margin-bottom: var(--space-1); }
+.included li::marker { content: "✓  "; color: var(--color-accent); font-weight: 700; }
+
+/* Call CTA ----------------------------------------------------------------- */
+
+.call-cta {
+  max-width: var(--measure);
+  margin: var(--space-5) 0 var(--space-4);
+  padding: var(--space-4);
+  background: var(--color-panel);
+  border: var(--border-strong) solid var(--color-text);
+  border-radius: var(--radius);
+}
+.call-cta h2 {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  line-height: var(--leading-tight);
+  margin: 0 0 var(--space-2);
+  text-wrap: balance;
+}
+.cta-meta { color: var(--color-muted); margin: 0 0 var(--space-3); }
+
+.btn-call {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--tap-target);
+  padding: 0 var(--space-4);
+  font-family: var(--font-mono);
+  font-size: var(--text-m);
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--color-on-hivis);
+  background: var(--color-hivis);
+  border: var(--border-strong) solid var(--color-on-hivis);
+  border-radius: var(--radius);
+}
+.btn-call:hover { background: var(--color-on-hivis); color: var(--color-hivis); }
+
+/* THE SIGNATURE: the sticky call-now bar. Hidden on wide screens; on mobile
+   it fixes to the bottom edge with a hazard-stripe top border — hi-vis
+   yellow, navy button, one tap from problem to phone call. */
+
+.call-bar { display: none; }
+
+@media (max-width: 48em) {
+  .call-bar {
+    position: fixed;
+    inset: auto 0 0 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-3);
+    padding: var(--space-2) var(--space-3);
+    padding-bottom: calc(var(--space-2) + env(safe-area-inset-bottom, 0px));
+    background: var(--color-hivis);
+    color: var(--color-on-hivis);
+    border-top: 6px solid;
+    border-image: repeating-linear-gradient(-45deg, var(--color-stripe) 0 10px, var(--color-hivis) 10px 20px) 6;
+  }
+  .call-bar-text { margin: 0; font-size: var(--text-s); line-height: 1.3; }
+  .call-bar-text strong { display: block; font-size: var(--text-m); }
+  .call-bar .btn-call {
+    flex-shrink: 0;
+    background: var(--color-on-hivis);
+    color: var(--color-hivis);
+  }
+
+  /* Keep page content clear of the fixed bar */
+  body:has(.call-bar) { padding-bottom: calc(var(--tap-target) + var(--space-4) + env(safe-area-inset-bottom, 0px)); }
+  .colophon { padding-bottom: var(--space-5); } /* fallback room for browsers without :has() */
+
+  .masthead .call-link { display: none; } /* the bar takes over */
+}
+
+/* Lists & pagination ------------------------------------------------------- */
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4) 0;
+  font-size: var(--text-s);
+  color: var(--color-muted);
+}
+.pagination a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap-target);
+  padding: 0 var(--space-3);
+  background: var(--color-panel);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 600;
+}
+.pagination a:hover { border-color: var(--color-accent); }
+
+.empty { color: var(--color-muted); }
+
+/* Colophon ------------------------------------------------------------------ */
+
+.colophon {
+  margin-top: var(--space-5);
+  padding: var(--space-3) 0 var(--space-4);
+  border-top: var(--border-strong) solid var(--color-border);
+  color: var(--color-muted);
+  font-size: var(--text-s);
+}
+.colophon p { margin: 0 0 var(--space-1); }
+
+/* Motion --------------------------------------------------------------------- */
+
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+  .btn-call:active { transform: translateY(1px); }
+}
+
+/* Print ----------------------------------------------------------------------- */
+
+@media print {
+  body { max-width: none; padding: 0; font-size: 11pt; color: #000; background: #fff; }
+  .masthead nav, .skip-link, .call-bar, .call-link, .pagination { display: none; }
+  a { color: inherit; }
+  .btn-call { background: none; border: 1pt solid #000; color: #000; }
+  .prose a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.85em; }
+  .prose pre { white-space: pre-wrap; }
+}

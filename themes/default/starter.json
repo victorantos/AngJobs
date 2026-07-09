@@ -1,0 +1,12 @@
+{
+  "starter": "journal",
+  "collections": {},
+  "navigation": [
+    { "label": "Home", "url": "/" },
+    { "label": "Blog", "url": "/blog/" },
+    { "label": "About", "url": "/about/" },
+    { "label": "Contact", "url": "/contact/" },
+    { "label": "Search", "url": "/search/" }
+  ],
+  "sampleContent": ""
+}
