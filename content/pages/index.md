@@ -1,5 +1,6 @@
 ---
 title: AngJobs
+hideHeader: true
 description: Tech jobs from Hacker News 'Who is hiring?' threads — verified opportunities posted by founders and hiring managers, no middlemen.
 ---
 
