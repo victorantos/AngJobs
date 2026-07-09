@@ -1,0 +1,27 @@
+{
+  "items": [
+    {
+      "title": "About",
+      "draft": false,
+      "slug": "about",
+      "url": "/about/",
+      "file": "content/pages/about.md",
+      "collection": "pages",
+      "body": "\n## Who\n\nA fixture site with an external [link](https://example.org/page) & an \"ampersand\".\n",
+      "words": 12,
+      "content": "<h2 id=\"who\">Who</h2>\n<p>A fixture site with an external <a href=\"https://example.org/page\" rel=\"noopener\">link</a> &amp; an &quot;ampersand&quot;.</p>\n"
+    },
+    {
+      "title": "Home",
+      "description": "The fixture home page.",
+      "draft": false,
+      "slug": "index",
+      "url": "/",
+      "file": "content/pages/index.md",
+      "collection": "pages",
+      "body": "\nHello **home**. Visit the [blog](/blog/).\n",
+      "words": 5,
+      "content": "<p>Hello <strong>home</strong>. Visit the <a href=\"/blog/\">blog</a>.</p>\n"
+    }
+  ]
+}

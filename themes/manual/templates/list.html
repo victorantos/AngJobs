@@ -1,0 +1,36 @@
+<section class="list">
+  <div class="titleblock">
+    <nav class="crumb" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li aria-current="page">{{ page.title }}</li>
+      </ol>
+    </nav>
+    {{#if tag}}<span class="doc-id">Tag: {{ tag }}</span>{{/if}}
+  </div>
+  <header class="page-header">
+    <h1>{{ page.title }}</h1>
+  </header>
+  {{#if items}}
+  <ol class="toc-list">
+    {{#each items as item}}<li class="toc-row">
+      {{#if item.order}}<span class="toc-num" aria-hidden="true">{{ item.order }}</span>{{else}}<span class="toc-num" aria-hidden="true">·</span>{{/if}}
+      <div class="toc-body">
+        <h2 class="toc-title"><a href="{{ item.url }}">{{ item.title }}</a></h2>
+        {{#if item.description}}<p class="toc-desc">{{ item.description }}</p>{{/if}}
+        {{#if item.date}}<p class="toc-desc"><time datetime="{{ item.date }}">{{ item.dateFormatted }}</time></p>{{/if}}
+      </div>
+    </li>
+    {{/each}}
+  </ol>
+  {{else}}
+  <p class="empty">Nothing here yet.</p>
+  {{/if}}
+  {{#if pagination.multiple}}
+  <nav class="pagination" aria-label="Pages">
+    {{#if pagination.newer}}<a href="{{ pagination.newer }}">← Newer</a>{{/if}}
+    <span>Page {{ pagination.page }} of {{ pagination.totalPages }}</span>
+    {{#if pagination.older}}<a href="{{ pagination.older }}">Older →</a>{{/if}}
+  </nav>
+  {{/if}}
+</section>

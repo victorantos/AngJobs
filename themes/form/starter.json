@@ -1,0 +1,28 @@
+{
+  "starter": "form",
+  "collections": {
+    "instructors": {
+      "path": "content/instructors",
+      "urlPattern": "/instructors/:slug/",
+      "template": "instructor",
+      "listUrl": "/instructors/",
+      "listTemplate": "list",
+      "label": "Instructors",
+      "sortBy": "title",
+      "sortOrder": "asc",
+      "fields": [
+        { "name": "title", "type": "text", "required": true },
+        { "name": "discipline", "type": "text" },
+        { "name": "photo", "type": "image" },
+        { "name": "draft", "type": "boolean", "default": false }
+      ]
+    }
+  },
+  "navigation": [
+    { "label": "Home", "url": "/" },
+    { "label": "Schedule", "url": "/schedule/" },
+    { "label": "Instructors", "url": "/instructors/" },
+    { "label": "Contact", "url": "/contact/" }
+  ],
+  "sampleContent": "sample/"
+}

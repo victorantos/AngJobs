@@ -1,0 +1,18 @@
+{
+  "name": "default",
+  "title": "Journal",
+  "description": "A quiet, typography-first personal blog theme. The signature is the type itself: a bookish display face over a humanist body, a 65ch measure, and one deep-cobalt accent.",
+  "tokens": {
+    "--font-display": "headings and the site title",
+    "--font-body": "body text",
+    "--font-mono": "code",
+    "--color-bg": "page background",
+    "--color-text": "body text color",
+    "--color-muted": "dates, captions, secondary text",
+    "--color-accent": "links and focus rings",
+    "--color-border": "rules and card edges",
+    "--color-code-bg": "code block background",
+    "--measure": "maximum text column width",
+    "--radius": "corner rounding for images and code blocks"
+  }
+}

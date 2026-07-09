@@ -8,7 +8,7 @@ on:
 env:
   SERVICE: angjobs-web
   REMOTE_PATH: /opt/angjobs
-  BUILD_OUTPUT: src/.vuepress/dist
+  BUILD_OUTPUT: dist
 
 jobs:
   deploy:
@@ -18,13 +18,13 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '20.14.0'
+          node-version: '20'
 
-      - name: Install
-        run: npm ci
+      - name: Install dependencies (marked)
+        run: npm install --omit=dev
 
-      - name: Build VuePress
-        run: npm run docs:build
+      - name: Build plain site
+        run: node build.js
 
       - name: Inject deploy server
         run: |

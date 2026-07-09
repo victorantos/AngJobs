@@ -1,0 +1,19 @@
+<li class="listing-card" data-status="{{ item.status }}">
+  <div class="card-photo">
+    {{#if item.cover}}<img src="{{ item.cover }}" alt="" loading="lazy" decoding="async">
+    {{else}}<span class="card-photo-blank" aria-hidden="true"></span>
+    {{/if}}{{#if item.status}}<span class="status-flag">{{ item.status }}</span>
+    {{/if}}
+  </div>
+  <div class="card-body">
+    {{#if item.price}}<p class="card-price">{{ item.price }}</p>
+    {{/if}}<h2 class="card-title"><a href="{{ item.url }}">{{ item.title }}</a></h2>
+    <p class="spec-row">
+      {{#if item.beds}}<span class="spec">{{ item.beds }} bd</span>{{/if}}
+      {{#if item.baths}}<span class="spec">{{ item.baths }} ba</span>{{/if}}
+      {{#if item.area}}<span class="spec">{{ item.area }}</span>{{/if}}
+    </p>
+    {{#if item.address}}<p class="card-address">{{ item.address }}</p>
+    {{/if}}
+  </div>
+</li>

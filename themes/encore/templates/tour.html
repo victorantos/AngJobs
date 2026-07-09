@@ -1,0 +1,37 @@
+<section class="tour">
+  <header class="page-header">
+    <h1>{{ page.title }}</h1>
+    {{#if data.band.tagline}}<p class="lede">{{ data.band.tagline }}</p>
+    {{/if}}
+  </header>
+  {{#if items}}
+  <ol class="show-list" reversed>
+    {{#each items as item}}
+    <li class="show-row" data-status="{{ item.status }}">
+      <time class="show-date" datetime="{{ item.date }}">{{ item.dateFormatted }}</time>
+      <div class="show-where">
+        {{#if item.city}}<span class="show-city">{{ item.city }}</span>
+        {{/if}}{{#if item.venue}}<span class="show-venue">{{ item.venue }}</span>
+        {{/if}}{{#if item.support}}<span class="show-support">with {{ item.support }}</span>
+        {{/if}}
+      </div>
+      <div class="show-action">
+        {{#if item.ticketsUrl}}<a class="btn-tickets" href="{{ item.ticketsUrl }}">Tickets</a>
+        {{else}}{{#if item.status}}<span class="status-chip">{{ item.status }}</span>
+        {{/if}}{{/if}}
+        <a class="show-more" href="{{ item.url }}">Details</a>
+      </div>
+    </li>
+    {{/each}}
+  </ol>
+  {{else}}
+  <p class="empty">No shows on the board. The next one you publish lands here.</p>
+  {{/if}}
+  {{#if pagination.multiple}}
+  <nav class="pagination" aria-label="Pages">
+    {{#if pagination.newer}}<a href="{{ pagination.newer }}">← Later</a>{{/if}}
+    <span>Page {{ pagination.page }} of {{ pagination.totalPages }}</span>
+    {{#if pagination.older}}<a href="{{ pagination.older }}">Earlier →</a>{{/if}}
+  </nav>
+  {{/if}}
+</section>

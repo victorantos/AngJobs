@@ -1,0 +1,10 @@
+<article class="page-single">
+  <header class="essay-header">
+    <h1 class="essay-title">{{ page.title }}</h1>
+    {{#if page.description}}<p class="essay-subtitle">{{ page.description }}</p>
+    {{/if}}
+  </header>
+  <div class="prose">
+{{{ page.content }}}
+  </div>
+</article>

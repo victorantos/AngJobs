@@ -1,0 +1,36 @@
+/* api-form plugin styles — inherits the theme's tokens where possible */
+
+.api-form { display: grid; gap: 1rem; max-width: 32rem; }
+
+.api-form label { display: grid; gap: 0.25rem; font-weight: 600; }
+
+.api-form input,
+.api-form textarea {
+  font: inherit;
+  padding: 0.5em 0.7em;
+  border: 1px solid var(--color-border, #ccc);
+  border-radius: var(--radius, 4px);
+  background: transparent;
+  color: inherit;
+}
+
+.api-form button {
+  justify-self: start;
+  font: inherit;
+  font-weight: 600;
+  padding: 0.5em 1.4em;
+  border: 1px solid var(--color-accent, #333);
+  border-radius: var(--radius, 4px);
+  background: var(--color-accent, #333);
+  color: var(--color-bg, #fff);
+  cursor: pointer;
+}
+.api-form button:disabled { opacity: 0.6; }
+
+.api-form-success { font-weight: 600; color: var(--color-accent, inherit); }
+
+.api-form-error { font-weight: 600; color: var(--color-danger, #b00020); }
+
+.api-form-deadline { font-size: 0.9em; color: var(--color-muted, #667); }
+
+.api-form-closed { font-weight: 600; }

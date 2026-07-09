@@ -1,0 +1,12 @@
+<article class="dish-page">
+  <p class="dish-page-back"><a href="/menu/">← Back to the menu</a></p>
+  <header class="dish-page-header">
+    {{#if page.section}}<p class="dish-course">{{ page.section }}</p>{{/if}}
+    <h1>{{ page.title }}</h1>
+    {{#if page.price}}<p class="dish-page-price">{{ page.price }}</p>{{/if}}
+  </header>
+  {{#if page.description}}<p class="dish-page-standfirst">{{ page.description }}</p>{{/if}}
+  <div class="prose">
+{{{ page.content }}}
+  </div>
+</article>

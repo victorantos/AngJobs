@@ -1,0 +1,390 @@
+/* Encore — the band & artist theme.
+   Stage light on black-painted wood: warm near-black, one hot magenta, dim
+   amber house lights for everything secondary. Dark-first — the :root IS
+   the dark scheme; the light scheme below is the day off. The signature is
+   the tour-dates list: big scannable rows, tickets on the right, sold-out
+   rows dimmed like a struck setlist line. All design decisions live in the
+   tokens below; restyle by editing tokens, never selectors
+   (cms-spec.md §10.1). */
+
+:root {
+  /* Type */
+  --font-display: system-ui, "Segoe UI", "Helvetica Neue", Roboto, "Liberation Sans", Arial, sans-serif;
+  --font-body: system-ui, "Segoe UI", "Helvetica Neue", Roboto, "Liberation Sans", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, "Liberation Mono", monospace;
+  --text-s: 0.875rem;
+  --text-m: 1.0625rem;
+  --text-l: 1.3125rem;
+  --text-xl: clamp(1.5rem, 4vw, 2rem);
+  --text-xxl: clamp(2rem, 6vw, 3rem);
+  --leading-body: 1.6;
+  --leading-tight: 1.05;
+  --tracking-caps: 0.14em;
+  --tracking-display: -0.02em;
+
+  /* Color — the stage (dark scheme, default) */
+  --color-bg: #16120f;
+  --color-panel: #221c18;
+  --color-text: #f3ede6;
+  --color-muted: #a89a88;
+  --color-accent: #f0447c;
+  --color-accent-ink: #1c0710;
+  --color-border: #352c25;
+  --color-code-bg: #241e19;
+
+  /* Layout */
+  --measure: 62ch;
+  --page-width: 62rem;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 1rem;
+  --space-4: 2rem;
+  --space-5: 4rem;
+  --radius: 6px;
+  --tap-target: 3rem;
+}
+
+/* The day off — a real light scheme, not an afterthought. */
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-bg: #faf7f3;
+    --color-panel: #f1ebe3;
+    --color-text: #241d17;
+    --color-muted: #6d6155;
+    --color-accent: #c2185b;
+    --color-accent-ink: #ffffff;
+    --color-border: #e2d9cd;
+    --color-code-bg: #f0eae1;
+  }
+}
+
+/* Base ------------------------------------------------------------------ */
+
+* { box-sizing: border-box; }
+
+html { color-scheme: dark light; }
+
+body {
+  margin: 0 auto;
+  padding: 0 var(--space-3);
+  max-width: var(--page-width);
+  font-family: var(--font-body);
+  font-size: var(--text-m);
+  line-height: var(--leading-body);
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+::selection { background: var(--color-accent); color: var(--color-accent-ink); }
+
+a { color: var(--color-accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+a:hover { text-decoration-thickness: 2px; }
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -100vw;
+  top: var(--space-2);
+  background: var(--color-bg);
+  padding: var(--space-2) var(--space-3);
+}
+.skip-link:focus { left: var(--space-2); }
+
+/* Masthead & footer ------------------------------------------------------ */
+
+.masthead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-4);
+  padding: var(--space-4) 0 var(--space-3);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.site-title {
+  font-family: var(--font-display);
+  font-size: var(--text-l);
+  font-weight: 800;
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  color: var(--color-text);
+  text-decoration: none;
+}
+.site-title:hover { color: var(--color-accent); }
+
+.masthead nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.masthead nav a {
+  color: var(--color-muted);
+  text-decoration: none;
+  font-size: var(--text-s);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-caps);
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap-target);
+}
+.masthead nav a:hover { color: var(--color-accent); }
+.masthead nav a[aria-current="page"] { color: var(--color-text); }
+
+main { min-height: 60vh; }
+
+.colophon {
+  margin-top: var(--space-5);
+  padding: var(--space-3) 0 var(--space-4);
+  border-top: 1px solid var(--color-border);
+  color: var(--color-muted);
+  font-size: var(--text-s);
+}
+.colophon-line { margin: var(--space-1) 0 0; }
+
+/* Headers ---------------------------------------------------------------- */
+
+.page-header { margin: var(--space-5) 0 var(--space-4); max-width: var(--measure); }
+
+.page-header h1 {
+  font-family: var(--font-display);
+  font-size: var(--text-xxl);
+  font-weight: 800;
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-display);
+  margin: 0 0 var(--space-2);
+  text-wrap: balance;
+}
+
+.lede { font-size: var(--text-l); color: var(--color-muted); margin: 0; }
+
+.show-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin: 0 0 var(--space-2);
+  color: var(--color-muted);
+  font-family: var(--font-mono);
+  font-size: var(--text-s);
+}
+
+.tags { margin-left: var(--space-2); }
+.tag { display: inline-block; margin-right: var(--space-2); color: var(--color-accent); text-decoration: none; }
+.tag::before { content: "#"; opacity: 0.6; }
+.tag:hover { text-decoration: underline; }
+
+/* Chips & buttons ----------------------------------------------------------- */
+
+.status-chip {
+  display: inline-block;
+  padding: 0.2em 0.7em;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-panel);
+  color: var(--color-muted);
+  font-family: var(--font-mono);
+  font-size: var(--text-s);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-caps);
+  white-space: nowrap;
+}
+[data-status="Free entry"] .status-chip { color: var(--color-text); border-color: var(--color-muted); }
+
+.btn-tickets {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--tap-target);
+  padding: 0 var(--space-4);
+  background: var(--color-accent);
+  color: var(--color-accent-ink);
+  border-radius: var(--radius);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-caps);
+  font-size: var(--text-s);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.btn-tickets:hover { filter: brightness(1.12); text-decoration: none; }
+.btn-big { font-size: var(--text-m); }
+
+/* The tour list — the signature --------------------------------------------- */
+
+.show-list { list-style: none; margin: 0; padding: 0; }
+
+.show-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-2) var(--space-4);
+  align-items: center;
+  padding: var(--space-4) 0;
+}
+.show-row + .show-row { border-top: 1px solid var(--color-border); }
+
+.show-date {
+  font-family: var(--font-mono);
+  font-size: var(--text-l);
+  color: var(--color-text);
+  white-space: nowrap;
+}
+
+.show-where { display: flex; flex-direction: column; gap: var(--space-1); }
+
+.show-city {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 800;
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-display);
+}
+
+.show-venue { color: var(--color-muted); font-size: var(--text-m); }
+.show-support { color: var(--color-muted); font-size: var(--text-s); font-style: italic; }
+
+.show-action {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+.show-more { font-size: var(--text-s); color: var(--color-muted); }
+.show-more:hover { color: var(--color-accent); }
+
+/* Sold out: the whole row dims and the city takes a strike — a setlist line
+   that already happened. */
+.show-row[data-status="Sold out"] .show-city { text-decoration: line-through; text-decoration-thickness: 3px; text-decoration-color: var(--color-accent); }
+.show-row[data-status="Sold out"] .show-date,
+.show-row[data-status="Sold out"] .show-venue { opacity: 0.6; }
+
+/* Past shows (marked client-side by enhance.js) dim the same way, minus the strike. */
+.show-row.played { opacity: 0.55; }
+
+@media (min-width: 800px) {
+  .show-row { grid-template-columns: 11rem minmax(0, 1fr) auto; }
+  .show-action { justify-content: flex-end; }
+}
+
+/* Single show ---------------------------------------------------------------- */
+
+.show-line { font-size: var(--text-l); margin: 0 0 var(--space-1); }
+.show .show-venue { color: var(--color-text); font-weight: 600; }
+.show-cta { margin: var(--space-3) 0 0; }
+
+.backlink { margin: var(--space-4) 0 0; font-size: var(--text-s); }
+
+/* Prose ------------------------------------------------------------------ */
+
+.prose { max-width: var(--measure); }
+
+.prose h2, .prose h3, .prose h4 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-display);
+  margin: var(--space-4) 0 var(--space-2);
+  text-wrap: balance;
+}
+.prose h2 { font-size: var(--text-xl); }
+.prose h3 { font-size: var(--text-l); }
+
+.prose p, .prose ul, .prose ol { margin: 0 0 var(--space-3); }
+
+.prose img { max-width: 100%; height: auto; border-radius: var(--radius); }
+
+.prose blockquote {
+  margin: var(--space-3) 0;
+  padding: 0 var(--space-3);
+  border-left: 3px solid var(--color-accent);
+  color: var(--color-muted);
+}
+
+.prose code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background: var(--color-code-bg);
+  padding: 0.1em 0.35em;
+  border-radius: var(--radius);
+}
+
+.prose pre {
+  background: var(--color-code-bg);
+  padding: var(--space-3);
+  border-radius: var(--radius);
+  overflow-x: auto;
+  line-height: 1.5;
+}
+.prose pre code { background: none; padding: 0; font-size: var(--text-s); }
+
+.prose table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 0 var(--space-3);
+  font-variant-numeric: tabular-nums;
+}
+.prose th, .prose td {
+  text-align: left;
+  padding: var(--space-2) var(--space-3);
+  border-bottom: 1px solid var(--color-border);
+}
+.prose th { font-size: var(--text-s); text-transform: uppercase; letter-spacing: var(--tracking-caps); }
+
+.prose hr { border: 0; border-top: 1px solid var(--color-border); margin: var(--space-4) 0; }
+
+.cover { width: 100%; height: auto; border-radius: var(--radius); margin: 0 0 var(--space-4); }
+
+/* Post list ------------------------------------------------------------------ */
+
+.post-list { list-style: none; margin: 0; padding: 0; max-width: var(--measure); }
+
+.post-card { padding: var(--space-4) 0; }
+.post-card + .post-card { border-top: 1px solid var(--color-border); }
+
+.post-card h2 {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 800;
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-display);
+  margin: 0 0 var(--space-1);
+  text-wrap: balance;
+}
+.post-card h2 a { color: var(--color-text); text-decoration: none; }
+.post-card h2 a:hover { color: var(--color-accent); }
+
+.post-card .summary { margin: var(--space-1) 0 0; color: var(--color-muted); }
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-4) 0;
+  color: var(--color-muted);
+  font-size: var(--text-s);
+}
+
+.empty { color: var(--color-muted); }
+
+/* Motion & print --------------------------------------------------------------- */
+
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+
+@media print {
+  body { max-width: none; font-size: 11pt; color: #000; background: #fff; }
+  .masthead nav, .colophon, .skip-link, .pagination, .backlink, .show-more { display: none; }
+  a { color: inherit; text-decoration: none; }
+  .btn-tickets { background: none; color: #000; border: 1px solid #000; }
+  .btn-tickets::after { content: " (" attr(href) ")"; font-size: 0.85em; text-transform: none; letter-spacing: 0; }
+  .show-row.played { opacity: 1; }
+  .prose a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.85em; }
+  .prose pre { white-space: pre-wrap; }
+}

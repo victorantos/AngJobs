@@ -1,0 +1,6 @@
+<li class="care-card">
+  <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+  {{#if item.dateFormatted}}<p class="meta"><time datetime="{{ item.date }}">{{ item.dateFormatted }}</time></p>
+  {{/if}}{{#if item.description}}<p class="summary">{{ item.description }}</p>
+  {{/if}}
+</li>

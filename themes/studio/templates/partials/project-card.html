@@ -1,0 +1,7 @@
+<li class="work-card">
+  <a href="{{ item.url }}">
+    {{#if item.cover}}<img src="{{ item.cover }}" alt="" loading="lazy" decoding="async">
+    {{else}}<span class="work-card-blank" aria-hidden="true"></span>
+    {{/if}}<span class="work-card-label">{{ item.title }}{{#if item.client}}<span class="work-card-client"> — {{ item.client }}</span>{{/if}}</span>
+  </a>
+</li>

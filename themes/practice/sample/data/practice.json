@@ -1,0 +1,11 @@
+{
+  "phone": "+1 555 0104",
+  "emergencyPhone": "+1 555 0199",
+  "emergencyNote": "In pain out of hours?",
+  "hours": [
+    { "days": "Mon–Fri", "time": "8:00–18:00" },
+    { "days": "Sat", "time": "9:00–13:00" }
+  ],
+  "address": "14 Alder Street, Fairview",
+  "bookingUrl": ""
+}

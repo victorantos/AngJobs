@@ -1,0 +1,8 @@
+{
+  "name": "search",
+  "version": "1.0.0",
+  "description": "Client-side full-text search over the prebuilt search-index.json. Adds a /search/ page.",
+  "hooks": ["afterBuild"],
+  "client": { "js": "client.js", "css": "client.css" },
+  "options": { "maxResults": 8 }
+}

@@ -1,0 +1,7 @@
+<li class="post-row">
+  <time class="post-row-date" datetime="{{ item.date }}">{{ item.date }}</time>
+  <div class="post-row-body">
+    <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+    {{#if item.description}}<p class="post-row-desc">{{ item.description }}</p>{{/if}}
+  </div>
+</li>

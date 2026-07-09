@@ -1,0 +1,519 @@
+/* Form — a fitness & yoga studio theme (cms-spec.md §10.7 #17).
+   Chalk off-white, deep charcoal ink, one saturated coral-red accent with
+   gym-signage energy. The one loud element is the timetable: big tabular
+   times you can read at arm's length on a phone, day blocks that never
+   scroll sideways, and a print layout that pins to the fridge.
+   All design decisions live in the tokens below. Restyle by editing tokens,
+   never selectors (cms-spec.md §10.1). */
+
+:root {
+  /* Type — strong geometric display, quiet humanist body */
+  --font-display: "Avenir Next", Avenir, Futura, "Century Gothic", "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
+  --font-body: system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Liberation Sans", sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, "Liberation Mono", monospace;
+  --text-xs: 0.75rem;
+  --text-s: 0.875rem;
+  --text-m: 1.0625rem;
+  --text-l: 1.25rem;
+  --text-xl: 1.625rem;
+  --text-xxl: clamp(2.25rem, 6vw, 3.5rem);
+  --text-time: clamp(1.25rem, 4vw, 1.5rem); /* the number people scan for */
+  --leading-body: 1.6;
+  --leading-tight: 1.08;
+  --tracking-heads: -0.015em;
+  --tracking-caps: 0.08em;
+
+  /* Color — light scheme: chalk, charcoal, coral (all pairs AA-checked) */
+  --color-bg: #faf7f2;
+  --color-panel: #ffffff;
+  --color-text: #26221f;
+  --color-muted: #665e55;
+  --color-accent: #b53318;
+  --color-on-accent: #ffffff;
+  --color-accent-tint: #f7e3dd;
+  --color-border: #e2dbd1;
+
+  /* Layout */
+  --measure: 62ch;
+  --page-width: 68rem;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 1rem;
+  --space-4: 2rem;
+  --space-5: 4rem;
+  --radius: 4px;
+  --border-strong: 2px;
+  --tap-target: 3rem;
+  --photo-ratio: 4 / 5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Warm charcoal, coral lifted — still AA */
+    --color-bg: #211d1a;
+    --color-panel: #2c2620;
+    --color-text: #ece5dc;
+    --color-muted: #b5aa9d;
+    --color-accent: #ff8f75;
+    --color-on-accent: #2a120b;
+    --color-accent-tint: #3a2b24;
+    --color-border: #443c34;
+  }
+}
+
+/* Base -------------------------------------------------------------------- */
+
+* { box-sizing: border-box; }
+
+html { color-scheme: light dark; }
+
+body {
+  margin: 0 auto;
+  padding: 0 var(--space-3);
+  max-width: var(--page-width);
+  font-family: var(--font-body);
+  font-size: var(--text-m);
+  line-height: var(--leading-body);
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+::selection { background: var(--color-accent-tint); }
+
+a { color: var(--color-accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+a:hover { text-decoration-thickness: 2px; }
+
+:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: var(--radius);
+}
+
+.skip-link {
+  position: absolute;
+  left: -100vw;
+  top: var(--space-2);
+  z-index: 20;
+  background: var(--color-panel);
+  padding: var(--space-2) var(--space-3);
+}
+.skip-link:focus { left: var(--space-2); }
+
+main { min-height: 60vh; }
+
+/* Masthead ----------------------------------------------------------------- */
+
+.masthead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-4);
+  padding: var(--space-3) 0;
+  border-bottom: var(--border-strong) solid var(--color-text);
+}
+
+.site-title {
+  font-family: var(--font-display);
+  font-size: var(--text-l);
+  font-weight: 800;
+  letter-spacing: var(--tracking-heads);
+  text-transform: uppercase;
+  color: var(--color-text);
+  text-decoration: none;
+}
+.site-title:hover { color: var(--color-accent); }
+
+.masthead nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.masthead nav a {
+  display: inline-block;
+  padding: var(--space-2);
+  color: var(--color-muted);
+  text-decoration: none;
+  font-size: var(--text-s);
+  font-weight: 600;
+}
+.masthead nav a:hover { color: var(--color-accent); text-decoration: underline; }
+.masthead nav a[aria-current="page"] {
+  color: var(--color-text);
+  box-shadow: inset 0 -3px var(--color-accent);
+}
+
+/* The trial CTA — the only filled element in the chrome */
+.btn-trial {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--tap-target);
+  padding: 0 var(--space-4);
+  font-family: var(--font-display);
+  font-size: var(--text-m);
+  font-weight: 700;
+  letter-spacing: var(--tracking-heads);
+  text-decoration: none;
+  color: var(--color-on-accent);
+  background: var(--color-accent);
+  border-radius: var(--radius);
+}
+.btn-trial:hover { filter: brightness(1.08); }
+.masthead .btn-trial { margin-left: auto; }
+
+/* Headers ------------------------------------------------------------------ */
+
+.page-header { margin: var(--space-4) 0; max-width: var(--measure); }
+
+.page-header h1 {
+  font-family: var(--font-display);
+  font-size: var(--text-xxl);
+  font-weight: 800;
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-heads);
+  margin: 0 0 var(--space-2);
+  text-wrap: balance;
+}
+
+.eyebrow {
+  font-family: var(--font-display);
+  font-size: var(--text-s);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-caps);
+  color: var(--color-accent);
+  margin: 0 0 var(--space-2);
+}
+
+.lede {
+  font-size: var(--text-l);
+  color: var(--color-muted);
+  margin: 0;
+  text-wrap: pretty;
+}
+
+.discipline {
+  font-family: var(--font-display);
+  font-size: var(--text-m);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-caps);
+  color: var(--color-muted);
+  margin: 0;
+}
+
+.meta { font-size: var(--text-s); color: var(--color-muted); margin: 0; }
+
+.tags { margin-left: var(--space-2); }
+.tag { display: inline-block; margin-right: var(--space-2); color: var(--color-accent); text-decoration: none; }
+.tag::before { content: "#"; opacity: 0.6; }
+.tag:hover { text-decoration: underline; }
+
+/* Prose -------------------------------------------------------------------- */
+
+.prose { max-width: var(--measure); }
+
+.prose h2, .prose h3, .prose h4 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-heads);
+  margin: var(--space-4) 0 var(--space-2);
+  text-wrap: balance;
+}
+.prose h2 { font-size: var(--text-xl); }
+.prose h3 { font-size: var(--text-l); }
+
+.prose p, .prose ul, .prose ol { margin: 0 0 var(--space-3); }
+.prose li { margin-bottom: var(--space-1); }
+
+.prose img { max-width: 100%; height: auto; border-radius: var(--radius); }
+
+.prose blockquote {
+  margin: var(--space-4) 0;
+  padding: var(--space-3);
+  background: var(--color-panel);
+  border-left: 4px solid var(--color-accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.prose blockquote p:last-child { margin-bottom: 0; }
+
+.prose code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background: var(--color-panel);
+  border: 1px solid var(--color-border);
+  padding: 0.1em 0.35em;
+  border-radius: var(--radius);
+}
+.prose pre {
+  background: var(--color-panel);
+  border: 1px solid var(--color-border);
+  padding: var(--space-3);
+  border-radius: var(--radius);
+  overflow-x: auto;
+  line-height: 1.5;
+}
+.prose pre code { background: none; border: 0; padding: 0; font-size: var(--text-s); }
+
+.prose table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 0 var(--space-3);
+  font-variant-numeric: tabular-nums;
+}
+.prose th, .prose td {
+  text-align: left;
+  padding: var(--space-2) var(--space-3);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.prose hr {
+  border: 0;
+  border-top: var(--border-strong) solid var(--color-border);
+  margin: var(--space-4) 0;
+}
+
+.cover { width: 100%; height: auto; border-radius: var(--radius); margin: 0 0 var(--space-4); }
+
+/* THE SIGNATURE: the timetable ---------------------------------------------
+   Legible at arm's length on a phone. One column of day blocks on mobile —
+   never a sideways-scrolling table; a grid of day blocks on wide screens.
+   The TIME leads every row, big and bold in tabular figures, because "when
+   can I come?" is the whole reason the page exists. */
+
+.timetable { margin: var(--space-4) 0; }
+
+.trial-note {
+  max-width: var(--measure);
+  margin: 0 0 var(--space-4);
+  padding: var(--space-3);
+  font-family: var(--font-display);
+  font-size: var(--text-l);
+  font-weight: 700;
+  letter-spacing: var(--tracking-heads);
+  color: var(--color-accent);
+  background: var(--color-accent-tint);
+  border-left: 4px solid var(--color-accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  text-wrap: pretty;
+}
+
+.week {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-3);
+  align-items: start;
+}
+@media (min-width: 44em) { .week { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 66em) { .week { grid-template-columns: 1fr 1fr 1fr; } }
+
+.day {
+  background: var(--color-panel);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  overflow: clip;
+}
+
+/* The day name sticks while its classes scroll by underneath */
+.day-name {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  margin: 0;
+  padding: var(--space-2) var(--space-3);
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 800;
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-heads);
+  text-transform: uppercase;
+  background: var(--color-panel);
+  border-bottom: var(--border-strong) solid var(--color-text);
+}
+
+.classes { list-style: none; margin: 0; padding: 0; }
+
+.session {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: var(--space-2) var(--space-3);
+  padding: var(--space-2) var(--space-3);
+  border-top: 1px solid var(--color-border);
+}
+.session:first-child { border-top: 0; }
+
+.session-time {
+  font-family: var(--font-display);
+  font-size: var(--text-time);
+  font-weight: 800;
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-heads);
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text); /* the time stays ink-dark: it carries the page */
+}
+
+.session-what { display: flex; flex-direction: column; }
+.session-name { font-weight: 600; line-height: 1.3; }
+.session-who { font-size: var(--text-s); color: var(--color-muted); }
+
+.chip {
+  justify-self: end;
+  font-family: var(--font-display);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-caps);
+  color: var(--color-accent);
+  background: var(--color-accent-tint);
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius);
+  white-space: nowrap;
+}
+
+/* Today, marked client-side by enhance.js — pure sugar, absent without JS */
+.day.is-today { border-color: var(--color-accent); border-width: var(--border-strong); }
+.day.is-today .day-name { border-bottom-color: var(--color-accent); }
+.day.is-today .day-name::after {
+  content: "Today";
+  margin-left: var(--space-2);
+  vertical-align: middle;
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-caps);
+  color: var(--color-on-accent);
+  background: var(--color-accent);
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius);
+}
+
+/* Instructors ---------------------------------------------------------------- */
+
+.card-list {
+  list-style: none;
+  margin: 0 0 var(--space-4);
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: var(--space-3);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding: var(--space-3);
+  background: var(--color-panel);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+.card h2 {
+  font-family: var(--font-display);
+  font-size: var(--text-l);
+  font-weight: 700;
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-heads);
+  margin: 0;
+}
+.card h2 a { color: var(--color-text); text-decoration: none; }
+.card h2 a:hover { color: var(--color-accent); text-decoration: underline; }
+.card .discipline { font-size: var(--text-s); }
+.card .summary { margin: 0; font-size: var(--text-s); color: var(--color-muted); }
+
+.card-photo-link { margin: 0 0 var(--space-2); }
+.card-photo, .instructor-photo {
+  width: 100%;
+  aspect-ratio: var(--photo-ratio);
+  object-fit: cover;
+  border-radius: var(--radius);
+  display: block;
+}
+
+.instructor-photo { max-width: 20rem; margin: 0 0 var(--space-4); }
+
+.catch-classes {
+  max-width: var(--measure);
+  margin: var(--space-5) 0 var(--space-4);
+  padding: var(--space-4);
+  background: var(--color-panel);
+  border: var(--border-strong) solid var(--color-text);
+  border-radius: var(--radius);
+}
+.catch-classes h2 {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 800;
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-heads);
+  margin: 0 0 var(--space-2);
+}
+.catch-classes p { margin: 0 0 var(--space-3); color: var(--color-muted); }
+.catch-classes p:last-child { margin-bottom: 0; }
+
+/* Pagination ------------------------------------------------------------------ */
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4) 0;
+  font-size: var(--text-s);
+  color: var(--color-muted);
+}
+.pagination a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap-target);
+  padding: 0 var(--space-3);
+  background: var(--color-panel);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 600;
+}
+.pagination a:hover { border-color: var(--color-accent); }
+
+.empty { color: var(--color-muted); }
+
+/* Colophon --------------------------------------------------------------------- */
+
+.colophon {
+  margin-top: var(--space-5);
+  padding: var(--space-3) 0 var(--space-4);
+  border-top: var(--border-strong) solid var(--color-border);
+  color: var(--color-muted);
+  font-size: var(--text-s);
+}
+.colophon p { margin: 0 0 var(--space-1); }
+.colophon-trial { font-weight: 600; }
+
+/* Motion ------------------------------------------------------------------------- */
+
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+  .btn-trial:active { transform: translateY(1px); }
+}
+
+/* Print — the schedule pins to the fridge ------------------------------------------ */
+
+@media print {
+  body { max-width: none; padding: 0; font-size: 10pt; color: #000; background: #fff; }
+  .masthead nav, .masthead .btn-trial, .skip-link, .pagination, .colophon,
+  .catch-classes, .day.is-today .day-name::after { display: none; }
+  a { color: inherit; text-decoration: none; }
+  .page-header { margin: 0 0 var(--space-3); }
+  .trial-note { margin-bottom: var(--space-3); padding: var(--space-2); border: 1pt solid #000; border-left-width: 4pt; background: none; color: #000; font-size: var(--text-m); }
+  .week { grid-template-columns: 1fr 1fr 1fr; gap: var(--space-2); }
+  .day { break-inside: avoid; border-color: #000; }
+  .day-name { position: static; font-size: var(--text-m); border-bottom-color: #000; }
+  .session { padding: var(--space-1) var(--space-2); }
+  .session-time { font-size: var(--text-m); }
+  .session-name, .session-who, .chip { font-size: var(--text-xs); }
+  .chip { background: none; border: 1pt solid #000; color: #000; }
+  .prose a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.85em; }
+  .prose pre { white-space: pre-wrap; }
+}

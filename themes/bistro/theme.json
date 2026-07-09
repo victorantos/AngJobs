@@ -1,0 +1,27 @@
+{
+  "name": "bistro",
+  "title": "Bistro",
+  "description": "A restaurant and café theme built around one object: the menu. Condensed signage caps over a warm text serif, bottle green and a glass of wine for color, and a printed-card carte with dot leaders and tabular prices — turning chalkboard-dark after hours.",
+  "tokens": {
+    "--font-display": "site title, headings, course names — the signage voice",
+    "--font-body": "body text and menu descriptions — the printed-menu voice",
+    "--font-mono": "code",
+    "--color-bg": "page background (the tablecloth)",
+    "--color-text": "body text",
+    "--color-muted": "secondary text: dates, notes, captions",
+    "--color-accent": "links, course names, and focus rings",
+    "--color-cta": "the reserve button",
+    "--color-cta-hover": "the reserve button on hover",
+    "--color-cta-ink": "text on the reserve button",
+    "--color-paper": "the carte and other card surfaces",
+    "--color-frame": "the carte's double-rule frame",
+    "--color-leader": "the dot leaders between dish and price",
+    "--color-border": "rules and card edges",
+    "--color-code-bg": "code block background",
+    "--color-mark": "text selection",
+    "--shadow-carte": "the carte's lift off the page",
+    "--measure": "maximum text column width",
+    "--measure-carte": "width of the menu card",
+    "--radius": "corner rounding"
+  }
+}

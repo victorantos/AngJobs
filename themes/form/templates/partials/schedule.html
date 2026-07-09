@@ -1,0 +1,26 @@
+{{#if data.schedule.days}}
+<section class="timetable" aria-label="Weekly class schedule">
+  {{#if data.schedule.trialNote}}<p class="trial-note">{{ data.schedule.trialNote }}</p>
+  {{/if}}<div class="week">
+    {{#each data.schedule.days as day}}
+    <section class="day" data-day="{{ day.day }}">
+      <h2 class="day-name">{{ day.day }}</h2>
+      <ul class="classes">
+        {{#each day.classes as session}}
+        <li class="session">
+          <span class="session-time">{{ session.time }}</span>
+          <span class="session-what">
+            <span class="session-name">{{ session.name }}</span>
+            {{#if session.who}}<span class="session-who">with {{ session.who }}</span>
+            {{/if}}
+          </span>
+          {{#if session.level}}<span class="chip">{{ session.level }}</span>
+          {{/if}}
+        </li>
+        {{/each}}
+      </ul>
+    </section>
+    {{/each}}
+  </div>
+</section>
+{{/if}}

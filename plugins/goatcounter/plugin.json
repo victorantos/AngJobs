@@ -1,0 +1,7 @@
+{
+  "name": "goatcounter",
+  "version": "1.0.0",
+  "description": "Page-view counts via GoatCounter. Loads gc.zgo.at (a third-party script) only when JavaScript runs; set your site code in pluginOptions.",
+  "client": { "js": "client.js" },
+  "options": { "code": "" }
+}

@@ -1,0 +1,17 @@
+<section class="page not-found">
+  <header class="page-header">
+    <p class="eyebrow">Page not found</p>
+    <h1>That page isn’t here</h1>
+  </header>
+  <div class="prose">
+    <p>Nothing is wrong on your end — the link is old or mistyped, and nothing you did caused it.</p>
+    {{#if data.practice.phone}}
+    <p>If you were looking for something in particular, call us and a person will help: <a href="tel:{{ data.practice.phone }}">{{ data.practice.phone }}</a>.</p>
+    {{/if}}
+    <ul>
+      <li><a href="/">Go to the homepage</a></li>
+      {{#if collections.services}}<li><a href="/care/">See how we can help</a></li>
+      {{/if}}<li><a href="/contact/">Contact us</a></li>
+    </ul>
+  </div>
+</section>

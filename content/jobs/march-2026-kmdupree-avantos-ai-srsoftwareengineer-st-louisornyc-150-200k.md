@@ -1,0 +1,28 @@
+---
+title: Avantos.ai : Sr Software Engineer
+date: 2026-03-01
+description: Avantos.ai - - Sr Software Engineer - St. Louis or NYC - 150-200k We're building an AI notetaker and task management tool for financial advisors. Startup…
+author: kmdupree
+authorUrl: https://news.ycombinator.com/item?id=47225273
+byline: kmdupree
+section: march-2026
+tags:
+  - march-2026
+---
+
+Avantos.ai - <a href="https:&#x2F;&#x2F;avantos.ai" rel="nofollow">https:&#x2F;&#x2F;avantos.ai</a> - Sr Software Engineer - St. Louis or NYC - 150-200k
+
+We&#x27;re building an AI notetaker and task management tool for financial advisors. Startup is headquartered in NYC. If you&#x27;re not in NYC, quarterly travel to the office is expected.
+
+Front end: React DB: Postgres APIs: Golang, Elysia&#x2F;Node Infra: AWS ala Terraform
+
+Interview Process
+
+1. 10-minute async coding challenge 
+2. Hiring manager chat and 20-minute coding challenge OR take home challenge
+3. 45-minute Coding Challenge w&#x2F; another Engineer from the team
+4. System Design Interview 
+5. Chat w&#x2F; a Product Manager
+
+Apply here: <a href="https:&#x2F;&#x2F;avantos.breezy.hr&#x2F;p&#x2F;4a707ef4f952-senior-fullstack-software-engineer" rel="nofollow">https:&#x2F;&#x2F;avantos.breezy.hr&#x2F;p&#x2F;4a707ef4f952-senior-fullstack-so...</a>
+[[form:apply]]

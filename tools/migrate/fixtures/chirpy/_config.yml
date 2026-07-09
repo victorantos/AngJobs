@@ -1,0 +1,7 @@
+# Minimal Chirpy site for the importer's Chirpy-detection test.
+# Note: no top-level `permalink:` — Chirpy sets it in a nested `defaults:`
+# block a flat reader can't see, so the importer detects the theme instead.
+theme: jekyll-theme-chirpy
+title: Test Blog
+url: "https://example.com"
+timezone: Europe/Zurich

@@ -1,0 +1,33 @@
+<section class="menu-page">
+  <header class="page-header menu-header">
+    <h1>{{ page.title }}</h1>
+    {{#if page.description}}<p class="menu-standfirst">{{ page.description }}</p>{{/if}}
+  </header>
+
+  {{#if items}}
+  <div class="carte">
+    <ol class="carte-list">
+      {{#each items as item}}<li class="dish">
+        <p class="dish-line">
+          <a class="dish-name" href="{{ item.url }}">{{ item.title }}</a>
+          <span class="dish-leader" aria-hidden="true"></span>
+          {{#if item.price}}<span class="dish-price">{{ item.price }}</span>{{/if}}
+        </p>
+        {{#if item.description}}<p class="dish-desc">{{ item.description }}</p>{{/if}}
+        {{#if item.section}}<p class="dish-course">{{ item.section }}</p>{{/if}}
+      </li>
+      {{/each}}
+    </ol>
+  </div>
+  {{else}}
+  <p class="empty">The menu is being written. Check back soon.</p>
+  {{/if}}
+
+  {{#if pagination.multiple}}
+  <nav class="pagination" aria-label="Pages">
+    {{#if pagination.newer}}<a href="{{ pagination.newer }}">← Previous</a>{{/if}}
+    <span>Page {{ pagination.page }} of {{ pagination.totalPages }}</span>
+    {{#if pagination.older}}<a href="{{ pagination.older }}">More →</a>{{/if}}
+  </nav>
+  {{/if}}
+</section>

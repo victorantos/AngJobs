@@ -1,0 +1,31 @@
+{
+  "starter": "launch",
+  "collections": {
+    "changelog": {
+      "path": "content/changelog",
+      "urlPattern": "/changelog/:slug/",
+      "template": "release",
+      "listUrl": "/changelog/",
+      "listTemplate": "changelog",
+      "label": "Changelog",
+      "sortBy": "date",
+      "sortOrder": "desc",
+      "rss": true,
+      "fields": [
+        { "name": "title", "type": "text", "required": true },
+        { "name": "date", "type": "date", "required": true },
+        { "name": "version", "type": "text" },
+        { "name": "tag", "type": "select", "options": ["New", "Improved", "Fixed"] },
+        { "name": "description", "type": "text" },
+        { "name": "draft", "type": "boolean", "default": false }
+      ]
+    }
+  },
+  "navigation": [
+    { "label": "Home", "url": "/" },
+    { "label": "Pricing", "url": "/pricing/" },
+    { "label": "Changelog", "url": "/changelog/" },
+    { "label": "About", "url": "/about/" }
+  ],
+  "sampleContent": "sample/"
+}

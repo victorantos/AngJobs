@@ -1,0 +1,23 @@
+{
+  "title": "First post",
+  "date": "2026-01-01",
+  "description": "The first fixture post.",
+  "tags": [
+    "alpha"
+  ],
+  "draft": false,
+  "slug": "first-post",
+  "url": "/blog/first-post/",
+  "file": "content/posts/first-post.md",
+  "collection": "posts",
+  "body": "\n## Heading\n\nBody with an image:\n\n![A boat](/media/boat.svg)\n\n## Heading\n\nDuplicate heading above tests anchor de-duplication.\n",
+  "dateFormatted": "January 1, 2026",
+  "words": 16,
+  "content": "<h2 id=\"heading\">Heading</h2>\n<p>Body with an image:</p>\n<p><img src=\"/media/boat.svg\" alt=\"A boat\" loading=\"lazy\" decoding=\"async\"></p>\n<h2 id=\"heading-1\">Heading</h2>\n<p>Duplicate heading above tests anchor de-duplication.</p>\n",
+  "tagLinks": [
+    {
+      "name": "alpha",
+      "url": "/blog/tag/alpha/"
+    }
+  ]
+}

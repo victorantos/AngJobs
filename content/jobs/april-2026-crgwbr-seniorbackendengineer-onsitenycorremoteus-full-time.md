@@ -1,0 +1,30 @@
+---
+title: Senior Backend Engineer : ONSITE (NYC) or REMOTE (US)
+date: 2026-04-01
+description: thelab ( ) - Senior Backend Engineer - ONSITE (NYC) or REMOTE (US) - Full-Time We are looking for two experienced back-end engineers: (1) one to lead work…
+author: crgwbr
+authorUrl: https://news.ycombinator.com/item?id=47604264
+byline: crgwbr
+section: april-2026
+tags:
+  - april-2026
+---
+
+thelab (<a href="https:&#x2F;&#x2F;www.thelab.co" rel="nofollow">https:&#x2F;&#x2F;www.thelab.co</a>) - Senior Backend Engineer - ONSITE (NYC) or REMOTE (US) - Full-Time
+
+We are looking for two experienced back-end engineers: (1) one to lead work with our client’s e-commerce business; (2) a second to be part of a small team working on a greenfield project involving ML and NLP driven workflow automation tools. The ideal candidate would have experience working with large Python and Typescript codebases. We are looking for someone who is self-motivated and is able to work with a team early on in a project, plan and identify requirements, see a project through to completion, and mentor junior members of the team along the way.
+
+---
+
+About thelab
+
+We’re an agency of makers with deep expertise in solving creative and technology challenges. Our focus is on making better work to help brands work better. From branding &amp; design, to software builds, large-scale ecommerce or anything in between, thelab mixes inspiration and hard work to produce results that mean business. Oh, and we host a mean barbecue too.
+
+---
+
+To apply, please go to:
+
+Ecommerce Engineer: <a href="https:&#x2F;&#x2F;thelabnyc.bamboohr.com&#x2F;careers&#x2F;228?source=aWQ9Mjk%3D" rel="nofollow">https:&#x2F;&#x2F;thelabnyc.bamboohr.com&#x2F;careers&#x2F;228?source=aWQ9Mjk%3D</a>
+
+AI Workflow Automation Engineer: <a href="https:&#x2F;&#x2F;thelabnyc.bamboohr.com&#x2F;careers&#x2F;189?source=aWQ9Mjk%3D" rel="nofollow">https:&#x2F;&#x2F;thelabnyc.bamboohr.com&#x2F;careers&#x2F;189?source=aWQ9Mjk%3D</a>
+[[form:apply]]

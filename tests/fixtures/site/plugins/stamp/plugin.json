@@ -1,0 +1,8 @@
+{
+  "name": "stamp",
+  "version": "1.0.0",
+  "description": "Fixture plugin exercising every hook + client asset injection.",
+  "hooks": ["init", "transformContent", "renderPage", "afterBuild"],
+  "client": { "js": "client.js", "css": "client.css" },
+  "options": { "note": "default-note", "unchanged": "keep" }
+}

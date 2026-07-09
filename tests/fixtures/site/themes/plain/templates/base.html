@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="{{ site.language }}">
+<head>
+<title>{{#if page.title}}{{ page.title }} · {{/if}}{{ site.title }}</title>
+{{#if page.description}}<meta name="description" content="{{ page.description }}">
+{{/if}}{{#each feeds as feed}}<link rel="alternate" type="application/rss+xml" href="{{ feed }}">
+{{/each}}</head>
+<body>
+<nav>{{#each nav as entry}}<a href="{{ entry.url }}"{{#if entry.current}} aria-current="page"{{/if}}>{{ entry.label }}</a> {{/each}}</nav>
+<main>
+{{{ body }}}
+</main>
+{{#if data.footer.html}}<footer><p class="colophon-note">{{{ data.footer.html }}}</p></footer>
+{{/if}}</body>
+</html>

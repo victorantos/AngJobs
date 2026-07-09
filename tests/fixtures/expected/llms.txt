@@ -1,0 +1,15 @@
+# Fixture
+
+> A tiny site for golden-file tests.
+
+All content is also machine-readable JSON under https://fixture.test/api/ (site.json, <collection>/index.json, <collection>/<slug>.json).
+
+## Pages
+
+- [About](https://fixture.test/about/)
+- [Home](https://fixture.test/): The fixture home page.
+
+## Blog
+
+- [Second post](https://fixture.test/blog/second-post/): The second fixture post.
+- [First post](https://fixture.test/blog/first-post/): The first fixture post.

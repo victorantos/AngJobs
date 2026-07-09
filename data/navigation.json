@@ -1,0 +1,30 @@
+[
+  {
+    "label": "Home",
+    "url": "/"
+  },
+  {
+    "label": "Jobs",
+    "url": "/jobs/"
+  },
+  {
+    "label": "May 2026",
+    "url": "/jobs/tag/may-2026/"
+  },
+  {
+    "label": "April 2026",
+    "url": "/jobs/tag/april-2026/"
+  },
+  {
+    "label": "March 2026",
+    "url": "/jobs/tag/march-2026/"
+  },
+  {
+    "label": "Post a Job",
+    "url": "/post-a-job/"
+  },
+  {
+    "label": "About",
+    "url": "/about/"
+  }
+]

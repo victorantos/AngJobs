@@ -1,0 +1,6 @@
+[
+  { "label": "Home", "url": "/" },
+  { "label": "Programs", "url": "/programs/" },
+  { "label": "About", "url": "/about/" },
+  { "label": "Donate", "url": "/donate/" }
+]

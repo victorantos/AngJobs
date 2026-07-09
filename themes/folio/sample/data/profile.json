@@ -1,0 +1,17 @@
+{
+  "name": "Sam Kessler",
+  "role": "Product engineer — web platforms & developer tools",
+  "email": "sam@example.com",
+  "links": [
+    { "label": "samkessler.example.com", "url": "https://samkessler.example.com" },
+    { "label": "github.com/skessler", "url": "https://github.com/skessler" }
+  ],
+  "skills": [
+    "TypeScript & Node",
+    "Postgres",
+    "Design systems",
+    "Accessibility (WCAG)",
+    "CI/CD & observability",
+    "Technical writing"
+  ]
+}

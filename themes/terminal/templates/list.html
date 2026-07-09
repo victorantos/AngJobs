@@ -1,0 +1,21 @@
+<section class="archive">
+  <header class="page-header">
+    <h1>{{ page.title }}</h1>
+    {{#if tag}}<p class="meta">tagged <span class="tag-name">#{{ tag }}</span> — <a href="/blog/">all posts</a></p>{{/if}}
+  </header>
+  {{#if items}}
+  <ol class="post-list" reversed>
+    {{#each items as item}}{{> post-row}}
+    {{/each}}
+  </ol>
+  {{else}}
+  <p class="empty">Nothing here yet.</p>
+  {{/if}}
+  {{#if pagination.multiple}}
+  <nav class="pagination" aria-label="Pages">
+    {{#if pagination.newer}}<a href="{{ pagination.newer }}">← newer</a>{{/if}}
+    <span>page {{ pagination.page }}/{{ pagination.totalPages }}</span>
+    {{#if pagination.older}}<a href="{{ pagination.older }}">older →</a>{{/if}}
+  </nav>
+  {{/if}}
+</section>

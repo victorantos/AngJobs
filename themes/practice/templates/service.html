@@ -1,0 +1,21 @@
+<article class="service">
+  <header class="page-header">
+    <p class="eyebrow">Care</p>
+    <h1>{{ page.title }}</h1>
+    {{#if page.description}}<p class="lede">{{ page.description }}</p>
+    {{/if}}
+  </header>
+  <div class="prose">
+{{{ page.content }}}
+  </div>
+  {{#if page.preparation}}
+  <section class="preparation" aria-label="Before your visit">
+    <h2>Before your visit</h2>
+    <ul>
+      {{#each page.preparation as step}}<li>{{ step }}</li>
+      {{/each}}
+    </ul>
+  </section>
+  {{/if}}
+  {{> appointment-cta}}
+</article>

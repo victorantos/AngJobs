@@ -1,0 +1,36 @@
+/* search plugin styles — inherits the theme's tokens where possible */
+
+#search-app input[type="search"] {
+  width: 100%;
+  font: inherit;
+  font-size: 1.1em;
+  padding: 0.6em 0.8em;
+  border: 1px solid var(--color-border, #ccc);
+  border-radius: var(--radius, 4px);
+  background: transparent;
+  color: inherit;
+}
+
+.search-results {
+  list-style: none;
+  margin: 1.5rem 0;
+  padding: 0;
+}
+
+.search-results li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--color-border, #eee);
+}
+
+.search-results a {
+  font-weight: 600;
+  font-size: 1.05em;
+}
+
+.search-results p {
+  margin: 0.25rem 0 0;
+  color: var(--color-muted, #666);
+  font-size: 0.9em;
+}
+
+.search-empty { color: var(--color-muted, #666); }

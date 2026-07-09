@@ -1,0 +1,8 @@
+<li class="entry-card">
+  <article>
+    {{#if item.date}}<time datetime="{{ item.date }}">{{ item.dateFormatted }}</time>
+    {{/if}}<h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+    {{#if item.description}}<p>{{ item.description }}</p>
+    {{/if}}
+  </article>
+</li>

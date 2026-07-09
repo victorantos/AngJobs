@@ -1,0 +1,16 @@
+<article class="instructor">
+  <header class="page-header">
+    <h1>{{ page.title }}</h1>
+    {{#if page.discipline}}<p class="discipline">{{ page.discipline }}</p>
+    {{/if}}
+  </header>
+  {{#if page.photo}}<img class="instructor-photo" src="{{ page.photo }}" alt="{{ page.title }}" loading="lazy" decoding="async">
+  {{/if}}<div class="prose">
+{{{ page.content }}}
+  </div>
+  <aside class="catch-classes">
+    <h2>Catch their classes</h2>
+    <p>Every class {{ page.title }} teaches is on the weekly timetable — no booking needed, just come a few minutes early.</p>
+    <p><a class="btn-trial" href="/schedule/">See the schedule</a></p>
+  </aside>
+</article>

@@ -1,0 +1,41 @@
+{{#if page.hero}}
+<article class="page has-hero">
+  <section class="hero">
+    <figure class="hero-photo">
+      {{#if page.heroImage}}<img src="{{ page.heroImage }}" alt="{{ page.heroAlt }}" decoding="async">{{/if}}
+    </figure>
+    {{#if data.impact.stat}}
+    <p class="impact">
+      <strong class="impact-number">{{ data.impact.stat.number }}</strong>
+      <span class="impact-what">{{ data.impact.stat.unit }} {{ data.impact.stat.verb }}</span>
+    </p>
+    {{/if}}
+    <div class="hero-mission">
+      <h1>{{ page.title }}</h1>
+      {{#if page.description}}<p class="mission">{{ page.description }}</p>
+      {{/if}}
+      <p class="hero-actions">
+        <a class="btn-donate btn-large" href="{{#if data.impact.donateUrl}}{{ data.impact.donateUrl }}{{else}}/donate/{{/if}}">Donate</a>
+        {{#if data.impact.donatePrompt}}<span class="donate-prompt">{{ data.impact.donatePrompt }}</span>{{/if}}
+      </p>
+    </div>
+  </section>
+  <div class="prose">
+{{{ page.content }}}
+  </div>
+</article>
+{{else}}
+<article class="page">
+  <header class="page-header">
+    <h1>{{ page.title }}</h1>
+    {{#if page.description}}<p class="lede">{{ page.description }}</p>
+    {{/if}}
+  </header>
+  {{#if page.donateCta}}{{#if data.impact.donateUrl}}
+  <p class="page-actions"><a class="btn-donate btn-large" href="{{ data.impact.donateUrl }}">Donate online</a>{{#if data.impact.donatePrompt}} <span class="donate-prompt">{{ data.impact.donatePrompt }}</span>{{/if}}</p>
+  {{/if}}{{/if}}
+  <div class="prose">
+{{{ page.content }}}
+  </div>
+</article>
+{{/if}}

@@ -1,0 +1,11 @@
+{
+  "title": "About",
+  "draft": false,
+  "slug": "about",
+  "url": "/about/",
+  "file": "content/pages/about.md",
+  "collection": "pages",
+  "body": "\n## Who\n\nA fixture site with an external [link](https://example.org/page) & an \"ampersand\".\n",
+  "words": 12,
+  "content": "<h2 id=\"who\">Who</h2>\n<p>A fixture site with an external <a href=\"https://example.org/page\" rel=\"noopener\">link</a> &amp; an &quot;ampersand&quot;.</p>\n"
+}

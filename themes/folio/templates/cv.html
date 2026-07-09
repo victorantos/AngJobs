@@ -1,0 +1,34 @@
+<article class="cv">
+  <header class="cv-identity">
+    {{#if data.profile}}
+    <h1 class="cv-name">{{ data.profile.name }}</h1>
+    {{#if data.profile.role}}<p class="cv-role">{{ data.profile.role }}</p>
+    {{/if}}<ul class="cv-contact">
+      {{#if data.profile.email}}<li><a href="mailto:{{ data.profile.email }}">{{ data.profile.email }}</a></li>
+      {{/if}}{{#each data.profile.links as link}}<li><a href="{{ link.url }}">{{ link.label }}</a></li>
+      {{/each}}
+    </ul>
+    {{else}}
+    <h1 class="cv-name">{{ page.title }}</h1>
+    {{/if}}
+  </header>
+  <p class="cv-print">This page is the résumé — printed, it fits one sheet of A4. <span class="print-hint">Press <kbd>Ctrl</kbd>+<kbd>P</kbd> (<kbd>⌘</kbd><kbd>P</kbd> on a Mac).</span></p>
+  {{#if items}}
+  <ol class="cv-entries">
+    {{#each items as entry}}{{> cv-entry}}
+    {{/each}}
+  </ol>
+  {{else}}
+  <p class="empty">No experience entries yet — add the first one and it appears here.</p>
+  {{/if}}
+  {{#if data.profile.skills}}
+  <p class="cv-skills"><strong>Skills</strong> — {{#each data.profile.skills as skill}}<span class="cv-skill">{{ skill }}</span>{{/each}}</p>
+  {{/if}}
+  {{#if pagination.multiple}}
+  <nav class="pagination" aria-label="Pages">
+    {{#if pagination.newer}}<a href="{{ pagination.newer }}">← Newer</a>{{/if}}
+    <span>Page {{ pagination.page }} of {{ pagination.totalPages }}</span>
+    {{#if pagination.older}}<a href="{{ pagination.older }}">Older →</a>{{/if}}
+  </nav>
+  {{/if}}
+</article>

@@ -1,0 +1,26 @@
+---
+title: Zed Industries : North America, South America, Europe REMOTE
+date: 2026-04-01
+description: Zed Industries - North America, South America, Europe REMOTE - Zed is a company for developers, by developers. All 3 of our founders have spent years in…
+author: mslzed
+authorUrl: https://news.ycombinator.com/item?id=47604429
+byline: mslzed
+section: april-2026
+tags:
+  - april-2026
+---
+
+Zed Industries - North America, South America, Europe REMOTE - <a href="https:&#x2F;&#x2F;zed.dev&#x2F;" rel="nofollow">https:&#x2F;&#x2F;zed.dev&#x2F;</a> Zed is a company for developers, by developers. All 3 of our founders have spent years in the trenches writing software and still do it almost every single day.
+
+We&#x27;ve raised $42M to support our ultimate vision, a new way to collaborate on software, where conversations about code remain connected to the code itself, instead of being tied to aging snapshots or scattered across different tools. The first step was creating a high-quality editor to serve as the user interface. Now this new investment lets us expand to tackle the next phase of our plan. We&#x27;re developing a new kind of operation-based version control that incrementally tracks the evolution of your code with edit-level granularity, and we&#x27;re integrating it into Zed to make collaboration, both with agents and teammates, a first-class part of the coding experience.
+
+What we look for and how we build - <a href="https:&#x2F;&#x2F;zed.dev&#x2F;blog&#x2F;hiring" rel="nofollow">https:&#x2F;&#x2F;zed.dev&#x2F;blog&#x2F;hiring</a>
+
+Rust Engineer - <a href="https:&#x2F;&#x2F;zed.dev&#x2F;jobs&#x2F;rust-engineer" rel="nofollow">https:&#x2F;&#x2F;zed.dev&#x2F;jobs&#x2F;rust-engineer</a>
+
+AI Rust Engineer - <a href="https:&#x2F;&#x2F;zed.dev&#x2F;jobs&#x2F;ai-engineer" rel="nofollow">https:&#x2F;&#x2F;zed.dev&#x2F;jobs&#x2F;ai-engineer</a>
+
+Product Designer - <a href="https:&#x2F;&#x2F;zed.dev&#x2F;jobs&#x2F;product-designer" rel="nofollow">https:&#x2F;&#x2F;zed.dev&#x2F;jobs&#x2F;product-designer</a>
+
+Open Source Engineer - <a href="https:&#x2F;&#x2F;zed.dev&#x2F;jobs&#x2F;open-source-engineer" rel="nofollow">https:&#x2F;&#x2F;zed.dev&#x2F;jobs&#x2F;open-source-engineer</a>
+[[form:apply]]

@@ -1,0 +1,5 @@
+[
+  { "label": "Home", "url": "/" },
+  { "label": "Menu", "url": "/menu/" },
+  { "label": "Visit", "url": "/visit/" }
+]

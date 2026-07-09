@@ -1,0 +1,29 @@
+{
+  "starter": "bistro",
+  "collections": {
+    "menu": {
+      "path": "content/menu",
+      "urlPattern": "/menu/:slug/",
+      "template": "menu-item",
+      "listUrl": "/menu/",
+      "listTemplate": "menu",
+      "label": "Menu",
+      "sortBy": "section",
+      "sortOrder": "asc",
+      "pageSize": 100,
+      "fields": [
+        { "name": "title", "type": "text", "required": true },
+        { "name": "price", "type": "text" },
+        { "name": "section", "type": "select", "options": ["Starters", "Mains", "Desserts", "Drinks"] },
+        { "name": "description", "type": "text" },
+        { "name": "draft", "type": "boolean", "default": false }
+      ]
+    }
+  },
+  "navigation": [
+    { "label": "Home", "url": "/" },
+    { "label": "Menu", "url": "/menu/" },
+    { "label": "Visit", "url": "/visit/" }
+  ],
+  "sampleContent": "sample/"
+}
