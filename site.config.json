@@ -2,6 +2,7 @@
   "site": {
     "title": "AngJobs",
     "url": "https://angjobs.com",
+    "oauthUrl": "https://plain-oauth-angjobs.victorantos.workers.dev",
     "description": "Find your next hacker job from Hacker News monthly threads. Browse the latest tech jobs, remote positions, and startup opportunities.",
     "language": "en",
     "theme": "angjobs",
