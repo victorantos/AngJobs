@@ -1,5 +1,5 @@
 ---
-title: SouthState Bank : HYBRID — Charleston SC, Columbia SC, Winter Haven FL, or McKinney TX
+title: "SouthState Bank : HYBRID — Charleston SC, Columbia SC, Winter Haven FL, or McKinney TX"
 date: 2026-07-01
 description: SouthState Bank - HYBRID — Charleston SC, Columbia SC, Winter Haven FL, or McKinney TX - Full time - U.S. work authorization required SouthState is…
 author: tbpollard
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 SouthState Bank - HYBRID — Charleston SC, Columbia SC, Winter Haven FL, or McKinney TX - Full time - U.S. work authorization required
 
 SouthState is actively hiring for two engineering roles and committed to reviewing and responding to applicants.

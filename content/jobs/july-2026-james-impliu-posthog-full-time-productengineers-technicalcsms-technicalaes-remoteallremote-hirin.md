@@ -1,5 +1,5 @@
 ---
-title: PostHog : Full-Time
+title: "PostHog : Full-Time"
 date: 2026-07-01
 description: PostHog - Full-Time - Product engineers, Technical CSMs, Technical AEs - REMOTE (all remote) - Hiring GMT-8 to GMT+2 PostHog makes dev tools that help…
 author: james_impliu
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 PostHog - Full-Time - Product engineers, Technical CSMs, Technical AEs - REMOTE (all remote) - Hiring GMT-8 to GMT+2 PostHog makes dev tools that help product engineers build successful products.
 
 * we have a public handbook (posthog.com&#x2F;handbook) if you want to learn how we work, pay and more in complete detail.

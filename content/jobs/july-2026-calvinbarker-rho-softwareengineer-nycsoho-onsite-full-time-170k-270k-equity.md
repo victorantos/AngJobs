@@ -1,5 +1,5 @@
 ---
-title: Rho : Software Engineer
+title: "Rho : Software Engineer"
 date: 2026-07-01
 description: Rho - Software Engineer - NYC (Soho) - ONSITE - Full-time - $170K-$270K + equity - Rho is the modern banking platform built for startups: open accounts,…
 author: calvinbarker
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Rho - Software Engineer - NYC (Soho) - ONSITE - Full-time - $170K-$270K + equity - <a href="https:&#x2F;&#x2F;rho.co&#x2F;" rel="nofollow">https:&#x2F;&#x2F;rho.co&#x2F;</a>
 
 Rho is the modern banking platform built for startups: open accounts, issue cards, manage expenses, pay bills, and close the books in one connected platform with real human support.

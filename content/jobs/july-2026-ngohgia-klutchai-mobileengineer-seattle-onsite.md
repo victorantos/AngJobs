@@ -1,5 +1,5 @@
 ---
-title: Klutch AI : Mobile Engineer
+title: "Klutch AI : Mobile Engineer"
 date: 2026-07-01
 description: Klutch AI - Mobile Engineer - Seattle, onsite - Full-time We’re building an AI platform for construction: offline-first mobile/web apps that automate…
 author: ngohgia
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Klutch AI - Mobile Engineer - Seattle, onsite - Full-time
 <a href="https:&#x2F;&#x2F;klutch.ai&#x2F;" rel="nofollow">https:&#x2F;&#x2F;klutch.ai&#x2F;</a>
 

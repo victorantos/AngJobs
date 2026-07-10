@@ -1,5 +1,5 @@
 ---
-title: BREAKFAST Studio : Senior Technical Program Manager
+title: "BREAKFAST Studio : Senior Technical Program Manager"
 date: 2026-07-01
 description: BREAKFAST Studio - Senior Technical Program Manager - Brooklyn, NYC (ONSITE) - Full-time - $180k–$210k base + bonus - theartistbreakfast.com We're…
 author: michaellipton
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 BREAKFAST Studio - Senior Technical Program Manager - Brooklyn, NYC (ONSITE) - Full-time - $180k–$210k base + bonus - theartistbreakfast.com
 
 We&#x27;re BREAKFAST Studio, a kinetic-art studio at the Brooklyn Navy Yard. We build one-of-a-kind electro-mechanical sculptures, pieces with thousands of individually controlled moving parts, for museums,  exhibitions, and collectors. We built The Pearl, the largest computer controlled kinetic sculpture on the planet (<a href="https:&#x2F;&#x2F;theartistbreakfast.com&#x2F;works&#x2F;the-pearl" rel="nofollow">https:&#x2F;&#x2F;theartistbreakfast.com&#x2F;works&#x2F;the-pearl</a>). Every piece is a custom machine: custom PCBs, stepper motion-control, molded parts, firmware, software, overseas manufacturing, all converging into something that has to run flawlessly for a decade.

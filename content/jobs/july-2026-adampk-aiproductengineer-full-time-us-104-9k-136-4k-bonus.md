@@ -1,5 +1,5 @@
 ---
-title: AI Product Engineer : Full-time
+title: "AI Product Engineer : Full-time"
 date: 2026-07-01
 description: Vertex Inc - AI Product Engineer - Full-time - US - $104.9k–$136.4k + bonus Vertex is hiring an AI Product Engineer to build production AI products for…
 author: adampk
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Vertex Inc <a href="https:&#x2F;&#x2F;www.vertexinc.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.vertexinc.com&#x2F;</a> - AI Product Engineer - Full-time - US - $104.9k–$136.4k + bonus
 
 Vertex is hiring an AI Product Engineer to build production AI products for real enterprise workflows.

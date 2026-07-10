@@ -1,5 +1,5 @@
 ---
-title: CivTiq : Lead SWE
+title: "CivTiq : Lead SWE"
 date: 2026-07-01
 description: CivTiq - Lead SWE - ON SITE TORONTO - $130,000 – $210,000 CAD - FOUNDER-LEVEL EQUITY - Founder with 3x successful exits- We are building enterprise-grade,…
 author: Boggedict
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 CivTiq - Lead SWE - ON SITE TORONTO - $130,000 – $210,000 CAD - FOUNDER-LEVEL EQUITY - Founder with 3x successful exits-
 We are building enterprise-grade, white-label reporting infrastructure for municipal governments across North America.
 

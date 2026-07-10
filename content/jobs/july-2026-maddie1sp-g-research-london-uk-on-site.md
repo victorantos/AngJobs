@@ -1,5 +1,5 @@
 ---
-title: G-Research : London, UK
+title: "G-Research : London, UK"
 date: 2026-07-01
 description: G-Research - London, UK - On-site - We’re a quantitative research and technology firm bringing together world-class researchers and engineers to tackle…
 author: maddie1SP
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 G-Research - London, UK - On-site - <a href="https:&#x2F;&#x2F;www.gresearch.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.gresearch.com&#x2F;</a>
 
 We’re a quantitative research and technology firm bringing together world-class researchers and engineers to tackle complex problems in financial markets.

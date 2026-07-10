@@ -1,5 +1,5 @@
 ---
-title: Anterior : Software Engineers
+title: "Anterior : Software Engineers"
 date: 2026-07-01
 description: Anterior - Software Engineers - NYC - Onsite - Full Time Anterior is improving the experience of healthcare for everyone. Our agentic orchestration…
 author: saulhoward
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Anterior - Software Engineers - NYC - Onsite - Full Time
 
 Anterior is improving the experience of healthcare for everyone. Our agentic orchestration platform makes clinical decisioning frictionless for RNs and MDs.

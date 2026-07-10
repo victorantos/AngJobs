@@ -1,5 +1,5 @@
 ---
-title: Ro (ro.co) : direct-to-patient telehealth
+title: "Ro (ro.co) : direct-to-patient telehealth"
 date: 2026-07-01
 description: Ro (ro.co) - direct-to-patient telehealth - NYC (hybrid, 2x a week in office) Lots of open eng roles :) but we want to specifically highlight a brand new…
 author: adam_carey
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Ro (ro.co) - direct-to-patient telehealth - NYC (hybrid, 2x a week in office)
 
 Lots of open eng roles :) but we want to specifically highlight a brand new one for us:

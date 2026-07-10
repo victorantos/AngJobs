@@ -1,5 +1,5 @@
 ---
-title: Ashby : YC 19
+title: "Ashby : YC 19"
 date: 2026-07-01
 description: Ashby - YC 19 - REMOTE - Hiring Engineering Manager (Americas) - $200k–$275k Ashby is the all-in-one recruiting platform powering hiring at the world's…
 author: ashbyhq
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Ashby - YC 19 - REMOTE - Hiring Engineering Manager (Americas) - $200k–$275k
 
 Ashby is the all-in-one recruiting platform powering hiring at the world&#x27;s most innovative companies. If you cmd+f &quot;Ashby&quot; you&#x27;ll see that we&#x27;re powering many of the job postings in this thread!

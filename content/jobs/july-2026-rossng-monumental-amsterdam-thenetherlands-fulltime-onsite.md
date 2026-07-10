@@ -1,5 +1,5 @@
 ---
-title: MONUMENTAL : Amsterdam, The Netherlands
+title: "MONUMENTAL : Amsterdam, The Netherlands"
 date: 2026-07-01
 description: MONUMENTAL - - Amsterdam, The Netherlands - Full Time - Onsite We make robots that autonomously construct buildings, starting with bricklaying. There's a…
 author: rossng
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 MONUMENTAL - <a href="https:&#x2F;&#x2F;www.monumental.co&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.monumental.co&#x2F;</a> - Amsterdam, The Netherlands - Full Time - Onsite
 
 We make robots that autonomously construct buildings, starting with bricklaying.

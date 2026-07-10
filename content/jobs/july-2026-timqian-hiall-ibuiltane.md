@@ -1,5 +1,5 @@
 ---
-title: Hi all, I built a ne
+title: "Hi all, I built a ne"
 date: 2026-07-01
 description: Hi all, I built a new searcher: . It extracts information such as salary and visa requirements to facilitate better filtering. It also includes some…
 author: timqian
@@ -9,6 +9,5 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Hi all, I built a new searcher: <a href="https:&#x2F;&#x2F;hacker-job.com" rel="nofollow">https:&#x2F;&#x2F;hacker-job.com</a>. It extracts information such as salary and visa requirements to facilitate better filtering. It also includes some analytics on jobs: <a href="https:&#x2F;&#x2F;hacker-job.com&#x2F;trends" rel="nofollow">https:&#x2F;&#x2F;hacker-job.com&#x2F;trends</a>. Welcome to try it out
 [[form:apply]]

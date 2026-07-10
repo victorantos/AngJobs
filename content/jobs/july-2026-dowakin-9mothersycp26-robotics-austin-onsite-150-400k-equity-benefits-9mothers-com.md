@@ -1,5 +1,5 @@
 ---
-title: 9 Mothers YC P26 : Robotics
+title: "9 Mothers YC P26 : Robotics"
 date: 2026-07-01
 description: 9 Mothers YC P26 - Robotics - Austin, ONSITE - $150-400k + equity + benefits - 9mothers.com I'm Roman, co-founder of 9 Mothers. We're building AI weapon…
 author: dowakin
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 9 Mothers YC P26 - Robotics - Austin, ONSITE - $150-400k + equity + benefits - 9mothers.com
 
 I&#x27;m Roman, co-founder of 9 Mothers. We&#x27;re building AI weapon systems in Austin, TX. Our first product is designed to stop group 1 suicide drones. We started in 2025 and are still a small team of fewer than 20 people.

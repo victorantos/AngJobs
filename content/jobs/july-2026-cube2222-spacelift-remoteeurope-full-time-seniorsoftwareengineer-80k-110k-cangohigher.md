@@ -1,5 +1,5 @@
 ---
-title: Spacelift : Remote (Europe)
+title: "Spacelift : Remote (Europe)"
 date: 2026-07-01
 description: Spacelift - Remote (Europe) - Full-time - Senior Software Engineer - $80k-$110k+ (can go higher) We're a VC-funded startup (recently raised $51M Series C)…
 author: cube2222
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Spacelift - Remote (Europe) - Full-time - Senior Software Engineer - $80k-$110k+ (can go higher)
 
 We&#x27;re a VC-funded startup (recently raised $51M Series C) building an infrastructure orchestrator and collaborative management platform for Infrastructure-as-Code – from OpenTofu, Terraform, Terragrunt, CloudFormation, Pulumi, Kubernetes, to Ansible.

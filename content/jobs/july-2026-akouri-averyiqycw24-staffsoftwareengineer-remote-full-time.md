@@ -1,5 +1,5 @@
 ---
-title: AveryIQ (YC W24) : Staff Software Engineer
+title: "AveryIQ (YC W24) : Staff Software Engineer"
 date: 2026-07-01
 description: AveryIQ (YC W24) - Staff Software Engineer - Remote - Full-time AveryIQ is a full-stack property management platform competing against Appfolio, Yardi,…
 author: akouri
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 AveryIQ (YC W24) - Staff Software Engineer - Remote - Full-time
 
 AveryIQ is a full-stack property management platform competing against Appfolio, Yardi, Entrata. We think property management is a domain that is underserved by AI currently, and has so much potential for improving the experience for both tenants and landlords alike. This is a multidisciplinary domain, touching everything from payments and accounting to computer vision and complex workflows.

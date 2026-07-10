@@ -1,5 +1,5 @@
 ---
-title: Mitty : First Engineer
+title: "Mitty : First Engineer"
 date: 2026-07-01
 description: Mitty - First Engineer- Honolulu, HI or REMOTE - Full-time - Base + Founding equity Hi I’m Devin. Do you love hard problems? Do you find yourself thinking…
 author: DevinTryan
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Mitty - First Engineer- Honolulu, HI or REMOTE - Full-time - Base + Founding equity
 
 Hi I’m Devin.

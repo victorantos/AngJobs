@@ -1,5 +1,5 @@
 ---
-title: Solace Health : 1st Staff Mobile Engineer + Multiple Product Engineering Roles
+title: "Solace Health : 1st Staff Mobile Engineer + Multiple Product Engineering Roles"
 date: 2026-07-01
 description: Solace Health - 1st Staff Mobile Engineer + Multiple Product Engineering Roles - REMOTE (US) - Full-time - No visa sponsorship offered We're Solace…
 author: rgoldsolace
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Solace Health - 1st Staff Mobile Engineer + Multiple Product Engineering Roles - REMOTE (US) - Full-time - No visa sponsorship offered
 
 We&#x27;re Solace Health. In four years, we&#x27;ve provided free healthcare advocacy to over 250K patients on Medicare, and now offer access to those on private pay and VA plans. We exist to make sure nobody in the US has to navigate their healthcare journey alone. We hit Unicorn status after our February Series-C led by IVP, bringing us to $207M raised and a $1B valuation. Compensation and benefits are highly competitive and include equity!

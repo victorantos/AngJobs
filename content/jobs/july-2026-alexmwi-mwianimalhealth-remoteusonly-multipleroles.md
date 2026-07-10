@@ -1,5 +1,5 @@
 ---
-title: MWI Animal Health : Remote (US only)
+title: "MWI Animal Health : Remote (US only)"
 date: 2026-07-01
 description: MWI Animal Health - Remote (US only) - multiple roles MWI Animal Health is a leading U.S. distributor of animal health products, medications, and…
 author: alexmwi
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 MWI Animal Health - Remote (US only) - multiple roles
 
 MWI Animal Health is a leading U.S. distributor of animal health products, medications, and technology solutions for veterinarians and livestock producers.

@@ -1,5 +1,5 @@
 ---
-title: REMOTE (EU) : Rust Engineering Consultant
+title: "REMOTE (EU) : Rust Engineering Consultant"
 date: 2026-07-01
 description: Mainmatter ( ) - REMOTE (EU) - Rust Engineering Consultant - Full-time - 80-100k€ Mainmatter ( ), the company behind EuroRust ( ) is looking for an…
 author: KevinBongart
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Mainmatter (<a href="https:&#x2F;&#x2F;mainmatter.com&#x2F;rust-consulting&#x2F;" rel="nofollow">https:&#x2F;&#x2F;mainmatter.com&#x2F;rust-consulting&#x2F;</a>) - REMOTE (EU) - Rust Engineering Consultant - Full-time - 80-100k€
 
 Mainmatter (<a href="https:&#x2F;&#x2F;mainmatter.com" rel="nofollow">https:&#x2F;&#x2F;mainmatter.com</a>), the company behind EuroRust (<a href="https:&#x2F;&#x2F;eurorust.eu" rel="nofollow">https:&#x2F;&#x2F;eurorust.eu</a>) is looking for an exceptional Rust engineering consultant to join our team (led by Luca Palmieri, author of Zero to Production in Rust). You&#x27;ll be supporting international clients like Google, BMW and Redis in adopting Rust: reviewing their codebase, recommending and implementing improvements, and training their team on advanced Rust concepts.

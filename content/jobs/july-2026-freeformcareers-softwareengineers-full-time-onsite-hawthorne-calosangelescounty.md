@@ -1,5 +1,5 @@
 ---
-title: Software Engineers : Full-time
+title: "Software Engineers : Full-time"
 date: 2026-07-01
 description: Freeform ( ) - Software Engineers - Full-time - Onsite - Hawthorne, CA (Los Angeles County) Freeform builds AI-native manufacturing systems that unify…
 author: Freeformcareers
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Freeform (<a href="http:&#x2F;&#x2F;freeform.co" rel="nofollow">http:&#x2F;&#x2F;freeform.co</a>) - Software Engineers - Full-time - Onsite - Hawthorne, CA (Los Angeles County)
 
 Freeform builds AI-native manufacturing systems that unify software, hardware, and physics to produce industrial-scale parts at the speed of human ideation. By treating manufacturing as a single integrated system, we unlock a new era of innovation where complex hardware is designed, built, and scaled without limits. This isn’t just an improvement; it’s a leap forward in how complex metal parts are made, with the ability to revolutionize industries like aerospace, defense, automotive, energy, and beyond. We are backed by top VCs including NVIDIA’s NVentures, Founders Fund, Threshold Ventures, and Apandion.

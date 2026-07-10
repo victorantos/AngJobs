@@ -1,5 +1,5 @@
 ---
-title: Third Iron : Senior Quality Engineer
+title: "Third Iron : Senior Quality Engineer"
 date: 2026-07-01
 description: Third Iron - Senior Quality Engineer - REMOTE (US) Do you want to help scientists, doctors, and historians discover breakthroughs? Join our small,…
 author: karmelapple
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Third Iron - Senior Quality Engineer - REMOTE (US)
 
 Do you want to help scientists, doctors, and historians discover breakthroughs? Join our small, fully-distributed software development team to help connect scholars of all disciplines with peer-reviewed journal articles.

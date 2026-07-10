@@ -1,5 +1,5 @@
 ---
-title: *Y Combinator : Product Engineers
+title: "*Y Combinator : Product Engineers"
 date: 2026-07-01
 description: *Y Combinator - Product Engineers - San Francisco (Onsite) - Full-time - YC is hiring Product Engineers to build the future of YC -- and increasingly,…
 author: ryankicks
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 *Y Combinator - Product Engineers - San Francisco (Onsite) - Full-time - <a href="https:&#x2F;&#x2F;www.ycombinator.com&#x2F;software">https:&#x2F;&#x2F;www.ycombinator.com&#x2F;software</a>
 
 YC is hiring Product Engineers to build the future of YC -- and increasingly, software for startups everywhere.

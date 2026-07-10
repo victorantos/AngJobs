@@ -1,5 +1,5 @@
 ---
-title: Obsidian Security : Staff Software Engineer
+title: "Obsidian Security : Staff Software Engineer"
 date: 2026-07-01
 description: Obsidian Security - Staff Software Engineer - Philadelphia or Palo Alto - Full-time - $176k-$196k + equity + 401k - We secure the SaaS apps companies…
 author: volker48
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Obsidian Security - Staff Software Engineer - Philadelphia or Palo Alto - Full-time - $176k-$196k + equity + 401k - <a href="https:&#x2F;&#x2F;job-boards.greenhouse.io&#x2F;obsidiansecurity&#x2F;jobs&#x2F;5152706008" rel="nofollow">https:&#x2F;&#x2F;job-boards.greenhouse.io&#x2F;obsidiansecurity&#x2F;jobs&#x2F;51527...</a>
 
 We secure the SaaS apps companies actually run on: M365, Salesforce, and hundreds more. You’d be on the Threat product team working full-stack. That means browser extension code (content&#x2F;background scripts, manifest v3, message passing), backend services chewing through millions of events, and the data pipelines feeding our detection engine. One day you’re in TypeScript debugging why a content script won’t capture form submissions on some vendor’s weird SPA. The next you’re in Python fixing a Kafka consumer that’s falling behind. Sometimes you’re in Rust optimizing a hot path in the telemetry collector.

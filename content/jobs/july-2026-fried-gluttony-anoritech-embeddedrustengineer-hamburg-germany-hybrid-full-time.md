@@ -1,5 +1,5 @@
 ---
-title: Anori Tech : Embedded Rust Engineer
+title: "Anori Tech : Embedded Rust Engineer"
 date: 2026-07-01
 description: Anori Tech - Embedded Rust Engineer - Hamburg, Germany - HYBRID - Full-time - Apply here: We're building a software-defined Battery Management System…
 author: fried-gluttony
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Anori Tech - Embedded Rust Engineer - Hamburg, Germany - HYBRID - Full-time - <a href="http:&#x2F;&#x2F;anoritech.com&#x2F;" rel="nofollow">http:&#x2F;&#x2F;anoritech.com&#x2F;</a>
 
 Apply here: <a href="https:&#x2F;&#x2F;nice-channel-658.notion.site&#x2F;Embedded-Rust-Engineer-m-f-d-3834b6f765ee81078002ffd5f2f5e767" rel="nofollow">https:&#x2F;&#x2F;nice-channel-658.notion.site&#x2F;Embedded-Rust-Engineer-...</a>

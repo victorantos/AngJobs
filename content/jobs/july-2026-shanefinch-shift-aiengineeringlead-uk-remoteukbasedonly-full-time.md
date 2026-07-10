@@ -1,5 +1,5 @@
 ---
-title: Shift : AI Engineering Lead
+title: "Shift : AI Engineering Lead"
 date: 2026-07-01
 description: Shift - AI Engineering Lead - UK - Remote (UK Based only) - Full-time Shift helps enterprises move faster through complex transformation programmes. We're…
 author: shanefinch
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Shift - AI Engineering Lead - UK - Remote (UK Based only) - Full-time
 
 Shift helps enterprises move faster through complex transformation programmes. We&#x27;re an early-stage UK startup building the AI systems that power how we deliver that work.

@@ -1,5 +1,5 @@
 ---
-title: Baton : San Francisco, CA (Hybrid) and Remote
+title: "Baton : San Francisco, CA (Hybrid) and Remote"
 date: 2026-07-01
 description: Baton - San Francisco, CA (Hybrid) and Remote - Full-Time Baton (baton.io) is Ryder's in-house product development group focused on harnessing emerging…
 author: BatonTrucking
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Baton - San Francisco, CA (Hybrid) and Remote - Full-Time
 
 Baton (baton.io) is Ryder&#x27;s in-house product development group focused on harnessing emerging technologies to redefine transportation and logistics. With $10B in freight under management, our technology reaches every part of the U.S. economy.

@@ -1,5 +1,5 @@
 ---
-title: Disney : Senior Software Engineer, Backend
+title: "Disney : Senior Software Engineer, Backend"
 date: 2026-07-01
 description: Disney - Senior Software Engineer, Backend - ONSITE, NYC - Full Time The Subscriptions team is looking to expand our team in the NYC office. We are a…
 author: critium
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Disney - Senior Software Engineer, Backend - ONSITE, NYC - Full Time
 The Subscriptions team is looking to expand our team in the NYC office. We are a dynamic team of engineers that support all your Disney, ESPN and Hulu subscriptions at scale! We solve problems at internet-scale that only a handful of teams ever reach.
 

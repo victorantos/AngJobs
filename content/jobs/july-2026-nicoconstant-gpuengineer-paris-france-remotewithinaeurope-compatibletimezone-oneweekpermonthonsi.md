@@ -1,5 +1,5 @@
 ---
-title: GPU Engineer : Paris, France
+title: "GPU Engineer : Paris, France"
 date: 2026-07-01
 description: Kog ( ) - GPU Engineer - Paris, France - REMOTE within a Europe-compatible timezone, one week per month onsite in Paris We are hiring a GPU Engineer to…
 author: NicoConstant
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Kog (<a href="https:&#x2F;&#x2F;kog.ai" rel="nofollow">https:&#x2F;&#x2F;kog.ai</a>) - GPU Engineer - Paris, France - REMOTE within a Europe-compatible timezone, one week per month onsite in Paris
 
 We are hiring a GPU Engineer to work on the fastest LLM inference engine on standard datacenter GPUs.

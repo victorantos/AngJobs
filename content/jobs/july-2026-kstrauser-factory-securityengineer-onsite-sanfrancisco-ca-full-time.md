@@ -1,5 +1,5 @@
 ---
-title: Factory : Security Engineer
+title: "Factory : Security Engineer"
 date: 2026-07-01
 description: Factory - Security Engineer - ONSITE, San Francisco, CA - Full-Time - also - Factory - IT Operations Specialist - ONSITE, SF, CA - Full-Time My team at…
 author: kstrauser
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Factory - Security Engineer - ONSITE, San Francisco, CA - Full-Time
 
 - also -

@@ -1,5 +1,5 @@
 ---
-title: Phaselaw : Product Engineer
+title: "Phaselaw : Product Engineer"
 date: 2026-07-01
 description: Phaselaw - Product Engineer - Remote (US) - Full-time Phaselaw ( ) is building the AI-native eDiscovery platform for in-house legal and privacy teams. We…
 author: subpar
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Phaselaw - Product Engineer - Remote (US) - Full-time
 
 Phaselaw (<a href="https:&#x2F;&#x2F;phase.law" rel="nofollow">https:&#x2F;&#x2F;phase.law</a>) is building the AI-native eDiscovery platform for in-house legal and privacy teams. We save teams thousands of hours with tools for document review and redaction. We&#x27;re seed stage but already working with some of the largest companies in the world and are more than doubling the business every quarter.

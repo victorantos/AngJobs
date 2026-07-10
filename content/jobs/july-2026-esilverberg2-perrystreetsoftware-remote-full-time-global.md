@@ -1,5 +1,5 @@
 ---
-title: Perry Street Software : Remote
+title: "Perry Street Software : Remote"
 date: 2026-07-01
 description: Perry Street Software - - Remote - Full-Time - Global Perry Street Software, the largest independent publisher of LGBTQ+ apps globally and creator of…
 author: esilverberg2
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Perry Street Software - <a href="https:&#x2F;&#x2F;www.perrystreet.com" rel="nofollow">https:&#x2F;&#x2F;www.perrystreet.com</a> - Remote - Full-Time - Global
 
 Perry Street Software, the largest independent publisher of LGBTQ+ apps globally and creator of SCRUFF (www.scruff.com) and Jack&#x27;d (www.jackd.com), is hiring for Senior Ruby Developer.

@@ -1,5 +1,5 @@
 ---
-title: SpruceID (YC W21) : REMOTE (US-Based Preferred)
+title: "SpruceID (YC W21) : REMOTE (US-Based Preferred)"
 date: 2026-07-01
 description: SpruceID (YC W21) - REMOTE (US-Based Preferred) - Full-Time - spruceid.com Spruce lets users control their data across the web. Instead of users logging…
 author: wyc
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 SpruceID (YC W21) - REMOTE (US-Based Preferred) - Full-Time - spruceid.com
 
 Spruce lets users control their data across the web. Instead of users logging into platforms, we believe platforms should request to access data vaults controlled by users.

@@ -1,5 +1,5 @@
 ---
-title: Fusionbox : Python + TypeScript Engineers
+title: "Fusionbox : Python + TypeScript Engineers"
 date: 2026-07-01
 description: Fusionbox - Python + TypeScript Engineers - United States - Full-time - REMOTE (US-only) We're a software engineering consultancy that builds enterprise…
 author: subleq
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Fusionbox - Python + TypeScript Engineers - United States - Full-time - REMOTE (US-only)
 
 We&#x27;re a software engineering consultancy that builds enterprise software the right way. We negotiate the right to open source all our client code, maintain a handful of popular libraries, and our engineers contribute to Django core. We sponsor PyCon, DjangoCon, and Django Girls because we&#x27;re invested in the ecosystem we build on.

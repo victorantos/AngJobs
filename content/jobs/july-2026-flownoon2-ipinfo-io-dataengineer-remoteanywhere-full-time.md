@@ -1,5 +1,5 @@
 ---
-title: IPinfo.io : Data Engineer
+title: "IPinfo.io : Data Engineer"
 date: 2026-07-01
 description: IPinfo.io - Data Engineer - REMOTE (Anywhere) - Full-time IPinfo is a leading provider of IP address data, including geolocation, VPN and residential…
 author: flownoon2
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 IPinfo.io - Data Engineer - REMOTE (Anywhere) - Full-time
 
 IPinfo is a leading provider of IP address data, including geolocation, VPN and residential proxy detection, mobile carrier data, and over 20 other context tags. Our API handles over 120 billion requests per month, and we also license our data for use in many products and services you’ve likely interacted with.

@@ -1,5 +1,5 @@
 ---
-title: CoVar : Durham, NC
+title: "CoVar : Durham, NC"
 date: 2026-07-01
 description: CoVar - Durham, NC - - Full-time - ONSITE CoVar is a small R&D company specializing in AI/ML and software development for defense and healthcare.…
 author: rkalika
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 CoVar - Durham, NC - <a href="https:&#x2F;&#x2F;covar.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;covar.com&#x2F;</a> - Full-time - ONSITE
 
 CoVar is a small R&amp;D company specializing in AI&#x2F;ML and software development for defense and healthcare. Bootstrapped and profitable. We&#x27;re looking for a jack-of-all-trades who can: prototype computer vision algorithms, build Python web services, wrangle large sets of data from disparate classes of sensors, ... any or all, with the only hard requirement being eagerness to learn.

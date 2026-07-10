@@ -1,5 +1,5 @@
 ---
-title: Hiring in Paris and REMOTE in wider Europe : Hiring across product, engineering and GTM
+title: "Hiring in Paris and REMOTE in wider Europe : Hiring across product, engineering and GTM"
 date: 2026-07-01
 description: Lago ( )(YCS21) - Hiring in Paris and REMOTE in wider Europe - Hiring across product, engineering and GTM The Open Source, AI-native billing platform -…
 author: AnhTho_FR
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Lago (<a href="https:&#x2F;&#x2F;getlago.com&#x2F;">https:&#x2F;&#x2F;getlago.com&#x2F;</a>)(YCS21) - Hiring in Paris and REMOTE in wider Europe - Hiring across product, engineering and GTM
 
 The Open Source, AI-native billing platform - Lago is the billing platform that gives teams full transparency, control and flexibility to manage and scale any pricing model. Trusted by PayPal, Synthesia, CoreWeave and Mistral.ai to handle their billing.

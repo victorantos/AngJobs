@@ -1,5 +1,5 @@
 ---
-title: Longshot Systems : Multiple Senior Eng
+title: "Longshot Systems : Multiple Senior Eng"
 date: 2026-07-01
 description: Longshot Systems - Multiple Senior Eng - London, UK, hybrid - Full time Longshot is at the cutting edge of sports betting modelling R&D and has been…
 author: chillydawg
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Longshot Systems - Multiple Senior Eng - London, UK, hybrid - Full time
 
 Longshot is at the cutting edge of sports betting modelling R&amp;D and has been producing market beating models for over a decade.

@@ -1,5 +1,5 @@
 ---
-title: Yardstik : Senior Software Engineer
+title: "Yardstik : Senior Software Engineer"
 date: 2026-07-01
 description: Yardstik - Senior Software Engineer - Minneapolis, MN - $120,000 - $200,000 Yardstik is a start-up software company with a mission of building trust and…
 author: mrmueller612
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Yardstik - Senior Software Engineer - Minneapolis, MN - $120,000 - $200,000
 
 Yardstik is a start-up software company with a mission of building trust and safety into the Internet Economy. The world of background screening, certification, and training has lacked innovation and we’re here to change that for our customers. Our enterprise-class technology allows us to provide a right-fit solution for our customers realistic for any platform, in any industry. Join us in our efforts to protect organizations and their people.

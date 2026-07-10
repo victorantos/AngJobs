@@ -1,5 +1,5 @@
 ---
-title: Hiring in Paris and REMOTE : Senior SWE
+title: "Hiring in Paris and REMOTE : Senior SWE"
 date: 2026-07-01
 description: Rail Europe ( ) - Hiring in Paris and REMOTE - Senior SWE - Full-time Rail Europe is a global travel tech company and the reference brand for European…
 author: paozac
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Rail Europe (<a href="https:&#x2F;&#x2F;wwww.raileurope.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;wwww.raileurope.com&#x2F;</a>) - Hiring in Paris and REMOTE - Senior SWE - Full-time
 
 Rail Europe is a global travel tech company and the reference brand for European train booking.

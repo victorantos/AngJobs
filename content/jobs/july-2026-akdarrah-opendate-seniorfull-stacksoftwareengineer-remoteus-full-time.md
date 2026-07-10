@@ -1,5 +1,5 @@
 ---
-title: Opendate : Senior Full-Stack Software Engineer
+title: "Opendate : Senior Full-Stack Software Engineer"
 date: 2026-07-01
 description: Opendate - Senior Full-Stack Software Engineer - Remote (US) - Full-time Opendate builds the ticketing platform powering independent music venues across…
 author: akdarrah
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Opendate - Senior Full-Stack Software Engineer - Remote (US) - Full-time
 
 Opendate builds the ticketing platform powering independent music venues across North America.

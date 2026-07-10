@@ -1,5 +1,5 @@
 ---
-title: Blaine, WA : CaseLight Systems Inc. (CSI)
+title: "Blaine, WA : CaseLight Systems Inc. (CSI)"
 date: 2026-07-01
 description: Blaine, WA - CaseLight Systems Inc. (CSI) - Solo Founder - Remote (US Only) - Founding Systems Engineer - FULL EQUITY (30% Stake) CaseLight is building a…
 author: Overwatch360
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Blaine, WA - CaseLight Systems Inc. (CSI) - Solo Founder - Remote (US Only) - Founding Systems Engineer - FULL EQUITY (30% Stake)
 
 CaseLight is building a secure, high performance, offline first Windows desktop application designed for private &amp; legal investigators, corporate SIUs, and local law enforcement agencies across the country.

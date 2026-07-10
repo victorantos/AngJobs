@@ -1,5 +1,5 @@
 ---
-title: SerpApi : Junior to Senior Fullstack Engineer multiple positions
+title: "SerpApi : Junior to Senior Fullstack Engineer multiple positions"
 date: 2026-07-01
 description: SerpApi - Junior to Senior Fullstack Engineer multiple positions - Customer Success Engineer - Senior Content Specialist - SEO Specialist -…
 author: trusche
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 SerpApi - Junior to Senior Fullstack Engineer multiple positions - Customer Success Engineer - Senior Content Specialist - SEO Specialist - Python&#x2F;Ruby&#x2F;PHP&#x2F;JS&#x2F;Rust&#x2F;Kotlin&#x2F;Swift&#x2F;Go&#x2F;PHO Developer Advocate positions - Based in Austin, TX but remote-first structure - Full-time - ONSITE or FULLY REMOTE - $150K - 180K a year 1099 for US or local avg + 20% for outside the US
 
 SerpApi is the leading API to scrape and parse search engine results. We provide 100+ APIs to Google, Google Maps, Google Images, Bing, Baidu, and more.

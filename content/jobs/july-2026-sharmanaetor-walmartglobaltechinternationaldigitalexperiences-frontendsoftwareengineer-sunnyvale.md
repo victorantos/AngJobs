@@ -1,5 +1,5 @@
 ---
-title: Walmart Global Tech (International Digital Experiences) : Frontend Software Engineer
+title: "Walmart Global Tech (International Digital Experiences) : Frontend Software Engineer"
 date: 2026-07-01
 description: Walmart Global Tech (International Digital Experiences) - Frontend Software Engineer - Sunnyvale, CA (Onsite) What you’ll do - Build modern, scalable UIs…
 author: sharmanaetor
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Walmart Global Tech (International Digital Experiences) - Frontend Software Engineer - Sunnyvale, CA (Onsite)
 
 What you’ll do

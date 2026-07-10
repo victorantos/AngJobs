@@ -1,5 +1,5 @@
 ---
-title: 3Play Media : Principal Front-End Engineer (Growth)
+title: "3Play Media : Principal Front-End Engineer (Growth)"
 date: 2026-07-01
 description: 3Play Media - Principal Front-End Engineer (Growth) - Boston, MA - 1-day-in-office hybrid or fully remote (USA only) - Full-time - 3playmedia.com -…
 author: hownowbrowncow
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 3Play Media - Principal Front-End Engineer (Growth) - Boston, MA - 1-day-in-office hybrid or fully remote (USA only) - Full-time - 3playmedia.com - $200–250k + bonus + equity
 
 3Play makes content accessible across disability and language. Our human-QA&#x27;d captioning, audio description, subtitling, and dubbing services are used by over 10,000 media, higher ed, creator, enterprise, and government customers. We’ve worked on really cool projects: recent examples including captioning the 2024 Paris Olympics and providing quality AI dubbing for high-profile YouTube creators.

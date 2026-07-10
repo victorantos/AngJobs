@@ -1,5 +1,5 @@
 ---
-title: Bucket Robotics (YC S24) : Senior Fullstack Engineer
+title: "Bucket Robotics (YC S24) : Senior Fullstack Engineer"
 date: 2026-07-01
 description: Bucket Robotics (YC S24) - Senior Fullstack Engineer - San Francisco, CA (On-site) Bucket Robotics turns CAD files into production-ready computer vision…
 author: hahahacorn
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Bucket Robotics (YC S24) - Senior Fullstack Engineer - San Francisco, CA (On-site)
 
 Bucket Robotics turns CAD files into production-ready computer vision models that detect defects instantly with zero manual labeling and no multi-month pilots. We are automation-first, replacing slow legacy processes with instant AI inspection.

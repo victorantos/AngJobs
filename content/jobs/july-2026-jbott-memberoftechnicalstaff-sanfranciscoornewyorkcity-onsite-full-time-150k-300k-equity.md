@@ -1,5 +1,5 @@
 ---
-title: Member of Technical Staff : San Francisco or New York City
+title: "Member of Technical Staff : San Francisco or New York City"
 date: 2026-07-01
 description: Complement AI ( ) - Member of Technical Staff - San Francisco or New York City - ONSITE - Full-time - $150K - $300K + Equity Complement builds AI that…
 author: jbott
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Complement AI (<a href="https:&#x2F;&#x2F;complement.ai" rel="nofollow">https:&#x2F;&#x2F;complement.ai</a>) - Member of Technical Staff - San Francisco or New York City - ONSITE - Full-time - $150K - $300K + Equity
 
 Complement builds AI that autonomously operates factories. We connect the fragmented systems inside a factory (ERP, MES, PLCs, spreadsheets, etc) into a unified data layer, then deploy AI agents that optimize decisions across the whole operation for profit.

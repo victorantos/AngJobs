@@ -1,5 +1,5 @@
 ---
-title: ALBERT : REMOTE ALMOST ANYWHERE IN THE WORLD
+title: "ALBERT : REMOTE ALMOST ANYWHERE IN THE WORLD"
 date: 2026-07-01
 description: ALBERT - REMOTE ALMOST ANYWHERE IN THE WORLD- Hiring principal and distinguished engineers to build net new products - up to ~ $750k Hiring: exceptional…
 author: meetalbert
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 ALBERT - REMOTE ALMOST ANYWHERE IN THE WORLD- Hiring principal and distinguished engineers to build net new products - up to ~ $750k
 Hiring: exceptional consumer product engineers at Albert.
 

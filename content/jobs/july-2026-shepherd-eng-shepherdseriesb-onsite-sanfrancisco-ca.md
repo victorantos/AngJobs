@@ -1,5 +1,5 @@
 ---
-title: Shepherd (Series B) : ONSITE
+title: "Shepherd (Series B) : ONSITE"
 date: 2026-07-01
 description: Shepherd (Series B) - ONSITE - San Francisco, CA At Shepherd, we're pursuing the most ambitious technical vision in commercial insurance: fully autonomous…
 author: shepherd-eng
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Shepherd (Series B) - ONSITE - San Francisco, CA
 
 At Shepherd, we&#x27;re pursuing the most ambitious technical vision in commercial insurance: fully autonomous underwriting. Shepherd is an AI-native commercial insurance platform transforming how high-hazard industries get covered.

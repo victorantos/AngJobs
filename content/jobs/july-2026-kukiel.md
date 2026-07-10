@@ -1,5 +1,5 @@
 ---
-title: kukiel
+title: "kukiel"
 date: 2026-07-01
 description: Hey HN! Air Space Intelligence ( ) is hiring in Boston. We're a frontier AI and product company for critical industries and defense, backed by a16z. Last…
 author: kukiel
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Hey HN! Air Space Intelligence (<a href="https:&#x2F;&#x2F;www.airspace-intelligence.com" rel="nofollow">https:&#x2F;&#x2F;www.airspace-intelligence.com</a>) is hiring in Boston. We&#x27;re a frontier AI and product company for critical industries and defense, backed by a16z.
 
 Last week, the FAA awarded us a 12-year, $875M contract to build FMDS and SMART - the flow-management and airspace optimization systems that will become the technological backbone of the FAA&#x27;s Air Traffic Control. What we ship in the next two years will define how this country moves through the sky for the next fifty.

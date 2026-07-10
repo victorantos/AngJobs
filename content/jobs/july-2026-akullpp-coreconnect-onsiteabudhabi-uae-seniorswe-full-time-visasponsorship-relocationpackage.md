@@ -1,5 +1,5 @@
 ---
-title: CoreConnect : ONSITE (Abu Dhabi, UAE)
+title: "CoreConnect : ONSITE (Abu Dhabi, UAE)"
 date: 2026-07-01
 description: CoreConnect - ONSITE (Abu Dhabi, UAE) - Senior SWE - Full-time - Visa Sponsorship - Relocation Package We are an autonomous robot orchestration platform…
 author: akullpp
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 CoreConnect - ONSITE (Abu Dhabi, UAE) - Senior SWE - Full-time - Visa Sponsorship - Relocation Package
 
 We are an autonomous robot orchestration platform already live and operating in the logistics and delivery domain and can offer the stability of a well-funded, semi-governmental incubation with the speed, culture, and upside of a high-growth startup.

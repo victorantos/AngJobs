@@ -1,5 +1,5 @@
 ---
-title: Quantum Rise : Chicago or NYC (preferred), Remote for the right candidate
+title: "Quantum Rise : Chicago or NYC (preferred), Remote for the right candidate"
 date: 2026-07-01
 description: Quantum Rise - Chicago or NYC (preferred), Remote for the right candidate - Full-time - No visa sponsorship - Quantum Rise is an AI-forward consulting…
 author: JulianWasTaken
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Quantum Rise - Chicago or NYC (preferred), Remote for the right candidate - Full-time - No visa sponsorship - <a href="https:&#x2F;&#x2F;www.quantumrise.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.quantumrise.com&#x2F;</a>
 
 Quantum Rise is an AI-forward consulting startup serving the mid-market in the US. We see companies in multiple industries struggling to understand how to leverage artificial intelligence in their day-to-day operations, trying to understand what their existing workforce now needs to know, or trying to understand whether they&#x27;re about to be disrupted and need to change how their existing processes work. Many have business problems which &quot;traditional&quot; machine learning could help with even prior to the current GenAI hype cycle, but for whatever reason hadn&#x27;t prioritized doing until now. Many have employees looking to incorporate agentic AI safely and effectively across different business areas. We try and help getting a handle around these issues and designing outcome-driven solutions.

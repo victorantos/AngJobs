@@ -1,5 +1,5 @@
 ---
-title: Connie Health : Senior Analytics Engineer
+title: "Connie Health : Senior Analytics Engineer"
 date: 2026-07-01
 description: Connie Health - Senior Analytics Engineer - Boston, MA - HYBRID - $150k-$185k + equity Connie Health is a fast-growing Medicare brokerage on a mission to…
 author: huan23
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Connie Health - Senior Analytics Engineer - Boston, MA - HYBRID - $150k-$185k + equity
 
 Connie Health is a fast-growing Medicare brokerage on a mission to empower older Americans to make confident, worry-free Medicare plan decisions. We offer a tech-enabled Medicare navigation platform that combines AI-driven technology with local Medicare experts to help people select optimal healthcare plans and navigate their benefits. Backed by leading investors such as Khosla Ventures, we are building technology to transform the trillion dollar Medicare insurance industry, impacting the lives of 67 million people in the US.

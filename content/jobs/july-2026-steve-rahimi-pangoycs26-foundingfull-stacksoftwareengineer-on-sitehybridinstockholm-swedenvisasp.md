@@ -1,5 +1,5 @@
 ---
-title: Pango (YC S26): Founding Full-stack Software Engineer
+title: "Pango (YC S26) : Founding Full-stack Software Engineer"
 date: 2026-07-01
 description: Pango (YC S26)- Founding Full-stack Software Engineer - On-site (hybrid) in Stockholm, Sweden (Visa Sponsorship possible) - Full time Pango is building…
 author: steve_rahimi
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Pango (YC S26)- Founding Full-stack Software Engineer - On-site (hybrid) in Stockholm, Sweden (Visa Sponsorship possible) - Full time
 Pango is building the world&#x27;s first Agentic Operating System for e-commerce logistics. Our vision is to create the AI e-commerce employee of the future. We are forming our core team in Stockholm and are looking for exceptional engineers. We are backed by some of the most some of the most prominent investors in the world. In less than a year, we have seen massive growth where we can&#x27;t keep up with the demand and need engineers to bring the product faster to the market.
 

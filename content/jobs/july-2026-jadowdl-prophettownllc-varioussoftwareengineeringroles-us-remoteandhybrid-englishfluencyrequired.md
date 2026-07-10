@@ -1,5 +1,5 @@
 ---
-title: Prophet Town LLC : Various Software Engineering Roles
+title: "Prophet Town LLC : Various Software Engineering Roles"
 date: 2026-07-01
 description: Prophet Town LLC - Various Software Engineering Roles - US – Remote and Hybrid - English fluency required - Full-time - $150K-$260K annual total comp…
 author: jadowdl
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Prophet Town LLC - Various Software Engineering Roles - US – Remote and Hybrid - English fluency required - Full-time - $150K-$260K annual total comp (multiple)
 
 We are a people-first, boutique tech agency creating on-demand teams and software solutions for long-standing clients. These clients trust us to practice engineering excellence as though we were members of their own staff. Our leadership team is ex-Fortune 100 with software engineering backgrounds: we’re still coding. Notable recent projects include a gigantic ERP migration for Anduril Industries, and a skunkworks with Surge Labs helping to develop some of the frontier LLM models themselves (yes, seriously). This is a remote-first agency, but some projects involve onsite work.

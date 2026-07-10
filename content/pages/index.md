@@ -201,12 +201,12 @@ html[data-theme="dark"] {
   <div class="home-jobs-grid">
     <a href="/jobs/tag/july-2026/" class="home-jobs-card">
       <span class="home-jobs-month">July 2026</span>
-      <span class="home-jobs-count">203+</span>
+      <span class="home-jobs-count">260+</span>
       <span class="home-jobs-label">jobs available</span>
     </a>
     <a href="/jobs/tag/june-2026/" class="home-jobs-card">
       <span class="home-jobs-month">June 2026</span>
-      <span class="home-jobs-count">231+</span>
+      <span class="home-jobs-count">251+</span>
       <span class="home-jobs-label">jobs available</span>
     </a>
     <a href="/jobs/tag/may-2026/" class="home-jobs-card">

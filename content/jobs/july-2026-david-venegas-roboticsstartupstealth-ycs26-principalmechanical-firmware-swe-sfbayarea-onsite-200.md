@@ -1,5 +1,5 @@
 ---
-title: Robotics startup (STEALTH + YC S26) : Principal Mechanical + Firmware + SWE
+title: "Robotics startup (STEALTH + YC S26) : Principal Mechanical + Firmware + SWE"
 date: 2026-07-01
 description: Robotics startup (STEALTH + YC S26) - Principal Mechanical + Firmware + SWE - SF Bay Area - ONSITE - $200–250k + 1–2% equity + benefits We are a new…
 author: david-venegas
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Robotics startup (STEALTH + YC S26) - Principal Mechanical + Firmware + SWE - SF Bay Area - ONSITE - $200–250k + 1–2% equity + benefits
 
 We are a new robotics company based in Palo Alto, California, building wearable robotic devices that improve the endurance of humans on foot.

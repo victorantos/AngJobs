@@ -1,5 +1,5 @@
 ---
-title: ViyaMD : Staff Software Engineer, Staff ML Engineer
+title: "ViyaMD : Staff Software Engineer, Staff ML Engineer"
 date: 2026-07-01
 description: ViyaMD - Staff Software Engineer, Staff ML Engineer - SF Bay Area - ONSITE ViyaMD is building a physician-grade clinical intelligence platform for legal,…
 author: harigov
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 ViyaMD - Staff Software Engineer, Staff ML Engineer - SF Bay Area - ONSITE
 
 ViyaMD is building a physician-grade clinical intelligence platform for legal, insurance, and healthcare teams. We analyze large, messy medical record sets and turn them into clinically accurate timelines, reasoning, and insights in minutes.

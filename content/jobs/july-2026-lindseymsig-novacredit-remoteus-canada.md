@@ -1,5 +1,5 @@
 ---
-title: Nova Credit : Remote (US, Canada)
+title: "Nova Credit : Remote (US, Canada)"
 date: 2026-07-01
 description: Nova Credit - Remote (US, Canada) We're building a unified platform for credit and financial data to power financial inclusion globally. Our mission is to…
 author: LindseyMSig
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Nova Credit - Remote (US, Canada)
 
 We&#x27;re building a unified platform for credit and financial data to power financial inclusion globally. Our mission is to unlock economic opportunities for consumers historically excluded from traditional credit systems by transforming diverse data into actionable risk insights. We are YC company backed by investors from Canapi Ventures, Kleiner Perkins, General Catalyst, and Index Ventures

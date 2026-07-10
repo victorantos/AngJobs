@@ -1,5 +1,5 @@
 ---
-title: Friendly Captcha : Developer Relations
+title: "Friendly Captcha : Developer Relations"
 date: 2026-07-01
 description: Friendly Captcha - Developer Relations - PART-TIME or FULL-TIME - Munich area, Germany - At Friendly Captcha we do one thing and we do it well: we protect…
 author: protoduction
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Friendly Captcha - Developer Relations - PART-TIME or FULL-TIME - Munich area, Germany - <a href="https:&#x2F;&#x2F;friendlycaptcha.com" rel="nofollow">https:&#x2F;&#x2F;friendlycaptcha.com</a>
 
 At Friendly Captcha we do one thing and we do it well: we protect websites from malicious actors and bots.

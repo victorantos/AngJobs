@@ -1,5 +1,5 @@
 ---
-title: patricklorio
+title: "patricklorio"
 date: 2026-07-01
 description: Playit - Eugene, Oregon. REMOTE okay. Oregon USA only. Looking to hire our first full time engineer besides myself. High impact role, over 100k monthly…
 author: patricklorio
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Playit - <a href="https:&#x2F;&#x2F;playit.gg" rel="nofollow">https:&#x2F;&#x2F;playit.gg</a>
 Eugene, Oregon. REMOTE okay. Oregon USA only.
 

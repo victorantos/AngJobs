@@ -1,5 +1,5 @@
 ---
-title: OpenRent : London, UK
+title: "OpenRent : London, UK"
 date: 2026-07-01
 description: OpenRent - London, UK - Full-Time - ONSITE+PART REMOTE - What sucked the last time you rented a house or flat? Come and fix it. OpenRent is force for good…
 author: dazbradbury
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 OpenRent - London, UK - Full-Time - ONSITE+PART REMOTE - <a href="https:&#x2F;&#x2F;www.openrent.co.uk" rel="nofollow">https:&#x2F;&#x2F;www.openrent.co.uk</a>
 
 What sucked the last time you rented a house or flat? Come and fix it.

@@ -1,5 +1,5 @@
 ---
-title: Kinelo : kinelo.com
+title: "Kinelo : kinelo.com"
 date: 2026-07-01
 description: Kinelo - kinelo.com - San Francisco - Onsite (with a bit of flexibility) Kinelo solves 'context myopia': autonomous and semi-autonomous AI agents don't…
 author: deet
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Kinelo - kinelo.com - San Francisco - Onsite (with a bit of flexibility)
 
 Kinelo solves &quot;context myopia&quot;: autonomous and semi-autonomous AI agents don&#x27;t know what they don&#x27;t know, so they can&#x27;t search or find the background information required to accomplish tasks accurately and effectively. The result looks like slop but it&#x27;s not due to model performance, more due to workflow integration. From there, we&#x27;re rapidly moving into organizing humans together with autonomous &quot;AI coworkers&quot; into workflows that span both. Our goal is to change how organizations are run and structured.

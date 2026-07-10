@@ -1,5 +1,5 @@
 ---
-title: Aurelius Systems : Defense Tech
+title: "Aurelius Systems : Defense Tech"
 date: 2026-07-01
 description: Aurelius Systems - Defense Tech - San Francisco - ONSITE We fuse AI, robotics, and directed energy for autonomous cUAS. We build laser weapons to shoot…
 author: mercedesalfredo
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Aurelius Systems - Defense Tech - San Francisco - ONSITE
 
 We fuse AI, robotics, and directed energy for autonomous cUAS. We build laser weapons to shoot down drones — autonomous, edge-deployed directed energy systems for counter-UAS. VC-backed by General Catalyst, ~12 engineers and ~18 employees total, weekly field tests on our own 400-acre private range in NorCal + Detroit office.

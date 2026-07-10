@@ -1,5 +1,5 @@
 ---
-title: Starbridge : Senior AI Engineer (Python)
+title: "Starbridge : Senior AI Engineer (Python)"
 date: 2026-07-01
 description: Starbridge - Senior AI Engineer (Python) - NYC or Remote - Full-time - Starbridge is building an AI platform that turns large-scale public and enterprise…
 author: melissam_rec
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Starbridge - Senior AI Engineer (Python) - NYC or Remote - Full-time -
 
 Starbridge is building an AI platform that turns large-scale public and enterprise data into reliable sales insights. We are early, moving fast, and building from zero to one, so this role will have huge ownership and product impact.

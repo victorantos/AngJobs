@@ -1,5 +1,5 @@
 ---
-title: SmarterDx : 150-250k+ + equity + benefits
+title: "SmarterDx : 150-250k+ + equity + benefits"
 date: 2026-07-01
 description: SmarterDx - 150-250k+ + equity + benefits - Remote (US only) - Multiple roles - SmarterDx builds clinical AI for one of healthcare’s most broken systems:…
 author: justin_sdx
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 SmarterDx - 150-250k+ + equity + benefits - Remote (US only) - Multiple roles - <a href="https:&#x2F;&#x2F;smarterdx.com&#x2F;careers" rel="nofollow">https:&#x2F;&#x2F;smarterdx.com&#x2F;careers</a>
 
 SmarterDx builds clinical AI for one of healthcare’s most broken systems: how hospitals get paid for the care they actually deliver.

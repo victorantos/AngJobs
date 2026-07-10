@@ -1,5 +1,5 @@
 ---
-title: DuckDuckGo : Multiple Roles
+title: "DuckDuckGo : Multiple Roles"
 date: 2026-07-01
 description: DuckDuckGo - Multiple Roles - Remote - Full-time - $178,500 - $243,800 USD + equity We are looking for candidates that are excited to join us on a mission…
 author: bill_duckduckgo
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 DuckDuckGo - Multiple Roles - Remote - Full-time - $178,500 - $243,800 USD + equity
 
 We are looking for candidates that are excited to join us on a mission to raise the standard of trust online. All of our roles are fully-remote, except where specific locations are noted. Compensation is transparent across the organization, and all team members within the same professional level and global region receive the same compensation.

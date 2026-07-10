@@ -1,5 +1,5 @@
 ---
-title: Ecosmic : Senior DevOps Engineer
+title: "Ecosmic : Senior DevOps Engineer"
 date: 2026-07-01
 description: Ecosmic - Senior DevOps Engineer - Remote (Italy) - €50,000–€60,000 Ecosmic is on a mission to reduce threat exposure in space by building software for…
 author: Carbonhell
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Ecosmic - Senior DevOps Engineer - Remote (Italy) - €50,000–€60,000
 
 Ecosmic is on a mission to reduce threat exposure in space by building software for Space Situational Awareness. To achieve this, we built a team of flight dynamics engineers and computer scientists to build &amp; package in-house algorithms into easy-to-use, reliable, and secure products. As an example, our platform recently allowed us to identify a series of close approaches in GEO involving Russia&#x27;s Luch&#x2F;Olymp-2 and a Western telecommunications satellite, possibly attributed to SIGINT activity.

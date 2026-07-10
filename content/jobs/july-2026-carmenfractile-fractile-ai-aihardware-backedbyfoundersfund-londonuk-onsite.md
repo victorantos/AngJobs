@@ -1,5 +1,5 @@
 ---
-title: fractile.ai - AI hardware, backed by Founders Fund - London (UK) - Onsite
+title: "fractile.ai - AI hardware, backed by Founders Fund - London (UK) - Onsite"
 date: 2026-07-01
 description: fractile.ai - AI hardware, backed by Founders Fund - London (UK) - Onsite ABOUT FRACTILE Fractile was founded in 2022 on the bet that, eventually, the…
 author: carmenfractile
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 fractile.ai - AI hardware, backed by Founders Fund - London (UK) - Onsite
 
 ABOUT FRACTILE

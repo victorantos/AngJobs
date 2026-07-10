@@ -1,5 +1,5 @@
 ---
-title: Ontix : Technical Product Manager
+title: "Ontix : Technical Product Manager"
 date: 2026-07-01
 description: Ontix - Technical Product Manager - Remote (US) Hi! We're Ontix. Among other things, we're building the business layer to connect siloed datasets and…
 author: ontix
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Ontix - Technical Product Manager - Remote (US)
 
 Hi! We&#x27;re Ontix. Among other things, we&#x27;re building the business layer to connect siloed datasets and query them with natural language, offering insights to SMBs they couldn&#x27;t get before. We&#x27;re fully funded by our sibling company, and are looking for freelancers and small business owners in the US to join our network. Our business model relies on a close-knit and highly-skilled group of outside partners to work on projects depending on the capabilities required. We&#x27;re looking for experience in the following role:

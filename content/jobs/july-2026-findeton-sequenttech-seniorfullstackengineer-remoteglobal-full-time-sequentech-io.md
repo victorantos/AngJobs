@@ -1,5 +1,5 @@
 ---
-title: Sequent Tech : Senior Fullstack Engineer
+title: "Sequent Tech : Senior Fullstack Engineer"
 date: 2026-07-01
 description: Sequent Tech - Senior Fullstack Engineer - REMOTE (Global) - Full-time - sequentech.io Sequent builds cryptographically secure online voting…
 author: Findeton
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Sequent Tech - Senior Fullstack Engineer - REMOTE (Global) - Full-time - sequentech.io
 
 Sequent builds cryptographically secure online voting infrastructure used in 200+ real elections across multiple countries. We&#x27;re a fully remote team working on an open-source platform combining Rust, TypeScript, and modern DevOps. We handle End-to-end encrypted voting, cryptographic mixnets, and tamper-evident logging.

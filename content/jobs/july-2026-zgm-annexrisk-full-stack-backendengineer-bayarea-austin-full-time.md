@@ -1,5 +1,5 @@
 ---
-title: Annex Risk : Full-stack + Backend Engineer
+title: "Annex Risk : Full-stack + Backend Engineer"
 date: 2026-07-01
 description: Annex Risk - Full-stack + Backend Engineer - Bay Area, Austin - Full-time The cost of homeowners insurance, especially in natural catastrophe prone areas,…
 author: zgm
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Annex Risk - Full-stack + Backend Engineer - Bay Area, Austin - Full-time
 
 The cost of homeowners insurance, especially in natural catastrophe prone areas, has skyrocketed in recent years. Annex is solving this problem with better digital infrastructure for executing the transaction. Our platform enables insurance agents to quote and bind policies within 90 seconds vs. the current multi-day phone&#x2F;email&#x2F;fax-based transaction that is the status quo.

@@ -1,5 +1,5 @@
 ---
-title: MixRank (YC S11) : Software Engineers
+title: "MixRank (YC S11) : Software Engineers"
 date: 2026-07-01
 description: MixRank (YC S11) - Software Engineers - 100% Remote (Global) - Full-Time MixRank processes petabytes of data every month through web crawling. Hundreds of…
 author: Kiran_MixRank
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 MixRank (YC S11) - Software Engineers - 100% Remote (Global) - Full-Time
 
 MixRank processes petabytes of data every month through web crawling. Hundreds of customers use our data products, including Google, Amazon, Facebook, Intel, and Adobe, across industries such as finance, recruiting, sales, marketing, and security. We’re a fully remote company with a global footprint across 20+ countries. We’re growing, profitable, employee-owned, and have no dependence on outside funding. Applicants from all geographies and backgrounds are welcome.

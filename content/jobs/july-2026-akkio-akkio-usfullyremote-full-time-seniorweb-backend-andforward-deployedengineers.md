@@ -1,5 +1,5 @@
 ---
-title: Akkio : US Fully Remote
+title: "Akkio : US Fully Remote"
 date: 2026-07-01
 description: Akkio - US Fully Remote - Full-time - Senior Web, Backend, and Forward-Deployed Engineers Akkio is building AI-native applications and agentic workflows…
 author: akkio
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Akkio - US Fully Remote - Full-time - Senior Web, Backend, and Forward-Deployed Engineers
 
 Akkio is building AI-native applications and agentic workflows for large media agencies: audience building and distribution, measurement &#x2F; campaign analysis, media planning, etc. Generative and traditional AI&#x2F;ML. We have reached &amp; established PMF and are growing our customer base rapidly. See <a href="https:&#x2F;&#x2F;www.akkio.com" rel="nofollow">https:&#x2F;&#x2F;www.akkio.com</a>

@@ -1,5 +1,5 @@
 ---
-title: Junior : Remote
+title: "Junior : Remote"
 date: 2026-07-01
 description: Junior - Remote - Any Time Zone I don't think I can afford hiring someone in north america, I'm not a company, this is a small project that'll take more…
 author: JurassicTyler
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Junior - Remote - Any Time Zone
 
 I don&#x27;t think I can afford hiring someone in north america, I&#x27;m not a company, this is a small project that&#x27;ll take more than a year

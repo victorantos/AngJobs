@@ -1,5 +1,5 @@
 ---
-title: Talk Machine : Founding Engineers
+title: "Talk Machine : Founding Engineers"
 date: 2026-07-01
 description: Talk Machine - Founding Engineers - Remote (or London, Europe, Dubai) Hello. I'm the founder of Talk Machine, previously founded Citymapper. We had great…
 author: azmaty
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Talk Machine - Founding Engineers - Remote (or London, Europe, Dubai)
 
 <a href="https:&#x2F;&#x2F;talkmachine.com&#x2F;jobs&#x2F;engineer" rel="nofollow">https:&#x2F;&#x2F;talkmachine.com&#x2F;jobs&#x2F;engineer</a>

@@ -1,5 +1,5 @@
 ---
-title: Vitalize : Full-time Engineer
+title: "Vitalize : Full-time Engineer"
 date: 2026-07-01
 description: Vitalize - Full-time Engineer - Remote (US, SF in-person preferred) What we do: We're a Series A, ~50 person company building the operating system for…
 author: ryguytilidie
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Vitalize - Full-time Engineer - Remote (US, SF in-person preferred)
 
 What we do:

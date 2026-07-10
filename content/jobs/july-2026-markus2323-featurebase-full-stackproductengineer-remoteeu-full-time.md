@@ -1,5 +1,5 @@
 ---
-title: Featurebase : Full-stack Product Engineer
+title: "Featurebase : Full-stack Product Engineer"
 date: 2026-07-01
 description: Featurebase - Full-stack Product Engineer - REMOTE (EU) - Full-time Modern customers support & product feedback platform powering thousands of teams,…
 author: Markus2323
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Featurebase - Full-stack Product Engineer - REMOTE (EU) - Full-time
 
 Modern customers support &amp; product feedback platform powering thousands of teams, including Lovable, Raycast, and n8n. Fully bootstrapped, profitable, and growing fast.

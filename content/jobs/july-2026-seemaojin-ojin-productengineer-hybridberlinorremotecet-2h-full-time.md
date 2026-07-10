@@ -1,5 +1,5 @@
 ---
-title: Ojin : Product Engineer
+title: "Ojin : Product Engineer"
 date: 2026-07-01
 description: Ojin - Product Engineer - HYBRID (Berlin) or REMOTE (CET ±2h) - Full-time Hi HN! I'm Seema, Tech Recruiter at Ojin, and we're looking for a Product…
 author: SeemaOjin
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Ojin - Product Engineer - HYBRID (Berlin) or REMOTE (CET ±2h) - Full-time
 
 Hi HN! I&#x27;m Seema, Tech Recruiter at Ojin, and we&#x27;re looking for a Product Engineer to join our small team.

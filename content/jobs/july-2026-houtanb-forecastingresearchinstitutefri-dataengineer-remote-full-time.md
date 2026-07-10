@@ -1,5 +1,5 @@
 ---
-title: Forecasting Research Institute (FRI) : Data Engineer
+title: "Forecasting Research Institute (FRI) : Data Engineer"
 date: 2026-07-01
 description: Forecasting Research Institute (FRI) - Data Engineer - REMOTE - Full-time We're a ~20-person nonprofit doing forecasting research on high-stakes problems,…
 author: houtanb
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Forecasting Research Institute (FRI) - Data Engineer - REMOTE - Full-time
 
 We&#x27;re a ~20-person nonprofit doing forecasting research on high-stakes problems, including AI progress, biosecurity, and nuclear risk. We have dozens of active projects that generate forecasting data from surveys, expert panels, and AI systems.

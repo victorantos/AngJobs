@@ -1,5 +1,5 @@
 ---
-title: jared-at-sumble
+title: "jared-at-sumble"
 date: 2026-07-01
 description: Sumble is the newco from the founders of Kaggle. We are hiring full stack engineers, ai/ml engineers and growth/marketing. Can view our roles and apply…
 author: jared-at-sumble
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Sumble is the newco from the founders of Kaggle. We are hiring full stack engineers, ai&#x2F;ml engineers and growth&#x2F;marketing. Can view our roles and apply here: <a href="https:&#x2F;&#x2F;sumble-inc.workable.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;sumble-inc.workable.com&#x2F;</a>
 We are building a knowledge graph from web data with a first focus on data for go-to-market teams.
 

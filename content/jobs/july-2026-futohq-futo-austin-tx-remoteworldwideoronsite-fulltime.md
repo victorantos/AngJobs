@@ -1,5 +1,5 @@
 ---
-title: FUTO : Austin, TX
+title: "FUTO : Austin, TX"
 date: 2026-07-01
 description: FUTO - - Austin, TX - REMOTE(Worldwide) or ONSITE - Full Time FUTO is an organization dedicated to developing, both through internal engineering and…
 author: futohq
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 FUTO - <a href="https:&#x2F;&#x2F;futo.tech" rel="nofollow">https:&#x2F;&#x2F;futo.tech</a> - Austin, TX - REMOTE(Worldwide) or ONSITE - Full Time
 
 FUTO is an organization dedicated to developing, both through internal engineering and investment, technologies that frustrate centralization and industry consolidation. Our work consists of a combination of in-house engineering projects, targeted investments, generous grants, and multi-media public education efforts.

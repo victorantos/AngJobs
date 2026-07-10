@@ -1,5 +1,5 @@
 ---
-title: Stealth : Founding Engineer
+title: "Stealth : Founding Engineer"
 date: 2026-07-01
 description: Stealth - Founding Engineer - NYC - ONSITE - Full-time - $180k-$220k base + equity We're working in the AI for science space, specifically at the point of…
 author: contact_tl
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Stealth - Founding Engineer - NYC - ONSITE - Full-time - $180k-$220k base + equity
 
 We&#x27;re working in the AI for science space, specifically at the point of experimental execution.

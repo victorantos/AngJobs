@@ -1,5 +1,5 @@
 ---
-title: Conservation Metrics : Lead Software Engineer, Data Sovereignty
+title: "Conservation Metrics : Lead Software Engineer, Data Sovereignty"
 date: 2026-07-01
 description: Conservation Metrics - Lead Software Engineer, Data Sovereignty - REMOTE (US) - $124-150k with 4-day 38-hr workweek Indigenous People around the world are…
 author: sardines
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Conservation Metrics - Lead Software Engineer, Data Sovereignty - REMOTE (US) - $124-150k with 4-day 38-hr workweek
 
 Indigenous People around the world are working tirelessly to protect and manage their territories under mounting external threats. Conservation Metrics is a small, mission-driven company co-creating an open-source data platform designed to support territorial monitoring and Indigenous data sovereignty. It combines remote sensing products (maps, alerts, and change detection), mobile data collection tools, secure data warehousing, and governed data access to allow Indigenous communities to explore, analyze, and summarize their information.

@@ -1,5 +1,5 @@
 ---
-title: Preferred Networks : Tokyo or Remote in Japan
+title: "Preferred Networks : Tokyo or Remote in Japan"
 date: 2026-07-01
 description: Preferred Networks - Tokyo or Remote in Japan - Full-time - Preferred Networks is an AI company based in Tokyo working across the stack, from AI chips and…
 author: kmaehashi
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Preferred Networks - Tokyo or Remote in Japan - Full-time - <a href="https:&#x2F;&#x2F;www.preferred.jp&#x2F;en" rel="nofollow">https:&#x2F;&#x2F;www.preferred.jp&#x2F;en</a>
 
 Preferred Networks is an AI company based in Tokyo working across the stack, from AI chips and computing infrastructure to LLMs and products. You may already know us indirectly if you&#x27;ve used software we&#x27;ve built, such as Optuna or CuPy (or Chainer, back in the day).

@@ -1,5 +1,5 @@
 ---
-title: Antithesis : Forward Deployed Engineer
+title: "Antithesis : Forward Deployed Engineer"
 date: 2026-07-01
 description: Antithesis - Forward Deployed Engineer - SF, London, Metro DC (On-site) - Antithesis is hiring FDEs: embed with customers, find the bugs no test caught,…
 author: cmckee439
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Antithesis - Forward Deployed Engineer - SF, London, Metro DC (On-site) - <a href="https:&#x2F;&#x2F;antithesis.com&#x2F;" rel="nofollow">https:&#x2F;&#x2F;antithesis.com&#x2F;</a>
 
 Antithesis is hiring FDEs: embed with customers, find the bugs no test caught, and turn what you learn into our next feature.

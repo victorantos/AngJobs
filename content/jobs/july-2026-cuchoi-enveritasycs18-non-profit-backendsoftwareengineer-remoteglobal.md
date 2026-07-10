@@ -1,5 +1,5 @@
 ---
-title: Enveritas (YC S18, non-profit) : Backend Software Engineer
+title: "Enveritas (YC S18, non-profit) : Backend Software Engineer"
 date: 2026-07-01
 description: Enveritas (YC S18, non-profit) - Backend Software Engineer - Remote (Global) - Enveritas is a 501(c)(3) nonprofit working on sustainability issues facing…
 author: cuchoi
@@ -9,7 +9,6 @@ section: july-2026
 tags:
   - july-2026
 ---
-
 Enveritas (YC S18, non-profit) - Backend Software Engineer - Remote (Global) - <a href="https:&#x2F;&#x2F;enveritas.org&#x2F;jobs&#x2F;" rel="nofollow">https:&#x2F;&#x2F;enveritas.org&#x2F;jobs&#x2F;</a>
 
 Enveritas is a 501(c)(3) nonprofit working on sustainability issues facing smallholder coffee farmers. We collect field data in 30+ countries and build systems for analyzing risks in coffee, cocoa, and tea supply chains (including EUDR-related deforestation checks).
