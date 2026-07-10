@@ -3,10 +3,12 @@ title: About
 description: What AngJobs is: a decade of Hacker News 'Who is hiring?' threads turned into a searchable job board, run by Victor A since 2014.
 ---
 
-<div style="text-align: center; margin-bottom: 32px;">
-  <img src="/media/public/victor-antos.jpg" alt="Victor Antofica" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; object-position: top; margin-bottom: 16px;" />
-  <h1 style="margin: 0 0 4px 0; font-size: 24px;">Victor Antofica</h1>
-  <p style="margin: 0; color: #666;">Creator of AngJobs</p>
+<div style="display: flex; align-items: center; gap: 20px; margin: 8px 0 28px;">
+  <img src="/media/public/victor-antos.jpg" alt="Victor Antofica" style="width: 96px; height: 96px; border-radius: 50%; object-fit: cover; object-position: top; margin: 0; flex-shrink: 0;" />
+  <div>
+    <p style="margin: 0; font-size: 1.3rem; font-weight: 700;">Victor Antofica</p>
+    <p style="margin: 2px 0 0; opacity: 0.7;">Creator of AngJobs</p>
+  </div>
 </div>
 
 ## Hi there

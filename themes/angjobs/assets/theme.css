@@ -272,12 +272,9 @@ main {
   .front-grid { grid-template-columns: repeat(3, 1fr); }
   .front-grid > li:first-child {
     grid-column: span 2;
-    grid-row: span 2;
     padding-right: var(--front-gap);
     border-right: 1px solid var(--color-border);
   }
-  .front-grid > li:nth-child(4) { grid-column: span 2; }
-  .front-grid > li:nth-child(6) { grid-column: 1; }
 }
 
 /* Story pages ----------------------------------------------------------------- */
@@ -454,8 +451,8 @@ main {
 /* The board rules — a job list has no lead story ---------------------------- */
 
 .front-grid > li:first-child { border-top: 1px solid var(--color-border); }
-.front-grid > li:first-child .story-card-headline { font-size: var(--text-l); }
-.front-grid > li:first-child .standfirst { font-size: var(--text-s); }
+.front-grid > li:first-child .story-card-headline { font-size: var(--text-lead); }
+.front-grid > li:first-child .standfirst { display: block; font-size: var(--text-m); }
 .front-grid > li:nth-child(n+6) { padding-block: var(--space-2); }
 .front-grid > li:nth-child(n+6) .story-card-headline { font-size: var(--text-l); }
 .front-grid > li:nth-child(n+6) .standfirst { display: -webkit-box; }
@@ -467,3 +464,18 @@ main {
   font-size: var(--text-s);
   margin-block: var(--space-1) var(--space-2);
 }
+
+/* The lead listing gets a call to action; the rest stay scannable rows. */
+.story-card-apply { display: none; }
+.front-grid > li:first-child .story-card-apply { display: block; margin: var(--space-3) 0 0; }
+.apply-button {
+  display: inline-block;
+  background: var(--color-accent);
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: var(--radius);
+  font-weight: 700;
+  font-size: var(--text-s);
+  text-decoration: none;
+}
+.apply-button:hover { filter: brightness(1.1); }
