@@ -3,8 +3,6 @@ title: About
 description: What AngJobs is: a decade of Hacker News 'Who is hiring?' threads turned into a searchable job board, run by Victor A since 2014.
 ---
 
-<div style="max-width: 600px; margin: 0 auto;">
-
 <div style="text-align: center; margin-bottom: 32px;">
   <img src="/media/public/victor-antos.jpg" alt="Victor Antofica" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; object-position: top; margin-bottom: 16px;" />
   <h1 style="margin: 0 0 4px 0; font-size: 24px;">Victor Antofica</h1>
@@ -75,5 +73,3 @@ The HN job threads are great but hard to navigate — hundreds of comments, no s
 - Email: [hello@angjobs.com](mailto:hello@angjobs.com)
 - Website: [victorantos.com](https://victorantos.com)
 - GitHub: [github.com/victorantos](https://github.com/victorantos)
-
-</div>
