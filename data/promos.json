@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Need focus music?",
+    "desc": "Muz11 — 100+ curated playlists for coding",
+    "url": "https://muz11.com",
+    "icon": "/media/public/muz11-icon.png",
+    "accent": "#6d5bd0"
+  },
+  {
+    "title": "Kids want to code?",
+    "desc": "Codorex — AI game creation for ages 7–14",
+    "url": "https://codorex.com",
+    "icon": "/media/public/codorex-icon.png",
+    "accent": "#3f9142"
+  },
+  {
+    "title": "Compare AI models?",
+    "desc": "Sneos — chat with multiple AIs side by side",
+    "url": "https://sneos.com",
+    "icon": "/media/public/sneos-icon.png",
+    "accent": "#3b6fe0"
+  },
+  {
+    "title": "Love coffee?",
+    "desc": "Career.Coffee — jobs in specialty coffee",
+    "url": "https://career.coffee",
+    "icon": "/media/public/careercoffee-icon.svg",
+    "accent": "#78500f"
+  },
+  {
+    "title": "Need an AI agent?",
+    "desc": "NestClaw — your own private AI agent on a dedicated server",
+    "url": "https://nestclaw.com",
+    "icon": "/media/public/nestclaw-icon.svg",
+    "accent": "#c26a06"
+  },
+  {
+    "title": "Find tech jobs?",
+    "desc": "Career.Computer — tech jobs for tomorrow's innovators",
+    "url": "https://career.computer",
+    "icon": "/media/public/careercomputer-icon.svg",
+    "accent": "#2563eb"
+  },
+  {
+    "title": "Want a site like this?",
+    "desc": "plain-cms.com — the free, open-source CMS this site runs on",
+    "url": "https://plain-cms.com",
+    "icon": "/media/public/plain-icon.svg",
+    "accent": "#b0731d"
+  },
+  {
+    "title": "Work in dental?",
+    "desc": "Career.Dental — jobs for dental professionals",
+    "url": "https://career.dental",
+    "icon": "/media/public/careerdental-icon.svg",
+    "accent": "#0E7C86"
+  }
+]

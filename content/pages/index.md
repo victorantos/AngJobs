@@ -1,74 +1,11 @@
 ---
 title: AngJobs
+promos: true
 hideHeader: true
 description: Tech jobs from Hacker News 'Who is hiring?' threads — verified opportunities posted by founders and hiring managers, no middlemen.
 ---
 
 <style>
-.home-promo-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 16px;
-  margin-top: 40px;
-}
-
-.home-promo-card {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  padding: 20px 24px;
-  background: #FFFFFF;
-  border-radius: 20px;
-  text-decoration: none;
-  transition: all 0.25s ease-out;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 6px rgba(0, 0, 0, 0.04);
-}
-
-.home-promo-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06), 0 4px 16px rgba(0, 0, 0, 0.04);
-}
-
-.home-promo-icon {
-  width: 48px;
-  height: 48px;
-  border-radius: 14px;
-  flex-shrink: 0;
-}
-
-.home-promo-text {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  flex: 1;
-}
-
-.home-promo-title {
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: -0.01em;
-}
-
-.home-promo-desc {
-  font-size: 13px;
-  color: #6E6E73;
-}
-
-.home-promo-arrow {
-  color: #86868B;
-  transition: transform 0.2s ease-out;
-}
-
-.home-promo-card:hover .home-promo-arrow {
-  transform: translateX(4px);
-}
-
-.promo-muz11 .home-promo-title { color: #667eea; }
-.promo-codorex .home-promo-title { color: #4CAF50; }
-.promo-sneos .home-promo-title { color: #3b82f6; }
-.promo-coffee .home-promo-title { color: #78350f; }
-.promo-nestclaw .home-promo-title { color: #d97706; }
-.promo-careercomputer .home-promo-title { color: #0284c7; }
 
 .home-jobs-section {
   margin-top: 48px;
@@ -138,12 +75,10 @@ description: Tech jobs from Hacker News 'Who is hiring?' threads — verified op
 }
 
 html[data-theme="dark"] {
-  .home-promo-card,
   .home-jobs-card {
     background: #2C2C2E;
   }
 
-  .home-promo-desc,
   .home-jobs-label,
   .home-companies {
     color: #A1A1A6;
@@ -157,19 +92,6 @@ html[data-theme="dark"] {
 }
 
 @media (max-width: 768px) {
-  .home-promo-section {
-    grid-template-columns: 1fr;
-  }
-
-  .home-promo-card {
-    padding: 16px 20px;
-    border-radius: 16px;
-  }
-
-  .home-promo-icon {
-    width: 44px;
-    height: 44px;
-  }
 
   .home-jobs-title {
     font-size: 24px;
@@ -218,71 +140,3 @@ html[data-theme="dark"] {
   <p class="home-companies"><strong>Companies hiring:</strong> Apple, DuckDuckGo, Temporal, Sesame, Sphinx Defense, MixRank, and more.</p>
 </div>
 
-<div class="home-promo-section">
-  <a href="https://muz11.com" target="_blank" class="home-promo-card promo-muz11">
-    <img src="/media/public/muz11-icon.png" alt="Muz11" class="home-promo-icon" />
-    <div class="home-promo-text">
-      <span class="home-promo-title">Need focus music?</span>
-      <span class="home-promo-desc">Muz11 - 100+ curated playlists for coding</span>
-    </div>
-    <svg class="home-promo-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-      <line x1="5" y1="12" x2="19" y2="12"></line>
-      <polyline points="12 5 19 12 12 19"></polyline>
-    </svg>
-  </a>
-  <a href="https://codorex.com" target="_blank" class="home-promo-card promo-codorex">
-    <img src="/media/public/codorex-icon.png" alt="Codorex" class="home-promo-icon" />
-    <div class="home-promo-text">
-      <span class="home-promo-title">Kids want to code?</span>
-      <span class="home-promo-desc">Codorex - AI game creation for ages 7-14</span>
-    </div>
-    <svg class="home-promo-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-      <line x1="5" y1="12" x2="19" y2="12"></line>
-      <polyline points="12 5 19 12 12 19"></polyline>
-    </svg>
-  </a>
-  <a href="https://sneos.com" target="_blank" class="home-promo-card promo-sneos">
-    <img src="/media/public/sneos-icon.png" alt="Sneos" class="home-promo-icon" />
-    <div class="home-promo-text">
-      <span class="home-promo-title">Compare AI models?</span>
-      <span class="home-promo-desc">Sneos - Chat with multiple AIs side by side</span>
-    </div>
-    <svg class="home-promo-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-      <line x1="5" y1="12" x2="19" y2="12"></line>
-      <polyline points="12 5 19 12 12 19"></polyline>
-    </svg>
-  </a>
-  <a href="https://career.coffee" target="_blank" class="home-promo-card promo-coffee">
-    <img src="/media/public/careercoffee-icon.svg" alt="Career.Coffee" class="home-promo-icon" />
-    <div class="home-promo-text">
-      <span class="home-promo-title">Love coffee?</span>
-      <span class="home-promo-desc">Want to switch careers? Check Career.Coffee!</span>
-    </div>
-    <svg class="home-promo-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-      <line x1="5" y1="12" x2="19" y2="12"></line>
-      <polyline points="12 5 19 12 12 19"></polyline>
-    </svg>
-  </a>
-  <a href="https://nestclaw.com" target="_blank" class="home-promo-card promo-nestclaw">
-    <img src="/media/public/nestclaw-icon.svg" alt="NestClaw" class="home-promo-icon" />
-    <div class="home-promo-text">
-      <span class="home-promo-title">Need an AI agent?</span>
-      <span class="home-promo-desc">NestClaw - Your own private AI agent on a dedicated server</span>
-    </div>
-    <svg class="home-promo-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-      <line x1="5" y1="12" x2="19" y2="12"></line>
-      <polyline points="12 5 19 12 12 19"></polyline>
-    </svg>
-  </a>
-  <a href="https://career.computer" target="_blank" class="home-promo-card promo-careercomputer">
-    <img src="/media/public/careercomputer-icon.svg" alt="Career.Computer" class="home-promo-icon" />
-    <div class="home-promo-text">
-      <span class="home-promo-title">Find tech jobs?</span>
-      <span class="home-promo-desc">Career.Computer - Tech jobs for tomorrow's innovators</span>
-    </div>
-    <svg class="home-promo-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-      <line x1="5" y1="12" x2="19" y2="12"></line>
-      <polyline points="12 5 19 12 12 19"></polyline>
-    </svg>
-  </a>
-</div>

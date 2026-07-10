@@ -1,0 +1,14 @@
+{{#if data.promos}}<section class="promo-strip" aria-label="More projects by the maker">
+  <p class="kicker promo-kicker">From the same keyboard</p>
+  <div class="promo-grid">
+    {{#each data.promos as promo}}<a class="promo-card" href="{{ promo.url }}" target="_blank" rel="noopener" style="--promo-accent: {{ promo.accent }}">
+      <img class="promo-icon" src="{{ promo.icon }}" alt="" loading="lazy" width="40" height="40">
+      <span class="promo-text">
+        <span class="promo-title">{{ promo.title }}</span>
+        <span class="promo-desc">{{ promo.desc }}</span>
+      </span>
+    </a>
+    {{/each}}
+  </div>
+</section>
+{{/if}}

@@ -22,4 +22,8 @@ Reach developers who read Hacker News. Quick process:
 
 Effortlessly attract top talent and fill your positions faster with AngJobs.
 
-Ready to get started? Edit your job ad on GitHub now (see link below).
+Ready to get started?
+
+<p><a class="apply-button" href="https://github.com/victorantos/AngJobs/new/main/content/jobs?filename=july-2026-your-company-role.md&value=---%0Atitle%3A%20%22Your%20Company%20%3A%20Role%20%3A%20Location%22%0Adate%3A%202026-07-01%0Adescription%3A%20One%20line%20about%20the%20role%20for%20search%20engines%20and%20previews.%0Aauthor%3A%20your-hn-username%0Asection%3A%20july-2026%0Atags%3A%0A%20%20-%20july-2026%0A---%0AYour%20Company%20%7C%20Role%20%7C%20Location%20%7C%20Salary%20range%0A%0ADescribe%20the%20role%2C%20the%20stack%2C%20and%20how%20to%20apply.%0A%0A%5B%5Bform%3Aapply%5D%5D%0A" target="_blank" rel="noopener">Edit your job ad on GitHub →</a></p>
+
+<small>The link opens GitHub's editor with a ready-made template — fill it in, then choose <strong>Propose changes</strong> to open the pull request. Name the file <code>&lt;month&gt;-&lt;year&gt;-your-company-role.md</code> (lowercase, hyphens).</small>

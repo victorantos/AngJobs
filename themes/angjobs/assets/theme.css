@@ -479,3 +479,43 @@ main {
   text-decoration: none;
 }
 .apply-button:hover { filter: brightness(1.1); }
+
+/* Promo strip — the maker's other projects, quiet but warm ------------------ */
+
+.promo-strip {
+  margin-top: var(--space-5);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--color-border);
+}
+.promo-kicker { margin-bottom: var(--space-3); }
+.promo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: var(--space-2);
+}
+.promo-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border: 1px solid color-mix(in srgb, var(--promo-accent) 25%, var(--color-border));
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--promo-accent) 5%, var(--color-bg));
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.promo-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--promo-accent) 18%, transparent);
+}
+.promo-icon { width: 40px; height: 40px; border-radius: 9px; flex-shrink: 0; }
+.promo-text { display: flex; flex-direction: column; gap: 1px; min-width: 0; font-family: var(--font-sans); }
+.promo-title { font-weight: 700; font-size: var(--text-s); color: var(--promo-accent); }
+.promo-desc {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
