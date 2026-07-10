@@ -1,0 +1,33 @@
+{
+  "starter": "gazette",
+  "collections": {
+    "stories": {
+      "path": "content/stories",
+      "urlPattern": "/stories/:slug/",
+      "template": "story",
+      "listUrl": "/news/",
+      "listTemplate": "front",
+      "label": "News",
+      "sortBy": "date",
+      "sortOrder": "desc",
+      "pageSize": 12,
+      "rss": true,
+      "fields": [
+        { "name": "title", "type": "text", "required": true },
+        { "name": "date", "type": "date", "required": true },
+        { "name": "section", "type": "select", "options": ["News", "Business", "Culture", "Sport", "Opinion"] },
+        { "name": "standfirst", "type": "text" },
+        { "name": "byline", "type": "text" },
+        { "name": "cover", "type": "image" },
+        { "name": "featured", "type": "boolean", "default": false },
+        { "name": "draft", "type": "boolean", "default": false }
+      ]
+    }
+  },
+  "navigation": [
+    { "label": "Front page", "url": "/news/" },
+    { "label": "About", "url": "/about/" },
+    { "label": "Contact", "url": "/contact/" }
+  ],
+  "sampleContent": "sample/"
+}

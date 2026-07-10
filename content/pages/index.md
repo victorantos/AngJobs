@@ -84,21 +84,22 @@ description: Tech jobs from Hacker News 'Who is hiring?' threads — verified op
 
 .home-jobs-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
   margin-bottom: 24px;
 }
 
 .home-jobs-card {
   background: #FFFFFF;
-  border-radius: 16px;
-  padding: 20px 24px;
+  border-radius: 12px;
+  padding: 12px 8px;
+  text-align: center;
   text-decoration: none;
-  transition: all 0.25s ease-out;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 6px rgba(0, 0, 0, 0.04);
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 2px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 .home-jobs-card:hover {
@@ -106,21 +107,21 @@ description: Tech jobs from Hacker News 'Who is hiring?' threads — verified op
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06), 0 4px 16px rgba(0, 0, 0, 0.04);
 }
 
-.home-jobs-month {
+.home-jobs-month { font-size: 0.8rem; 
   font-size: 17px;
   font-weight: 600;
   color: #1D1D1F;
   letter-spacing: -0.01em;
 }
 
-.home-jobs-count {
+.home-jobs-count { font-size: 1.4rem; 
   font-size: 28px;
   font-weight: 700;
   color: #F97316;
   letter-spacing: -0.02em;
 }
 
-.home-jobs-label {
+.home-jobs-label { font-size: 0.7rem; 
   font-size: 13px;
   color: #6E6E73;
 }
@@ -175,11 +176,12 @@ html[data-theme="dark"] {
   }
 }
 
-.home-hero { text-align: center; margin: 24px 0 8px; }
-.home-hero p { max-width: 42rem; margin: 12px auto; }
+.home-hero { text-align: center; margin: 12px 0 4px; }
+.home-hero h1 { font-size: clamp(1.6rem, 5.5vw, 2.4rem); margin: 0 0 8px; }
+.home-hero p { max-width: 40rem; margin: 8px auto; font-size: 0.95rem; }
 .home-hero-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
 .home-hero-button {
-  display: inline-block; padding: 10px 22px; border-radius: 8px;
+  display: inline-block; padding: 8px 18px; border-radius: 8px;
   background: #FF6600; color: #fff; font-weight: 600; text-decoration: none;
 }
 .home-hero-button--secondary { background: transparent; color: inherit; border: 1px solid currentColor; }

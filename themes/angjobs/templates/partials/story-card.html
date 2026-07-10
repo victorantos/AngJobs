@@ -1,0 +1,9 @@
+<li class="story-card{{#if item.featured}} is-featured{{/if}}">
+  <article>
+    {{#if item.section}}<p class="kicker">{{ item.section }}</p>
+    {{/if}}<h2 class="story-card-headline"><a href="{{ item.url }}">{{ item.title }}</a></h2>
+    {{#if item.standfirst}}<p class="standfirst">{{ item.standfirst }}</p>
+    {{else}}{{#if item.description}}<p class="standfirst">{{ item.description }}</p>
+    {{/if}}{{/if}}<p class="dateline">{{#if item.byline}}<span class="byline">{{ item.byline }}</span> · {{/if}}<time datetime="{{ item.date }}">{{ item.dateFormatted }}</time></p>
+  </article>
+</li>
