@@ -273,9 +273,17 @@ main {
 
 /* Story pages ----------------------------------------------------------------- */
 
-.story-head {
+/* The column is sized once, on the article. It must not move down to the
+   head/body blocks: --measure is in ch, which resolves against each element's
+   own font, so the sans head and serif body would center to different widths
+   and their left edges would drift apart. */
+.story {
   max-width: var(--measure);
-  margin: var(--space-5) auto var(--space-3);
+  margin-inline: auto;
+}
+
+.story-head {
+  margin: var(--space-5) 0 var(--space-3);
 }
 .story-head h1 {
   font-size: var(--text-xl);
@@ -293,8 +301,7 @@ main {
 }
 
 .story-cover {
-  max-width: var(--measure);
-  margin: var(--space-4) auto;
+  margin: var(--space-4) 0;
 }
 .story-cover img { display: block; width: 100%; }
 .story-cover figcaption,
@@ -307,8 +314,7 @@ main {
 }
 
 .story-return {
-  max-width: var(--measure);
-  margin: var(--space-5) auto 0;
+  margin: var(--space-5) 0 0;
 }
 .story-return a {
   font-size: var(--text-xs);
@@ -322,8 +328,6 @@ main {
 /* Prose — the reading column, set in the serif ------------------------------- */
 
 .story-body {
-  max-width: var(--measure);
-  margin-inline: auto;
   font-family: var(--font-serif);
 }
 
