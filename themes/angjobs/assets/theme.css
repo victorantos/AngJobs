@@ -469,6 +469,11 @@ main {
   margin-block: var(--space-1) var(--space-2);
 }
 
+/* Job pages hang off the masthead like the board does — gazette's centered
+   reading column leaves the article floating mid-page here, out of line
+   with the left-set masthead, nav, and front grid. */
+.story { margin-inline: 0; }
+
 /* The lead listing gets a call to action; the rest stay scannable rows. */
 .story-card-apply { display: none; }
 .front-grid > li:first-child .story-card-apply { display: block; margin: var(--space-3) 0 0; }
