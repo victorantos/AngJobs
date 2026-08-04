@@ -38,7 +38,11 @@
       "Bash(rsvg-convert:*)",
       "Bash(git checkout:*)",
       "Bash(/Users/victora/RiderProjects/AngJobs/src/jobs/March-2026/README.md:*)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(npm ls:*)",
+      "Bash(git *)",
+      "Bash(dotnet run *)",
+      "Bash(awk '{print $1}')"
     ],
     "deny": []
   }
