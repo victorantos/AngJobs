@@ -29,5 +29,5 @@ Current openings at Baton:
 
 * Staff Software Engineer - Infrastructure, Data Platform (hybrid, $260,000 - $350,000): <a href="https:&#x2F;&#x2F;grnh.se&#x2F;55wbfa9g7us" rel="nofollow">https:&#x2F;&#x2F;grnh.se&#x2F;55wbfa9g7us</a>
 
-* Software Engineer, MLOps - Machine Learning (hybrid, $162,000 - $216,000): <a href="https:&#x2F;&#x2F;job-boards.greenhouse.io&#x2F;baton&#x2F;jobs&#x2F;5200002007" rel="nofollow">https:&#x2F;&#x2F;job-boards.greenhouse.io&#x2F;baton&#x2F;jobs&#x2F;5200002007</a>
+* Software Engineer, MLOps - Machine Learning (hybrid, $162,000 - $216,000): <a href="https:&#x2F;&#x2F;grnh.se&#x2F;770pgzv17us" rel="nofollow">https:&#x2F;&#x2F;grnh.se&#x2F;770pgzv17us</a>
 [[form:apply]]

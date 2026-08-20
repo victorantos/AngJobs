@@ -21,10 +21,8 @@ ROLES
 
 -- Engineering Manager (NY, ONSITE) $200K – $350K + Equity
 
--- Lead Mobile Engineer (React Native &#x2F; Expo)[First hire] REMOTE (WORLDWIDE)
+-- Lead Mobile Engineer (React Native &#x2F; Expo)[First hire] REMOTE (LATAM, EU, India)
 $120k - $180k + Equity
-
--- SRE [First Hire] REMOTE (WORLDWIDE) $140k - $250k + Equity
 
 Email ivanc@dualentry.com with your CV&#x2F;LinkedIn and &quot;Hacker News&quot; in the subject line
 [[form:apply]]

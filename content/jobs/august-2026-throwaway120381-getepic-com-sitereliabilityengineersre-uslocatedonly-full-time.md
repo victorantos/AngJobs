@@ -1,7 +1,7 @@
 ---
 title: "GetEpic.com : Site Reliability Engineer (SRE)"
 date: 2026-08-01
-description: GetEpic.com - Site Reliability Engineer (SRE) - Remote (Worldwide) - Full-time Help millions of kids get excited about reading! Tech stack: Google Cloud…
+description: GetEpic.com - Site Reliability Engineer (SRE) - US located only - Full-time Help millions of kids get excited about reading! Tech stack: Google Cloud…
 author: throwaway120381
 authorUrl: https://news.ycombinator.com/item?id=49161868
 byline: throwaway120381
@@ -9,7 +9,7 @@ section: august-2026
 tags:
   - august-2026
 ---
-GetEpic.com - Site Reliability Engineer (SRE) - Remote (Worldwide) - Full-time
+GetEpic.com - Site Reliability Engineer (SRE) - US located only - Full-time
 
 Help millions of kids get excited about reading!
 

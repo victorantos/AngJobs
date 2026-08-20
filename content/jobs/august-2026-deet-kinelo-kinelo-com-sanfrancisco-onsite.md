@@ -1,7 +1,7 @@
 ---
 title: "Kinelo : kinelo.com"
 date: 2026-08-01
-description: Kinelo - kinelo.com - San Francisco - Onsite (with a bit of flexibility) Kinelo is building the 'org structure' for humans+AI working together,…
+description: Kinelo - kinelo.com - San Francisco - Onsite Kinelo is building the 'org structure' for humans+AI working together, shoulder-to-shoulder, as peers. We…
 author: deet
 authorUrl: https://news.ycombinator.com/item?id=49162608
 byline: deet
@@ -9,7 +9,7 @@ section: august-2026
 tags:
   - august-2026
 ---
-Kinelo - kinelo.com - San Francisco - Onsite (with a bit of flexibility)
+Kinelo - kinelo.com - San Francisco - Onsite
 
 Kinelo is building the &quot;org structure&quot; for humans+AI working together, shoulder-to-shoulder, as peers. We help coordinate tasks between each actor in a company, handoff context, and provide a voice and &quot;seat at the table&quot; to AI coworkers.
 
