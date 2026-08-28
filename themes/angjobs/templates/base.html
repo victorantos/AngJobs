@@ -27,7 +27,14 @@
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="masthead">
-  <a class="site-title" href="/">{{ site.title }}</a>
+  <div class="masthead-top">
+    <a class="site-title" href="/">{{ site.title }}</a>
+    <form class="masthead-search" role="search" action="/search/" method="get">
+      <label class="visually-hidden" for="masthead-q">Search jobs</label>
+      <input id="masthead-q" type="search" name="q" placeholder="Search jobs…" autocomplete="off">
+      <button type="submit">Search</button>
+    </form>
+  </div>
   <nav class="section-nav" aria-label="Main">
     <ul>
       {{#each nav as entry}}<li><a href="{{ entry.url }}"{{#if entry.current}} aria-current="page"{{/if}}>{{ entry.label }}</a></li>

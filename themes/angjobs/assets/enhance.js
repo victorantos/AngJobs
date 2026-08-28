@@ -15,3 +15,21 @@ for (const time of document.querySelectorAll('.front time[datetime]')) {
   time.title = time.textContent;
   time.textContent = hours === 1 ? '1 hour ago' : `${hours} hours ago`;
 }
+
+// The masthead search box is a plain GET form aimed at /search/, so it works
+// with JavaScript off. The search plugin builds that page's input when its own
+// module runs (after this one), so wait for load, then hand it the ?q= query —
+// deep links like /search/?q=rust run the search on arrival.
+const query = new URLSearchParams(location.search).get('q');
+if (query) {
+  const runSearch = () => {
+    const masthead = document.getElementById('masthead-q');
+    if (masthead) masthead.value = query;
+    const input = document.querySelector('#search-app input[type="search"]');
+    if (!input) return;
+    input.value = query;
+    input.dispatchEvent(new Event('input'));
+  };
+  if (document.readyState === 'complete') runSearch();
+  else window.addEventListener('load', runSearch);
+}
