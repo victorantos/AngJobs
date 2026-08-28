@@ -8,15 +8,22 @@ if (root) {
   // Works at the site root or under a subpath (GitHub project Pages): derive
   // the base from this module's own URL (…/plugins/search/client.js).
   const base = new URL('../../', import.meta.url).pathname.replace(/\/$/, '');
+  // /search/?q=rust arrives with the results already on screen — that is what
+  // a theme's search box (a plain <form action="/search/"> with a "q" field)
+  // submits, and what a shared or bookmarked search link carries.
+  const query = new URLSearchParams(location.search).get('q') || '';
 
   const input = document.createElement('input');
   input.type = 'search';
+  input.name = 'q';
+  input.value = query;
   input.placeholder = 'Type to search…';
   input.setAttribute('aria-label', 'Search this site');
   const results = document.createElement('ul');
   results.className = 'search-results';
   root.append(input, results);
   input.focus();
+  input.setSelectionRange(query.length, query.length);   // caret after the text
 
   let index = null;
   const load = async () => {
@@ -63,6 +70,17 @@ if (root) {
     }
   }
 
+  /** Keep ?q= in step with the box, so the URL is always the search you see. */
+  function rememberQuery() {
+    const q = input.value.trim();
+    history.replaceState(null, '', q ? `${location.pathname}?q=${encodeURIComponent(q)}` : location.pathname);
+  }
+
   let timer;
-  input.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(search, 120); });
+  input.addEventListener('input', () => {
+    clearTimeout(timer);
+    timer = setTimeout(() => { search(); rememberQuery(); }, 120);
+  });
+
+  if (query) search();
 }

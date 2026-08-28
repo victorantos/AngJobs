@@ -17,19 +17,25 @@ for (const time of document.querySelectorAll('.front time[datetime]')) {
 }
 
 // The masthead search box is a plain GET form aimed at /search/, so it works
-// with JavaScript off. The search plugin builds that page's input when its own
-// module runs (after this one), so wait for load, then hand it the ?q= query —
-// deep links like /search/?q=rust run the search on arrival.
+// with JavaScript off. The search plugin reads ?q= itself — prefilling its own
+// input, running the query and keeping the URL in step — so all that is left
+// here is showing the same query in the masthead box you typed it into.
 const query = new URLSearchParams(location.search).get('q');
-if (query) {
-  const runSearch = () => {
-    const masthead = document.getElementById('masthead-q');
-    if (masthead) masthead.value = query;
-    const input = document.querySelector('#search-app input[type="search"]');
-    if (!input) return;
-    input.value = query;
-    input.dispatchEvent(new Event('input'));
-  };
-  if (document.readyState === 'complete') runSearch();
-  else window.addEventListener('load', runSearch);
+const mastheadInput = document.getElementById('masthead-q');
+if (query && mastheadInput) mastheadInput.value = query;
+
+// Arriving from a search, the way back is those results — not the job board.
+// The search URL carries ?q= (see above), so the referrer is the exact result
+// list the reader clicked out of; without it the link stays "← All jobs".
+const back = document.querySelector('.story-return a');
+if (back && document.referrer) {
+  try {
+    const from = new URL(document.referrer);
+    if (from.origin === location.origin && from.pathname === '/search/' && from.searchParams.get('q')) {
+      back.href = from.pathname + from.search;
+      back.textContent = '← Back to search results';
+    }
+  } catch {
+    /* a referrer we can't parse just leaves the default link alone */
+  }
 }
