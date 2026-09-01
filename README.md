@@ -9,7 +9,7 @@
   <a href="https://plain-cms.com"><img src="https://img.shields.io/badge/built%20with-plain-FF6600.svg" alt="Built with plain"></a>
   <a href="package.json"><img src="https://img.shields.io/badge/dependencies-1-brightgreen.svg" alt="One dependency"></a>
   <a href="https://angjobs.com/jobs/"><img src="https://img.shields.io/badge/live%20jobs-750%2B-orange.svg" alt="750+ live jobs"></a>
-  <a href="package.json"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT license"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT license"></a>
   <a href="https://github.com/victorantos/AngJobs/stargazers"><img src="https://img.shields.io/github/stars/victorantos/AngJobs?style=flat&color=FF6600&label=stars%20towards%20100" alt="Stars"></a>
 </p>
 
@@ -114,4 +114,4 @@ The goal for this year is **100 GitHub stars**. If the board has ever pointed yo
 
 ## License
 
-MIT. The job listings themselves are posts from Hacker News, reproduced with attribution and a link back to the original comment.
+[MIT](LICENSE). The job listings themselves are posts from Hacker News, reproduced with attribution and a link back to the original comment.
