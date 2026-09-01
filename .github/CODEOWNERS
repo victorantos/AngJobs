@@ -1,0 +1,6 @@
+# Every file in this repo requires review from the owner before merge.
+# Job listings arrive as pull requests from contributors (see README →
+# "Post a job"); none of them merge into main without an explicit approval
+# here. Keep this file's glob as broad as it is — narrowing it would leave
+# some paths mergeable without review.
+* @victorantos

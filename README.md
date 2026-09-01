@@ -59,7 +59,9 @@ Listings are files, so **submitting a job is a pull request**. No account beyond
 
    `[[form:apply]]` is what renders the Apply form on the page — keep it as the last line.
 4. **Choose "Propose changes"** to open the PR. Keep the frontmatter keys above — the build validates them, so a malformed listing fails the build with a clear message instead of half-deploying.
-5. **Review** — I read every PR. Once approved you get a payment link by email; after payment the PR is merged and the job is live within minutes.
+5. **Review** — I read every PR. Once approved you get a payment link by email; after payment I merge it and the job is live within minutes.
+
+**Nothing merges itself.** Opening a pull request never publishes a job. Every PR needs an explicit approving review from the repo owner ([@victorantos](https://github.com/victorantos)) before it can reach `main` — enforced by [`.github/CODEOWNERS`](.github/CODEOWNERS), with auto-merge disabled repo-wide. A PR from a fork also runs no workflows and touches no secrets. Treat an open PR as a submission, not a publication.
 
 Spotted a typo or a dead listing? Same flow — edit the file, open a PR.
 
