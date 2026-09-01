@@ -134,7 +134,9 @@ $tf/
 .claude/
 .claude/settings.local.json
 .fake/
+.idea/
 .ntvs_analysis.dat
+.nuget/
 .paket/paket.exe
 .sass-cache/
 .vs/
