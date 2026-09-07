@@ -84,7 +84,8 @@
   "plugins": [
     "search",
     "api-form",
-    "goatcounter"
+    "goatcounter",
+    "static-root"
   ],
   "pluginOptions": {
     "api-form": {
