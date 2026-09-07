@@ -6,11 +6,13 @@
 import { getFile, getFileAt, putFile, deleteFile, commitsFor, listDir } from './github.js';
 import { h, show, toast, timeAgo, watchBuild, ask, askText, modal } from './ui.js';
 import { parseFrontmatter, serializeFrontmatter, validateFields, urlFor } from '../lib/content.js';
+import { activeLanguages, splitLangSuffix } from '../lib/i18n.js';
 import { renderMarkdown } from '../lib/markdown.js';
 import { slugify } from '../lib/util.js';
 import { uploadMedia, toBase64 } from './media.js';
 import { hasKey, NO_KEY_HINT, assist } from './ai.js';
 import { singular } from './app.js';
+import { themeLayouts, showsFor, layoutPicker } from './layout.js';
 
 /** Before/after review — every AI action requires this explicit Apply (§8.3). */
 const aiReview = ({ title, before, after }) => modal('ask ai-review', (done) => [
@@ -23,11 +25,38 @@ const aiReview = ({ title, before, after }) => modal('ask ai-review', (done) => 
     h('button', { class: 'primary', onclick: () => done(true) }, 'Apply')),
 ]);
 
+const FOLD_AFTER = 4; // empty optional fields before they're folded away
+
+/**
+ * The preview's own document: the site's theme stylesheet, its plugins', and
+ * whatever the page names in `stylesheet:`, wrapped in the markup themes style
+ * their pages with. Nothing here runs — the iframe is sandboxed without scripts.
+ */
+function previewDocument(siteInfo, pageStylesheet) {
+  const sheets = ['/assets/theme.css', ...(siteInfo.plugins || []).map((name) => `/plugins/${name}/client.css`)];
+  if (typeof pageStylesheet === 'string' && pageStylesheet.startsWith('/')) sheets.push(pageStylesheet);
+  const links = sheets.map((href) => `<link rel="stylesheet" href="${escapeAttr(href)}">`).join('');
+  return `<!doctype html><html><head><meta charset="utf-8"><base href="/">${links}` +
+    '<style>body{margin:0;padding:1rem 1.5rem}</style></head>' +
+    '<body><main><article class="page"><div class="prose"></div></article></main></body></html>';
+}
+
+const escapeAttr = (value) => String(value).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
 export async function editorScreen({ siteInfo, collection, slug, onSaved }) {
   const def = siteInfo.collections[collection];
   if (!def) throw new Error(`Unknown collection "${collection}".`);
   const isNew = slug == null;
   const kind = singular(collection);
+  // Translations are sibling files (about.fr.md, §5.4): split the language
+  // suffix off so slug edits touch only the base — never "about-fr".
+  const languages = siteInfo.site.languages || [];
+  const pageLang = splitLangSuffix(slug || '', languages).lang;
+  const pageUrl = (name) => { // the page's public URL, /<lang>/-prefixed for translations
+    const { base, lang } = splitLangSuffix(name, languages);
+    const url = urlFor(def.urlPattern, base);
+    return url && lang ? `/${lang}${url}` : url;
+  };
   let sha = null;
   let data = {};
   let body = '';
@@ -55,6 +84,10 @@ export async function editorScreen({ siteInfo, collection, slug, onSaved }) {
     }
   }
 
+  // A page may override its collection's template (landing); "showFor" fields follow the layout (layout.js).
+  const layouts = await themeLayouts(siteInfo.site.theme);
+  let currentTemplate = data.template || def.template;
+
   // --- fields (schema-driven) -----------------------------------------------
 
   const inputs = new Map(); // field name → the input element holding the value
@@ -78,13 +111,38 @@ export async function editorScreen({ siteInfo, collection, slug, onSaved }) {
       default: { const el = h('input', { type: 'text', value: value || '' }); return [el, el]; }
     }
   }
-  const fieldRows = def.fields.filter((f) => f.name !== 'draft').map((field) => {
+  const condRows = []; // [field, rowEl] for fields shown only under some layouts
+  const extraRows = [];  // optional and empty — folded away unless there are only a few
+  const fieldRows = [];
+  for (const field of def.fields.filter((f) => f.name !== 'draft')) {
     const [element, input] = control(field);
     inputs.set(field.name, input);
-    return h('label', { class: 'field' }, `${field.name[0].toUpperCase()}${field.name.slice(1)}${field.required ? '' : ' (optional)'}`, element);
+    const row = h('label', { class: 'field' }, `${field.name[0].toUpperCase()}${field.name.slice(1)}${field.required ? '' : ' (optional)'}`, element);
+    if (field.showFor) { row.hidden = !showsFor(field, currentTemplate); condRows.push([field, row]); }
+    const filled = field.type === 'boolean' ? input.checked : String(input.value ?? '').trim() !== '';
+    (field.required || filled ? fieldRows : extraRows).push(row);
+  }
+  // A schema with a long tail of optional fields — landing-page heroes, say —
+  // makes every ordinary page look like a form to fill in. Fold the empty ones
+  // away, but only once there are enough of them to be in the way.
+  const folded = extraRows.length >= FOLD_AFTER;
+  if (!folded) fieldRows.push(...extraRows);
+  const countLabel = () => `More fields (${extraRows.filter((row) => !row.hidden).length})`;
+  const summary = folded ? h('summary', {}, countLabel()) : null;
+  const moreFields = folded
+    ? h('details', { class: 'more-fields' }, summary, h('div', { class: 'editor-fields' }, extraRows))
+    : null;
+  // The picker writes `template:` (cleared at the collection default) and re-filters showFor fields live.
+  const layoutField = layoutPicker(layouts, currentTemplate, def.template, (template) => {
+    currentTemplate = template;
+    data.template = template === def.template ? undefined : template;
+    condRows.forEach(([field, row]) => { row.hidden = !showsFor(field, currentTemplate); });
+    if (summary) summary.textContent = countLabel();
+    // Picking a layout is asking for its fields — show them rather than making
+    // the reader go looking for what just appeared.
+    if (moreFields && condRows.some(([, row]) => !row.hidden)) moreFields.open = true;
   });
-
-  const slugInput = h('input', { type: 'text', value: slug || '', placeholder: 'from-the-title' });
+  const slugInput = h('input', { type: 'text', value: splitLangSuffix(slug || '', languages).base, placeholder: 'from-the-title' });
   let slugTouched = !isNew;
   slugInput.addEventListener('input', () => { slugTouched = true; });
   inputs.get('title')?.addEventListener('input', () => {
@@ -110,11 +168,26 @@ export async function editorScreen({ siteInfo, collection, slug, onSaved }) {
 
   const bodyInput = h('textarea', { class: 'body-input', placeholder: 'Write here. Formatting is optional — plain paragraphs are perfectly good posts.' });
   bodyInput.value = body.replace(/^\n/, '');
-  const preview = h('div', { class: 'preview prose' });
+  // The preview runs the build's renderer inside the build's stylesheets: an
+  // iframe carrying the theme's CSS, every plugin's, and any stylesheet the
+  // page names in its frontmatter. Its document is written once and its content
+  // patched in place, so typing never reloads or scrolls the pane.
+  const preview = h('iframe', {
+    class: 'preview',
+    title: 'Preview',
+    sandbox: 'allow-same-origin', // same-origin so we can write into it; no scripts
+    srcdoc: previewDocument(siteInfo, data.stylesheet),
+  });
   let previewTimer = null;
-  const renderPreview = () => { preview.innerHTML = renderMarkdown(bodyInput.value); };
+  const renderPreview = () => {
+    const target = preview.contentDocument?.querySelector('.prose');
+    if (!target) return;
+    target.innerHTML = renderMarkdown(bodyInput.value);
+    const doc = preview.contentDocument.documentElement;
+    preview.style.height = `${doc.scrollHeight}px`;
+  };
+  preview.addEventListener('load', renderPreview);
   bodyInput.addEventListener('input', () => { clearTimeout(previewTimer); previewTimer = setTimeout(renderPreview, 250); });
-  renderPreview();
 
   function edit(transform) {
     const { selectionStart: from, selectionEnd: to, value } = bodyInput;
@@ -192,17 +265,20 @@ export async function editorScreen({ siteInfo, collection, slug, onSaved }) {
       if (await aiReview({ title: 'Meta description', before: input.value, after: suggestion })) input.value = suggestion;
     }),
     aiButton('Translate…', async () => {
-      const language = await askText({ title: 'Translate this page', message: 'A translated copy will be saved as a new draft next to this one — nothing is published.', placeholder: 'e.g. French' });
-      const baseSlug = language && slugify(slugInput.value || inputs.get('title')?.value || '');
-      if (!language) return;
+      const targets = activeLanguages(siteInfo.site).filter((l) => l !== siteInfo.site.language);
+      if (!targets.length) return toast('Set "languages" under "site" in site.config.json first — e.g. ["en", "fr"] — so translations get their own pages.');
+      const languageName = (code) => { try { return new Intl.DisplayNames([siteInfo.site.language], { type: 'language' }).of(code); } catch { return code; } };
+      const lang = await ask({ title: 'Translate this page', message: 'A translated copy will be saved as a new draft next to this one — nothing is published.', actions: [...targets.map((l) => ({ label: languageName(l), value: l })), { label: 'Cancel', value: null }] });
+      const baseSlug = lang && slugify(slugInput.value || inputs.get('title')?.value || '');
+      if (!lang) return;
       if (!baseSlug) return toast('Give it a title first.');
       const next = { ...collect(), draft: true };
-      if (next.title) next.title = await assist.translate(next.title, language);
-      const translated = await assist.translate(bodyInput.value, language);
-      const newSlug = `${baseSlug}-${slugify(language)}`;
+      if (next.title) next.title = await assist.translate(next.title, languageName(lang));
+      const translated = await assist.translate(bodyInput.value, languageName(lang));
+      const newSlug = `${baseSlug}.${lang}`;
       await putFile(`${def.path}/${newSlug}.md`,
         serializeFrontmatter(next, `\n${translated.trimEnd()}\n`, def.fields.map((f) => f.name)),
-        `${kind}: add ${language} draft of "${next.title || baseSlug}"`);
+        `${kind}: add ${languageName(lang)} draft of "${next.title || baseSlug}"`);
       onSaved?.();
       toast(`Saved as a draft: ${newSlug}. Review it before publishing.`, 'success');
     }),
@@ -247,8 +323,9 @@ export async function editorScreen({ siteInfo, collection, slug, onSaved }) {
   async function save(publish, { force = false } = {}) {
     const next = collect();
     next.draft = !publish;
-    const newSlug = slugify(slugInput.value || next.title || '');
-    if (!newSlug) return toast('Give it a title first — the address is made from it.', 'error');
+    const newBase = slugify(slugInput.value || next.title || '');
+    if (!newBase) return toast('Give it a title first — the address is made from it.', 'error');
+    const newSlug = pageLang ? `${newBase}.${pageLang}` : newBase;
     const file = `${def.path}/${newSlug}.md`;
     let text;
     try {
@@ -268,8 +345,14 @@ export async function editorScreen({ siteInfo, collection, slug, onSaved }) {
   }
 
   async function renameAndSave(file, newSlug, text, message) {
-    const oldUrl = urlFor(def.urlPattern, slug);
-    const newUrl = urlFor(def.urlPattern, newSlug);
+    // A data-only item (render: false) has no URL — renaming just moves the file, no redirect.
+    if (!def.urlPattern) {
+      const result = await putFile(file, text, message);
+      await deleteFile(`${def.path}/${slug}.md`, `${kind}: remove old copy of "${slug}"`, sha);
+      return afterSave(result, newSlug, collect(), true);
+    }
+    const oldUrl = pageUrl(slug);
+    const newUrl = pageUrl(newSlug);
     const addRedirect = await ask({ title: 'The address is changing', message: `“${oldUrl}” will become “${newUrl}”. Links to the old address would break — forward visitors to the new one?`, actions: [{ label: 'Cancel', value: 'cancel' }, { label: 'Just rename', value: false }, { label: 'Rename & forward', value: true, kind: 'primary' }] });
     if (addRedirect === 'cancel' || addRedirect === null) return;
     const result = await putFile(file, text, message);
@@ -291,7 +374,7 @@ export async function editorScreen({ siteInfo, collection, slug, onSaved }) {
     localStorage.removeItem(autosaveKey);
     onSaved?.();
     toast(publish ? 'Published — your site is updating.' : 'Draft saved. Only you can see it.', 'success');
-    if (publish) watchBuild(result.commitSha, siteInfo.site.url + urlFor(def.urlPattern, newSlug));
+    if (publish) watchBuild(result.commitSha, siteInfo.site.url + (pageUrl(newSlug) || '')); // data-only items open the site root
     if (isNew || newSlug !== slug) { location.hash = `#/edit/${collection}/${newSlug}`; }
   }
 
@@ -356,8 +439,11 @@ export async function editorScreen({ siteInfo, collection, slug, onSaved }) {
         h('button', { onclick: () => save(false) }, 'Save draft'),
         h('button', { class: 'primary', onclick: () => save(true) }, 'Publish')),
     ),
-    h('div', { class: 'editor-fields' }, ...fieldRows,
+    h('div', { class: 'editor-fields' },
+      layoutField,
+      ...fieldRows,
       h('label', { class: 'field' }, 'Address (from the title)', slugInput)),
+    moreFields,
     h('div', { class: 'editor-split' },
       h('div', { class: 'editor-write' }, toolbar, bodyInput, aiRow),
       preview),

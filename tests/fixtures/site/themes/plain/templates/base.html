@@ -4,6 +4,7 @@
 <title>{{#if page.title}}{{ page.title }} · {{/if}}{{ site.title }}</title>
 {{#if page.description}}<meta name="description" content="{{ page.description }}">
 {{/if}}{{#each feeds as feed}}<link rel="alternate" type="application/rss+xml" href="{{ feed }}">
+{{/each}}{{#each alternates as alt}}<link rel="alternate" hreflang="{{ alt.lang }}" href="{{ site.url }}{{ alt.url }}">
 {{/each}}</head>
 <body>
 <nav>{{#each nav as entry}}<a href="{{ entry.url }}"{{#if entry.current}} aria-current="page"{{/if}}>{{ entry.label }}</a> {{/each}}</nav>

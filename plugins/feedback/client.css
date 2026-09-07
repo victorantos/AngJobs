@@ -1,0 +1,92 @@
+/* feedback widget — a self-contained floating popup, bottom-right, theme-aware
+   (its own light/dark styling so it looks right on any theme). */
+
+.plain-feedback {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 9999;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 15px;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.plain-feedback.pf-waiting {
+  opacity: 0;
+  transform: translateY(0.75rem);
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.pf-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 0;
+  border-radius: 999px;
+  padding: 0.6rem 1.05rem;
+  font: inherit;
+  font-weight: 600;
+  color: #fff;
+  background: #1f2937;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.pf-toggle:hover { background: #111827; }
+.pf-toggle:focus-visible { outline: 2px solid #2563eb; outline-offset: 2px; }
+
+.pf-panel {
+  position: absolute;
+  right: 0;
+  bottom: 3.4rem;
+  width: min(20rem, 88vw);
+  background: #ffffff;
+  color: #111827;
+  border-radius: 12px;
+  box-shadow: 0 12px 44px rgba(0, 0, 0, 0.28);
+  overflow: hidden;
+}
+.pf-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.pf-close {
+  border: 0;
+  background: none;
+  font-size: 1.35rem;
+  line-height: 1;
+  color: inherit;
+  cursor: pointer;
+}
+.pf-form { display: flex; flex-direction: column; gap: 0.5rem; padding: 1rem; }
+.pf-message, .pf-email {
+  font: inherit;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid rgba(0, 0, 0, 0.22);
+  border-radius: 6px;
+  background: #fff;
+  color: #111827;
+}
+.pf-message { resize: vertical; }
+.pf-send {
+  align-self: flex-end;
+  border: 0;
+  border-radius: 6px;
+  padding: 0.5rem 1.1rem;
+  font: inherit;
+  font-weight: 600;
+  color: #fff;
+  background: #2563eb;
+  cursor: pointer;
+}
+.pf-send:disabled { opacity: 0.6; cursor: default; }
+.pf-thanks { margin: 0; padding: 1rem; }
+.pf-error { margin: 0; color: #b91c1c; font-size: 0.85rem; }
+
+@media (prefers-color-scheme: dark) {
+  .pf-panel { background: #1b232e; color: #e7e8ea; }
+  .pf-head { border-color: rgba(255, 255, 255, 0.12); }
+  .pf-message, .pf-email { background: #10151b; color: #e7e8ea; border-color: rgba(255, 255, 255, 0.16); }
+}

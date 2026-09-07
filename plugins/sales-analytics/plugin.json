@@ -1,0 +1,8 @@
+{
+  "name": "sales-analytics",
+  "version": "2.0.0",
+  "description": "Tracks page views and CTA clicks to your backend (POST /events). Progressive enhancement — the page and its CTAs work with JavaScript off. View the reports in the admin's Insights tab.",
+  "client": { "js": "client.js" },
+  "options": { "service": "backend" },
+  "note": "Needs a `services` endpoint (your backend) with POST /events + GET /reports — see plain-cms/backend. Reports show in the admin under Insights (it reads GET /reports)."
+}

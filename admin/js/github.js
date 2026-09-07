@@ -5,17 +5,26 @@
 
 const KEYS = { repo: 'plain.repo', token: 'plain.token', branch: 'plain.branch' };
 
+// "Try the editor" mode (demo.js): the same calls, answered from a repository
+// that lives in the browser tab. The flag is sessionStorage, so it is per tab
+// and a demo visitor never disturbs a real sign-in on the same device.
+export const DEMO_REPO = 'demo/your-site';
+export const DEMO_FLAG = 'plain.demo';
+export const inDemo = () => { try { return sessionStorage.getItem(DEMO_FLAG) === '1'; } catch { return false; } };
+
 export const auth = {
-  get repo() { return localStorage.getItem(KEYS.repo) || ''; },
-  get token() { return localStorage.getItem(KEYS.token) || ''; },
+  get repo() { return inDemo() ? DEMO_REPO : localStorage.getItem(KEYS.repo) || ''; },
+  get token() { return inDemo() ? 'demo' : localStorage.getItem(KEYS.token) || ''; },
   get branch() { return localStorage.getItem(KEYS.branch) || 'main'; },
-  get signedIn() { return Boolean(this.repo && this.token); },
+  get signedIn() { return inDemo() || Boolean(this.repo && this.token); },
   save({ repo, token, branch }) {
     localStorage.setItem(KEYS.repo, repo);
     localStorage.setItem(KEYS.token, token);
     localStorage.setItem(KEYS.branch, branch || 'main');
   },
-  clear() { Object.values(KEYS).forEach((key) => localStorage.removeItem(key)); },
+  // Sign out = drop the token (the secret). Keep repo + branch so the sign-in screen
+  // prefills them next time — they're not sensitive and save re-typing owner/name.
+  clear() { localStorage.removeItem(KEYS.token); },
 };
 
 export class GitHubError extends Error {
@@ -23,7 +32,7 @@ export class GitHubError extends Error {
 }
 
 const FRIENDLY = {
-  401: 'GitHub did not accept the access token. It may have expired — sign out and paste a fresh one.',
+  401: 'GitHub didn’t accept the access token (expired, revoked, or mistyped) — please sign in again.',
   403: 'GitHub refused the request. The token may lack access to this repository, or the rate limit is reached — wait a minute and try again.',
   404: 'Not found on GitHub. Check that the repository name is right and the token can read it.',
   409: 'This was edited elsewhere since you opened it.',
@@ -31,10 +40,18 @@ const FRIENDLY = {
 
 /** Call the GitHub API. Throws GitHubError with a plain-language message. */
 async function gh(path, { method = 'GET', body, raw = false } = {}) {
+  // Loaded only for demo visitors — a signed-in site never fetches demo.js.
+  if (inDemo()) return (await import('./demo.js')).request(path, { method, body, raw });
   const headers = { Authorization: `Bearer ${auth.token}`, 'X-GitHub-Api-Version': '2022-11-28', Accept: raw ? 'application/vnd.github.raw+json' : 'application/vnd.github+json' };
-  const response = await fetch(`https://api.github.com${path}`, { method, headers, body: body === undefined ? undefined : JSON.stringify(body) });
+  // no-store: GitHub sends `Cache-Control: private, max-age=60`, so without this the
+  // browser serves a stale file sha on a re-read — which made updateFile's 409 retry
+  // loop on the same old sha and surface "edited elsewhere" instead of reconciling.
+  const response = await fetch(`https://api.github.com${path}`, { method, headers, cache: 'no-store', body: body === undefined ? undefined : JSON.stringify(body) });
   if (!response.ok) {
     const detail = await response.json().then((d) => d.message || '').catch(() => '');
+    // 401 = the stored token is dead (expired/revoked). Clear it and signal the app so
+    // it returns to the sign-in screen, instead of dead-ending on an error toast.
+    if (response.status === 401) { auth.clear(); dispatchEvent(new Event('plain:signed-out')); }
     const friendly = FRIENDLY[response.status] || `GitHub error ${response.status}: ${detail}`;
     throw new GitHubError(response.status, detail && !friendly.includes(detail) ? `${friendly} (GitHub said: ${detail})` : friendly);
   }
@@ -70,14 +87,44 @@ export async function getFile(path) {
 export const getFileAt = async (path, ref) => decodeText((await gh(repoPath(`contents/${path}?ref=${ref}`))).content);
 
 /**
- * Create or update a file — one commit. Pass `sha` when updating; a stale
- * sha throws GitHubError(409): the caller shows the conflict choices.
+ * Create or update a file — one commit. Pass `sha` when updating; a stale sha
+ * throws GitHubError(409). For config edits use `updateFile`, which re-reads and
+ * re-applies on a 409 instead of dead-ending on the conflict.
  * @param {string|{base64: string}} content - text, or pre-encoded binary
  */
 export async function putFile(path, content, message, sha) {
   const body = { message, branch: auth.branch, content: typeof content === 'string' ? encodeText(content) : content.base64, ...(sha ? { sha } : {}) };
   const result = await gh(repoPath(`contents/${path}`), { method: 'PUT', body });
   return { sha: result.content.sha, commitSha: result.commit.sha };
+}
+
+/**
+ * Read a text file, transform it, and write it back as one commit — safe against
+ * concurrent edits. `mutate(text)` receives the file's CURRENT contents (null if
+ * it doesn't exist yet) and returns the new contents; return null or the same
+ * string to write nothing. On a 409 (someone committed in between) the file is
+ * re-read and `mutate` re-applied to the fresh version — so an unrelated
+ * concurrent change (e.g. a plugin just toggled on) is preserved, never clobbered.
+ * This is why the admin never dead-ends on "edited elsewhere": it reconciles.
+ * `io` is injectable so the retry logic can be unit-tested without the network.
+ * @param {(text: string|null) => string|null} mutate
+ * @returns {Promise<{commitSha: string|null, unchanged?: boolean}>}
+ */
+export async function updateFile(path, mutate, message, { retries = 5, io = { getFile, putFile } } = {}) {
+  for (let attempt = 0; ; attempt++) {
+    let text = null, sha;
+    try { ({ text, sha } = await io.getFile(path)); }
+    catch (error) { if (error.status !== 404) throw error; } // absent → create
+    const next = mutate(text);
+    if (next == null || next === text) return { commitSha: null, unchanged: true };
+    try {
+      const { commitSha } = await io.putFile(path, next, message, sha);
+      return { commitSha };
+    } catch (error) {
+      if (error.status === 409 && attempt < retries) continue; // stale — re-read and re-apply
+      throw error;
+    }
+  }
 }
 
 export async function deleteFile(path, message, sha) {
@@ -136,14 +183,27 @@ export async function commitsFor(path, perPage = 30) {
   return commits.map((c) => ({ sha: c.sha, date: c.commit.committer.date, message: c.commit.message.split('\n')[0], author: c.commit.author?.name || c.author?.login || '' }));
 }
 
-/** The workflow run building a commit, or null if none has started yet. */
+/** The deploy run building a commit, or null if none has started yet.
+    Scoped to build-deploy.yml — other workflows (like the weekly update check)
+    also run on the head commit and must not be mistaken for a publish. */
 export async function runFor(commitSha) {
-  const { workflow_runs: runs } = await gh(repoPath(`actions/runs?head_sha=${commitSha}&per_page=1`));
+  const { workflow_runs: runs } = await gh(repoPath(`actions/workflows/build-deploy.yml/runs?head_sha=${commitSha}&per_page=1`));
   return runs[0] || null;
 }
 
 /** Trigger a workflow_dispatch run (used by the update banner, §14.5). */
 export const dispatchWorkflow = (file, ref = auth.branch) => gh(repoPath(`actions/workflows/${file}/dispatches`), { method: 'POST', body: { ref } });
+
+/** The open engine-update PR the update.yml workflow opens (full object, so it
+    carries `mergeable` and the report `body`), or null if there isn't one yet. */
+export async function updatePull() {
+  const prs = await gh(repoPath('pulls?state=open&per_page=20'));
+  const found = prs.find((p) => /^Update plain to /.test(p.title));
+  return found ? gh(repoPath(`pulls/${found.number}`)) : null;
+}
+
+/** Merge a PR with a merge commit — the update lands on the branch and rebuilds the site. */
+export const mergePull = (number) => gh(repoPath(`pulls/${number}/merge`), { method: 'PUT', body: { merge_method: 'merge' } });
 
 /** Compare dotted semver strings a and b. Returns -1 / 0 / 1. */
 export function cmpVersion(a, b) {

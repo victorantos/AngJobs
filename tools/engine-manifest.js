@@ -19,10 +19,14 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 // must never hand-edit these paths. Content, data, media, site.config.json,
 // and custom themes/plugins are user-owned and never appear in the manifest.
 export const ENGINE_FILES = ['build.js', 'config.defaults.json', 'package.json',
-  '.github/workflows/build-deploy.yml', '.github/workflows/update.yml'];
-export const ENGINE_DIRS = ['lib', 'admin', 'tools', 'migrations',
+  '.github/workflows/build-deploy.yml', '.github/workflows/update.yml',
+  '.claude/settings.json'];
+// .claude/skills only — never all of .claude/, so a user's own skills and their
+// gitignored settings.local.json stay theirs.
+export const ENGINE_DIRS = ['.claude/skills', 'lib', 'admin', 'tools', 'migrations',
   'themes/default', 'plugins/search', 'plugins/contact-form', 'plugins/reading-time',
-  'plugins/api-form', 'plugins/goatcounter'];
+  'plugins/api-form', 'plugins/goatcounter', 'plugins/reset-sw', 'plugins/language-switcher',
+  'plugins/sales-analytics', 'plugins/feedback', 'plugins/static-root'];
 
 /** Every engine-owned file path (repo-relative, POSIX separators), sorted. */
 export function engineFiles(base = root) {

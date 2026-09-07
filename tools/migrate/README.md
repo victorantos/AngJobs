@@ -6,10 +6,11 @@ wondering about the similar name? That folder holds the engine's own upgrade
 scripts, run automatically when plain itself updates — this one is for
 *your* site.)
 
-Jekyll and VuePress ship today; Hugo, Eleventy, and WordPress are on the
-roadmap (cms-spec.md §15). Each importer is one dependency-free file
-(`jekyll.js`, `vuepress.js`) — so adapting one to another generator is a
-realistic afternoon project, or a one-prompt task for an AI agent.
+Jekyll, VuePress, and Joomla ship today; VitePress, Hugo, Eleventy, and
+WordPress are on the roadmap (cms-spec.md §15). Each importer is one
+dependency-free file (`jekyll.js`, `vuepress.js`, `joomla.js`) — so adapting
+one to another generator is a realistic afternoon project, or a one-prompt
+task for an AI agent.
 
 ## Before you start
 
@@ -17,7 +18,8 @@ realistic afternoon project, or a one-prompt task for an AI agent.
 - **A plain site to import into.** Easiest: click **"Use this template"** on
   the plain repository and clone your new repo. Any clone of plain works.
 - **Your old site's folder on disk**, e.g. `~/blog`. The importer only reads
-  it — it never writes there.
+  it — it never writes there. (Joomla is the exception: it has no export
+  format, so its importer reads the *live site* over HTTP instead.)
 
 ## Step 1 — run the importer
 
@@ -63,6 +65,32 @@ preserved — the generated redirect map is the answer, not a loss. `::: tip`
 containers become blockquotes; nested frontmatter (e.g. `author: {name,
 url}`) is flattened to `author` + `authorUrl`; `.vuepress/public/` assets
 move to `/media/public/` with references rewritten.
+
+**Coming from Joomla?** Point the importer at the live site — it crawls the
+rendered pages (politely: one request at a time, honoring `robots.txt`),
+converts articles to Markdown, and downloads the images they use:
+
+```sh
+node tools/migrate/joomla.js https://your-joomla-site.example
+```
+
+- `--max-pages=500` — crawl budget; the report says if anything was left
+  unvisited.
+- `--delay=250` — milliseconds between requests; raise it for shared hosting.
+- `--include=/path` — only crawl under a path prefix (multi-language or
+  multi-section sites).
+- `--no-media` — rewrite image references without downloading the files.
+
+Joomla notes: if the site redirects to its canonical address (http → https,
+naked → www), the crawl follows it and imports from there — pages that
+redirect to a *different* site are skipped and listed under fetch errors.
+Dated articles become posts, dateless ones become pages;
+categories and tags merge into each post's `tags` list; your main menu is
+extracted into `data/navigation.json` (review it in Step 6 instead of writing
+one from scratch). Old non-SEF URLs (`index.php?option=…`) can't live in a
+static redirect file — the report lists them as ready-to-paste rules for your
+host. Login, contact, and search pages are skipped and accounted for in the
+report's dynamic-feature table (Step 7).
 
 ## Step 2 — read the report
 
@@ -195,6 +223,12 @@ node --test tests/
 - **A page lost its hero/landing layout** — VuePress `home: true` layouts are
   theme features, not content; the review queue quotes the dropped hero
   values so you can rebuild them as plain Markdown/HTML.
+- **A Joomla page imported with sidebar junk in the body** — the crawler
+  couldn't find that template's article container; the review queue names the
+  page. Trim the extra Markdown, or send the note to an AI agent.
+- **A Joomla article is missing** — check the report's fetch errors and the
+  `--max-pages` line; articles unreachable from any link (or disallowed by
+  `robots.txt`) can't be crawled.
 - **Coming from Hugo, Eleventy, or WordPress?** Export to Markdown with
   frontmatter and the Jekyll importer gets you most of the way — or adapt
   `jekyll.js`/`vuepress.js` to read your generator's layout directly.

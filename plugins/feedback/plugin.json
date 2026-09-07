@@ -1,0 +1,8 @@
+{
+  "name": "feedback",
+  "version": "1.2.0",
+  "description": "A floating feedback widget — a popup where visitors send a short message to your backend. Progressive enhancement; the page works without it.",
+  "client": { "js": "client.js", "css": "client.css" },
+  "options": { "service": "backend", "title": "Send feedback", "buttonLabel": "Feedback", "showOnScroll": false },
+  "note": "Needs a `services` endpoint (your API) with POST /feedback — see plain-cms/backend. Without one the widget stays hidden."
+}

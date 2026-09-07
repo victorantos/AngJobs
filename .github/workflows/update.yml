@@ -1,0 +1,71 @@
+# Engine updates as pull requests (cms-spec.md §14.5).
+# Trigger from the admin's "Update available" banner (workflow_dispatch), or
+# let the weekly cron open the PR automatically (Dependabot-style) so even
+# unattended sites receive security fixes as reviewable PRs.
+#
+# The updater replaces engine files wholesale and flags any the user modified;
+# merge the PR to upgrade, revert it to roll back.
+
+name: Update engine
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays, 06:00 UTC
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 20
+
+      # Fetch upstream (the plain source repo, or a fork) into ./.upstream.
+      - name: Fetch upstream
+        run: |
+          UPSTREAM="${UPSTREAM_REPO:-plain-cms/plain}"
+          git clone --depth 1 "https://github.com/${UPSTREAM}.git" .upstream
+        env:
+          UPSTREAM_REPO: ${{ vars.UPSTREAM_REPO }}
+
+      - name: Apply update
+        id: apply
+        run: |
+          node tools/update.js .upstream | tee /tmp/report.md
+          rm -rf .upstream
+
+      - name: Verify
+        run: |
+          npm ci
+          # Refresh the golden fixtures first: tests/ is not engine-managed (it
+          # isn't in engine.json), so the updater never replaces the frozen
+          # goldens — any release that changes build output (e.g. a new api/
+          # site.json key) would otherwise fail the golden test here and block
+          # the PR. Regenerating keeps every other assertion in the suite honest.
+          node tests/update-goldens.js
+          npm test
+          node build.js
+
+      - name: Open pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Already up to date — nothing to do."; exit 0
+          fi
+          VERSION=$(node -p "require('./engine.json').version")
+          BRANCH="update/engine-${VERSION}"
+          git config user.name "plain updater"
+          git config user.email "noreply@github.com"
+          git checkout -b "$BRANCH"
+          git add -A
+          git commit -m "chore: update engine to ${VERSION}"
+          git push -f origin "$BRANCH"
+          gh pr create --title "Update plain to ${VERSION}" --body-file /tmp/report.md --head "$BRANCH" || \
+          gh pr edit "$BRANCH" --title "Update plain to ${VERSION}" --body-file /tmp/report.md

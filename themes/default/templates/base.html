@@ -16,6 +16,7 @@
 {{else}}{{#if site.socialImage}}<meta property="og:image" content="{{ site.url }}{{ site.socialImage }}">
 <meta name="twitter:card" content="summary_large_image">
 {{/if}}{{/if}}{{#each feeds as feed}}<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ feed }}">
+{{/each}}{{#each alternates as alt}}<link rel="alternate" hreflang="{{ alt.lang }}" href="{{ site.url }}{{ alt.url }}">
 {{/each}}<meta name="color-scheme" content="light dark">
 {{#if site.favicon}}<link rel="icon" href="{{ site.favicon }}">
 {{else}}<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
@@ -23,7 +24,7 @@
 {{/if}}<link rel="stylesheet" href="/assets/theme.css">
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
+<a class="skip-link" href="#main">{{ strings.skipToContent }}</a>
 <header class="masthead">
   <a class="site-title" href="/">{{ site.title }}</a>
   <nav aria-label="Main">

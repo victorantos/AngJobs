@@ -1,0 +1,60 @@
+<article class="landing">
+  <section class="hero">
+    <div class="hero-inner">
+      <h1 class="hero-headline">{{ page.title }}</h1>
+      {{#if page.heroTagline}}<p class="hero-tagline">{{ page.heroTagline }}</p>
+      {{/if}}<p class="hero-actions">
+        {{#if page.heroCtaUrl}}<a class="btn btn-primary btn-large" data-cta="hero" href="{{ page.heroCtaUrl }}">{{#if page.heroCtaLabel}}{{ page.heroCtaLabel }}{{else}}Get started{{/if}}</a>
+        {{/if}}{{#if page.heroSecondaryUrl}}<a class="btn btn-quiet btn-large" data-cta="hero-secondary" href="{{ page.heroSecondaryUrl }}">{{#if page.heroSecondaryLabel}}{{ page.heroSecondaryLabel }}{{else}}Learn more{{/if}}</a>
+        {{/if}}
+      </p>
+      {{#if page.heroImage}}<figure class="hero-media"><img src="{{ page.heroImage }}" alt="{{ page.heroAlt }}"></figure>
+      {{/if}}
+    </div>
+  </section>
+
+  {{#if page.content}}<section class="landing-prose">
+    <div class="prose">{{{ page.content }}}</div>
+  </section>
+  {{/if}}{{#if collections.features}}<section class="features">
+    <div class="section-inner">
+      {{#if page.featuresHeading}}<h2 class="section-heading">{{ page.featuresHeading }}</h2>
+      {{/if}}<ul class="feature-grid">
+        {{#each collections.features as feature}}<li class="feature-card">
+          <h3>{{ feature.title }}</h3>
+          <div class="prose">{{{ feature.content }}}</div>
+        </li>
+        {{/each}}
+      </ul>
+    </div>
+  </section>
+  {{/if}}{{#if collections.testimonials}}<section class="testimonials">
+    <div class="section-inner">
+      {{#if page.testimonialsHeading}}<h2 class="section-heading">{{ page.testimonialsHeading }}</h2>
+      {{/if}}<ul class="testimonial-grid">
+        {{#each collections.testimonials as quote}}<li class="testimonial">
+          <blockquote>{{{ quote.content }}}</blockquote>
+          <p class="testimonial-by">{{#if quote.author}}— {{ quote.author }}{{/if}}{{#if quote.role}} <span class="role">{{ quote.role }}</span>{{/if}}</p>
+        </li>
+        {{/each}}
+      </ul>
+    </div>
+  </section>
+  {{/if}}{{#if collections.faq}}<section class="faq">
+    <div class="section-inner">
+      {{#if page.faqHeading}}<h2 class="section-heading">{{ page.faqHeading }}</h2>
+      {{/if}}<dl class="faq-list">
+        {{#each collections.faq as item}}<dt>{{ item.title }}</dt>
+        <dd><div class="prose">{{{ item.content }}}</div></dd>
+        {{/each}}
+      </dl>
+    </div>
+  </section>
+  {{/if}}{{#if page.ctaUrl}}<section class="cta-final">
+    <div class="section-inner">
+      {{#if page.ctaHeading}}<h2>{{ page.ctaHeading }}</h2>
+      {{/if}}<a class="btn btn-primary btn-large" data-cta="footer" href="{{ page.ctaUrl }}">{{#if page.ctaLabel}}{{ page.ctaLabel }}{{else}}Get started{{/if}}</a>
+    </div>
+  </section>
+  {{/if}}
+</article>

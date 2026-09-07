@@ -1,0 +1,10 @@
+.language-switcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+  font-size: 0.9em;
+}
+.language-switcher a { color: currentColor; opacity: 0.7; text-decoration: none; }
+.language-switcher a:hover { opacity: 1; text-decoration: underline; }
+.language-switcher [aria-current="true"] { font-weight: 600; }

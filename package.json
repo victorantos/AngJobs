@@ -1,6 +1,6 @@
 {
   "name": "angjobs",
-  "version": "1.2.0",
+  "version": "1.18.0",
   "description": "angjobs.com — tech jobs from Hacker News, built with plain",
   "type": "module",
   "private": true,
@@ -11,7 +11,7 @@
   "scripts": {
     "build": "node build.js",
     "dev": "node build.js --watch",
-    "test": "node --test tests/",
+    "test": "node --test tests/*.test.js",
     "manifest": "node tools/engine-manifest.js"
   },
   "dependencies": {

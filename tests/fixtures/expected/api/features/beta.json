@@ -1,0 +1,11 @@
+{
+  "title": "Beta feature",
+  "order": "2",
+  "slug": "beta",
+  "url": null,
+  "file": "content/features/beta.md",
+  "collection": "features",
+  "body": "The second feature.\n",
+  "words": 3,
+  "content": "<p>The second feature.</p>\n"
+}

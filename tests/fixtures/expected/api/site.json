@@ -4,7 +4,8 @@
     "url": "https://fixture.test",
     "description": "A tiny site for golden-file tests.",
     "language": "en",
-    "theme": "plain"
+    "theme": "plain",
+    "languages": []
   },
   "collections": {
     "pages": {
@@ -27,6 +28,7 @@
           "default": false
         }
       ],
+      "render": true,
       "sortOrder": "desc",
       "pageSize": 10,
       "label": "Pages"
@@ -66,7 +68,27 @@
           "type": "boolean",
           "default": false
         }
-      ]
+      ],
+      "render": true
+    },
+    "features": {
+      "path": "content/features",
+      "render": false,
+      "sortBy": "order",
+      "sortOrder": "asc",
+      "label": "Features",
+      "fields": [
+        {
+          "name": "title",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "order",
+          "type": "text"
+        }
+      ],
+      "pageSize": 10
     }
   },
   "plugins": [

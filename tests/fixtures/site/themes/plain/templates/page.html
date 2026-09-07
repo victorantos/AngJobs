@@ -1,4 +1,7 @@
 <article>
 <h1>{{ page.title }}</h1>
 {{{ page.content }}}
-</article>
+{{#if collections.features}}<ul class="features">
+{{#each collections.features as feature}}<li data-slug="{{ feature.slug }}"><h2>{{ feature.title }}</h2>{{{ feature.content }}}</li>
+{{/each}}</ul>
+{{/if}}</article>

@@ -3,12 +3,13 @@
 // the browser, using the same lib/template.js the build uses — what you
 // preview is what deploys. Nothing is committed until Apply.
 
-import { auth, getFile, putFile, listDir, listTree, commitFiles, bytesToBase64 } from './github.js';
+import { auth, getFile, updateFile, listDir, listTree, commitFiles, bytesToBase64 } from './github.js';
 import { h, toast, ask, watchBuild } from './ui.js';
 import { render } from '../lib/template.js';
 import { renderMarkdown } from '../lib/markdown.js';
 import { parseFrontmatter } from '../lib/content.js';
 import { collectionIndex } from './app.js';
+import { fetchPluginFiles } from './plugins.js';
 
 /** Every theme in the repo: {name, title, description, starter?}. */
 export async function loadThemes() {
@@ -95,6 +96,19 @@ export async function applyStarter(theme, siteInfo, { site = {}, tokens = {}, na
   config.collections = { ...config.collections, ...starter.collections };
   if (Object.keys(tokens).length) config.theme = { ...(config.theme || {}), tokens };
   const files = [];
+
+  // Bundled plugins (§10.3): enable each; if not already in the repo, fetch it from the registry.
+  for (const entry of starter.plugins || []) {
+    const spec = typeof entry === 'string' ? { id: entry } : entry;
+    const present = (await listDir(`plugins/${spec.id}`).catch(() => [])).length > 0;
+    if (!present) {
+      log(`Fetching the ${spec.id} plugin…`);
+      try { const { files: pluginFiles } = await fetchPluginFiles(spec); if (!pluginFiles.length) throw new Error('empty'); files.push(...pluginFiles); }
+      catch { log(`Skipped the ${spec.id} plugin (not found in the registry).`); continue; }
+    }
+    config.plugins = [...new Set([...(config.plugins || []), spec.id])];
+    if (spec.options) config.pluginOptions = { ...(config.pluginOptions || {}), [spec.id]: { ...((config.pluginOptions || {})[spec.id] || {}), ...spec.options } };
+  }
 
   // Replace, don't accumulate: a collection whose template the new theme lacks
   // was left by a previous theme's starter — drop it + delete its content (pages/
@@ -220,14 +234,15 @@ async function tryOn(theme, siteInfo) {
       if (starter) {
         commitSha = await applyStarter(theme, siteInfo, { tokens: state.tokens, log: (m) => toast(m) });
       } else {
-        const file = await getFile('site.config.json');
-        const config = JSON.parse(file.text);
-        config.site.theme = theme.name;
-        if (Object.keys(state.tokens).length) config.theme = { ...(config.theme || {}), tokens: state.tokens };
-        ({ commitSha } = await putFile('site.config.json', JSON.stringify(config, null, 2) + '\n', `settings: switch theme to "${theme.name}"`, file.sha));
+        ({ commitSha } = await updateFile('site.config.json', (text) => {
+          const config = JSON.parse(text);
+          config.site.theme = theme.name;
+          if (Object.keys(state.tokens).length) config.theme = { ...(config.theme || {}), tokens: state.tokens };
+          return JSON.stringify(config, null, 2) + '\n';
+        }, `settings: switch theme to "${theme.name}"`));
       }
       toast('Applied — your site is updating. Switching back is just as easy.', 'success');
-      watchBuild(commitSha, siteInfo.site.url);
+      if (commitSha) watchBuild(commitSha, siteInfo.site.url);
       overlay.remove();
     } catch (error) { toast(error.message, 'error'); }
   }

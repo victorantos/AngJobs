@@ -2,6 +2,7 @@
   "name": "default",
   "title": "Journal",
   "description": "A quiet, typography-first personal blog theme. The signature is the type itself: a bookish display face over a humanist body, a 65ch measure, and one deep-cobalt accent.",
+  "layouts": ["page", "landing"],
   "tokens": {
     "--font-display": "headings and the site title",
     "--font-body": "body text",

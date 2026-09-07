@@ -3,12 +3,15 @@
 // content metadata; writes through the GitHub API (see github.js).
 // UI language rule: never "commit/push/branch" — always "save/publish/history".
 
-import { auth, repoInfo, getFile, putFile, listDir, commitsFor, runFor, dispatchWorkflow, cmpVersion } from './github.js';
+import { auth, inDemo, repoInfo, getFile, updateFile, listDir, commitsFor, runFor, dispatchWorkflow, updatePull, mergePull, cmpVersion } from './github.js';
 import { h, show, toast, timeAgo, watchBuild, ask } from './ui.js';
 import { editorScreen } from './editor.js';
 import { mediaScreen } from './media.js';
 import { aiSettings } from './ai.js';
 import { appearanceScreen } from './appearance.js';
+import { pluginsScreen, pluginUpdatesCard } from './plugins.js';
+import { backendScreen } from './backend.js';
+import { feedbackScreen, insightsScreen } from './backend-data.js';
 import { wizardScreen } from './wizard.js';
 
 let siteInfo = null;             // parsed /api/site.json (schema + site block)
@@ -24,8 +27,23 @@ export async function collectionIndex(name) {
 
 export const singular = (name) => (name.endsWith('s') ? name.slice(0, -1) : name);
 
+/**
+ * Start (or resume) the demo: seed the in-browser repository and raise the
+ * standing "this is a demo" strip. Loaded on demand — a signed-in site never
+ * fetches demo.js at all.
+ */
+async function enterDemo() {
+  const { demo, mountBanner } = await import('./demo.js');
+  await (demo.active ? demo.resume(siteInfo) : demo.enter(siteInfo));
+  mountBanner({
+    onReset: async () => { await demo.reset(siteInfo); indexCache.clear(); location.hash = '#/'; route(); toast('Back to the published site — your demo edits are gone.', 'success'); },
+    onExit: () => { demo.exit(); indexCache.clear(); route(); },
+  });
+}
+
 /** Confirm, then clear the stored credentials and return to the sign-in screen. */
 async function signOut() {
+  if (inDemo()) { (await import('./demo.js')).demo.exit(); indexCache.clear(); return route(); }
   if (await ask({ title: 'Sign out?', message: 'You’ll sign in again next time. Nothing is lost — your work lives in GitHub.', actions: [{ label: 'Stay', value: null }, { label: 'Sign out', value: true, kind: 'danger' }] })) { auth.clear(); route(); }
 }
 
@@ -40,10 +58,14 @@ function shell(active, ...content) {
       link('#/media', 'Media', 'media'),
       link('#/navigation', 'Navigation', 'navigation'),
       link('#/appearance', 'Appearance', 'appearance'),
+      link('#/plugins', 'Plugins', 'plugins'),
+      link('#/backend', 'Backend', 'backend'),
+      (siteInfo?.plugins || []).includes('feedback') ? link('#/feedback', 'Feedback', 'feedback') : null,
+      (siteInfo?.plugins || []).includes('sales-analytics') ? link('#/insights', 'Insights', 'insights') : null,
       link('#/settings', 'Settings', 'settings'),
       h('div', { class: 'sidebar-foot' },
         h('a', { href: siteInfo?.site.url || '/', target: '_blank', rel: 'noopener' }, 'View site ↗'),
-        h('button', { class: 'linklike signout', onclick: signOut }, `Sign out${auth.repo ? ` (${auth.repo})` : ''}`)),
+        h('button', { class: 'linklike signout', onclick: signOut }, inDemo() ? 'Exit demo' : `Sign out${auth.repo ? ` (${auth.repo})` : ''}`)),
     ),
     h('main', { class: 'screen' }, ...content),
   );
@@ -109,8 +131,22 @@ function signinScreen() {
         h('li', {}, 'Under “Permissions → Repository permissions”, set Contents to Read and write, and Actions to Read-only.'),
         h('li', {}, 'Generate, copy the token, and paste it above. You won’t need to do this again on this device.'))));
 
+  // A site with "demo": true offers the whole editor with no account at all
+  // (§8.6) — the first thing a visitor should be able to do is try it.
+  const demoButton = siteInfo?.site.demo ? h('div', { class: 'demo-offer' },
+    h('button', { class: 'primary', onclick: async (event) => {
+      event.target.disabled = true;
+      event.target.textContent = 'Setting up your demo…';
+      try { await enterDemo(); location.hash = '#/'; route(); }
+      catch (error) { event.target.disabled = false; event.target.textContent = 'Try the editor'; toast(error.message, 'error'); }
+    } }, 'Try the editor'),
+    h('p', { class: 'muted' }, 'No account, no sign-up. You get a copy of this site in your browser: write, publish, browse the history. Nothing you do here is saved anywhere.')) : null;
+
   return h('div', { class: 'signin' },
-    h('h1', {}, 'Welcome back'),
+    // "Welcome back" is right for the site's own writers; a first-time visitor
+    // (nobody has signed in on this device) is more likely here to look around.
+    h('h1', {}, auth.repo ? 'Welcome back' : siteInfo?.site.title || 'Welcome'),
+    demoButton,
     oauthUrl
       ? h('div', {}, h('p', {}, 'Sign in with your GitHub account to publish and manage content.'), ghButton,
           h('details', { class: 'token-alt' }, h('summary', {}, 'or use an access token'), tokenForm))
@@ -187,18 +223,48 @@ async function updateCard() {
     fetch(UPSTREAM_ENGINE).then((r) => (r.ok ? r.json() : null)).catch(() => null),
   ]);
   if (!here || !there || cmpVersion(there.version, here.version) <= 0) return null;
-  return h('section', { class: 'card update' },
+
+  const actions = h('p', { class: 'update-actions' });
+  const card = h('section', { class: 'card update' },
     h('h2', {}, `Update available — v${there.version}`),
     h('p', { class: 'muted' }, `You’re on v${here.version}. The update arrives as a pull request you can review, merge to apply, or revert to undo.`),
-    h('button', { class: 'primary', onclick: async (e) => {
-      e.target.disabled = true;
-      try { await dispatchWorkflow('update.yml'); toast('Preparing your update — a pull request will appear in a minute or two.', 'success'); }
-      catch (error) { toast(error.message, 'error'); e.target.disabled = false; }
-    } }, 'Prepare update'));
+    actions);
+
+  // Once the update.yml workflow has opened the PR, offer to finish it in one
+  // click when it's conflict-free — no trip to GitHub. Otherwise send them to review it.
+  const paint = async () => {
+    const pr = await updatePull().catch(() => null);
+    actions.replaceChildren();
+    if (!pr) {
+      actions.append(h('button', { class: 'primary', onclick: async (e) => {
+        e.target.disabled = true;
+        try { await dispatchWorkflow('update.yml'); toast('Preparing your update — the pull request appears in a minute or two.', 'success'); poll(); }
+        catch (error) { toast(error.message, 'error'); e.target.disabled = false; }
+      } }, 'Prepare update'));
+      return null;
+    }
+    const flagged = Number((pr.body?.match(/needs manual or AI merge \((\d+)\)/) || [])[1] ?? 0);
+    actions.append(h('a', { href: pr.html_url, target: '_blank', rel: 'noopener' }, 'Review the update'));
+    if (pr.mergeable !== false && flagged === 0) {
+      actions.append(h('button', { class: 'primary', onclick: async (e) => {
+        e.target.disabled = true; e.target.textContent = 'Upgrading…';
+        try { await mergePull(pr.number); toast('Upgrade complete — your site is rebuilding on the new version.', 'success'); card.remove(); }
+        catch (error) { toast(`Couldn’t merge automatically — open the update to finish it. (${error.message})`, 'error'); e.target.disabled = false; e.target.textContent = 'Complete upgrade now'; }
+      } }, 'Complete upgrade now'));
+    } else {
+      actions.append(h('span', { class: 'muted' }, flagged ? ` — it changes ${flagged} file${flagged > 1 ? 's' : ''} you’ve edited; review before merging.` : ' — review before merging.'));
+    }
+    return pr;
+  };
+  let tries = 0;
+  const poll = () => { if (++tries <= 10) setTimeout(async () => { if (!await paint()) poll(); }, 12000); };
+
+  await paint();
+  return card;
 }
 
 async function dashboardScreen() {
-  const cards = [await statusCard(), await updateCard(), await checklistCard()];
+  const cards = [await statusCard(), await updateCard(), await pluginUpdatesCard(), await checklistCard()];
   for (const [name, def] of Object.entries(siteInfo.collections)) cards.push(await collectionCard(name, def));
   return shell('dashboard',
     h('header', { class: 'screen-head' }, h('h1', {}, 'Dashboard')),
@@ -229,9 +295,8 @@ async function collectionScreen(name) {
 }
 
 async function navigationScreen() {
-  let sha = null;
   let entries = siteInfo?.navigation || [];
-  try { const file = await getFile('data/navigation.json'); entries = JSON.parse(file.text); sha = file.sha; } catch { /* file may not exist yet — start empty */ }
+  try { const file = await getFile('data/navigation.json'); entries = JSON.parse(file.text); } catch { /* file may not exist yet — start empty */ }
 
   const list = h('div', { class: 'nav-rows' });
   const rowFor = (entry) => {
@@ -249,10 +314,10 @@ async function navigationScreen() {
     const next = [...list.children].map((row) => ({ label: row.children[0].value.trim(), url: row.children[1].value.trim() }))
       .filter((e) => e.label && e.url);
     try {
-      const { commitSha } = await putFile('data/navigation.json', JSON.stringify(next, null, 2) + '\n', 'navigation: update menu', sha);
+      const { commitSha } = await updateFile('data/navigation.json', () => JSON.stringify(next, null, 2) + '\n', 'navigation: update menu');
       checklistState.set({ menu: true });
       toast('Menu saved — publishing now.', 'success');
-      watchBuild(commitSha, siteInfo?.site.url);
+      if (commitSha) watchBuild(commitSha, siteInfo?.site.url);
       route();
     } catch (error) { toast(error.message, 'error'); }
   }
@@ -266,7 +331,7 @@ async function navigationScreen() {
 }
 
 async function settingsScreen() {
-  const { text, sha } = await getFile('site.config.json');
+  const { text } = await getFile('site.config.json');
   const config = JSON.parse(text);
   const themes = (await listDir('themes')).filter((e) => e.type === 'dir').map((e) => e.name);
   const field = (label, input) => h('label', { class: 'field' }, label, input);
@@ -274,6 +339,7 @@ async function settingsScreen() {
   const description = h('input', { type: 'text', value: config.site.description || '' });
   const url = h('input', { type: 'text', value: config.site.url });
   const language = h('input', { type: 'text', value: config.site.language || 'en' });
+  const languages = h('input', { type: 'text', value: (config.site.languages || []).filter((l) => l !== (config.site.language || 'en')).join(' '), placeholder: 'de fr' });
   const theme = h('select', {}, themes.map((name) => h('option', { value: name, selected: name === config.site.theme ? '' : null }, name)));
   const footerFile = await getFile('data/footer.json').catch(() => ({ text: '{}', sha: undefined })); // may not exist yet
   const footer = h('input', { type: 'text', value: JSON.parse(footerFile.text).html || '', placeholder: 'Powered by <a href="…">…</a>' });
@@ -284,13 +350,26 @@ async function settingsScreen() {
   async function save() {
     aiSettings.key = aiKey.value.trim();      // stays on this device — never committed
     aiSettings.model = aiModel.value;
-    Object.assign(config.site, { title: title.value.trim(), description: description.value.trim(),
-      url: url.value.trim().replace(/\/$/, ''), language: language.value.trim() || 'en', theme: theme.value });
+    const defaultLang = language.value.trim() || 'en';
+    const extra = [...new Set(languages.value.trim().split(/[\s,]+/).map((c) => c.toLowerCase()).filter(Boolean))].filter((c) => c !== defaultLang);
+    const siteUrl = url.value.trim().replace(/\/$/, '');
+    const wantedFooter = footer.value.trim();
     try {
-      if (footer.value.trim() !== (JSON.parse(footerFile.text).html || '')) await putFile('data/footer.json', JSON.stringify({ html: footer.value.trim() }, null, 2) + '\n', 'settings: update footer', footerFile.sha);
-      const { commitSha } = await putFile('site.config.json', JSON.stringify(config, null, 2) + '\n', 'settings: update site settings', sha);
+      // Re-read + re-apply on each write, so enabling a plugin (or any other edit)
+      // between opening Settings and saving is preserved here, never clobbered.
+      const foot = await updateFile('data/footer.json', (text) =>
+        wantedFooter === (JSON.parse(text || '{}').html || '') ? text : JSON.stringify({ html: wantedFooter }, null, 2) + '\n',
+        'settings: update footer');
+      const { commitSha } = await updateFile('site.config.json', (text) => {
+        const cfg = JSON.parse(text);
+        Object.assign(cfg.site, { title: title.value.trim(), description: description.value.trim(),
+          url: siteUrl, language: defaultLang, theme: theme.value,
+          languages: extra.length ? [defaultLang, ...extra] : [] });
+        return JSON.stringify(cfg, null, 2) + '\n';
+      }, 'settings: update site settings');
       toast('Settings saved — publishing now.', 'success');
-      watchBuild(commitSha, config.site.url);
+      const built = commitSha || foot.commitSha;
+      if (built) watchBuild(built, siteUrl);
     } catch (error) { toast(error.message, 'error'); }
   }
 
@@ -302,8 +381,10 @@ async function settingsScreen() {
       field('One-line description', description),
       field('Site address (URL)', url),
       field('Language code', language),
+      field('Additional languages', languages),
       field('Theme', theme),
       field('Footer note (HTML, shown on every page)', footer)),
+    h('p', { class: 'muted' }, 'Add “Additional languages” (codes like de fr) to make the site multilingual: translations live in sibling files (about.de.md), the editor’s Translate button writes them, and the language-switcher plugin shows a footer switcher.'),
     h('hr'),
     h('h2', {}, 'AI assist'),
     h('p', { class: 'muted' }, 'Optional. Paste an Anthropic API key to enable the ✨ buttons in the editor. The key stays in this browser and is sent only to Anthropic.'),
@@ -323,6 +404,10 @@ const routes = {
   media: async () => shell('media', await mediaScreen()),
   navigation: navigationScreen,
   appearance: async () => shell('appearance', await appearanceScreen(siteInfo)),
+  plugins: async () => shell('plugins', await pluginsScreen(siteInfo)),
+  backend: async () => shell('backend', await backendScreen(siteInfo)),
+  feedback: () => shell('feedback', feedbackScreen(siteInfo)),
+  insights: () => shell('insights', insightsScreen(siteInfo)),
   settings: settingsScreen,
   welcome: () => wizardScreen(siteInfo, () => { location.hash = '#/'; route(); }),
 };
@@ -349,11 +434,15 @@ async function boot() {
     return show(h('div', { class: 'error-screen' }, h('h1', {}, 'The site hasn’t been built yet'),
       h('p', {}, 'The admin reads your site’s published data (api/site.json), which isn’t there yet. Once the first build finishes, reload this page.')));
   }
+  // "Try the editor" (§8.6): ?demo=1 drops a visitor straight in — that is the
+  // link to hand out — and a demo already running survives a reload of the tab.
+  if (siteInfo.site.demo && (new URLSearchParams(location.search).has('demo') || inDemo())) await enterDemo().catch(() => {});
   // First run (§8.5): the template placeholder title means a fresh install.
-  if (auth.signedIn && siteInfo.site.title === 'My Site' && !localStorage.getItem('plain.wizard')) {
+  if (auth.signedIn && !inDemo() && siteInfo.site.title === 'My Site' && !localStorage.getItem('plain.wizard')) {
     location.hash = '#/welcome';
   }
   window.addEventListener('hashchange', route);
+  window.addEventListener('plain:signed-out', route); // gh() fires this on a 401 (dead token) → back to sign-in
   route();
 }
 

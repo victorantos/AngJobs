@@ -1,0 +1,11 @@
+{
+  "title": "Alpha feature",
+  "order": "1",
+  "slug": "alpha",
+  "url": null,
+  "file": "content/features/alpha.md",
+  "collection": "features",
+  "body": "The **first** feature.\n",
+  "words": 3,
+  "content": "<p>The <strong>first</strong> feature.</p>\n"
+}

@@ -76,7 +76,8 @@ export async function mediaScreen() {
         .catch(() => thumb.replaceChildren('🖼'));
     }
     grid.append(h('figure', { class: 'media-item' }, thumb,
-      h('figcaption', {}, h('span', { class: 'media-name', title: file.path }, name), h('span', { class: 'muted' }, ` ${(file.size / 1024).toFixed(0)} KB`)),
+      h('figcaption', {}, h('span', { class: 'media-name', title: file.path }, name),
+        file.size ? h('span', { class: 'muted' }, ` ${(file.size / 1024).toFixed(0)} KB`) : null),
       h('button', { onclick: () => {
         navigator.clipboard.writeText(`/${file.path}`);
         toast('Path copied. When you place it, describe the image in the alt text — screen readers depend on it.');

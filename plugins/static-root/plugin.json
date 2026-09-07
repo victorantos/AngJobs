@@ -1,0 +1,7 @@
+{
+  "name": "static-root",
+  "version": "1.0.0",
+  "description": "Copies everything in the site's static/ folder into the root of the built site verbatim — for files that must live at the domain root, like search-engine verification files or .well-known/.",
+  "hooks": ["afterBuild"],
+  "options": { "dir": "static" }
+}

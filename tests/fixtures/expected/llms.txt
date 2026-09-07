@@ -8,6 +8,7 @@ All content is also machine-readable JSON under https://fixture.test/api/ (site.
 
 - [About](https://fixture.test/about/)
 - [Home](https://fixture.test/): The fixture home page.
+- [Promo Page](https://fixture.test/promo/): A landing page rendered by the per-page template override.
 
 ## Blog
 

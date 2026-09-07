@@ -22,6 +22,21 @@
       "body": "\nHello **home**. Visit the [blog](/blog/).\n",
       "words": 5,
       "content": "<p>Hello <strong>home</strong>. Visit the <a href=\"/blog/\">blog</a>.</p>\n"
+    },
+    {
+      "title": "Promo Page",
+      "description": "A landing page rendered by the per-page template override.",
+      "template": "landing",
+      "heroCtaLabel": "Buy now",
+      "heroCtaUrl": "https://example.test/buy",
+      "draft": false,
+      "slug": "promo",
+      "url": "/promo/",
+      "file": "content/pages/promo.md",
+      "collection": "pages",
+      "body": "Promo **body** copy.\n",
+      "words": 3,
+      "content": "<p>Promo <strong>body</strong> copy.</p>\n"
     }
   ]
 }
