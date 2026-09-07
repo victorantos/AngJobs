@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" role="img" aria-label="Codorex">
+  <rect width="100" height="100" fill="#0B1020"/>
+  <path d="M10 0H90V10H100V30H90V40H80V30H50V40H40V30H20V80H60V70H70V80H100V90H90V100H10V90H0V10H10Z" fill="#FFFFFF"/>
+  <rect x="20" y="10" width="10" height="10" fill="#FDE047"/>
+</svg>

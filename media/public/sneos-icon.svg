@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- SNEOS mark: six edges, one centre. Stroke and core are scaled up at
+       favicon size so the hexagon still reads as a hexagon in a browser tab. -->
+  <rect width="32" height="32" rx="7" fill="#0C1116"/>
+  <g transform="translate(4.5 4.5) scale(0.191667)">
+    <polygon points="60,10 103,35 103,85 60,110 17,85 17,35"
+             fill="none" stroke="#F5B335" stroke-width="9" stroke-linejoin="round"/>
+    <circle cx="60" cy="60" r="15" fill="#F5B335"/>
+  </g>
+</svg>

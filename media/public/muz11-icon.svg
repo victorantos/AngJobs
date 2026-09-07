@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Muz11 mark — Modernist system: accent square, zero radius, the "11"
+       flush bottom-left (the only part of the wordmark still legible at 16px).
+       Favicon renderers don't load webfonts, so the heaviest system sans
+       stands in for Archivo 800. -->
+  <rect width="64" height="64" fill="#ec3013"/>
+  <text x="6" y="60" font-family="Archivo, 'Arial Black', 'Helvetica Neue', Arial, sans-serif"
+        font-weight="900" font-size="40" letter-spacing="-2" fill="#f3f2f2">11</text>
+</svg>
