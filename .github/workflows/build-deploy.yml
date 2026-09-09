@@ -3,9 +3,12 @@
 
 name: Build and deploy
 
+# angjobs.com does not deploy to GitHub Pages — deploy-vps.yml ships it to its
+# own server. The engine installs this workflow by default; left on `push` it
+# would publish a second, stale copy of the site to Pages on every commit.
+# Kept rather than deleted so the updater treats it as locally modified
+# instead of restoring it on the next upgrade.
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
