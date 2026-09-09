@@ -97,6 +97,7 @@
   "services": {
     "backend": "https://backend.fixture.test"
   },
+  "adminScreens": [],
   "navigation": [
     {
       "label": "Home",

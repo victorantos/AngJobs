@@ -33,6 +33,11 @@ const ROOTS = ['lib', 'admin', 'tools', 'plugins', 'themes', 'migrations', '.git
 const ROOT_FILES = new Set(['build.js', 'package.json', 'site.config.json',
   'config.defaults.json', 'engine.json', 'CLAUDE.md', 'cms-spec.md', 'README.md']);
 
+// What the engine actually ships. A root file absent from it belongs to the
+// site (CLAUDE.md, site.config.json), and a site is free not to have one.
+const engineFiles = new Set(Object.keys(
+  JSON.parse(fs.readFileSync(path.join(root, 'engine.json'), 'utf8')).files));
+
 const skills = fs.readdirSync(skillsDir, { withFileTypes: true })
   .filter((entry) => entry.isDirectory())
   .map((entry) => {
@@ -79,7 +84,12 @@ test('every repo path a skill names still exists', () => {
       const candidate = span.replace(/\/$/, '');
       if (/[<>*…\s]/.test(candidate) || candidate.startsWith('/')) continue;  // placeholder, command, or a site URL
       const [head] = candidate.split('/');
-      const looksLikeRepoPath = ROOTS.includes(head) || (ROOT_FILES.has(candidate) && !candidate.includes('/'));
+      const isRootFile = ROOT_FILES.has(candidate) && !candidate.includes('/');
+      // Same reasoning as content/ above, for the root: a skill may name a
+      // user-owned file as guidance, and this test ships into every site. Only
+      // the files the engine itself installs can be promised to be there.
+      if (isRootFile && !engineFiles.has(candidate)) continue;
+      const looksLikeRepoPath = ROOTS.includes(head) || isRootFile;
       if (!looksLikeRepoPath || PLACEHOLDERS.has(candidate)) continue;
       assert.ok(fs.existsSync(path.join(root, candidate)),
         `${file}: names "${candidate}", which is not in the repo — fix the path or add it to PLACEHOLDERS`);

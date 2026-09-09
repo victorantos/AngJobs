@@ -36,7 +36,7 @@ export async function applyUpdate(localRoot, upstreamRoot, { run = true } = {}) 
   const readJson = (base, file) => JSON.parse(fs.readFileSync(path.join(base, file), 'utf8'));
   const installed = readJson(localRoot, 'engine.json');
   const target = readJson(upstreamRoot, 'engine.json');
-  const report = { from: installed.version, to: target.version, updated: [], added: [], flagged: [], removed: [], migrations: [], upToDate: false };
+  const report = { from: installed.version, to: target.version, updated: [], added: [], flagged: [], claimed: [], removed: [], migrations: [], upToDate: false };
 
   if (cmpVersion(target.version, installed.version) <= 0) { report.upToDate = true; return report; }
 
@@ -52,6 +52,13 @@ export async function applyUpdate(localRoot, upstreamRoot, { run = true } = {}) 
     const localHash = sha256(fs.readFileSync(localPath));
     if (localHash === targetHash) continue;                 // already identical
     if (localHash === installed.files[rel]) { write(rel); report.updated.push(rel); } // unmodified since install → safe to replace
+    // A release can bring a path under engine ownership that the site already
+    // has a copy of (tests/ did exactly this in 1.20.1). The installed manifest
+    // holds no hash for it, so "did the user modify this?" has no answer —
+    // there was no contract to modify against. Adopt upstream's copy, but list
+    // it apart from the routine updates so the diff gets read rather than
+    // waved through; reverting the PR puts the old file back (§14.5).
+    else if (!(rel in installed.files)) { write(rel); report.claimed.push(rel); }
     else report.flagged.push(rel);                          // user-modified → leave for manual/AI merge
   }
   // Engine files that upstream dropped, if the user never touched them.
@@ -94,6 +101,7 @@ ${list(r.updated)}
 ## Added (${r.added.length})
 ${list(r.added)}
 
+${r.claimed.length ? `## Newly engine-owned — upstream's copy taken (${r.claimed.length})\nThese were not engine-managed before v${r.to}. Review the diff; revert this PR to restore them.\n${list(r.claimed)}\n` : ''}
 ## Removed (${r.removed.length})
 ${list(r.removed)}
 

@@ -256,6 +256,9 @@ dialog.history { max-width: 34rem; width: 90vw; }
 .provenance a { color: inherit; }
 .badge.runs { color: var(--muted); }
 .badge.runs-build, .badge.runs-both { color: var(--accent); border-color: var(--accent); }
+/* An admin plugin runs beside a signed-in session, so its badge carries the
+   same weight as a warning rather than the accent used for build-time code. */
+.badge.runs-admin { color: var(--danger, #b3261e); border-color: var(--danger, #b3261e); }
 .plugin-note { margin: 0.5rem 0 1rem; padding: 0.6rem 0.9rem; font-size: 0.85rem; color: var(--muted); background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: var(--radius); }
 .plugin-hint { margin: 0.35rem 0 0; font-size: 0.85rem; color: var(--accent); }
 dialog.plugin-config { width: min(28rem, 92vw); }

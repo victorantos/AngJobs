@@ -68,6 +68,36 @@ test('replaces unmodified engine files, flags user-modified ones, runs migration
   fs.rmSync(tmp, { recursive: true, force: true });
 });
 
+// The 1.20.1 case: tests/ became engine-owned while sites already had their own
+// copy. The installed manifest has no hash for those paths, so the "did the user
+// touch this?" check has nothing to compare against — and left as a flag, every
+// site would keep a stale golden and fail its own deploy.
+test('adopts upstream copies of paths that only just became engine-owned', async () => {
+  const local = scaffold('local');
+  // A pre-existing file the old manifest never listed, at a path upstream now claims.
+  fs.mkdirSync(path.join(local, 'tests'), { recursive: true });
+  fs.writeFileSync(path.join(local, 'tests', 'golden.json'), '{"stale":true}\n');
+  manifest(local, '1.0.0');            // built before tests/ was engine-owned...
+  const installed = JSON.parse(fs.readFileSync(path.join(local, 'engine.json'), 'utf8'));
+  delete installed.files['tests/golden.json'];
+  fs.writeFileSync(path.join(local, 'engine.json'), JSON.stringify(installed, null, 2));
+
+  const upstream = scaffold('upstream');
+  fs.mkdirSync(path.join(upstream, 'tests'), { recursive: true });
+  fs.writeFileSync(path.join(upstream, 'tests', 'golden.json'), '{"stale":false}\n');
+  fs.writeFileSync(path.join(upstream, 'package.json'), JSON.stringify({ version: '1.1.0', type: 'module' }));
+  manifest(upstream, '1.1.0');
+
+  const report = await applyUpdate(local, upstream);
+
+  assert.ok(report.claimed.includes('tests/golden.json'), 'reported as newly engine-owned');
+  assert.ok(!report.flagged.includes('tests/golden.json'), 'not left as a manual merge');
+  assert.ok(!report.updated.includes('tests/golden.json'), 'listed apart from routine updates');
+  assert.equal(fs.readFileSync(path.join(local, 'tests', 'golden.json'), 'utf8'), '{"stale":false}\n');
+
+  fs.rmSync(tmp, { recursive: true, force: true });
+});
+
 test('does nothing when already up to date', async () => {
   const local = scaffold('local2');
   manifest(local, '1.2.0');

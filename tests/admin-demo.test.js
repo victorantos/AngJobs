@@ -21,13 +21,14 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(here, '..');
 
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'plain-demo-'));
-// Node <22.7 has no ESM syntax detection: without this the copied .js files
-// load as CommonJS and every `import` throws.
-fs.writeFileSync(path.join(tmp, 'package.json'), '{"type":"module"}\n');
 fs.mkdirSync(path.join(tmp, 'js'));
 fs.mkdirSync(path.join(tmp, 'lib'));
 for (const file of ['demo.js', 'github.js']) fs.copyFileSync(path.join(root, 'admin', 'js', file), path.join(tmp, 'js', file));
 for (const file of ['content.js', 'util.js']) fs.copyFileSync(path.join(root, 'lib', file), path.join(tmp, 'lib', file));
+// The temp dir sits outside the repo, so Node finds no package.json above it
+// and reads these .js files as CommonJS — the ESM imports then throw before a
+// single assertion runs. Declare the module type where the copies live.
+fs.writeFileSync(path.join(tmp, 'package.json'), '{"type":"module"}\n');
 
 const store = new Map();
 globalThis.sessionStorage = {
