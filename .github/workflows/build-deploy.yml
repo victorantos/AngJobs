@@ -1,0 +1,48 @@
+# Build the site and deploy dist/ to GitHub Pages on every push to main.
+# One-time setup: repo Settings → Pages → Source: "GitHub Actions".
+
+name: Build and deploy
+
+# angjobs.com does not deploy to GitHub Pages — deploy-vps.yml ships it to its
+# own server. The engine installs this workflow by default; left on `push` it
+# would publish a second, stale copy of the site to Pages on every commit.
+# Kept rather than deleted so the updater treats it as locally modified
+# instead of restoring it on the next upgrade.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: node build.js
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

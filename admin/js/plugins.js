@@ -11,7 +11,7 @@ import { h, toast, ask, modal, watchBuild } from './ui.js';
 
 export const REGISTRY_REPO = 'plain-cms/plugins';
 const ENGINE_REPO = 'plain-cms/plain';
-const RUNS = { client: 'client-only', build: 'build-time', both: 'build + client' };
+const RUNS = { client: 'client-only', build: 'build-time', both: 'build + client', admin: 'in this admin' };
 const refresh = () => setTimeout(() => dispatchEvent(new HashChangeEvent('hashchange')), 700);
 
 /** A plugin's files from the registry as commitFiles entries under plugins/<id>/, plus its manifest.
@@ -166,8 +166,10 @@ function registrySection(siteInfo, installed, registry) {
 /** Copy the plugin into plugins/<id>/ and enable it in site.config.json — one commit. */
 async function installPlugin(entry, siteInfo, button) {
   const runs = RUNS[entry.runsAt] || 'code';
-  if (!await ask({ title: `Install ${entry.title || entry.id}?`,
-    message: `This copies the plugin into your repository and turns it on. It runs ${runs} on your site — you can remove it anytime.`,
+  const message = entry.runsAt === 'admin'
+    ? `This copies the plugin into your repository and turns it on. It adds a screen that runs code inside this admin, while you are signed in — install it only if you trust ${entry.author || 'its author'}. You can remove it anytime.`
+    : `This copies the plugin into your repository and turns it on. It runs ${runs} on your site — you can remove it anytime.`;
+  if (!await ask({ title: `Install ${entry.title || entry.id}?`, message,
     actions: [{ label: 'Cancel', value: null }, { label: 'Install', value: true, kind: 'primary' }] })) return;
   button.disabled = true;
   try {

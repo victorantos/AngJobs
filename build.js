@@ -14,7 +14,7 @@ import { renderMarkdown } from './lib/markdown.js';
 import { makeItem, sortItems, validateConfig, ContentError } from './lib/content.js';
 import { activeLanguages, splitLangSuffix, stringsFor, localizedCollections, localizedNav } from './lib/i18n.js';
 import { sitemapXml, rssXml, robotsTxt, redirectsFile, redirectHtml, apiFiles, searchIndex, llmsTxt } from './lib/outputs.js';
-import { loadPlugins, runHook, runRenderHook, clientAssets } from './lib/plugins.js';
+import { loadPlugins, runHook, runRenderHook, clientAssets, adminScreens } from './lib/plugins.js';
 
 /** Scan every collection folder on disk into validated, sorted items. Drafts are
     excluded. Translations (about.fr.md, §5.4) load beside their default items. */
@@ -276,7 +276,7 @@ export async function build({ root = process.cwd(), outDir, quiet = false } = {}
   for (const feed of feeds) {
     files.set(path.join(feed.feedUrl.slice(1)), rssXml(site, feed.feedUrl, feed.listUrl, collections[feed.name]));
   }
-  for (const [file, json] of apiFiles(config, data, collections, translations)) files.set(file, json);
+  for (const [file, json] of apiFiles(config, data, collections, translations, adminScreens(plugins))) files.set(file, json);
   files.set('search-index.json', searchIndex(collections, translations));
   files.set('llms.txt', llmsTxt(config, collections));
 

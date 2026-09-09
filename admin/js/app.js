@@ -11,7 +11,7 @@ import { aiSettings } from './ai.js';
 import { appearanceScreen } from './appearance.js';
 import { pluginsScreen, pluginUpdatesCard } from './plugins.js';
 import { backendScreen } from './backend.js';
-import { feedbackScreen, insightsScreen } from './backend-data.js';
+import { dataScreen, apiFetch } from './backend-data.js';
 import { wizardScreen } from './wizard.js';
 
 let siteInfo = null;             // parsed /api/site.json (schema + site block)
@@ -60,8 +60,7 @@ function shell(active, ...content) {
       link('#/appearance', 'Appearance', 'appearance'),
       link('#/plugins', 'Plugins', 'plugins'),
       link('#/backend', 'Backend', 'backend'),
-      (siteInfo?.plugins || []).includes('feedback') ? link('#/feedback', 'Feedback', 'feedback') : null,
-      (siteInfo?.plugins || []).includes('sales-analytics') ? link('#/insights', 'Insights', 'insights') : null,
+      (siteInfo?.adminScreens || []).map((s) => link(`#/${s.id}`, s.label, s.id)),
       link('#/settings', 'Settings', 'settings'),
       h('div', { class: 'sidebar-foot' },
         h('a', { href: siteInfo?.site.url || '/', target: '_blank', rel: 'noopener' }, 'View site ↗'),
@@ -406,20 +405,42 @@ const routes = {
   appearance: async () => shell('appearance', await appearanceScreen(siteInfo)),
   plugins: async () => shell('plugins', await pluginsScreen(siteInfo)),
   backend: async () => shell('backend', await backendScreen(siteInfo)),
-  feedback: () => shell('feedback', feedbackScreen(siteInfo)),
-  insights: () => shell('insights', insightsScreen(siteInfo)),
   settings: settingsScreen,
   welcome: () => wizardScreen(siteInfo, () => { location.hash = '#/'; route(); }),
 };
+
+/**
+ * Open a screen contributed by a plugin (§9 admin surface).
+ *
+ * The plugin's module is imported only when its screen is first opened, and is
+ * handed a context rather than importing from `admin/` — so a plugin never
+ * depends on where the admin's files live, and never receives the GitHub token
+ * directly. `dataScreen` uses it on the plugin's behalf.
+ */
+async function pluginScreen(entry) {
+  const module = await import(entry.module);
+  const screen = module.default?.screens?.[entry.id];
+  if (typeof screen !== 'function') {
+    throw new Error(`The "${entry.plugin}" plugin declares the "${entry.id}" screen but its module doesn't export one.`);
+  }
+  return shell(entry.id, await screen({
+    h,
+    siteInfo,
+    dataScreen: (spec) => dataScreen(siteInfo, spec),
+    apiFetch: (path, init) => apiFetch(siteInfo, path, init),
+    options: (siteInfo?.pluginOptions || {})[entry.plugin] || {},
+  }));
+}
 
 async function route() {
   if (!auth.signedIn) return show(signinScreen());
   const [head, ...rest] = location.hash.replace(/^#\/?/, '').split('/').map(decodeURIComponent);
   const screen = routes[head || ''];
-  if (!screen) { location.hash = '#/'; return; }
+  const plugin = screen ? null : (siteInfo?.adminScreens || []).find((s) => s.id === head);
+  if (!screen && !plugin) { location.hash = '#/'; return; }
   show(h('p', { class: 'loading' }, 'Loading…'));
   try {
-    show(await screen(...rest));
+    show(plugin ? await pluginScreen(plugin) : await screen(...rest));
   } catch (error) {
     show(shell('', h('div', { class: 'error-screen' },
       h('h1', {}, 'Something went wrong'),

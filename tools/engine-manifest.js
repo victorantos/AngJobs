@@ -23,7 +23,12 @@ export const ENGINE_FILES = ['build.js', 'config.defaults.json', 'package.json',
   '.claude/settings.json'];
 // .claude/skills only — never all of .claude/, so a user's own skills and their
 // gitignored settings.local.json stay theirs.
-export const ENGINE_DIRS = ['.claude/skills', 'lib', 'admin', 'tools', 'migrations',
+// `tests` is engine-owned for the same reason `lib` is: the goldens assert what
+// build.js emits, so shipping one without the other strands every downstream
+// site the moment the engine's output changes. That is not hypothetical —
+// adding `adminScreens` to api/site.json broke `npm test`, and therefore the
+// deploy, on a site whose build-deploy runs the suite.
+export const ENGINE_DIRS = ['.claude/skills', 'lib', 'admin', 'tools', 'migrations', 'tests',
   'themes/default', 'plugins/search', 'plugins/contact-form', 'plugins/reading-time',
   'plugins/api-form', 'plugins/goatcounter', 'plugins/reset-sw', 'plugins/language-switcher',
   'plugins/sales-analytics', 'plugins/feedback', 'plugins/static-root'];
