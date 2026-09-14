@@ -1,8 +1,9 @@
 {
   "name": "stamp",
   "version": "1.0.0",
-  "description": "Fixture plugin exercising every hook + client asset injection.",
+  "description": "Fixture plugin exercising every hook + client asset injection + an admin screen.",
   "hooks": ["init", "transformContent", "renderPage", "afterBuild"],
   "client": { "js": "client.js", "css": "client.css" },
+  "admin": { "js": "admin.js", "screens": [{ "id": "stamp", "label": "Stamp" }] },
   "options": { "note": "default-note", "unchanged": "keep" }
 }
