@@ -37,7 +37,8 @@ test('renderPage hooks chain, each receiving the previous HTML', async () => {
 test('clientAssets builds injection HTML in config order and exposes options', async () => {
   const plugins = await loadPlugins(fixtureRoot, { plugins: ['stamp'] });
   const { copies, head, body } = clientAssets(plugins);
-  assert.deepEqual(copies.map((c) => c.to), ['plugins/stamp/client.js', 'plugins/stamp/client.css']);
+  // The admin module is copied the same way but injected nowhere — the admin imports it on demand.
+  assert.deepEqual(copies.map((c) => c.to), ['plugins/stamp/client.js', 'plugins/stamp/client.css', 'plugins/stamp/admin.js']);
   assert.match(head, /<link rel="stylesheet" href="\/plugins\/stamp\/client.css">/);
   assert.match(head, /"note":"default-note"/); // options JSON for client code
   assert.match(body, /<script type="module" src="\/plugins\/stamp\/client.js"><\/script>/);
