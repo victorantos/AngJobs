@@ -192,7 +192,7 @@ export default {
     if (page.collection !== (options.collection || 'jobs')) return;
     const posting = jobPosting(page, {
       siteUrl: String(site.config.site.url || '').replace(/\/$/, ''),
-      validDays: Number(options.validDays) || 60,
+      validDays: Number(options.validDays) || 90,
     });
     if (!posting) return;
     // "<" escaped so post text can never close the script element.

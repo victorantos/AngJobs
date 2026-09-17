@@ -3,5 +3,5 @@
   "version": "1.0.0",
   "description": "Adds schema.org JobPosting structured data (Google for Jobs) to job pages whose HN post names a single role, a country, and a way to apply.",
   "hooks": ["renderPage"],
-  "options": { "collection": "jobs", "validDays": 60 }
+  "options": { "collection": "jobs", "validDays": 90 }
 }
