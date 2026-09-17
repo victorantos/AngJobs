@@ -85,7 +85,8 @@
     "search",
     "api-form",
     "goatcounter",
-    "static-root"
+    "static-root",
+    "job-posting"
   ],
   "pluginOptions": {
     "api-form": {
