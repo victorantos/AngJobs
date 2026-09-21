@@ -21,5 +21,7 @@ Process is screen with me, a take-home that runs about 75 mins, technical round 
 
 Our ATS forces us to list specific countries but we hire from anywhere as long as you can do EST hours, so apply even if yours isn&#x27;t on there.
 
-Apply at the link and mention HN somewhere, in your pitch or wherever it fits. I&#x27;m João Pedro, I read all of them. joao.pedro@searchatlas.com if you need me, though the link&#x27;s faster.
+Apply at the link and mention HN somewhere, in your pitch or wherever it fits. I&#x27;m João Pedro, I read all of your emails. joao.pedro@searchatlas.com if you need me, though the link&#x27;s faster.
+
+P.S: If you&#x27;re not a PM, you can still reach out, explain your role briefly and I can redirect you to an appropriate role, or you could just check out our careers page and apply directly to the role that suits you best (preferred method).
 [[form:apply]]

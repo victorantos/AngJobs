@@ -15,8 +15,7 @@ Category Labs (formerly known as Monad Labs) is a team of systems engineers and 
 
 We’re the team behind Monad, a high-performance, EVM-compatible Layer 1 whose public mainnet is now live. We write the core software that runs it: a parallel-execution EVM, a custom state database, and a BFT consensus client, all developed in the open.
 
-A note on hiring:
-Recruiting outreach from Category Labs will always come from a @category.xyz email address. We currently don&#x27;t work with external or third-party recruiters, so anyone claiming to recruit for Category Labs from another company isn&#x27;t legitimate. If someone reaches out about a role, check their email address and confirm the role on our Careers Page: www.category.xyz&#x2F;category-careers. Please report anything suspicious to recruiting@category.xyz.
+Recruiting outreach from Category Labs will always come from a @category.xyz email address. We currently don&#x27;t work with external or third-party recruiters, so anyone claiming to recruit for Category Labs from another company isn&#x27;t legitimate. If someone reaches out about a role, check their email address and confirm the role on our Careers Page: www.category.xyz&#x2F;category-careers.
 
 Senior DevOps &#x2F; Infrastructure Engineer: <a href="https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;category-labs&#x2F;55b5fe17-e7b4-4679-b446-70e434a47405" rel="nofollow">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;category-labs&#x2F;55b5fe17-e7b4-4679-b4...</a>
 

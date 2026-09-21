@@ -1,7 +1,7 @@
 ---
-title: "FlixTrain : Onboard Telecom Technology Manager"
+title: "FlixTrain : Technical Expert Onboard Connectivity"
 date: 2026-09-01
-description: FlixTrain - Onboard Telecom Technology Manager - Berlin, Germany - ONSITE (hybrid) - Full-time FlixTrain is on a mission to make long-distance rail travel…
+description: FlixTrain - Technical Expert Onboard Connectivity - Berlin, Germany - ONSITE (hybrid) - Full-time FlixTrain is on a mission to make long-distance rail…
 author: frazar0
 authorUrl: https://news.ycombinator.com/item?id=49529015
 byline: frazar0
@@ -9,7 +9,7 @@ section: september-2026
 tags:
   - september-2026
 ---
-FlixTrain - Onboard Telecom Technology Manager - Berlin, Germany - ONSITE (hybrid) - Full-time
+FlixTrain - Technical Expert Onboard Connectivity - Berlin, Germany - ONSITE (hybrid) - Full-time
 
 FlixTrain is on a mission to make long-distance rail travel affordable and sustainable across Europe. Every passenger we shift to rail matters, and the onboard connectivity is a key part of what makes people switch.
 

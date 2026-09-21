@@ -25,5 +25,5 @@ Comp: $250k+ base, meaningful seed-stage equity, 5% 401(k) match, full health co
 
 Onsite in SF. Visa sponsorship: yes.
 
-Email vishal@balerion.ai with &quot;HN&quot; in the subject, plus a resume or GitHub.
+Email hiring@balerion.ai with &quot;HN&quot; in the subject, plus a resume or GitHub.
 [[form:apply]]

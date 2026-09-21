@@ -18,5 +18,6 @@ No on-call rotation today — it&#x27;s the founders and whoever last touched it
 4+ years production infra, Kubernetes past the tutorial, AWS and&#x2F;or GCP at depth. The rest is on the page, including the open problems that don&#x27;t flatter us. I&#x27;m a co-founder — ask me anything here.
 
 You can apply at: <a href="https:&#x2F;&#x2F;www.supero.dev&#x2F;careers&#x2F;cloud-platform-engineer&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.supero.dev&#x2F;careers&#x2F;cloud-platform-engineer&#x2F;</a>
+
 Intern Position: <a href="https:&#x2F;&#x2F;www.supero.dev&#x2F;careers&#x2F;software-engineer-intern&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.supero.dev&#x2F;careers&#x2F;software-engineer-intern&#x2F;</a>
 [[form:apply]]

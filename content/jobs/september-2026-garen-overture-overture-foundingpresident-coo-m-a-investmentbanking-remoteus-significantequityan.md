@@ -1,7 +1,7 @@
 ---
 title: "Overture : Founding President/COO, M&A / Investment Banking"
 date: 2026-09-01
-description: Overture - Founding President/COO, M&A / Investment Banking - REMOTE (US) - Significant equity Overture is a vertically integrated, AI-native marketplace…
+description: Overture - Founding President/COO, M&A / Investment Banking - REMOTE (US) - Significant equity and commission Overture is a vertically integrated,…
 author: garen_overture
 authorUrl: https://news.ycombinator.com/item?id=49525418
 byline: garen_overture
@@ -9,7 +9,7 @@ section: september-2026
 tags:
   - september-2026
 ---
-Overture - Founding President&#x2F;COO, M&amp;A &#x2F; Investment Banking - REMOTE (US) - Significant equity
+Overture - Founding President&#x2F;COO, M&amp;A &#x2F; Investment Banking - REMOTE (US) - Significant equity and commission
 
 Overture is a vertically integrated, AI-native marketplace for SME acquisitions with listing, valuation, deal rooms, SBA pre-qualification, and capital formation end-to-end. Think TurboTax of business exits, aimed at the baby boomer succession wave (millions of businesses, most with no succession plan).
 

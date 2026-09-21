@@ -33,5 +33,5 @@ We&#x27;re particularly interested in someone who has owned architecture end-to-
 
 This is a fractional role (~10–15 hrs&#x2F;wk), compensated with equity plus discretionary cash. It&#x27;s a fit if you want the opportunity to be an early technical team member without a traditional full-time commitment. We&#x27;re early-stage and moving fast, so you don&#x27;t need to check every box, we&#x27;re looking for someone curious, adaptable, and excited to build with us.
 
-If interested, email team[at]duetsnetwork[dot]com with &quot;Founding Engineer&quot; in the subject line.
+If interested, email team[at]duets[dot]network[dot]com with &quot;Founding Engineer&quot; in the subject line.
 [[form:apply]]
