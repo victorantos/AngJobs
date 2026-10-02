@@ -1,5 +1,5 @@
 ---
-title: "whitecircle.com&#x2F"
+title: "whitecircle.com/careers, we're building the most advanced AI safety infra,"
 date: 2026-10-01
 description: whitecircle.com/careers, we're building the most advanced AI safety infra, raised roughly $70m in total, join us
 author: mixeden
