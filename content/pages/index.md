@@ -123,7 +123,7 @@ html[data-theme="dark"] {
   <div class="home-jobs-grid">
     <a href="/jobs/tag/october-2026/" class="home-jobs-card">
       <span class="home-jobs-month">October 2026</span>
-      <span class="home-jobs-count">139+</span>
+      <span class="home-jobs-count">140+</span>
       <span class="home-jobs-label">jobs available</span>
     </a>
     <a href="/jobs/tag/september-2026/" class="home-jobs-card">
