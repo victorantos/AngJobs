@@ -19,4 +19,6 @@ Staff&#x2F;Principal AI Software Engineer (Python, RAG, LLM platforms): <a href=
 Staff&#x2F;Principal Backend Software Engineer (JVM, Postgres): <a href="https:&#x2F;&#x2F;apply.workable.com&#x2F;seeq&#x2F;j&#x2F;CD7BA6EE7B&#x2F;" rel="nofollow">https:&#x2F;&#x2F;apply.workable.com&#x2F;seeq&#x2F;j&#x2F;CD7BA6EE7B&#x2F;</a>
 
 Senior Full-Stack (React, JVM, Postgres): <a href="https:&#x2F;&#x2F;apply.workable.com&#x2F;seeq&#x2F;j&#x2F;763AE68666&#x2F;" rel="nofollow">https:&#x2F;&#x2F;apply.workable.com&#x2F;seeq&#x2F;j&#x2F;763AE68666&#x2F;</a>
+
+Staff Developer Experience (Java, Infrastructure, Gradle): <a href="https:&#x2F;&#x2F;apply.workable.com&#x2F;seeq&#x2F;j&#x2F;A966C8897D&#x2F;" rel="nofollow">https:&#x2F;&#x2F;apply.workable.com&#x2F;seeq&#x2F;j&#x2F;A966C8897D&#x2F;</a>
 [[form:apply]]

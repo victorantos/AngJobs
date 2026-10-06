@@ -1,7 +1,7 @@
 ---
 title: "Metcor : AI Engineer"
 date: 2026-10-01
-description: Metcor - AI Engineer - London, UK - onsite - £120k You will re-shape how real engineering work gets done at the UK's leading facilities management…
+description: Metcor - AI Engineer - London, UK - hybrid - £120k You will re-shape how real engineering work gets done at the UK's leading facilities management…
 author: janosch_123
 authorUrl: https://news.ycombinator.com/item?id=49930470
 byline: janosch_123
@@ -9,7 +9,7 @@ section: october-2026
 tags:
   - october-2026
 ---
-Metcor - AI Engineer - London, UK - onsite - £120k
+Metcor - AI Engineer - London, UK - hybrid - £120k
 
 <a href="https:&#x2F;&#x2F;metcor.co.uk" rel="nofollow">https:&#x2F;&#x2F;metcor.co.uk</a>
 

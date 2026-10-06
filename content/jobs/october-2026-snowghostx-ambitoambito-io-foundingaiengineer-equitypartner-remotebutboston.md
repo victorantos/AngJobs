@@ -1,7 +1,7 @@
 ---
-title: "Ambito (ambito.io) — Founding AI Engineer / Equity Partner — Remote"
+title: "Ambito (ambito.io) — Founding AI Engineer / Equity Partner — Remote but Boston"
 date: 2026-10-01
-description: Ambito (ambito.io) — Founding AI Engineer / Equity Partner — Remote Ambito is a CRM-connected QBR generator for B2B sales teams. The product is live, with…
+description: Ambito (ambito.io) — Founding AI Engineer / Equity Partner — Remote but Boston based only Ambito is a CRM-connected QBR generator for B2B sales teams. The…
 author: snowghostx
 authorUrl: https://news.ycombinator.com/item?id=49929368
 byline: snowghostx
@@ -9,7 +9,7 @@ section: october-2026
 tags:
   - october-2026
 ---
-Ambito (ambito.io) — Founding AI Engineer &#x2F; Equity Partner — Remote
+Ambito (ambito.io) — Founding AI Engineer &#x2F; Equity Partner — Remote but Boston based only
 
 Ambito is a CRM-connected QBR generator for B2B sales teams. The product is live, with the sales module, template engine, and CRM integrations already built.
 

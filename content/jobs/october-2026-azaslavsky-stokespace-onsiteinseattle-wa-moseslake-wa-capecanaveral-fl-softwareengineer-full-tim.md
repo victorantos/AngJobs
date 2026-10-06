@@ -17,5 +17,5 @@ Technologies: The team I&#x27;m on, Vehicle Software, makes a full in house cont
 
 Roles: For full-time, we are currently hiring for a Rust-based controls engineer, a front-end engineer with experience in the stack above, and a strong software engineer with interest in working in both Rust and LabVIEW. We are also hiring software integration engineers in Kent and Moses Lake. On the intern side, we are currently looking for talented interns for our summer and fall 2027 classes (~14 week terms from March to September).
 
-Apply at <a href="https:&#x2F;&#x2F;www.stokespace.com&#x2F;open-roles?department=Software" rel="nofollow">https:&#x2F;&#x2F;www.stokespace.com&#x2F;open-roles?department=Software</a>, and feel free to DM me with questions!
+Apply at <a href="https:&#x2F;&#x2F;www.stokespace.com&#x2F;open-roles?department=Software" rel="nofollow">https:&#x2F;&#x2F;www.stokespace.com&#x2F;open-roles?department=Software</a>
 [[form:apply]]

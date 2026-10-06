@@ -27,7 +27,7 @@ The rest of the team you&#x27;d work with lives mostly in Canada, EU, US.
 
 [3] <a href="https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Very_long_instruction_word" rel="nofollow">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Very_long_instruction_word</a>
 
-[4] <a href="https:&#x2F;&#x2F;foundation.llvm.org&#x2F;docs&#x2F;sponsors&#x2F;" rel="nofollow">https:&#x2F;&#x2F;foundation.llvm.org&#x2F;docs&#x2F;sponsors&#x2F;</a>
+[4] <a href="https:&#x2F;&#x2F;foundation.llvm.org&#x2F;sponsors&#x2F;" rel="nofollow">https:&#x2F;&#x2F;foundation.llvm.org&#x2F;sponsors&#x2F;</a>
 
 [5] <a href="https:&#x2F;&#x2F;www.linuxfoundation.org&#x2F;our-members-are-our-superpower-2&#x2F;" rel="nofollow">https:&#x2F;&#x2F;www.linuxfoundation.org&#x2F;our-members-are-our-superpow...</a>
 [[form:apply]]
