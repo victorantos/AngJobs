@@ -44,10 +44,21 @@ test('fixture site builds to exactly the expected files', async () => {
 
   assert.equal(report.draftCount, 1, 'the draft post must be skipped');
 
+
   // §10.5: customizer tokens from config.theme.tokens are injected after the
   // theme CSS, so theme upgrades never overwrite user tweaks.
   const home = fs.readFileSync(path.join(outDir, 'index.html'), 'utf8');
   assert.match(home, /<style id="theme-tokens">:root\{--color-accent:#c0ffee;--measure:70ch\}<\/style>/);
+
+  // §6: a plugin's admin module is reached from api/site.json, not from HTML,
+  // so the HTML pass above never sees it. Version it there too — unversioned,
+  // it is the one asset a deploy cannot refresh without a manual hard refresh.
+  const site = JSON.parse(fs.readFileSync(path.join(outDir, 'api/site.json'), 'utf8'));
+  const version = home.match(/\?v=([0-9a-f]{8})/)?.[1];
+  assert.ok(version, 'the home page carries a cache-bust version');
+  assert.deepEqual(site.adminScreens.map((s) => s.module), [`/plugins/stamp/admin.js?v=${version}`],
+    'a plugin admin module is stamped with the same version as every other asset');
+
 
   fs.rmSync(outDir, { recursive: true, force: true });
 });
