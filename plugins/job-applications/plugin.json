@@ -1,0 +1,11 @@
+{
+  "name": "job-applications",
+  "version": "1.0.0",
+  "description": "An admin inbox for applications sent from job pages: review each one, then forward it to the job poster by email (Amazon SES, via the site's backend).",
+  "options": { "service": "backend", "apiPath": "/angjobs/applications", "collection": "jobs" },
+  "note": "Needs a `services` backend with the /angjobs/applications endpoints (Victorantos-API, Endpoints/AngJobsEndpoints.cs), in GitHub mode (push access to this repo).",
+  "admin": {
+    "js": "admin.js",
+    "screens": [{ "id": "applications", "label": "Applications" }]
+  }
+}

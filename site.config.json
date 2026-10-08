@@ -86,7 +86,8 @@
     "api-form",
     "goatcounter",
     "static-root",
-    "job-posting"
+    "job-posting",
+    "job-applications"
   ],
   "pluginOptions": {
     "api-form": {
@@ -120,7 +121,7 @@
             "source": "{page.authorUrl}",
             "author": "{page.author}"
           },
-          "success": "Application sent — the job poster will receive it by email."
+          "success": "Application received — we’ll forward it to the job poster by email. Replies come straight to you."
         }
       }
     },
