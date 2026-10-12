@@ -341,6 +341,20 @@ function stampCacheBust(outDir) {
     // Static imports and the one dynamic import (the demo module, loaded on demand).
     : s.replace(/(\b(?:from|import)\s*\(?\s*["'])((?:\.\.?\/)[^"']+\.js)(["'])/g, `$1$2?v=${v}$3`);
   for (const p of files) if (p.endsWith('.html') || (p.includes(`${path.sep}admin${path.sep}`) && p.endsWith('.js'))) fs.writeFileSync(p, bust(fs.readFileSync(p, 'utf8'), p));
+
+  // A plugin's admin module (§9) is the one script URL that reaches a browser
+  // from JSON rather than from HTML: the admin imports it on demand, by the URL
+  // in api/site.json. Everything above misses it, which left it the single
+  // asset a deploy could not refresh — a CDN or browser could serve the old
+  // module for as long as its TTL, and only a manual hard refresh fixed that.
+  const siteApi = path.join(outDir, 'api', 'site.json');
+  if (fs.existsSync(siteApi)) {
+    const site = JSON.parse(fs.readFileSync(siteApi, 'utf8'));
+    if (site.adminScreens?.length) {
+      for (const screen of site.adminScreens) screen.module = `${screen.module}?v=${v}`;
+      fs.writeFileSync(siteApi, JSON.stringify(site, null, 2) + '\n');
+    }
+  }
 }
 
 function printReport(report, outDir) {

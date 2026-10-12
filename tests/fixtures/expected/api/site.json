@@ -97,7 +97,14 @@
   "services": {
     "backend": "https://backend.fixture.test"
   },
-  "adminScreens": [],
+  "adminScreens": [
+    {
+      "plugin": "stamp",
+      "module": "/plugins/stamp/admin.js?v=a47195c0",
+      "id": "stamp",
+      "label": "Stamp"
+    }
+  ],
   "navigation": [
     {
       "label": "Home",
