@@ -5,7 +5,7 @@
     "languages": [],
     "theme": "default"
   },
-  "plugins": ["search", "language-switcher"],
+  "plugins": ["search", "language-switcher", "structured-data"],
   "pluginOptions": {},
   "services": {}
 }

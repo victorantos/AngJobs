@@ -1,0 +1,7 @@
+{
+  "name": "structured-data",
+  "version": "1.0.0",
+  "description": "Schema.org JSON-LD in every page's head — the site, the page in its language, dated items as articles, and who publishes them. Inline at build time: no request, no script run.",
+  "hooks": ["renderPage"],
+  "options": { "publisher": {} }
+}

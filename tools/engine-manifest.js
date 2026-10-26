@@ -31,7 +31,7 @@ export const ENGINE_FILES = ['build.js', 'config.defaults.json', 'package.json',
 export const ENGINE_DIRS = ['.claude/skills', 'lib', 'admin', 'tools', 'migrations', 'tests',
   'themes/default', 'plugins/search', 'plugins/contact-form', 'plugins/reading-time',
   'plugins/api-form', 'plugins/goatcounter', 'plugins/reset-sw', 'plugins/language-switcher',
-  'plugins/sales-analytics', 'plugins/feedback', 'plugins/static-root'];
+  'plugins/sales-analytics', 'plugins/feedback', 'plugins/static-root', 'plugins/structured-data'];
 
 /** Every engine-owned file path (repo-relative, POSIX separators), sorted. */
 export function engineFiles(base = root) {
