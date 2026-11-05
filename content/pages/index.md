@@ -113,7 +113,7 @@ html[data-theme="dark"] {
   <h1>Tech Jobs from Hacker News</h1>
   <p>Verified opportunities from the monthly "Who is hiring?" threads — posted by founders and hiring managers directly. No middlemen.</p>
   <p class="home-hero-actions">
-    <a class="home-hero-button" href="/jobs/tag/october-2026/">October 2026 jobs</a>
+    <a class="home-hero-button" href="/jobs/tag/november-2026/">November 2026 jobs</a>
     <a class="home-hero-button home-hero-button--secondary" href="/jobs/">Browse all jobs</a>
   </p>
 </header>
@@ -121,6 +121,11 @@ html[data-theme="dark"] {
 <div class="home-jobs-section">
   <h2 class="home-jobs-title">Latest Jobs</h2>
   <div class="home-jobs-grid">
+    <a href="/jobs/tag/november-2026/" class="home-jobs-card">
+      <span class="home-jobs-month">November 2026</span>
+      <span class="home-jobs-count">178+</span>
+      <span class="home-jobs-label">jobs available</span>
+    </a>
     <a href="/jobs/tag/october-2026/" class="home-jobs-card">
       <span class="home-jobs-month">October 2026</span>
       <span class="home-jobs-count">222+</span>
@@ -129,11 +134,6 @@ html[data-theme="dark"] {
     <a href="/jobs/tag/september-2026/" class="home-jobs-card">
       <span class="home-jobs-month">September 2026</span>
       <span class="home-jobs-count">266+</span>
-      <span class="home-jobs-label">jobs available</span>
-    </a>
-    <a href="/jobs/tag/august-2026/" class="home-jobs-card">
-      <span class="home-jobs-month">August 2026</span>
-      <span class="home-jobs-count">241+</span>
       <span class="home-jobs-label">jobs available</span>
     </a>
   </div>

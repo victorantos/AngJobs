@@ -69,7 +69,7 @@ Spotted a typo or a dead listing? Same flow — edit the file, open a PR.
 
 The monthly bulk comes from HN's *"Who is hiring?"* thread, pulled in by a scheduled importer that writes one Markdown file per top-level post — title, date, HN username, and a link back to the original comment.
 
-**Only the last three months of Hacker News jobs are kept.** That is the whole archive policy: as a new month is imported the oldest one rotates out, so the board holds roughly 750 listings and never grows into a graveyard of expired roles. Right now that is **June, July and August 2026**.
+**Only the last three months of Hacker News jobs are kept.** That is the whole archive policy: as a new month is imported the oldest one rotates out, so the board holds roughly 750 listings and never grows into a graveyard of expired roles. Right now that is **September, October and November 2026**.
 
 Rotating out is not deleting a URL, though. When a month drops off, its job URLs are retargeted in `data/redirects.json` rather than left to rot, so nothing that was ever indexed starts returning a 404.
 
