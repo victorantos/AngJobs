@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Tuneping placeholder mark: a radio ping on the brand near-black. Swap for the real mark when handy. -->
+  <rect width="32" height="32" rx="7" fill="#14120f"/>
+  <circle cx="16" cy="17" r="2.6" fill="#f4eee2"/>
+  <path d="M11.2 21.8a6.8 6.8 0 0 1 0-9.6M20.8 12.2a6.8 6.8 0 0 1 0 9.6" fill="none" stroke="#f4eee2" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M8 25a11.3 11.3 0 0 1 0-16M24 9a11.3 11.3 0 0 1 0 16" fill="none" stroke="#e05d00" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

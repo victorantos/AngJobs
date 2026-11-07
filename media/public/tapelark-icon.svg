@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Tapelark placeholder mark: a cassette on the brand cream. Swap for the real tapelark-mark.svg when handy. -->
+  <rect width="32" height="32" rx="7" fill="#f4eee2"/>
+  <rect x="5" y="9" width="22" height="14" rx="2" fill="#2a2420"/>
+  <circle cx="11.5" cy="16" r="3.2" fill="#f4eee2"/>
+  <circle cx="20.5" cy="16" r="3.2" fill="#f4eee2"/>
+  <circle cx="11.5" cy="16" r="1.2" fill="#2a2420"/>
+  <circle cx="20.5" cy="16" r="1.2" fill="#2a2420"/>
+  <rect x="13" y="15" width="6" height="2" fill="#f4eee2"/>
+  <circle cx="24" cy="12" r="1.3" fill="#e05d00"/>
+</svg>

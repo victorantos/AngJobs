@@ -31,6 +31,7 @@
   --color-accent: #e05d00; /* HN orange, darkened for AA on paper white */
   --color-border: #e3e5e8;
   --color-code-bg: #f2f3f5;
+  --color-surface: #ffffff; /* cards and boxes, a hair brighter than the paper */
 
   /* Layout */
   --page-max: 72rem;
@@ -55,6 +56,7 @@
     --color-accent: #ff8a3d;
     --color-border: #2e323a;
     --color-code-bg: #21252c;
+    --color-surface: #1c1f25;
   }
 }
 
@@ -549,48 +551,169 @@ main {
 }
 .apply-button:hover { filter: brightness(1.1); }
 
-/* Promo strip — the maker's other projects, quiet but warm ------------------ */
+/* Home page — hero, month cards, companies line --------------------------- */
+/* The home page is a static page with hideHeader; these rules live here so
+   they share the theme's tokens (and so dark mode actually applies — the
+   page used to carry its own hardcoded colours in a <style> block). */
+
+.home-hero { text-align: center; margin: var(--space-3) 0 var(--space-1); }
+.home-hero h1 { font-size: clamp(1.6rem, 5.5vw, 2.4rem); margin: 0 0 var(--space-2); }
+.home-hero p { max-width: 40rem; margin: var(--space-2) auto; font-size: 0.95rem; }
+.home-hero-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.home-hero-button {
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 8px;
+  background: var(--color-accent);
+  color: #fff;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  text-decoration: none;
+}
+@media (prefers-color-scheme: dark) { .home-hero-button { color: #15181d; } }
+.home-hero-button--secondary { background: transparent; color: inherit; border: 1px solid currentColor; }
+/* The home page is the one static page that wants the full width, not the reading measure. */
+.story:has(.home-hero) { max-width: none; }
+
+.home-jobs-section { margin-top: var(--space-5); font-family: var(--font-sans); }
+.home-jobs-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+.home-jobs-title {
+  margin: 0;
+  font-size: var(--text-l);
+  font-weight: var(--weight-headline);
+  letter-spacing: -0.01em;
+  color: var(--color-text);
+}
+.home-jobs-all { font-size: var(--text-s); font-weight: 600; text-decoration: none; }
+.home-jobs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
+  gap: 12px;
+  margin-bottom: var(--space-3);
+}
+.home-jobs-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+  padding: 16px 20px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: var(--color-surface);
+  color: var(--color-text);
+  text-decoration: none;
+  transition: border-color 0.15s ease;
+}
+.home-jobs-card:hover { border-color: var(--color-accent); }
+.home-jobs-month {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: var(--tracking-kicker);
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+.home-jobs-count {
+  font-size: 2.125rem;
+  font-weight: var(--weight-headline);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  color: var(--color-accent);
+}
+.home-jobs-label { font-size: var(--text-s); color: var(--color-muted); }
+.home-jobs-go { margin-top: var(--space-2); font-size: var(--text-s); font-weight: 600; }
+.home-companies { margin: 0; font-size: 0.95rem; color: var(--color-muted); line-height: var(--leading-body); }
+.home-companies strong { color: var(--color-text); }
+
+/* Promo strip — the maker's other projects, grouped by theme ---------------- */
+/* Neutral boxes on the paper; a brand colour shows only in the icon and on
+   hover. A brand colour dark enough for paper white is too dark for the
+   night background, so each row carries both and picks one below. */
 
 .promo-strip {
   margin-top: var(--space-5);
-  padding-top: var(--space-3);
+  padding-top: var(--space-5);
   border-top: 1px solid var(--color-border);
+  font-family: var(--font-sans);
 }
-.promo-kicker { margin-bottom: var(--space-3); }
-.promo-grid {
+.promo-head { display: flex; flex-direction: column; gap: var(--space-1); margin-bottom: var(--space-3); }
+.promo-kicker { margin: 0; }
+.promo-intro { margin: 0; font-size: var(--text-s); color: var(--color-muted); }
+.promo-groups {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: var(--space-2);
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+  gap: 12px;
+  align-items: start; /* boxes hug their rows rather than stretching to the tallest */
 }
-.promo-card {
-  /* A brand colour dark enough to read on paper white is too dark to read on
-     the night background, so each card carries both and picks one here. */
+.promo-group {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  background: var(--color-surface);
+  overflow: hidden;
+}
+.promo-group-head {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-code-bg);
+}
+.promo-group-title { font-size: var(--text-s); font-weight: 700; color: var(--color-text); }
+.promo-group-blurb { font-size: var(--text-xs); color: var(--color-muted); }
+.promo-row {
   --promo-ink: var(--promo-accent);
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 12px 14px;
-  border: 1px solid color-mix(in srgb, var(--promo-ink) 25%, var(--color-border));
-  border-radius: 10px;
-  background: color-mix(in srgb, var(--promo-ink) 5%, var(--color-bg));
+  min-height: 56px;
+  padding: 11px 16px;
+  color: var(--color-text);
   text-decoration: none;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition: background-color 0.15s ease;
 }
+.promo-row + .promo-row { border-top: 1px solid var(--color-border); }
+.promo-row:hover { background: color-mix(in srgb, var(--promo-ink) 8%, var(--color-surface)); }
+.promo-row:hover .promo-title { color: var(--promo-ink); }
 @media (prefers-color-scheme: dark) {
-  .promo-card { --promo-ink: var(--promo-accent-dark, var(--promo-accent)); }
+  .promo-row { --promo-ink: var(--promo-accent-dark, var(--promo-accent)); }
+  .promo-row:hover { background: color-mix(in srgb, var(--promo-ink) 12%, var(--color-surface)); }
 }
-.promo-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 14px color-mix(in srgb, var(--promo-ink) 18%, transparent);
-}
-.promo-icon { width: 40px; height: 40px; border-radius: 9px; flex-shrink: 0; }
-.promo-text { display: flex; flex-direction: column; gap: 1px; min-width: 0; font-family: var(--font-sans); }
-.promo-title { font-weight: 700; font-size: var(--text-s); color: var(--promo-ink); }
+.promo-icon { width: 32px; height: 32px; border-radius: 8px; flex-shrink: 0; }
+.promo-text { display: flex; flex-direction: column; gap: 1px; min-width: 0; flex: 1; }
+.promo-title { font-weight: 700; font-size: var(--text-s); line-height: 1.3; color: var(--color-text); }
 .promo-desc {
   font-size: var(--text-xs);
+  line-height: 1.4;
   color: var(--color-muted);
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
+.promo-arrow { width: 14px; height: 14px; flex-shrink: 0; color: var(--color-muted); }
+.promo-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+  padding: 12px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  background: var(--color-surface);
+  color: var(--color-text);
+  text-decoration: none;
+  transition: border-color 0.15s ease;
+}
+.promo-bar:hover { border-color: #e8a13d; }
+.promo-bar .promo-icon { width: 28px; height: 28px; border-radius: 7px; }
+.promo-bar-text { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; flex: 1; min-width: 0; }
+.promo-bar .promo-desc { font-size: var(--text-s); display: inline; }

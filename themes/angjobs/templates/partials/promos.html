@@ -1,14 +1,31 @@
-{{#if data.promos}}<section class="promo-strip" aria-label="More projects by the maker">
-  <p class="kicker promo-kicker">From the same keyboard</p>
-  <div class="promo-grid">
-    {{#each data.promos as promo}}<a class="promo-card" href="{{ promo.url }}" target="_blank" rel="noopener" style="--promo-accent: {{ promo.accent }};{{#if promo.accentDark}} --promo-accent-dark: {{ promo.accentDark }};{{/if}}">
-      <img class="promo-icon" src="{{ promo.icon }}" alt="" loading="lazy" width="40" height="40">
-      <span class="promo-text">
-        <span class="promo-title">{{ promo.title }}</span>
-        <span class="promo-desc">{{ promo.desc }}</span>
-      </span>
-    </a>
+{{#if data.promos.groups}}<section class="promo-strip" aria-label="More projects by the maker">
+  <div class="promo-head">
+    <p class="kicker promo-kicker">From the same keyboard</p>
+    {{#if data.promos.intro}}<p class="promo-intro">{{ data.promos.intro }}</p>{{/if}}
+  </div>
+  <div class="promo-groups">
+    {{#each data.promos.groups as group}}<div class="promo-group">
+      <div class="promo-group-head">
+        <span class="promo-group-title">{{ group.title }}</span>
+        {{#if group.blurb}}<span class="promo-group-blurb">{{ group.blurb }}</span>{{/if}}
+      </div>
+      {{#each group.items as promo}}<a class="promo-row" href="{{ promo.url }}" target="_blank" rel="noopener" style="--promo-accent: {{ promo.accent }};{{#if promo.accentDark}} --promo-accent-dark: {{ promo.accentDark }};{{/if}}">
+        <img class="promo-icon" src="{{ promo.icon }}" alt="" loading="lazy" width="32" height="32">
+        <span class="promo-text">
+          <span class="promo-title">{{ promo.title }}</span>
+          <span class="promo-desc">{{ promo.desc }}</span>
+        </span>
+        <svg class="promo-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M6 4h6v6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      {{/each}}
+    </div>
     {{/each}}
   </div>
+  {{#if data.promos.engine}}<a class="promo-bar" href="{{ data.promos.engine.url }}" target="_blank" rel="noopener">
+    <img class="promo-icon" src="{{ data.promos.engine.icon }}" alt="" loading="lazy" width="28" height="28">
+    <span class="promo-bar-text"><span class="promo-title">{{ data.promos.engine.title }}</span><span class="promo-desc">{{ data.promos.engine.desc }}</span></span>
+    <svg class="promo-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M6 4h6v6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+  {{/if}}
 </section>
 {{/if}}

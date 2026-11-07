@@ -1,66 +1,37 @@
-[
-  {
-    "title": "Need focus music?",
-    "desc": "Muz11 — hundreds of curated playlists, streamed free",
-    "url": "https://muz11.com",
-    "icon": "/media/public/muz11-icon.svg",
-    "accent": "#ae1800",
-    "accentDark": "#ee472d"
-  },
-  {
-    "title": "Kids want to code?",
-    "desc": "Codorex — kids describe a game, AI builds it in seconds",
-    "url": "https://codorex.com",
-    "icon": "/media/public/codorex-icon.svg",
-    "accent": "#2563eb",
-    "accentDark": "#4f81ef"
-  },
-  {
-    "title": "Compare AI models?",
-    "desc": "SNEOS — ask six AI models the same prompt at once",
-    "url": "https://sneos.com",
-    "icon": "/media/public/sneos-icon.svg",
-    "accent": "#96650a",
-    "accentDark": "#f5b335"
-  },
-  {
-    "title": "Love coffee?",
-    "desc": "Career.Coffee — the network and job board for specialty coffee",
-    "url": "https://career.coffee",
-    "icon": "/media/public/careercoffee-icon.svg",
-    "accent": "#8c491a",
-    "accentDark": "#c67139"
-  },
-  {
-    "title": "Need an AI agent?",
-    "desc": "NestClaw — your own private AI agent on a dedicated server",
-    "url": "https://nestclaw.com",
-    "icon": "/media/public/nestclaw-icon.svg",
-    "accent": "#b8521a",
-    "accentDark": "#f0742a"
-  },
-  {
-    "title": "Find tech jobs?",
-    "desc": "Career.Computer — software, data, DevOps and IT roles",
-    "url": "https://career.computer",
-    "icon": "/media/public/careercomputer-icon.svg",
-    "accent": "#0369a1",
-    "accentDark": "#0ea5e9"
-  },
-  {
-    "title": "Want a site like this?",
-    "desc": "plain — a calm, Git-native CMS, and what this site runs on",
+{
+  "intro": "More sites and apps by the maker of AngJobs.",
+  "groups": [
+    {
+      "title": "Job boards, by industry",
+      "blurb": "The career.* network — same engine, one trade each",
+      "items": [
+        { "title": "Career.Coffee", "desc": "The job board for specialty coffee", "url": "https://career.coffee", "icon": "/media/public/careercoffee-icon.svg", "accent": "#8c491a", "accentDark": "#c67139" },
+        { "title": "Career.Computer", "desc": "Software, data, DevOps and IT roles", "url": "https://career.computer", "icon": "/media/public/careercomputer-icon.svg", "accent": "#0369a1", "accentDark": "#0ea5e9" },
+        { "title": "Career.Dental", "desc": "Curated dental roles, updated daily", "url": "https://career.dental", "icon": "/media/public/careerdental-icon.svg", "accent": "#0e7c86", "accentDark": "#2fb3bd" }
+      ]
+    },
+    {
+      "title": "Music & radio",
+      "blurb": "Listen, record, and know what's playing",
+      "items": [
+        { "title": "Muz11", "desc": "Hundreds of curated focus playlists, streamed free", "url": "https://muz11.com", "icon": "/media/public/muz11-icon.svg", "accent": "#ae1800", "accentDark": "#ee472d" },
+        { "title": "Tapelark", "desc": "Press record on anything your computer plays — Mac, Windows, Linux", "url": "https://tapelark.com", "icon": "/media/public/tapelark-icon.svg", "accent": "#6b4a1e", "accentDark": "#e2c48a" },
+        { "title": "Tuneping", "desc": "What's playing on internet radio, right now — live API", "url": "https://tuneping.com", "icon": "/media/public/tuneping-icon.svg", "accent": "#3f3a30", "accentDark": "#d8d1c2" }
+      ]
+    },
+    {
+      "title": "AI tools",
+      "blurb": "Build with models, or compare them",
+      "items": [
+        { "title": "Codorex", "desc": "Kids describe a game, AI builds it in seconds", "url": "https://codorex.com", "icon": "/media/public/codorex-icon.svg", "accent": "#2563eb", "accentDark": "#4f81ef" },
+        { "title": "SNEOS", "desc": "Ask six AI models the same prompt at once", "url": "https://sneos.com", "icon": "/media/public/sneos-icon.svg", "accent": "#96650a", "accentDark": "#f5b335" }
+      ]
+    }
+  ],
+  "engine": {
+    "title": "This site runs on plain",
+    "desc": "a calm, Git-native CMS — open source, want a site like this?",
     "url": "https://plain-cms.com",
-    "icon": "/media/public/plain-icon.svg",
-    "accent": "#9d6413",
-    "accentDark": "#e8a13d"
-  },
-  {
-    "title": "Work in dental?",
-    "desc": "Career.Dental — curated dental roles, updated daily",
-    "url": "https://career.dental",
-    "icon": "/media/public/careerdental-icon.svg",
-    "accent": "#0e7c86",
-    "accentDark": "#11949f"
+    "icon": "/media/public/plain-icon.svg"
   }
-]
+}
