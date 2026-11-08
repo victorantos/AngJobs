@@ -6,14 +6,23 @@
 // backend emails through Amazon SES with Reply-To set to the applicant.
 //
 // Backend contract (options.service + options.apiPath):
-//   GET   /?status=&days=        → { items, counts: {new, forwarded, rejected, total}, from }
+//   GET   /?status=&days=        → { items, counts: {new, review, spam, forwarded, rejected, total}, from }
+// Statuses: "new" (looks real, heads-up emailed) · "review" (sent without the
+// form's JavaScript, or too fast — a script, or a person with JS off) · "spam"
+// (HTML, a pile of links, adult words) · "forwarded" · "rejected". The backend
+// writes its reason into the notes; "Looks real" moves a held one back to New.
 //   PATCH /<id>                  { status?, notes? } → item
 //   POST  /<id>/forward          { to, cc, replyTo, subject, message, notifyApplicant } → { item, warning }
 // Calls go through the context's apiFetch, which attaches the sign-in — this
 // module never sees a token. Everything renders via textContent, so applicant
 // text is inert in the DOM.
 
-const STATUSES = [['new', 'New'], ['forwarded', 'Forwarded'], ['rejected', 'Rejected'], ['all', 'All']];
+const STATUSES = [['new', 'New'], ['review', 'Review'], ['spam', 'Spam'], ['forwarded', 'Forwarded'], ['rejected', 'Rejected'], ['all', 'All']];
+const EMPTY = {
+  new: 'Nothing waiting. New applications from job pages land here.',
+  review: 'Nothing held. Applications sent without the form’s JavaScript wait here until you look at them.',
+  spam: 'No spam caught. Posts with HTML, link piles or adult words are filed here instead of New.',
+};
 const RANGES = [[30, 'Last 30 days'], [90, 'Last 90 days'], [365, 'Last year'], [0, 'All time']];
 const PREFS_KEY = 'plain.applications.view'; // the remembered filter, per browser
 
@@ -81,12 +90,13 @@ function inbox({ apiFetch, options }) {
       el('div', { class: 'ja-toolbar' }, tabs, range),
       items.length
         ? el('div', { class: 'ja-list' }, items.map(card))
-        : el('p', { class: 'muted ja-empty' }, view.status === 'new' ? 'Nothing waiting. New applications from job pages land here.' : 'No applications match this view.'),
+        : el('p', { class: 'muted ja-empty' }, EMPTY[view.status] || 'No applications match this view.'),
       data.from ? el('p', { class: 'muted ja-from' }, `Forwards are sent from ${data.from} through Amazon SES.`) : null,
     );
   }
 
   function card(item) {
+    const held = item.status === 'review' || item.status === 'spam';
     const notes = el('textarea', { class: 'ja-notes', rows: 2, placeholder: 'Private note (only you see this)', value: item.notes || '' });
     notes.addEventListener('change', () => update(item, { notes: notes.value }, 'Note saved'));
     return el('article', { class: `card ja-card ja-${item.status}` },
@@ -96,7 +106,7 @@ function inbox({ apiFetch, options }) {
       el('h2', { class: 'ja-job' }, item.jobUrl ? el('a', { href: item.jobUrl, target: '_blank', rel: 'noopener' }, item.jobTitle || item.jobUrl) : item.jobTitle || 'Unknown job'),
       el('p', { class: 'ja-applicant' }, el('strong', {}, item.name), ' · ', el('a', { href: `mailto:${item.email}` }, item.email)),
       item.message
-        ? el('details', { class: 'ja-message', open: !item.forwardedAt && item.message.length < 600 }, el('summary', {}, 'Message'), el('p', {}, item.message))
+        ? el('details', { class: 'ja-message', open: !held && !item.forwardedAt && item.message.length < 600 }, el('summary', {}, 'Message'), el('p', {}, item.message))
         : el('p', { class: 'muted ja-meta' }, 'No message.'),
       el('p', { class: 'ja-meta muted' },
         item.author ? `Posted by ${item.author}` : 'Original post',
@@ -107,7 +117,13 @@ function inbox({ apiFetch, options }) {
       item.lastError ? el('p', { class: 'ja-meta ja-error' }, `Last send failed: ${item.lastError}`) : null,
       notes,
       el('div', { class: 'card-actions' },
-        el('button', { class: item.forwardedAt ? '' : 'primary', onclick: () => forwardDialog(item) }, item.forwardedAt ? 'Forward again…' : 'Forward…'),
+        el('button', { class: item.status === 'new' ? 'primary' : '', onclick: () => forwardDialog(item) }, item.forwardedAt ? 'Forward again…' : 'Forward…'),
+        held
+          ? el('button', { onclick: () => update(item, { status: 'new' }, 'Moved to New') }, 'Looks real')
+          : null,
+        item.status === 'new' || item.status === 'review'
+          ? el('button', { onclick: () => update(item, { status: 'spam' }, 'Marked as spam') }, 'Spam')
+          : null,
         item.status === 'rejected'
           ? el('button', { onclick: () => update(item, { status: item.forwardedAt ? 'forwarded' : 'new' }, 'Restored') }, 'Restore')
           : el('button', { class: 'danger', onclick: () => update(item, { status: 'rejected' }, 'Rejected') }, 'Reject')));
@@ -289,13 +305,14 @@ function injectStyles() {
 .ja-toolbar select { width: auto; }
 .ja-list { display: flex; flex-direction: column; gap: 0.85rem; }
 .ja-card { display: flex; flex-direction: column; gap: 0.4rem; }
-.ja-card.ja-rejected { opacity: 0.7; }
+.ja-card.ja-rejected, .ja-card.ja-spam { opacity: 0.7; }
 .ja-top { display: flex; align-items: center; gap: 0.6rem; }
 .ja-when { margin-left: auto; font-size: 0.85rem; }
 .ja-badge { font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; padding: 0.1rem 0.5rem; border-radius: 999px; border: 1px solid var(--border); }
 .ja-badge-new { color: var(--accent); border-color: var(--accent); }
 .ja-badge-forwarded { color: var(--ok); border-color: var(--ok); }
-.ja-badge-rejected { color: var(--muted); }
+.ja-badge-rejected, .ja-badge-spam { color: var(--muted); }
+.ja-badge-review { color: var(--warn, #b26a00); border-color: var(--warn, #b26a00); }
 .ja-job { margin: 0; font-size: 1.02rem; line-height: 1.35; }
 .ja-job a { color: var(--text); }
 .ja-applicant { margin: 0; }

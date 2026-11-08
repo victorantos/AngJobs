@@ -80,3 +80,43 @@ test('closes: static deadline line + data attributes for the client gate', () =>
   const bad = { forms: { ends: { path: '/x', closes: 'next month' } } };
   assert.throws(() => apiForm.renderPage(page, '[[form:ends]]', site, bad), /ISO date like "2026-08-01"/);
 });
+
+test('no honeypot unless asked — existing forms render byte-for-byte as before', () => {
+  const html = apiForm.renderPage(page, '[[form:signup]]', site, options);
+  assert.doesNotMatch(html, /api-form-trap/);
+});
+
+test('honeypot: a hidden, unfocusable text input placed before the real fields', () => {
+  const trapped = { forms: { apply: { path: '/apply', honeypot: 'website', fields: [{ name: 'email', type: 'email' }] } } };
+  const html = apiForm.renderPage(page, '[[form:apply]]', site, trapped);
+  assert.match(html, /<div class="api-form-trap" aria-hidden="true"><label>Leave this field empty <input type="text" name="website" tabindex="-1" autocomplete="off"><\/label><\/div>/);
+  assert.ok(html.indexOf('api-form-trap') < html.indexOf('name="email"'), 'the trap comes first — bots fill top to bottom');
+  assert.doesNotMatch(html, /type="hidden" name="website"/, 'never type="hidden": bots skip those');
+});
+
+test('honeypot: the plugin-level option applies to every form, a form can opt out', () => {
+  const opts = { honeypot: 'url', forms: { a: { path: '/a' }, b: { path: '/b', honeypot: false } } };
+  assert.match(apiForm.renderPage(page, '[[form:a]]', site, opts), /name="url" tabindex="-1"/);
+  assert.doesNotMatch(apiForm.renderPage(page, '[[form:b]]', site, opts), /api-form-trap/);
+});
+
+test('honeypot: a bad name or one a real field already uses fails the build with a teaching error', () => {
+  const bad = { forms: { f: { path: '/f', honeypot: 'Web Site' } } };
+  assert.throws(() => apiForm.renderPage(page, '[[form:f]]', site, bad), /use a field name like "website"/);
+  const clash = { forms: { f: { path: '/f', honeypot: 'email', fields: [{ name: 'email', type: 'email' }] } } };
+  assert.throws(() => apiForm.renderPage(page, '[[form:f]]', site, clash), /both as a real field and as the honeypot/);
+  const hiddenClash = { forms: { f: { path: '/f', honeypot: 'source', hidden: { source: 'x' } } } };
+  assert.throws(() => apiForm.renderPage(page, '[[form:f]]', site, hiddenClash), /both as a real field and as the honeypot/);
+});
+
+test('proof: the form names the field client.js adds; nothing is emitted for no-JS visitors to trip on', () => {
+  const opts = { forms: { apply: { path: '/apply', proof: 'elapsed', honeypot: 'website' } } };
+  const html = apiForm.renderPage(page, '[[form:apply]]', site, opts);
+  assert.match(html, /<form class="api-form"[^>]* data-proof="elapsed">/);
+  assert.doesNotMatch(html, /name="elapsed"/, 'the field itself is added by the script — a scraped form never has it');
+  assert.doesNotMatch(apiForm.renderPage(page, '[[form:signup]]', site, options), /data-proof/);
+  const same = { forms: { f: { path: '/f', proof: 'website', honeypot: 'website' } } };
+  assert.throws(() => apiForm.renderPage(page, '[[form:f]]', site, same), /both honeypot and proof/);
+  const clash = { forms: { f: { path: '/f', proof: 'email', fields: [{ name: 'email', type: 'email' }] } } };
+  assert.throws(() => apiForm.renderPage(page, '[[form:f]]', site, clash), /both as a real field and as the proof/);
+});

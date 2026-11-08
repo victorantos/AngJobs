@@ -21,6 +21,19 @@ for (const form of document.querySelectorAll('form.api-form')) {
     form.replaceWith(note);
     continue;
   }
+  // Proof of life (form "proof" option): a hidden field only a browser that
+  // ran this script sends, holding the whole seconds from page load to submit.
+  // Registered before the fetch handler below so FormData sees the value on
+  // both paths — fetch and a plain submit alike.
+  if (form.dataset.proof) {
+    const started = Date.now();
+    const proof = document.createElement('input');
+    proof.type = 'hidden';
+    proof.name = form.dataset.proof;
+    proof.value = '0';
+    form.prepend(proof);
+    form.addEventListener('submit', () => { proof.value = String(Math.round((Date.now() - started) / 1000)); });
+  }
   try {
     if (form.dataset.storageKey && localStorage.getItem(form.dataset.storageKey)) {
       done(); // this device already signed up — show the note, not the form

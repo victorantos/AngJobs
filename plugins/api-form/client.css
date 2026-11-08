@@ -34,3 +34,8 @@
 .api-form-deadline { font-size: 0.9em; color: var(--color-muted, #667); }
 
 .api-form-closed { font-weight: 600; }
+
+/* The honeypot (form "honeypot" option): a real input moved off-screen, so a
+   person never sees it and a form-filling bot does. Not display:none — some
+   bots skip what inline styles hide, none read this stylesheet. */
+.api-form-trap { position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden; }

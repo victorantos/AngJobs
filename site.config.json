@@ -121,7 +121,9 @@
             "source": "{page.authorUrl}",
             "author": "{page.author}"
           },
-          "success": "Application received — we’ll forward it to the job poster by email. Replies come straight to you."
+          "success": "Application received — we’ll forward it to the job poster by email. Replies come straight to you.",
+          "honeypot": "website",
+          "proof": "elapsed"
         }
       }
     },
