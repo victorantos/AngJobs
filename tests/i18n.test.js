@@ -13,6 +13,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { build } from '../build.js';
 import { validateConfig } from '../lib/content.js';
+import { dateLocale, formatDate } from '../lib/util.js';
 import { DEFAULT_STRINGS, activeLanguages, splitLangSuffix, stringsFor, localizedCollections, localizedNav } from '../lib/i18n.js';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
@@ -206,5 +207,40 @@ test('without site.languages nothing changes (see also the golden test)', async 
   assert.ok(!('language' in JSON.parse(fs.readFileSync(path.join(out, 'api/pages/about.json'), 'utf8'))));
   assert.ok(JSON.parse(fs.readFileSync(path.join(out, 'search-index.json'), 'utf8')).every((e) => !('lang' in e)));
   assert.doesNotMatch(fs.readFileSync(path.join(out, 'about/index.html'), 'utf8'), /hreflang/);
+  fs.rmSync(root, { recursive: true, force: true });
+});
+
+test('dateLocale: site.locales maps a language to the locale its dates use', () => {
+  assert.equal(dateLocale({ locales: { en: 'en-GB' } }, 'en'), 'en-GB');
+  assert.equal(dateLocale({ locales: { en: 'en-GB' } }, 'fr'), 'fr');
+  assert.equal(dateLocale({}, 'de'), 'de');
+  assert.equal(dateLocale(undefined, 'en'), 'en');
+  assert.equal(formatDate('2026-07-05', dateLocale({ locales: { en: 'en-GB' } }, 'en')), '5 July 2026');
+  assert.equal(formatDate('2026-07-05', 'en'), 'July 5, 2026');
+});
+
+test('config: site.locales keys must be site languages and values real locales', () => {
+  const base = (site) => ({ site: { title: 'T', url: 'https://t.test', ...site } });
+  assert.doesNotThrow(() => validateConfig(base({ language: 'de', languages: ['de', 'en'], locales: { en: 'en-GB' } })));
+  assert.doesNotThrow(() => validateConfig(base({ language: 'en', locales: { en: 'en-IE' } })));
+  assert.throws(() => validateConfig(base({ language: 'de', languages: ['de', 'en'], locales: { fr: 'fr-CH' } })), /"fr", which is not a site language/);
+  assert.throws(() => validateConfig(base({ language: 'en', locales: { en: 'not a locale!' } })), /site\.locales\.en" must be a locale/);
+  assert.throws(() => validateConfig(base({ language: 'en', locales: ['en-GB'] })), /must map a language code to a locale/);
+});
+
+test('site.locales changes only how dates print, not URLs', async () => {
+  const root = i18nFixture('locales');
+  const out = path.join(root, 'dist');
+  const configPath = path.join(root, 'site.config.json');
+  const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+  config.site.locales = { en: 'en-GB', fr: 'fr-CH' };
+  fs.writeFileSync(configPath, JSON.stringify(config));
+  fs.writeFileSync(path.join(root, 'content/posts/first-post.fr.md'), '---\ntitle: Premier billet\ndate: 2026-01-01\ndescription: Le premier billet.\n---\n\nCorps.\n');
+  await build({ root, outDir: out, quiet: true });
+  const en = fs.readFileSync(path.join(out, 'blog/first-post/index.html'), 'utf8');
+  assert.match(en, />1 January 2026</);
+  const fr = fs.readFileSync(path.join(out, 'fr/blog/first-post/index.html'), 'utf8');
+  assert.match(fr, />1 janvier 2026</);
+  assert.match(fr, /<html lang="fr">/);
   fs.rmSync(root, { recursive: true, force: true });
 });
