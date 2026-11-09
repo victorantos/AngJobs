@@ -9,7 +9,7 @@ import http from 'node:http';
 import { pathToFileURL, fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { render } from './lib/template.js';
-import { slugify, deepMerge } from './lib/util.js';
+import { slugify, deepMerge, dateLocale } from './lib/util.js';
 import { renderMarkdown } from './lib/markdown.js';
 import { makeItem, sortItems, validateConfig, ContentError } from './lib/content.js';
 import { activeLanguages, splitLangSuffix, stringsFor, localizedCollections, localizedNav } from './lib/i18n.js';
@@ -38,7 +38,7 @@ function loadContent(root, config) {
       const { base, lang } = splitLangSuffix(entry.slice(0, -3), languages);
       if (lang === config.site.language) throw new ContentError(file, null, `"${lang}" is the default language — it lives in ${base}.md; delete or rename this file`);
       if (!lang && languages.length && base.includes('.')) throw new ContentError(file, null, `".${base.split('.').pop()}" is not one of site.languages (${languages.join(', ')}) — add the code there or rename the file`);
-      const item = makeItem(source, { file, slug: base, collection: name, def, language: lang || config.site.language });
+      const item = makeItem(source, { file, slug: base, collection: name, def, language: dateLocale(config.site, lang || config.site.language) });
       if (languages.length) item.language = lang || config.site.language;
       if (lang) {
         if (item.url) item.url = `/${lang}${item.url}`;
@@ -122,6 +122,8 @@ export async function build({ root = process.cwd(), outDir, quiet = false } = {}
   const assets = clientAssets(plugins, config.services);
   // Customizer tokens (§10.5): user overrides from config.theme.tokens are
   // injected after theme.css, so theme upgrades never touch user tweaks.
+  // site.noindex: every page asks search engines not to list it (a preview or staging site).
+  if (site.noindex) assets.head += '<meta name="robots" content="noindex">\n';
   const tokens = Object.entries(config.theme?.tokens || {});
   if (tokens.length) {
     assets.head += `<style id="theme-tokens">:root{${tokens.map(([name, value]) => `${name}:${value}`).join(';')}}</style>\n`;
@@ -271,7 +273,7 @@ export async function build({ root = process.cwd(), outDir, quiet = false } = {}
   // Non-HTML outputs, including the static read-only JSON API (§6 step 8).
   const files = new Map(pages);
   files.set('sitemap.xml', sitemapXml(sitemapEntries));
-  files.set('robots.txt', robotsTxt(site.url));
+  files.set('robots.txt', robotsTxt(site.url, { noindex: site.noindex }));
   if (Object.keys(redirects).length) files.set('_redirects', redirectsFile(redirects));
   for (const feed of feeds) {
     files.set(path.join(feed.feedUrl.slice(1)), rssXml(site, feed.feedUrl, feed.listUrl, collections[feed.name]));

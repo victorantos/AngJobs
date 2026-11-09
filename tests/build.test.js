@@ -141,6 +141,29 @@ test('a page overrides its collection template with `template:` (unknown name fa
   fs.rmSync(root, { recursive: true, force: true });
 });
 
+test('site.noindex: every page carries a robots noindex tag and robots.txt names no sitemap', async () => {
+  const root = path.join(here, '.tmp-noindex');
+  const out = path.join(root, 'dist');
+  fs.rmSync(root, { recursive: true, force: true });
+  fs.cpSync(fixtureRoot, root, { recursive: true });
+  const config = JSON.parse(fs.readFileSync(path.join(root, 'site.config.json'), 'utf8'));
+  config.site.noindex = true;
+  fs.writeFileSync(path.join(root, 'site.config.json'), JSON.stringify(config));
+
+  await build({ root, outDir: out, quiet: true });
+  const pages = walk(out).filter((f) => f.endsWith('.html') && !f.startsWith('admin/'));
+  assert.ok(pages.length > 3);
+  for (const f of pages) {
+    const html = fs.readFileSync(path.join(out, f), 'utf8');
+    if (html.includes('http-equiv="refresh"')) continue; // redirect fallbacks have no content to list
+    assert.match(html, /<meta name="robots" content="noindex">/, `${f} has the noindex tag`);
+  }
+  const robots = fs.readFileSync(path.join(out, 'robots.txt'), 'utf8');
+  assert.match(robots, /Allow: \//, 'crawling stays allowed, so the tag can be read');
+  assert.doesNotMatch(robots, /Sitemap:/);
+  fs.rmSync(root, { recursive: true, force: true });
+});
+
 test('site.basePath prefixes root-relative href/src (C6: project-subpath hosts)', async () => {
   const baseRoot = path.join(here, '.tmp-base');
   const baseOut = path.join(baseRoot, 'dist');
