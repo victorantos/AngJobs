@@ -1,5 +1,5 @@
 ---
-title: "DuckDuckGo : we are looking for candidates that are excited to join us on a mission to raise"
+title: "DuckDuckGo - we are looking for candidates that are excited to join us on a"
 date: 2026-11-01
 description: DuckDuckGo - we are looking for candidates that are excited to join us on a mission to raise the standard of trust online. All of our roles are…
 author: bill_duckduckgo

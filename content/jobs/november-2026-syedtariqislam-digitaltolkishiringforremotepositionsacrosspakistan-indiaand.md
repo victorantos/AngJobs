@@ -1,5 +1,5 @@
 ---
-title: "syedtariqislam"
+title: "DigitalTolk is hiring for remote positions across Pakistan, India and"
 date: 2026-11-01
 description: DigitalTolk is hiring for remote positions across Pakistan, India and Philippines. Right now, we are looking for Senior Software Engineering Manager. Full…
 author: syedtariqislam

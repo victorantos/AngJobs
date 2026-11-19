@@ -1,5 +1,5 @@
 ---
-title: "*Software Engineer — Remote — US Only* : US Work Authorization Required"
+title: "*Software Engineer — Remote — US Only* - US Work Authorization Required"
 date: 2026-11-01
 description: *Software Engineer — Remote — US Only* - US Work Authorization Required Kaveronix is looking for experienced Software Engineers currently based in the…
 author: kaveronix

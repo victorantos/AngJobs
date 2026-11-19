@@ -22,21 +22,18 @@ description: Tech jobs from Hacker News 'Who is hiring?' threads — verified op
   <div class="home-jobs-grid">
     <a href="/jobs/tag/november-2026/" class="home-jobs-card">
       <span class="home-jobs-month">November 2026</span>
-      <span class="home-jobs-count">178+</span>
+      <span class="home-jobs-count">238+</span>
       <span class="home-jobs-label">jobs available</span>
-      <span class="home-jobs-go">Browse the month →</span>
     </a>
     <a href="/jobs/tag/october-2026/" class="home-jobs-card">
       <span class="home-jobs-month">October 2026</span>
       <span class="home-jobs-count">222+</span>
       <span class="home-jobs-label">jobs available</span>
-      <span class="home-jobs-go">Browse the month →</span>
     </a>
     <a href="/jobs/tag/september-2026/" class="home-jobs-card">
       <span class="home-jobs-month">September 2026</span>
       <span class="home-jobs-count">266+</span>
       <span class="home-jobs-label">jobs available</span>
-      <span class="home-jobs-go">Browse the month →</span>
     </a>
   </div>
   <p class="home-companies"><strong>Companies hiring:</strong> Apple, DuckDuckGo, Temporal, Sesame, Sphinx Defense, MixRank, and more.</p>

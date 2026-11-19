@@ -1,5 +1,5 @@
 ---
-title: "Writer and storyboarder, good at storyboarding, storytelling, writing, and"
+title: "studyturtlehq"
 date: 2026-11-01
 description: We are hiring for several roles at StudyTurtle, an edutainment brand building learning videos for Education. Our small, passionate team creates animated…
 author: studyturtlehq
