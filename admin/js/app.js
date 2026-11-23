@@ -3,7 +3,7 @@
 // content metadata; writes through the GitHub API (see github.js).
 // UI language rule: never "commit/push/branch" — always "save/publish/history".
 
-import { auth, inDemo, repoInfo, getFile, updateFile, listDir, commitsFor, runFor, dispatchWorkflow, updatePull, mergePull, cmpVersion } from './github.js';
+import { auth, inDemo, configureSite, repoDir, repoInfo, getFile, updateFile, listDir, commitsFor, runFor, dispatchWorkflow, updatePull, mergePull, cmpVersion } from './github.js';
 import { h, show, toast, timeAgo, watchBuild, ask } from './ui.js';
 import { editorScreen } from './editor.js';
 import { mediaScreen } from './media.js';
@@ -215,6 +215,10 @@ async function collectionCard(name, def) {
 
 // Update banner (§14.5): compare our engine.json to upstream's raw file; if
 // upstream is newer, offer to trigger the update.yml workflow (which opens a PR).
+// A site in a subfolder (site.repoDir) still learns about the release, but gets
+// no buttons: update.yml and its updater work on the repository root, where the
+// engine files of a subfolder site are not — so the update is the maintainer's
+// job there (README: "Site in a subfolder of a repository").
 const UPSTREAM_ENGINE = 'https://raw.githubusercontent.com/plain-cms/plain/main/engine.json';
 async function updateCard() {
   const [here, there] = await Promise.all([
@@ -226,8 +230,11 @@ async function updateCard() {
   const actions = h('p', { class: 'update-actions' });
   const card = h('section', { class: 'card update' },
     h('h2', {}, `Update available — v${there.version}`),
-    h('p', { class: 'muted' }, `You’re on v${here.version}. The update arrives as a pull request you can review, merge to apply, or revert to undo.`),
+    h('p', { class: 'muted' }, `You’re on v${here.version}. `, repoDir()
+      ? `This site lives in the “${repoDir()}/” folder of a larger repository, so updates aren’t one click here — ask whoever looks after the repository to apply v${there.version}.`
+      : 'The update arrives as a pull request you can review, merge to apply, or revert to undo.'),
     actions);
+  if (repoDir()) return card;
 
   // Once the update.yml workflow has opened the PR, offer to finish it in one
   // click when it's conflict-free — no trip to GitHub. Otherwise send them to review it.
@@ -455,6 +462,7 @@ async function boot() {
     return show(h('div', { class: 'error-screen' }, h('h1', {}, 'The site hasn’t been built yet'),
       h('p', {}, 'The admin reads your site’s published data (api/site.json), which isn’t there yet. Once the first build finishes, reload this page.')));
   }
+  configureSite(siteInfo.site); // site.repoDir + site.buildWorkflow → every GitHub path (github.js)
   // "Try the editor" (§8.6): ?demo=1 drops a visitor straight in — that is the
   // link to hand out — and a demo already running survives a reload of the tab.
   if (siteInfo.site.demo && (new URLSearchParams(location.search).has('demo') || inDemo())) await enterDemo().catch(() => {});

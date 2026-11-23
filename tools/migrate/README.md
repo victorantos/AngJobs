@@ -6,18 +6,19 @@ wondering about the similar name? That folder holds the engine's own upgrade
 scripts, run automatically when plain itself updates — this one is for
 *your* site.)
 
-Jekyll, VuePress, and Joomla ship today; VitePress, Hugo, Eleventy, and
-WordPress are on the roadmap (cms-spec.md §15). Each importer is one
-dependency-free file (`jekyll.js`, `vuepress.js`, `joomla.js`) — so adapting
-one to another generator is a realistic afternoon project, or a one-prompt
-task for an AI agent.
+WordPress, Jekyll, VuePress, and Joomla ship today; VitePress, Hugo, and
+Eleventy are on the roadmap (cms-spec.md §15). Each importer is one
+dependency-free file (`wordpress.js`, `jekyll.js`, `vuepress.js`,
+`joomla.js`) — so adapting one to another generator is a realistic afternoon
+project, or a one-prompt task for an AI agent.
 
 ## Before you start
 
 - **Node 18+** (`node --version`).
 - **A plain site to import into.** Easiest: click **"Use this template"** on
   the plain repository and clone your new repo. Any clone of plain works.
-- **Your old site's folder on disk**, e.g. `~/blog`. The importer only reads
+- **WordPress:** the export file — see "Coming from WordPress?" below.
+- **Jekyll / VuePress:** your old site's folder on disk, e.g. `~/blog`. The importer only reads
   it — it never writes there. (Joomla is the exception: it has no export
   format, so its importer reads the *live site* over HTTP instead.)
 
@@ -92,11 +93,61 @@ static redirect file — the report lists them as ready-to-paste rules for your
 host. Login, contact, and search pages are skipped and accounted for in the
 report's dynamic-feature table (Step 7).
 
+**Coming from WordPress?** You need one file, and WordPress makes it for you:
+
+1. In your WordPress dashboard, go to **Tools → Export**, choose
+   **All content**, and click **Download Export File**. You get an `.xml`
+   file. (WordPress.com: **Tools → Export → Export all** e-mails you a `.zip`
+   — unzip it; inside are one or more `.xml` files.)
+2. Run the importer on it:
+
+```sh
+node tools/migrate/wordpress.js ~/Downloads/yoursite.WordPress.2026-11-10.xml
+```
+
+If you have several `.xml` files (big sites and WordPress.com split the
+export), pass them all at once: `node tools/migrate/wordpress.js export-1.xml
+export-2.xml`.
+
+That's it. While your WordPress site is still online, the importer downloads
+every image your posts and pages use into `media/YYYY/MM/` (the same folders
+the plain admin uses). Options:
+
+- `--uploads=/path/to/wp-content/uploads` — copy images from a backup of
+  your site instead of downloading them (use this if the site is already
+  offline, or slow).
+- `--no-media` — don't fetch images; the report lists every file so you can
+  copy them yourself.
+- `--delay=100` — milliseconds between downloads; raise it for a slow host.
+
+What you get:
+
+| WordPress | plain |
+| --- | --- |
+| Posts | `content/posts/<slug>.md` at `/blog/<slug>/` |
+| Pages (including child pages) | `content/pages/<slug>.md` at `/<slug>/` (your static front page becomes `index.md`) |
+| Categories + tags | one `tags` list per post; plain builds a page per tag ("Uncategorized" is skipped) |
+| Featured image, excerpt / Yoast description | `cover`, `description` |
+| Drafts, private, scheduled, password-protected | `draft: true`, with the reason in the report |
+| Gutenberg blocks (incl. footnotes and reusable blocks), classic editor, `[caption]` `[gallery]` `[embed]` `[code]` | clean Markdown; video embeds become links |
+| Other shortcodes (forms, page builders) | removed, and named in the report with what to use instead |
+| Your main menu | `data/navigation.json` |
+| Approved comments | `data/comments.json` — names and websites only, never e-mail addresses |
+| Every old URL — posts, pages, categories, tags, date archives, `/feed/` | `data/redirects.json` |
+
+WordPress notes: revisions, trashed posts, theme settings and custom post
+types (e.g. WooCommerce products) are not imported — the report counts each
+so nothing disappears silently. Old `/?p=123` links can't live in a static
+redirect file; the report lists them as rules for your host. Widgets and
+sidebars aren't in the export at all — move anything you need into a page
+or the footer.
+
 ## Step 2 — read the report
 
 Open `plain-import/MIGRATION-REPORT.md`. It lists what converted, the
 complete old→new URL map, and a **review queue** — everything the importer
-refused to guess at (stripped Liquid tags, HTML-only pages, missing dates).
+refused to guess at (stripped Liquid tags or shortcodes, HTML-only pages,
+missing dates, private posts).
 Each queue entry is a ready-to-run task for you or for an AI agent; pasting
 one into Claude Code usually resolves it in a single prompt.
 
@@ -109,14 +160,17 @@ cp plain-import/data/redirects.json data/redirects.json
 ```
 
 If your plain repo already has redirect entries, merge the two JSON files
-instead of overwriting.
+instead of overwriting. WordPress and Joomla imports may also write
+`data/navigation.json` (see Step 6) and, for WordPress, `data/comments.json`
+— an archive of your approved comments to keep (or delete) as you like.
 
 ## Step 4 — decide your URLs
 
 The importer maps posts to plain's default `/blog/<slug>/` and records a
 redirect for every URL that changed. Two good options:
 
-- **Keep your old URLs** (zero SEO risk). Set the posts collection's
+- **Keep your old URLs** (zero SEO risk — *not for WordPress imports*, see
+  the note below). Set the posts collection's
   `urlPattern` in `site.config.json` to the old scheme — a Chirpy site uses
   `"urlPattern": "/posts/:slug/"` — and post URLs come out identical. Then
   **remove the matching entries from `data/redirects.json`**: each one now
@@ -124,6 +178,10 @@ redirect for every URL that changed. Two good options:
 - **Adopt plain's defaults.** Keep `/blog/:slug/` and ship the generated
   redirects — plain emits both a `_redirects` file and meta-refresh fallback
   pages, so they work on any host.
+
+**WordPress imports:** the links *inside* your posts were already rewritten
+to `/blog/<slug>/`, so keep the default `urlPattern` — changing it afterwards
+breaks those links. The redirects take care of your old addresses.
 
 Either way: never delete a redirect whose old and new URL still differ.
 Those entries are your search ranking and every link anyone ever shared.
@@ -229,6 +287,16 @@ node --test tests/
 - **A Joomla article is missing** — check the report's fetch errors and the
   `--max-pages` line; articles unreachable from any link (or disallowed by
   `robots.txt`) can't be crawled.
-- **Coming from Hugo, Eleventy, or WordPress?** Export to Markdown with
+- **WordPress: "doesn't look like a WordPress export"** — you probably
+  saved an RSS feed or a single-post export. Go to Tools → Export, choose
+  **All content**, and use that file.
+- **WordPress: images listed under "Media to fetch by hand"** — the live site
+  refused or no longer has them. Rerun with `--uploads=` pointing at the
+  `wp-content/uploads` folder from your hosting backup, or copy the listed
+  files by hand.
+- **WordPress: a page looks thin** — it was probably built with a page
+  builder (Elementor, Divi, …); the report says which. The text came across;
+  rebuild the layout with plain's `landing` layout.
+- **Coming from Hugo or Eleventy?** Export to Markdown with
   frontmatter and the Jekyll importer gets you most of the way — or adapt
   `jekyll.js`/`vuepress.js` to read your generator's layout directly.

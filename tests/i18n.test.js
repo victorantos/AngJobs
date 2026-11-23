@@ -13,6 +13,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { build } from '../build.js';
 import { validateConfig } from '../lib/content.js';
+import { dateLocale, formatDate } from '../lib/util.js';
 import { DEFAULT_STRINGS, activeLanguages, splitLangSuffix, stringsFor, localizedCollections, localizedNav } from '../lib/i18n.js';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
@@ -92,6 +93,10 @@ test('config: site.languages defaults to [] and is validated', () => {
   noDefault.site.languages = ['fr', 'ro'];
   assert.throws(() => validateConfig(noDefault), /must include the default language "en"/);
 
+  const badLabels = config();
+  badLabels.collections = { posts: { path: 'content/posts', urlPattern: '/blog/:slug/', template: 'post', labels: ['Journal'] } };
+  assert.throws(() => validateConfig(badLabels), /"labels" must map language codes to list headings/);
+
   const good = config();
   good.site.languages = ['en', 'pt-br'];
   assert.deepEqual(validateConfig(good).site.languages, ['en', 'pt-br']);
@@ -116,9 +121,9 @@ test('translated pages build to /<lang>/… with merged collections, localized n
   const aboutFr = fs.readFileSync(path.join(out, 'fr/about/index.html'), 'utf8');
   assert.match(aboutFr, /<html lang="fr">/);
   assert.match(aboutFr, /À propos/);
-  // …and only where a translation file exists: no ghost pages, no translated lists.
+  // …and only where a translation file exists: no ghost pages. A translated post brings its list along.
   assert.ok(fs.existsSync(path.join(out, 'fr/blog/first-post/index.html')), 'translated post renders');
-  assert.ok(!fs.existsSync(path.join(out, 'fr/blog/index.html')), 'no translated list pages');
+  assert.ok(fs.existsSync(path.join(out, 'fr/blog/index.html')), 'the list follows its translated post');
   assert.ok(!fs.existsSync(path.join(out, 'fr/blog/second-post')), 'untranslated post has no /fr/ page');
 
   // hreflang alternates on every language version of a translated page.
@@ -138,7 +143,7 @@ test('translated pages build to /<lang>/… with merged collections, localized n
 
   // Nav URLs localize per entry only when the target translation exists.
   assert.match(homeFr, /<a href="\/fr\/" aria-current="page">Home<\/a>/);
-  assert.match(homeFr, /<a href="\/blog\/">Blog<\/a>/);
+  assert.match(homeFr, /<a href="\/fr\/blog\/">Blog<\/a>/, 'the list has a French version, since a post is translated');
 
   // Outputs: sitemap gains translated URLs; RSS and llms.txt stay default-language.
   assert.match(fs.readFileSync(path.join(out, 'sitemap.xml'), 'utf8'), /fixture\.test\/fr\/about\//);
@@ -161,6 +166,62 @@ test('translated pages build to /<lang>/… with merged collections, localized n
   assert.ok(searchIdx.every((e) => e.lang), 'every entry carries lang when i18n is on');
 
   assert.equal(report.draftCount, 1, 'draft handling unchanged');
+  fs.rmSync(root, { recursive: true, force: true });
+});
+
+test('a language that translates an item gets the collection\'s list page too, and no other language does', async () => {
+  const root = i18nFixture('i18n-lists');
+  const out = path.join(root, 'dist');
+  const configPath = path.join(root, 'site.config.json');
+  const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+  config.site.languages = ['en', 'fr', 'de'];
+  config.collections.posts.labels = { fr: 'Journal' };
+  fs.writeFileSync(configPath, JSON.stringify(config));
+  fs.writeFileSync(path.join(root, 'content/posts/first-post.fr.md'), '---\ntitle: Premier billet\ndate: 2026-01-01\ndescription: Le premier billet.\n---\n\nCorps.\n');
+  fs.writeFileSync(path.join(root, 'content/pages/about.fr.md'), '---\ntitle: À propos\ndescription: La page à propos.\n---\n\nBonjour.\n');
+  fs.writeFileSync(path.join(root, 'content/pages/about.de.md'), '---\ntitle: Über\ndescription: Die Seite über uns.\n---\n\nHallo.\n');
+  // A theme links to the list in the page's language with {{ lists.<collection> }}.
+  const pageTpl = path.join(root, 'themes/plain/templates/page.html');
+  fs.writeFileSync(pageTpl, fs.readFileSync(pageTpl, 'utf8') + '<a class="all-posts" href="{{ lists.posts }}">all</a>\n');
+
+  await build({ root, outDir: out, quiet: true });
+  const read = (file) => fs.readFileSync(path.join(out, file), 'utf8');
+
+  // /fr/blog/ is the merged view, paginated like the default list (the fixture's pageSize is 1): the
+  // untranslated newer post first, in English, then the translated one. Its title is labels.fr.
+  const listFr = read('fr/blog/index.html');
+  assert.match(listFr, /<html lang="fr">/);
+  assert.match(listFr, /<h1>Journal<\/h1>/);
+  assert.match(listFr, /<a href="\/blog\/second-post\/">Second post<\/a>/);
+  assert.match(listFr, /<a href="\/fr\/blog\/page\/2\/">/, 'pagination stays in the language');
+  const page2Fr = read('fr/blog/page/2/index.html');
+  assert.match(page2Fr, /<a href="\/fr\/blog\/first-post\/">Premier billet<\/a>/);
+  assert.match(page2Fr, /<a href="\/fr\/blog\/">/, 'and so does the way back');
+
+  // Every version of a list page names the others, page for page.
+  assert.match(read('blog/index.html'), /hreflang="fr" href="https:\/\/fixture\.test\/fr\/blog\/"/);
+  assert.match(page2Fr, /hreflang="en" href="https:\/\/fixture\.test\/blog\/page\/2\/"/);
+  assert.match(page2Fr, /hreflang="fr" href="https:\/\/fixture\.test\/fr\/blog\/page\/2\/"/);
+
+  // No ghost lists: German translates a page but no post. Tag pages and RSS stay default-language only.
+  assert.ok(!fs.existsSync(path.join(out, 'de/blog')), 'no list for a language without a translated item');
+  assert.doesNotMatch(read('blog/index.html'), /hreflang="de"/);
+  assert.ok(fs.existsSync(path.join(out, 'blog/tag/alpha/index.html')), 'the default tag page is there');
+  assert.ok(!fs.existsSync(path.join(out, 'fr/blog/tag')), 'no translated tag pages');
+  assert.doesNotMatch(read('blog/rss.xml'), /\/fr\//);
+
+  // lists.<collection> and the menu point to the list in the page's language, where it exists.
+  assert.match(read('about/index.html'), /<a class="all-posts" href="\/blog\/">/);
+  assert.match(read('fr/about/index.html'), /<a class="all-posts" href="\/fr\/blog\/">/);
+  assert.match(read('de/about/index.html'), /<a class="all-posts" href="\/blog\/">/);
+  assert.match(read('fr/about/index.html'), /<a href="\/fr\/blog\/">Blog<\/a>/);
+  assert.match(listFr, /<a href="\/fr\/blog\/" aria-current="page">Blog<\/a>/);
+  assert.match(read('de/about/index.html'), /<a href="\/blog\/">Blog<\/a>/);
+
+  const sitemap = read('sitemap.xml');
+  assert.match(sitemap, /fixture\.test\/fr\/blog\/<\/loc>/);
+  assert.match(sitemap, /fixture\.test\/fr\/blog\/page\/2\/<\/loc>/);
+  assert.doesNotMatch(sitemap, /fixture\.test\/de\/blog\//);
   fs.rmSync(root, { recursive: true, force: true });
 });
 
@@ -206,5 +267,40 @@ test('without site.languages nothing changes (see also the golden test)', async 
   assert.ok(!('language' in JSON.parse(fs.readFileSync(path.join(out, 'api/pages/about.json'), 'utf8'))));
   assert.ok(JSON.parse(fs.readFileSync(path.join(out, 'search-index.json'), 'utf8')).every((e) => !('lang' in e)));
   assert.doesNotMatch(fs.readFileSync(path.join(out, 'about/index.html'), 'utf8'), /hreflang/);
+  fs.rmSync(root, { recursive: true, force: true });
+});
+
+test('dateLocale: site.locales maps a language to the locale its dates use', () => {
+  assert.equal(dateLocale({ locales: { en: 'en-GB' } }, 'en'), 'en-GB');
+  assert.equal(dateLocale({ locales: { en: 'en-GB' } }, 'fr'), 'fr');
+  assert.equal(dateLocale({}, 'de'), 'de');
+  assert.equal(dateLocale(undefined, 'en'), 'en');
+  assert.equal(formatDate('2026-07-05', dateLocale({ locales: { en: 'en-GB' } }, 'en')), '5 July 2026');
+  assert.equal(formatDate('2026-07-05', 'en'), 'July 5, 2026');
+});
+
+test('config: site.locales keys must be site languages and values real locales', () => {
+  const base = (site) => ({ site: { title: 'T', url: 'https://t.test', ...site } });
+  assert.doesNotThrow(() => validateConfig(base({ language: 'de', languages: ['de', 'en'], locales: { en: 'en-GB' } })));
+  assert.doesNotThrow(() => validateConfig(base({ language: 'en', locales: { en: 'en-IE' } })));
+  assert.throws(() => validateConfig(base({ language: 'de', languages: ['de', 'en'], locales: { fr: 'fr-CH' } })), /"fr", which is not a site language/);
+  assert.throws(() => validateConfig(base({ language: 'en', locales: { en: 'not a locale!' } })), /site\.locales\.en" must be a locale/);
+  assert.throws(() => validateConfig(base({ language: 'en', locales: ['en-GB'] })), /must map a language code to a locale/);
+});
+
+test('site.locales changes only how dates print, not URLs', async () => {
+  const root = i18nFixture('locales');
+  const out = path.join(root, 'dist');
+  const configPath = path.join(root, 'site.config.json');
+  const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+  config.site.locales = { en: 'en-GB', fr: 'fr-CH' };
+  fs.writeFileSync(configPath, JSON.stringify(config));
+  fs.writeFileSync(path.join(root, 'content/posts/first-post.fr.md'), '---\ntitle: Premier billet\ndate: 2026-01-01\ndescription: Le premier billet.\n---\n\nCorps.\n');
+  await build({ root, outDir: out, quiet: true });
+  const en = fs.readFileSync(path.join(out, 'blog/first-post/index.html'), 'utf8');
+  assert.match(en, />1 January 2026</);
+  const fr = fs.readFileSync(path.join(out, 'fr/blog/first-post/index.html'), 'utf8');
+  assert.match(fr, />1 janvier 2026</);
+  assert.match(fr, /<html lang="fr">/);
   fs.rmSync(root, { recursive: true, force: true });
 });

@@ -26,6 +26,9 @@
 
   /* Layout */
   --measure: 65ch;
+  --measure-wide: 60rem;
+  --measure-lede: 42rem;
+  --measure-media: 52rem;
   --space-1: 0.25rem;
   --space-2: 0.5rem;
   --space-3: 1rem;
@@ -61,6 +64,7 @@ body {
   line-height: var(--leading-body);
   color: var(--color-text);
   background: var(--color-bg);
+  overflow-wrap: break-word; /* a word or URL too long for its line breaks instead of widening the page */
 }
 
 ::selection { background: var(--color-mark); }
@@ -71,7 +75,7 @@ a:hover { text-decoration-thickness: 2px; }
 :focus-visible {
   outline: 2px solid var(--color-accent);
   outline-offset: 2px;
-  border-radius: 2px;
+  border-radius: calc(var(--radius) / 2);
 }
 
 .skip-link {
@@ -82,6 +86,15 @@ a:hover { text-decoration-thickness: 2px; }
   padding: var(--space-2) var(--space-3);
 }
 .skip-link:focus { left: var(--space-2); }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
 
 /* Masthead & footer ------------------------------------------------------ */
 
@@ -100,6 +113,7 @@ a:hover { text-decoration-thickness: 2px; }
   font-weight: 700;
   color: var(--color-text);
   text-decoration: none;
+  min-width: 0;
 }
 .site-title:hover { color: var(--color-accent); }
 
@@ -115,7 +129,10 @@ a:hover { text-decoration-thickness: 2px; }
   color: var(--color-muted);
   text-decoration: none;
   font-size: var(--text-s);
+  position: relative;
 }
+/* A taller tap target that moves nothing: the menu is small type on a phone. */
+.masthead nav a::after { content: ""; position: absolute; inset: -0.8em 0; }
 .masthead nav a:hover { color: var(--color-accent); text-decoration: underline; }
 .masthead nav a[aria-current="page"] { color: var(--color-text); font-weight: 600; }
 
@@ -128,6 +145,8 @@ main { min-height: 60vh; }
   color: var(--color-muted);
   font-size: var(--text-s);
 }
+/* The language-switcher plugin dims its links; on this already-muted footer that fails AA. */
+.colophon .language-switcher a { opacity: 1; }
 
 /* Headers ---------------------------------------------------------------- */
 
@@ -185,6 +204,8 @@ main { min-height: 60vh; }
   background: var(--color-code-bg);
   padding: 0.1em 0.35em;
   border-radius: var(--radius);
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
 .prose pre {
@@ -211,6 +232,9 @@ main { min-height: 60vh; }
   cursor: pointer;
 }
 .copy-code:hover { color: var(--color-accent); border-color: var(--color-accent); }
+/* enhance.js sets this where the first lines would run under the button: the
+   button scrolls with the code, so text beneath it could never be read. */
+.prose pre.copy-clear { padding-top: calc(var(--space-4) + var(--space-3)); }
 
 .prose table {
   border-collapse: collapse;
@@ -224,6 +248,20 @@ main { min-height: 60vh; }
   border-bottom: 1px solid var(--color-border);
 }
 .prose th { font-size: var(--text-s); }
+/* Below the full measure a table too wide for the column scrolls inside itself,
+   with a soft edge on the side where more of it waits. The edges are covered
+   by page-coloured layers that move with the table, so one that fits shows none. */
+@media (max-width: 45rem) {
+  .prose table {
+    display: block;
+    overflow-x: auto;
+    background:
+      linear-gradient(to right, var(--color-bg) 40%, transparent) left / 2rem 100% no-repeat local,
+      linear-gradient(to left, var(--color-bg) 40%, transparent) right / 2rem 100% no-repeat local,
+      linear-gradient(to right, var(--color-border), transparent) left / 0.75rem 100% no-repeat scroll,
+      linear-gradient(to left, var(--color-border), transparent) right / 0.75rem 100% no-repeat scroll;
+  }
+}
 
 .prose hr {
   border: 0;
@@ -267,14 +305,50 @@ main { min-height: 60vh; }
 
 .pagination {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  gap: var(--space-3);
+  gap: var(--space-2) var(--space-3);
   padding: var(--space-4) 0;
   color: var(--color-muted);
   font-size: var(--text-s);
 }
 
 .empty { color: var(--color-muted); }
+
+/* The way back from a post, and the subscribe box under every page. Both are
+   printed only on a site that has data/newsletter.json (families/writing.md),
+   so a site from before that file renders exactly as it did. */
+.post-back { margin: var(--space-4) 0 0; font-size: var(--text-s); }
+
+.subscribe {
+  margin-top: var(--space-5);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-border);
+}
+.subscribe + .colophon { margin-top: var(--space-4); }
+.subscribe-prompt {
+  font-family: var(--font-display);
+  font-size: var(--text-l);
+  line-height: var(--leading-tight);
+  margin: 0 0 var(--space-3);
+  text-wrap: balance;
+}
+.subscribe-alt { margin: 0; }
+.subscribe-mail { overflow-wrap: anywhere; }
+.subscribe-form { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+/* The field's edge is the muted ink, not the hairline: a control needs 3:1 (WCAG 1.4.11). */
+.subscribe-input {
+  flex: 1 1 14rem;
+  min-width: 0;
+  font: inherit;
+  color: var(--color-text);
+  background: var(--color-bg);
+  border: 1px solid var(--color-muted);
+  border-radius: var(--radius);
+  padding: var(--space-2) var(--space-3);
+}
+.subscribe-input::placeholder { color: var(--color-muted); opacity: 1; }
+.subscribe-form .btn { max-width: 100%; }
 
 /* Landing / sales pages --------------------------------------------------- */
 
@@ -283,7 +357,7 @@ main { min-height: 60vh; }
    Inner wrappers re-constrain each section to a comfortable width. */
 .landing { width: 100vw; margin-inline: calc(50% - 50vw); }
 .landing .hero-inner,
-.landing .section-inner { max-width: 60rem; margin: 0 auto; padding-inline: var(--space-3); }
+.landing .section-inner { max-width: var(--measure-wide); margin: 0 auto; padding-inline: var(--space-3); }
 .landing section { padding: var(--space-5) 0; }
 .landing .features, .landing .cta-final { background: var(--color-code-bg); }
 
@@ -326,17 +400,17 @@ main { min-height: 60vh; }
 .hero-tagline {
   font-size: var(--text-l);
   color: var(--color-muted);
-  max-width: 42rem;
+  max-width: var(--measure-lede);
   margin: 0 auto var(--space-4);
   text-wrap: balance;
 }
 .hero-actions { display: flex; flex-wrap: wrap; gap: var(--space-3); justify-content: center; margin: 0; }
-.hero-media { margin: var(--space-5) auto 0; max-width: 52rem; }
+.hero-media { margin: var(--space-5) auto 0; max-width: var(--measure-media); }
 .hero-media img { width: 100%; height: auto; border: 1px solid var(--color-border); border-radius: var(--radius); }
 
 /* Freeform prose between the hero and the sections */
 .landing-prose { padding: var(--space-4) 0; }
-.landing-prose .prose { max-width: var(--measure); margin: 0 auto; }
+.landing-prose .prose { max-width: calc(var(--measure) + 2 * var(--space-3)); margin: 0 auto; padding-inline: var(--space-3); }
 
 /* Feature cards */
 .feature-grid {
@@ -373,8 +447,8 @@ main { min-height: 60vh; }
   font-size: var(--text-l);
 }
 .testimonial blockquote > :last-child { margin-bottom: 0; }
-.testimonial-by { margin: 0; color: var(--color-muted); font-size: var(--text-s); }
-.testimonial-by .role { opacity: 0.8; }
+.testimonial-by { margin: 0; font-size: var(--text-s); }
+.testimonial-by .role { color: var(--color-muted); }
 
 /* FAQ */
 .faq-list { max-width: var(--measure); margin: 0 auto; }
@@ -389,17 +463,43 @@ main { min-height: 60vh; }
 
 /* Motion & print ---------------------------------------------------------- */
 
+/* A title word too long for a small screen breaks at a syllable, with a hyphen:
+   twenty letters or more on a phone, fourteen on the narrowest ones — and only
+   where the browser can keep shorter words whole. */
+@supports (hyphenate-limit-chars: 20 6 6) {
+  @media (max-width: 45rem) {
+    .page-header h1, .post-card h2, .prose h2, .prose h3, .prose h4 { hyphens: auto; hyphenate-limit-chars: 20 6 6; }
+  }
+  @media (max-width: 24rem) {
+    .page-header h1, .post-card h2 { hyphenate-limit-chars: 14 6 6; }
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   html { scroll-behavior: smooth; }
 }
 
 @media print {
-  body { max-width: none; font-size: 11pt; color: #000; background: #fff; }
-  .masthead nav, .colophon, .skip-link, .copy-code { display: none; }
-  a { color: inherit; }
-  .prose a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.85em; }
-  .prose pre { white-space: pre-wrap; }
+  /* Ink on paper, whatever the screen scheme or a site's own palette. */
+  html:root {
+    --color-bg: #fff;
+    --color-text: #000;
+    --color-muted: #444;
+    --color-accent: #000;
+    --color-border: #999;
+    --color-code-bg: #fff;
+    --color-mark: #fff;
+  }
+  body { max-width: none; font-size: 11pt; }
+  main { min-height: 0; }
+  .masthead nav, .colophon, .skip-link, .copy-code, .pagination, .subscribe, .post-back { display: none; }
+  .prose table { display: table; background: none; }
+  .prose pre.copy-clear { padding-top: var(--space-3); }
+  .page-header { margin-top: var(--space-3); }
+  .prose a[href^="http"]::after, .btn[href*=":"]::after { content: " (" attr(href) ")"; font-size: 0.85em; font-weight: 400; }
+  .prose pre { white-space: pre-wrap; border: 1px solid var(--color-border); }
+  .post-card, .feature-card, .testimonial { break-inside: avoid; }
   .landing { width: auto; margin-inline: 0; }
-  .landing .features, .landing .cta-final { background: none; }
-  .btn { border: 1px solid #000; }
+  .landing section, .landing .hero { padding: var(--space-3) 0; }
+  .btn, .btn-primary { background: none; color: inherit; border: 1px solid; }
 }

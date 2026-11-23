@@ -61,6 +61,28 @@ async function gh(path, { method = 'GET', body, raw = false } = {}) {
 
 const repoPath = (path) => `/repos/${auth.repo}/${path}`;
 
+// Where the site lives in the repository: site.repoDir (default "" — the
+// repository root) and the workflow that publishes it: site.buildWorkflow.
+// app.js sets both from api/site.json at boot. The rest of the admin only ever
+// passes site-relative paths ("content/posts/hello.md", "media/2026/01/a.jpg");
+// this module adds the folder on the way to GitHub and strips it on the way
+// back, so nothing else needs to know the site sits in a subfolder.
+export const DEFAULT_BUILD_WORKFLOW = 'build-deploy.yml';
+export const siteRepo = { dir: '', buildWorkflow: DEFAULT_BUILD_WORKFLOW };
+
+/** Apply the site block's repoDir/buildWorkflow (missing or empty → the defaults). */
+export function configureSite({ repoDir, buildWorkflow } = {}) {
+  siteRepo.dir = String(repoDir || '').replace(/^\.\/|^\/+|\/+$/g, '');
+  siteRepo.buildWorkflow = buildWorkflow || DEFAULT_BUILD_WORKFLOW;
+}
+
+// The demo's in-tab repository holds the site alone, so it never has a folder.
+export const repoDir = () => (inDemo() ? '' : siteRepo.dir);
+/** Site-relative path → repository path. '' (the whole site) → the folder itself. */
+export const toRepo = (path) => (repoDir() ? (path ? `${repoDir()}/${path}` : repoDir()) : path);
+/** Repository path → site-relative path. */
+export const fromRepo = (path) => (repoDir() && path.startsWith(`${repoDir()}/`) ? path.slice(repoDir().length + 1) : path);
+
 export function bytesToBase64(bytes) {
   let binary = '';
   for (let i = 0; i < bytes.length; i += 0x8000) binary += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
@@ -79,12 +101,12 @@ export const repoInfo = () => gh(repoPath('').slice(0, -1));
 
 /** Read a text file. @returns {{text: string, sha: string}} */
 export async function getFile(path) {
-  const file = await gh(repoPath(`contents/${path}?ref=${auth.branch}`));
+  const file = await gh(repoPath(`contents/${toRepo(path)}?ref=${auth.branch}`));
   return { text: decodeText(file.content), sha: file.sha };
 }
 
 /** Read a text file as it was at a specific version. */
-export const getFileAt = async (path, ref) => decodeText((await gh(repoPath(`contents/${path}?ref=${ref}`))).content);
+export const getFileAt = async (path, ref) => decodeText((await gh(repoPath(`contents/${toRepo(path)}?ref=${ref}`))).content);
 
 /**
  * Create or update a file — one commit. Pass `sha` when updating; a stale sha
@@ -94,7 +116,7 @@ export const getFileAt = async (path, ref) => decodeText((await gh(repoPath(`con
  */
 export async function putFile(path, content, message, sha) {
   const body = { message, branch: auth.branch, content: typeof content === 'string' ? encodeText(content) : content.base64, ...(sha ? { sha } : {}) };
-  const result = await gh(repoPath(`contents/${path}`), { method: 'PUT', body });
+  const result = await gh(repoPath(`contents/${toRepo(path)}`), { method: 'PUT', body });
   return { sha: result.content.sha, commitSha: result.commit.sha };
 }
 
@@ -128,25 +150,28 @@ export async function updateFile(path, mutate, message, { retries = 5, io = { ge
 }
 
 export async function deleteFile(path, message, sha) {
-  const result = await gh(repoPath(`contents/${path}`), { method: 'DELETE', body: { message, branch: auth.branch, sha } });
+  const result = await gh(repoPath(`contents/${toRepo(path)}`), { method: 'DELETE', body: { message, branch: auth.branch, sha } });
   return { commitSha: result.commit.sha };
 }
 
 /** List a folder. Returns [] when the folder doesn't exist yet. */
 export async function listDir(path) {
   try {
-    const entries = await gh(repoPath(`contents/${path}?ref=${auth.branch}`));
-    return Array.isArray(entries) ? entries : [];
+    const entries = await gh(repoPath(`contents/${toRepo(path)}?ref=${auth.branch}`));
+    return Array.isArray(entries) ? entries.map((entry) => ({ ...entry, path: fromRepo(entry.path) })) : [];
   } catch (error) {
     if (error.status === 404) return [];
     throw error;
   }
 }
 
-/** Every file under a prefix (recursive), via the git tree — one request. */
+/** Every file under a prefix (recursive), via the git tree — one request.
+    The tree is the whole repository: keep only the site's folder, site-relative. */
 export async function listTree(prefix) {
   const { tree } = await gh(repoPath(`git/trees/${auth.branch}?recursive=1`));
-  return tree.filter((entry) => entry.type === 'blob' && entry.path.startsWith(prefix));
+  const base = repoDir() ? `${repoDir()}/` : '';
+  return tree.filter((entry) => entry.type === 'blob' && entry.path.startsWith(base + prefix))
+    .map((entry) => ({ ...entry, path: entry.path.slice(base.length) }));
 }
 
 /**
@@ -159,9 +184,10 @@ export async function commitFiles(files, message) {
   const parent = (await gh(repoPath(`git/ref/heads/${auth.branch}`))).object.sha;
   const baseTree = (await gh(repoPath(`git/commits/${parent}`))).tree.sha;
   const tree = await Promise.all(files.map(async (f) => {
-    if (f.delete) return { path: f.path, mode: '100644', type: 'blob', sha: null };
+    const path = toRepo(f.path);
+    if (f.delete) return { path, mode: '100644', type: 'blob', sha: null };
     const sha = f.sha ?? (await gh(repoPath('git/blobs'), { method: 'POST', body: { content: f.base64 ?? bytesToBase64(new TextEncoder().encode(f.content)), encoding: 'base64' } })).sha;
-    return { path: f.path, mode: '100644', type: 'blob', sha };
+    return { path, mode: '100644', type: 'blob', sha };
   }));
   const newTree = await gh(repoPath('git/trees'), { method: 'POST', body: { base_tree: baseTree, tree } });
   const commit = await gh(repoPath('git/commits'), { method: 'POST', body: { message, tree: newTree.sha, parents: [parent] } });
@@ -171,23 +197,26 @@ export async function commitFiles(files, message) {
 
 /** Fetch a repo file as a blob object URL (for previewing not-yet-deployed media). */
 export async function fileObjectUrl(path) {
-  const blob = await gh(repoPath(`contents/${path}?ref=${auth.branch}`), { raw: true });
+  const blob = await gh(repoPath(`contents/${toRepo(path)}?ref=${auth.branch}`), { raw: true });
   return URL.createObjectURL(blob);
 }
 
-/** Commits touching a path, newest first. Pass '' for the whole site. */
+/** Commits touching a path, newest first. Pass '' for the whole site (its folder, if it has one). */
 export async function commitsFor(path, perPage = 30) {
   const params = new URLSearchParams({ sha: auth.branch, per_page: perPage });
-  if (path) params.set('path', path);
+  if (toRepo(path)) params.set('path', toRepo(path));
   const commits = await gh(repoPath(`commits?${params}`));
   return commits.map((c) => ({ sha: c.sha, date: c.commit.committer.date, message: c.commit.message.split('\n')[0], author: c.commit.author?.name || c.author?.login || '' }));
 }
 
 /** The deploy run building a commit, or null if none has started yet.
-    Scoped to build-deploy.yml — other workflows (like the weekly update check)
-    also run on the head commit and must not be mistaken for a publish. */
+    Scoped to the build workflow (site.buildWorkflow, default build-deploy.yml) —
+    other workflows (like the weekly update check, or an application's own CI in
+    a shared repository) also run on the head commit and must not be mistaken
+    for a publish. */
 export async function runFor(commitSha) {
-  const { workflow_runs: runs } = await gh(repoPath(`actions/workflows/build-deploy.yml/runs?head_sha=${commitSha}&per_page=1`));
+  const workflow = inDemo() ? DEFAULT_BUILD_WORKFLOW : siteRepo.buildWorkflow;
+  const { workflow_runs: runs } = await gh(repoPath(`actions/workflows/${encodeURIComponent(workflow)}/runs?head_sha=${commitSha}&per_page=1`));
   return runs[0] || null;
 }
 

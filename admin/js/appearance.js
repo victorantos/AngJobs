@@ -62,7 +62,8 @@ export async function themePreview(themeName, siteInfo, { page, tokens = {}, sch
   }
   if (!page) page = { title: siteInfo.site.title, url: '/', content: '<p>Welcome.</p>', collection: 'pages' };
   nav = nav.map((e) => ({ ...e, current: e.url === page.url }));
-  const context = { site: siteInfo.site, page, nav, data: { navigation: nav }, collections, feeds: [] };
+  const lists = Object.fromEntries(Object.entries(siteInfo.collections).filter(([, def]) => def.listUrl).map(([name, def]) => [name, def.listUrl])); // as the build gives a default-language page
+  const context = { site: siteInfo.site, page, nav, data: { navigation: nav }, collections, lists, feeds: [] };
   const body = render(templates[siteInfo.collections[page.collection]?.template || 'page'] || templates.page, context, partials);
   const tokenCss = Object.keys(tokens).length ? `<style>:root{${Object.entries(tokens).map(([k, v]) => `${k}:${v}`).join(';')}}</style>` : '';
   return render(templates.base, { ...context, body }, partials)
