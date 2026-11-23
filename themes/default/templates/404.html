@@ -4,6 +4,7 @@
   </header>
   <div class="prose">
     <p>{{ strings.notFoundBody }}</p>
-    <p><a href="/">{{ strings.goHome }}</a></p>
+    <p><a href="/">{{ strings.goHome }}</a></p>{{#if data.newsletter}}
+    <p><a href="/blog/">{{ strings.browseArchive }}</a></p>{{/if}}
   </div>
 </section>

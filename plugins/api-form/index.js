@@ -41,7 +41,7 @@
 // review — never to reject it (C5). Both are opt-in: a form without them
 // renders exactly as before.
 
-import { escapeHtml, formatDate, isIsoDate } from '../../lib/util.js';
+import { escapeHtml, formatDate, isIsoDate, dateLocale } from '../../lib/util.js';
 
 const MARKER = /\[\[form:([a-z0-9-]+)\]\]/g;
 const FIELD_NAME = /^[a-z][a-z0-9_-]*$/;
@@ -117,7 +117,7 @@ export default {
       }
       if (!/^\//.test(form.path || '')) throw new Error(`form "${name}" needs a "path" starting with "/" — e.g. "path": "/signups" under pluginOptions.api-form.forms.${name} in site.config.json`);
       if (form.closes && !isIsoDate(form.closes)) throw new Error(`form "${name}" has "closes": ${JSON.stringify(form.closes)} — use an ISO date like "2026-08-01"`);
-      return formHtml(name, form, base, site.config.site?.language, page, options);
+      return formHtml(name, form, base, dateLocale(site.config.site, site.config.site?.language), page, options);
     });
   },
 };

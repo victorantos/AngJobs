@@ -1,0 +1,18 @@
+{{#if data.newsletter}}{{#if data.newsletter.formAction}}
+<aside class="subscribe" aria-labelledby="subscribe-prompt">
+  <h2 class="subscribe-prompt" id="subscribe-prompt">{{#if data.newsletter.prompt}}{{ data.newsletter.prompt }}{{else}}{{ strings.subscribePrompt }}{{/if}}</h2>
+  <form class="subscribe-form" method="post" action="{{ data.newsletter.formAction }}">
+    <label class="visually-hidden" for="subscribe-email">{{ strings.emailAddress }}</label>
+    <input class="subscribe-input" type="email" name="email" id="subscribe-email" required autocomplete="email" placeholder="{{ strings.emailPlaceholder }}">
+    <button class="btn btn-primary" type="submit">{{#if data.newsletter.buttonLabel}}{{ data.newsletter.buttonLabel }}{{else}}{{ strings.subscribe }}{{/if}}</button>
+  </form>
+</aside>{{else}}{{#if data.newsletter.email}}
+<aside class="subscribe" aria-labelledby="subscribe-prompt">
+  <h2 class="subscribe-prompt" id="subscribe-prompt">{{#if data.newsletter.prompt}}{{ data.newsletter.prompt }}{{else}}{{ strings.subscribePrompt }}{{/if}}</h2>
+  <p class="subscribe-alt"><a class="subscribe-mail" href="mailto:{{ data.newsletter.email }}">{{ data.newsletter.email }}</a></p>
+</aside>{{else}}{{#if feeds}}
+<aside class="subscribe" aria-labelledby="subscribe-prompt">
+  <h2 class="subscribe-prompt" id="subscribe-prompt">{{ strings.feedPrompt }}</h2>
+  <p class="subscribe-alt">{{#each feeds as feed}}<a class="subscribe-feed" href="{{ feed }}">{{ strings.followFeed }}</a>
+  {{/each}}</p>
+</aside>{{/if}}{{/if}}{{/if}}{{/if}}

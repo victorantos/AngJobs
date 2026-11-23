@@ -9,7 +9,7 @@ import http from 'node:http';
 import { pathToFileURL, fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { render } from './lib/template.js';
-import { slugify, deepMerge } from './lib/util.js';
+import { slugify, deepMerge, dateLocale } from './lib/util.js';
 import { renderMarkdown } from './lib/markdown.js';
 import { makeItem, sortItems, validateConfig, ContentError } from './lib/content.js';
 import { activeLanguages, splitLangSuffix, stringsFor, localizedCollections, localizedNav } from './lib/i18n.js';
@@ -38,7 +38,7 @@ function loadContent(root, config) {
       const { base, lang } = splitLangSuffix(entry.slice(0, -3), languages);
       if (lang === config.site.language) throw new ContentError(file, null, `"${lang}" is the default language — it lives in ${base}.md; delete or rename this file`);
       if (!lang && languages.length && base.includes('.')) throw new ContentError(file, null, `".${base.split('.').pop()}" is not one of site.languages (${languages.join(', ')}) — add the code there or rename the file`);
-      const item = makeItem(source, { file, slug: base, collection: name, def, language: lang || config.site.language });
+      const item = makeItem(source, { file, slug: base, collection: name, def, language: dateLocale(config.site, lang || config.site.language) });
       if (languages.length) item.language = lang || config.site.language;
       if (lang) {
         if (item.url) item.url = `/${lang}${item.url}`;
@@ -122,6 +122,8 @@ export async function build({ root = process.cwd(), outDir, quiet = false } = {}
   const assets = clientAssets(plugins, config.services);
   // Customizer tokens (§10.5): user overrides from config.theme.tokens are
   // injected after theme.css, so theme upgrades never touch user tweaks.
+  // site.noindex: every page asks search engines not to list it (a preview or staging site).
+  if (site.noindex) assets.head += '<meta name="robots" content="noindex">\n';
   const tokens = Object.entries(config.theme?.tokens || {});
   if (tokens.length) {
     assets.head += `<style id="theme-tokens">:root{${tokens.map(([name, value]) => `${name}:${value}`).join(';')}}</style>\n`;
@@ -171,7 +173,12 @@ export async function build({ root = process.cwd(), outDir, quiet = false } = {}
   // Shared template context. `nav` gets a per-page copy with `current` set.
   const navigation = Array.isArray(data.navigation) ? data.navigation : [];
   const strings = stringsFor(site.language, site.language, theme.strings, data);
-  const baseContext = { site, data, collections, strings, feeds: feeds.map((f) => f.feedUrl) };
+  // Translated list pages (§5.4): /<lang><listUrl> exists for each language that translates at least one of
+  // the collection's items. `lists.<name>` is the list's URL in the page's language, for theme links to it.
+  const listLangs = (name) => languages.filter((l) => l !== site.language && translations[name].some((t) => t.language === l));
+  const listsFor = (lang) => Object.fromEntries(Object.entries(config.collections).filter(([, def]) => def.listUrl)
+    .map(([name, def]) => [name, listLangs(name).includes(lang) ? `/${lang}${def.listUrl}` : def.listUrl]));
+  const baseContext = { site, data, collections, strings, lists: listsFor(site.language), feeds: feeds.map((f) => f.feedUrl) };
   const navFor = (url, entries = navigation) => entries.map((entry) => ({ ...entry, current: entry.url === url }));
   // hreflang alternates (§5.4): every language version of a page, incl. itself —
   // only for pages that actually have translations, so monolingual output is untouched.
@@ -207,15 +214,18 @@ export async function build({ root = process.cwd(), outDir, quiet = false } = {}
   // Translated item pages (§5.4): /<lang>/<default-path>/, only where a translation
   // file exists — no ghost pages. Each renders with that language's strings, a merged
   // per-language collections view, and nav URLs localized per entry when translated.
+  const locales = new Map(); // lang → { context, nav }, reused by the translated list pages below
   for (const lang of languages.filter((l) => l !== site.language)) {
     const localized = {
       ...baseContext,
       site: { ...site, language: lang }, // so <html lang="{{ site.language }}"> is right
       strings: stringsFor(lang, site.language, theme.strings, data),
       collections: localizedCollections(collections, translations, lang),
+      lists: listsFor(lang),
     };
-    const urls = new Set(Object.values(translations).flat().filter((t) => t.language === lang).map((t) => t.url));
+    const urls = new Set([...Object.values(translations).flat().filter((t) => t.language === lang).map((t) => t.url), ...Object.values(localized.lists)]);
     const localNav = localizedNav(navigation, data[`navigation.${lang}`], lang, urls);
+    locales.set(lang, { context: localized, nav: localNav });
     for (const [name, def] of Object.entries(config.collections)) {
       if (!def.render) continue;
       for (const item of translations[name].filter((t) => t.language === lang)) {
@@ -226,10 +236,17 @@ export async function build({ root = process.cwd(), outDir, quiet = false } = {}
     }
   }
 
-  // List pages with pagination, and tag pages for collections whose items have tags.
+  // List pages with pagination, and tag pages for collections whose items have tags. A language that
+  // translates at least one item gets the list too (the merged view: complete, in the default order),
+  // titled by the collection's `labels.<lang>`; tag pages stay default-language only.
   for (const [name, def] of Object.entries(config.collections)) {
     if (!def.listUrl) continue;
-    const lists = [{ url: def.listUrl, items: collections[name], title: def.label }];
+    const langs = listLangs(name);
+    const versions = langs.length ? [{ lang: site.language, url: def.listUrl }, ...langs.map((lang) => ({ lang, url: `/${lang}${def.listUrl}` }))] : null;
+    const lists = [{ url: def.listUrl, items: collections[name], title: def.label, versions }];
+    for (const lang of langs) {
+      lists.push({ url: `/${lang}${def.listUrl}`, items: locales.get(lang).context.collections[name], title: def.labels?.[lang] ?? def.label, versions, locale: locales.get(lang) });
+    }
     const tags = [...new Set(collections[name].flatMap((i) => i.tagLinks || []).map((t) => JSON.stringify(t)))].map((t) => JSON.parse(t));
     for (const tag of tags) {
       lists.push({ url: tag.url, items: collections[name].filter((i) => i.tags?.includes(tag.name)), title: `${def.label} tagged “${tag.name}”`, tag: tag.name });
@@ -240,12 +257,13 @@ export async function build({ root = process.cwd(), outDir, quiet = false } = {}
         const url = n === 1 ? list.url : `${list.url}page/${n}/`;
         const pagination = { page: n, totalPages: pageCount, multiple: pageCount > 1, newer: n > 1 ? (n === 2 ? list.url : `${list.url}page/${n - 1}/`) : null, older: n < pageCount ? `${list.url}page/${n + 1}/` : null };
         const context = {
-          ...baseContext,
+          ...(list.locale?.context ?? baseContext),
           page: { title: list.title, url },
-          nav: navFor(url),
+          nav: navFor(url, list.locale?.nav),
           items: list.items.slice((n - 1) * def.pageSize, n * def.pageSize),
           pagination,
           tag: list.tag,
+          alternates: list.versions?.map((v) => ({ lang: v.lang, url: n === 1 ? v.url : `${v.url}page/${n}/` })),
         };
         emit(url, renderPage(theme, def.listTemplate, context), context.page);
         sitemapEntries.push({ loc: site.url + url });
@@ -271,7 +289,7 @@ export async function build({ root = process.cwd(), outDir, quiet = false } = {}
   // Non-HTML outputs, including the static read-only JSON API (§6 step 8).
   const files = new Map(pages);
   files.set('sitemap.xml', sitemapXml(sitemapEntries));
-  files.set('robots.txt', robotsTxt(site.url));
+  files.set('robots.txt', robotsTxt(site.url, { noindex: site.noindex }));
   if (Object.keys(redirects).length) files.set('_redirects', redirectsFile(redirects));
   for (const feed of feeds) {
     files.set(path.join(feed.feedUrl.slice(1)), rssXml(site, feed.feedUrl, feed.listUrl, collections[feed.name]));

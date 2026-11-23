@@ -1,6 +1,7 @@
 ---
 title: Announcement
 description: Replace this — one sentence saying what changed.
+draft: true
 ---
 
 *Replace this: the news in one short paragraph — what's new, from when, and who it affects.*

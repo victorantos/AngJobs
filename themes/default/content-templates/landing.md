@@ -3,16 +3,16 @@ title: One clear promise your product makes
 description: One sentence a stranger could repeat — what it is and who it's for.
 template: landing
 heroTagline: The sub-headline. Two lines on the problem you remove and the outcome you deliver — not a feature list.
-heroCtaLabel: Get started
-heroCtaUrl: https://example.com/signup
+heroCtaLabel: Get in touch
+heroCtaUrl: /contact/
 heroSecondaryLabel: Learn more
 heroSecondaryUrl: /about/
 featuresHeading: Why it works
 testimonialsHeading: What people say
 faqHeading: Questions, answered
 ctaHeading: Ready when you are.
-ctaLabel: Get started
-ctaUrl: https://example.com/signup
+ctaLabel: Get in touch
+ctaUrl: /contact/
 draft: true
 ---
 

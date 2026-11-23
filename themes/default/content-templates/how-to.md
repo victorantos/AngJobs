@@ -1,6 +1,7 @@
 ---
 title: How to do the thing
 description: Replace this — the outcome the reader gets by following along.
+draft: true
 ---
 
 *Replace this: one paragraph on what this guide achieves and who it's for.*

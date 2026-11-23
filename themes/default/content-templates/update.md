@@ -1,6 +1,7 @@
 ---
 title: Update — replace with the period or project
 description: Replace this — the one-line summary of the period.
+draft: true
 ---
 
 *Replace this: the headline of the period in one paragraph — the single most important thing that happened.*
